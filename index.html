@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>종합 시세 — 상품권 · 주식 · 금 · 환율 · 코인 · 로또</title>
+<meta name="description" content="상품권 시세, 주가지수, 금·은 시세, 환율, 암호화폐, 로또 회차별 판매량을 한 곳에서 봅니다.">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <h1>종합 시세</h1>
+    <p class="sub">상품권 · 주식 · 귀금속 · 환율 · 코인 · 로또를 한 화면에서</p>
+    <p class="updated" id="updated">불러오는 중…</p>
+  </div>
+</header>
+
+<nav class="tabs wrap" role="tablist">
+  <button class="tab is-active" data-tab="all" role="tab">전체</button>
+  <button class="tab" data-tab="index" role="tab">주가지수</button>
+  <button class="tab" data-tab="metal" role="tab">금·은</button>
+  <button class="tab" data-tab="fx" role="tab">환율</button>
+  <button class="tab" data-tab="coin" role="tab">코인</button>
+  <button class="tab" data-tab="gift" role="tab">상품권</button>
+  <button class="tab" data-tab="lotto" role="tab">로또</button>
+</nav>
+
+<main class="wrap">
+
+  <section class="panel" data-group="index">
+    <h2>주가지수</h2>
+    <div class="grid" id="grid-index"></div>
+  </section>
+
+  <section class="panel" data-group="metal">
+    <h2>귀금속</h2>
+    <div class="grid" id="grid-metal"></div>
+  </section>
+
+  <section class="panel" data-group="fx">
+    <h2>환율</h2>
+    <div class="grid" id="grid-fx"></div>
+  </section>
+
+  <section class="panel" data-group="coin">
+    <h2>암호화폐 <span class="tag">업비트 KRW</span></h2>
+    <div class="grid" id="grid-coin"></div>
+  </section>
+
+  <section class="panel" data-group="gift">
+    <h2>상품권 매입 시세</h2>
+    <p class="note" id="gift-note"></p>
+    <div class="table-scroll">
+      <table class="tbl" id="tbl-gift">
+        <thead><tr><th>상품권</th><th class="num">액면가</th><th class="num">매입률</th><th class="num">실수령 예상</th></tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="panel" data-group="lotto">
+    <h2>로또 회차별 판매 규모</h2>
+
+    <div class="lotto-head" id="lotto-head"></div>
+
+    <div class="estimator">
+      <label for="ppl">1인당 평균 구매 게임 수
+        <span class="hint">(추정 가정값 — 실제 구매자 수는 공개되지 않습니다)</span>
+      </label>
+      <div class="estimator-row">
+        <input type="range" id="ppl" min="1" max="20" step="1" value="5">
+        <output id="ppl-out">5게임</output>
+      </div>
+      <p class="estimate" id="estimate"></p>
+    </div>
+
+    <div class="table-scroll">
+      <table class="tbl" id="tbl-lotto">
+        <thead><tr>
+          <th class="num">회차</th><th>추첨일</th>
+          <th class="num">판매 게임 수</th><th class="num">총 판매금액</th>
+          <th class="num">추정 구매자 수</th>
+          <th class="num">1등 당첨자</th><th class="num">1등 당첨금</th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+    <button class="more" id="lotto-more" hidden>더 보기</button>
+  </section>
+
+</main>
+
+<footer class="site-footer wrap">
+  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+  <p class="src">출처: 동행복권 · stooq.com · 업비트 · 상품권 시세는 수동 입력</p>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>

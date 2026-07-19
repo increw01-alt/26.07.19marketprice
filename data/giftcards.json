@@ -1,0 +1,15 @@
+{
+  "_comment": "상품권 시세는 공개 API가 없어 수동으로 관리합니다. rate는 액면가 대비 매입률(%)입니다. 값을 수정한 뒤 updatedAt을 함께 갱신하세요.",
+  "updatedAt": "2026-07-19T09:00:00+09:00",
+  "source": "수동 입력",
+  "items": [
+    { "id": "culture", "name": "문화상품권", "face": 10000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "book", "name": "도서문화상품권", "face": 10000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "happymoney", "name": "해피머니", "face": 10000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "dept_shinsegae", "name": "신세계상품권", "face": 100000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "dept_lotte", "name": "롯데상품권", "face": 100000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "dept_hyundai", "name": "현대백화점상품권", "face": 100000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "google", "name": "구글 기프트카드", "face": 50000, "rate": null, "note": "매입률 입력 필요" },
+    { "id": "onstore", "name": "원스토어 캐시", "face": 50000, "rate": null, "note": "매입률 입력 필요" }
+  ]
+}
