@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>실시간 종합 시세 | 시세 — 대한민국 모든 시세 한눈에</title>
-<meta name="description" content="코인·주식·코스닥·환율·금·상품권·부동산·로또 시세를 한 화면에서 확인하세요.">
+<title>주식시세 | 시세 — 대한민국 모든 시세 한눈에</title>
+<meta name="description" content="코스피와 S&P 500·나스닥·다우존스·닛케이 등 국내외 주요 주가지수.">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,25 +12,15 @@
 <link rel="stylesheet" href="assets/style.css">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 </head>
-<body data-page="home">
+<body data-page="stock">
 
 <main class="wrap">
   <div class="page-head">
-    <h1>시세 <span class="h1-sub">대한민국 모든 시세 한눈에</span></h1>
-    <p class="lead">코인 · 주식 · 코스닥 · 환율 · 금은 · 상품권 · 부동산 · 로또를 한 곳에서 봅니다.</p>
+    <h1>주식시세</h1>
+    <p class="lead">코스피 및 해외 주요 지수</p>
   </div>
-  <section class="panel">
-    <h2>주요 지표</h2>
-    <div class="grid grid-tile" id="home-grid"></div>
-  </section>
-
-  <section class="panel">
-    <h2>바로 보기</h2>
-    <div class="wide-grid">
-      <div id="home-gift"></div>
-      <div id="home-lotto"></div>
-    </div>
-  </section>
+  <div class="grid" id="grid-stock"></div>
+  <p class="note-box">개별 종목 시세는 무료 공개 API 가 마땅치 않아 아직 제공하지 않습니다.</p>
 </main>
 
 <script src="assets/app.js"></script>

@@ -163,17 +163,54 @@ output {
   gap: var(--space-md);
   padding-block: var(--space-lg) var(--space-md);
 }
-.brand { flex: 1 1 260px; }
-.site-header h1 {
+.brand {
+  flex: 1 1 260px;
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-sm);
+  text-decoration: none;
+  color: inherit;
+}
+.brand-mark {
+  font-size: clamp(20px, 4vw, 26px);
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  color: var(--color-primary);
+}
+.brand-text {
+  font-size: 13px;
+  color: var(--color-muted-fg);
+  font-weight: 500;
+}
+
+/* ---------- 페이지 머리말 ---------- */
+.page-head { padding-block: var(--space-lg) var(--space-md); }
+.page-head h1 {
   margin: 0;
-  font-size: clamp(20px, 4vw, 28px);
+  font-size: clamp(22px, 4vw, 30px);
   letter-spacing: -0.02em;
   font-weight: 700;
 }
-.sub {
-  margin: var(--space-xs) 0 0;
+.h1-sub {
+  display: block;
+  margin-top: var(--space-xs);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-muted-fg);
+  letter-spacing: 0;
+}
+.lead {
+  margin: var(--space-sm) 0 0;
   color: var(--color-muted-fg);
   font-size: 14px;
+}
+.note-box {
+  margin-top: var(--space-md);
+  padding: var(--space-md);
+  border: 1px dashed var(--color-border);
+  border-radius: var(--radius);
+  color: var(--color-muted-fg);
+  font-size: 13px;
 }
 .status {
   display: inline-flex;
@@ -241,6 +278,7 @@ output {
   font-family: inherit;
   font-size: 14px;
   font-weight: 600;
+  text-decoration: none;
   cursor: pointer;
   transition: background var(--transition), color var(--transition),
     border-color var(--transition);
@@ -249,10 +287,180 @@ output {
   color: var(--color-foreground);
   border-color: var(--color-primary);
 }
-.tab[aria-selected="true"] {
+.tab[aria-current="page"] {
   background: var(--color-primary);
   color: var(--color-on-primary);
   border-color: var(--color-primary);
+}
+
+/* ---------- 홈 타일 ---------- */
+.grid-tile { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+.tile {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  animation: rise 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--i, 0) * 45ms);
+  transition: box-shadow var(--transition), border-color var(--transition);
+}
+.tile:hover {
+  box-shadow: var(--shadow-md);
+  border-color: color-mix(in srgb, var(--color-primary) 40%, var(--color-border));
+}
+.tile-cat {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--color-primary);
+  letter-spacing: 0.04em;
+}
+.tile-name { font-size: 13px; font-weight: 600; color: var(--color-muted-fg); }
+.tile-price {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.tile-price em {
+  font-family: var(--font-body);
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--color-muted-fg);
+  margin-left: 3px;
+}
+.tile-delta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 12px;
+  font-weight: 600;
+}
+.tile-delta .icon { width: 13px; height: 13px; }
+.tile .spark { height: 28px; margin-top: var(--space-sm); }
+
+/* ---------- 넓은 타일 ---------- */
+.wide-grid {
+  display: grid;
+  gap: var(--space-md);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+.wide-tile {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xs);
+  padding: var(--space-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  box-shadow: var(--shadow-sm);
+  text-decoration: none;
+  color: inherit;
+  transition: box-shadow var(--transition), border-color var(--transition);
+}
+.wide-tile:hover {
+  box-shadow: var(--shadow-md);
+  border-color: color-mix(in srgb, var(--color-primary) 40%, var(--color-border));
+}
+.wt-k { font-size: 12px; font-weight: 600; color: var(--color-muted-fg); }
+.wt-v {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.wt-v b { color: var(--color-accent); }
+.wt-m {
+  display: flex;
+  align-items: center;
+  gap: var(--space-xs);
+  font-size: 12px;
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* ---------- 지도 ---------- */
+.map-layout {
+  display: grid;
+  gap: var(--space-lg);
+  grid-template-columns: minmax(280px, 1.1fr) minmax(260px, 1fr);
+  align-items: start;
+}
+@media (max-width: 760px) {
+  .map-layout { grid-template-columns: 1fr; }
+}
+.map-box {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+}
+.kmap { display: block; width: 100%; height: auto; }
+.kmap-area {
+  fill: var(--color-surface-2);
+  stroke: var(--color-border);
+  stroke-width: 1;
+  cursor: pointer;
+  transition: fill var(--transition);
+}
+.kmap-area:hover { fill: color-mix(in srgb, var(--color-primary) 35%, var(--color-surface-2)); }
+.kmap-area.is-on { fill: var(--color-primary); }
+.kmap-area:focus-visible { outline: 2px solid var(--color-ring); outline-offset: 2px; }
+.kmap-label {
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 600;
+  fill: var(--color-foreground);
+  text-anchor: middle;
+  pointer-events: none;
+  user-select: none;
+}
+
+.region-panel {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  padding: var(--space-md);
+  box-shadow: var(--shadow-sm);
+}
+.region-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+.region-head h3 { margin: 0; font-size: 18px; font-weight: 700; }
+
+/* ---------- 순위 배지 ---------- */
+.card { position: relative; }
+.rank {
+  position: absolute;
+  top: var(--space-md);
+  right: var(--space-md);
+  display: grid;
+  place-items: center;
+  min-width: 22px;
+  height: 22px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: var(--color-surface-2);
+  color: var(--color-muted-fg);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 700;
 }
 
 /* ---------- panels ---------- */

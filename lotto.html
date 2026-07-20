@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>로또 판매 규모 | 시세 — 대한민국 모든 시세 한눈에</title>
+<meta name="description" content="로또 6/45 회차별 당첨번호와 총 판매금액, 추정 구매자 수.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+</head>
+<body data-page="lotto">
+
+<main class="wrap">
+  <div class="page-head">
+    <h1>로또 판매 규모</h1>
+    <p class="lead">회차별 당첨번호 · 총 판매금액 · 추정 구매자 수</p>
+  </div>
+  <div class="lotto-head" id="lotto-head"></div>
+
+  <div class="estimator">
+    <label for="ppl">1인당 평균 구매 게임 수
+      <span class="hint">(추정 가정값 — 실제 구매자 수는 공개되지 않습니다)</span>
+    </label>
+    <div class="estimator-row">
+      <input type="range" id="ppl" min="1" max="20" step="1" value="5">
+      <output id="ppl-out">5게임</output>
+    </div>
+    <p class="estimate" id="estimate"></p>
+  </div>
+
+  <div class="table-scroll">
+    <table class="tbl" id="tbl-lotto">
+      <thead><tr>
+        <th class="num">회차</th><th>추첨일</th>
+        <th class="num">판매 게임 수</th><th class="num">총 판매금액</th>
+        <th class="num">추정 구매자 수</th>
+        <th class="num">1등 당첨자</th><th class="num">1등 당첨금</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  <button class="more" id="lotto-more" type="button" hidden>더 보기</button>
+</main>
+
+<script src="assets/app.js"></script>
+<script src="assets/pages.js"></script>
+</body>
+</html>

@@ -1,14 +1,29 @@
 'use strict';
 
-const $ = (sel) => document.querySelector(sel);
+/* ============================================================
+   시세 — 대한민국 모든 시세 한눈에
+   빌드 도구가 없는 정적 사이트라, 페이지 공통 셸(헤더·메뉴·푸터)을
+   이 파일에서 한 번만 정의하고 각 페이지가 재사용합니다.
+   페이지 구분은 <body data-page="..."> 로 합니다.
+   ============================================================ */
+
+const $ = (sel, root = document) => root.querySelector(sel);
+const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
+
 const won = (n) => n.toLocaleString('ko-KR') + '원';
 const num = (n, d = 2) =>
   n.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d });
 
-/** 값 크기에 따라 소수 자리수를 자동으로 정합니다. */
+/** 큰 금액을 조/억 단위로 압축 */
+function compactWon(n) {
+  if (n >= 1e12) return (n / 1e12).toFixed(1) + '조원';
+  if (n >= 1e8) return Math.round(n / 1e8).toLocaleString('ko-KR') + '억원';
+  if (n >= 1e4) return Math.round(n / 1e4).toLocaleString('ko-KR') + '만원';
+  return won(Math.round(n));
+}
+
 function fmtPrice(v, group) {
   if (group === 'coin' || group === 'fx') return v >= 100 ? num(v, 0) : num(v, 2);
-  if (group === 'index') return num(v, 2);
   return num(v, 2);
 }
 
@@ -17,6 +32,101 @@ function dir(n) {
   return n > 0 ? 'up' : 'down';
 }
 
+const icon = (id, cls = 'icon') => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+
+const fetchJSON = (path) => fetch(path, { cache: 'no-store' }).then((r) => {
+  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+  return r.json();
+});
+
+// ---------- 메뉴 정의 ----------
+const MENUS = [
+  { id: 'home', href: 'index.html', label: '홈', icon: 'layers' },
+  { id: 'coin', href: 'coin.html', label: '코인시세', icon: 'coin' },
+  { id: 'stock', href: 'stock.html', label: '주식시세', icon: 'chart' },
+  { id: 'kosdaq', href: 'kosdaq.html', label: '코스닥시세', icon: 'chart' },
+  { id: 'fx', href: 'fx.html', label: '환율시세', icon: 'fx' },
+  { id: 'metal', href: 'metal.html', label: '금·은시세', icon: 'gem' },
+  { id: 'giftcard', href: 'giftcard.html', label: '상품권시세', icon: 'ticket' },
+  { id: 'realestate', href: 'realestate.html', label: '부동산시세', icon: 'home' },
+  { id: 'lotto', href: 'lotto.html', label: '로또', icon: 'target' },
+];
+
+const SPRITE = `
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></symbol>
+  <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9Z"/><path d="M2 9h20"/><path d="m10 3-2 6 4 12 4-12-2-6"/></symbol>
+  <symbol id="i-fx" viewBox="0 0 24 24"><path d="M3 8h14l-3-3"/><path d="M21 16H7l3 3"/></symbol>
+  <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9m0 0h5a2.5 2.5 0 0 1 0 5H9V8Zm2-3v3m0 10v3"/></symbol>
+  <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M14 6v12"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
+  <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-7 6 7"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 7 6-7"/></symbol>
+  <symbol id="i-flat" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></symbol>
+</svg>`;
+
+/** 헤더·메뉴·푸터를 주입합니다. */
+function renderShell() {
+  const page = document.body.dataset.page || 'home';
+
+  document.body.insertAdjacentHTML('afterbegin', SPRITE + `
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <span class="brand-mark">시세</span>
+      <span class="brand-text">대한민국 모든 시세 한눈에</span>
+    </a>
+    <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+      ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
+    </button>
+  </div>
+</header>
+
+<nav class="tabs wrap" aria-label="시세 메뉴">
+  ${MENUS.map(
+    (m) =>
+      `<a class="tab" href="${m.href}"${m.id === page ? ' aria-current="page"' : ''}>${icon(m.icon)}${m.label}</a>`
+  ).join('')}
+</nav>`);
+
+  document.body.insertAdjacentHTML(
+    'beforeend',
+    `<footer class="site-footer wrap">
+  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부</p>
+</footer>`
+  );
+
+  $('#theme-toggle').addEventListener('click', () => {
+    const root = document.documentElement;
+    const isDark = root.dataset.theme
+      ? root.dataset.theme === 'dark'
+      : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = isDark ? 'light' : 'dark';
+    try {
+      localStorage.setItem('theme', root.dataset.theme);
+    } catch (e) {}
+  });
+}
+
+/** 헤더의 갱신 시각 표시 */
+function setStatus(stamp, msg) {
+  const el = $('#updated');
+  if (!el) return;
+  el.className = stamp ? 'status is-live' : 'status is-error';
+  el.innerHTML =
+    '<span class="dot"></span>' +
+    (stamp ? `최종 갱신 ${new Date(stamp).toLocaleString('ko-KR')}` : msg || '데이터를 불러오지 못했습니다.');
+}
+
+// ---------- 공용 조각 ----------
 function sparkline(values) {
   if (!values || values.length < 2) return '';
   const min = Math.min(...values);
@@ -32,11 +142,6 @@ function sparkline(values) {
   </svg>`;
 }
 
-/** 이모지 대신 스프라이트 아이콘을 씁니다. (#i-up / #i-down / #i-flat) */
-function icon(id, cls = 'icon') {
-  return `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
-}
-
 function card(item, i = 0) {
   const d = dir(item.changePct);
   const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
@@ -47,273 +152,27 @@ function card(item, i = 0) {
   const abs =
     item.change == null ? '' : `(${item.change > 0 ? '+' : '-'}${num(Math.abs(item.change), 2)})`;
   return `<article class="card" style="--i:${i}">
+    ${item.rank ? `<span class="rank">${item.rank}</span>` : ''}
     <div class="name">${item.name}</div>
     <div class="price">${fmtPrice(item.price, item.group)}<span class="unit">${item.unit}</span></div>
     <div class="delta ${d}">${pct}${abs}</div>
+    ${item.volume ? `<div class="memo">24h 거래대금 ${compactWon(item.volume)}</div>` : ''}
     ${item.note ? `<div class="memo">${item.note}</div>` : ''}
     <span class="${d}">${sparkline(item.spark)}</span>
   </article>`;
 }
 
-// ---------- 시세 ----------
-async function loadMarkets() {
-  const data = await fetch('data/markets.json', { cache: 'no-store' }).then((r) => r.json());
-  for (const group of ['index', 'metal', 'fx', 'coin']) {
-    const items = data.items.filter((i) => i.group === group);
-    const el = $(`#grid-${group}`);
-    el.innerHTML = items.length
-      ? items.map((it, i) => card(it, i)).join('')
+/** markets.json 의 특정 그룹을 그리드에 렌더링 */
+async function renderMarketGroup(groupOrIds, mountSel) {
+  const data = await fetchJSON('data/markets.json');
+  const pick = Array.isArray(groupOrIds)
+    ? groupOrIds.map((id) => data.items.find((i) => i.id === id)).filter(Boolean)
+    : data.items.filter((i) => i.group === groupOrIds);
+  const el = $(mountSel);
+  if (el) {
+    el.innerHTML = pick.length
+      ? pick.map((it, i) => card(it, i)).join('')
       : '<p class="empty">데이터를 불러오지 못했습니다.</p>';
   }
-  return data.updatedAt;
+  return { data, pick };
 }
-
-// ---------- 상품권 ----------
-async function loadGiftcards() {
-  const data = await fetch('data/giftcards.json', { cache: 'no-store' }).then((r) => r.json());
-  const tbody = $('#tbl-gift tbody');
-  const priced = data.items.filter((i) => typeof i.rate === 'number');
-
-  $('#gift-note').textContent = priced.length
-    ? `수동 관리 데이터입니다. 최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`
-    : '상품권 시세는 공개 API가 없어 수동으로 입력합니다. data/giftcards.json 의 rate 값을 채우면 이 표에 표시됩니다.';
-
-  tbody.innerHTML = data.items
-    .map((i) => {
-      const hasRate = typeof i.rate === 'number';
-      return `<tr>
-        <td>${i.name}</td>
-        <td class="num">${won(i.face)}</td>
-        <td class="num">${hasRate ? num(i.rate, 1) + '%' : '<span class="flat">미입력</span>'}</td>
-        <td class="num">${hasRate ? won(Math.round((i.face * i.rate) / 100)) : '<span class="flat">—</span>'}</td>
-      </tr>`;
-    })
-    .join('');
-}
-
-// ---------- 백화점 상품권 (업체 사이트 직접 수집) ----------
-let dept = null;
-let face = null;
-
-const faceLabel = (n) => (n >= 10000 ? `${n / 10000}만원권` : `${n.toLocaleString('ko-KR')}원권`);
-
-async function loadDept() {
-  const data = await fetch('data/giftcards-dept.json', { cache: 'no-store' }).then((r) => r.json());
-  dept = data;
-
-  const ok = data.shops.filter((s) => s.ok);
-  $('#dept-note').textContent =
-    `${ok.length}개 업체 공식 시세 페이지에서 직접 수집했습니다. ` +
-    `최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`;
-
-  $('#dept-sources .source-list').innerHTML = data.shops
-    .map(
-      (s) =>
-        `<li><a href="${s.site}" target="_blank" rel="noopener noreferrer nofollow">${s.name}</a>` +
-        `<span class="src-state ${s.ok ? 'ok' : 'ng'}">${s.ok ? `${s.count}건` : '수집 실패'}</span></li>`
-    )
-    .join('');
-
-  // 액면가 선택 버튼 — 수집된 액면가만 노출
-  const faces = [...new Set(data.items.map((i) => i.face))].sort((a, b) => a - b);
-  face = faces.includes(100000) ? 100000 : faces[0];
-  $('#face-seg').innerHTML = faces
-    .map(
-      (f) =>
-        `<button type="button" class="seg-btn" data-face="${f}" aria-pressed="${f === face}">${faceLabel(f)}</button>`
-    )
-    .join('');
-  $('#face-seg').addEventListener('click', (e) => {
-    const btn = e.target.closest('.seg-btn');
-    if (!btn) return;
-    face = Number(btn.dataset.face);
-    document
-      .querySelectorAll('#face-seg .seg-btn')
-      .forEach((b) => b.setAttribute('aria-pressed', String(Number(b.dataset.face) === face)));
-    renderDept();
-  });
-
-  renderDept();
-  return data.updatedAt;
-}
-
-/** 업체명 + 결제수단을 한 줄로 */
-const shopLabel = (i) => (i.method ? `${i.shop} · ${i.method}` : i.shop);
-
-function renderDept() {
-  const rows = dept.items.filter((i) => i.face === face);
-  const cards = [...new Set(rows.map((i) => i.card))];
-
-  $('#grid-dept').innerHTML = cards
-    .map((cardName, idx) => {
-      const list = rows.filter((i) => i.card === cardName);
-
-      // 팔 때는 매입가가 높을수록, 살 때는 판매가가 낮을수록 유리합니다.
-      const buys = list.filter((i) => i.buy != null).sort((a, b) => b.buy - a.buy);
-      const sells = list.filter((i) => i.sell != null).sort((a, b) => a.sell - b.sell);
-      const bestBuy = buys[0];
-      const bestSell = sells[0];
-
-      const best = (item, kind) => {
-        if (!item) return `<div class="best"><span class="k">${kind}</span><span class="v flat">—</span></div>`;
-        const price = kind === '최고 매입가' ? item.buy : item.sell;
-        const rate = kind === '최고 매입가' ? item.buyRate : item.sellRate;
-        const sub = kind === '최고 매입가' ? '팔 때' : '살 때';
-        return `<div class="best">
-          <span class="k">${kind}<small>${sub}</small></span>
-          <span class="v">${won(price)}</span>
-          <span class="m">${rate != null ? `${num(rate, 2)}% · ` : ''}${shopLabel(item)}</span>
-        </div>`;
-      };
-
-      const detail = list
-        .slice()
-        .sort((a, b) => (b.buy ?? 0) - (a.buy ?? 0))
-        .map(
-          (i) => `<tr>
-            <td>${shopLabel(i)}</td>
-            <td class="num${i === bestBuy ? ' is-best' : ''}">${i.buy != null ? won(i.buy) : '—'}</td>
-            <td class="num${i === bestSell ? ' is-best' : ''}">${i.sell != null ? won(i.sell) : '—'}</td>
-          </tr>`
-        )
-        .join('');
-
-      return `<article class="gc" style="--i:${idx}">
-        <header class="gc-head">
-          <h3>${cardName}</h3>
-          <span class="gc-face">${faceLabel(face)}</span>
-        </header>
-        <div class="gc-best">${best(bestBuy, '최고 매입가')}${best(bestSell, '최저 판매가')}</div>
-        <details class="gc-all">
-          <summary>업체별 전체 ${list.length}건</summary>
-          <div class="table-scroll">
-            <table class="tbl">
-              <thead><tr><th>업체</th><th class="num">매입가</th><th class="num">판매가</th></tr></thead>
-              <tbody>${detail}</tbody>
-            </table>
-          </div>
-        </details>
-      </article>`;
-    })
-    .join('');
-}
-
-// ---------- 로또 ----------
-let lotto = null;
-let shown = 20;
-
-async function loadLotto() {
-  const data = await fetch('data/lotto.json', { cache: 'no-store' }).then((r) => r.json());
-  lotto = data.rounds.slice().sort((a, b) => b.round - a.round); // 최신순
-  renderLottoHead();
-  renderLottoTable();
-  $('#ppl').addEventListener('input', () => {
-    renderEstimate();
-    renderLottoTable();
-  });
-  $('#lotto-more').addEventListener('click', () => {
-    shown += 20;
-    renderLottoTable();
-  });
-  renderEstimate();
-  return data.updatedAt;
-}
-
-function renderLottoHead() {
-  const r = lotto[0];
-  if (!r) return;
-  $('#lotto-head').innerHTML = `
-    <div class="stat" style="--i:0">
-      <div class="k">최신 회차</div>
-      <div class="v">${r.round}회</div>
-      <div class="balls">
-        ${r.numbers.map((n) => `<span class="ball">${n}</span>`).join('')}
-        <span class="ball bonus" title="보너스 번호">${r.bonus}</span>
-      </div>
-    </div>
-    <div class="stat" style="--i:1"><div class="k">추첨일</div><div class="v">${r.date}</div></div>
-    <div class="stat" style="--i:2"><div class="k">판매 게임 수</div><div class="v">${r.games.toLocaleString('ko-KR')}</div></div>
-    <div class="stat" style="--i:3"><div class="k">총 판매금액</div><div class="v">${(r.sales / 1e8).toFixed(0)}억원</div></div>
-    <div class="stat" style="--i:4"><div class="k">1등 당첨금</div><div class="v">${(r.firstPrize / 1e8).toFixed(2)}억원</div></div>`;
-}
-
-function perPerson() {
-  return Number($('#ppl').value);
-}
-
-function renderEstimate() {
-  const g = perPerson();
-  $('#ppl-out').textContent = `${g}게임`;
-  const r = lotto[0];
-  if (!r) return;
-  const people = Math.round(r.games / g);
-  $('#estimate').innerHTML =
-    `${r.round}회차에 <strong>${people.toLocaleString('ko-KR')}명</strong>이 로또를 구입한 것으로 추정됩니다. ` +
-    `<span class="hint">판매 게임 ${r.games.toLocaleString('ko-KR')}개 ÷ 1인당 ${g}게임 기준</span>`;
-}
-
-function renderLottoTable() {
-  const g = perPerson();
-  const rows = lotto.slice(0, shown);
-  $('#tbl-lotto tbody').innerHTML = rows
-    .map(
-      (r) => `<tr>
-      <td class="num">${r.round}</td>
-      <td>${r.date}</td>
-      <td class="num">${r.games.toLocaleString('ko-KR')}</td>
-      <td class="num">${(r.sales / 1e8).toFixed(0)}억원</td>
-      <td class="num">${Math.round(r.games / g).toLocaleString('ko-KR')}명</td>
-      <td class="num">${r.firstWinners}명</td>
-      <td class="num">${(r.firstPrize / 1e8).toFixed(2)}억</td>
-    </tr>`
-    )
-    .join('');
-  $('#lotto-more').hidden = shown >= lotto.length;
-}
-
-// ---------- 탭 ----------
-const TAB_GROUPS = { gift: 'gift', lotto: 'lotto' };
-function setTab(name) {
-  document.querySelectorAll('.tab').forEach((t) =>
-    t.setAttribute('aria-selected', String(t.dataset.tab === name))
-  );
-  document.querySelectorAll('.panel').forEach((p) => {
-    p.hidden = name !== 'all' && p.dataset.group !== (TAB_GROUPS[name] || name);
-  });
-}
-document.querySelectorAll('.tab').forEach((t) =>
-  t.addEventListener('click', () => setTab(t.dataset.tab))
-);
-
-// ---------- 테마 ----------
-$('#theme-toggle').addEventListener('click', () => {
-  const root = document.documentElement;
-  const isDark = root.dataset.theme
-    ? root.dataset.theme === 'dark'
-    : matchMedia('(prefers-color-scheme: dark)').matches;
-  root.dataset.theme = isDark ? 'light' : 'dark';
-  try {
-    localStorage.setItem('theme', root.dataset.theme);
-  } catch (e) {}
-});
-
-// ---------- 시작 ----------
-(async () => {
-  const results = await Promise.allSettled([
-    loadMarkets(),
-    loadDept(),
-    loadGiftcards(),
-    loadLotto(),
-  ]);
-  const failed = results.filter((r) => r.status === 'rejected');
-  failed.forEach((r) => console.error(r.reason));
-
-  const stamp = results.find((r) => r.status === 'fulfilled' && r.value)?.value;
-  const status = $('#updated');
-  status.className = stamp ? 'status is-live' : 'status is-error';
-  status.innerHTML =
-    '<span class="dot"></span>' +
-    (stamp
-      ? `최종 갱신 ${new Date(stamp).toLocaleString('ko-KR')}`
-      : '데이터를 불러오지 못했습니다. GitHub Actions 수집이 아직 실행되지 않았을 수 있습니다.');
-})();
