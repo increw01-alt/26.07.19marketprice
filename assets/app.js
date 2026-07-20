@@ -107,14 +107,13 @@ function renderShell() {
 </footer>`
   );
 
+  // 기본은 네이비입니다. data-theme 이 없으면 네이비로 봅니다.
   $('#theme-toggle').addEventListener('click', () => {
     const root = document.documentElement;
-    const isDark = root.dataset.theme
-      ? root.dataset.theme === 'dark'
-      : matchMedia('(prefers-color-scheme: dark)').matches;
-    root.dataset.theme = isDark ? 'light' : 'dark';
+    const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+    root.dataset.theme = next;
     try {
-      localStorage.setItem('theme', root.dataset.theme);
+      localStorage.setItem('theme', next);
     } catch (e) {}
   });
 }

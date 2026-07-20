@@ -1,78 +1,13 @@
 /* ============================================================
-   종합 시세 — Data-Dense Dashboard
+   시세 — Data-Dense Dashboard
    design-system/market-price/MASTER.md 의 토큰을 따릅니다.
+
+   네이비(다크)가 이 사이트의 기본 색입니다. 시스템 설정과 무관하게
+   항상 네이비로 시작하고, 라이트는 헤더 토글로만 켭니다.
    ============================================================ */
 
 :root {
-  /* --- palette (light) --- */
-  --color-primary: #1e40af;
-  --color-on-primary: #ffffff;
-  --color-secondary: #3b82f6;
-  --color-accent: #d97706;
-  --color-background: #f8fafc;
-  --color-surface: #ffffff;
-  --color-surface-2: #eef2f8;
-  --color-foreground: #16233f;
-  --color-muted-fg: #55627a;
-  --color-border: #d8e2f0;
-  --color-destructive: #dc2626;
-  --color-ring: #1e40af;
-
-  /* 국내 시세 관례: 상승 적색 · 하락 청색 */
-  --color-up: var(--color-destructive);
-  --color-down: var(--color-secondary);
-
-  /* --- spacing (density 7/10) --- */
-  --space-xs: 4px;
-  --space-sm: 8px;
-  --space-md: 16px;
-  --space-lg: 24px;
-  --space-xl: 32px;
-  --space-2xl: 48px;
-
-  /* --- shadow --- */
-  --shadow-sm: 0 1px 2px rgba(15, 32, 66, 0.06);
-  --shadow-md: 0 4px 6px rgba(15, 32, 66, 0.08);
-  --shadow-lg: 0 10px 15px rgba(15, 32, 66, 0.1);
-
-  --radius: 12px;
-  --radius-sm: 8px;
-
-  /* Fira Sans 에는 한글 글리프가 없어 Pretendard 계열을 앞세우고
-     숫자·라틴 문자만 Fira 계열로 렌더링합니다. */
-  --font-body: "Fira Sans", "Pretendard", -apple-system, "Segoe UI",
-    "Malgun Gothic", system-ui, sans-serif;
-  --font-mono: "Fira Code", "Pretendard", ui-monospace, "Segoe UI", monospace;
-
-  --transition: 200ms ease;
-  color-scheme: light;
-}
-
-/* --- palette (dark) --- */
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --color-primary: #60a5fa;
-    --color-on-primary: #0b1220;
-    --color-secondary: #60a5fa;
-    --color-accent: #fbbf24;
-    --color-background: #0b1220;
-    --color-surface: #131c2e;
-    --color-surface-2: #1b2740;
-    --color-foreground: #e8eefb;
-    --color-muted-fg: #9fb0cc;
-    --color-border: #26344f;
-    --color-destructive: #f87171;
-    --color-ring: #60a5fa;
-    --color-up: #f87171;
-    --color-down: #60a5fa;
-    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
-    --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.45);
-    --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
-    color-scheme: dark;
-  }
-}
-
-:root[data-theme="dark"] {
+  /* --- palette (navy, 기본) --- */
   --color-primary: #60a5fa;
   --color-on-primary: #0b1220;
   --color-secondary: #60a5fa;
@@ -85,12 +20,57 @@
   --color-border: #26344f;
   --color-destructive: #f87171;
   --color-ring: #60a5fa;
+
+  /* 국내 시세 관례: 상승 적색 · 하락 청색 */
   --color-up: #f87171;
   --color-down: #60a5fa;
+
+  /* --- spacing (density 7/10) --- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 24px;
+  --space-xl: 32px;
+  --space-2xl: 48px;
+
+  /* --- shadow --- */
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.4);
   --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.45);
   --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.5);
+
+  --radius: 12px;
+  --radius-sm: 8px;
+
+  /* Fira Sans 에는 한글 글리프가 없어 Pretendard 계열을 앞세우고
+     숫자·라틴 문자만 Fira 계열로 렌더링합니다. */
+  --font-body: "Fira Sans", "Pretendard", -apple-system, "Segoe UI",
+    "Malgun Gothic", system-ui, sans-serif;
+  --font-mono: "Fira Code", "Pretendard", ui-monospace, "Segoe UI", monospace;
+
+  --transition: 200ms ease;
   color-scheme: dark;
+}
+
+/* --- palette (light) — 헤더 토글로만 켜집니다 --- */
+:root[data-theme="light"] {
+  --color-primary: #1e40af;
+  --color-on-primary: #ffffff;
+  --color-secondary: #3b82f6;
+  --color-accent: #d97706;
+  --color-background: #f8fafc;
+  --color-surface: #ffffff;
+  --color-surface-2: #eef2f8;
+  --color-foreground: #16233f;
+  --color-muted-fg: #55627a;
+  --color-border: #d8e2f0;
+  --color-destructive: #dc2626;
+  --color-ring: #1e40af;
+  --color-up: #dc2626;
+  --color-down: #3b82f6;
+  --shadow-sm: 0 1px 2px rgba(15, 32, 66, 0.06);
+  --shadow-md: 0 4px 6px rgba(15, 32, 66, 0.08);
+  --shadow-lg: 0 10px 15px rgba(15, 32, 66, 0.1);
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
@@ -247,13 +227,11 @@ output {
 }
 .theme-toggle:hover { border-color: var(--color-primary); }
 .theme-toggle .icon { width: 20px; height: 20px; }
-.theme-toggle .icon-moon { display: none; }
-:root[data-theme="dark"] .theme-toggle .icon-sun { display: none; }
-:root[data-theme="dark"] .theme-toggle .icon-moon { display: block; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) .theme-toggle .icon-sun { display: none; }
-  :root:not([data-theme="light"]) .theme-toggle .icon-moon { display: block; }
-}
+/* 기본은 네이비 → 달 아이콘. 라이트일 때만 해 아이콘. */
+.theme-toggle .icon-sun { display: none; }
+.theme-toggle .icon-moon { display: block; }
+:root[data-theme="light"] .theme-toggle .icon-sun { display: block; }
+:root[data-theme="light"] .theme-toggle .icon-moon { display: none; }
 
 /* ---------- tabs ---------- */
 .tabs {
@@ -412,7 +390,9 @@ output {
   stroke: var(--color-border);
   stroke-width: 1;
   cursor: pointer;
-  transition: fill var(--transition);
+  /* fill 에 transition 을 걸면 안 됩니다. 값이 var() 인 속성에 전환이 걸려 있으면
+     크롬에서 변수가 바뀌어도 fill 이 재계산되지 않아, 테마를 바꿔도 지도만
+     이전 색으로 남습니다. 호버 강조는 별도 오버레이가 담당하므로 불필요합니다. */
 }
 .kmap-area.is-on { fill: var(--color-primary); }
 .kmap-area:focus { outline: none; }
@@ -432,23 +412,37 @@ output {
   to   { opacity: 1; }
 }
 
+/* 라벨은 stroke 로 테두리를 주지 않습니다. stroke 는 글자 윤곽선 중앙에
+   그려져 안쪽으로 파고드는데, 15px 한글 획 두께가 그 정도라 글자가
+   테두리 색에 먹혀 어둡게 보입니다. 대신 그림자로 배경과 분리합니다. */
+.kmap-labels { filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.9)); }
 .kmap-label {
   font-family: var(--font-body);
   font-size: 15px;
-  font-weight: 600;
-  fill: var(--color-foreground);
+  font-weight: 700;
+  fill: #ffffff;
   text-anchor: middle;
   pointer-events: none;
   user-select: none;
-  /* 어떤 배경 위에서도 읽히도록 테두리를 먼저 칠합니다. */
-  paint-order: stroke fill;
-  stroke: var(--color-background);
-  stroke-width: 3px;
-  stroke-linejoin: round;
-  transition: font-size var(--transition), fill var(--transition);
+  transition: font-size var(--transition);
 }
-.kmap-label.is-hover { font-size: 17px; fill: var(--color-on-primary); stroke-width: 3.5px; }
-.kmap-label.is-on { fill: var(--color-on-primary); }
+.kmap-label.is-hover { font-size: 17px; }
+
+/* 선택·호버한 지역은 primary 로 칠해집니다. 그 위 글자는 흰색이면 대비가
+   2.5:1 밖에 안 나오므로, primary 의 짝인 on-primary 로 뒤집습니다.
+   두 테마 모두 on-primary 가 primary 의 대비색이라 그대로 통합니다. */
+.kmap-label.is-on,
+.kmap-label.is-hover { fill: var(--color-on-primary); }
+
+:root[data-theme="light"] .kmap-labels {
+  filter: drop-shadow(0 1px 2px rgba(255, 255, 255, 0.9));
+}
+/* 선택·호버 라벨은 위 규칙(on-primary)을 유지해야 하므로 제외합니다.
+   :root[data-theme] 선택자가 .kmap-label.is-on 보다 우선순위가 높아
+   :not() 없이는 덮어써 버립니다. */
+:root[data-theme="light"] .kmap-label:not(.is-on):not(.is-hover) {
+  fill: var(--color-foreground);
+}
 
 @media (prefers-reduced-motion: reduce) {
   .kmap-zoom { animation: none; }
@@ -856,9 +850,9 @@ output {
 }
 .ball.bonus {
   background: var(--color-accent);
-  color: #ffffff;
+  color: #0b1220;
 }
-:root[data-theme="dark"] .ball.bonus { color: #0b1220; }
+:root[data-theme="light"] .ball.bonus { color: #ffffff; }
 
 .estimator {
   background: var(--color-surface);
