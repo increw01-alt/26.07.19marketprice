@@ -28,13 +28,9 @@ const QUOTES = [
   { id: 'usdcny', symbol: 'CNY=X', name: '달러/위안', group: 'fx', unit: 'CNY', helper: true },
 ];
 
-const COINS = [
-  { id: 'btc', market: 'KRW-BTC', name: '비트코인' },
-  { id: 'eth', market: 'KRW-ETH', name: '이더리움' },
-  { id: 'xrp', market: 'KRW-XRP', name: '리플' },
-  { id: 'sol', market: 'KRW-SOL', name: '솔라나' },
-  { id: 'doge', market: 'KRW-DOGE', name: '도지코인' },
-];
+const COIN_TOP = 10; // 24시간 거래대금 상위 N개
+/** 거래대금 순위와 무관하게 항상 포함할 대표 코인 */
+const COIN_ALWAYS = ['KRW-BTC', 'KRW-ETH'];
 
 /** Yahoo 차트 API — 최근 3개월 일봉에서 종가 시계열을 뽑습니다. */
 async function yahooHistory(symbol) {
@@ -86,34 +82,57 @@ async function collectQuotes() {
 }
 
 async function collectCoins() {
-  const markets = COINS.map((c) => c.market).join(',');
-  const tickers = await getJSON(`https://api.upbit.com/v1/ticker?markets=${markets}`);
-  const byMarket = new Map(tickers.map((t) => [t.market, t]));
-  const out = [];
+  // 1) KRW 마켓 전체 목록 (한글명 포함)
+  const all = await getJSON('https://api.upbit.com/v1/market/all');
+  const krw = all.filter((m) => m.market.startsWith('KRW-'));
+  const nameOf = new Map(krw.map((m) => [m.market, m.korean_name]));
 
-  for (const c of COINS) {
-    const t = byMarket.get(c.market);
-    if (!t) continue;
+  // 2) 시세를 100개씩 나눠 조회 (URL 길이 제한 회피)
+  const tickers = [];
+  for (let i = 0; i < krw.length; i += 100) {
+    const chunk = krw.slice(i, i + 100).map((m) => m.market).join(',');
+    tickers.push(...(await getJSON(`https://api.upbit.com/v1/ticker?markets=${chunk}`)));
+    await new Promise((r) => setTimeout(r, 200));
+  }
+
+  // 3) 24시간 거래대금 상위 N개 + 대표 코인은 항상 포함
+  tickers.sort((a, b) => b.acc_trade_price_24h - a.acc_trade_price_24h);
+  const picked = new Map();
+  for (const m of COIN_ALWAYS) {
+    const t = tickers.find((x) => x.market === m);
+    if (t) picked.set(m, t);
+  }
+  for (const t of tickers) {
+    if (picked.size >= COIN_TOP) break;
+    picked.set(t.market, t);
+  }
+
+  const out = [];
+  let rank = 0;
+  for (const t of picked.values()) {
+    rank++;
     let spark = [];
     try {
       const candles = await getJSON(
-        `https://api.upbit.com/v1/candles/days?market=${c.market}&count=${DAYS}`
+        `https://api.upbit.com/v1/candles/days?market=${t.market}&count=${DAYS}`
       );
       spark = candles.map((k) => k.trade_price).reverse();
     } catch (err) {
-      console.error(`${c.id} 캔들 실패: ${err.message}`);
+      console.error(`${t.market} 캔들 실패: ${err.message}`);
     }
     out.push({
-      id: c.id,
-      name: c.name,
+      id: t.market.replace('KRW-', '').toLowerCase(),
+      name: nameOf.get(t.market) || t.market,
       group: 'coin',
       unit: 'KRW',
+      rank,
       price: t.trade_price,
       change: t.signed_change_price,
       changePct: t.signed_change_rate * 100,
+      volume: t.acc_trade_price_24h, // 24시간 거래대금(원)
       spark,
     });
-    console.log(`${c.id}: ${t.trade_price.toLocaleString()}`);
+    console.log(`${rank}. ${nameOf.get(t.market)}: ${t.trade_price.toLocaleString()}`);
     await new Promise((r) => setTimeout(r, 150));
   }
   return out;
