@@ -465,6 +465,10 @@ output {
 }
 .region-head h3 { margin: 0; font-size: 18px; font-weight: 700; }
 
+/* 부동산 표의 12개월 추이 미니차트 */
+.tbl .spark-cell { min-width: 110px; }
+.tbl .spark-cell .spark { height: 24px; margin: 0; }
+
 /* ---------- 순위 배지 ---------- */
 .card { position: relative; }
 .rank {

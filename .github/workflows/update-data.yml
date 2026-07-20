@@ -47,5 +47,7 @@ jobs:
             echo "변경 없음"
           else
             git commit -m "chore: 시세 데이터 자동 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST'))"
+            # 부동산 워크플로와 동시에 돌 수 있으므로 rebase 후 push 합니다.
+            git pull --rebase origin main
             git push
           fi

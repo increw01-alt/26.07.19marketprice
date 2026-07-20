@@ -205,8 +205,21 @@ function renderManualGift(data) {
 }
 
 // ---------- 부동산 (지도) ----------
+let realestate = null; // /data/realestate.json (없으면 자리표시 유지)
+
+// 지도(kostat 2018)는 구 시도코드, 실거래 데이터는 현행 법정동코드를 씁니다.
+// 2023~2024 개편으로 바뀐 접두사만 잇습니다: 강원 42→51, 전북 45→52.
+const SIDO_ALIAS = { 42: '51', 45: '52' };
+
 async function pageRealestate() {
-  const map = await fetchJSON('/data/korea-provinces.json');
+  const [mapRes, reRes] = await Promise.allSettled([
+    fetchJSON('/data/korea-provinces.json'),
+    fetchJSON('/data/realestate.json'),
+  ]);
+  if (mapRes.status !== 'fulfilled') throw mapRes.reason;
+  const map = mapRes.value;
+  if (reRes.status === 'fulfilled') realestate = reRes.value;
+  else console.error(reRes.reason);
 
   // SVG 에는 z-index 가 없어 나중에 그려진 것이 위에 옵니다.
   // 확대본을 별도 레이어(kmap-top)에 <use> 로 얹어 잘리지 않게 합니다.
@@ -288,16 +301,76 @@ async function pageRealestate() {
   });
 
   select('11', '서울');
-  setStatus(null, '부동산 실거래가는 국토교통부 API 승인 대기 중입니다');
+  if (realestate) setStatus(realestate.updatedAt);
+  else setStatus(null, '부동산 실거래가 데이터가 아직 수집되지 않았습니다');
 }
 
 function renderRegion(lawd, name) {
-  // 실거래가 수집이 붙기 전까지의 자리표시입니다.
+  const head = `<div class="region-head"><h3>${name}</h3><span class="tag">아파트 매매 실거래가</span></div>`;
+
+  if (!realestate) {
+    $('#region-panel').innerHTML =
+      head + `<p class="empty">첫 수집이 아직 실행되지 않았습니다. 잠시 후 다시 확인해 주세요.</p>`;
+    return;
+  }
+
+  const prefix = SIDO_ALIAS[lawd] || lawd;
+  const rows = Object.entries(realestate.sgg)
+    .filter(([code]) => code.startsWith(prefix))
+    .map(([code, e]) => ({ code, ...e }));
+
+  if (!rows.length) {
+    $('#region-panel').innerHTML =
+      head + `<p class="empty">${name} 지역의 실거래 데이터가 없습니다.</p>`;
+    return;
+  }
+
+  // 이번 달은 신고(30일 이내)가 덜 쌓여 있어 전월을 대표 달로 씁니다.
+  const months = realestate.months;
+  const ym = months.at(-2) || months.at(-1);
+  const ymLabel = `${ym.slice(0, 4)}.${ym.slice(4)}`;
+
+  const enriched = rows
+    .map((r) => {
+      const cur = r.m[ym] || { n: 0, pm2: null };
+      const spark = months.map((k) => r.m[k]?.pm2).filter((v) => v != null);
+      return { ...r, n: cur.n, pm2: cur.pm2, spark };
+    })
+    .sort((a, b) => (b.pm2 ?? -1) - (a.pm2 ?? -1));
+
+  // 시도 요약: 거래건수 합 + 건수 가중 평균 단가
+  const totalN = enriched.reduce((s, r) => s + r.n, 0);
+  const wSum = enriched.reduce((s, r) => s + (r.pm2 ?? 0) * r.n, 0);
+  const avgPm2 = totalN ? wSum / totalN : null;
+
   $('#region-panel').innerHTML = `
-    <div class="region-head"><h3>${name}</h3><span class="tag">법정동코드 ${lawd}</span></div>
-    <p class="empty">
-      국토교통부 아파트 매매 실거래가 API 승인이 반영되면<br>
-      이 자리에 ${name} 지역 시군구별 평균 거래가·거래건수가 표시됩니다.
+    ${head}
+    <div class="lotto-head">
+      <div class="stat"><div class="k">기준 월</div><div class="v">${ymLabel}</div></div>
+      <div class="stat"><div class="k">거래 건수</div><div class="v">${totalN.toLocaleString('ko-KR')}건</div></div>
+      <div class="stat"><div class="k">㎡당 평균</div><div class="v">${avgPm2 ? num(avgPm2, 0) + '만원' : '—'}</div></div>
+    </div>
+    <div class="table-scroll">
+      <table class="tbl">
+        <thead><tr>
+          <th>시군구</th><th class="num">㎡당 단가</th><th class="num">거래 건수</th><th>12개월 추이</th>
+        </tr></thead>
+        <tbody>
+          ${enriched
+            .map(
+              (r) => `<tr>
+            <td>${r.sgg}</td>
+            <td class="num">${r.pm2 != null ? num(r.pm2, 0) + '만원' : '<span class="flat">—</span>'}</td>
+            <td class="num">${r.n.toLocaleString('ko-KR')}</td>
+            <td class="spark-cell">${sparkline(r.spark)}</td>
+          </tr>`
+            )
+            .join('')}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:10px">
+      실거래 신고는 계약 후 30일 이내라 최근 달은 잠정치입니다. 해제된 거래는 제외했습니다.
     </p>`;
 }
 

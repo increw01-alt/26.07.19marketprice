@@ -21,7 +21,9 @@ data/lotto.json         회차별 로또 판매 데이터 (자동 수집, 누적
 data/markets.json       지수·귀금속·환율·코인 (자동 수집, 매시간 교체)
 data/giftcards-dept.json 백화점 상품권 매입/판매 시세 (자동 수집, 매시간 교체)
 data/giftcards.json     기타 상품권 시세 (수동 관리)
-data/korea-provinces.json  전국 17개 시도 SVG 경로 (지도 형상만, 시세 없음)
+data/korea-provinces.json  전국 17개 시도 SVG 경로 (지도 형상)
+data/sgg-codes.json     전국 256개 시군구 법정동코드 (실거래가 API 검증 완료)
+data/realestate.json    시군구×월 아파트 실거래 집계 (자동 수집, 하루 1회)
 scripts/fetch-*.mjs     수집 스크립트 (Node 20 내장 fetch만 사용, 의존성 없음)
 scripts/build-korea-map.mjs  지도 데이터 생성기 (1회성, 워크플로에 없음)
 .github/workflows/      매시간 실행되는 수집 워크플로
@@ -37,7 +39,7 @@ design-system/          ui-ux-pro-max 스킬이 생성한 디자인 규칙 (MAST
 | 암호화폐 | 업비트 공개 API | 자동 (매시간) |
 | 백화점 상품권 | 각 상품권 업체 공식 시세 페이지 | 자동 (매시간) |
 | 기타 상품권 | — | **수동** |
-| 부동산 | — | 미구현 (지도 형상만 있음) |
+| 부동산 | 국토교통부 아파트 매매 실거래가 API | 자동 (하루 1회, 06:30 KST) |
 
 > stooq.com 과 동행복권 구 API(`common.do?method=getLottoNumber`)는 2026년에
 > 폐기돼 각각 Yahoo Finance 와 신 API 로 교체했습니다.
@@ -85,6 +87,24 @@ Yahoo 차트 API 의 `meta.chartPreviousClose` 는 **전일 종가가 아니라 
 ```
 
 값을 고친 뒤 같은 파일의 `updatedAt` 도 함께 갱신하세요.
+
+### 부동산 실거래가에 대하여
+
+`scripts/fetch-realestate.mjs` 가 국토교통부 API 로 전국 256개 시군구의 아파트 매매를
+시군구×월 단위로 집계합니다 (건수 + ㎡당 평균 단가, 해제거래 제외).
+
+- **인증키는 GitHub Actions Secret `DATA_GO_KR_KEY` 로만 전달합니다.**
+  저장소가 공개이므로 키를 코드·데이터 파일에 절대 넣지 마세요.
+- 하루 1회(06:30 KST)만 돕니다. 일일 한도 10,000콜 대비:
+  첫 실행 약 3,072콜(12개월 백필), 이후 매일 768콜(최근 3개월 재수집).
+- 실거래 신고는 계약 후 30일 이내이므로 최근 달은 잠정치이며,
+  해제신고 반영을 위해 최근 3개월을 매번 다시 받습니다.
+- 시군구 코드는 `data/sgg-codes.json` — 행정표준 법정동코드에서 추출한 뒤
+  API 실호출로 검증했습니다. 2023~2026 행정개편(강원 42→51, 전북 45→52,
+  군위→대구, 인천 원도심 개편, 화성·부천 분구)이 반영돼 있습니다.
+  광주·전남은 현재 API 가 자료를 반환하지 않아 `verified:false` 입니다.
+- 지도(kostat 2018)는 구 시도코드를 쓰므로 `assets/pages.js` 의 `SIDO_ALIAS` 가
+  강원·전북 접두사를 잇습니다.
 
 ### 로또 "구매자 수"에 대하여
 
