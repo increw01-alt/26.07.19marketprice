@@ -38,6 +38,19 @@ const LAWD_SIDO = {
   39: { lawd: '50', name: '제주', full: '제주특별자치도' },
 };
 
+/**
+ * 라벨 위치 보정 (SVG 단위).
+ * 무게중심을 그대로 쓰면 수도권이 겹칩니다 — 경기도가 서울을 감싸는 도넛 모양이라
+ * 경기 무게중심이 서울 한복판에 찍히기 때문입니다. 인천도 바로 옆이라 붙습니다.
+ */
+const LABEL_OFFSET = {
+  11: [-2, -12], // 서울 — 위로
+  41: [52, 40], // 경기 — 오른쪽 아래 본체 쪽으로
+  28: [-30, 6], // 인천 — 왼쪽으로
+  36: [-16, -4], // 세종 — 대전·충북과 떨어뜨림
+  30: [6, 8], // 대전
+};
+
 // ---------- 기하 유틸 ----------
 
 /** 링의 면적(제곱도) — 작은 섬 제거용 */
@@ -169,13 +182,20 @@ const out = provinces.map((p) => {
     .filter(Boolean)
     .join('');
 
-  // 라벨 위치 = 가장 큰 링의 무게중심
+  // 라벨 위치 = 가장 큰 링의 무게중심 + 보정값
   const big = p.rings.slice().sort((a, b) => ringArea(b) - ringArea(a))[0];
   const pts = big.map(project);
   const cx = pts.reduce((s, q) => s + q[0], 0) / pts.length;
   const cy = pts.reduce((s, q) => s + q[1], 0) / pts.length;
+  const [dx, dy] = LABEL_OFFSET[p.lawd] || [0, 0];
 
-  return { lawd: p.lawd, name: p.name, full: p.full, d, label: [round(cx), round(cy)] };
+  return {
+    lawd: p.lawd,
+    name: p.name,
+    full: p.full,
+    d,
+    label: [round(cx + dx), round(cy + dy)],
+  };
 });
 
 await writeJSON(OUT, { width: WIDTH, height: HEIGHT, source: SRC, provinces: out });

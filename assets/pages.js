@@ -201,32 +201,77 @@ function renderManualGift(data) {
 async function pageRealestate() {
   const map = await fetchJSON('/data/korea-provinces.json');
 
+  // SVG 에는 z-index 가 없어 나중에 그려진 것이 위에 옵니다.
+  // 확대본을 별도 레이어(kmap-top)에 <use> 로 얹어 잘리지 않게 합니다.
   $('#map-root').innerHTML = `
     <svg class="kmap" viewBox="0 0 ${map.width} ${map.height}" role="img" aria-label="전국 시도 지도">
-      ${map.provinces
-        .map(
-          (p) =>
-            `<path class="kmap-area" d="${p.d}" data-lawd="${p.lawd}" data-name="${p.name}" tabindex="0" role="button" aria-label="${p.full} 시세 보기"><title>${p.full}</title></path>`
-        )
-        .join('')}
-      ${map.provinces
-        .map(
-          (p) =>
-            `<text class="kmap-label" x="${p.label[0]}" y="${p.label[1]}" data-lawd="${p.lawd}">${p.name}</text>`
-        )
-        .join('')}
+      <g class="kmap-areas">
+        ${map.provinces
+          .map(
+            (p) =>
+              `<path id="kp-${p.lawd}" class="kmap-area" d="${p.d}" data-lawd="${p.lawd}" data-name="${p.name}" tabindex="0" role="button" aria-label="${p.full} 시세 보기"><title>${p.full}</title></path>`
+          )
+          .join('')}
+      </g>
+      <g class="kmap-top" aria-hidden="true"></g>
+      <g class="kmap-labels">
+        ${map.provinces
+          .map(
+            (p) =>
+              `<text class="kmap-label" x="${p.label[0]}" y="${p.label[1]}" data-lawd="${p.lawd}" data-name="${p.name}">${p.name}</text>`
+          )
+          .join('')}
+      </g>
     </svg>`;
+
+  const top = $('.kmap-top');
 
   const select = (lawd, name) => {
     $$('.kmap-area').forEach((a) => a.classList.toggle('is-on', a.dataset.lawd === lawd));
+    $$('.kmap-label').forEach((t) => t.classList.toggle('is-on', t.dataset.lawd === lawd));
     renderRegion(lawd, name);
   };
 
-  $('#map-root').addEventListener('click', (e) => {
+  const ZOOM = 1.18;
+
+  /**
+   * 호버·포커스한 시도를 확대해 위에 겹쳐 보여줍니다.
+   * CSS transform-box:fill-box 는 브라우저별 편차가 있어,
+   * bbox 중심을 직접 구해 SVG transform 속성으로 넣습니다.
+   */
+  const zoom = (lawd) => {
+    $$('.kmap-label').forEach((t) => t.classList.toggle('is-hover', t.dataset.lawd === lawd));
+    if (!lawd) {
+      top.innerHTML = '';
+      return;
+    }
+    const src = document.getElementById(`kp-${lawd}`);
+    if (!src) return;
+    const b = src.getBBox();
+    const cx = b.x + b.width / 2;
+    const cy = b.y + b.height / 2;
+    // 중심을 원점으로 옮겨 확대한 뒤 되돌립니다.
+    const t = `translate(${cx} ${cy}) scale(${ZOOM}) translate(${-cx} ${-cy})`;
+    top.innerHTML = `<use class="kmap-zoom" href="#kp-${lawd}" transform="${t}"/>`;
+  };
+
+  const root = $('#map-root');
+  root.addEventListener('pointerover', (e) => {
+    const a = e.target.closest('.kmap-area, .kmap-label');
+    zoom(a ? a.dataset.lawd : null);
+  });
+  root.addEventListener('pointerleave', () => zoom(null));
+
+  root.addEventListener('click', (e) => {
     const a = e.target.closest('.kmap-area, .kmap-label');
     if (a) select(a.dataset.lawd, a.dataset.name);
   });
-  $('#map-root').addEventListener('keydown', (e) => {
+  root.addEventListener('focusin', (e) => {
+    const a = e.target.closest('.kmap-area');
+    if (a) zoom(a.dataset.lawd);
+  });
+  root.addEventListener('focusout', () => zoom(null));
+  root.addEventListener('keydown', (e) => {
     if (e.key !== 'Enter' && e.key !== ' ') return;
     const a = e.target.closest('.kmap-area');
     if (a) {
