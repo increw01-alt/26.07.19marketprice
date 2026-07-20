@@ -14,9 +14,9 @@ const HOME_TILES = [
 
 async function pageHome() {
   const results = await Promise.allSettled([
-    fetchJSON('data/markets.json'),
-    fetchJSON('data/giftcards-dept.json'),
-    fetchJSON('data/lotto.json'),
+    fetchJSON('/data/markets.json'),
+    fetchJSON('/data/giftcards-dept.json'),
+    fetchJSON('/data/lotto.json'),
   ]);
   const [markets, gift, lotto] = results.map((r) => (r.status === 'fulfilled' ? r.value : null));
 
@@ -82,8 +82,8 @@ const shopLabel = (i) => (i.method ? `${i.shop} · ${i.method}` : i.shop);
 
 async function pageGiftcard() {
   const [d, manual] = await Promise.allSettled([
-    fetchJSON('data/giftcards-dept.json'),
-    fetchJSON('data/giftcards.json'),
+    fetchJSON('/data/giftcards-dept.json'),
+    fetchJSON('/data/giftcards.json'),
   ]);
 
   if (d.status === 'fulfilled') {
@@ -199,7 +199,7 @@ function renderManualGift(data) {
 
 // ---------- 부동산 (지도) ----------
 async function pageRealestate() {
-  const map = await fetchJSON('data/korea-provinces.json');
+  const map = await fetchJSON('/data/korea-provinces.json');
 
   $('#map-root').innerHTML = `
     <svg class="kmap" viewBox="0 0 ${map.width} ${map.height}" role="img" aria-label="전국 시도 지도">
@@ -254,7 +254,7 @@ let lotto = null;
 let shown = 20;
 
 async function pageLotto() {
-  const data = await fetchJSON('data/lotto.json');
+  const data = await fetchJSON('/data/lotto.json');
   lotto = data.rounds.slice().sort((a, b) => b.round - a.round);
 
   renderLottoHead();

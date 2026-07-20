@@ -40,6 +40,9 @@ const fetchJSON = (path) => fetch(path, { cache: 'no-store' }).then((r) => {
 });
 
 // ---------- 메뉴 정의 ----------
+// 링크에 .html 을 유지합니다. Cloudflare Pages 는 /coin.html 을 /coin 으로
+// 308 리다이렉트하지만, .html 을 빼면 로컬 정적 서버에서 404 가 나 검증이 막힙니다.
+// 리다이렉트 1회 비용보다 양쪽에서 동작하는 쪽이 낫습니다.
 const MENUS = [
   { id: 'home', href: 'index.html', label: '홈', icon: 'layers' },
   { id: 'coin', href: 'coin.html', label: '코인시세', icon: 'coin' },
@@ -164,7 +167,7 @@ function card(item, i = 0) {
 
 /** markets.json 의 특정 그룹을 그리드에 렌더링 */
 async function renderMarketGroup(groupOrIds, mountSel) {
-  const data = await fetchJSON('data/markets.json');
+  const data = await fetchJSON('/data/markets.json');
   const pick = Array.isArray(groupOrIds)
     ? groupOrIds.map((id) => data.items.find((i) => i.id === id)).filter(Boolean)
     : data.items.filter((i) => i.group === groupOrIds);
