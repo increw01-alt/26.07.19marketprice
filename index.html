@@ -5,52 +5,114 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>종합 시세 — 상품권 · 주식 · 금 · 환율 · 코인 · 로또</title>
 <meta name="description" content="상품권 시세, 주가지수, 금·은 시세, 환율, 암호화폐, 로또 회차별 판매량을 한 곳에서 봅니다.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/style.css">
+<script>
+  // FOUC 방지: 저장된 테마를 페인트 전에 적용합니다.
+  try {
+    var t = localStorage.getItem('theme');
+    if (t) document.documentElement.dataset.theme = t;
+  } catch (e) {}
+</script>
 </head>
 <body>
 
+<!-- 아이콘 스프라이트 (Lucide 계열, 이모지 미사용) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></symbol>
+  <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9Z"/><path d="M2 9h20"/><path d="m10 3-2 6 4 12 4-12-2-6"/></symbol>
+  <symbol id="i-fx" viewBox="0 0 24 24"><path d="M3 8h14l-3-3"/><path d="M21 16H7l3 3"/></symbol>
+  <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9m0 0h5a2.5 2.5 0 0 1 0 5H9V8Zm2-3v3m0 10v3"/></symbol>
+  <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M14 6v12"/></symbol>
+  <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+  <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-7 6 7"/></symbol>
+  <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 7 6-7"/></symbol>
+  <symbol id="i-flat" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+  <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
+  <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></symbol>
+</svg>
+
 <header class="site-header">
   <div class="wrap">
-    <h1>종합 시세</h1>
-    <p class="sub">상품권 · 주식 · 귀금속 · 환율 · 코인 · 로또를 한 화면에서</p>
-    <p class="updated" id="updated">불러오는 중…</p>
+    <div class="brand">
+      <h1>종합 시세</h1>
+      <p class="sub">상품권 · 주식 · 귀금속 · 환율 · 코인 · 로또를 한 화면에서</p>
+    </div>
+    <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+      <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg>
+      <svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+    </button>
   </div>
 </header>
 
-<nav class="tabs wrap" role="tablist">
-  <button class="tab is-active" data-tab="all" role="tab">전체</button>
-  <button class="tab" data-tab="index" role="tab">주가지수</button>
-  <button class="tab" data-tab="metal" role="tab">금·은</button>
-  <button class="tab" data-tab="fx" role="tab">환율</button>
-  <button class="tab" data-tab="coin" role="tab">코인</button>
-  <button class="tab" data-tab="gift" role="tab">상품권</button>
-  <button class="tab" data-tab="lotto" role="tab">로또</button>
+<nav class="tabs wrap" role="tablist" aria-label="시세 분류">
+  <button class="tab" data-tab="all" role="tab" aria-selected="true" aria-controls="panels">
+    <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>전체
+  </button>
+  <button class="tab" data-tab="index" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>주가지수
+  </button>
+  <button class="tab" data-tab="metal" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg>금·은
+  </button>
+  <button class="tab" data-tab="fx" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg>환율
+  </button>
+  <button class="tab" data-tab="coin" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg>코인
+  </button>
+  <button class="tab" data-tab="gift" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>상품권
+  </button>
+  <button class="tab" data-tab="lotto" role="tab" aria-selected="false">
+    <svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>로또
+  </button>
 </nav>
 
-<main class="wrap">
+<main class="wrap" id="panels">
 
   <section class="panel" data-group="index">
-    <h2>주가지수</h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>주가지수</h2>
     <div class="grid" id="grid-index"></div>
   </section>
 
   <section class="panel" data-group="metal">
-    <h2>귀금속</h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg>귀금속</h2>
     <div class="grid" id="grid-metal"></div>
   </section>
 
   <section class="panel" data-group="fx">
-    <h2>환율</h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg>환율</h2>
     <div class="grid" id="grid-fx"></div>
   </section>
 
   <section class="panel" data-group="coin">
-    <h2>암호화폐 <span class="tag">업비트 KRW</span></h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg>암호화폐 <span class="tag">업비트 KRW</span></h2>
     <div class="grid" id="grid-coin"></div>
   </section>
 
   <section class="panel" data-group="gift">
-    <h2>상품권 매입 시세</h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>백화점 상품권 <span class="tag">자동 수집</span></h2>
+    <p class="note" id="dept-note"></p>
+
+    <div class="seg" id="face-seg" role="group" aria-label="액면가 선택"></div>
+
+    <div class="grid grid-gc" id="grid-dept"></div>
+
+    <details class="sources" id="dept-sources">
+      <summary>수집한 업체 사이트</summary>
+      <ul class="source-list"></ul>
+    </details>
+  </section>
+
+  <section class="panel" data-group="gift">
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>기타 상품권 <span class="tag">수동 입력</span></h2>
     <p class="note" id="gift-note"></p>
     <div class="table-scroll">
       <table class="tbl" id="tbl-gift">
@@ -61,7 +123,7 @@
   </section>
 
   <section class="panel" data-group="lotto">
-    <h2>로또 회차별 판매 규모</h2>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>로또 회차별 판매 규모</h2>
 
     <div class="lotto-head" id="lotto-head"></div>
 
@@ -87,7 +149,9 @@
         <tbody></tbody>
       </table>
     </div>
-    <button class="more" id="lotto-more" hidden>더 보기</button>
+    <button class="more" id="lotto-more" type="button" hidden>
+      <svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg>더 보기
+    </button>
   </section>
 
 </main>
