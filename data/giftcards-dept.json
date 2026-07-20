@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-20T14:43:58+09:00",
+  "updatedAt": "2026-07-20T14:56:01+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -23,8 +23,9 @@
       "name": "명인상품권",
       "site": "https://mingren.co.kr/",
       "url": "https://mingren.co.kr/sub1_1.php",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "파싱 결과 0건 — 페이지 구조가 바뀌었을 수 있습니다"
     }
   ],
   "items": [
@@ -255,102 +256,6 @@
       "buyRate": 5,
       "sell": 9700,
       "sellRate": 3
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "롯데",
-      "label": "롯데상품권(50만원)",
-      "face": 500000,
-      "method": null,
-      "buy": 481500,
-      "buyRate": 3.7,
-      "sell": 483250,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "롯데",
-      "label": "롯데상품권(10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96650,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "롯데",
-      "label": "롯데상품권(5만원)",
-      "face": 50000,
-      "method": null,
-      "buy": 48150,
-      "buyRate": 3.7,
-      "sell": 48325,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "신세계",
-      "label": "신세계상품권(50만원)",
-      "face": 500000,
-      "method": null,
-      "buy": 484500,
-      "buyRate": 3.1,
-      "sell": 486000,
-      "sellRate": 2.8
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "신세계",
-      "label": "신세계상품권(10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96900,
-      "buyRate": 3.1,
-      "sell": 97200,
-      "sellRate": 2.8
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "신세계",
-      "label": "신세계상품권(5만원)",
-      "face": 50000,
-      "method": null,
-      "buy": 48450,
-      "buyRate": 3.1,
-      "sell": 48600,
-      "sellRate": 2.8
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "현대",
-      "label": "현대상품권(10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 96800,
-      "sellRate": 3.2
-    },
-    {
-      "shopId": "mingren",
-      "shop": "명인상품권",
-      "card": "국민관광",
-      "label": "국민관광상품권상품권(10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96800,
-      "buyRate": 3.2,
-      "sell": 97100,
-      "sellRate": 2.9
     }
   ]
 }
