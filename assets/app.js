@@ -103,7 +103,7 @@ function renderShell() {
     'beforeend',
     `<footer class="site-footer wrap">
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체</p>
 </footer>`
   );
 

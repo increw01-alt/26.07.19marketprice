@@ -60,9 +60,14 @@ async function collectQuotes() {
       // 장중에는 meta.regularMarketPrice 가 마지막 일봉보다 최신입니다.
       const last = rows.at(-1);
       const price = Number.isFinite(meta?.regularMarketPrice) ? meta.regularMarketPrice : last.close;
-      const prevClose = Number.isFinite(meta?.chartPreviousClose)
-        ? meta.chartPreviousClose
-        : rows.at(-2).close;
+
+      // 전일 종가는 일봉 시계열에서 직접 뽑습니다.
+      // meta.chartPreviousClose 를 쓰면 안 됩니다 — 그 값은 "전일"이 아니라
+      // "요청한 range 직전"의 종가라서, range=3mo 에서는 3개월 전 값이 나옵니다.
+      // (실제로 코스피 -4.45% 인 날이 +4.78% 로 표시되는 부호 반전이 있었습니다.)
+      // 장중이면 rows.at(-1) 이 오늘의 미완성 봉이고 그 종가가 곧 regularMarketPrice 이므로,
+      // 장중·장마감 어느 쪽이든 직전 세션은 rows.at(-2) 입니다.
+      const prevClose = rows.at(-2).close;
 
       out.push({
         ...item,

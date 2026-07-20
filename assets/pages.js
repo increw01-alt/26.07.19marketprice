@@ -120,9 +120,16 @@ async function pageGiftcard() {
     });
     renderDept();
     setStatus(dept.updatedAt);
+  } else {
+    // allSettled 라 상위 .catch() 가 걸리지 않습니다.
+    // 여기서 직접 알리지 않으면 헤더가 "불러오는 중…" 에 영구히 남습니다.
+    console.error(d.reason);
+    $('#dept-note').textContent = '백화점 상품권 시세를 불러오지 못했습니다.';
+    setStatus(null);
   }
 
   if (manual.status === 'fulfilled') renderManualGift(manual.value);
+  else console.error(manual.reason);
 }
 
 function renderDept() {
