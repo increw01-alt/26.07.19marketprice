@@ -244,10 +244,18 @@ output {
   display: flex;
   gap: var(--space-sm);
   padding-block: var(--space-md);
-  overflow-x: auto;
-  scrollbar-width: none;
+  /* 넓은 화면: 여러 줄로 감싸 전부 보이게. 좁은 화면(아래 미디어쿼리):
+     한 줄 유지 + 가로 스크롤 (세로로 너무 길어지지 않도록). */
+  flex-wrap: wrap;
 }
-.tabs::-webkit-scrollbar { display: none; }
+@media (max-width: 640px) {
+  .tabs {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .tabs::-webkit-scrollbar { display: none; }
+}
 .tab {
   flex: 0 0 auto;
   display: inline-flex;
