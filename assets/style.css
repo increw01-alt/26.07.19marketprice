@@ -1041,6 +1041,13 @@ output {
   margin-bottom: var(--space-md);
   box-shadow: var(--shadow-sm);
 }
+.est-guide {
+  margin: var(--space-sm) 0 0;
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--color-muted-fg);
+}
+.est-guide strong { color: var(--color-accent); font-weight: 700; }
 .estimator label {
   display: block;
   font-size: 14px;

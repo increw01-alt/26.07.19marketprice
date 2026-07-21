@@ -54,6 +54,18 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   </div>
   <div class="lotto-head" id="lotto-head"></div>
 
+  <div class="estimator">
+    <label for="ppl">1인당 평균 구매 게임 수
+      <span class="hint">(추정 가정값 — 실제 구매자 수는 공개되지 않습니다)</span>
+    </label>
+    <p class="est-guide">로또 한 게임은 1,000원입니다. 1인당 <strong>10게임(1만원)</strong>씩 샀다고 가정하면 아래 슬라이더가 10, 5,000원이면 5입니다. 슬라이더를 움직여 가정을 바꿔보세요.</p>
+    <div class="estimator-row">
+      <input type="range" id="ppl" min="1" max="20" step="1" value="10">
+      <output id="ppl-out">10게임</output>
+    </div>
+    <p class="estimate" id="estimate"></p>
+  </div>
+
   <section class="panel" id="ai-picks">
     <h2><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>AI 로또 번호 추첨기 <span class="tag" id="picks-round">직접 뽑기</span></h2>
     <p class="note">모두의 시세가 여러분의 한 주에 작은 행운을 배달합니다. 아래 버튼을 누르면 이번 주 추천 5게임이 나와요 — 여기서 인생역전이 시작될지도 몰라요. 다만 로또는 재미로 즐길 때 가장 아름답습니다. 무리한 구입은 금물, 커피 한 잔 값 정도로 가볍게 즐겨주세요. 행운을 빕니다!</p>
@@ -87,17 +99,6 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       </table>
     </div>
   </section>
-
-  <div class="estimator">
-    <label for="ppl">1인당 평균 구매 게임 수
-      <span class="hint">(추정 가정값 — 실제 구매자 수는 공개되지 않습니다)</span>
-    </label>
-    <div class="estimator-row">
-      <input type="range" id="ppl" min="1" max="20" step="1" value="5">
-      <output id="ppl-out">5게임</output>
-    </div>
-    <p class="estimate" id="estimate"></p>
-  </div>
 
   <div class="table-scroll">
     <table class="tbl" id="tbl-lotto">
