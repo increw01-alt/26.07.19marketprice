@@ -128,9 +128,11 @@ Yahoo 차트 API 의 `meta.chartPreviousClose` 는 **전일 종가가 아니라 
 
 ## SEO
 
-- 대표 도메인은 **https://k-coin.kr** 입니다. `www.k-coin.kr` 과
-  `26-07-19marketprice.pages.dev` 는 `_redirects` 로 301 통합됩니다
-  (프리뷰 배포 `*.pages.dev` 서브도메인은 영향 없음).
+- 대표 도메인은 **https://k-coin.kr** 입니다. www·pages.dev 유입은 인라인
+  스크립트가 대표 도메인으로 보냅니다. Cloudflare Pages 의 `_redirects` 는
+  **호스트 기반 리다이렉트를 지원하지 않으므로**, 진짜 301 통합은 대시보드에서
+  걸어야 합니다: k-coin.kr 존 → Rules → Redirect Rules →
+  "호스트 www.k-coin.kr 이면 https://k-coin.kr 로 301, 경로 보존".
 - 페이지마다 canonical / Open Graph / Twitter 카드가 있고, 홈에는
   JSON-LD(WebSite)가 있습니다. OG 이미지는 `assets/og.png`.
 - `robots.txt` 는 전체 허용입니다. **`/data/ 를 절대 막지 마세요`** —

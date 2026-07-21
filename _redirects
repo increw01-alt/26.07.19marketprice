@@ -1,4 +1,0 @@
-# www 와 pages.dev 는 대표 도메인(k-coin.kr)으로 301 통합합니다.
-# 검색엔진이 같은 내용을 세 주소로 중복 수집하지 않게 하기 위함입니다.
-https://www.k-coin.kr/* https://k-coin.kr/:splat 301
-https://26-07-19marketprice.pages.dev/* https://k-coin.kr/:splat 301
