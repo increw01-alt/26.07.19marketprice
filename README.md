@@ -1,8 +1,8 @@
-# 종합 시세 사이트
+# 모두의 시세 — 대한민국 모든 시세 한눈에
 
 상품권 · 주가지수 · 귀금속 · 환율 · 암호화폐 · 로또 판매 규모를 메뉴별로 봅니다.
 
-<https://26-07-19marketprice.pages.dev>
+<https://k-coin.kr>
 
 빌드 도구가 없는 순수 정적 사이트입니다. GitHub Actions가 매시간 시세를 수집해
 `data/*.json` 으로 커밋하고, 브라우저는 그 JSON만 읽습니다.
@@ -148,9 +148,9 @@ Yahoo 차트 API 의 `meta.chartPreviousClose` 는 **전일 종가가 아니라 
 ## 배포 (Cloudflare Pages)
 
 이 저장소의 `main` 브랜치가 Cloudflare Pages 에 연결돼 있어 push 하면 자동 배포됩니다.
-빌드 명령 없이 저장소 루트를 그대로 서빙합니다. 커스텀 도메인은 추후 연결 예정.
+빌드 명령 없이 저장소 루트를 그대로 서빙합니다. 커스텀 도메인: k-coin.kr / www.k-coin.kr
 
-<https://26-07-19marketprice.pages.dev>
+<https://k-coin.kr> · <https://26-07-19marketprice.pages.dev>
 
 ### 데이터 경로가 절대경로인 이유
 

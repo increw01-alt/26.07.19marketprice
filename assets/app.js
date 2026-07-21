@@ -82,7 +82,7 @@ function renderShell() {
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html">
-      <span class="brand-mark">시세</span>
+      <span class="brand-mark">모두의 시세</span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
