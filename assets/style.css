@@ -967,6 +967,36 @@ output {
 .my-result.win-hi .mr-v { color: var(--color-accent); }
 .my-result .mr-m { font-size: 14px; color: var(--color-foreground); }
 
+/* 공개 당첨 피드 */
+#feed-list { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-md); }
+.feed-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+.feed-row.hi {
+  border-color: var(--color-accent);
+  background: color-mix(in srgb, var(--color-accent) 10%, var(--color-surface));
+}
+.feed-rank {
+  flex: 0 0 auto;
+  min-width: 52px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.feed-when { flex: 1 1 auto; font-size: 13px; color: var(--color-muted-fg); }
+.feed-round {
+  flex: 0 0 auto;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--color-muted-fg);
+}
+
 .balls-sm .ball { width: 24px; height: 24px; font-size: 11px; }
 
 .rank-hi { color: var(--color-accent); font-weight: 700; }

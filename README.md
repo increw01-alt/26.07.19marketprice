@@ -156,6 +156,32 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 로 계산하며, 1인당 평균 게임 수는 화면의 슬라이더로 직접 조정하는 **가정값**입니다.
 확정된 수치가 아니라 규모 감을 잡기 위한 추정치입니다.
 
+## 로또 당첨 공개 피드 (Cloudflare D1)
+
+방문자가 추첨기에서 뽑은 번호를 서버에 저장했다가, 추첨 후 자동 채점해
+"이 사이트에서 나온 당첨" 공개 피드를 보여줍니다. (방문자가 다시 오지
+않아도 결과가 남습니다.)
+
+- **백엔드**: Cloudflare Pages Functions + D1. 코드는 `functions/api/lotto/`,
+  스키마는 `schema.sql`.
+- `POST /api/lotto/pick` — 뽑은 번호 저장 (엄격 검증)
+- `GET /api/lotto/results` — 당첨(1~5등) 피드 + 통계. 읽을 때 미채점 건을
+  `lotto.json` 당첨번호로 채점(idempotent)합니다. 별도 크론/시크릿 불필요.
+- 프론트는 API 가 없으면(로컬 정적 서버 등) 피드를 조용히 숨깁니다.
+
+### D1 설정 (대시보드에서 1회)
+
+1. Cloudflare 대시보드 → **Storage & Databases → D1 → Create** →
+   이름 예: `modoosise`.
+2. 그 DB 의 **Console** 에 `schema.sql` 내용을 붙여 실행(테이블 생성).
+3. Pages 프로젝트 → **Settings → Functions → D1 database bindings** →
+   **Variable name = `DB`**, 위 데이터베이스 선택.
+4. 재배포하면 `env.DB` 로 연결됩니다. (Git 연동 배포는 대시보드 바인딩이
+   필수 — `wrangler.toml` 바인딩은 무시됩니다.)
+
+무료 한도(Workers Free): 요청 10만/일, D1 읽기 500만/일·쓰기 10만/일,
+저장 5GB. 초과해도 과금이 아니라 그날 제한만 걸립니다.
+
 ## SEO
 
 - 대표 도메인은 **https://modoosise.com** 입니다. www·pages.dev 유입은 인라인

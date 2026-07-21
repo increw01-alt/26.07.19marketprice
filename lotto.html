@@ -71,6 +71,12 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     <div class="pick-games" id="picks-mine"></div>
   </section>
 
+  <section class="panel" id="feed-sec" hidden>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>이 사이트에서 나온 당첨 <span class="tag" id="feed-stat"></span></h2>
+    <p class="note">모두의 시세 추첨기에서 방문자들이 뽑은 번호 중 실제로 당첨된 기록입니다. 추첨이 끝나면 자동으로 업데이트됩니다.</p>
+    <div id="feed-list"></div>
+  </section>
+
   <section class="panel" id="picks-history-sec" hidden>
     <h2><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>내 번호 성적 기록</h2>
     <p class="note">이 브라우저에서 뽑은 번호가 추첨 후 몇 등에 해당했는지 기록합니다. (내 기기에만 저장되며 다른 사람에게 보이지 않습니다)</p>

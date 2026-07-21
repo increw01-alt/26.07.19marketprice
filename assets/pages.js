@@ -724,18 +724,59 @@ function renderPicks() {
     genLabel.textContent = '다시 뽑기';
   }
 
-  // 3) 버튼 → 그 자리에서 5게임 생성 후 저장
+  // 3) 버튼 → 그 자리에서 5게임 생성 후 저장(브라우저) + 서버 기록(공개 피드용)
   genBtn.addEventListener('click', () => {
     const games = makeGames(freq, 5);
     writeLS(MY_KEY, { round: upcoming, games, savedAt: Date.now() });
     showMyGames(games, upcoming, mine, copyAll, true);
     genLabel.textContent = '다시 뽑기';
+    // 서버 저장은 실패해도 사용자 경험을 막지 않습니다 (fire-and-forget).
+    fetch('/api/lotto/pick', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ round: upcoming, games }),
+    }).catch(() => {});
   });
 
   bindCopy($('#ai-picks'));
 
-  // 4) 내 번호 성적 기록
+  // 4) 내 번호 성적 기록 (내 브라우저)
   renderMyHistory();
+
+  // 5) 이 사이트에서 나온 당첨 공개 피드 (서버)
+  renderFeed();
+}
+
+/** 서버의 공개 당첨 피드. 백엔드(D1)가 아직 없거나 결과가 없으면 섹션을 숨깁니다. */
+async function renderFeed() {
+  let data;
+  try {
+    const res = await fetch('/api/lotto/results');
+    if (!res.ok) return;
+    data = await res.json();
+  } catch {
+    return; // 로컬 정적 서버 등 API 가 없는 환경 — 조용히 넘어감
+  }
+  const list = data.results || [];
+  if (!list.length) return;
+
+  $('#feed-sec').hidden = false;
+  if (data.stats?.wins) {
+    $('#feed-stat').textContent = `누적 당첨 ${data.stats.wins.toLocaleString('ko-KR')}건`;
+  }
+  $('#feed-list').innerHTML = list
+    .map((r) => {
+      const d = new Date(r.at);
+      const when = `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}. ${d.getHours()}시 ${String(d.getMinutes()).padStart(2, '0')}분`;
+      const hi = r.best >= 1 && r.best <= 3;
+      return `<div class="feed-row${hi ? ' hi' : ''}">
+        <span class="feed-rank ${hi ? 'rank-hi' : 'rank-lo'}">${hi ? '🎉 ' : ''}${RANK_LABEL[r.best]}</span>
+        <span class="feed-when">${when}에 뽑은 번호</span>
+        <span class="balls balls-sm">${ballsHtml(r.sample)}</span>
+        <span class="feed-round">${r.round}회</span>
+      </div>`;
+    })
+    .join('');
 }
 
 function showMyGames(games, round, mine, copyAll, isNew) {
