@@ -559,23 +559,38 @@ function gameRow(nums, idx) {
   </div>`;
 }
 
-/** 클립보드 복사 (버튼에 잠깐 '복사됨' 표시) */
+/** 클립보드 복사 (버튼에 잠깐 '복사됨' 표시).
+ *  개별 복사 버튼과 '전체 복사' 버튼 모두 data-copy 를 가지므로 그걸로 매칭합니다. */
 function bindCopy(root) {
   root.addEventListener('click', async (e) => {
-    const btn = e.target.closest('.copy-btn');
-    if (!btn) return;
+    const btn = e.target.closest('[data-copy]');
+    if (!btn || !btn.dataset.copy) return;
     try {
       await navigator.clipboard.writeText(btn.dataset.copy);
-      const old = btn.innerHTML;
-      btn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>복사됨';
-      btn.classList.add('done');
-      setTimeout(() => {
-        btn.innerHTML = old;
-        btn.classList.remove('done');
-      }, 1200);
     } catch {
-      alert('복사에 실패했습니다. 번호: ' + btn.dataset.copy);
+      // clipboard API 가 막힌 환경(비보안 컨텍스트 등) 폴백
+      const ta = document.createElement('textarea');
+      ta.value = btn.dataset.copy;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+      } catch {
+        alert('복사에 실패했습니다. 번호: ' + btn.dataset.copy);
+        ta.remove();
+        return;
+      }
+      ta.remove();
     }
+    const old = btn.innerHTML;
+    btn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>복사됨';
+    btn.classList.add('done');
+    setTimeout(() => {
+      btn.innerHTML = old;
+      btn.classList.remove('done');
+    }, 1200);
   });
 }
 
