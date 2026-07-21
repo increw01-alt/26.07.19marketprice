@@ -126,6 +126,23 @@ Yahoo 차트 API 의 `meta.chartPreviousClose` 는 **전일 종가가 아니라 
 로 계산하며, 1인당 평균 게임 수는 화면의 슬라이더로 직접 조정하는 **가정값**입니다.
 확정된 수치가 아니라 규모 감을 잡기 위한 추정치입니다.
 
+## SEO
+
+- 대표 도메인은 **https://k-coin.kr** 입니다. `www.k-coin.kr` 과
+  `26-07-19marketprice.pages.dev` 는 `_redirects` 로 301 통합됩니다
+  (프리뷰 배포 `*.pages.dev` 서브도메인은 영향 없음).
+- 페이지마다 canonical / Open Graph / Twitter 카드가 있고, 홈에는
+  JSON-LD(WebSite)가 있습니다. OG 이미지는 `assets/og.png`.
+- `robots.txt` 는 전체 허용입니다. **`/data/ 를 절대 막지 마세요`** —
+  페이지 콘텐츠가 전부 `/data/*.json` fetch 로 그려지므로, 막으면
+  검색엔진이 렌더링한 화면이 빈 껍데기가 됩니다.
+- `sitemap.xml` 에 9개 페이지가 등록돼 있습니다. 페이지를 추가하면
+  sitemap 과 메타 주입을 함께 갱신하세요.
+- 서치콘솔 등록(사이트 소유 확인)은 콘솔에서 발급받은 메타 태그를
+  `index.html` 에 넣거나 Cloudflare DNS TXT 로 합니다:
+  [Google Search Console](https://search.google.com/search-console) ·
+  [네이버 서치어드바이저](https://searchadvisor.naver.com)
+
 ## 배포 (Cloudflare Pages)
 
 이 저장소의 `main` 브랜치가 Cloudflare Pages 에 연결돼 있어 push 하면 자동 배포됩니다.

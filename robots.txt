@@ -1,0 +1,6 @@
+# /data/ 를 막으면 안 됩니다 — 페이지 콘텐츠 전체가 /data/*.json 을
+# fetch 해서 그려지므로, 막으면 검색엔진이 렌더링한 화면이 비어 보입니다.
+User-agent: *
+Allow: /
+
+Sitemap: https://k-coin.kr/sitemap.xml
