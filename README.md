@@ -2,7 +2,7 @@
 
 상품권 · 주가지수 · 귀금속 · 환율 · 암호화폐 · 로또 판매 규모를 메뉴별로 봅니다.
 
-<https://k-coin.kr>
+<https://modoosise.com>
 
 빌드 도구가 없는 순수 정적 사이트입니다. GitHub Actions가 매시간 시세를 수집해
 `data/*.json` 으로 커밋하고, 브라우저는 그 JSON만 읽습니다.
@@ -144,11 +144,11 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 
 ## SEO
 
-- 대표 도메인은 **https://k-coin.kr** 입니다. www·pages.dev 유입은 인라인
+- 대표 도메인은 **https://modoosise.com** 입니다. www·pages.dev 유입은 인라인
   스크립트가 대표 도메인으로 보냅니다. Cloudflare Pages 의 `_redirects` 는
   **호스트 기반 리다이렉트를 지원하지 않으므로**, 진짜 301 통합은 대시보드에서
-  걸어야 합니다: k-coin.kr 존 → Rules → Redirect Rules →
-  "호스트 www.k-coin.kr 이면 https://k-coin.kr 로 301, 경로 보존".
+  걸어야 합니다: modoosise.com 존 → Rules → Redirect Rules →
+  "호스트 www.modoosise.com 이면 https://modoosise.com 로 301, 경로 보존".
 - 페이지마다 canonical / Open Graph / Twitter 카드가 있고, 홈에는
   JSON-LD(WebSite)가 있습니다. OG 이미지는 `assets/og.png`.
 - `robots.txt` 는 전체 허용입니다. **`/data/ 를 절대 막지 마세요`** —
@@ -164,9 +164,9 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 ## 배포 (Cloudflare Pages)
 
 이 저장소의 `main` 브랜치가 Cloudflare Pages 에 연결돼 있어 push 하면 자동 배포됩니다.
-빌드 명령 없이 저장소 루트를 그대로 서빙합니다. 커스텀 도메인: k-coin.kr / www.k-coin.kr
+빌드 명령 없이 저장소 루트를 그대로 서빙합니다. 커스텀 도메인: modoosise.com / www.modoosise.com
 
-<https://k-coin.kr> · <https://26-07-19marketprice.pages.dev>
+<https://modoosise.com> · <https://26-07-19marketprice.pages.dev>
 
 ### 데이터 경로가 절대경로인 이유
 
