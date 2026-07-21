@@ -207,9 +207,13 @@ function renderManualGift(data) {
 // ---------- 부동산 (지도) ----------
 let realestate = null; // /data/realestate.json (없으면 자리표시 유지)
 
-// 지도(kostat 2018)는 구 시도코드, 실거래 데이터는 현행 법정동코드를 씁니다.
-// 2023~2024 개편으로 바뀐 접두사만 잇습니다: 강원 42→51, 전북 45→52.
-const SIDO_ALIAS = { 42: '51', 45: '52' };
+// 지도(kostat 2018)는 구 시도코드를 쓰고, 실거래 데이터의 법정동코드는
+// 행정개편 때마다 바뀝니다(강원 42→51, 전북 45→52, 광주·전남 → 12 통합).
+// 접두사 매핑 대신 데이터 항목의 sido 이름으로 필터링합니다 —
+// 광주와 전남이 같은 코드(12)를 공유하게 되면서 접두사로는 구분할 수 없습니다.
+
+/** 2026-07-01 전남광주통합특별시 출범 — 지도에서는 두 지역을 계속 나눠 보여줍니다. */
+const UNIFIED_NOTE = { 광주: '전남광주통합특별시', 전남: '전남광주통합특별시' };
 
 async function pageRealestate() {
   const [mapRes, reRes] = await Promise.allSettled([
@@ -306,7 +310,8 @@ async function pageRealestate() {
 }
 
 function renderRegion(lawd, name) {
-  const head = `<div class="region-head"><h3>${name}</h3><span class="tag">아파트 매매 실거래가</span></div>`;
+  const unified = UNIFIED_NOTE[name] ? `<span class="tag">${UNIFIED_NOTE[name]}</span>` : '';
+  const head = `<div class="region-head"><h3>${name}</h3>${unified}<span class="tag">아파트 매매 실거래가</span></div>`;
 
   if (!realestate) {
     $('#region-panel').innerHTML =
@@ -314,9 +319,8 @@ function renderRegion(lawd, name) {
     return;
   }
 
-  const prefix = SIDO_ALIAS[lawd] || lawd;
   const rows = Object.entries(realestate.sgg)
-    .filter(([code]) => code.startsWith(prefix))
+    .filter(([, e]) => e.sido === name)
     .map(([code, e]) => ({ code, ...e }));
 
   if (!rows.length) {

@@ -127,9 +127,11 @@ for (const f of geo.features) {
   const polys =
     f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates;
 
-  // 각 폴리곤의 외곽 링만 사용 (구멍은 시도 단위에선 무시)
+  // 외곽 링과 구멍 링을 모두 유지합니다. 구멍을 버리면 광주(전남 안 월경지)처럼
+  // 다른 시도를 감싸는 도형이 그 지역 위를 덮어, 클릭이 위쪽 도형에 먹힙니다.
+  // fill-rule: evenodd 로 그리면 구멍이 실제로 뚫려 클릭이 아래로 통과합니다.
   const rings = polys
-    .map((p) => p[0])
+    .flat()
     .filter((r) => Array.isArray(r) && r.length > 3 && ringArea(r) >= MIN_AREA);
 
   if (!rings.length) continue;

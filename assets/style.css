@@ -387,6 +387,9 @@ output {
 .kmap { display: block; width: 100%; height: auto; overflow: visible; }
 .kmap-area {
   fill: var(--color-surface-2);
+  /* 월경지(전남 안의 광주 등)는 구멍 링으로 표현됩니다. evenodd 여야
+     구멍이 실제로 뚫려, 안쪽 시도가 보이고 클릭도 그쪽으로 갑니다. */
+  fill-rule: evenodd;
   stroke: var(--color-border);
   stroke-width: 1;
   cursor: pointer;
