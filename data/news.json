@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T22:28:05+09:00",
+  "updatedAt": "2026-07-22T00:40:24+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "삼성전기(009150)",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNcVBJVEpmYjFmcl9oWTlyRVRZUzNuRWVKSjh3VDBtMVlSRW5WdFNDYm92NThtQmVmcm5VVWp1MXZwUTFWRjRWV0Z5WWhhYWlEa3NTT2l3VktqM2tXV0xpamt2YXJwcWtSQVREVmFNMXd3QWpISks4NDBOb3FqakR4ZUdBU0l6MUNoMjZpaUhPOVlMeC1KVVlr?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-07-21T15:08:05.000Z"
+      },
+      {
         "title": "씨티, 韓 증시 '1만포인트' 전망 유지...\"코스피 50% 더 오른다\"",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45UDZRM2Y5QzNnOHJSWTZrOFVzd1l3a2xjZndGYkcySkRsVFIzWmtvZ3E0OUtJQ3Q5Rkk0QXRDZEJmcnFnOGhVMnhYWk9QcGh0akhQQjI0cjF1Y0JR?oc=5",
         "source": "뉴스핌",
@@ -77,48 +83,30 @@
         "date": "2026-07-21T08:19:29.000Z"
       },
       {
+        "title": "[0721마감체크] 코스피, 삼전닉스 반등에 6700선 회복",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBDSEN5UFZZd3pEOUd5cWZJU3dqWXo0aWlLam5rTDVEQjdUc2l3M0xnVHYzbm56a2FwOVhRMHJzdmw4TEtyM3dHWm4xWkNYUjBQbGUweW1nOE1MOWZDWHRsdVAyc242ZWM1ZVdmZFIzS29VblBWZEE?oc=5",
+        "source": "인포스탁데일리",
+        "date": "2026-07-21T08:16:10.000Z"
+      },
+      {
         "title": "JP모건 \"한국 증시 급락은 각종 레버리지 ETF 탓...적정 수준까지 75% 청산 완료\"",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS3JwUGxMdEdpd3lUSGZENHhZN1FmTl9URDYzS0drOWdHMUFyZU40dVlfSnFUS2licXJqV2JPTmNJOWZuWjV0R1IzdF9OM05CdFhzbXplUVk4QUp5aDNuQUtKUzg0UTVsU1hqRnVHbmFoUzhVb09wdk1ZamEtV0U2WA?oc=5",
         "source": "조선일보",
         "date": "2026-07-21T08:11:00.000Z"
       },
       {
-        "title": "7월 반도체 수출 역대 최대 기록에 코스피 반등 성공",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnUXRRTUNBTmlmS0kxdVdfd3QwSjdlT0R0TWczcG95ZjIwU3NRejJfdEZyT25RRmNZa3hXbm1rWUZnc1pmVmU1R3RSNlJBZTE3NkE?oc=5",
-        "source": "매일경제 마켓",
-        "date": "2026-07-21T08:06:49.000Z"
-      },
-      {
-        "title": "코스피 3.56% 급등 6747선 탈환",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DeXh5cW5xX3VsUkhKbUhEcXhkSHp0YzdkbklUUXhjcE4xclhwYmk0TF9Ia0h6U3JGMTZ6aHV6elJTRTlLUlNqSlEzVm1YdXQ5MnY5QmhfNGJFdEoxU2RyWkR2bjlXUVVtQmRJeXRR?oc=5",
-        "source": "더리포트",
-        "date": "2026-07-21T08:04:28.000Z"
-      },
-      {
-        "title": "한은 기준금리 인상·코스피 급락에 주식시장→ 은행 ‘머니무브’",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zbWRfRHlIZjVCN2NNUTl0SUFuN3FZbDFNVkZPWHhnYXFSNUpyb0laWml6QWpCWnA5eWstRDFIU0s4b0xzSnctb3hXLWJua0JLNTNpaS11WXo5WUt0dV9YWXBXU21ab1UwcmZn0gFvQVVfeXFMTUhzV0FlZExhb1cyWjZJNGJJSEd6MDBtUG5zTExYVkhjM2ZGM2RTVzRsUXZ3MENPXzhuY3FJZVdPYVFHTW9VRXpLY0FkV0R1YUZRR3F0NmVPbFYxZkowZGdOcGVhU216MTVjams1LTc0?oc=5",
-        "source": "자유일보",
-        "date": "2026-07-21T07:58:00.000Z"
+        "title": "[마감시황] 코스피, 외인·기관 매수세에 3거래일 만에 반등…6740선 마감",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBleUNEdGxjbWNNaDNWdWctUnpjM0xWeU85WTJnQmZzZEhVakJOSmRUOHB3cUExd3BUU3ZIMFFfUXVqRWViVEdYYjFHT0Y2QjdqeHVvcXQ1ZlJNWkVlaTVMbHhLLXplV3pIdVVFOGlhTlE?oc=5",
+        "source": "한양경제",
+        "date": "2026-07-21T08:10:40.000Z"
       }
     ],
     "kosdaq": [
-      {
-        "title": "넥스아이, 코스닥 상장예심 청구…기술특례 IPO 본격화",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYMWN2Znl0c3BsbjJrNmRKMFBBVF8zX240TEsyUDZtUzYwc3ZLNHhIbDNUSWVHZzRaNVFveElSOG1sNzhvZWYwYnZGSWxQMUd2dzNpNkJmNmhtYXAtRXZFeFAzVk15VFBNZmRYdXFB?oc=5",
-        "source": "팜이데일리",
-        "date": "2026-07-21T11:45:04.000Z"
-      },
       {
         "title": "코스닥 ETF 전부 마이너스…액티브도 전멸",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrdzhqLXZSYzdUa1kycnl0OXBJaWFONFRjV3BqWUJkd0FQWTBsa2xUY3NhYVNwaVYtNGx4dUlkT2tEZFpZQTRvaFpCOUZYclJ6?oc=5",
         "source": "블루밍비트",
         "date": "2026-07-21T11:18:05.000Z"
-      },
-      {
-        "title": "3000스닥은커녕 1000스닥도 요원 ‘백약이 무효’",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YNzQ3UXJWV3RkdjlDNG5QSEVkQWhDRFVOWkwyaDgyYzVYODdmMUNpdXUxeW5jSXVKZDRwdm1XeWMtdlVqa3VTc2JlQWFseXVYdUtHMGduR25QdFE5RWJGWUR2dzZLcXc?oc=5",
-        "source": "한겨레",
-        "date": "2026-07-21T10:42:00.000Z"
       },
       {
         "title": "“나락이 따로 없다” 믿기 힘든 ‘이 그래프’…답 안 나오는 코스닥 [투자360]",
@@ -149,20 +137,44 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uMFhMcGVZT1BoOGFaRV9SMzNrWkZtVnVCNzJjTlI1MlBvWFp0emlxLWdsaVdSQnZ6VUNNM2xOemNjU1lPRkhBMXZlTVdUcmNmWnd5VktfQ21RQQ?oc=5",
         "source": "파이낸셜뉴스",
         "date": "2026-07-21T09:16:22.000Z"
+      },
+      {
+        "title": "쏟아진 부양책에도 '천스닥'은 더 멀어졌다",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9va2NhMVZZaDIyV0syNnhEd0d2ZVRaa3F1YzZBYV9YeXpzZ3pwQ25sWjAyN1ZabWxNai1OZ0VBcUNyMzJsVEZfT2lCSnhKOHQ0b3lCd08wVU1hQQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-07-21T08:58:59.000Z"
+      },
+      {
+        "title": "코스닥 ETF 전부 마이너스…액티브도 전멸",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Fak5jUHFyRDFyNnNfYVV1aVpSeXJUdF91MFlUenRYbkVQekg2YXB4Tk9tV1NjYjhLVzNINmozNTJrcWpDT3N2QUNsX0VKVWxwTjZiVWNSR3RwUQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-07-21T08:58:36.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[사진] 원·달러 환율, 5원 내린 1473원",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9VR3NDMWNnTm14ZlFPY3lNQ3hkM00zTTNaNmdoSUZXVTFUVjRuclRtaTB1dmlEWjhPbGtyblpPb3lzbGw5VFlhTXpCcEQtUzRxeWZF?oc=5",
+        "source": "네이트",
+        "date": "2026-07-21T15:03:00.000Z"
+      },
+      {
+        "title": "SK하이닉스 ADR 환전 물량에 원/달러 환율 1,470원대 후퇴…원/엔은 1년 8개월 만에 최저",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1OSWJTZXhKUnNlSnZuUGNvOWFYNEFsTzNjZjZoOVhOdElfNTl1Sm5aUFlFV1NHMG9TU0N2TEVHdGlqN2dOeWZUOG9MTkRnTlExX003MGp0SWJESUQ1RW45ck9abEcwUVQtWERJ?oc=5",
+        "source": "일간투데이",
+        "date": "2026-07-21T14:52:38.000Z"
+      },
+      {
+        "title": "\"1560원 위협하더니 1470원대로\"…환율 급락의 숨은 주역은 SK하이닉스 By EBN",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TOGxaeWVGRXpIWHZEQnlMdU1WdUI3X09UVWNOZEFqLXZ0ZDVCa2p4UTNUelp1NmVVU0pVLTJlMm5IU1JqemNrMUxMNy01dHNkUk4zUktUWTE2ZnJTd0pUbVd2N1dCbjZhakNtUDQxZlQ?oc=5",
+        "source": "Investing.com 한국어",
+        "date": "2026-07-21T10:48:00.000Z"
+      },
       {
         "title": "환율, SK하이닉스 ADR·외국인 순매수에 6거래일 연속 하락",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYnQ5SHpJRldXSGpiR3NMUlRpa1hjUFRfZllwT21vVVY5UUV0UEI0WDAwYjBkdHBqZVc5RzNZUExTZVVxcDJ3QXd1YWFkdXl2cnJOYXVTSy1SRHRYblFmSkxYdHhGcDRnVlI5bGpkRHA5Y0V1LWtvdEl2VVA5MXpkdmZMMWY?oc=5",
         "source": "글로벌이코노믹",
         "date": "2026-07-21T09:43:31.000Z"
-      },
-      {
-        "title": "[외환] 원·달러 1473원 6거래일째 하락…하이닉스 ADR 효과",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15aE1kdEtKekw1ZW4zV1g4aGduWVc3dmRlUkVwUGtGWGg5SjFtOVN4T1FlQnljYy1NN2U3VGxBU0NVRl9RNHhCelpuWkh2X1l4RUJfSU1keVRmcWlKMjJzUjRrVjVoeWM?oc=5",
-        "source": "자본시장뉴스",
-        "date": "2026-07-21T09:15:37.000Z"
       },
       {
         "title": "'삼전·닉스' 급등에 코스피 3.6%↑...매수 사이드카도 발동",
@@ -187,21 +199,15 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBBT3QwSkV3TTBweUlIWG0wSjBZQzd0ZHczTTg0QlVEWTJwanRKdFhHTk1jcGp3alBnX2NHR2RXcWdWeFFTOFJBbzlnYUllQ0xjdEx6RQ?oc=5",
         "source": "JTBC",
         "date": "2026-07-21T08:06:00.000Z"
-      },
-      {
-        "title": "수출기업 환헤지·외국인 '사자'…원달러 환율 장중 1,471.1원까지 하락",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92WG8wbVpXNy04VVMwZ2FFazUzZkRGUV9oQWI1cDJZTnZQcjRENkRmb1BvRk5JOG5fLUNkX3BoV1ozQ3J1dFV1UUdyeGZyYzRzLV93?oc=5",
-        "source": "네이트",
-        "date": "2026-07-21T08:06:00.000Z"
-      },
-      {
-        "title": "\"1560원 위협하더니 1470원대로\"…환율 급락의 숨은 주역은 SK하이닉스 By EBN",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TOGxaeWVGRXpIWHZEQnlMdU1WdUI3X09UVWNOZEFqLXZ0ZDVCa2p4UTNUelp1NmVVU0pVLTJlMm5IU1JqemNrMUxMNy01dHNkUk4zUktUWTE2ZnJTd0pUbVd2N1dCbjZhakNtUDQxZlQ?oc=5",
-        "source": "Investing.com 한국어",
-        "date": "2026-07-21T07:47:38.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "오늘 금시세(금값) 추이는?…'중동 긴장 홍해까지 확산될 가능성도'",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVcS03ak1JaUxCZjQtVDZlV250QUVCQjQ1ejV2ZTFEeVhvZUNnUlJKeXNFbHNwc1dHbDNZeVBWNTRMNzlKd1BxY0kyWm9iM3lXcmdEbmltdGltemRSVEc4NG5XZFV3MzZH?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-07-21T15:05:00.000Z"
+      },
       {
         "title": "오늘 금값시세 7월 21일…순금 한 돈 83만9000원, 18K·14K는?",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RSmt1X01IYVJ3SS1lcVJIdjdGOTZPLXNGWnAxX1V2enZERVdWV2Y4R3UzcDRPSExOQUI0aFM1SWlpMm5odm9BUU5tT1RES2tPdXFaZWo5dkZxdWJ3QW9yZlF6Yld5UQ?oc=5",
@@ -242,13 +248,7 @@
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44N010WDhza0UwclBYUm9ralFwY2pTVExNVDRuLVpiMlpuekc3NVd2Yl9keDYwbWp5ckZacWNYdEVlVTN0QnNmcWpib3JXNWlKeTBz?oc=5",
         "source": "네이트",
-        "date": "2026-07-21T01:03:07.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값) 얼마?…미국, 이란 향한 공습 \"호르무즈 상선 공격 군사 능력 약화 위함\"",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fUmwzdmh5MUh6aTFnbEcwRWVhbHo5ZTRUQnF2b2ZkNk9xQzZsUGY2R2ZtMlR2SG4tWHV6YTVBVEdLU21wZ2dLVjdDX3JHMlFtZ2UxejF5dHJaYkszNjFVcXE0RER5VHBh?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-07-21T01:01:21.000Z"
+        "date": "2026-07-21T01:03:00.000Z"
       }
     ],
     "energy": [
@@ -263,6 +263,12 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91M3gzRGRicTZfUVA3d1ZuZUJHbzFtMmRsS2p0QjFiZ01UdUQ1cjlZZHBHR3F0b0VoNEZELWUzcHhpcS1pSXUzeEVQNXd4M0p5b3ZXR3Z2OU84bHdMZHhJV01JQk9IeUdhcXdDUFdLQTh0REU2TVRV?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-06-27T07:00:00.000Z"
+      },
+      {
+        "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-06-19T07:00:00.000Z"
       },
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
@@ -293,15 +299,15 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jZWEtb1RJRHlGRllKWEY3cDg0OWhBdkp5c0NtOXZhRFhMLXFGaXlLTFREZXc1TW43bzlER2tpVFhsSW5CWGswMTg4OWYtR2Z0d2plZDFRd0piNWxmTldTNjZoMUF4OXRr?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-06-10T07:00:00.000Z"
-      },
-      {
-        "title": "[원자재 시황] 금값 하락세 전환…WTI 다시 90달러 돌파",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrNHhwUzF0Unc0RGdHaVlpcHpmcHZjV3dxX2UxSWt6bEk0M1ZBYWEtenlyQjdEX21IZFFzQUs0bml3X0NVM2hkcjA0R0ZsNlo0ck5kUkZBU3o1eGNDQzQ3V2E0clh1MWl6?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-06-02T07:00:00.000Z"
       }
     ],
     "macro": [
+      {
+        "title": "[7월 셋째 주 세계경제동향 브리핑] 코스피 6,800선까지 밀려…한미 증시 동반 조정",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RZHFEZmJlTW5HTzhTUzNReXdjdmk1S0NkVUljRlZVcXdidkhNVjhwZEQ3OW16WXVvU0R0bndEeXZyMlI5NkJXb3JqbXpMalRMTTFIQUk1S0hrS3d5OElOa0ZZSTF6M25IcHJuemZFcw?oc=5",
+        "source": "기호일보",
+        "date": "2026-07-18T02:04:06.000Z"
+      },
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iUEF2SWEtbHhZMmJ3Y1FVMC1WQktnSEI3TV9teEhEWVFSNVNIV3pCN3ZVR24wa2VVR3VJU1hoeXota1lHcVlPQTNQdXl0cGlTdGY2MldLRFFpZlQ4c0IzRw?oc=5",
         "source": "KB Think",
         "date": "2026-06-28T23:02:11.000Z"
-      },
-      {
-        "title": "금리·환율 보기 전에 '분리수거장' 가보세요…'이것' 보면 경제 흐름이 보입니다",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
-        "source": "위키트리",
-        "date": "2026-06-18T07:00:00.000Z"
       }
     ],
     "giftcard": [
