@@ -515,6 +515,22 @@ async function pageLotto() {
     shown += 20;
     renderLottoTable();
   });
+
+  // 회차 행 클릭·키보드로 당첨번호 펼치기
+  const tbody = $('#tbl-lotto tbody');
+  tbody.addEventListener('click', (e) => {
+    const tr = e.target.closest('.lotto-row');
+    if (tr) toggleLottoRow(tr);
+  });
+  tbody.addEventListener('keydown', (e) => {
+    if (e.key !== 'Enter' && e.key !== ' ') return;
+    const tr = e.target.closest('.lotto-row');
+    if (tr) {
+      e.preventDefault();
+      toggleLottoRow(tr);
+    }
+  });
+
   setStatus(data.updatedAt);
 }
 
@@ -678,7 +694,7 @@ function renderLottoHead() {
     <div class="stat" style="--i:0">
       <div class="k">최신 회차</div><div class="v">${r.round}회</div>
       <div class="balls">
-        ${r.numbers.map((n) => `<span class="ball">${n}</span>`).join('')}
+        ${ballsHtml(r.numbers)}
         <span class="ball bonus" title="보너스 번호">${r.bonus}</span>
       </div>
     </div>
@@ -706,8 +722,8 @@ function renderLottoTable() {
   $('#tbl-lotto tbody').innerHTML = lotto
     .slice(0, shown)
     .map(
-      (r) => `<tr>
-      <td class="num">${r.round}</td><td>${r.date}</td>
+      (r) => `<tr class="lotto-row" data-round="${r.round}" tabindex="0" role="button" aria-expanded="false" aria-label="${r.round}회 당첨번호 보기">
+      <td class="num"><span class="row-caret">▸</span>${r.round}</td><td>${r.date}</td>
       <td class="num">${r.games.toLocaleString('ko-KR')}</td>
       <td class="num">${(r.sales / 1e8).toFixed(0)}억원</td>
       <td class="num">${Math.round(r.games / g).toLocaleString('ko-KR')}명</td>
@@ -717,6 +733,39 @@ function renderLottoTable() {
     )
     .join('');
   $('#lotto-more').hidden = shown >= lotto.length;
+}
+
+/** 회차 행 클릭 → 그 아래에 당첨번호 행을 토글합니다. */
+function toggleLottoRow(tr) {
+  const round = Number(tr.dataset.round);
+  const next = tr.nextElementSibling;
+  // 이미 펼쳐져 있으면 접기
+  if (next && next.classList.contains('lotto-detail')) {
+    next.remove();
+    tr.setAttribute('aria-expanded', 'false');
+    tr.querySelector('.row-caret').textContent = '▸';
+    return;
+  }
+  // 다른 열린 행은 닫기 (한 번에 하나만)
+  $$('.lotto-detail').forEach((d) => d.remove());
+  $$('.lotto-row').forEach((t) => {
+    t.setAttribute('aria-expanded', 'false');
+    t.querySelector('.row-caret').textContent = '▸';
+  });
+
+  const r = lotto.find((x) => x.round === round);
+  if (!r) return;
+  const detail = document.createElement('tr');
+  detail.className = 'lotto-detail';
+  detail.innerHTML = `<td colspan="7">
+    <div class="detail-box">
+      <span class="detail-label">${r.round}회 당첨번호</span>
+      <span class="balls">${ballsHtml(r.numbers)}<span class="ball plus">+</span><span class="ball bonus" title="보너스 번호">${r.bonus}</span></span>
+    </div>
+  </td>`;
+  tr.after(detail);
+  tr.setAttribute('aria-expanded', 'true');
+  tr.querySelector('.row-caret').textContent = '▾';
 }
 
 // ---------- 관련 뉴스 ----------

@@ -938,6 +938,37 @@ output {
 .rank-hi { color: var(--color-accent); font-weight: 700; }
 .rank-lo { color: var(--color-foreground); font-weight: 600; }
 
+/* ---------- 로또 회차 표 펼치기 ---------- */
+.lotto-row { cursor: pointer; }
+.lotto-row:hover { background: var(--color-surface-2); }
+.lotto-row:focus-visible { outline: 2px solid var(--color-ring); outline-offset: -2px; }
+.row-caret {
+  display: inline-block;
+  width: 1em;
+  margin-right: 4px;
+  color: var(--color-muted-fg);
+  font-size: 11px;
+}
+.lotto-row[aria-expanded="true"] { background: var(--color-surface-2); }
+.lotto-detail > td { padding: 0 !important; background: var(--color-surface-2); }
+.detail-box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm) var(--space-md);
+  padding: 12px var(--space-md);
+}
+.detail-label {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-muted-fg);
+}
+.ball.plus {
+  background: transparent;
+  color: var(--color-muted-fg);
+  font-weight: 700;
+}
+
 .estimator {
   background: var(--color-surface);
   border: 1px solid var(--color-border);
