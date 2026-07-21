@@ -304,6 +304,13 @@ async function pageRealestate() {
     renderRegion(lawd, name);
   };
 
+  // 지도 밖(빈 영역)을 클릭하면 전국 요약으로 돌아갑니다.
+  const showNation = () => {
+    $$('.kmap-area').forEach((a) => a.classList.remove('is-on'));
+    $$('.kmap-label').forEach((t) => t.classList.remove('is-on'));
+    renderNation();
+  };
+
   const ZOOM = 1.18;
 
   /**
@@ -337,6 +344,7 @@ async function pageRealestate() {
   root.addEventListener('click', (e) => {
     const a = e.target.closest('.kmap-area, .kmap-label');
     if (a) select(a.dataset.lawd, a.dataset.name);
+    else showNation(); // 지도 여백 클릭 → 전국
   });
   root.addEventListener('focusin', (e) => {
     const a = e.target.closest('.kmap-area');
@@ -352,9 +360,69 @@ async function pageRealestate() {
     }
   });
 
-  select('11', '서울');
+  // 처음엔 지역 선택 없이 전국 평균을 보여줍니다.
+  renderNation();
   if (realestate) setStatus(realestate.updatedAt);
   else setStatus(null, '부동산 실거래가 데이터가 아직 수집되지 않았습니다');
+}
+
+/** 지역 미선택 시: 전국 시도별 요약 표 + 전국 평균 */
+function renderNation() {
+  const head = `<div class="region-head"><h3>전국</h3><span class="tag">아파트 매매 실거래가</span></div>`;
+  if (!realestate) {
+    $('#region-panel').innerHTML =
+      head + `<p class="empty">첫 수집이 아직 실행되지 않았습니다. 잠시 후 다시 확인해 주세요.</p>`;
+    return;
+  }
+
+  const months = realestate.months;
+  const ym = months.at(-2) || months.at(-1);
+  const ymLabel = `${ym.slice(0, 4)}.${ym.slice(4)}`;
+
+  // 시도별로 거래건수·가중평균단가를 집계합니다.
+  const bySido = new Map();
+  for (const e of Object.values(realestate.sgg)) {
+    const cur = e.m[ym] || { n: 0, pm2: null };
+    if (!bySido.has(e.sido)) bySido.set(e.sido, { sido: e.sido, n: 0, wSum: 0 });
+    const s = bySido.get(e.sido);
+    s.n += cur.n;
+    s.wSum += (cur.pm2 ?? 0) * cur.n;
+  }
+  const sidos = [...bySido.values()]
+    .map((s) => ({ ...s, pm2: s.n ? s.wSum / s.n : null }))
+    .sort((a, b) => (b.pm2 ?? -1) - (a.pm2 ?? -1));
+
+  const totalN = sidos.reduce((s, r) => s + r.n, 0);
+  const totalW = sidos.reduce((s, r) => s + (r.pm2 ?? 0) * r.n, 0);
+  const avgPm2 = totalN ? totalW / totalN : null;
+
+  $('#region-panel').innerHTML = `
+    ${head}
+    <div class="lotto-head">
+      <div class="stat"><div class="k">기준 월</div><div class="v">${ymLabel}</div></div>
+      <div class="stat"><div class="k">전국 거래 건수</div><div class="v">${totalN.toLocaleString('ko-KR')}건</div></div>
+      <div class="stat"><div class="k">전국 ㎡당 평균</div><div class="v">${avgPm2 ? num(avgPm2, 0) + '만원' : '—'}</div></div>
+    </div>
+    <p class="note" style="margin-top:0">지도에서 지역을 클릭하면 해당 시·도의 시군구별 시세를 볼 수 있습니다.</p>
+    <div class="table-scroll">
+      <table class="tbl">
+        <thead><tr><th>시·도</th><th class="num">㎡당 단가</th><th class="num">거래 건수</th></tr></thead>
+        <tbody>
+          ${sidos
+            .map(
+              (r) => `<tr>
+            <td>${r.sido}</td>
+            <td class="num">${r.pm2 != null ? num(r.pm2, 0) + '만원' : '<span class="flat">—</span>'}</td>
+            <td class="num">${r.n.toLocaleString('ko-KR')}</td>
+          </tr>`
+            )
+            .join('')}
+        </tbody>
+      </table>
+    </div>
+    <p class="note" style="margin-top:10px">
+      실거래 신고는 계약 후 30일 이내라 최근 달은 잠정치입니다. 해제된 거래는 제외했습니다.
+    </p>`;
 }
 
 function renderRegion(lawd, name) {
