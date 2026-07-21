@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T11:22:20+09:00",
+  "updatedAt": "2026-07-21T12:03:25+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,36 @@
     ],
     "stock": [
       {
+        "title": "코스피 공포지수 두달째 ‘평균 80대’ … 미국의 4.7배",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEdFd6UTg5eHI1eW5wRWttRDVUbVlrdFR3TjRMOTVvR3lUbGRqMlExcC1DdlZ4V0FsQUF4LVByQ1JiQlIzaW9SX0RteDBza2dL?oc=5",
+        "source": "문화일보",
+        "date": "2026-07-21T02:46:57.000Z"
+      },
+      {
+        "title": "‘코스피 재반등 전망 나왔다, 언제?’…IBK증권 “외국인 단기 과매도”",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Rd1p6Sjdlc3kxSlhFOXdUUWY5ZnZvd1BmazhIbDFjUkhTbUJ0UVRPNTNES21ja0IxLWNDQm5KMFRBdFo1NHJRZkdMd3IzTDUw?oc=5",
+        "source": "문화일보",
+        "date": "2026-07-21T02:39:04.000Z"
+      },
+      {
+        "title": "[이슈]코스피 한 달 새 28% 급락…주요국 증시 가운데 낙폭 '최대'",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5iaEpvRWlDeVNtQk1CaVhpb1lKczBsR3poMUw4MzY3TUk4SW1kYVl6TkpOWV95bGJEaXZ1aGdGdnN2WWFJN3UycDdKMUkweUQ3STRaLWxQRVBoZ0FKVV9wTlFqZVhvU09lZ2xWdHNB0gFyQVVfeXFMTUlXbnhpcThnbEF6Zkg4bkFob2I5Qk1hblozVDJFRHNJaG5ZdHdURUNMU2tsb0NfRXcwc2xyZW9QTEZXNU9yUldjZ0NkMEtFM0JpVGxjRHRSa1lGRUpWcWF0eWlWenpsQi1EZWJ1ekZKY1B3?oc=5",
+        "source": "폴리뉴스 Polinews",
+        "date": "2026-07-21T02:28:33.000Z"
+      },
+      {
+        "title": "'1만 간다'던 코스피 추락…투자심리 '포모'에서 '조모'로",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFA4ODJUTGk3TFgxYXdheGNVdk53cDkyMTdVNXpOUWRwTUROQ0FETDFDWE8wdDNUdm9ScjJDR0JRUWFaTGJFRFhxbGluZkJQV3pYczh4V3haSHFoOWZhajlKTWl3SERCV1g5UTNz0gFvQVVfeXFMTlJTd1pkcjc3TUJLWmh5RVBhOVlYQnh4Yk1lYzBsVEpVbnlwWGlIYTJScnBVMHBiQVMzSHVmX3RYRENjUldQbVdLeTVTdTdDM1JxNXZKcXVNRFlCaFVidVRFaVpJNktJZDRKQ0dhUVNn?oc=5",
+        "source": "더퍼블릭",
+        "date": "2026-07-21T02:25:52.000Z"
+      },
+      {
+        "title": "미국 멀쩡한데 코스피 -28%…주요국 하락 1위 왜?",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZDZ6cFhwcFdPcEdoZGJ5MzhSSnBPU0RxcWdXMlo3Ukx5cXpFZ3k3UGRJejA1N0UwWl90aHNjSENkZWNfVWFqd0RIZFVHanBSOWhlWloxQm8xaERWVEtia9IBeEFVX3lxTE11MDFaanFEMjBXeUZ2akhWMjgxZXZpWElNZWNGWF9EMWI3WXI3YjdlZUQ4N0lsc0duRlNkTlBJVWVSNmJGWWFoYVRsQTlieEpCN1l4cHFFdE15M0N1a2VzWFhiWVFGOVFZU0V3cFRzZU1nUkJFVExMNg?oc=5",
+        "source": "뉴시스",
+        "date": "2026-07-21T02:17:27.000Z"
+      },
+      {
         "title": "\"김대리, 삼전닉스 주식 몰빵했다며?\"…코스피 폭락에 '포모'가 '조모'로",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uVXpER1llQ2N0aVFUeDlFSHBBVTZ5cy02MkVtbEh1MkgyTHlkV0lBU0Fpck9jbVJob3B2dlRRazNqZFJJYkc0cTFPSUdybFFGbkF1T3FKS3E4NGo1aVk1Rw?oc=5",
         "source": "아시아경제",
@@ -69,50 +99,20 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1wVk9uRTRxYVZqc3hfNkpXamd4Z0RWN2ZhNXlsLXBRSE9RQlRlNVZ6Q216eWVUSmx1T1FMOExpV3lYc3lLWWhKb3lxZkNFNVhOM0txNC13?oc=5",
         "source": "지디넷코리아",
         "date": "2026-07-21T01:46:58.000Z"
-      },
-      {
-        "title": "\"지금 가격이면 사야지\"...코스피 저가 매수세 유입에 3%대 상승",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQllicDI0WUgtQUVZNFdybEdzd2U0VVp4U25Lcjg5Z3pUUU1ESXhGTGxnTFNGVEN2Njh1clhJcmQ4RnRyWGVXWHRKQlB5ZHZic1M5Sm5pMFBJdzBSSkRGVEtlRUd3ZFJOOVlmaHpBaG1fV1BSbzFSWVdkWGszRWhiOA?oc=5",
-        "source": "조선일보",
-        "date": "2026-07-21T01:45:00.000Z"
-      },
-      {
-        "title": "코스피 장중 '저가 매수세 유입' 2%대 상승 6650선, 코스닥은 3거래일째 하락",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LbXVidlRxRU5ITHMwQ3l3Um1lX0VOV2RkemJOamVwZ0M0SURDYkVYVDlhbHZpenlhbnY0c0QteU5wMWFhOWVsaGZqdjZUXzZkVE10aWNLQlEyVVpWVkYwY0hxWFB3ZlhrQTJRZDNFVkhuY1U?oc=5",
-        "source": "비즈니스포스트",
-        "date": "2026-07-21T01:35:15.000Z"
-      },
-      {
-        "title": "[증시타임] 코스피 급락 진단…6,000선 바닥론은? · 시장 영향은?",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9XenVQMDhZTlkyR0toZVFxdWJhNmx5T0JlSnFlT3QzMHJBdmVuWGZNRk91bFhUUzd4Q2NfVkZZTTM2bjEyak1tS0o4QTNzTUVKU0s3TFl6VTdnWnVM?oc=5",
-        "source": "supple.kr",
-        "date": "2026-07-21T01:23:02.000Z"
-      },
-      {
-        "title": "\"너무 심하게 빠졌나\"…반발 매수에 코스피 2%대 반등",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3bGctc1J0dlF2MDZIQTdCUWZRMlJhWExqMFlDV3F0WWRvZWdzbjFTTmxMRkVuQlVPMkhMa3VrSm5IRGdLcjJ3a3NfOGVmMHVwRXFV?oc=5",
-        "source": "네이트",
-        "date": "2026-07-21T01:23:00.000Z"
-      },
-      {
-        "title": "코스피, 상승 출발 뒤 6,500선 하회…외국인·기관 동반 매도",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00ZUd0VzRGeHJsdVZqSUZBd18yTGEyeXlnYUZHTzdnWlJKazFFVHA4X1FMWWlDaTk1TTdxS3RWalp0dy1rVHFqekJicG5IeWxrYklKeDlraVhWZVFiQ1piN1FsVU56RE5ndldkUnVQX2HSAXRBVV95cUxPeUp0dE5UcUVhb3FOY25lUFEybzFYbUFiakFUbWhzN3ZIRkZqUzc4U0F2X0FiQ3NEaTNsWFhWOG9MYzVUejlfS1o3SEhvSGI2cnlScGNvT0gyR2NZTllTNGNQQXI2T3FUZ2VhOW8xci15ZE54Yg?oc=5",
-        "source": "산경투데이",
-        "date": "2026-07-21T01:21:54.000Z"
       }
     ],
     "kosdaq": [
       {
-        "title": "코스피보단 '코스닥 1등'…알테오젠이 잔류 택한 이유",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBIcWZZelJheGV0T2pqZkR0aTRhYzh4SmVyTkNoM1pnZm1lN0I4a1c3SGpPN3F0dFFZbGNGZzFyNVBJLWRpLTh3NHN4ak5IZHM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-07-21T02:15:27.000Z"
+        "title": "‘백약이 무효’…코스닥 부양책 무용지물",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5XeWloUl9jdHpldWlkQk0xY3p5MURPT2UtQUJDQUc0OUUyQkVRMlRGU3FQbXMtdHJXR21DZGdTSUh5akFhT2Y2bmtsSmFfNWo0THd1YmVR?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-07-21T02:44:06.000Z"
       },
       {
-        "title": "‘백약이 무효’…코스닥 부양책 무용지물",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WUVuRFQxTUxUZ3NZVU1QUVktckpTdnBOSHhDSXZnTlIzN3ZzNHBiWkptWjdEOFMxTnRXZkpMTGtoNDdYeFBDOWFwVWpDTXVpT19Md2tR?oc=5",
-        "source": "헤럴드경제",
-        "date": "2026-07-21T02:08:19.000Z"
+        "title": "ACE K바이오코스닥액티브 상장…기술수출·임상 선별 투자",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53czR5V1J6ZWpxQzRkYU1lWGk5dWFvTFg4NkRCY1g2VFZvX2hJbFlPQWNZckJhYVVtZkNhRlhmb0Vac3RkcVdNd1U1QTVrc05WT3FUbXNmbzdYQQ?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-07-21T02:32:59.000Z"
       },
       {
         "title": "급락장에 코스닥 상폐 위기 기업 '우수수'…\"시총 기준 보완해야\"",
@@ -125,6 +125,12 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5CdmFydHQxb2Q1VWRuWEtmRnZ4YjJBZFNHWlpDbHQzeHdEZjU5U2dvVm5XRVJabkl2dFZiWTNJR3dJcVBUU042MWc5RHllTFk?oc=5",
         "source": "v.daum.net",
         "date": "2026-07-21T01:53:30.000Z"
+      },
+      {
+        "title": "52주 최저가 코스닥…석달 새 시총 260조 증발",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNVndSNy05MmVkSU9rdjFYUHVXVTJfcDdkQ3Y2X0YyMUFpcHJwRFlfY2dFLXAyMVN3aGRwdDZkX25WSlNienhCeTI4VkF3SkhVb21tQ0NCMlk1TzFsd2NQR3Z0dlI2bmp3bG5RYjhWVU1hVUQ4a0HSAWZBVV95cUxNNlB0YnUxV2RyYjVlaWE0dFZ3UTViVkpheUFRU0dJUU8tQlgyZW90S2RQMXZaM0hLVElPZ1VsNUtiZnlBclhielRUMkNYOWlnMnlHSWdBdGhucWtiZjg2Yld1WWhGVHc?oc=5",
+        "source": "동아일보",
+        "date": "2026-07-21T01:49:28.000Z"
       },
       {
         "title": "“혁신기업 젖줄 댄다”… KB국민은행, 코스닥협회 손잡고 ‘생산적금융’ 총력전",
@@ -143,15 +149,21 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1lbndGaWY4eEpudDhuaW95NzB6SGFITzdtYWgwSXlFQ3p4eHRYUC1fUE9tV25oUlRWM0ItTGNPYnpibWZfRTdpNkV3MGNNLXk3eFdEMGdveV9ROWdKcUw3VGpBbVkzVWhoYVpSOWZGX0w?oc=5",
         "source": "연합인포맥스",
         "date": "2026-07-21T01:36:35.000Z"
-      },
-      {
-        "title": "코스피 장중 '저가 매수세 유입' 2%대 상승 6650선, 코스닥은 3거래일째 하락",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5LbXVidlRxRU5ITHMwQ3l3Um1lX0VOV2RkemJOamVwZ0M0SURDYkVYVDlhbHZpenlhbnY0c0QteU5wMWFhOWVsaGZqdjZUXzZkVE10aWNLQlEyVVpWVkYwY0hxWFB3ZlhrQTJRZDNFVkhuY1U?oc=5",
-        "source": "비즈니스포스트",
-        "date": "2026-07-21T01:35:15.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[외환] 달러-원 1,470원대 후반 등락…저가 매수에 반등 시도",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE55MUhJaFg2WDJfMmJuT0RNTnJXcDVsemJzVjVxU0wzY0RlUU1fOG94b1JEQ3ViOW9HSjc2U2ZpQTNtS0VOTkZ3X0hiNzFvXzAtS3FYeUNaTUkwLXJ2YWpUZnM4MGFEbXFwVGR3ZGIwRV_SAXRBVV95cUxObV9kVWtZc1pBR0pwRmdBREZiM3A1MzM2Wm16UjRqT1NfN09wX1JUZkhLTVZJT3ZtNUxEeFFrc29oRm5aLVVGZEh5NVU0SmNwQ25rdTJKNDdTWE9NRUNsTWFQZ3pqSzBfU1VuWHNHMjNtZGItcQ?oc=5",
+        "source": "연합인포맥스",
+        "date": "2026-07-21T02:35:01.000Z"
+      },
+      {
+        "title": "[외환] 양방향 재료에 1,470원 후반대 유지",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9qT1NTMmwyTFc1VUFJUUxXbW5MRm9kRlpQYzM1VUtwako5WHZjR3hFT2YzTk1ldU9pZHNGRVZfTXBFZ1RXdDV4RUFYUENWNzNhTE53aExYT2NwcGM2QXRBLTdDMlYzTkNSNGJ3bUlHSFVmUQ?oc=5",
+        "source": "KB Think",
+        "date": "2026-07-21T02:18:26.000Z"
+      },
       {
         "title": "환율, 1470원대 진입…변수 남았지만 1400원 중반대 안착 전망",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBpSXlKckJDUjJpM2VmUHd3a1lFaTgyV3RYRWlrck5xcUYwSlVWZjZzTHh6MjNSR2E4cGk3WnRWOWFlbmk2ZHdwekdJaml3Ty05VFg4?oc=5",
@@ -187,18 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xNFpVZnV4LVFBTkpXTUJMNm1rRUc3b1Iwcmc4R0pYRHd3ODV5bG9kbkxlZ0VyODk5NV9wcmZDZHZTNjVlZ3NYc1pLbWVjSlVXQlpn?oc=5",
         "source": "네이트",
         "date": "2026-07-21T00:50:00.000Z"
-      },
-      {
-        "title": "[외환] 달러-원 1,470원대 후반 등락…저가 매수에 반등 시도",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE84cjlwbDViQTlPQWtFaXRJdS1iUTlERVk0OE1SZ0ozcVhKdHRNbEZBR3dVeVhSSVE4TjlpdjlSbHRsWUIwTFo2a1B0c1llRkJxSkZqX2NycHVmc3FEc0ZuQkxDZTNXLUI3NHo2OXRIWFNyUQ?oc=5",
-        "source": "KB Think",
-        "date": "2026-07-21T00:35:00.000Z"
-      },
-      {
-        "title": "주유소 기름값 소폭 하락…오늘 주유하면 얼마 아낄까",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zajBmVUo5M3pVcWZnTzFzaXpyTnpVNHpCZ0hMeS0tTTh3Xy1FeUlDMG5lYU9fc09pdGJRcjlqRl9iSXBYUmtHVE5VLWRHcEs4SmxKMkNn?oc=5",
-        "source": "위키트리",
-        "date": "2026-07-21T00:33:00.000Z"
       }
     ],
     "metal": [
@@ -404,9 +404,9 @@
     "realestate": [
       {
         "title": "초고가 아파트, 거래 소폭 줄었지만 잇단 신고가",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5zSk5QRnJNSzAwbngtTUlWUElJSGc5T19kR19EajkwV2hGTmxBMURjX0RpN1lxTndHSnowRThlMllxMnBuM2FJS3ZVQkkxYWF2enA5RGl0cWVHVEhXVXJXSg?oc=5",
-        "source": "네이트",
-        "date": "2026-07-21T02:11:00.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE00Sk1scG1RRzdfSmVXRlVSWUU4dXpuZjZSc05CdjVMLUJ0ZFRobHRxbTU1TFFXSWoxQ05lMkEyOG1TQlpDTlRoNXBhRXRKZ0RXd1dXbXBB?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-07-21T02:10:41.000Z"
       },
       {
         "title": "[서울아파트거래] '재건축 이주 추진' 여의도 대교 전용 133.65㎡에 거래",
@@ -453,6 +453,12 @@
     ],
     "lotto": [
       {
+        "title": "토요일 로또 판매마감시간 학습을 위한 최고의 자료와 도구 - 최신 트렌드",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0b3B0S3Bva1VmUkJTM2F1MmdHZlNKMjhPd0JEWkFjeGlnSTNsdmVsN2lVT0QyR0ZRcUk2Qi16cC1zYVlpSHFwcU5GRnUyOWgyc2twNVpJaFV1VS1LOFAxVG4xUjdFdw?oc=5",
+        "source": "les24heures.fr",
+        "date": "2026-07-20T17:22:34.000Z"
+      },
+      {
         "title": "이번주로또당첨번호 을 최대한 활용하는 방법: 실용적인 팁과 전략",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SSUlVd0xIWXZlZUwwTmtEa0JkY2MtbC12S0JpNU1uWENzVVJPTmlvMmdZM0ZFR0M4WnRJWkJZU0I5VXROOFg0UndPUm45S0VXa0tKSXl6WQ?oc=5",
         "source": "les24heures.fr",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOLTJ4ZWoyaGlZZlc0VUNhSmFXZnB1Z21fQVY1QUFTYkIxYTJZVDZZQlh4c0ZkMmNZekNOWkRBXzBKLWtQUG9Pcmk0aU1SN18yeEVmNkFLT1ZPQld0eGhkUXJwa251X0NZUHdaZEFSSWRCcjVGWm5PaldzV2VzTXl6Q2tmTEFGNVZPenlGN2lKaEs5MU5BV1FuY0psQTVZREQ2OXVjTHJHYncyNXRxc1ZESTM2UlRid0gtUTUzX2tXTmlUbTI3Mm0wa2ZuVHdFWlRyMkczOFp4cDhveXNQTnRESlFjZTd5bXJrNDRUYlNHM3JHRGNLWkZsbTBCV3hNQU1wR0lEUDNqcU5NeGQ3TWVmSklJM013V2hEb0s1Z1Y0Z2kyQ2NqYlRpZl9weHdMbW1DSk1Ud2xxeUloV20tRGxINHBrQ3Q5STZtQnMyMzlaTEVndnBlU0VnWnJabzNoZE16NGRmRlJCWFRPVmJWR0R6RlVXaUk3OHdQbDd6SWJvbW9fanRUMGhSUkpR?oc=5",
         "source": "MSN",
         "date": "2026-07-18T19:42:21.000Z"
-      },
-      {
-        "title": "1233회 로또 1등 5매 동시 배출 명당…1등 27곳·2등 71곳 주소 총정리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CUGdMWkJOZUM1alViNzlxZzlqd2R6RVppVzdNY3c1TWNPSXBwWC12WU5Ed1hFUGhzSDhsNHNsWUo0dkZXMjk2Q1lFZExuV0JSM1BLOEtNcVJnTXJpV0pnNFZmQXVramlSem9OXw?oc=5",
-        "source": "ER 이코노믹리뷰",
-        "date": "2026-07-18T15:23:00.000Z"
       }
     ]
   }
