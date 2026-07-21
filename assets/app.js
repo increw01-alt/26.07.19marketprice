@@ -50,6 +50,8 @@ const MENUS = [
   { id: 'kosdaq', href: 'kosdaq.html', label: '코스닥시세', icon: 'chart' },
   { id: 'fx', href: 'fx.html', label: '환율시세', icon: 'fx' },
   { id: 'metal', href: 'metal.html', label: '금·은시세', icon: 'gem' },
+  { id: 'energy', href: 'energy.html', label: '유가·원자재', icon: 'oil' },
+  { id: 'macro', href: 'macro.html', label: '지표', icon: 'gauge' },
   { id: 'giftcard', href: 'giftcard.html', label: '상품권시세', icon: 'ticket' },
   { id: 'realestate', href: 'realestate.html', label: '부동산시세', icon: 'home' },
   { id: 'lotto', href: 'lotto.html', label: '로또', icon: 'target' },
@@ -65,6 +67,8 @@ const SPRITE = `
   <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-oil" viewBox="0 0 24 24"><path d="M7 21h10M8 21V9a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12"/><path d="M12 7V4M9 4h6"/><path d="M18 11h1a2 2 0 0 1 2 2v3a1 1 0 0 1-2 0v-2"/></symbol>
+  <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M12 14a2 2 0 1 0 2-2"/><path d="M13.4 12.6 16 10"/><path d="M4 20a9 9 0 1 1 16 0"/></symbol>
   <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-7 6 7"/></symbol>
   <symbol id="i-down" viewBox="0 0 24 24"><path d="m6 9 6 7 6-7"/></symbol>
   <symbol id="i-flat" viewBox="0 0 24 24"><path d="M6 12h12"/></symbol>

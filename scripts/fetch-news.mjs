@@ -13,6 +13,8 @@ const TOPICS = [
   { id: 'kosdaq', q: '코스닥' },
   { id: 'fx', q: '원달러 환율' },
   { id: 'metal', q: '금값 금시세' },
+  { id: 'energy', q: '국제유가 WTI 원자재' },
+  { id: 'macro', q: '환율 금리 증시 경제지표' },
   { id: 'giftcard', q: '상품권 시세' },
   { id: 'realestate', q: '아파트 실거래가' },
   { id: 'lotto', q: '로또 판매' },

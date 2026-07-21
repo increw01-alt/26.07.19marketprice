@@ -3,24 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>주식시세 | 모두의 시세</title>
-<meta name="description" content="코스피와 S&P 500·나스닥·다우존스·닛케이 등 국내외 주요 주가지수 시세를 한눈에 봅니다.">
-<link rel="canonical" href="https://k-coin.kr/stock">
+<title>경제지표 | 모두의 시세</title>
+<meta name="description" content="달러 인덱스, VIX 변동성지수, 미 국채 10년 금리, 김치프리미엄과 항셍·상해·독일 DAX 지수를 한눈에 봅니다.">
+<link rel="canonical" href="https://k-coin.kr/macro">
 <meta name="theme-color" content="#0b1220">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="모두의 시세">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="주식시세 | 모두의 시세">
-<meta property="og:description" content="코스피와 S&P 500·나스닥·다우존스·닛케이 등 국내외 주요 주가지수 시세를 한눈에 봅니다.">
-<meta property="og:url" content="https://k-coin.kr/stock">
+<meta property="og:title" content="경제지표 | 모두의 시세">
+<meta property="og:description" content="달러 인덱스, VIX 변동성지수, 미 국채 10년 금리, 김치프리미엄과 항셍·상해·독일 DAX 지수를 한눈에 봅니다.">
+<meta property="og:url" content="https://k-coin.kr/macro">
 <meta property="og:image" content="https://k-coin.kr/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="주식시세 | 모두의 시세">
-<meta name="twitter:description" content="코스피와 S&P 500·나스닥·다우존스·닛케이 등 국내외 주요 주가지수 시세를 한눈에 봅니다.">
+<meta name="twitter:title" content="경제지표 | 모두의 시세">
+<meta name="twitter:description" content="달러 인덱스, VIX 변동성지수, 미 국채 10년 금리, 김치프리미엄과 항셍·상해·독일 DAX 지수를 한눈에 봅니다.">
 <meta name="twitter:image" content="https://k-coin.kr/assets/og.png">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,28 +28,19 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
 <link rel="stylesheet" href="assets/style.css?v=PENDING">
 <script>
-// www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
-// 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
 if (location.host === 'www.k-coin.kr' || location.host === '26-07-19marketprice.pages.dev')
   location.replace('https://k-coin.kr' + location.pathname + location.search);
 try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}
 </script>
 </head>
-<body data-page="stock">
+<body data-page="macro">
 
 <main class="wrap">
   <div class="page-head">
-    <h1>주식시세</h1>
-    <p class="lead">코스피 및 해외 주요 지수 · 코스피 주요 종목</p>
+    <h1>경제지표</h1>
+    <p class="lead">달러 인덱스 · VIX · 금리 · 김치프리미엄 · 해외지수</p>
   </div>
-  <section class="panel">
-    <h2>주요 지수</h2>
-    <div class="grid" id="grid-stock"></div>
-  </section>
-  <section class="panel">
-    <h2>코스피 주요 종목 <span class="tag">시가총액 상위</span></h2>
-    <div class="grid" id="grid-stock-items"></div>
-  </section>
+  <div class="grid" id="grid-macro"></div>
 </main>
 
 <script src="assets/app.js?v=PENDING"></script>

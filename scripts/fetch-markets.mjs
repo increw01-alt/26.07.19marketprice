@@ -26,7 +26,56 @@ const QUOTES = [
   // 위안/원 직접 크로스(CNYKRW=X)는 Yahoo 에 과거 이력이 없어 현재가 1개만 옵니다.
   // 달러/원 ÷ 달러/위안 으로 파생시키기 위한 보조 항목입니다 (화면에는 안 나갑니다).
   { id: 'usdcny', symbol: 'CNY=X', name: '달러/위안', group: 'fx', unit: 'CNY', helper: true },
+
+  // --- 에너지·원자재 (energy 그룹) ---
+  { id: 'wti',    symbol: 'CL=F', name: 'WTI 원유',   group: 'energy', unit: 'USD/bbl' },
+  { id: 'brent',  symbol: 'BZ=F', name: '브렌트유',  group: 'energy', unit: 'USD/bbl' },
+  { id: 'natgas', symbol: 'NG=F', name: '천연가스',  group: 'energy', unit: 'USD/MMBtu' },
+  { id: 'copper', symbol: 'HG=F', name: '구리',      group: 'energy', unit: 'USD/lb' },
+  { id: 'palladium', symbol: 'PA=F', name: '팔라듐', group: 'energy', unit: 'USD/oz' },
+  { id: 'wheat',  symbol: 'ZW=F', name: '밀',        group: 'energy', unit: 'USc/bu' },
+  { id: 'corn',   symbol: 'ZC=F', name: '옥수수',    group: 'energy', unit: 'USc/bu' },
+
+  // --- 매크로 지표 (macro 그룹) ---
+  { id: 'dxy',    symbol: 'DX-Y.NYB', name: '달러 인덱스', group: 'macro', unit: 'pt' },
+  { id: 'vix',    symbol: '^VIX',     name: 'VIX 변동성',  group: 'macro', unit: 'pt' },
+  { id: 'ust10',  symbol: '^TNX',     name: '미 국채 10년', group: 'macro', unit: '%' },
+  { id: 'hsi',    symbol: '^HSI',     name: '항셍',        group: 'macro', unit: 'pt' },
+  { id: 'sse',    symbol: '000001.SS', name: '상해종합',   group: 'macro', unit: 'pt' },
+  { id: 'dax',    symbol: '^GDAXI',   name: '독일 DAX',    group: 'macro', unit: 'pt' },
 ];
+
+// 국내 개별종목 — 시가총액 상위 위주로 큐레이션합니다.
+// KRX 시총 순위 API 는 세션/OTP 를 요구해 자동화가 취약하므로, 목록을
+// 고정하고 시세만 Yahoo 로 받습니다. 종목 교체는 이 배열만 고치면 됩니다.
+const STOCKS_KS = [
+  { code: '005930', name: '삼성전자' },
+  { code: '000660', name: 'SK하이닉스' },
+  { code: '373220', name: 'LG에너지솔루션' },
+  { code: '207940', name: '삼성바이오로직스' },
+  { code: '005380', name: '현대차' },
+  { code: '000270', name: '기아' },
+  { code: '068270', name: '셀트리온' },
+  { code: '005490', name: 'POSCO홀딩스' },
+  { code: '035420', name: 'NAVER' },
+  { code: '051910', name: 'LG화학' },
+];
+const STOCKS_KQ = [
+  { code: '247540', name: '에코프로비엠' },
+  { code: '086520', name: '에코프로' },
+  { code: '196170', name: '알테오젠' },
+  { code: '328130', name: '루닛' },
+  { code: '277810', name: '레인보우로보틱스' },
+  { code: '058470', name: '리노공업' },
+  { code: '357780', name: '솔브레인' },
+  { code: '240810', name: '원익IPS' },
+  { code: '293490', name: '카카오게임즈' },
+  { code: '112040', name: '위메이드' },
+];
+for (const s of STOCKS_KS)
+  QUOTES.push({ id: `ks_${s.code}`, symbol: `${s.code}.KS`, name: s.name, group: 'stock', unit: '원' });
+for (const s of STOCKS_KQ)
+  QUOTES.push({ id: `kq_${s.code}`, symbol: `${s.code}.KQ`, name: s.name, group: 'kosdaq_stock', unit: '원' });
 
 const COIN_TOP = 10; // 24시간 거래대금 상위 N개
 /** 거래대금 순위와 무관하게 항상 포함할 대표 코인 */
@@ -191,8 +240,44 @@ if (gold && usdkrw) {
   });
 }
 
+// 김치프리미엄 = (업비트 BTC 원화 − 글로벌 BTC 달러×환율) / 글로벌 × 100
+// 국내 코인 시세가 해외보다 얼마나 비싼지를 보여주는 지표입니다.
+const btc = items.find((i) => i.id === 'btc'); // 업비트 KRW-BTC
+if (btc && usdkrw) {
+  try {
+    const g = await getJSON('https://api.coinbase.com/v2/prices/BTC-USD/spot');
+    const usd = Number(g?.data?.amount);
+    if (Number.isFinite(usd) && usd > 0) {
+      const globalKrw = usd * usdkrw.price;
+      const premium = ((btc.price - globalKrw) / globalKrw) * 100;
+      items.push({
+        id: 'kimchi',
+        name: '김치프리미엄',
+        group: 'macro',
+        unit: '%',
+        price: Math.round(premium * 100) / 100,
+        change: null,
+        changePct: null,
+        spark: [],
+        note: `업비트 ${(btc.price / 1e4).toFixed(0)}만 vs 글로벌 ${(globalKrw / 1e4).toFixed(0)}만원 환산`,
+      });
+      console.log(`김치프리미엄: ${premium.toFixed(2)}%`);
+    }
+  } catch (err) {
+    console.error(`김치프리미엄 계산 실패: ${err.message}`);
+  }
+}
+
+// 개별종목은 그룹 안에서 현재가 기준으로 순위를 매깁니다 (화면 상단 노출용).
+for (const grp of ['stock', 'kosdaq_stock']) {
+  const list = items.filter((i) => i.group === grp);
+  list.forEach((i, idx) => (i.rank = idx + 1)); // QUOTES 배열 순서 = 큐레이션 순위 유지
+}
+
 // 파생 계산에만 쓰인 보조 항목은 화면에 내보내지 않습니다.
 const visible = items.filter((i) => !i.helper).map(({ helper, symbol, ...rest }) => rest);
 
 await writeJSON(OUT, { updatedAt: nowKST(), items: visible });
-console.log(`done: ${visible.length} items`);
+const byGroup = {};
+for (const i of visible) byGroup[i.group] = (byGroup[i.group] || 0) + 1;
+console.log(`done: ${visible.length} items`, JSON.stringify(byGroup));

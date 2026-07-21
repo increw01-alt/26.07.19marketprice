@@ -7,9 +7,11 @@ const HOME_TILES = [
   { id: 'kospi', href: 'stock.html', cat: '주식' },
   { id: 'kosdaq', href: 'kosdaq.html', cat: '코스닥' },
   { id: 'btc', href: 'coin.html', cat: '코인' },
-  { id: 'eth', href: 'coin.html', cat: '코인' },
+  { id: 'kimchi', href: 'macro.html', cat: '지표' },
   { id: 'usdkrw', href: 'fx.html', cat: '환율' },
   { id: 'gold_don', href: 'metal.html', cat: '금' },
+  { id: 'wti', href: 'energy.html', cat: '유가' },
+  { id: 'ust10', href: 'macro.html', cat: '금리' },
 ];
 
 async function pageHome() {
@@ -71,6 +73,21 @@ async function pageHome() {
 // ---------- 단순 그룹 페이지 ----------
 async function pageGroup(groupOrIds, mount) {
   const { data } = await renderMarketGroup(groupOrIds, mount);
+  setStatus(data.updatedAt);
+}
+
+/** 지수 + 개별종목 두 그리드를 함께 그립니다 (주식·코스닥). */
+async function pageStock(indexIds, stockGroup, indexMount, stockMount) {
+  const data = await fetchJSON('/data/markets.json');
+  const put = (sel, list) => {
+    const el = $(sel);
+    if (el)
+      el.innerHTML = list.length
+        ? list.map((it, i) => card(it, i)).join('')
+        : '<p class="empty">데이터를 불러오지 못했습니다.</p>';
+  };
+  put(indexMount, indexIds.map((id) => data.items.find((i) => i.id === id)).filter(Boolean));
+  put(stockMount, data.items.filter((i) => i.group === stockGroup));
   setStatus(data.updatedAt);
 }
 
@@ -508,10 +525,12 @@ async function renderNews(topic) {
 const ROUTES = {
   home: pageHome,
   coin: () => pageGroup('coin', '#grid-coin'),
-  stock: () => pageGroup(['kospi', 'spx', 'ndq', 'dji', 'nkx'], '#grid-stock'),
-  kosdaq: () => pageGroup(['kosdaq'], '#grid-kosdaq'),
+  stock: () => pageStock(['kospi', 'spx', 'ndq', 'dji', 'nkx'], 'stock', '#grid-stock', '#grid-stock-items'),
+  kosdaq: () => pageStock(['kosdaq'], 'kosdaq_stock', '#grid-kosdaq', '#grid-kosdaq-items'),
   fx: () => pageGroup('fx', '#grid-fx'),
   metal: () => pageGroup('metal', '#grid-metal'),
+  energy: () => pageGroup('energy', '#grid-energy'),
+  macro: () => pageGroup('macro', '#grid-macro'),
   giftcard: pageGiftcard,
   realestate: pageRealestate,
   lotto: pageLotto,
