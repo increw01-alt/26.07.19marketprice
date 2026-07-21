@@ -445,6 +445,61 @@ function renderLottoTable() {
   $('#lotto-more').hidden = shown >= lotto.length;
 }
 
+// ---------- 관련 뉴스 ----------
+
+/** 외부 데이터(뉴스 제목·출처)는 반드시 이스케이프해서 넣습니다. */
+const esc = (s) =>
+  String(s ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;');
+
+function newsAge(iso) {
+  if (!iso) return '';
+  const h = Math.floor((Date.now() - Date.parse(iso)) / 3600_000);
+  if (h < 1) return '방금 전';
+  if (h < 24) return `${h}시간 전`;
+  const d = Math.floor(h / 24);
+  return d < 7 ? `${d}일 전` : new Date(iso).toLocaleDateString('ko-KR');
+}
+
+/**
+ * 메뉴 페이지 하단에 관련 뉴스 섹션을 붙입니다.
+ * HTML 파일에는 마운트가 없습니다 — 여기서 <main> 끝에 만들어 넣어,
+ * 페이지 9장을 일일이 고치지 않아도 됩니다.
+ */
+async function renderNews(topic) {
+  let data;
+  try {
+    data = await fetchJSON('/data/news.json');
+  } catch (err) {
+    console.error(err); // 뉴스는 부가 정보라 실패해도 페이지를 막지 않습니다.
+    return;
+  }
+  const items = data.topics?.[topic];
+  if (!items?.length) return;
+
+  const main = $('main');
+  main.insertAdjacentHTML(
+    'beforeend',
+    `<section class="panel news-panel">
+      <h2>관련 뉴스 <span class="tag">구글뉴스</span></h2>
+      <ul class="news-list">
+        ${items
+          .map(
+            (n) => `<li>
+          <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.title)}</a>
+          <span class="news-meta">${esc(n.source || '')}${n.source ? ' · ' : ''}${newsAge(n.date)}</span>
+        </li>`
+          )
+          .join('')}
+      </ul>
+      <p class="note">최종 수집: ${new Date(data.updatedAt).toLocaleString('ko-KR')}</p>
+    </section>`
+  );
+}
+
 // ---------- 디스패처 ----------
 const ROUTES = {
   home: pageHome,
@@ -458,8 +513,11 @@ const ROUTES = {
   lotto: pageLotto,
 };
 
+const PAGE = document.body.dataset.page;
 renderShell();
-(ROUTES[document.body.dataset.page] || ROUTES.home)().catch((err) => {
+(ROUTES[PAGE] || ROUTES.home)().catch((err) => {
   console.error(err);
   setStatus(null);
 });
+// 홈을 제외한 모든 메뉴 페이지에 관련 뉴스를 붙입니다.
+if (PAGE && PAGE !== 'home') renderNews(PAGE);

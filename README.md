@@ -40,6 +40,7 @@ design-system/          ui-ux-pro-max 스킬이 생성한 디자인 규칙 (MAST
 | 백화점 상품권 | 각 상품권 업체 공식 시세 페이지 | 자동 (매시간) |
 | 기타 상품권 | — | **수동** |
 | 부동산 | 국토교통부 아파트 매매 실거래가 API | 자동 (하루 1회, 06:30 KST) |
+| 관련 뉴스 | 구글뉴스 RSS (메뉴별 검색어) | 자동 (매시간) |
 
 > stooq.com 과 동행복권 구 API(`common.do?method=getLottoNumber`)는 2026년에
 > 폐기돼 각각 Yahoo Finance 와 신 API 로 교체했습니다.
