@@ -91,6 +91,37 @@ async function pageStock(indexIds, stockGroup, indexMount, stockMount) {
   setStatus(data.updatedAt);
 }
 
+/** 별도 데이터 파일(rates.json / oil.json)을 그리드에 그립니다. */
+async function renderExtra(path, mount) {
+  try {
+    const data = await fetchJSON(path);
+    const el = $(mount);
+    if (el && data.items?.length) {
+      el.innerHTML = data.items.map((it, i) => card(it, i)).join('');
+      return data.updatedAt;
+    }
+  } catch (err) {
+    console.error(err); // 부가 섹션이므로 실패해도 페이지를 막지 않습니다.
+    const el = $(mount);
+    if (el) el.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다.</p>';
+  }
+  return null;
+}
+
+/** 유가·원자재 페이지: markets(energy) + oil(주유소) 두 섹션 */
+async function pageEnergy() {
+  const { data } = await renderMarketGroup('energy', '#grid-energy');
+  await renderExtra('/data/oil.json', '#grid-oil');
+  setStatus(data.updatedAt);
+}
+
+/** 지표 페이지: markets(macro) + rates(금리) 두 섹션 */
+async function pageMacro() {
+  const { data } = await renderMarketGroup('macro', '#grid-macro');
+  await renderExtra('/data/rates.json', '#grid-rates');
+  setStatus(data.updatedAt);
+}
+
 // ---------- 상품권 ----------
 let dept = null;
 let face = null;
@@ -529,8 +560,8 @@ const ROUTES = {
   kosdaq: () => pageStock(['kosdaq'], 'kosdaq_stock', '#grid-kosdaq', '#grid-kosdaq-items'),
   fx: () => pageGroup('fx', '#grid-fx'),
   metal: () => pageGroup('metal', '#grid-metal'),
-  energy: () => pageGroup('energy', '#grid-energy'),
-  macro: () => pageGroup('macro', '#grid-macro'),
+  energy: pageEnergy,
+  macro: pageMacro,
   giftcard: pageGiftcard,
   realestate: pageRealestate,
   lotto: pageLotto,

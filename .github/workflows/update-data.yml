@@ -38,6 +38,18 @@ jobs:
         run: node scripts/fetch-giftcards-dept.mjs
         continue-on-error: true
 
+      - name: 국내 금리 수집 (한국은행 ECOS)
+        run: node scripts/fetch-rates.mjs
+        env:
+          ECOS_KEY: ${{ secrets.ECOS_KEY }}
+        continue-on-error: true
+
+      - name: 주유소 기름값 수집 (오피넷)
+        run: node scripts/fetch-oil.mjs
+        env:
+          OPINET_KEY: ${{ secrets.OPINET_KEY }}
+        continue-on-error: true
+
       - name: 관련 뉴스 수집
         run: node scripts/fetch-news.mjs
         continue-on-error: true

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>유가·원자재시세 | 모두의 시세</title>
-<meta name="description" content="WTI·브렌트유 국제유가와 천연가스·구리·팔라듐·밀·옥수수 등 주요 원자재 시세를 제공합니다.">
+<meta name="description" content="WTI·브렌트유 국제유가, 전국 주유소 휘발유·경유 평균가, 천연가스·구리·팔라듐·곡물 시세를 제공합니다.">
 <link rel="canonical" href="https://k-coin.kr/energy">
 <meta name="theme-color" content="#0b1220">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
@@ -13,20 +13,20 @@
 <meta property="og:site_name" content="모두의 시세">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:title" content="유가·원자재시세 | 모두의 시세">
-<meta property="og:description" content="WTI·브렌트유 국제유가와 천연가스·구리·팔라듐·밀·옥수수 등 주요 원자재 시세를 제공합니다.">
+<meta property="og:description" content="WTI·브렌트유 국제유가, 전국 주유소 휘발유·경유 평균가, 천연가스·구리·팔라듐·곡물 시세를 제공합니다.">
 <meta property="og:url" content="https://k-coin.kr/energy">
 <meta property="og:image" content="https://k-coin.kr/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="유가·원자재시세 | 모두의 시세">
-<meta name="twitter:description" content="WTI·브렌트유 국제유가와 천연가스·구리·팔라듐·밀·옥수수 등 주요 원자재 시세를 제공합니다.">
+<meta name="twitter:description" content="WTI·브렌트유 국제유가, 전국 주유소 휘발유·경유 평균가, 천연가스·구리·팔라듐·곡물 시세를 제공합니다.">
 <meta name="twitter:image" content="https://k-coin.kr/assets/og.png">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=fbd473e">
+<link rel="stylesheet" href="assets/style.css?v=PENDING">
 <script>
 if (location.host === 'www.k-coin.kr' || location.host === '26-07-19marketprice.pages.dev')
   location.replace('https://k-coin.kr' + location.pathname + location.search);
@@ -38,12 +38,19 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <main class="wrap">
   <div class="page-head">
     <h1>유가·원자재시세</h1>
-    <p class="lead">국제 유가 · 천연가스 · 금속 · 곡물</p>
+    <p class="lead">국제 유가 · 주유소 기름값 · 금속 · 곡물</p>
   </div>
-  <div class="grid" id="grid-energy"></div>
+  <section class="panel">
+    <h2>국제 유가·원자재 <span class="tag">선물</span></h2>
+    <div class="grid" id="grid-energy"></div>
+  </section>
+  <section class="panel">
+    <h2>국내 주유소 기름값 <span class="tag">전국 평균</span></h2>
+    <div class="grid" id="grid-oil"></div>
+  </section>
 </main>
 
-<script src="assets/app.js?v=fbd473e"></script>
-<script src="assets/pages.js?v=fbd473e"></script>
+<script src="assets/app.js?v=PENDING"></script>
+<script src="assets/pages.js?v=PENDING"></script>
 </body>
 </html>
