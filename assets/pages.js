@@ -633,58 +633,120 @@ function makeGames(freq, count = 5) {
 
 const RANK_LABEL = { 1: '1등', 2: '2등', 3: '3등', 4: '4등', 5: '5등', 0: '낙첨' };
 
-async function renderPicks() {
-  let data;
+/** 한 게임 채점 (6/45 등수) */
+function scoreGame(game, winNumbers, bonus) {
+  const matched = game.filter((n) => winNumbers.includes(n)).length;
+  const bonusHit = game.includes(bonus);
+  if (matched === 6) return 1;
+  if (matched === 5 && bonusHit) return 2;
+  if (matched === 5) return 3;
+  if (matched === 4) return 4;
+  if (matched === 3) return 5;
+  return 0;
+}
+
+// 내 번호는 이 브라우저(localStorage)에만 저장합니다. 서버로 전송하지 않습니다.
+const MY_KEY = 'modoo-lotto-mypick'; // 진행 중인 내 번호 { round, games, savedAt }
+const HIST_KEY = 'modoo-lotto-myhistory'; // 채점 완료 기록 [{round,date,best,winNumbers,bonus}]
+const readLS = (k, fb) => {
   try {
-    data = await fetchJSON('/data/lotto-picks.json');
-  } catch (err) {
-    console.error(err); // 추천은 부가 기능 — 실패해도 로또 페이지는 그대로.
-    $('#ai-picks').hidden = true;
-    return;
+    return JSON.parse(localStorage.getItem(k)) ?? fb;
+  } catch {
+    return fb;
   }
-  const picks = (data.picks || []).slice().sort((a, b) => b.round - a.round);
+};
+const writeLS = (k, v) => {
+  try {
+    localStorage.setItem(k, JSON.stringify(v));
+  } catch {}
+};
 
-  // 1) 이번 주(가장 최근, 아직 미추첨) 추천
-  const upcoming = picks.find((p) => !p.result) || picks[0];
-  if (upcoming) {
-    $('#picks-round').textContent = `${upcoming.round}회 대상`;
-    $('#picks-official').innerHTML = upcoming.games.map((g, i) => gameRow(g, i)).join('');
-  }
-
-  // 2) 내 번호 직접 뽑기 (클라이언트 생성, 기록되지 않음)
+/**
+ * 로또 번호 추첨기 (방문자가 버튼을 눌러 직접 뽑습니다).
+ * 뽑은 번호는 이 브라우저에 저장했다가, 해당 회차 추첨이 끝나면 자동 채점합니다.
+ */
+function renderPicks() {
+  const latest = lotto[0]?.round;
+  if (!latest) return;
+  const upcoming = latest + 1;
   const freq = lottoFrequency();
+
   const genBtn = $('#gen-btn');
+  const genLabel = $('#gen-label');
   const copyAll = $('#copy-all-btn');
   const mine = $('#picks-mine');
+  const roundOf = new Map(lotto.map((r) => [r.round, r]));
+
+  // 1) 저장된 내 번호가 추첨 완료됐으면 채점해서 기록으로 옮깁니다.
+  const my = readLS(MY_KEY, null);
+  if (my && roundOf.has(my.round)) {
+    const r = roundOf.get(my.round);
+    const ranks = my.games.map((g) => scoreGame(g, r.numbers, r.bonus));
+    const best = Math.min(...ranks.map((x) => x || 9));
+    const bestRank = best === 9 ? 0 : best;
+    const hist = readLS(HIST_KEY, []);
+    if (!hist.some((h) => h.round === my.round)) {
+      hist.unshift({ round: r.round, date: r.date, best: bestRank, winNumbers: r.numbers, bonus: r.bonus });
+      writeLS(HIST_KEY, hist.slice(0, 12));
+    }
+    // 축하/결과 배너
+    const cls = bestRank >= 1 && bestRank <= 3 ? 'win-hi' : bestRank ? 'win-lo' : 'win-none';
+    const msg =
+      bestRank >= 1 && bestRank <= 3
+        ? '🎉 축하합니다! 큰 행운이 왔어요!'
+        : bestRank
+          ? '아깝지만 다음이 있어요!'
+          : '이번엔 아쉽네요. 다음 주 행운을 노려봐요!';
+    $('#my-result').innerHTML = `<div class="my-result ${cls}">
+      <span class="mr-k">${r.round}회 추첨 결과 · 지난주 뽑은 번호</span>
+      <span class="mr-v">${RANK_LABEL[bestRank]}</span>
+      <span class="mr-m">${msg}</span>
+    </div>`;
+    localStorage.removeItem(MY_KEY);
+  } else if (my && my.round === upcoming) {
+    // 2) 아직 추첨 전 — 저장해둔 이번 주 번호를 다시 보여줍니다.
+    showMyGames(my.games, my.round, mine, copyAll, false);
+    genLabel.textContent = '다시 뽑기';
+  }
+
+  // 3) 버튼 → 그 자리에서 5게임 생성 후 저장
   genBtn.addEventListener('click', () => {
     const games = makeGames(freq, 5);
-    mine.innerHTML =
-      `<p class="pick-mine-label">내가 뽑은 5게임 <span class="hint">(기록되지 않는 즉석 추천입니다)</span></p>` +
-      games.map((g, i) => gameRow(g, i)).join('');
-    copyAll.hidden = false;
-    copyAll.dataset.copy = games.map((g) => g.join(', ')).join('\n');
+    writeLS(MY_KEY, { round: upcoming, games, savedAt: Date.now() });
+    showMyGames(games, upcoming, mine, copyAll, true);
+    genLabel.textContent = '다시 뽑기';
   });
 
-  bindCopy($('#ai-picks')); // 공식 추천·내 번호·전체복사 모두 위임 처리
+  bindCopy($('#ai-picks'));
 
-  // 3) 지난 추천 성적
-  const scored = picks.filter((p) => p.result);
-  if (scored.length) {
-    $('#picks-history-sec').hidden = false;
-    $('#tbl-picks tbody').innerHTML = scored
-      .map((p) => {
-        const r = p.result;
-        const best = r.best;
-        const cls = best >= 1 && best <= 3 ? 'rank-hi' : best ? 'rank-lo' : 'flat';
-        return `<tr>
-          <td class="num">${p.round}</td>
-          <td>${r.date}</td>
-          <td><span class="balls balls-sm">${ballsHtml(r.winNumbers)}<span class="ball bonus">${r.bonus}</span></span></td>
-          <td><span class="${cls}">${RANK_LABEL[best]}</span></td>
-        </tr>`;
-      })
-      .join('');
-  }
+  // 4) 내 번호 성적 기록
+  renderMyHistory();
+}
+
+function showMyGames(games, round, mine, copyAll, isNew) {
+  mine.innerHTML =
+    `<p class="pick-mine-label">${round}회 대상 · 내가 뽑은 5게임 ` +
+    `<span class="hint">${isNew ? '이 번호는 추첨 후 자동으로 채점돼요' : '지난번 뽑은 번호예요'}</span></p>` +
+    games.map((g, i) => gameRow(g, i)).join('');
+  copyAll.hidden = false;
+  copyAll.dataset.copy = games.map((g) => g.join(', ')).join('\n');
+}
+
+function renderMyHistory() {
+  const hist = readLS(HIST_KEY, []);
+  if (!hist.length) return;
+  $('#picks-history-sec').hidden = false;
+  $('#tbl-picks tbody').innerHTML = hist
+    .map((h) => {
+      const cls = h.best >= 1 && h.best <= 3 ? 'rank-hi' : h.best ? 'rank-lo' : 'flat';
+      return `<tr>
+        <td class="num">${h.round}</td>
+        <td>${h.date}</td>
+        <td><span class="balls balls-sm">${ballsHtml(h.winNumbers)}<span class="ball bonus">${h.bonus}</span></span></td>
+        <td><span class="${cls}">${RANK_LABEL[h.best]}</span></td>
+      </tr>`;
+    })
+    .join('');
 }
 
 function renderLottoHead() {

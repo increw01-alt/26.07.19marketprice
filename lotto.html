@@ -55,13 +55,14 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   <div class="lotto-head" id="lotto-head"></div>
 
   <section class="panel" id="ai-picks">
-    <h2><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>AI 추천번호 <span class="tag" id="picks-round">이번 주</span></h2>
-    <p class="note">모두의 시세가 여러분의 한 주에 작은 행운을 배달합니다. 이번 주 추천 5게임, 여기서 인생역전이 시작될지도 몰라요. 다만 로또는 재미로 즐길 때 가장 아름답습니다 — 무리한 구입은 금물, 커피 한 잔 값 정도로 가볍게 즐겨주세요. 행운을 빕니다!</p>
-    <div class="pick-games" id="picks-official"></div>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>AI 로또 번호 추첨기 <span class="tag" id="picks-round">직접 뽑기</span></h2>
+    <p class="note">모두의 시세가 여러분의 한 주에 작은 행운을 배달합니다. 아래 버튼을 누르면 이번 주 추천 5게임이 나와요 — 여기서 인생역전이 시작될지도 몰라요. 다만 로또는 재미로 즐길 때 가장 아름답습니다. 무리한 구입은 금물, 커피 한 잔 값 정도로 가볍게 즐겨주세요. 행운을 빕니다!</p>
+
+    <div id="my-result"></div>
 
     <div class="gen-bar">
-      <button class="more" id="gen-btn" type="button">
-        <svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg>내 번호 직접 뽑기
+      <button class="gen-main" id="gen-btn" type="button">
+        <svg class="icon" aria-hidden="true"><use href="#i-target"/></svg><span id="gen-label">행운의 번호 뽑기</span>
       </button>
       <button class="more" id="copy-all-btn" type="button" hidden>
         <svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>전체 복사
@@ -71,11 +72,11 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   </section>
 
   <section class="panel" id="picks-history-sec" hidden>
-    <h2><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>지난 추천 성적</h2>
-    <p class="note">추첨이 끝난 회차의 추천번호가 실제로 몇 등에 해당했는지 기록합니다.</p>
+    <h2><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>내 번호 성적 기록</h2>
+    <p class="note">이 브라우저에서 뽑은 번호가 추첨 후 몇 등에 해당했는지 기록합니다. (내 기기에만 저장되며 다른 사람에게 보이지 않습니다)</p>
     <div class="table-scroll">
       <table class="tbl" id="tbl-picks">
-        <thead><tr><th class="num">회차</th><th>추첨일</th><th>당첨번호</th><th>추천 최고 성적</th></tr></thead>
+        <thead><tr><th class="num">회차</th><th>추첨일</th><th>당첨번호</th><th>내 최고 성적</th></tr></thead>
         <tbody></tbody>
       </table>
     </div>
