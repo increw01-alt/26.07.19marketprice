@@ -956,9 +956,10 @@ output {
   color: var(--color-muted-fg);
 }
 /* .note 는 기본적으로 위쪽 음수 여백(제목 아래 밀착용)이 있습니다.
-   뉴스 패널의 '최종 수집' 문구는 목록 아래에 오므로 위 여백을 정상화합니다. */
+   뉴스 패널의 '최종 수집' 문구는 목록 아래에 오므로 여백을 넉넉히 줍니다. */
 .news-panel .note {
-  margin-top: var(--space-sm);
+  margin-top: var(--space-md);
+  text-align: right;
 }
 
 /* ---------- footer ---------- */
