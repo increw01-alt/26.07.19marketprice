@@ -633,6 +633,11 @@ const ROUTES = {
   giftcard: pageGiftcard,
   realestate: pageRealestate,
   lotto: pageLotto,
+  // 소개 페이지는 실시간 데이터가 없으므로 헤더의 갱신 시각 표시를 숨깁니다.
+  about: async () => {
+    const s = $('#updated');
+    if (s) s.style.display = 'none';
+  },
 };
 
 const PAGE = document.body.dataset.page;
@@ -641,5 +646,5 @@ renderShell();
   console.error(err);
   setStatus(null);
 });
-// 홈을 제외한 모든 메뉴 페이지에 관련 뉴스를 붙입니다.
-if (PAGE && PAGE !== 'home') renderNews(PAGE);
+// 실시간 데이터가 있는 메뉴 페이지에만 관련 뉴스를 붙입니다.
+if (PAGE && PAGE !== 'home' && PAGE !== 'about') renderNews(PAGE);
