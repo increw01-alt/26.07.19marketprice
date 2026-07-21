@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-21T20:03:46+09:00",
+  "updatedAt": "2026-07-21T22:28:05+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "씨티, 韓 증시 '1만포인트' 전망 유지...\"코스피 50% 더 오른다\"",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE45UDZRM2Y5QzNnOHJSWTZrOFVzd1l3a2xjZndGYkcySkRsVFIzWmtvZ3E0OUtJQ3Q5Rkk0QXRDZEJmcnFnOGhVMnhYWk9QcGh0akhQQjI0cjF1Y0JR?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-07-21T12:28:00.000Z"
+      },
+      {
         "title": "이달 서학개미 미장 순매수액 5개월만에 '최고치'...\"코스피·환율 하락 영향\"",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5BdGRUWFFQVWZZdzRpY0VOQy1jaHBWTDFzbUZhdGh2RmJaMVg3dGtHTmRCdHFvZEN2M0dCTEs3UkQ2OUxQYnhXR2tqbW96cGh6NkxCY09PQ2lJUDRzM09sRkF6NjI?oc=5",
         "source": "베타뉴스",
@@ -93,15 +99,27 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zbWRfRHlIZjVCN2NNUTl0SUFuN3FZbDFNVkZPWHhnYXFSNUpyb0laWml6QWpCWnA5eWstRDFIU0s4b0xzSnctb3hXLWJua0JLNTNpaS11WXo5WUt0dV9YWXBXU21ab1UwcmZn0gFvQVVfeXFMTUhzV0FlZExhb1cyWjZJNGJJSEd6MDBtUG5zTExYVkhjM2ZGM2RTVzRsUXZ3MENPXzhuY3FJZVdPYVFHTW9VRXpLY0FkV0R1YUZRR3F0NmVPbFYxZkowZGdOcGVhU216MTVjams1LTc0?oc=5",
         "source": "자유일보",
         "date": "2026-07-21T07:58:00.000Z"
-      },
-      {
-        "title": "코스피 6700선 재탈환… 장중 매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8tWFkySUlra1EzVzNoRF9PYVFtS01QLW96YU1vdWRHSnpHeWdCMEZ6RnViczkyQlhESDlaZWxta2FaSW4yS0xvc2c1cEFHMnFoX0p6RnFmVUtLSmRSLTg4Y2xUMHJjNy1tb3c?oc=5",
-        "source": "천지일보",
-        "date": "2026-07-21T07:53:56.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "넥스아이, 코스닥 상장예심 청구…기술특례 IPO 본격화",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBYMWN2Znl0c3BsbjJrNmRKMFBBVF8zX240TEsyUDZtUzYwc3ZLNHhIbDNUSWVHZzRaNVFveElSOG1sNzhvZWYwYnZGSWxQMUd2dzNpNkJmNmhtYXAtRXZFeFAzVk15VFBNZmRYdXFB?oc=5",
+        "source": "팜이데일리",
+        "date": "2026-07-21T11:45:04.000Z"
+      },
+      {
+        "title": "코스닥 ETF 전부 마이너스…액티브도 전멸",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrdzhqLXZSYzdUa1kycnl0OXBJaWFONFRjV3BqWUJkd0FQWTBsa2xUY3NhYVNwaVYtNGx4dUlkT2tEZFpZQTRvaFpCOUZYclJ6?oc=5",
+        "source": "블루밍비트",
+        "date": "2026-07-21T11:18:05.000Z"
+      },
+      {
+        "title": "3000스닥은커녕 1000스닥도 요원 ‘백약이 무효’",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YNzQ3UXJWV3RkdjlDNG5QSEVkQWhDRFVOWkwyaDgyYzVYODdmMUNpdXUxeW5jSXVKZDRwdm1XeWMtdlVqa3VTc2JlQWFseXVYdUtHMGduR25QdFE5RWJGWUR2dzZLcXc?oc=5",
+        "source": "한겨레",
+        "date": "2026-07-21T10:42:00.000Z"
+      },
       {
         "title": "“나락이 따로 없다” 믿기 힘든 ‘이 그래프’…답 안 나오는 코스닥 [투자360]",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5NOW1LQlZYR1pzWEtRVTRXZ2VqaVNQYlR6eTg4SjM5eWZpc0E5NUZtd3VzeG8zdjd1bk1tSVlLZjUyVFdqbE9nWVM0dDZmRXl0d2hwMUNn?oc=5",
@@ -121,34 +139,16 @@
         "date": "2026-07-21T10:12:22.000Z"
       },
       {
-        "title": "\"5000억 풀린다더니\"…'42% 폭락' 코스닥 개미들 패닉",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuZ19Pa2RFUVVLV29BaEh0a2pKLUl6TGo4c2M2LUlLQWo5MXl3LWdicXJfckJKWEtfVGpvMjhMWVctc2lqdWV3SDJMYVpxZFU4V1RSaEtob1dpdw?oc=5",
-        "source": "한국경제",
-        "date": "2026-07-21T09:57:00.000Z"
-      },
-      {
         "title": "'CNS 신약개발' 아델, 코스닥 상장예비심사 청구",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBUUE0tNGlobFJUZC1HTUU1RHhxZFFSRGkxWUhpbXdSTUo5amtTNUhjaTlxeWdfaGdQemFhSld4c1ZSZkczRlRxWmI3VHhzcW9kUlNHbDAxTQ?oc=5",
         "source": "바이오스펙테이터",
         "date": "2026-07-21T09:25:00.000Z"
       },
       {
-        "title": "3000스닥은커녕 1000스닥도 요원 ‘백약이 무효’",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YNzQ3UXJWV3RkdjlDNG5QSEVkQWhDRFVOWkwyaDgyYzVYODdmMUNpdXUxeW5jSXVKZDRwdm1XeWMtdlVqa3VTc2JlQWFseXVYdUtHMGduR25QdFE5RWJGWUR2dzZLcXc?oc=5",
-        "source": "한겨레",
-        "date": "2026-07-21T09:24:00.000Z"
-      },
-      {
         "title": "갈수록 쪼그라드는 코스닥… 거래대금·회전율 한달새 반토막 [증시 변동성 관리 비상]",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uMFhMcGVZT1BoOGFaRV9SMzNrWkZtVnVCNzJjTlI1MlBvWFp0emlxLWdsaVdSQnZ6VUNNM2xOemNjU1lPRkhBMXZlTVdUcmNmWnd5VktfQ21RQQ?oc=5",
         "source": "파이낸셜뉴스",
         "date": "2026-07-21T09:16:22.000Z"
-      },
-      {
-        "title": "뒤처지는 코스닥… 글로벌 지수 수익률 4위서 38위로",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uTzhjWHRVamFrNFNUZ0pqVHE0Mi1GdnY0M3FXX0tQeC1CbDEwbnBidmFERUhfYmpuWGFJREZtZnRvUUYwdWRsNElKNmNOeFZNQlVvU1hZTFEyVXoyLW9WN19lZVFWT3FjMTVJNGo2cjLSAXRBVV95cUxNRWdxc0NZUGtXNTgzRV8wdnJmMjU5cEdMLUpWeEZMN0pqMGdpeHduTk8yeWJPWXZ1TnozNGQ4anVuYVBBZHZSd25DeFpmV3E5Wm1vMnhXX1phdmtOM2VvX3cxVjBoVUsydjU1UFZHTTF5ZG9CYQ?oc=5",
-        "source": "IT조선",
-        "date": "2026-07-21T08:54:20.000Z"
       }
     ],
     "fx": [
@@ -163,6 +163,12 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15aE1kdEtKekw1ZW4zV1g4aGduWVc3dmRlUkVwUGtGWGg5SjFtOVN4T1FlQnljYy1NN2U3VGxBU0NVRl9RNHhCelpuWkh2X1l4RUJfSU1keVRmcWlKMjJzUjRrVjVoeWM?oc=5",
         "source": "자본시장뉴스",
         "date": "2026-07-21T09:15:37.000Z"
+      },
+      {
+        "title": "'삼전·닉스' 급등에 코스피 3.6%↑...매수 사이드카도 발동",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE42NFRfN1FodTBxODFfNE5uM3IyOC1lcGRCR21nYzdwRnl4MUdnR2tUVVFnUnBkaFlFSm5FWThtLWliMlRIUTk4QlQ1UmJhc1Y1TVlkaTU5WkdmRUVsb2c?oc=5",
+        "source": "YTN",
+        "date": "2026-07-21T09:08:00.000Z"
       },
       {
         "title": "달러 강세에도 '하이닉스 효과·외국인 순매수'에...원·달러 환율, 장중 1470원 초반까지 하락",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TOGxaeWVGRXpIWHZEQnlMdU1WdUI3X09UVWNOZEFqLXZ0ZDVCa2p4UTNUelp1NmVVU0pVLTJlMm5IU1JqemNrMUxMNy01dHNkUk4zUktUWTE2ZnJTd0pUbVd2N1dCbjZhakNtUDQxZlQ?oc=5",
         "source": "Investing.com 한국어",
         "date": "2026-07-21T07:47:38.000Z"
-      },
-      {
-        "title": "달러 강세에도 원/달러 환율 6일째 하락…1470원 밑으로 가나",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE41QS1VWVdqQzNjeFUtZEx1RXFIX2NkbnpaUERuN1VkTklkZEg5VVFJTE0yeUt4RXBia0pVMGNtNmRsc2U2WjdESWMzMlF3LVJjaC1j?oc=5",
-        "source": "네이트",
-        "date": "2026-07-21T07:43:00.000Z"
       }
     ],
     "metal": [
@@ -207,12 +207,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RSmt1X01IYVJ3SS1lcVJIdjdGOTZPLXNGWnAxX1V2enZERVdWV2Y4R3UzcDRPSExOQUI0aFM1SWlpMm5odm9BUU5tT1RES2tPdXFaZWo5dkZxdWJ3QW9yZlF6Yld5UQ?oc=5",
         "source": "비건뉴스",
         "date": "2026-07-21T07:12:47.000Z"
-      },
-      {
-        "title": "금시세(금값시세) 순금 가격은",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XTmROdDk4ampoSDRVd1BUcFRxdnRpdm5jX0o0QnQxU3JCdXhCNTJpWXhHclFnLTd0V0pSWXU4TEpUYy1VWmdfQThVWmRVdHBkRUtGQlBBMmd3eVdUaHJVTEFuY1dfcTNlalBCcQ?oc=5",
-        "source": "게임톡",
-        "date": "2026-07-21T06:11:15.000Z"
       },
       {
         "title": "오늘 금가격(금값) 드디어 반등... 금시세가 6거래일 만에 상승한 이유 3가지",
@@ -248,7 +242,13 @@
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44N010WDhza0UwclBYUm9ralFwY2pTVExNVDRuLVpiMlpuekc3NVd2Yl9keDYwbWp5ckZacWNYdEVlVTN0QnNmcWpib3JXNWlKeTBz?oc=5",
         "source": "네이트",
-        "date": "2026-07-21T01:03:00.000Z"
+        "date": "2026-07-21T01:03:07.000Z"
+      },
+      {
+        "title": "오늘 금시세(금값) 얼마?…미국, 이란 향한 공습 \"호르무즈 상선 공격 군사 능력 약화 위함\"",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5fUmwzdmh5MUh6aTFnbEcwRWVhbHo5ZTRUQnF2b2ZkNk9xQzZsUGY2R2ZtMlR2SG4tWHV6YTVBVEdLU21wZ2dLVjdDX3JHMlFtZ2UxejF5dHJaYkszNjFVcXE0RER5VHBh?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-07-21T01:01:21.000Z"
       }
     ],
     "energy": [
@@ -263,12 +263,6 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE91M3gzRGRicTZfUVA3d1ZuZUJHbzFtMmRsS2p0QjFiZ01UdUQ1cjlZZHBHR3F0b0VoNEZELWUzcHhpcS1pSXUzeEVQNXd4M0p5b3ZXR3Z2OU84bHdMZHhJV01JQk9IeUdhcXdDUFdLQTh0REU2TVRV?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-06-27T07:00:00.000Z"
-      },
-      {
-        "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-06-19T07:00:00.000Z"
       },
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
@@ -299,15 +293,15 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jZWEtb1RJRHlGRllKWEY3cDg0OWhBdkp5c0NtOXZhRFhMLXFGaXlLTFREZXc1TW43bzlER2tpVFhsSW5CWGswMTg4OWYtR2Z0d2plZDFRd0piNWxmTldTNjZoMUF4OXRr?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-06-10T07:00:00.000Z"
+      },
+      {
+        "title": "[원자재 시황] 금값 하락세 전환…WTI 다시 90달러 돌파",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrNHhwUzF0Unc0RGdHaVlpcHpmcHZjV3dxX2UxSWt6bEk0M1ZBYWEtenlyQjdEX21IZFFzQUs0bml3X0NVM2hkcjA0R0ZsNlo0ck5kUkZBU3o1eGNDQzQ3V2E0clh1MWl6?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-06-02T07:00:00.000Z"
       }
     ],
     "macro": [
-      {
-        "title": "[7월 셋째 주 세계경제동향 브리핑] 코스피 6,800선까지 밀려…한미 증시 동반 조정",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RZHFEZmJlTW5HTzhTUzNReXdjdmk1S0NkVUljRlZVcXdidkhNVjhwZEQ3OW16WXVvU0R0bndEeXZyMlI5NkJXb3JqbXpMalRMTTFIQUk1S0hrS3d5OElOa0ZZSTF6M25IcHJuemZFcw?oc=5",
-        "source": "기호일보",
-        "date": "2026-07-18T02:04:06.000Z"
-      },
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
@@ -349,9 +343,21 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9iUEF2SWEtbHhZMmJ3Y1FVMC1WQktnSEI3TV9teEhEWVFSNVNIV3pCN3ZVR24wa2VVR3VJU1hoeXota1lHcVlPQTNQdXl0cGlTdGY2MldLRFFpZlQ4c0IzRw?oc=5",
         "source": "KB Think",
         "date": "2026-06-28T23:02:11.000Z"
+      },
+      {
+        "title": "금리·환율 보기 전에 '분리수거장' 가보세요…'이것' 보면 경제 흐름이 보입니다",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
+        "source": "위키트리",
+        "date": "2026-06-18T07:00:00.000Z"
       }
     ],
     "giftcard": [
+      {
+        "title": "쇼핑 상품권은 근로자들의 지출 부담을 줄이는 데 도움이 됩니다.",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQekNwZzRiVVdwakhnNDlGYkJwcFNjMXRZLTE2TlRFVndEUEFmOHlWZkVNdk9ndDQ0MThiVWVZQlBfNkRaT1hqV3QybURDdmV5TXItS0owcFZCVDQ0TGlSTm5FYkRpMXZ1ejFlekhDS1U0VjNWeXAyaTJRbE9aT0VaLWpJcFVKUQ?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-07-21T05:32:40.000Z"
+      },
       {
         "title": "수입 계란 30구 4980원으로 인하…주당 2000만개 푼다",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9UNjVLZTFMRFU5dkNtU0xLMllLVloyTHcxSjZOMHJGRmxfRGtOclRsWjdFU1ZVZXIxX3E4MTdfS3dvb1hKWm1pTWM0eVFoRzBpb0ZHTg?oc=5",
@@ -362,7 +368,7 @@
         "title": "요금은 그대로, 포인트로 ‘0원’… 통신 3사 자회사 알뜰폰 ‘도매대가 우회’ 논란 - 조선비즈",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjJKeERfb2VtRWtEdWJsUDAweUIzZjdYRjZIQXozM0NuemVucTNNYXpiTW1zV2JXUGs2YlJMN3Jld0xZMW9lWjZnM0xyYVozU0JrYklhNmZhWkhkdUtVZk1DQ01FLU5FMkR1ZUtYN0tmamozcGl5N2NocVlQSVVVR01R0gGWAUFVX3lxTFBCYUppUVpsQTBObXJneTltaC0tM2xoWURfcWhvRk80Ui1iXzBjSU5IOF8tRXJqR25QemR2VjVVVk1sTTNEOFQxcnF4aXFhR3BKbkZZZFM0dnJ5dFIxcUVHa2dLWnlrY3FGNE9QN0QyeGVtbG1STGNNYWxveGk1bVl5ZlR4Y29nNW1reGZQNmVQTlFERHAzdw?oc=5",
         "source": "Chosunbiz",
-        "date": "2026-07-13T06:06:00.000Z"
+        "date": "2026-07-13T07:00:00.000Z"
       },
       {
         "title": "중고거래 플랫폼 “홈플 상품권 금지”…등록·검색부터 막았다",
@@ -392,12 +398,6 @@
         "title": "\"코인 보내면 상품권 결제\"…'불법 코인 대리 결제' 성행",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tOUFoZGU5SzV2RHNOWDdKQ3ppVHNHM2ZwbS1scVVoQ3M0N29TRW8zRGVhb3pKTFgwWmtxRFBfRDJLNVFBVi1iRjFUR21KTGZRX2NnZlNIcmwxdw?oc=5",
         "source": "한국경제",
-        "date": "2026-05-21T07:00:00.000Z"
-      },
-      {
-        "title": "배당 못 주니 금·상품권 지급… 새마을금고 ‘우회배당’ 논란 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMDVzVXllRVB0MEY5UzN1Tjk4WTk4T2tWQXZkLWtjVGdvSUo1cTk5SllQcks2bTFkaUZXdHRyMWIwVXFWR0tNS3pZLVlMVzN0amxIZ2VqdEFlb08tUXJTajJFanhvZGhkaTBwMGtSRS1pLXJoMGh5SDFJaVdrb2tlWNIBlAFBVV95cUxNdExsNzhscEZ3QXB1a1M0bV9hRWl2UkFxVHhfYUgwalNHbXJ4dXlfME9BcVJEWHUwaU5nVHM5bFZIek9ycmhlV1lvZXdnb1pWV3lqcWNWanp0dmNWb0VESmpQQkVlc29nYTFPN1Z0WXZtVnVjdmR5TTU2bTd4ZDV6TkMySzBkYUVNVGhNaE15cVNkNGhr?oc=5",
-        "source": "Chosunbiz",
         "date": "2026-05-21T07:00:00.000Z"
       }
     ],
@@ -453,6 +453,12 @@
     ],
     "lotto": [
       {
+        "title": "토요일 로또 판매마감시간 학습을 위한 최고의 자료와 도구 - 최신 트렌드",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0b3B0S3Bva1VmUkJTM2F1MmdHZlNKMjhPd0JEWkFjeGlnSTNsdmVsN2lVT0QyR0ZRcUk2Qi16cC1zYVlpSHFwcU5GRnUyOWgyc2twNVpJaFV1VS1LOFAxVG4xUjdFdw?oc=5",
+        "source": "les24heures.fr",
+        "date": "2026-07-20T17:22:34.000Z"
+      },
+      {
         "title": "이번주로또당첨번호 을 최대한 활용하는 방법: 실용적인 팁과 전략",
         "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5SSUlVd0xIWXZlZUwwTmtEa0JkY2MtbC12S0JpNU1uWENzVVJPTmlvMmdZM0ZFR0M4WnRJWkJZU0I5VXROOFg0UndPUm45S0VXa0tKSXl6WQ?oc=5",
         "source": "les24heures.fr",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiigNBVV95cUxOLTJ4ZWoyaGlZZlc0VUNhSmFXZnB1Z21fQVY1QUFTYkIxYTJZVDZZQlh4c0ZkMmNZekNOWkRBXzBKLWtQUG9Pcmk0aU1SN18yeEVmNkFLT1ZPQld0eGhkUXJwa251X0NZUHdaZEFSSWRCcjVGWm5PaldzV2VzTXl6Q2tmTEFGNVZPenlGN2lKaEs5MU5BV1FuY0psQTVZREQ2OXVjTHJHYncyNXRxc1ZESTM2UlRid0gtUTUzX2tXTmlUbTI3Mm0wa2ZuVHdFWlRyMkczOFp4cDhveXNQTnRESlFjZTd5bXJrNDRUYlNHM3JHRGNLWkZsbTBCV3hNQU1wR0lEUDNqcU5NeGQ3TWVmSklJM013V2hEb0s1Z1Y0Z2kyQ2NqYlRpZl9weHdMbW1DSk1Ud2xxeUloV20tRGxINHBrQ3Q5STZtQnMyMzlaTEVndnBlU0VnWnJabzNoZE16NGRmRlJCWFRPVmJWR0R6RlVXaUk3OHdQbDd6SWJvbW9fanRUMGhSUkpR?oc=5",
         "source": "MSN",
         "date": "2026-07-18T19:42:21.000Z"
-      },
-      {
-        "title": "1233회 로또 1등 5매 동시 배출 명당…1등 27곳·2등 71곳 주소 총정리",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CUGdMWkJOZUM1alViNzlxZzlqd2R6RVppVzdNY3c1TWNPSXBwWC12WU5Ed1hFUGhzSDhsNHNsWUo0dkZXMjk2Q1lFZExuV0JSM1BLOEtNcVJnTXJpV0pnNFZmQXVramlSem9OXw?oc=5",
-        "source": "ER 이코노믹리뷰",
-        "date": "2026-07-18T15:23:00.000Z"
       }
     ]
   }
