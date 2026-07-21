@@ -82,6 +82,11 @@ function renderShell() {
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="index.html">
+      <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
+        <rect x="2" y="20" width="9" height="22" rx="2" fill="#60a5fa"/><line x1="6.5" y1="12" x2="6.5" y2="48" stroke="#60a5fa" stroke-width="2.5"/>
+        <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
+        <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
+      </svg>
       <span class="brand-mark">모두의 시세</span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
