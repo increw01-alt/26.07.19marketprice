@@ -30,6 +30,10 @@ jobs:
         run: node scripts/fetch-lotto.mjs
         continue-on-error: true
 
+      - name: 로또 추천번호 생성·채점
+        run: node scripts/lotto-picks.mjs
+        continue-on-error: true
+
       - name: 시장 시세 수집
         run: node scripts/fetch-markets.mjs
         continue-on-error: true

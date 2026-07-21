@@ -875,6 +875,69 @@ output {
 }
 :root[data-theme="light"] .ball.bonus { color: #ffffff; }
 
+/* ---------- 로또 번호 추천 ---------- */
+/* 로또 공식 색상: 번호 구간별 공 색 (1-10 노랑, 11-20 파랑, 21-30 빨강, 31-40 회색, 41-45 초록) */
+.ball.b1 { background: #fbc400; color: #3a2e00; }
+.ball.b2 { background: #69c8f2; color: #06344a; }
+.ball.b3 { background: #ff7272; color: #4a0808; }
+.ball.b4 { background: #aab1c4; color: #1a1d23; }
+.ball.b5 { background: #b0d840; color: #223a00; }
+
+.pick-games { display: flex; flex-direction: column; gap: var(--space-sm); margin-top: var(--space-md); }
+.pick-row {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+}
+.pick-no {
+  flex: 0 0 auto;
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 6px;
+  background: var(--color-surface-2);
+  color: var(--color-muted-fg);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
+}
+.pick-row .balls { flex: 1 1 auto; gap: 6px; margin: 0; }
+.copy-btn {
+  flex: 0 0 auto;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  min-height: 36px;
+  padding: 0 12px;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  background: var(--color-surface-2);
+  color: var(--color-foreground);
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background var(--transition), border-color var(--transition), color var(--transition);
+}
+.copy-btn .icon { width: 15px; height: 15px; }
+.copy-btn:hover { border-color: var(--color-primary); }
+.copy-btn.done { color: var(--color-on-primary); background: var(--color-primary); border-color: var(--color-primary); }
+
+.gen-bar { display: flex; flex-wrap: wrap; gap: var(--space-sm); margin: var(--space-lg) 0 0; }
+.gen-bar .more { margin: 0; }
+.pick-mine-label { margin: 0 0 var(--space-sm); font-size: 13px; font-weight: 600; color: var(--color-muted-fg); }
+
+.balls-sm .ball { width: 24px; height: 24px; font-size: 11px; }
+
+.rank-hi { color: var(--color-accent); font-weight: 700; }
+.rank-lo { color: var(--color-foreground); font-weight: 600; }
+
 .estimator {
   background: var(--color-surface);
   border: 1px solid var(--color-border);

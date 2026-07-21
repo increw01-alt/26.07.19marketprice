@@ -505,6 +505,7 @@ async function pageLotto() {
   renderLottoHead();
   renderLottoTable();
   renderEstimate();
+  renderPicks(); // AI 추천번호 + 성적 (별도 데이터 파일, 실패해도 페이지는 유지)
 
   $('#ppl').addEventListener('input', () => {
     renderEstimate();
@@ -515,6 +516,159 @@ async function pageLotto() {
     renderLottoTable();
   });
   setStatus(data.updatedAt);
+}
+
+// ---------- 로또 번호 추천 ----------
+
+/** 로또 공식 색상: 번호 구간별 공 색 */
+function ballClass(n) {
+  if (n <= 10) return 'b1';
+  if (n <= 20) return 'b2';
+  if (n <= 30) return 'b3';
+  if (n <= 40) return 'b4';
+  return 'b5';
+}
+const ballsHtml = (nums) =>
+  nums.map((n) => `<span class="ball ${ballClass(n)}">${n}</span>`).join('');
+
+/** 한 게임 카드 (공 6개 + 복사 버튼) */
+function gameRow(nums, idx) {
+  const text = nums.join(', ');
+  return `<div class="pick-row">
+    <span class="pick-no">${idx + 1}</span>
+    <span class="balls">${ballsHtml(nums)}</span>
+    <button class="copy-btn" type="button" data-copy="${text}" aria-label="${idx + 1}게임 번호 복사">
+      <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>복사
+    </button>
+  </div>`;
+}
+
+/** 클립보드 복사 (버튼에 잠깐 '복사됨' 표시) */
+function bindCopy(root) {
+  root.addEventListener('click', async (e) => {
+    const btn = e.target.closest('.copy-btn');
+    if (!btn) return;
+    try {
+      await navigator.clipboard.writeText(btn.dataset.copy);
+      const old = btn.innerHTML;
+      btn.innerHTML = '<svg class="icon" aria-hidden="true"><use href="#i-check"/></svg>복사됨';
+      btn.classList.add('done');
+      setTimeout(() => {
+        btn.innerHTML = old;
+        btn.classList.remove('done');
+      }, 1200);
+    } catch {
+      alert('복사에 실패했습니다. 번호: ' + btn.dataset.copy);
+    }
+  });
+}
+
+// --- 클라이언트용 추천 알고리즘 (스크립트와 동일한 규칙) ---
+function lottoFrequency() {
+  const f = Array(46).fill(0);
+  for (const r of lotto) for (const n of r.numbers) f[n]++;
+  return f;
+}
+function weightedPick(freq) {
+  const pool = Array.from({ length: 45 }, (_, i) => i + 1);
+  const chosen = [];
+  while (chosen.length < 6) {
+    const total = pool.reduce((s, n) => s + (freq[n] || 1), 0);
+    let r = Math.random() * total;
+    let pick = pool[0];
+    for (const n of pool) {
+      r -= freq[n] || 1;
+      if (r <= 0) { pick = n; break; }
+    }
+    chosen.push(pick);
+    pool.splice(pool.indexOf(pick), 1);
+  }
+  return chosen.sort((a, b) => a - b);
+}
+function passesFilters(nums) {
+  const sum = nums.reduce((a, b) => a + b, 0);
+  if (sum < 100 || sum > 175) return false;
+  const odd = nums.filter((n) => n % 2).length;
+  if (odd < 2 || odd > 4) return false;
+  const low = nums.filter((n) => n <= 22).length;
+  if (low < 2 || low > 4) return false;
+  let run = 1;
+  let maxRun = 1;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] === nums[i - 1] + 1) { run++; maxRun = Math.max(maxRun, run); }
+    else run = 1;
+  }
+  return maxRun <= 2;
+}
+function makeGames(freq, count = 5) {
+  const games = [];
+  const seen = new Set();
+  let guard = 0;
+  while (games.length < count && guard++ < 1000) {
+    let g = weightedPick(freq);
+    for (let i = 0; i < 300 && !passesFilters(g); i++) g = weightedPick(freq);
+    const key = g.join(',');
+    if (seen.has(key)) continue;
+    seen.add(key);
+    games.push(g);
+  }
+  return games;
+}
+
+const RANK_LABEL = { 1: '1등', 2: '2등', 3: '3등', 4: '4등', 5: '5등', 0: '낙첨' };
+
+async function renderPicks() {
+  let data;
+  try {
+    data = await fetchJSON('/data/lotto-picks.json');
+  } catch (err) {
+    console.error(err); // 추천은 부가 기능 — 실패해도 로또 페이지는 그대로.
+    $('#ai-picks').hidden = true;
+    return;
+  }
+  const picks = (data.picks || []).slice().sort((a, b) => b.round - a.round);
+
+  // 1) 이번 주(가장 최근, 아직 미추첨) 추천
+  const upcoming = picks.find((p) => !p.result) || picks[0];
+  if (upcoming) {
+    $('#picks-round').textContent = `${upcoming.round}회 대상`;
+    $('#picks-official').innerHTML = upcoming.games.map((g, i) => gameRow(g, i)).join('');
+  }
+
+  // 2) 내 번호 직접 뽑기 (클라이언트 생성, 기록되지 않음)
+  const freq = lottoFrequency();
+  const genBtn = $('#gen-btn');
+  const copyAll = $('#copy-all-btn');
+  const mine = $('#picks-mine');
+  genBtn.addEventListener('click', () => {
+    const games = makeGames(freq, 5);
+    mine.innerHTML =
+      `<p class="pick-mine-label">내가 뽑은 5게임 <span class="hint">(기록되지 않는 즉석 추천입니다)</span></p>` +
+      games.map((g, i) => gameRow(g, i)).join('');
+    copyAll.hidden = false;
+    copyAll.dataset.copy = games.map((g) => g.join(', ')).join('\n');
+  });
+
+  bindCopy($('#ai-picks')); // 공식 추천·내 번호·전체복사 모두 위임 처리
+
+  // 3) 지난 추천 성적
+  const scored = picks.filter((p) => p.result);
+  if (scored.length) {
+    $('#picks-history-sec').hidden = false;
+    $('#tbl-picks tbody').innerHTML = scored
+      .map((p) => {
+        const r = p.result;
+        const best = r.best;
+        const cls = best >= 1 && best <= 3 ? 'rank-hi' : best ? 'rank-lo' : 'flat';
+        return `<tr>
+          <td class="num">${p.round}</td>
+          <td>${r.date}</td>
+          <td><span class="balls balls-sm">${ballsHtml(r.winNumbers)}<span class="ball bonus">${r.bonus}</span></span></td>
+          <td><span class="${cls}">${RANK_LABEL[best]}</span></td>
+        </tr>`;
+      })
+      .join('');
+  }
 }
 
 function renderLottoHead() {
