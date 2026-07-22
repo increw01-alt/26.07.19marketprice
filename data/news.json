@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T10:25:43+09:00",
+  "updatedAt": "2026-07-22T11:08:00+09:00",
   "topics": {
     "coin": [
       {
@@ -53,55 +53,85 @@
     ],
     "stock": [
       {
+        "title": "코스피, 美 반도체 훈풍에 5%대 급등…장 초반 매수 사이드카",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MTGgwcnRaczUyRzJ6QU9CY2VMYkhLcDBNMjFiVDV4Q0RYWDQ4aDFmVnNSbkYyUzdDNVBINk1rYXJNRnE4ZkJMS3EwZjJncVRkRVAw?oc=5",
+        "source": "네이트",
+        "date": "2026-07-22T02:01:00.000Z"
+      },
+      {
+        "title": "알파벳 실적 앞두고 코스피 급등…매수 사이드카 발동 속 7,100선 회복",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBwbUNQRUdkU2xuMFMxbEJLNE5GQnk3RGFUTFhXLXlIb1lYb2VzZG9Wb2pVc1FpWjE5MVFUM0hmMUlfbHJuVUVXalJKVFRJU1ByQ3VOMTNhZk9RRzhoV2h5XzV5SVZRMmY1V3ZF?oc=5",
+        "source": "일간투데이",
+        "date": "2026-07-22T01:37:46.000Z"
+      },
+      {
+        "title": "[마감시황] 삼전닉스 5%대 급등해 코스피 '7천피' 탈환...외국인 '사자'영향",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1sRnBIeFhRTGh1cGhoTTlsaW4xcHktZnlaSkxiLXZiQjdXVHJudmEtZC1ublBPTUU3X2x4d01oR2hxQTRyQjJrOF81NWlDUnBhay1UUW04S1cxWWIycXJKbGI5Tlc4WHpvOTVpb211U0xmUQ?oc=5",
+        "source": "중앙이코노미뉴스",
+        "date": "2026-07-22T01:25:57.000Z"
+      },
+      {
+        "title": "코스피 장중 '매수 사이드카' 5%대 상승 7090선, 코스닥도 2%대 올라",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDYjYzcHZIdHlNS3phTHdRcVB1SnppM2JycDBGeG1GS3JMek1JUGI4RTVDYW8xMDFHR2xzd1VHT010YmV1UUN4dGlCbXZsX21UdU5kNWlfdDdKa2xzR0hQMTJ4N2x6X21WUzBHZ0tQUG5WeU0?oc=5",
+        "source": "비즈니스포스트",
+        "date": "2026-07-22T01:25:23.000Z"
+      },
+      {
+        "title": "\"AI 불씨 안꺼졌다\"…코스피 7000 탈환",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5iVDNrTEhDVEpiQ2haUnRCRGRwaHlWTHpoemREcWd4Z0l1dXh4Qng2LWs0cjFaY3BNdFBqRHVuRmRTYW1wdkJfSjVNQmJfRUc0Xzdz?oc=5",
+        "source": "네이트",
+        "date": "2026-07-22T01:24:00.000Z"
+      },
+      {
+        "title": "\"롤러코스피 피해 미장으로\"…미래에셋, TIGER 美대표지수 ETF 2종 순자산 30조 돌파",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IVUFsV3lZalhKYVNTZTR0cmhzVnVremtraG84T1g3c2JtY1E2NTl6bGFKV3BReC11d2RrM3BTZHRJU0FFNDJfejlqZ2kwdGNFNWRld2ZmSUE?oc=5",
+        "source": "뷰어스",
+        "date": "2026-07-22T01:23:44.000Z"
+      },
+      {
+        "title": "장초반 코스피 7100선 재탈환…매수사이드카 발동",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE83UU52ZmJHRVlraUkxSHhuMXZsRWl2MHdLOTlZWmRGSW9UWkhMOF9XdTN1cUI4ZTdlQ1FFNDFaX2pwT1ZRcjBoNGZxQi1yQTI5YUszV1VJMFFhRHVpX0RSMElTTnZSYzdsb0V3emRCY2ZxWVU?oc=5",
+        "source": "대한경제",
+        "date": "2026-07-22T01:13:53.000Z"
+      },
+      {
         "title": "[오늘증시] ‘반도체의 귀환’ 코스피 7100선 탈환…빅테크 호실적 영향",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1NWtSOUFJcXdvd0pkemZFM3VFbDdGTzNRLUVxNUFmU3hHSUtaeDVsNDZ1U3ZyR1VjQktlU0dRMzVDRHlrdE81QVFFM0dCcE5lVy1QODBDUWhDbTRSR19IN3hPZGd5T3lJNDNWTG83aWx6bU0?oc=5",
         "source": "오늘경제",
         "date": "2026-07-22T01:12:48.000Z"
-      },
-      {
-        "title": "\"국내증시 떨어진 이유는 레버리지\"…코스피 1만2500 전망 나온 이유는",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1leThRbzg5N285eHpXTHlfOUVpNG9mNXAtdGd2RG5Fb21MZUlPZ2lxdjNuNHg0TzlmR0stVmVaTGJYMUk5ZXVpQ1g0Tno3TEhvajEw?oc=5",
-        "source": "네이트",
-        "date": "2026-07-22T01:11:00.000Z"
-      },
-      {
-        "title": "반도체 훈풍에 코스피 7000선 탈환...삼전·하닉 폭풍질주",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xUWFFTkdJc2wtSkM2TTgwaUJ1bHJCVlQ1ek11NFhpVkNDSjl1azdDdUdneXM2UkZfOWk1cDBXVWtTY0lkanBpWXV5aGE5aG9IaEZ5aGhBX1BQWFp4aTVrU1c2aDRwVE9XWVHSAW5BVV95cUxOLWE3YzBWTUg3M1Bzalp3Q1UtU1pEdmVDOXFzYTFaTzdhMUpITXNaSGlNckpjalVtNFBGY1JIUndVOFBmUXdfSTV6V1NRUnlGVWFac3EwQzdCVnZtcmppZXdxNzVrbG1jVGdVZ293UQ?oc=5",
-        "source": "파이낸셜투데이",
-        "date": "2026-07-22T01:09:12.000Z"
-      },
-      {
-        "title": "[개장시황] 코스피, 7000선 회복…이틀 연속 매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wTFJxaVFXWlBwdG9JdHp5dU4tX1l0X1Jqc1pvYmp2dy02YXp3QnJGS0t1VTN3MnNhODlXZVhGbTByc2pWLVlIc2QyNWxpR1l5VXFIamFlUWZ3VHhx?oc=5",
-        "source": "뉴스핌",
-        "date": "2026-07-22T01:04:00.000Z"
-      },
-      {
-        "title": "반도체 투톱 급등에 코스피 7,100선 돌파…매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAzQWV1QXVpdVR0QnBwYkk0YURmZWNOQUVkN01iZFNBVFFWbnBqcWVwTW80X2VLX3U5RktLNkVnUlRfYldZdHlfLUpCbFZNb3lndUpjLWNpdkdqekVmc2JNU29sMi1sc1M4ZHdnOWpBLTPSAXRBVV95cUxQZjRUdFQtcnBhdzhlNW9uQnZMWUFSYnd6VkFBM0t4aWJjSjBoaFJJSlZWZmQyUW9WMUFiaXE4OU1jQTNUZE1qbnNBUnNCVndqbWpIdkktU19BUGVIcHMtTmxuRXhfZnpMWnBNazBGbWVNbmJ6bw?oc=5",
-        "source": "산경투데이",
-        "date": "2026-07-22T00:59:31.000Z"
-      },
-      {
-        "title": "코스피, 5% 급등에 7000선 탈환…매수 사이드카 20번째",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QQlQxbFN1TmVhZ19GZTQ3Yk1Zc2lPUVBJRVdaenlHaXpGUHFHZ2E4OG9SUnVTUFBhclVRcEVwRmcxN2t1YjRwR3FGZjNwMWtYVllyempmSGNxRTNiOWplYmx2dXU0Y0E2Wnl2c191QkQ?oc=5",
-        "source": "한양경제",
-        "date": "2026-07-22T00:58:46.000Z"
-      },
-      {
-        "title": "‘삼전·하이닉스’ 질주…코스피 7천선 4거래일 만에 회복",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBIWmVsOVdENGJqbmtrSHZ2Q3lVM1liMDJtUXhkVDNHUVRJeGJJU3ZKcnRXcEE1WVp2OGdrRW9pbjF3anB4WU9iMjhFcFJ3TktqdEptMDBWYThpU25oR0N6Wm9abWNVaU1fLUFSX9IBcEFVX3lxTFBadGEtSHk0d1U4MW5SbE9qcXNVUHZmcW9MSVo1MFlDNTlScm9xOTZSRGRndEo5Sk0yWXN0NVRLMGk2Z1h0Qm14Z2xRbTVBaDVaNUhwSnE2YTNEbmVva1NlQXJLcjAtN1NaVHJjOXZkNjM?oc=5",
-        "source": "남도일보",
-        "date": "2026-07-22T00:57:00.000Z"
-      },
-      {
-        "title": "코스피 질주에 7100선 회복…올해 20번째 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9meFFhRkJGUVUzVUlXZFRmRExIZWhiRmZHcE14R0hnb0hLQi1jalVQWFl1TjJNMzEwN0JMMlJHYzRSNUJ6aWk5T2ZPYmZDbG1BYU13?oc=5",
-        "source": "네이트",
-        "date": "2026-07-22T00:52:00.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "금융당국 '코스닥 살리기'…효과 볼까",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UTUZ0RXBZWFduY2JGNXlaN0VwMkg5ck1YM1kxVHZXT3RNd08xdFk4aUhKSEw5ZGdhQzlXY2FMeTM4M05YWk1RRjc1VHdza1Z6dVBZaldyM2VTY0tTNUVaVXM3TlFrNGhyZVE?oc=5",
+        "source": "비즈월드",
+        "date": "2026-07-22T01:49:00.000Z"
+      },
+      {
+        "title": "李 대통령 취임 전으로 회귀한 코스닥…부양책도 못 살렸다",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5iRlhlMGRiMWg5YmNBdGIxVHhNRWQzTlFLZ0VkemtlRERDcFhEVzlTTUlVM0lsWE9ZOUpMTG45SUJlR0FqeHQ5UHAtNUgyZGEzMV9jQzZQTWFMZ2N4U0RFaXl3?oc=5",
+        "source": "매일신문",
+        "date": "2026-07-22T01:45:26.000Z"
+      },
+      {
+        "title": "[위클리오늘] 코스닥 '상장폐지' 공포…반도체 쏠림 속 중소형주 '생존 위기'",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1RWTF1X2V5ZWF3OEVYcnVwUTVic2ppcTJkUm1rXzZVZUNsVEZUOHZjQ21CeE1QMklMQVdvd2hfQUxUTTViNHJiN0lEdktxdHdzTnlvNFo4N0QxS1BxUTg1ZmtSc0l1VlhDY1hEQkRR?oc=5",
+        "source": "위클리오늘",
+        "date": "2026-07-22T01:32:33.000Z"
+      },
+      {
+        "title": "코스피 장중 '매수 사이드카' 5%대 상승 7090선, 코스닥도 2%대 올라",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDYjYzcHZIdHlNS3phTHdRcVB1SnppM2JycDBGeG1GS3JMek1JUGI4RTVDYW8xMDFHR2xzd1VHT010YmV1UUN4dGlCbXZsX21UdU5kNWlfdDdKa2xzR0hQMTJ4N2x6X21WUzBHZ0tQUG5WeU0?oc=5",
+        "source": "비즈니스포스트",
+        "date": "2026-07-22T01:25:23.000Z"
+      },
+      {
+        "title": "[EBN 데이터센터] 코스피·코스닥 시총상위 동반 강세...반도체·자동차·로봇주가 장중 상승 주도",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE15RDFFZWttMzQ0M1FkYjZERElCdGVWaXVkMFA0R3RMQzlmb2oyaEIwblZhcFNSZWdrMmVmQ0RQSU5JLUZZY3VxbjRudHUydHdQaGtnOURUQUs5c2VyWFRRd015Y1F6clhO?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-07-22T01:00:00.000Z"
+      },
       {
         "title": "모두투어, '코스닥 상장 21주년' 기념행사서 ‘지속 가능 경영 방향’ 공유",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5tTzF2dVliZnp1NUdCRmNtSS1wdGE1Z0VLLXVVRjNMZGdvbXB0MGw2QXpyTmpiMUNYMmtGNWRGalktdGRSckxwb296cGZyeWtGd3ptSWxLNDNpZk9FYTVyU2h5aXVSLUVTTXFN?oc=5",
@@ -119,44 +149,32 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBmMTdRQUMzR1BDdE9EWjdEOVNpRWR2aWxib09LLUlOY3JOTW5wRDlBQ0hzQjViVkEtNnRyUHdRX0ZYUnl2bEUtSlU3bzhCUDdWcnF3UmMwWGtrWmpQckpaakxn?oc=5",
         "source": "매일신문",
         "date": "2026-07-22T00:48:44.000Z"
-      },
-      {
-        "title": "삼성전자 로봇 조직 신설에 코스닥 로봇주 일제히 '상한가'",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5yS25BX1J0T3lsTk8zOXFwUmNkMjUxRlRNOTNBdXNrU21EbWY1V1VZOXhzWkdyNXY1NWV2Y29yOEQ1TGRHb21oUXhVbGZJeWpFQ0xpbG5SZG0xZw?oc=5",
-        "source": "한국경제",
-        "date": "2026-07-22T00:30:57.000Z"
-      },
-      {
-        "title": "코스피·코스닥, 오름세로 장 출발",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE8talhMMkVzbHRWdzkwUFlzTkZpcTlOSG85M3RGNTg2VjlxSm5mZWNVV1F2ODFmMGtTRWh5czdlcTZ6YWZpWTNOM2h2UE1LYWFWWWlCNHpoOFNIeDRqWk9QTVUtSHVLcVlsUzlv?oc=5",
-        "source": "한강타임즈",
-        "date": "2026-07-22T00:29:48.000Z"
-      },
-      {
-        "title": "[서울데이터랩] 코스닥 4.60% 급등 마감…반도체·로봇주 동반 강세",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1ya3RiYWhaTzdEUXlIMFlmNkhScDMtWjNreFFYcWtIUVhGU1FVWDRfZkFsWVZHXy02Si1hbEJUbVV0NmFOYWhDSTZIWkVfbEcwd2F2UE13dUNjY0RJaW1rdnNLOA?oc=5",
-        "source": "twig24.com",
-        "date": "2026-07-22T00:28:00.000Z"
-      },
-      {
-        "title": "상승 개장한 코스피-코스닥",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9JQi05TEY0b215dXlHT0FlTGV5dEltR2tBcmdLWldwdkRuMDZZVDJXZm5YWkpBQzN1MG9ERFc0REpPcHdJTzZMUFZsUVlxSmxqMUd3MVlFTlJWN1RCWENrVg?oc=5",
-        "source": "뉴시스",
-        "date": "2026-07-22T00:20:37.000Z"
-      },
-      {
-        "title": "상승 개장한 코스피-코스닥",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE45WC1mcUxXQ3FUdUQ3QWxQeGs2NndkX1ZnQUVmaUtTUmFHRDZHT2NyNzB2eEdWTXNNWjJZZWdTdG56UENCaEVCUVN4UnlTSEZidjJJRDlwaTJCaXJvUFZOVQ?oc=5",
-        "source": "뉴시스",
-        "date": "2026-07-22T00:20:37.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "‘1500원대 익숙해졌나’…1470원도 매수 구간 된 달러예금",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtTXdTaHFjZ1NZNGFsVi1YVXZuZDB1OUlqYV9rWUlSMlgxVjd2ZXFLT0w5YWtrOFc1Z2VidWZnLXpJZjRfd2F0N3hWY3Qyd1R4ZjdWaWRFUU1FT0JQejlYdVp6SDRRa0dCaGFWZUx3?oc=5",
+        "source": "아시아투데이",
+        "date": "2026-07-22T01:55:46.000Z"
+      },
+      {
+        "title": "[종합 환율] 7월 22일 장중 원화 강세 달러 엔 유로 모두 하락",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBmZVpkN3NKX1Q2SXpSaVUzenNqQUZJRnNfeHZmekVqLUtHWkpIak5qQjk4N19McjhUNnYtYnVFVkI4M2ZZRXd1T1hVSlRRdTlET1otUjlZUXEza3g4d2hiTklvV1FKRjE0N1FVMmpn?oc=5",
+        "source": "투어코리아",
+        "date": "2026-07-22T01:15:09.000Z"
+      },
       {
         "title": "원-달러 환율 1400원 후반대로 하락…정부 \"하반기는 더 개선될 것\"",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IdElqeUV2RFIzdXRSUWdYQVJRZ1VDanJuT1dTV0JGeXBURXBHb0lOdUNEUHprOTRHOUJETzd5S3hwMWNndXQyYjFzZjNvSmpjTGtJ?oc=5",
         "source": "네이트",
         "date": "2026-07-22T01:10:00.000Z"
+      },
+      {
+        "title": "[전혜은 시선] SK하이닉스 40조 환전…환율 급락, 1470원대 안착",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oLWQzUXhOcmROTURSRXZkcTZuZXlkRV9CcWYtYi15OVR0NEl0YnRVZWNfYjg3eUtUM2pJaFR4aU1uU3U2WXhpcEM2bmVQY2JoNGtlUzlzdHg3Y2NMcDY5OV8yT1l1eUsxMndTTUlR?oc=5",
+        "source": "위클리오늘",
+        "date": "2026-07-22T00:50:48.000Z"
       },
       {
         "title": "정부, 조선 3사와 외환시장 점검…선물환 매도로 환율 안정 역할",
@@ -181,27 +199,15 @@
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUcHRtTF9GalNLSF9ya1NFR3BZWDNPaEZYNHFRYkItX0VZcUFVeUpDVHFHNGQxNm5YZndDRmYtYVVmWkxmV0Zqd09LbDhHbWtwOEF5MllIYjBoM3hVd1E?oc=5",
         "source": "뉴스투데이",
         "date": "2026-07-22T00:32:00.000Z"
-      },
-      {
-        "title": "[위클리오늘] 美 반도체 반등에 코스피 7000선 출발···환율 1480원대",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xZlRNTmp6bmRMTEg4Sm02ZFJzY3gxQzU5VUZPbzU3ZGNrNlhmN09oTlExcHRsXy1EYUpZbVoyS0dUcEFHTW9fcXFXa0k3dFEyTWdNanptVDdHdUVaZmt1TDNQY1FpUVFLVGtKaEF3?oc=5",
-        "source": "위클리오늘",
-        "date": "2026-07-22T00:30:03.000Z"
-      },
-      {
-        "title": "원·달러 환율, 7.5원 오른 1480.9원 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMWs0LXlrMVJveGRWc1NCOG5fVHo4eDhNX3pDNzRwd0hMMVpmN3ctVlZOV3k4M3BhT3dhMjUyVXYtY1I5Nnk4RVYxblAtR3FMM1BLeGpmNGZtOHlrTU80R3FTNm0xSTRrQ1NsbGoxMllPcVhCQVd3NEh3RnRrakFxWTVyXzR5d9IBmgFBVV95cUxPVjdqWnh2c0JHWC1DTGhYQTE5amptRDdiX3VPaUJGdzZHN0lYQTdfNWZRRGdWS2dkVjA5N2dnN2daakY3UHdsTUdzTkNCbTQ2cGE5UnJ4TElqNUJsa2VudlhEaE9rWnF1cWc4YUEyUGxCMnlSbEhTX2VBVUt6ZWc2TEhuZnRCM0hlWFdJUjFWdklRMXAyNXdMN2JB?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-22T00:28:00.000Z"
-      },
-      {
-        "title": "[외환] 중동 불확실성·엔저로 상승…6.30원↑",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ueW9hZGhpWm53aFRqWC1waDFmNFVZc2pfYVhfa3FSTmRuYVVmdEgxbjJtbUFDN3d6QVYtbHFnSDdySXlTWG4xQ1hrU2RhTDR3eHUyRVRhcFhBVzBsMjkwU0lPdjhaMUsxSm15SG81R0VSZw?oc=5",
-        "source": "KB Think",
-        "date": "2026-07-22T00:26:04.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "금시세(금값) 22일",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VV014a211MkJVOVNfNzA0bFhOWk5yalZ3cE5ra2ZKajhSNF9JNlIyR2s3ZmZYSTItbEpIVFNCQkVieXp0NXZVTVptNE8xRWpwa2pjdWZkX0VDY3VkaGxlYTZ4Zk0?oc=5",
+        "source": "bntnews.co.kr",
+        "date": "2026-07-22T01:41:59.000Z"
+      },
       {
         "title": "오늘 금시세(금값) 주요 귀금속 일제히 강세…'미국 이란 충돌 점점 격화'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5eWRiWVRjNTdjaTVmR3gwaGpOZ1RqSWVNUm8xX1NMX3JOeWRHS19hckprQTQ3Uk51a1JsWmJKYU5DcDZLa3NIa2NtYS03Y1AtUHptWi1OUXRBWmFwNnd3UFc0M1pFa0ZO?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5RSmt1X01IYVJ3SS1lcVJIdjdGOTZPLXNGWnAxX1V2enZERVdWV2Y4R3UzcDRPSExOQUI0aFM1SWlpMm5odm9BUU5tT1RES2tPdXFaZWo5dkZxdWJ3QW9yZlF6Yld5UQ?oc=5",
         "source": "비건뉴스",
         "date": "2026-07-21T07:12:47.000Z"
-      },
-      {
-        "title": "오늘(7월 21일) 금 시세: 세계 금값이 다시 상승한 지금, SJC 금, 바오틴민쩌우 금반지, 바오틴만하이, 푸꾸이, 도지 금반지의 가격은 어떻게 될까요?",
-        "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOY1Z3ZVFHZUpEaVk4RlBEYjVCZ2dia3M1M1RaSndBc1BJWU5LYjlHdTlEWml0SGFkUERaZkVxNjQ1Smo4SVRxTndVRVVLRTVQenQ0ZEJaVHc3XzFJNVJDQm84cmZGOGh4bUNiNzh6bzdsU25jRk0yR2ZTS05vSm5TSzI1NnlEai1zTVdVMUwxd1p5QzJKWk05QlFKZ0trT29BT0QyV0NzbE9GTVpnWkhxeER2SUpJUExWb0xFUUlLR0JsZ0djODNlcXJuRk53RUhDY3JVUl96MnVKSmpUUVJoSUc5QjZXckkzbUE?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-07-21T04:13:53.000Z"
       }
     ],
     "energy": [
@@ -403,6 +403,18 @@
     ],
     "realestate": [
       {
+        "title": "[전문가기고] 통계가 보내는 서울 소형 아파트 임대차 시장 경고",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9saVNCRW1yUHZHM3lxSHJZV282R2dOWHAwQkNzblBPdTRhbmhLLUxmU2gxSnNZWktuZFc4THJhR2dyYUtJSHNJbV9GcDA3SENWbnlkMDhwZEw3alVHeHdSWDEwWTE?oc=5",
+        "source": "매일일보",
+        "date": "2026-07-22T01:58:42.000Z"
+      },
+      {
+        "title": "부동산 ‘초품아’ 매매시장 인기···3040 ‘주목’",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10VmgwWWJKaEVhOFh6TV95RS0xRUxzOVU3S3BzRWYzRnZjcEhSbzNIek5NelFRRU01bDg2UWJUMW9ndDBreWhSYzBPNXM4cGRERU8yblJxTHBVRGp1WmsyWGlFMFpuMjBjSER1SkJHT3TSAXRBVV95cUxQRUNsUTJhTWxLU2VRSjY0amVIeDdzaWpRZ2huOGpWekZBRk1EOU4zZzRXZXZkMlFWOFdyaTlPSkMxcWZrSVEybndtS3ZteHVrMnN6OUxlQ0FPNU83cHRRNlRoRTkxakVGMHpFZ2M4Q2NvVm1KUw?oc=5",
+        "source": "이뉴스투데이",
+        "date": "2026-07-22T01:29:57.000Z"
+      },
+      {
         "title": "서울 집값 다시 상승세…도심·동북권이 주도, 월세시대도 본격화",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE91YkhNRFlET3BpZHA1TldlT1p5cENueFVWVnc1Q0Y3RDVjWXAtQlZCWG5VT0c5TjktLXEzWElMX2h5ajlKVUUyWjRrcGV1WUlObkdzN0V2bUFGVXhZaU9ST3FodkpVUVUtMnNv?oc=5",
         "source": "서울아파트신문",
@@ -437,18 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84Z1FLYlpzZE1wZG54WmJMemdIWGc1dmI4LTltNy00THg5alAwMlpWN3RRNkZwbE9nYmxRZHl4c2J5QWJoUm1oeTNnVU91R21DM1FLRzdVNFlHTVd3UmE2dmdfVnQ1VVU?oc=5",
         "source": "청년일보",
         "date": "2026-07-22T00:08:24.000Z"
-      },
-      {
-        "title": "강남구 청담동 이니그마빌2 55억·압구정동 미성2차 51.5억... 서울 아파트 실거래가",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1tRW1ocjV3b19LZjdkUkJHOXo0dnhOU3ZxbkhUV0tJaXI4YkRWQzdma2FKZ0k2MEhqb2RJeGFrdTdJNlpibG9vUEhQdTVvZ1Zvd3JqYzBzaks?oc=5",
-        "source": "매일경제",
-        "date": "2026-07-22T00:04:01.000Z"
-      },
-      {
-        "title": "5월 서울 아파트 실거래가 1.33%↑…전월세 거래 비중은 역전",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91N1A1aVRKMWVMZ0NwcmNsUi1JdURmTzRnZVlfLS1XeE9nQmVrelJSaTVLSzJqSlc2N1FDbG41NlZsYXlpSUFnMW9mUHI4Um1DYk5Z?oc=5",
-        "source": "네이트",
-        "date": "2026-07-21T23:42:00.000Z"
       }
     ],
     "lotto": [
