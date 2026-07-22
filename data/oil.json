@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-07-23T00:32:25+09:00",
+  "updatedAt": "2026-07-23T02:12:00+09:00",
   "items": [
     {
       "id": "premium",
       "name": "고급 휘발유",
       "group": "oil",
       "unit": "원/L",
-      "price": 2328.93,
-      "change": -18.97,
-      "changePct": -0.807956045828187,
+      "price": 2346.11,
+      "change": -1.79,
+      "changePct": -0.07623834064483155,
       "date": "20260723",
       "spark": [],
       "note": "전국 주유소 평균 판매가 (오피넷)"
@@ -30,9 +30,9 @@
       "name": "경유",
       "group": "oil",
       "unit": "원/L",
-      "price": 1856.28,
-      "change": -0.09,
-      "changePct": -0.004848171431341813,
+      "price": 1855.86,
+      "change": -0.51,
+      "changePct": -0.027472971444270272,
       "date": "20260723",
       "spark": [],
       "note": "전국 주유소 평균 판매가 (오피넷)"
@@ -42,9 +42,9 @@
       "name": "LPG (부탄)",
       "group": "oil",
       "unit": "원/L",
-      "price": 1135.61,
-      "change": 0,
-      "changePct": 0,
+      "price": 1135.56,
+      "change": -0.05,
+      "changePct": -0.00440292001655498,
       "date": "20260723",
       "spark": [],
       "note": "전국 주유소 평균 판매가 (오피넷)"
