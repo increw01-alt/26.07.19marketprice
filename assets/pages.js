@@ -33,7 +33,7 @@ async function pageHome() {
       return `<a class="tile" href="${t.href}" style="--i:${i}">
         <span class="tile-cat">${t.cat}</span>
         <span class="tile-name">${it.name}</span>
-        <span class="tile-price">${fmtPrice(it.price, it.group)}<em>${it.unit}</em></span>
+        <span class="tile-price">${fmtPrice(it.price, it.group, it.unit)}<em>${it.unit}</em></span>
         <span class="tile-delta ${d}">${
           it.changePct == null
             ? ''

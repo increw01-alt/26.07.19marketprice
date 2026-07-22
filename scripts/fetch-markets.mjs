@@ -192,8 +192,59 @@ async function collectCoins() {
   return out;
 }
 
-const [quotes, coins] = await Promise.all([collectQuotes(), collectCoins()]);
+/** 네이버 금융에서 한국거래소(KRX) 국내 금 현물 시세(원/g)를 가져옵니다. */
+async function collectKrxGold() {
+  const headers = { referer: 'https://m.stock.naver.com' };
+  const base = 'https://m.stock.naver.com/front-api/marketIndex';
+  const detail = await getJSON(`${base}/productDetail?category=metals&reutersCode=M04020000`, {
+    headers,
+  });
+  const r = detail?.result;
+  const price = Number(String(r?.closePrice).replace(/,/g, ''));
+  if (!Number.isFinite(price) || price <= 0) throw new Error('국내 금값 파싱 실패');
+
+  // 일별 시세로 스파크라인 + 전일 대비
+  let spark = [];
+  let prev = null;
+  try {
+    const rows = await getJSON(
+      `${base}/prices?category=metals&reutersCode=M04020000&page=1&pageSize=40`,
+      { headers }
+    );
+    const list = (rows?.result || [])
+      .map((x) => Number(String(x.closePrice).replace(/,/g, '')))
+      .filter((v) => Number.isFinite(v) && v > 0)
+      .reverse(); // 과거 → 현재
+    spark = list;
+    prev = list.length >= 2 ? list.at(-2) : null;
+  } catch (err) {
+    console.error(`국내 금 차트 실패: ${err.message}`);
+  }
+
+  return {
+    id: 'gold_krx',
+    name: '금 (국내)',
+    group: 'metal',
+    unit: '원/g',
+    price,
+    change: prev == null ? null : price - prev,
+    changePct: prev == null ? Number(r?.fluctuationsRatio) || null : ((price - prev) / prev) * 100,
+    date: (r?.localTradedAt || '').slice(0, 10),
+    spark,
+    note: '한국거래소(KRX) 기준. 금은방·은행 시세와 다를 수 있습니다.',
+  };
+}
+
+const [quotes, coins, krxGold] = await Promise.all([
+  collectQuotes(),
+  collectCoins(),
+  collectKrxGold().catch((err) => {
+    console.error(`국내 금값 수집 실패: ${err.message}`);
+    return null;
+  }),
+]);
 const items = [...quotes, ...coins];
+if (krxGold) items.push(krxGold);
 
 if (!items.length) throw new Error('수집된 항목이 없습니다 — 모든 소스 실패');
 
@@ -222,10 +273,22 @@ if (usdcny && usdkrwForCny) {
   });
 }
 
-// 국제 금시세 + 달러/원으로 국내 금 1돈(3.75g) 환산값을 파생합니다.
+// 금 1돈(3.75g). 국내 실거래가(KRX)가 있으면 그걸로, 없으면 국제가 환산으로.
 const gold = items.find((i) => i.id === 'gold');
 const usdkrw = items.find((i) => i.id === 'usdkrw');
-if (gold && usdkrw) {
+if (krxGold) {
+  items.push({
+    id: 'gold_don',
+    name: '금 1돈 (국내)',
+    group: 'metal',
+    unit: '원/3.75g',
+    price: Math.round(krxGold.price * 3.75),
+    change: krxGold.change == null ? null : Math.round(krxGold.change * 3.75),
+    changePct: krxGold.changePct,
+    spark: krxGold.spark.map((v) => v * 3.75),
+    note: '한국거래소(KRX) 금값 × 3.75g. 부가세·세공비 미포함.',
+  });
+} else if (gold && usdkrw) {
   const perDon = (gold.price / 31.1035) * 3.75 * usdkrw.price;
   items.push({
     id: 'gold_don',
@@ -236,7 +299,7 @@ if (gold && usdkrw) {
     change: null,
     changePct: gold.changePct,
     spark: [],
-    note: '국제 금시세 × 환율 환산값 (부가세·공임 미포함)',
+    note: '국제 금시세 × 환율 환산값 (KRX 수집 실패 시 대체)',
   });
 }
 

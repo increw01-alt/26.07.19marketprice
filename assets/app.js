@@ -22,7 +22,9 @@ function compactWon(n) {
   return won(Math.round(n));
 }
 
-function fmtPrice(v, group) {
+function fmtPrice(v, group, unit = '') {
+  // 원화 단위(국내 금값 등)는 소수점 없이 정수로 표시합니다.
+  if (unit.includes('원') || unit === 'KRW') return num(v, 0);
   if (group === 'coin' || group === 'fx') return v >= 100 ? num(v, 0) : num(v, 2);
   return num(v, 2);
 }
@@ -168,7 +170,7 @@ function card(item, i = 0) {
   return `<article class="card" style="--i:${i}">
     ${item.rank ? `<span class="rank">${item.rank}</span>` : ''}
     <div class="name">${item.name}</div>
-    <div class="price">${fmtPrice(item.price, item.group)}<span class="unit">${item.unit}</span></div>
+    <div class="price">${fmtPrice(item.price, item.group, item.unit)}<span class="unit">${item.unit}</span></div>
     <div class="delta ${d}">${pct}${abs}</div>
     ${item.volume ? `<div class="memo">24h 거래대금 ${compactWon(item.volume)}</div>` : ''}
     ${item.note ? `<div class="memo">${item.note}</div>` : ''}
@@ -177,11 +179,21 @@ function card(item, i = 0) {
 }
 
 /** markets.json 의 특정 그룹을 그리드에 렌더링 */
+// 그룹 내 표시 순서 (국내 금값을 앞에). 목록에 없는 id 는 뒤로.
+const GROUP_ORDER = {
+  metal: ['gold_krx', 'gold_don', 'gold', 'silver', 'plat'],
+};
+
 async function renderMarketGroup(groupOrIds, mountSel) {
   const data = await fetchJSON('/data/markets.json');
-  const pick = Array.isArray(groupOrIds)
+  let pick = Array.isArray(groupOrIds)
     ? groupOrIds.map((id) => data.items.find((i) => i.id === id)).filter(Boolean)
     : data.items.filter((i) => i.group === groupOrIds);
+  const order = !Array.isArray(groupOrIds) && GROUP_ORDER[groupOrIds];
+  if (order) {
+    const rank = (id) => (order.indexOf(id) + 1 || 99);
+    pick = pick.slice().sort((a, b) => rank(a.id) - rank(b.id));
+  }
   const el = $(mountSel);
   if (el) {
     el.innerHTML = pick.length
