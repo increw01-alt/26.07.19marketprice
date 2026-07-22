@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-22T11:07:46+09:00",
+  "updatedAt": "2026-07-22T14:45:05+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,8 +36,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96250,
+      "buyRate": 3.75,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -48,8 +48,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96250,
-      "buyRate": 3.75,
+      "buy": 96200,
+      "buyRate": 3.8,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -72,8 +72,8 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96850,
-      "buyRate": 3.15,
+      "buy": 96800,
+      "buyRate": 3.2,
       "sell": 97050,
       "sellRate": 2.95
     },
@@ -96,8 +96,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96450,
-      "buyRate": 3.55,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -132,8 +132,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 481250,
-      "buyRate": 3.75,
+      "buy": 481100,
+      "buyRate": 3.78,
       "sell": 482000,
       "sellRate": 3.6
     },
@@ -144,8 +144,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96250,
-      "buyRate": 3.75,
+      "buy": 96220,
+      "buyRate": 3.78,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -156,8 +156,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48125,
-      "buyRate": 3.75,
+      "buy": 48110,
+      "buyRate": 3.78,
       "sell": 48200,
       "sellRate": 3.6
     },
