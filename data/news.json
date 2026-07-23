@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T02:16:01+09:00",
+  "updatedAt": "2026-07-24T04:07:42+09:00",
   "topics": {
     "coin": [
       {
@@ -59,12 +59,6 @@
         "date": "2026-07-23T15:15:07.000Z"
       },
       {
-        "title": "\"고맙다 구글\"…코스피 7,000선 재탈환, 외국인 2조 원 '폭풍 매수'",
-        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE4zMXZGdTdzbFkya0RMOXNNcHhpT2VQYlQ4X3B6VFh6WGo4dzFBNkRKQTRXYzF4V21oYllMRF9tX0RsS0ZrUzVJ?oc=5",
-        "source": "신문고뉴스",
-        "date": "2026-07-23T13:39:00.000Z"
-      },
-      {
         "title": "코스피, 알파벳발 AI 기대감에 7,000선 회복",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1Hd1BiUFRZajBrRVQwcGJzT0hXN0l6b3p1dkdQMldoTnNTcjYybUVmak1OS3ZZaTJ0eVJ5MnJHWTZyZktyR2hDRUp5ZVYwX2RpUmdSeF81MWMtT2RXbnU0dmZVUm44am8?oc=5",
         "source": "이로운경제TV",
@@ -99,6 +93,12 @@
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45Wl9lb2JmSzFHa0FLSzBqM2xiWkJ0aE5KbGQ4MzFDU2NWVXhDcFJIS21RQ1JJVTBRbHdMbExfa1BDNU5xYjlraEIzY2RmTmltUjlOOEhVT2FXenFKclFxbEh6N2lmYzg5S05JUlhzQW1ldGFFTFE?oc=5",
         "source": "인포스탁데일리",
         "date": "2026-07-23T08:14:59.000Z"
+      },
+      {
+        "title": "AI 투자 기대감에 코스피 7000선 탈환…중동 리스크도 넘었다",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0ODZNUHRWWVl4c0lzSV9OWkFCSVVqcmpSQ3M4TmpCenUzMjh2MFprYjBvaVZhTGw2T2k5ckQ1U0kwalpFamo5ZUw4SjlhMWJyaHdxZEpXcEtoNFFobi1vYmp5SlFYNVlJVWdIRg?oc=5",
+        "source": "굿모닝경제",
+        "date": "2026-07-23T08:14:47.000Z"
       }
     ],
     "kosdaq": [
@@ -153,12 +153,6 @@
     ],
     "fx": [
       {
-        "title": "[외환] 원·달러 환율 1466.8원 마감…두 달 만에 최저 종가",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93a053eGg4NlhEWWlMdzBLMnZKTWhVektGN1d1ZUVYVFo1NEs3eWVsXzBnSXJmSU16S18wb3NnbFdWN2VnUkE4Y004VEJUQUtxV2RDT0U0TzhtUGpXdExRRnV1SF9TdGs?oc=5",
-        "source": "자본시장뉴스",
-        "date": "2026-07-23T12:31:01.000Z"
-      },
-      {
         "title": "'한국경제 깜짝 성장' 원·달러 환율, 1460원대로 급락...원·엔 환율 1년 8개월 만에 최저",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE04TlJkQmdxNlo4Vl81MzBxWFZGTC04cDRDQW0taS1Na25EM09zRnFxTEhISlBFT0JoTWl4Nm9SalFaSUEzbjVMVXNidzNOMkZkdVZSTTBOSHFWeUh0NHF5QXhsSmE?oc=5",
         "source": "베타뉴스",
@@ -172,9 +166,9 @@
       },
       {
         "title": "원·달러 두 달여 만에 최저…원·엔 900원 하회",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBacGlRdEVrWnByM3VtNmp6QTBjZXhqS3B2ZWpPemFjRjdGdVFjTVBFRFh4VFNRTnBVRC1MWm0xTDdDd3B5Wk4tblRORXZoN00?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-07-23T11:55:30.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE92WGxjbExXbmZidUtqandOa1RMVkRYdy1nS1U2WWh1UFpTbEVKaUFwRnBrX0RsUGVqMUVBWE5JNHFVcnpEdDNQR3p2WFRObENSOHpRbzhfRElXVVAydDhDVDlNV1ViVzA?oc=5",
+        "source": "연합뉴스TV",
+        "date": "2026-07-23T11:54:00.000Z"
       },
       {
         "title": "원·엔 환율, 1년8개월 만에 ‘800원대’",
@@ -199,6 +193,12 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ZODlMeVF6Q2ZHTEZObkxfVzk3R0ZRNmJEUXdBZ3ZTMXFLNFRSZTdpQ3Y2ZXpIWHY5NGNJcTNDd2lVRU1qNDVCLWRuc216QjA0bTFGNjVFcVljS2IwcWh4R1N0c1ZQT3pzZXBKMXFR?oc=5",
         "source": "알파경제",
         "date": "2026-07-23T09:27:57.000Z"
+      },
+      {
+        "title": "시장 쌀값 또 최고치 경신…북중 무역 확대 영향으로 환율도 우상향",
+        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5Nd1A1a3VOV0lRT0FyRkI4YklSaDFBSVd4MS1XWDR4R1pZRjA3Z0xKdzZBa09vdmtLUXh3LWxuNC1xcWo4N2hxN2VhZw?oc=5",
+        "source": "DailyNK",
+        "date": "2026-07-23T09:02:38.000Z"
       }
     ],
     "metal": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "규제가 바꾼 수도권 부동산 시장…'15억 이하'·'비규제' 쏠림",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBqMElndnM5THNsOWpzM213ZzROal9La05EVTEyWVJQREpqeTBNMW5DUlIyQk9lLTk2N1I0cTg0Z29yckNWbWtGemVjdDFmQ3pLTG5McEtLMzcxckVOWF9GXw?oc=5",
+        "source": "뉴시스",
+        "date": "2026-07-23T18:30:00.000Z"
+      },
+      {
         "title": "서울 응암동 백련산 sk뷰 아이파크 100㎡ 13억5500만원…역대 최고가",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kb3Rxc1ZhU0VoX2pITTd6X3YxZndxNlJIYUotc1hQbm1QVE8zQnJvM3YxMFdLZlZON25oTUtUNUx4YVUyUWNkQkZLSlZGQktyQ1VV?oc=5",
         "source": "네이트",
@@ -437,12 +443,6 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWDVxN0tCQ0E3Q3BXTF83YWJYOGFZeERiUE9Ra2RtckEwZU1XR2xSSGxlZ3ZzcUZOczVtS19VWkJ0U010YlJVWWtqUENnVkdHZ19pbFo0Vi0tdGM3bVNxOENHeUpXSW95Um9rbWpUMmN3bWZRUzR1OEJmTjBuVUZONFpRM01YU1nSAZsBQVVfeXFMTUt0dERNR19aYTRtc3RCWDRJZ2kxNWhOOHRHU3JXRUhvWnFkUEtOOXJKd3V1cVFJZ2tvUUJEX3oteFV0V0hKU0s5NEY2cGlsQV9SNnVWb0lQOXY4T3c4M2c1VllyRmVycE9VUFdCdnNhRENPM2swWng0TkNzZ1JBbHE5ejRzNi1NTjVLVGFtZVlCUlFmNE9URzZ4a2s?oc=5",
         "source": "Chosunbiz",
         "date": "2026-07-23T09:11:00.000Z"
-      },
-      {
-        "title": "인천 논현동 한화에코메트로11단지 131㎡ 6억5000만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRTdjM3kxZGpJWTBzMUEzU0hnNzdwbEduTEppUkZ2ZEE1bVR2Tm1EOVJuMVl5RldnNFVjU29lR2hEVjJKcUdoT0hwMnJaS2NXREFmU1E5Q2tHX0l3cDRPaU9xLUVEb0x0bTFxQVd0S3JIMzBiaUhDcmhXNjhoUXNsWkQ2TmprQmfSAZsBQVVfeXFMUG1MZndBaDFIWlN5NWNfd1VyaWY0YXdjTDRfM09GWHllMUoyZjhIcmpoOW5kcVQzeEc2cnhwNUtfeDA4UEZrOVFVNU1GZkJZWHBZUXFyUDlud1RjMG5sLXVZalZIek12Smw5Si1kTnFiVHB0dWxvanpXSkp3VVhBU1VTOGEwTElzTk1WWlJUWXVJZDUwTDYzbUExMkU?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-23T09:06:00.000Z"
       },
       {
         "title": "성남 수내동 수내양지마을한양1단지 35㎡ 12억4500만원에 거래",
