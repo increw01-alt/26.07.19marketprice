@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T04:07:42+09:00",
+  "updatedAt": "2026-07-24T06:01:33+09:00",
   "topics": {
     "coin": [
       {
@@ -77,12 +77,6 @@
         "date": "2026-07-23T09:10:10.000Z"
       },
       {
-        "title": "코스피 반등했지만 ‘빚투’ 부담 여전…아직 끝나지 않은 ‘반대매매 리스크’",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKN184MkR5RG8tUUxzQUIxN1VtcDdGZTlzLWVMMzEwNXJ5OGRJQmkzN3paQTAwdU15TExtX0xCRDVNOFpsMkM2bWd4TkxuRG1DUnhBTlBVdFZySW1GMFJkMU5GTXhMUEhETzNYNXdaUG8?oc=5",
-        "source": "한양경제",
-        "date": "2026-07-23T09:01:37.000Z"
-      },
-      {
         "title": "[퇴근길머니] 알파벳 성적표에 코스피 '방긋'…'롤러코스피' 원인은?",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nZjZPWmRmc0VuUzAxOXFVb2J2ZnVXcEhES0RvVElKMGV4aWxYWGRsRjJsUU9GUVNfcVJWTFNQTnN3X1BfTjdkbEM1ZmV3NkRURTdV?oc=5",
         "source": "네이트",
@@ -99,9 +93,27 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0ODZNUHRWWVl4c0lzSV9OWkFCSVVqcmpSQ3M4TmpCenUzMjh2MFprYjBvaVZhTGw2T2k5ckQ1U0kwalpFamo5ZUw4SjlhMWJyaHdxZEpXcEtoNFFobi1vYmp5SlFYNVlJVWdIRg?oc=5",
         "source": "굿모닝경제",
         "date": "2026-07-23T08:14:47.000Z"
+      },
+      {
+        "title": "코스피 '7천피' 탈환…알파벳·GDP '쌍끌이'",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XREpscEVFdTRvLUEtZUNVaVpsVWlFUjlJT1pFU2RFQkw5a01VRVZnejVVOEZKZFlPRFVLc3ZOVmFOTjJpSWdqRnhsZGw1LTBQeVJscWJhVVpUNG0xR0hPVE1uVXk1c1ZMTEhQOVUySGc?oc=5",
+        "source": "코리아리포트",
+        "date": "2026-07-23T08:05:12.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "코스닥 제약업종 톱50 외국인 주식 보유액 전년비 1.9조원↓",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1fMFhFcm8yYTFOYXBsMEljdU9YcmFLcW1rZUIzMGwweTk2dnVkT0lvc2lVbktVMU4xbWVQQy1ITWo2V0RDUHkzZUFHOGxRZjl1VnEtYWFOdnh1SG44d21Fa0Y5U1duNG5KdFE?oc=5",
+        "source": "의학신문",
+        "date": "2026-07-23T21:00:00.000Z"
+      },
+      {
+        "title": "알파벳발 훈풍에 '7천피'…코스닥도 5%대 상승",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBXa2RoaW54TkxZb3dqMklVUXl4TDJTZUxjSjhHNzZGUW5PWWJZaXB5a25jVkNfN3VwMXBqb0doY0ZQZ0JOMUdYZWNFbFZoMms?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-07-23T10:33:31.000Z"
+      },
       {
         "title": "알파벳발 훈풍에 ’7천피’…코스닥도 5%대 상승",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9rOWo1YWJtd1o0X2xQNUFsMFdyVEZvUm5sbnVzMEZQVXlkVnZib3NRZ2dNZ0k1bV9YVktNQXhaUWZzOXJNS1FqdXBXOXpOV05oQlFFN0FZNGdEQnpBMHo1Z1lUSlU1ZDQ?oc=5",
@@ -137,18 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB2djIzakZsV3lvQlNqb3FOZjJ4eEdSTkVHM1pWR0lTTXBaUElRMXlvX3pXa1NxMmpRdTZIbC13bm1BODB6RjcyUGppeDUyNjJpdDdlSFlpZnFUYWM?oc=5",
         "source": "KBS 뉴스",
         "date": "2026-07-23T08:24:00.000Z"
-      },
-      {
-        "title": "코스피, 알파벳발 훈풍에 7000선 재탈환…코스닥도 5% 상승",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9FZ3d5cXlUT3lVc3BobXd4ZW5vdHZWWml6X1RUemNJbDdNb21JdGNYTElhTV9lVGh5cjJyTV9TbEJfNGJpZnRBeHpuVlYyYjFxRnl5Wl9mQ2pJbXBvWDlPRWZiOUJ5aHdvdC0yTWpfVQ?oc=5",
-        "source": "뉴스웍스",
-        "date": "2026-07-23T08:05:30.000Z"
-      },
-      {
-        "title": "코스피, 5거래일 만에 7천피 재탈환… 코스닥, 매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1jZzVsTTBqbERUR0g3cm1OTUxtT3Jxa2tOb2Vjc1F0eGVYUFlzZXUwYUEwX3cxOXczRVphZ0pKd1E3WFFPZVJXQl9tRjVocmVrcExNNHg2cUlvU3lvN1dlcEZCYW5TeF8wRnc?oc=5",
-        "source": "천지일보",
-        "date": "2026-07-23T08:00:00.000Z"
       }
     ],
     "fx": [
