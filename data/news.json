@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-24T23:51:06+09:00",
+  "updatedAt": "2026-07-25T01:37:56+09:00",
   "topics": {
     "coin": [
       {
@@ -15,7 +15,7 @@
         "date": "2026-07-21T22:10:04.000Z"
       },
       {
-        "title": "비트코인(BTC) 가격 랠리, '여름의 휴면기'가 암호화폐 시장 장악 속 68,000달러에서 진정한 시험대 직면 - 분석가들",
+        "title": "비트코인 랠리는 68,000달러에서 중요한 시험대에 직면, '여름 잠복기'가 암호화폐 시장을 장악했다고 분석가들은 전했다",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ2l0S3loZy1YdWk4YW44aWdwR2piQjdURXR6b09PbE5SOGd6cjJ6UG1acjRVN2FldWg2elV4TjFycWpndC05bVpYYVVDck1GTVlnUVNDbXJLSlNWUU9UdFdCTXBDRHpGcGktSmhLQVJsNEZYMmxzeFdQb3E0VHB2eFFIRXg1Nm9OX0VnVDlDRVdDZDNnZ01IazFkLU1zOEJvc3FSRkZtRHd1RVRXaE13M2x2dnNYaW1hbGU4bUotSW5XZUs4VVRveW1LM2o?oc=5",
         "source": "CoinDesk",
         "date": "2026-07-21T04:45:00.000Z"
@@ -53,10 +53,28 @@
     ],
     "stock": [
       {
+        "title": "삼성전기(009150)",
+        "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRWhRXzl0TVBXQ0FEeTBmdmJZMElBa05hNXQwRDhEd0R1dmxaQm5nZW44cG80WXlYOXJmanpSTnBxelVYVnV6Z1lHMDBlNVc5VVNZU2wxaklnMXBuejJGM2cwVUtfQ3h5ck02aU01RVFfZFNldmgybjVQdVR2c19Pb19SR29QUk9pd0FidXU1WHEzVWxWOV80?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-07-24T15:41:23.000Z"
+      },
+      {
+        "title": "JP모건 \"한국 레버리지 ETF 청산 75% 완료…코스피 전망, 1만2500 유지\"",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9RQVlFdk9JeE9ERmdlOXFKLXJZZkFpVmY3T3hVV2dFUGxLYmRxSWJTNFQyNDhYU0ZMUVhvWFhwWW5ZZ3F1SlRmUG5UVW9aakprWFE1YVl4ZDhySElkTUtIaEZ5bw?oc=5",
+        "source": "더구루",
+        "date": "2026-07-24T15:00:33.000Z"
+      },
+      {
         "title": "유가 100달러 충격에 검은 금요일...코스피 다시 6천선으로",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1odUM3a19fOWZSTXp6N0RQaF9mejdrc0lfYXBRekNteUljVWJ4VTQyZkhwdzA5Tzg5ZXlyb1RXX25DdXNIRFpiZF94MWI2Q0ZoSUVnZnZGM1lvaXNOV0E?oc=5",
         "source": "YTN",
         "date": "2026-07-24T14:20:00.000Z"
+      },
+      {
+        "title": "[7월 8일](국장 마감) 코스피 5.7% 대폭락, 중동발 유가 급등과 제약/바이오의 독주",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZDZCbjZyS3RJUXNyRzBsM2ZwRXZHNXVaZXlRb1daMzB4dzlkWF9IbTF2dVdNWW5fN2xzV2ZuX2FhcUN3VzBoTDYxMVZzLTdRYUt0LXhzN2hxZ295bFNtRWNyZ1BER3QyZ2l5QnJTblRTeG9Od29IM045MnRpdXRvdWg2c2hWTG5GaWV1M0VUZVZkUQ?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-07-24T11:03:00.000Z"
       },
       {
         "title": "흔들리는 증시…7월15일 이후 하루 빼고 사이드카",
@@ -77,28 +95,10 @@
         "date": "2026-07-24T08:56:44.000Z"
       },
       {
-        "title": "[마감시황] 중동發 유가 쇼크...코스피 5.7% 급락, 다시 6700선",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LSVdOTkV2UG9VLXljTHpackJzN0hUbkNPSjBHM3kyX2s3TklSVDJncU9TWE85c2txeUdsU0t0aVgxWWlZMlZxU1lhREtTYzNsMEx4Z0ZCLVRlXzRmMDZqU1VCOTRtNV9CRmFNbTZR0gFyQVVfeXFMT1A4VGhYQUJuV2FwWVo2ckR6MkVVckF2MUx2UWNuZTNLaHpOeHhJak8xZ3VtYmpjYzVkTjNQM2hpZlNTakdVTEF0M1NHUGV4ZTZUZDhkeTl1Nk14SWlsLTMtTEgySVI4WjRTNmRmYXVndjFn?oc=5",
-        "source": "폴리뉴스 Polinews",
-        "date": "2026-07-24T08:52:51.000Z"
-      },
-      {
         "title": "유가 뛰자 7천피 하루 만에 붕괴",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVWxvUzVYbmRkX1VYQ0NjTkRzUUpKWUlaenNsSlJGNjN0NUY2ZldSUUhDZlJ4dGtseUphOTI0Ym5zdzZTSmNJYXlreTRSLTlPY1h1T0ZpcVN1QQ?oc=5",
         "source": "한국경제",
         "date": "2026-07-24T08:49:57.000Z"
-      },
-      {
-        "title": "사이드카만 66번째…‘미친 변동성’ 덮친 증시",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sbVAtUFZON094V1pQenN3dHBONERQaGlrWDB4WnBoT0V3ZHVRRXRfN2dGUXpyWEV1eEwtRkpyeU9qT1RkdWY3RHVJMWswX0JnT0ctRjVHZ0hRaHpzTXZMZ3RLVQ?oc=5",
-        "source": "쿠키뉴스",
-        "date": "2026-07-24T08:44:46.000Z"
-      },
-      {
-        "title": "코스피, 4거래일 만에 5.72% 급락",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE51WTd6SzFLX1cwUlJjM2FZWkgwbXdNV2xzTXl4Sjc1ejU5emQ3NjdOa3NLYkV3M1pnSEM3NWY4UXd0c0NCb1VKM0p0LUZZa0VkbUlLdEtQRjJjRTBRenJTTkh0N0l1SThnTWZ3aVVR?oc=5",
-        "source": "더리포트",
-        "date": "2026-07-24T08:29:37.000Z"
       }
     ],
     "kosdaq": [
@@ -115,10 +115,22 @@
         "date": "2026-07-24T08:16:17.000Z"
       },
       {
+        "title": "코스피·코스닥 5%대 하락 마감",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TdlhfRTZwY3JZYlJzcHotY2dmaDlENjZreFZLYnRzWGliZWxlaTNNWW5fMHF2THUtdnF4cUZtdDlEWGxJX1VhTXl3OThBUk9jeUNEazZZZlBhY0k?oc=5",
+        "source": "KBS 뉴스",
+        "date": "2026-07-24T08:06:00.000Z"
+      },
+      {
         "title": "[장마감] 코스피 5.72%↓(6690.62), 코스닥 5.32%↓(748.22)",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5IcGJjZ1k3NThzVzBpOWJFUnczdXk3aU5nQW1OcFNTYlFwZGd5LXhza0dQZlpxc1piS01rdXdwN0dxMzJPNHJKaHNGOUprWVgxWjBVYzRhMnJ2UllMR1E0empR?oc=5",
         "source": "버핏연구소",
         "date": "2026-07-24T07:50:19.000Z"
+      },
+      {
+        "title": "코스피·코스닥 5%대 급락…코스피·코스닥 동반 사이드카",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zTzFFRlRFRV82U3Q1UFRNR3Q0bnVTU01nOVdLOXBERWt5bXFtZ3IyTXF3UGk4VGd3UWhubnBGQk1FTGhITkxnV2dLcGJRRE42VmNZTWo3UEpkVENGbi01cw?oc=5",
+        "source": "증권일보",
+        "date": "2026-07-24T07:33:00.000Z"
       },
       {
         "title": "외국인 대규모 매도에 코스피·코스닥 동반 급락…5거래일 연속 사이드카",
@@ -137,18 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3N0p6RWUxN0RKekJvR01TeUkycHByV19fT3JiVlZlRjJhc2lwQU1qaVNza3pBNnd6Sjg0SENvMmwwSjRzMjItdzhTRGd3QU52T3hROTdoUDg1cDdmRm1kYUxXUUtsMWhhRy12OQ?oc=5",
         "source": "프라임경제",
         "date": "2026-07-24T07:21:55.000Z"
-      },
-      {
-        "title": "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합)",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5YMHd2aGRpaVl4QURhZXFOaWpGdXZyMUNid1RFQmo0NTMxd0dqcUJoNTRpRFg2UTRacDJrWktPOEdzX0ZvcWhtMDVJZlNEOXlxOVpLSDYxVkRCS0HSAWBBVV95cUxOaWthYXdFUDR4Q1dNdGNUaW56Y1BiemNJVG9Hd19vTlhFZW1OYlYxaE1DNnhkTm5SLWIwY3FJZ0VBSldxNDNVVktHUEI5dl85SThGLTd1NEZzMldpTHlfQWw?oc=5",
-        "source": "연합뉴스",
-        "date": "2026-07-24T07:21:33.000Z"
-      },
-      {
-        "title": "코스피·코스닥 5%대 급락 마감‥'7천' 또다시 무너져",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9udnJMMW9rRkVGOE85ZFByMU1Vd0swZXJEUFFEV1NEYVh1NkpjY2htY1NFT09ZOVJQLW5DbTdqOGJzbmRkSkNTS2ttenJnU1RnVVhvU2FVMXJvcDR0ZnFLLVpTbHVOWEtZMWJHamdSc0Rja1Rh0gF0QVVfeXFMTWJxT05TUVAxTlk5MnpBX2tLd3Izcnk5T1RNZE42R00tdE13X0VMUlJoWUtKSGlEWHcwS2l6MEl6c0IyN3NpeEZBSmVqV29iNVBYSmRmNzBlMC1sUFBNU3ZfZjBBUW0wTktENDBycTB3a2xVaVM?oc=5",
-        "source": "MBC 뉴스",
-        "date": "2026-07-24T07:06:05.000Z"
       }
     ],
     "fx": [
@@ -165,6 +165,12 @@
         "date": "2026-07-24T11:13:56.000Z"
       },
       {
+        "title": "원·달러 환율 1460원대 급락…두 달여 만에 최저 : 알파경제TV",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sdVc2Wkp0dno0M0xOSk5XUTFkMUVkZ0ZxS0trT2pXNWltMTBpY0d3LXdmdi1WMUcydkJMeTc2WTRuS1ROUFJHZnZoTkxaTmhMeG1oVDgwb2VVVlZUYVJzN1htcEpwVFhxQ0xmVVZ3?oc=5",
+        "source": "알파경제",
+        "date": "2026-07-24T08:33:13.000Z"
+      },
+      {
         "title": "SK하이닉스 ADR 효과·수출기업 달러화 매도… 환율 1466.6원 마감",
         "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZU9CY01NS2dUbU85NXZqeFdhaEhIel9Hbl8xaXR6bjNZUFF2cHgtSE5FYUxzQWp1RC1QS245dG1PaGU1OHZaX1ktWUxpRTg0ekVET2FGMkJ3ZjZGWGNNRzJRSGJtSmI0Vl9jU1VhaTdTMm5xSDJmN1RDRnBVS19YOVgzUEQ?oc=5",
         "source": "글로벌이코노믹",
@@ -175,12 +181,6 @@
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KTjZ2d2dSM3hNd3hXY2FKUWRzNzBTbVgzZU9Ud0FUOFFoQ25TZzhSNHhLUGVCT3V0R1BjZTRfUER0cmdwMGdiRFlOaXU2UU5lN0VKX1RmaW9Hazc2a0VtQWd0UQ?oc=5",
         "source": "YTN",
         "date": "2026-07-24T07:42:00.000Z"
-      },
-      {
-        "title": "강달러도 누른 하이닉스 효과…환율 0.2원 내린 1,466.6원",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9GVkQ2amJCaWpOdUZzNDdwaVpJLWY4dGt5aGpBcGpiTFozTHlNeHQzeGl5Ylh0TnZYWEFFX2lRc001ajhselM3WWs3MlZMdW1WTHM5R1pJZlBadzJPQ1VPdTY5c0dESjUwLXAzZUdnRGpaY2tXUWo1Tg?oc=5",
-        "source": "네이트",
-        "date": "2026-07-24T07:05:00.000Z"
       },
       {
         "title": "[환율마감] 중동불안 이긴 수급…원·달러 또 하락 '2개월만 최저'",
@@ -202,6 +202,12 @@
       }
     ],
     "metal": [
+      {
+        "title": "오늘 금시세는? '국제 금값 온스당 4,000달러선 등락'…중동 정세가 향방 가르나",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QUUdxbjRrLWZHSi1mVVVUOXd1QVhpcVZGd21xcDRVTXJCaGVXWDRDNHNIcjZvZGN3QWc3QTJmNzN1MlNUYmtSQU1GdmVCeVRNVHRlTzZIVkpqbVc5Yk9YVFpHVW5CdVJy?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-07-24T15:05:00.000Z"
+      },
       {
         "title": "오늘 금값, 7월 24일 금 가격 전 거래일보다 내려",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5UYzhEUWJsdS0tR2dOSXNoOFJFaGlLTFZKNWlzSWh5SGtJYWJYcEtsZUVPYjB3bGFZbFdPTG1mRl8wQlA1YTZlMHpoZVY0TFhfUzQtclNneEVtN21va1JIQW80TWQyeWJxSVJyRmV3?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wcjdIRFh6NE5ERklwRFdsb0J4UUNHMXdwZDNxMzNRR1pGeXlKbjFGZHJPT3dUUTRjUjQ5N2p1ODFhNk1ac0FXb1lDdGFQbFJuZ0szWVJWZjhybUhkangyaGM3SjV0WWRvaTRvUDdR0gFyQVVfeXFMTTE1b19GdGFqXzFTNUd3WkkyYVdPRGpBWDlpUl80S1NfUnRhOEY0dXJ5VVFoYXlhZlVRMW9xSEMyTktiTERLOXVQZXpoLXBPSlFVc3QyNkt2R0F2NVpiT1dKZUp6cFhnc202N280ZEJhenhB?oc=5",
         "source": "잡포스트",
         "date": "2026-07-24T01:31:14.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값)는?…변동성 좌우할 요소는",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sTHFpeGRrS1pacHVzNjlCTVNodXg0cHBhWEJHU3NnZkpCSjRPYk15NUFtVVl4ZS1NZkZlbW1JSFd0Sk5LOGxUQVdIa2Vya0xQTURQLS1naWNFa2pQM1Y2cXBjSVdNck5B?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-07-24T01:10:16.000Z"
       }
     ],
     "energy": [
@@ -403,22 +403,16 @@
     ],
     "realestate": [
       {
+        "title": "동탄·구리 규제 묶이자 병점·남양주 아파트값 '들썩'",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9qR0lVdkdrbEVKNmhTLThXT3Z1cGhVTTdDV19EdFdPc0RwX19fNy1Sell6ck81V2JIUFlQeUVzVVVETW53RUFxZkhHZDJ3b1RwMlFubGZIcE9xbTQybFdEMm90NA?oc=5",
+        "source": "더구루",
+        "date": "2026-07-24T15:00:27.000Z"
+      },
+      {
         "title": "인천 만수동 만수주공8단지아파트 38㎡ 1억1280만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmcjdNWGp2aUtNc3RueW1jTWwtM0M4cUV2WWNuTHJ5YXpKelJCTDBMeG93UGdnajZtV3VseS1fMU45eE9JN3hHeDlhWExZcnFLbXY4?oc=5",
         "source": "네이트",
         "date": "2026-07-24T09:22:00.000Z"
-      },
-      {
-        "title": "용인 풍덕천동 현대성우 59㎡ 10억9500만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUTE4NjR1NHAwYVRzUlV3LXI0WTZtMl9YRkJMTGRBQWdlU1Z2T1pBd0F5c1IxTThua0FORm9ka0dtZzVnbHhEX2hqWlpRRFNiVEgtUE5FT0FibkpWUXNTRFF2Y1VJUzQ1ZHo1SmVXTWVGOXpTMXFfTHdDdnBHTWFwNjV2YWJYLUXSAZsBQVVfeXFMTU1xejFnTzlzZXhMZm1va3h5ejdndFNRYjVDQnJqM2Nla2NRUUZiTDRlY3NEQVhTODRydGk4SWRVTlE4QWZPXzZKQlpVdmxfQVZ6U3hTY0FsWE1NdUhOTnpTS1dMNTVYUHR3UVFIcUtIZTQyNHJoSk53dFgwMWRfWXBPVXdDTEw4N09jZWxnVlFhSWNxX25mV3ZqdFE?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T08:55:00.000Z"
-      },
-      {
-        "title": "수원 인계동 신반포수원 52㎡ 2억4700만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPNDBMZVFMemJVTzNPeklFS1g2YkxYdDA4ajRwbktLTU1TX0JTNUVDeFM2b1E0eUdoREZmNzl4SS1YT1BxVm9JZWxDdFhSb2stSmQ2Y0VrekpSN1R6RTB2VTFoNmJSMXNYQXl2RkJvQ0g3OWdBNEJJVGpFNWxKUWVhRml4QVpnSTTSAZsBQVVfeXFMTkVMa29oTWhBdkZ1R1pxdFBfXzJfQmg3R216NmRpSDVvTGRsZm9VNXJFTDExLUVqbS1kX21HcFBPX1VyTHYwa1NOU2pJY0hrNHpHUXg0ZVhiQmlRTjJpcUZJTThPZnlzUC1iMXBYODRRNlVCZzdIb09WaTNIQngwSGc1WHQyTEFlT3hublpzSmhtTm96cEl4WXZwSjA?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T08:36:00.000Z"
       },
       {
         "title": "수원 매탄동 매탄현대힐스테이트 127㎡ 8억원에 거래 - 조선비즈",
@@ -433,12 +427,6 @@
         "date": "2026-07-24T08:19:00.000Z"
       },
       {
-        "title": "수원 원천동 원천주공 49㎡ 4억2900만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeUZNSWUzVm9seVdseXB3dGRlRDJNN1JXaThqRzdndXdOMU9NWmRZdWtRN3FjWjc5RFlLUE5DZjR1UWF6NEs1V0pVWm9HMnN6c2ZzUGhIZGZUOEtlbkNQYy1zWHF6bjVBVDlBdkJuckZEZzc1RVlMSks0ekJPT21xejRmelVFTlXSAZsBQVVfeXFMTWZwczZrcmVjVDY1SDFHbUxyNmgxSDREMTN2OVN4bENFSUJselAwZVFRdXVOY0lDSElCNGlkR2lQYTctSXVpTW1PcDVFV0hlNGxKU09uSFlEMXRQWFIwekZxWkJ3MWxhSlpTekdWeDdqb19rNmpoSXFtdmllWFBhSU1RSEd3TzZlTUN6Vy1QVzBUUmlvUWlWMUNUVVk?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T08:11:00.000Z"
-      },
-      {
         "title": "수원 조원동 수원한일타운아파트 59㎡ 4억8400만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9tYk9TT1ZYWjB3UGFlUTFSQklubnlUaEZ3SkRzQ2FhbHhvODYzQTlOakZfNms0cDU3TEQ5LS1uSlRBRDdRTUh0QlQwYnhMNFZNYTZF?oc=5",
         "source": "네이트",
@@ -449,9 +437,27 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPblVjeDlDQ0dJOTlLMTRPX21XSTY2Q0VqMk9lT2tDT1k5ZGkyaXVOX2JQWW5KWXVJc09TVUdDSC04U01fUGdsNVo1VWJ6bXc3d0h1d0drTnRscGdKLXY2NzZSY3Z2MjhTaGFBRTVKZ0RRUG9rU1otOUh6WC1ySUdVQmFFZE9WM2PSAZsBQVVfeXFMTXhFUk1mb0hWQi1tS0pjVEYzOHhpU3p2Nl9menJfV1MwNWFXQ056b2FwRDRvT1NuRWozemNjRVJfc0hHV1ZPeFNObEg1NHFEem1QUGowdnVfYkdJV1J2amlHUUVSZFc1RURMMFVNU1ZaalhDV09HY3AwbWwyVGF1RTV2bXNTRlBaV2ZGc2F3SnFpV2lXXzl3WkVGUDQ?oc=5",
         "source": "Chosunbiz",
         "date": "2026-07-24T06:51:00.000Z"
+      },
+      {
+        "title": "성남 신흥동 산성역 포레스티아 아파트 74㎡ 15억2000만원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMEZqNDl2amFYbWsyajVXWmFTNXFmeHl1YjJJbnc4ck5ZZlFMWDljR0JfQXg0MXVIdl9MODlzZzBUU2xnRUwyRnRONmRmTzF0NFRNVXYtMkE2T2pWNDRwWDA1dmtOVmd0T0ltbEdR?oc=5",
+        "source": "네이트",
+        "date": "2026-07-24T06:22:00.000Z"
+      },
+      {
+        "title": "인천 송도동 롯데캐슬캠퍼스타운아파트 59㎡ 6억3000만원에 거래 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVdlSnQxb2hqNEt2ZlM0NGFSeDYxb0R3UEZGSndhcHVHTG54bjdXOVRyc2hrZ0dEX0NaeGNzOVA3a2ItS1d1QVVNNS1UWW02dWt6SUtUTHRLR1h0T2ZxekRFRFZ2X3JpeFRvY1podDdSWlA5MC1CUFdxak90dE0xNTVrcFZNVTjSAZsBQVVfeXFMTU82a3o2dUNkZU9YNU55eW5aUlpLM2tmNjVfNHRiTVFaSm5xSXV6RnJ0NFdFNEtyY0JGM2pnRk9hanlCenozMWZWck1rZ0ZtandMQkUzNGdUUzJJWllzUU9uNEVMSFhzWVZaWjA3Skc1RjkxWUJzV3dNZVhKZEhkbkh1TzBBZ0tyWHBGdFFFRWJiLUpQWGdUMFVfcVU?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-07-24T05:50:00.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "1234회 로또판매·추첨시간, 1233회 1등당첨지역 공개",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YblVLTVdBZHJiUUxTT1BPWmNVN0hib1pEZUphVnQ5bGwydF9kU3NBS0k2b1dna1N1M2ZKc3RsbVQ4QmkwRXZnZGp2bURMZmZJTkY3Yi1jdUsyTEluU09mTklxMVpMM3dPV0NfVENB?oc=5",
+        "source": "gukjenews.com",
+        "date": "2026-07-24T15:12:00.000Z"
+      },
       {
         "title": "로또 토요일 몇시까지 시스템 아키텍처의 입문 가이드: 사상, 행동 및 결과",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUjdaVzNlU0NCWXRPYkdEeEMxbXdyeHB6RWhGNTdnVUhyUGpxNThDc2xiR2NvdXhsWkhuZXRLc0FxellwOHBteFlyQUx3N0VvdHotR1JUNjdMTjJEUGM0S3N0YXdQWUlqOTZFR2hRd2JUeDNxQXNQV2dQWEk0TkV2bQ?oc=5",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDVEhMSDRuM0txV3hpbUVGXy0tY3Z0eEdqV1BwamItUjJKbklZRUxIVnRfMU9ydVRsdm5XVHlBMldYWjl6VnAwQ0dReWdiVWFsSkhtc0NBQm1PMEJ6Ri15TdIBeEFVX3lxTE1PNWN2TjhreVFxRjNwZG9ERG9ibk1yNkNObjI3WmZVWEtMTTFNUW8zemdtZTE2a3YwV2RkeW1HVVlBSUdPQ3VyWm9uVjl4ZWpIT2pPRXFQZE5sVHZvMi1mMk5NRFZuX3lqU1JaSURDRkNudGlHODQ2Zw?oc=5",
         "source": "뉴시스",
         "date": "2026-07-20T01:36:09.000Z"
-      },
-      {
-        "title": "로또 판매점 신청 의 비밀을 풀다: 전문가들이 공유하는 핵심 팁 - 실전 사례 분석",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5zYi11OFh1ZGFoVE9NZm40NHpoZy1KTklwUlVUVFg1eDBtcEtreFF0T192eExab1RXSTloZzg1ZzQ1anVsQmk2TGtMRDYtdXNQMUw1V2U1OUpRakRZdmRjZXJMT0lWQQ?oc=5",
-        "source": "les24heures.fr",
-        "date": "2026-07-19T17:40:40.000Z"
       }
     ]
   }
