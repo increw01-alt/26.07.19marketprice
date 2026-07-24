@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T03:15:32+09:00",
+  "updatedAt": "2026-07-25T05:17:14+09:00",
   "topics": {
     "coin": [
       {
@@ -133,12 +133,6 @@
         "date": "2026-07-24T07:33:00.000Z"
       },
       {
-        "title": "‘검은 금요일’ 코스피·코스닥 5%대 급락…外人 5.7조 던졌다",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xclFJUnNOVHJ2N3pwcm9SNmhTR1Flck1QN3NXdDIydEtla3dHVjV2cjc5SkNQY3dpakxpdzMtNW00VkpqV2tBdXhGZGFXeHc3dy1GZ2N1aEVueVJISzFQa3BKbE9Bc2RhbTUybjVBSXNlVE0wbmfSAWZBVV95cUxOc1NhQUh6Nl9Hc2I4QklfSjJBbHBSUWs4ZGxmSVcyYlRVQnBMV1BoX2V3UHlNc1doZnNNeVhVNDJjdDdJZ2xlcUlBWmh4bGFIdWJwc1ZVWVQ4a2hkbTZSZGRPZi1BR2c?oc=5",
-        "source": "동아일보",
-        "date": "2026-07-24T07:29:02.000Z"
-      },
-      {
         "title": "외국인 대규모 매도에 코스피·코스닥 동반 급락…5거래일 연속 사이드카",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBSnJyc1dfZmJyWFoxMkktM3VDemNScW1PbFhWYUw0WkNiTDBMYWtVX2dyWmxBOFZiRjVyUXloR29qeGNmZ0gwbGlVSmw0aHhueU1RNFJxME1ZZnBpSGxUemp1YXJBRXRPTTZV?oc=5",
         "source": "서울뉴스통신",
@@ -149,15 +143,15 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CTGdicmZYUE5OdXdHaDBrRjN4WENSWUUyTjItVFFoaVI0akFXVnk5ODVURS1EZXp5TjJwWWItR0dreFhuZDlVU2I4V1hieDYzZEZWRjRULTZsWlpFM3Zr?oc=5",
         "source": "헬로티",
         "date": "2026-07-24T07:24:55.000Z"
+      },
+      {
+        "title": "코스피, 중동 리스크·外人 '팔자'에 '6700선 이탈'…코스닥 5.32%↓",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3N0p6RWUxN0RKekJvR01TeUkycHByV19fT3JiVlZlRjJhc2lwQU1qaVNza3pBNnd6Sjg0SENvMmwwSjRzMjItdzhTRGd3QU52T3hROTdoUDg1cDdmRm1kYUxXUUtsMWhhRy12OQ?oc=5",
+        "source": "프라임경제",
+        "date": "2026-07-24T07:21:55.000Z"
       }
     ],
     "fx": [
-      {
-        "title": "또 환율관찰국… 원화 약세 주범은 서학개미?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XWm1HeW1STE1HUFotTnBkUDhINGZNUm5ablFXRlBqbW1KMnpXanFPX1NPVDlPd1RNdktuUGVteGxjbUpLX1BzaXRVMWZFZXJVb1ZDdWFvU0xkZVZMS1JxZy1TVHZQYmho?oc=5",
-        "source": "OBC 뉴스",
-        "date": "2026-07-24T12:20:06.000Z"
-      },
       {
         "title": "강달러·유가급등에도 SK하이닉스 ADR 효과 ↑...원·달러 환율, 이틀 연속 하락해 1,466.6원 마감",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95b2hDNUJSWTdkLXJzcXNPemR1eE9CdGVCaGxRYm1Dd1NkVHprdkhDM3hManZBLW0yVC1LbVNtX0ZOb28wc3ZfOEszNDBfVXdSMkhwWTgtU2kxREJTbUd2SE11blQ?oc=5",
@@ -181,6 +175,12 @@
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KTjZ2d2dSM3hNd3hXY2FKUWRzNzBTbVgzZU9Ud0FUOFFoQ25TZzhSNHhLUGVCT3V0R1BjZTRfUER0cmdwMGdiRFlOaXU2UU5lN0VKX1RmaW9Hazc2a0VtQWd0UQ?oc=5",
         "source": "YTN",
         "date": "2026-07-24T07:42:00.000Z"
+      },
+      {
+        "title": "환율, 이틀 연속 하락해 1,466.6원 마감…SK하이닉스 환전·월말 네고에 낙폭 확대",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pdnRjMmhvTVRXMjdhbWMwd2xCenNvYXVFT3llUWozRzZ2QlFCZFRONDk1OXRMVGtFMWpGNVZnZ1lDaUNhTk9yaHBwRjdTckx2Z2pid1JRaHBYelFyZzlOTWR1c3pMeFk?oc=5",
+        "source": "청년일보",
+        "date": "2026-07-24T07:17:02.000Z"
       },
       {
         "title": "[환율마감] 중동불안 이긴 수급…원·달러 또 하락 '2개월만 최저'",
@@ -303,12 +303,6 @@
     ],
     "macro": [
       {
-        "title": "[7월 셋째 주 세계경제동향 브리핑] 코스피 6,800선까지 밀려…한미 증시 동반 조정",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5RZHFEZmJlTW5HTzhTUzNReXdjdmk1S0NkVUljRlZVcXdidkhNVjhwZEQ3OW16WXVvU0R0bndEeXZyMlI5NkJXb3JqbXpMalRMTTFIQUk1S0hrS3d5OElOa0ZZSTF6M25IcHJuemZFcw?oc=5",
-        "source": "기호일보",
-        "date": "2026-07-18T02:04:06.000Z"
-      },
-      {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
         "source": "마켓인",
@@ -343,6 +337,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
         "source": "위키트리",
         "date": "2026-06-18T07:00:00.000Z"
+      },
+      {
+        "title": "[6월 둘째 주 세계경제동향 브리핑]코스피 숨 고르기…美 증시는 일제히 반등",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE90amJsLTZZTkJGcjFEems2SERWTl9fQVFmd2tkcElsUnZTX0Vuc2NsVkhrSmN5eUltb1UyYlRVWFl2TWtnWm5SdzNheV9heWR4VWVpTkEwYnlsOHVJd0t0YnNxdVF2MWUwU1FUTTZtRQ?oc=5",
+        "source": "기호일보",
+        "date": "2026-06-13T07:00:00.000Z"
       },
       {
         "title": "한은총재 “금리 늦지 않게 올려야”…물가·집값·환율까지 경고",
