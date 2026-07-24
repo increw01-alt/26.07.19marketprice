@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T01:37:56+09:00",
+  "updatedAt": "2026-07-25T03:15:32+09:00",
   "topics": {
     "coin": [
       {
@@ -77,12 +77,6 @@
         "date": "2026-07-24T11:03:00.000Z"
       },
       {
-        "title": "흔들리는 증시…7월15일 이후 하루 빼고 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5qTWxuNVhMM3NDSWFadTdaMk41U3R0am96N3o1OEpJTzIyNE12cFBwTE95SmlxWmxnd1d1ZHVzMlFVbldYMFJVSzBOelI2aDI0cFHSAVNBVV95cUxOYWxFbkZINlN0dDFUY3JzRzF0b1JBcE1JbFdtcVd4OVJmNjUwM0ViUVJ1cldVYkszZzF6N3dnOVRCVktjdk9DSy1oWXB6eUJPMkxKUQ?oc=5",
-        "source": "서울경제",
-        "date": "2026-07-24T10:36:15.000Z"
-      },
-      {
         "title": "[오늘의증시] 유가 100달러·美 금리 4.7% 충격…코스피 5.7% 폭락",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8xYzRpOWtPd3NlMkJaZ2xKTV9sVm1FOVYtWlh1eGxYd3ZMaktxMFNtbldqbHdYSTlIazRGSTR3Rm9SUGNnalRhU2ltb3h5Ri16aVU5djR2dlhINmVaTVJQSUhwUlHSAWhBVV95cUxOdmQ3eDZSbG1Jd0c3MUlGQVZGNno4SU9tRG11Tjk0bFppaWpLaWItMThSMVV4eDZHcmZ6aGtPeElFeTNHU0VUcDAyNTlUTko2aFRnRDNvQlB5cEtyTWJRNnNPR3lwV3k3Vg?oc=5",
         "source": "경인방송 뉴스",
@@ -99,6 +93,12 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVWxvUzVYbmRkX1VYQ0NjTkRzUUpKWUlaenNsSlJGNjN0NUY2ZldSUUhDZlJ4dGtseUphOTI0Ym5zdzZTSmNJYXlreTRSLTlPY1h1T0ZpcVN1QQ?oc=5",
         "source": "한국경제",
         "date": "2026-07-24T08:49:57.000Z"
+      },
+      {
+        "title": "사이드카만 66번째…‘미친 변동성’ 덮친 증시",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1sbVAtUFZON094V1pQenN3dHBONERQaGlrWDB4WnBoT0V3ZHVRRXRfN2dGUXpyWEV1eEwtRkpyeU9qT1RkdWY3RHVJMWswX0JnT0ctRjVHZ0hRaHpzTXZMZ3RLVQ?oc=5",
+        "source": "쿠키뉴스",
+        "date": "2026-07-24T08:44:46.000Z"
       }
     ],
     "kosdaq": [
@@ -133,6 +133,12 @@
         "date": "2026-07-24T07:33:00.000Z"
       },
       {
+        "title": "‘검은 금요일’ 코스피·코스닥 5%대 급락…外人 5.7조 던졌다",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4xclFJUnNOVHJ2N3pwcm9SNmhTR1Flck1QN3NXdDIydEtla3dHVjV2cjc5SkNQY3dpakxpdzMtNW00VkpqV2tBdXhGZGFXeHc3dy1GZ2N1aEVueVJISzFQa3BKbE9Bc2RhbTUybjVBSXNlVE0wbmfSAWZBVV95cUxOc1NhQUh6Nl9Hc2I4QklfSjJBbHBSUWs4ZGxmSVcyYlRVQnBMV1BoX2V3UHlNc1doZnNNeVhVNDJjdDdJZ2xlcUlBWmh4bGFIdWJwc1ZVWVQ4a2hkbTZSZGRPZi1BR2c?oc=5",
+        "source": "동아일보",
+        "date": "2026-07-24T07:29:02.000Z"
+      },
+      {
         "title": "외국인 대규모 매도에 코스피·코스닥 동반 급락…5거래일 연속 사이드카",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBSnJyc1dfZmJyWFoxMkktM3VDemNScW1PbFhWYUw0WkNiTDBMYWtVX2dyWmxBOFZiRjVyUXloR29qeGNmZ0gwbGlVSmw0aHhueU1RNFJxME1ZZnBpSGxUemp1YXJBRXRPTTZV?oc=5",
         "source": "서울뉴스통신",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1CTGdicmZYUE5OdXdHaDBrRjN4WENSWUUyTjItVFFoaVI0akFXVnk5ODVURS1EZXp5TjJwWWItR0dreFhuZDlVU2I4V1hieDYzZEZWRjRULTZsWlpFM3Zr?oc=5",
         "source": "헬로티",
         "date": "2026-07-24T07:24:55.000Z"
-      },
-      {
-        "title": "코스피, 중동 리스크·外人 '팔자'에 '6700선 이탈'…코스닥 5.32%↓",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3N0p6RWUxN0RKekJvR01TeUkycHByV19fT3JiVlZlRjJhc2lwQU1qaVNza3pBNnd6Sjg0SENvMmwwSjRzMjItdzhTRGd3QU52T3hROTdoUDg1cDdmRm1kYUxXUUtsMWhhRy12OQ?oc=5",
-        "source": "프라임경제",
-        "date": "2026-07-24T07:21:55.000Z"
       }
     ],
     "fx": [
@@ -415,12 +415,6 @@
         "date": "2026-07-24T09:22:00.000Z"
       },
       {
-        "title": "수원 매탄동 매탄현대힐스테이트 127㎡ 8억원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNM21Zekk0YVE0c1htU1V5RDZ4Rl9VMXBUWDg4YWFjSlFfYm9QaGdQb0NtMURDQWp5MDAwcUNaYzVUUzY4aTdkaVpvTHpHei1iYnl3Q2kxaEYwUzFPVy1pWU53SUFLeTVSZmVGU3Z5cHpCZms4NVpRYXFWVjZrLXFnMmt1YjlDZnfSAZsBQVVfeXFMTmh2ZzRlU1M4LXV4WE5BNWtZcVBNcjJsZEo5aFlPSFItbC1keEdzTklZeGFqdmJBbVl4VXIxZHJ2RWNpSExZYWdRNnVJdUV0VWRGeXNvdW9XdTlmOEZOeFRfUDR1QjctRjlRS3doU05hcHVtaHVkRTB2ZUJfZUJoX2tiTEZ1UFpmNzZKbFZFN1JtREoxWFBjT1ZJeVE?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T08:26:00.000Z"
-      },
-      {
         "title": "7월 부동산 시장 눈에 띄는 새 흐름",
         "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1Wak0tb1EtVm14TkpuS1h0dGxXRXNmcHJ3WWRNSU51N2lfWllMdEVYTEwzeTZ5eEFSSW1UbW1ka1MzOEk?oc=5",
         "source": "주간현대",
@@ -433,12 +427,6 @@
         "date": "2026-07-24T06:54:00.000Z"
       },
       {
-        "title": "수원 조원동 수원한일타운아파트 59㎡ 4억8400만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPblVjeDlDQ0dJOTlLMTRPX21XSTY2Q0VqMk9lT2tDT1k5ZGkyaXVOX2JQWW5KWXVJc09TVUdDSC04U01fUGdsNVo1VWJ6bXc3d0h1d0drTnRscGdKLXY2NzZSY3Z2MjhTaGFBRTVKZ0RRUG9rU1otOUh6WC1ySUdVQmFFZE9WM2PSAZsBQVVfeXFMTXhFUk1mb0hWQi1tS0pjVEYzOHhpU3p2Nl9menJfV1MwNWFXQ056b2FwRDRvT1NuRWozemNjRVJfc0hHV1ZPeFNObEg1NHFEem1QUGowdnVfYkdJV1J2amlHUUVSZFc1RURMMFVNU1ZaalhDV09HY3AwbWwyVGF1RTV2bXNTRlBaV2ZGc2F3SnFpV2lXXzl3WkVGUDQ?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T06:51:00.000Z"
-      },
-      {
         "title": "성남 신흥동 산성역 포레스티아 아파트 74㎡ 15억2000만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NMEZqNDl2amFYbWsyajVXWmFTNXFmeHl1YjJJbnc4ck5ZZlFMWDljR0JfQXg0MXVIdl9MODlzZzBUU2xnRUwyRnRONmRmTzF0NFRNVXYtMkE2T2pWNDRwWDA1dmtOVmd0T0ltbEdR?oc=5",
         "source": "네이트",
@@ -449,6 +437,18 @@
         "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTVdlSnQxb2hqNEt2ZlM0NGFSeDYxb0R3UEZGSndhcHVHTG54bjdXOVRyc2hrZ0dEX0NaeGNzOVA3a2ItS1d1QVVNNS1UWW02dWt6SUtUTHRLR1h0T2ZxekRFRFZ2X3JpeFRvY1podDdSWlA5MC1CUFdxak90dE0xNTVrcFZNVTjSAZsBQVVfeXFMTU82a3o2dUNkZU9YNU55eW5aUlpLM2tmNjVfNHRiTVFaSm5xSXV6RnJ0NFdFNEtyY0JGM2pnRk9hanlCenozMWZWck1rZ0ZtandMQkUzNGdUUzJJWllzUU9uNEVMSFhzWVZaWjA3Skc1RjkxWUJzV3dNZVhKZEhkbkh1TzBBZ0tyWHBGdFFFRWJiLUpQWGdUMFVfcVU?oc=5",
         "source": "Chosunbiz",
         "date": "2026-07-24T05:50:00.000Z"
+      },
+      {
+        "title": "[서울 전세난 심화] “집 없어질라” 세입자들 넉 달 전부터 전셋집 선점… 조기 계약 비중 1년 새 3배 급증",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9VanVrcnJjdXdSMUVhT3Q4bFRUVVM1cTBxNEVGaWc3aG1GVzZWTnJHdURYWE9iZHBsSUZmeEZfMkxOSm9zYmhVbEI5RlE?oc=5",
+        "source": "한국AI부동산신문",
+        "date": "2026-07-24T05:42:56.000Z"
+      },
+      {
+        "title": "실거래 데이터를 뒤져서 아파트를 추천해줘",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBYODdEVElXTDFCYzE4VmtYMGk1UXROU0Z1UmRjbllscTNNZlJhMC0zM3A5UUEyWHppc1VMb2xNT1lxRVU?oc=5",
+        "source": "브런치",
+        "date": "2026-07-24T05:03:04.000Z"
       }
     ],
     "lotto": [
