@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T17:57:55+09:00",
+  "updatedAt": "2026-07-25T19:27:57+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "코인보다 더 흔들린 코스피…10일 연속 사이드카의 진실",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9Pb3kwam5aMzNDRVFSSGcyeUpGU0RJTENoaVE5cE1mQ2VGeVAyWmM5TmtOOFFkQnlKVFJkUVVva0tWZlg2WGtVSkFmX3MzbmhUR1ctUW5qQVBTaXlYNXJNbzQ0a0ZNNkUt?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-07-25T08:11:38.000Z"
+      },
+      {
         "title": "외국인은 코스피, 개미는 월가…국경은 달라도 종착지는 반도체",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5VZk9rckk2ajFPLUlxNjY5ck1aQ1FIT2RvbEZ5YzY2R0ptQjFrY1R3SXVIQ21Tc1RORUREdkZJLThmNmRvekpmMjBXeF9oY0p3X0FrS3liR2R2Q1U?oc=5",
         "source": "에너지경제신문",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YbE5BbWRwTUdaQk81M0tkT2hDcVNPUlFXd0p5QkJrbmlKcHVPTlgxWGhBYzFWRFl5T0lERDliV0lsNUctYjRzbkRBMDI2ZndGaEZ5V2huUVZiYmtCaC1QSUhUejVWYnp30gFuQVVfeXFMTllyTnVvTnFyMFdxcTZkUEQwMXVzVWh1RnRqX1JfT0pQMVpsZ1RXajFCcVpVczY1cmZhX1g4a0xVcWQxQUFOZFY5b1ZUUzhiU3lCSWZWWDFYa0RDWW51b1g2NFdmV01sQWNJb1NoNmc?oc=5",
         "source": "머니투데이",
         "date": "2026-07-24T21:00:00.000Z"
-      },
-      {
-        "title": "10일 내내 사이드카… 도박판 뺨친 코스피",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxORnpJc200OVNtUF8yTFFORm5zSDBSa0Y3dU1JdFdac09jMzViQTRHa2FYdEowSXNFcHpLZFVfLTViWFNpcnBhWmpWYVZvSXdEV3lJVEhtV2pRcXdpZTROY3BOMFNxZXlWQ29hazlrOTNOTXZJUmE5V2JVWGJOVzBLanNxS2NvajdSbk9IVDlB?oc=5",
-        "source": "조선일보",
-        "date": "2026-07-24T15:55:00.000Z"
       }
     ],
     "kosdaq": [
@@ -177,16 +177,16 @@
         "date": "2026-07-24T08:33:13.000Z"
       },
       {
-        "title": "중동 갈등·유가 급등에 코스피 5.7% 폭락 마감",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5KTjZ2d2dSM3hNd3hXY2FKUWRzNzBTbVgzZU9Ud0FUOFFoQ25TZzhSNHhLUGVCT3V0R1BjZTRfUER0cmdwMGdiRFlOaXU2UU5lN0VKX1RmaW9Hazc2a0VtQWd0UQ?oc=5",
-        "source": "YTN",
-        "date": "2026-07-24T07:42:00.000Z"
-      },
-      {
         "title": "원·달러 환율 0.2원 오른 1466.6원(오후 3시30분)",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUVmxSbTk4YUJzV1p1R3k0MzZzRVFjNkZybnN0WFJJd0ZKUkJ6Z3ZjXzhpUzhkaFN0a3FibHF0dUhQLXAxcmhySThXVWYxOUI3aVE1TE52TkNNblpGdXBXbg?oc=5",
         "source": "아시아경제",
         "date": "2026-07-24T06:46:32.000Z"
+      },
+      {
+        "title": "원·달러 환율, 0.2원 내린 1466.6원 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVTQyM1VCamFmSjRBZUlHV3c5SUVlOHIweEZZWHFuMmVCLVBXWmhlekFfT2dNRTQyLXRzdTJMM1UwTVJ4U19FUVBydTdiNzMwcjBLaXVPaF9kc1FELWN5dE5lOU5pTDNPWUVCc0xBU0NCa18tWnhCQklSS0VqN3lnM0ZCRkNpZ9IBmgFBVV95cUxOaEk0eTFzZE0tV0NrWjU0VFA3bGtwTUt3ZzI5NUZ6UkJsQnpVZ1JaOGwzamZrLWpxRTJkUEx4enpySHBIYjFoRTBKc1pCRTBVQjdRdzYyZVd1c1lWb1FCOVFERXBEaW5wSEM5UXhUNU9GUkt2TnRBNHhsMnVva2EyNzBIRnZfMDU0Ujl3MmxNckN2SUN2NlVlamd3?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-07-24T06:44:00.000Z"
       },
       {
         "title": "원·달러 환율, 0.2원 내린 1466.6원",
@@ -233,12 +233,6 @@
         "date": "2026-07-24T06:45:00.000Z"
       },
       {
-        "title": "오늘 금시세(금값) 폭락... 금가격이 이틀 연속 추락한 이유",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1STlB5MWtQM2ZYRDM0QURZbzNaT1Q2OFprTmJEc2pWTHFhVTB0emxKT2RxZF9TQk5tYTZSM1lwVmU5aFRlZmdLbEdmbUM4QndoS0lIODFR?oc=5",
-        "source": "위키트리",
-        "date": "2026-07-24T05:26:00.000Z"
-      },
-      {
         "title": "2026년 7월 24일 오늘 금시세 한돈 팔때 살때 금값조회 방법과 거래 전 확인사항",
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQVNrSVNUbjhyZVdqUUNvM0xIa2xtRVJTVTkyR29fazMxVDNHYkcwM3RWQ0xlV2dHSDREZ0JpSF9BZEd5TklCV1ozU0pRWU9QNjZ2dm11clFUX0s5X3BUWktpV3NTVTdmS29sX3lYTXlFYkdkRFZISF9RSmhBUE1UVUZkbFE5aTdUSWc?oc=5",
         "source": "네이버 프리미엄콘텐츠",
@@ -249,6 +243,12 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GUlBjdTlCYUdqdVp3dWYyRTc1RUc1SnNucTIwRGY0UGpENmJoeWJjZXI2VXlYb0RuZmlKV0UzdXh5eS1tN29DSm5zdGdYNnBKUUVOeFlId0ZwS212cGJLc19kelFFclE5eW1HcA?oc=5",
         "source": "센머니",
         "date": "2026-07-24T03:00:37.000Z"
+      },
+      {
+        "title": "오늘(7월 24일) 금 가격: 금값이 온스당 거의 700만 VND 폭락했는데, 더 떨어질까요?",
+        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlhIYXJlZ1A2YTZqVktOWGw1OGZOWVRiM2ZmT2xJWE5KVDRvcXpHTl9wRDNVTVVXSmtub1dHaFV1bnpHZU5xTmo2RjVER3BjZUo1YjNwUGNNeHVVZWVEckREenh5dUJVRWdSZXpsTUlrdmdmTVBxMkl5R1ZaNG9uRko5SmlOZHJEalVjRG05UEFyOEhieF9JS3RYM0ViT253UnFBcg?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-07-24T02:55:58.000Z"
       }
     ],
     "energy": [
@@ -269,6 +269,12 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SWkpNUm5xaU9jeXNNNko3VTFDaXlEZVBzVFRIa3BZaWZScmlxTjluYXg2NFU4c3RETHExSndMUEYxdkRkeTVhOE9kMjMwc21MbElXczFzT1U1N1ptTkxrQ0Q1NEJYOGl4T2dCaENvX0pyQjUtWnYw?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-07-18T01:53:32.000Z"
+      },
+      {
+        "title": "국제유가 6월중 20% 급락...WTI 60달러대 마감",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PWFJ3a2tCTG1uekNYcVhLcGFKMWNGdEcyUHJRTGcwblZ6T1VLNXVNeVRsZnBvaUpTeEp6a1ZNQVZyZjNjSmpfT1pDWXYtT0I3b0c2Vm5CNHlOV2V3cDUwSTVsdEltYkQ0enFJYUtvcVB0bHdvd0VZ?oc=5",
+        "source": "thecommoditiesnews.com",
+        "date": "2026-07-01T07:00:00.000Z"
       },
       {
         "title": "국제유가 3~4% 급락...이란 프리미엄 사라져",
@@ -293,12 +299,6 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-06-13T07:00:00.000Z"
-      },
-      {
-        "title": "[원자재 시황] 금값 4300달러·WTI 90달러선 붕괴",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jZWEtb1RJRHlGRllKWEY3cDg0OWhBdkp5c0NtOXZhRFhMLXFGaXlLTFREZXc1TW43bzlER2tpVFhsSW5CWGswMTg4OWYtR2Z0d2plZDFRd0piNWxmTldTNjZoMUF4OXRr?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-06-10T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -365,6 +365,12 @@
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
+        "title": "중고거래 플랫폼 “홈플 상품권 금지”…등록·검색부터 막았다",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yWDZrRWF0WS1HdGI5RHpiNHRUNVBFbFQxamJaSEx0cXdFTzdPQmlrb1dxVzNzVVVLcGNzT2x1R29zakZzaUJRbzduNjJjV1U?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-07-08T07:00:00.000Z"
+      },
+      {
         "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
         "source": "이투데이",
@@ -393,15 +399,27 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mNFJ5cHY1NEJOdnp3dlRXYWRkMjIwT1o1UWNTRzFGSTJWd2VQMzE2MVZfOTRJanM0SmE1RWFnQmVsU05FZVEtdEUxZTd2NTBLcUE?oc=5",
         "source": "브런치",
         "date": "2026-06-08T07:00:00.000Z"
-      },
-      {
-        "title": "\"코인 보내면 상품권 결제\"…'불법 코인 대리 결제' 성행",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tOUFoZGU5SzV2RHNOWDdKQ3ppVHNHM2ZwbS1scVVoQ3M0N29TRW8zRGVhb3pKTFgwWmtxRFBfRDJLNVFBVi1iRjFUR21KTGZRX2NnZlNIcmwxdw?oc=5",
-        "source": "한국경제",
-        "date": "2026-05-21T07:00:00.000Z"
       }
     ],
     "realestate": [
+      {
+        "title": "서울 등촌동 등촌3단지주공아파트 37㎡ 8억1500만원... 역대 최고가 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZGV5R2d0Q2R1RGx4a1c2OXJZOFRhTXJLZ3RjVFV0SVlTbS01dk55dzhwRkVnOXR5dmlidWVKekdVMXBtWl9lQm9kd1F0cHBUOW1LcGtycnpmN2hXTmt4NzlOWHJUeFlmUFpvV0lkWHh6dUlKQWNYUTlrdXpqdmFSd3MxOFBjYVnSAZsBQVVfeXFMTmRXUWZoRWVfY21TNXdFejktcVhFZV9YY0FyMDNkUjR6ZFZFdFhrUGRkM3NtVVR3N21CdnZjanBUMmFtSTFzTVlLRWtYVDYtem0wZ3hKSXdjcDQtOW1raDR2QWo0SHhvanlyY1c2aGxjVEh5Mm9vaDkxaktCZ3lhazMxWHdhUUZkd1NuZ2c0MFRRd2dJaWVueUFwY1U?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-07-25T09:11:00.000Z"
+      },
+      {
+        "title": "서울 하월곡동 월곡두산위브아파트 59㎡ 10억원... 역대 최고가 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYTZTT0ZwMHFfdHRDd1JCZlZVa1p6ZmdCT2o4ZzJsa2lWaFNIZ0JlaU5ZTlpRSjJnWHJFbXRJMXdYa3RYcnN2U3g0aGZTRDdta2tiRmxjQnNvbGFDOVg5cENodU1HOXhFQmlZQ2UwbldmWkZZb3M2LUpEQ2ZLRDBSa0w4NjhLLW_SAZsBQVVfeXFMTkRrUmtBYXFmc0d5Yjh3bUVaMVJHRE04eWV3ZEk0U3l0SDl5VmpGcXhnaF84NFpBSFhVbW8yOVJBOTdlSTgwaWVELUxDd2hxMGJQUUdidUstelVha1psWWlyQWR6ZHRLNGg2MHJGOUVfNUxWdWFfcktFRHZvbXNLNnlqQVowYV8xN3NUakh6YmpjZnR0WGFSckJ3Q1E?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-07-25T09:06:00.000Z"
+      },
+      {
+        "title": "서울 봉천동 관악드림타운 114㎡ 14억4000만원…역대 최고가",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nejFYNl83VThZaE85ejFhdzZud3J6bFZCcHlwMkxreUlMbDZPS1ZkaXZINWNERUJRR21rU0hncFpSLWpwZFhLV2RPaUcwY3A2Y25Z?oc=5",
+        "source": "네이트",
+        "date": "2026-07-25T09:03:00.000Z"
+      },
       {
         "title": "서울 길음동 길음뉴타운대림4단지 84㎡ 13억5000만원…역대 최고가",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVejA5SmFjalo4UDVrVUY4ODBUTmx2aUlKMmZmazV5SVhKX25yUUNKX3NlaWxjWGVhTFJmbG5IdWxEN0FTNXlUZjR2YVVYdlJzQjhj?oc=5",
@@ -415,10 +433,10 @@
         "date": "2026-07-25T08:42:00.000Z"
       },
       {
-        "title": "서울 월계동 월계시영고층 59㎡ 11억9000만원... 역대 최고가 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNWVBPc2RxTkNTalVMQWdlenNVMl9RWnktNVpJNVJyYV9PanRrS0ltTEV3NDE2Yzl3aUF4bVdqejhqUndzcWtvNWFuZzdpQzdNcDMxbzlfcDhFSk9BZlluUVFQRmg0ZUR1SlE4ZmFLYkVTcnNDMjVVZDNrTG95QW94Mm5obUk2aUXSAZsBQVVfeXFMTWhjNGIxMTFIeTBxRTU1RlF5cDA4MWVBbGRzb2NBcUZ3VDhIam9ERDNpdko5UFpHN2pFeU1BdGVTNjdkMkRlRVo2WENMaFI2TlVna0dyUkhwNENnaTlHNUtLYW5MbXZDeUQ0bUJvWmxNeTNGRW9HdG96ZmhjYUZudGxMQWZZTUdUSGh4OFdTcFdkN0c2OTZkT3Qzelk?oc=5",
+        "title": "서울 만리동2가 서울역센트럴자이아파트 59㎡ 19억5000만원... 역대 최고가 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPQlU2azl0eFpBOEtENnZNcWdvUE5yVnRDUUt2YTJyLXA1Z2ZSMENyNFRJWlJOdk9zSkZMTm9tcUpfUGRNT2xDeWJUSGNZdExHM0FLdVh1SmdGZ0dLa2l6eC0wOXZtVXlob3o3bmp2a2ZkU3haT0RkaGVURHlNUkhHNWhiRDkyR0nSAZsBQVVfeXFMT1dlWngwWDRsRjU2bV9RQVBBU0FGVWdQZm5uTkR0V2o1Nm9qbG1yVHM2c19sUkhiUldYaGFkeTk3UDdIM05Rd1JsZy15eUk5Smk4NXJra2xmWFpJTjN5Y21FZjZlRzI5UkVkYk5fUERKSngycjlOU3hxVVhwRE94eU96a3F5c0lkSXBaWVlkX2pBLXBDNUVKVzUxYWs?oc=5",
         "source": "Chosunbiz",
-        "date": "2026-07-25T08:36:00.000Z"
+        "date": "2026-07-25T08:41:00.000Z"
       },
       {
         "title": "서울 당산동5가 당산삼성래미안 133㎡ 26억1000만원…역대 최고가",
@@ -431,24 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5vZm5qV3ZtSnRVaWU0dkNnSkxIOXlveWV5TUVvRkRKVXBXdEJwd2ptcWFJOUVFOEk3NXZjZEk0c18xclZXN3piS0psZTVCdnhDVE5V?oc=5",
         "source": "네이트",
         "date": "2026-07-25T08:27:00.000Z"
-      },
-      {
-        "title": "서울 북아현동 힐스테이트신촌 59㎡ 18억1000만원…역대 최고가",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTHFjZER0ZXNkUHpvZW5JbjlvbjNOaldjZFNNVnZNbU12Nk1GZ2dXRVRtYmJPUEJacjNsVmpVcERjTzEyaFlLbXozY19KQjRZbXljZnQzaHlOVEFnTmhrazNtYXdMbXpsWERGX1hQeDM3SndGSlVuTg?oc=5",
-        "source": "네이트",
-        "date": "2026-07-25T08:23:00.000Z"
-      },
-      {
-        "title": "인천 동춘동 연수2차 한양 아파트 84㎡ 4억7500만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSjhldWxzU1h1bEVEcXRLdzYwUHFsc1pmenY1cXZ2cjFfc0I2YVdiMTY5NzB0SzVDdmZBODQxT2lwZzVYc0xrVFJoQlh3em9oTlVyM3czaU5UNjAwZVFoQUhXMkJKZHFNZDJkaGRDZWFzZnpDVmdPcHF2VjBod1hiZDlpd3dDVmfSAZsBQVVfeXFMT2RhNnlibW9ZdE5TSFp6WmdkWHFVczNIUzhNMTRjRmkxZFFUSXBIYlJMX3kxcDhabzl6RFFVTmFhNm80YmJEcEQxN3dkVUh6bjlpMUp4R280ODhITlBOTm0wR2JQMXRFakNfQ05GRkZ1RGhNMDIxNEtlQm4tTFJHSEw1V180aTlET1JVdHR6ZnNnRXN6enpyYnhnLWM?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-25T08:06:00.000Z"
-      },
-      {
-        "title": "국힘 \"李대통령 '매도인 근저당', 강남·서초 등 고가아파트 시장으로 확산\"",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fZlJ5NTVQQ0FYRW9xSHhSSExiMWN3RWcxcVJSbXdfMDRRYnczb0l1TFpNNEJWZHQ0YTM4NnREME1hM3kyTXhRSWlnZ1FNYzRyUy1qMVZEVWZLdXljUHlnX9IBeEFVX3lxTE1yZGlNNUUzZV9DSEtzR3VON2FiOThVZG95OHVrR1FGVVZoNFJLLTVtUXVTMEstYloteG8xbl9malNsMEpUb2Vsa3RjbkZ6VGRPdHlJc1pWZ21ZX3NERFpOa3hwcjJBZm5jS3NRQTJvV01LLVF6NzNBRA?oc=5",
-        "source": "뉴시스",
-        "date": "2026-07-25T08:04:00.000Z"
       }
     ],
     "lotto": [
