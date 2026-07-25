@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T23:59:05+09:00",
+  "updatedAt": "2026-07-26T01:06:57+09:00",
   "topics": {
     "coin": [
       {
@@ -142,7 +142,7 @@
         "title": "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합)",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9qazF2cVZkWXFERnFNcU5YemFmVmpYZmNONjJEbkNIVC1TanpCVU84QkxQNWlrTEhoNkJacmNuMzB0bTZma2VJQmVEQnhxVlU?oc=5",
         "source": "v.daum.net",
-        "date": "2026-07-24T07:22:00.000Z"
+        "date": "2026-07-24T07:22:52.000Z"
       },
       {
         "title": "또 '블랙데이'…유가급등에 코스피 5.7%·코스닥 5.3% 급락(종합)",
@@ -209,12 +209,6 @@
         "date": "2026-07-25T04:40:00.000Z"
       },
       {
-        "title": "금시세(금값) 25일",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXU1TjE2UUltTWlicVFuNlkxRVZBYVgzYnI5ejExNm85QS0xeDFKeEpuelgxQmcycVNzdmV0RE95UTNNNm9oakpQY3JUbXVTNXZMaWpwd1AtNXZhMHlWUDZFOFQ?oc=5",
-        "source": "bntnews.co.kr",
-        "date": "2026-07-25T01:21:02.000Z"
-      },
-      {
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SODFRWU1ualN4LWFNRVlKbm1kQS16clRKOUtBQWZZQ2RYVHZjLTlDellLeTRDOWJrNXdPWHc1SlA2bTNNSmtOTGQxTDRFUmlNVDAzUmZ4ZnhXMkdsXzJEYg?oc=5",
         "source": "네이트",
@@ -249,6 +243,12 @@
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQVNrSVNUbjhyZVdqUUNvM0xIa2xtRVJTVTkyR29fazMxVDNHYkcwM3RWQ0xlV2dHSDREZ0JpSF9BZEd5TklCV1ozU0pRWU9QNjZ2dm11clFUX0s5X3BUWktpV3NTVTdmS29sX3lYTXlFYkdkRFZISF9RSmhBUE1UVUZkbFE5aTdUSWc?oc=5",
         "source": "네이버 프리미엄콘텐츠",
         "date": "2026-07-24T05:04:00.000Z"
+      },
+      {
+        "title": "[금 시세] 국제시세 하락 흐름… 중동 긴장·달러 강세가 압박",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GUlBjdTlCYUdqdVp3dWYyRTc1RUc1SnNucTIwRGY0UGpENmJoeWJjZXI2VXlYb0RuZmlKV0UzdXh5eS1tN29DSm5zdGdYNnBKUUVOeFlId0ZwS212cGJLc19kelFFclE5eW1HcA?oc=5",
+        "source": "센머니",
+        "date": "2026-07-24T03:00:37.000Z"
       }
     ],
     "energy": [
@@ -445,13 +445,19 @@
         "date": "2026-07-25T08:27:00.000Z"
       },
       {
-        "title": "서울 개봉동 개봉동현대아파트 59㎡ 9억6000만원... 역대 최고가 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZ0dCQ3R5WWRYWXFaMjZfN0ZyeDlPQzJ5MFM3YWRSdEMwNHF2QzQxUUlhYWlTZkJHUGJiNkVOZU1PVGlKelJlMWktQVdCUWJlU09ENHBTRzVCSkV0MVJjSHdXMXZNTTRzdlMyclE2ZzlhLXJuVE92dGh2NTFvXy1iSXBoWVE4U2vSAZsBQVVfeXFMTzlHdlAydERjWDhhNVZFUFlIMDNGSVpHVmg3NEVWSzBKTG1NRUtxYUtfN1VkcWFCR01UazJEdjFTM184S1FPOHF1TVYxQVhHX0FSOUZTT3NlbVpyNWtlcGV6LUlTZjl4aXlURk1udzNEdzNtOUVYWjRQOTdZLUxVc2FPRnJhY0tMeWRqM1p0bHFCR2dNdzBEbzRialU?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-25T08:26:00.000Z"
+        "title": "서울 북아현동 힐스테이트신촌 59㎡ 18억1000만원…역대 최고가",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YTHFjZER0ZXNkUHpvZW5JbjlvbjNOaldjZFNNVnZNbU12Nk1GZ2dXRVRtYmJPUEJacjNsVmpVcERjTzEyaFlLbXozY19KQjRZbXljZnQzaHlOVEFnTmhrazNtYXdMbXpsWERGX1hQeDM3SndGSlVuTg?oc=5",
+        "source": "네이트",
+        "date": "2026-07-25T08:23:00.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "로또1등당첨지역 \"천안서 자동·수동 동시\" 1234회 로또당첨번호조회",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vZ2NTazlpQzZuMzZuNFFvX19OMnFXNjVhVFdaNV9lSlhLQi1YZnR6Z0pnV3hwanNrTmExN1lUQ0NDNTd1T0t3S1VqUHRoVjlNcDQwWWZ0ckI3ZnNPNUI4aUV2TXFGNEstcmRJWElR?oc=5",
+        "source": "gukjenews.com",
+        "date": "2026-07-25T15:05:00.000Z"
+      },
       {
         "title": "1234회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83RjFPVHU4YV9BQWJ4aHNpb25hcTMxVDZfZU13TVVHMWZSUExQcDVqbnpxQVR6eEp3TGZJWk5QRnM3bGhFSjRDTUZENHVqaU1XaGNjdXplRXhBSlFienBrUHR0ZmlxY2Z6cEs0NlF2SVkydw?oc=5",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YblVLTVdBZHJiUUxTT1BPWmNVN0hib1pEZUphVnQ5bGwydF9kU3NBS0k2b1dna1N1M2ZKc3RsbVQ4QmkwRXZnZGp2bURMZmZJTkY3Yi1jdUsyTEluU09mTklxMVpMM3dPV0NfVENB?oc=5",
         "source": "gukjenews.com",
         "date": "2026-07-24T15:12:00.000Z"
-      },
-      {
-        "title": "로또 토요일 몇시까지 시스템 아키텍처의 입문 가이드: 사상, 행동 및 결과",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUjdaVzNlU0NCWXRPYkdEeEMxbXdyeHB6RWhGNTdnVUhyUGpxNThDc2xiR2NvdXhsWkhuZXRLc0FxellwOHBteFlyQUx3N0VvdHotR1JUNjdMTjJEUGM0S3N0YXdQWUlqOTZFR2hRd2JUeDNxQXNQV2dQWEk0TkV2bQ?oc=5",
-        "source": "les24heures.fr",
-        "date": "2026-07-23T20:32:33.000Z"
       }
     ]
   }
