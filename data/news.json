@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T21:00:12+09:00",
+  "updatedAt": "2026-07-25T22:49:51+09:00",
   "topics": {
     "coin": [
       {
@@ -189,19 +189,25 @@
         "date": "2026-07-24T06:46:32.000Z"
       },
       {
-        "title": "원·달러 환율, 0.2원 내린 1466.6원 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOVTQyM1VCamFmSjRBZUlHV3c5SUVlOHIweEZZWHFuMmVCLVBXWmhlekFfT2dNRTQyLXRzdTJMM1UwTVJ4U19FUVBydTdiNzMwcjBLaXVPaF9kc1FELWN5dE5lOU5pTDNPWUVCc0xBU0NCa18tWnhCQklSS0VqN3lnM0ZCRkNpZ9IBmgFBVV95cUxOaEk0eTFzZE0tV0NrWjU0VFA3bGtwTUt3ZzI5NUZ6UkJsQnpVZ1JaOGwzamZrLWpxRTJkUEx4enpySHBIYjFoRTBKc1pCRTBVQjdRdzYyZVd1c1lWb1FCOVFERXBEaW5wSEM5UXhUNU9GUkt2TnRBNHhsMnVva2EyNzBIRnZfMDU0Ujl3MmxNckN2SUN2NlVlamd3?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-24T06:44:00.000Z"
-      },
-      {
         "title": "원·달러 환율, 0.2원 내린 1466.6원",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5zbWplN0EzeEhjaUZIUEFSbERhLWFXclZpVG9ZVVU5cXg1TUtQMVF3bVhmeUV1WWVlZVgwakVtbEplaGU2Um9GVlFVUkVpNGFqRWFYUEJjRy1Oanh0OV9tUUgxU3ZZdWJDTmlEUTNrQQ?oc=5",
         "source": "조세일보",
         "date": "2026-07-24T06:41:06.000Z"
+      },
+      {
+        "title": "[외환] 원·달러 환율 1466.6원···0.2원↓",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBadEdjUlJVcTlKVGFfT01yZzJzQVowV2FiUVRBd2xBYWV0VEdaYk5GQUt3VjQxaHRtSnRhWjE3MTd5Uk5WTlJSMkV4Vl9leHh0UGR2TFJkYTFGcVRLYzFabmVIbXhvZWpSYlE?oc=5",
+        "source": "서울파이낸스",
+        "date": "2026-07-24T06:38:56.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "금시세(금값) 25일",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXU1TjE2UUltTWlicVFuNlkxRVZBYVgzYnI5ejExNm85QS0xeDFKeEpuelgxQmcycVNzdmV0RE95UTNNNm9oakpQY3JUbXVTNXZMaWpwd1AtNXZhMHlWUDZFOFQ?oc=5",
+        "source": "bntnews.co.kr",
+        "date": "2026-07-25T01:21:02.000Z"
+      },
       {
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SODFRWU1ualN4LWFNRVlKbm1kQS16clRKOUtBQWZZQ2RYVHZjLTlDellLeTRDOWJrNXdPWHc1SlA2bTNNSmtOTGQxTDRFUmlNVDAzUmZ4ZnhXMkdsXzJEYg?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GUlBjdTlCYUdqdVp3dWYyRTc1RUc1SnNucTIwRGY0UGpENmJoeWJjZXI2VXlYb0RuZmlKV0UzdXh5eS1tN29DSm5zdGdYNnBKUUVOeFlId0ZwS212cGJLc19kelFFclE5eW1HcA?oc=5",
         "source": "센머니",
         "date": "2026-07-24T03:00:37.000Z"
-      },
-      {
-        "title": "오늘(7월 24일) 금 가격: 금값이 온스당 거의 700만 VND 폭락했는데, 더 떨어질까요?",
-        "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYlhIYXJlZ1A2YTZqVktOWGw1OGZOWVRiM2ZmT2xJWE5KVDRvcXpHTl9wRDNVTVVXSmtub1dHaFV1bnpHZU5xTmo2RjVER3BjZUo1YjNwUGNNeHVVZWVEckREenh5dUJVRWdSZXpsTUlrdmdmTVBxMkl5R1ZaNG9uRko5SmlOZHJEalVjRG05UEFyOEhieF9JS3RYM0ViT253UnFBcg?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-07-24T02:55:58.000Z"
       }
     ],
     "energy": [
@@ -453,10 +453,22 @@
     ],
     "lotto": [
       {
+        "title": "1234회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83RjFPVHU4YV9BQWJ4aHNpb25hcTMxVDZfZU13TVVHMWZSUExQcDVqbnpxQVR6eEp3TGZJWk5QRnM3bGhFSjRDTUZENHVqaU1XaGNjdXplRXhBSlFienBrUHR0ZmlxY2Z6cEs0NlF2SVkydw?oc=5",
+        "source": "톱스타뉴스",
+        "date": "2026-07-25T12:03:25.000Z"
+      },
+      {
         "title": "1234회 로또당첨번호조회 및 통계(2보)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5TbjJDVXVQSGstbXA5RFZla3hYYmlFZ0NyVkFqLWtYeTFSa0k0T0RnQUxTeWtUWjkwZ1hWV3JDRGVodXY0aHFVU2ZLc3o4X05xQ3VBMlRnOFRMdnB1ejNQSXRYeldYNXF3N3lZMUswbkpnZw?oc=5",
         "source": "톱스타뉴스",
         "date": "2026-07-25T11:44:09.000Z"
+      },
+      {
+        "title": "[로또당첨번호조회] 1234회 로또 1등 당첨지역·판매점·당첨금 조회...로또 판매·추첨시간?",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5XLUdPMERUS1pYNTZKbFAwNk1YOWtudjlpTmdVdTluS1RLUlBVZ0I0eWFMd0J2XzdXYktlSGRNY0g0Ym5yM1k5OENLUXM3Skk0MGxKRlZiUjRoTFpKaDFkVE9mUVF2TWp1RXlmN1VjaFI?oc=5",
+        "source": "한국강사신문",
+        "date": "2026-07-25T11:40:36.000Z"
       },
       {
         "title": "혼획된 3.2톤 밍크고래, 7100만원 판매…\"바다의 로또\" - 머니투데이",
@@ -487,18 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUjdaVzNlU0NCWXRPYkdEeEMxbXdyeHB6RWhGNTdnVUhyUGpxNThDc2xiR2NvdXhsWkhuZXRLc0FxellwOHBteFlyQUx3N0VvdHotR1JUNjdMTjJEUGM0S3N0YXdQWUlqOTZFR2hRd2JUeDNxQXNQV2dQWEk0TkV2bQ?oc=5",
         "source": "les24heures.fr",
         "date": "2026-07-23T20:32:33.000Z"
-      },
-      {
-        "title": "로또 1등 8.3억씩 31명…전남 '대불로또판매점'서 수동 5명 당첨",
-        "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxOWUhmcTBVZGNWZWlHTTJPMGx5dERFcEpLRTgwTDNLVV9yQktzclFzTUFKblVORnBVTFFqREZjU3d4dUdTa0YtY09ycUJFX1poTG1PSkpPZVktd1dPcGdzR2dqX05MeGFiNVlqMVIyd1JKTG8xTG11c1BSbldvT3lOUzVEODQxRWwwMi1IR2VoV09OY3pkR09yYm0yeGdkUFdTRnA5YXFPN1lrb3ZIbE5keFVackhmZ1o5MXQ0d2hmd2FBa3lvWkpSd3EwdzJhQkpxR0tFaFNXeTg2R0RpTE1xSGpzaE5yUkZZbUFyMnJLWEpCaXJCTHh5NHdhbU1teEt4MGF0ZVJ2MEhTM0pzTzdIVU1TNE5jelVzNDI3dWhFbVMzaUxuaUwzSDlMTkNEZFowX1IzcnUwc0s5bEk2cE9FWnJzWk5DcEJQQlhiM3p5SnV1RWhidDVsbU5KREg2VDZQTGM5bWlCb1N2VUVMODhsMQ?oc=5",
-        "source": "MSN",
-        "date": "2026-07-22T14:36:38.000Z"
-      },
-      {
-        "title": "로또 판매점 신청 을 통한 성공 전략: 실제 사례와 결과 - 장단점 비교 분석",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE02eWRnMzVVUU9JMXM1VDFYTFRfZ0ZhU3RzVGNYaHVqM09BNUpINFl5WEpITGRYMzNrN0g1alF6c0drRlVUNkRST3ljQ2VoRzZUaUNPN3ZsYm1xc0tzdnBkVDBKYW5ITE1v?oc=5",
-        "source": "les24heures.fr",
-        "date": "2026-07-22T09:36:29.000Z"
       }
     ]
   }
