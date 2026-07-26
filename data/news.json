@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-27T04:16:31+09:00",
+  "updatedAt": "2026-07-27T05:52:49+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,18 @@
     ],
     "stock": [
       {
+        "title": "6000대로 내려온 코스피…삼전·하닉 실적 발표가 분수령 [주간 증시 전망]",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBXS0ozUnBKSFB5UkZUYVE5VWFSOGVsNndSYTVfWWJEcmE2V2F3ZDJDMTVQR2dhZHNINmgxcUp3bjBBYVJ4M254Y2RBNkdWeEJCZnQ0?oc=5",
+        "source": "네이트",
+        "date": "2026-07-26T20:21:00.000Z"
+      },
+      {
+        "title": "7,000선 내준 코스피…'AI 빅테크 성적표'에 반등 달렸다",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5HYlMtSmh3cF9yaE8zY2owRE5ocTJZZlFTQTI5NEtobjRORTduQXM2b0tTQ01EN0pxYnpqanloaVhoRXplRkZrTExkQXk3Z2tWY2VkTnVRSjhlb2ZGY1E?oc=5",
+        "source": "뉴스투데이",
+        "date": "2026-07-26T19:23:33.000Z"
+      },
+      {
         "title": "코스피 급락에… 서학 개미, 다시 美 증시로",
         "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWU4yeS1aMzRvWVp1b2hfVHE4TUdveHl5YUhCbThoNzlnb1hPV0VsU1p4cDZlTzV2d2VYcUpjWHFMaDVyTktvbGJ0Y3daZXFnb2lpbFlFRDhLTjFsS1ByQUkwam5aVHhUVzRUM0tOTm10dGM3XzI1amsyMWtsdVNubTBpTlNaNWNxUTVJ?oc=5",
         "source": "조선일보",
@@ -87,18 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1EQndWbk9vYkxHTGNtQ3JFRkw0dV8xWUNzUTZFeXlsaWNIY3BjMjctNmNqY3A0NUpsaFVKSU5wTzBmVnIyXzByWlNOXzVyQmxoSkE?oc=5",
         "source": "매일경제 마켓",
         "date": "2026-07-26T08:23:10.000Z"
-      },
-      {
-        "title": "호실적에 배당도 짭짤…'롤러코스피' 피난처된 증권·금융株",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QUzNsVDRFaVVWd3N1LWpuN0hEY3BuT0JwZXlGLVdGa1pMZ0ZFdmRlSE96Xzgwa1J4bTNYa0VHZllBMTBZVG8wTFNlSzZtdTJxeUE?oc=5",
-        "source": "매일경제 마켓",
-        "date": "2026-07-26T07:55:25.000Z"
-      },
-      {
-        "title": "\"하루도 안 빼고 사이드카\"…롤러코스터 증시에 일주일 내내 경보음",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE04OVBNbWx3cDZrd1U1WVNJcUgzOUk0LVgyRHZpWE9DMjBHeW5yMFVoRVdTVzBBcEdfRGNNOGZQa244cWJ1NUpYVV82YmRlNkE2dUxqLXFELUVQQ0pnNHgwdNIBeEFVX3lxTFA4Q0U2UVpieThSZVFvT0dQbHBIZ0FqNzNzWnFQZ3FKZ3U5RHNjdWdWc2ZZQXZod0gwQ1BIc2dsXzNyRkZpR3NWcS1SelIyRHM2Q0hMYndRbzdRUFpMeHQ3VTBRTlVGRzRJOEFGNTJEMWVUUzkzeWVLMg?oc=5",
-        "source": "뉴시스",
-        "date": "2026-07-26T07:46:41.000Z"
       }
     ],
     "kosdaq": [
@@ -433,12 +433,6 @@
         "date": "2026-07-26T04:42:00.000Z"
       },
       {
-        "title": "수원 매탄동 매탄위브하늘채 84㎡ 8억5000만원에 거래",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzMlQ4UnZIeUtUN3BFMU5fdTZGRlhoOXMtMl8wVVhvVFR1ZXRZZlJTNFkzdDMxM0NHUXBRQVE2ZDgzalNTcVlhWTIzT3lUVVo4bnh3?oc=5",
-        "source": "네이트",
-        "date": "2026-07-26T04:22:00.000Z"
-      },
-      {
         "title": "다시 꿈틀하는 오피스텔·빌라시장",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NOEZXZTNrV2RIZUlKN2s5WFBWSjl0RC1tWWtjVE1FTEdlcEFyaHlfZjY5ZkRkX3F2dEE1aG1mSGFKV3lNS2FPVHNKNHdYM19xTTZjOTFzMnc2SEs3WjMwREczS00?oc=5",
         "source": "매일일보",
@@ -449,6 +443,12 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5MRnBVNEc2WEhQbzFDWm9MTG9QaGVrTTRMS2RES2JsWDZLNVhZVzBEQ3lvQVVOakVoUFdqenRTTUYyZnBfWUI1RnFuZXg2cDkyckQzakdoR0JlU01BcjBXYzhqclM5SUc4ZlE?oc=5",
         "source": "머니투데이",
         "date": "2026-07-25T19:20:00.000Z"
+      },
+      {
+        "title": "김포 아파트 거래 늘었는데 입주는 ‘뚝’…커지는 신축 희소성",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90SVZnTkRRTGY5SzQ3d0ZxaWNzTzBCUExSdTB4ZHdEM0tzUVdnT3U0dzIyZWkzbkRfWlRYNnk0Ulp6djBkY0dXM1RweG1XOXZ5SmQyNQ?oc=5",
+        "source": "이투데이",
+        "date": "2026-07-25T04:00:00.000Z"
       }
     ],
     "lotto": [
