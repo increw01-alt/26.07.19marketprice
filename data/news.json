@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-07-26T20:59:24+09:00",
+  "updatedAt": "2026-07-26T22:39:05+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "[속보] 도지코인·리플 시세 동반 강세…비트코인 6만4500달러선, 코인시장 대체로 상승",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE41dGR3eHdyVVc3LU5fOE9SeUNZYXhkWk5mVUNCVFRSSXl5UnpBZlk3NzZlTlNERk14VUlVZXZ5Mjd4VmVfYVdnRGk4N0JIRUZZWWtxNkNiV0ZIZGt0d1A4aG5xbEU0S2tq?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-07-26T12:08:26.000Z"
+      },
       {
         "title": "암호화폐 뉴스: 비트코인 가격이 모든 강세장의 시작을 알렸던 신호를 보내고 있고, 스마트 머니는 이미 포지션을 잡았다",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KSGtIaXBKRzJtZVVyTl91MGZMZnhFU0tya1dqLTRPN211Tmp4d2UxQWQyT1VHVVRUUUlsNTNiWm9IcW5zdnZzMllXS2czLXp5bTFJYzM4cXNvRV9DWWlvdkRrOVhqU2l6WnZubzB6Y3RxQQ?oc=5",
@@ -43,15 +49,15 @@
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOQVR1VzdTVWV1b3BWcWtZYkNHOEVSSlVfLUs4U01CSFdVemNCVFpnRUtHM1pabmVXaHpES3BTbGNYcVAtS3dyYm1xM1lEWTA1YjdfYkpvaFd6N0pHZGJSRWQzYTNNb05IZkNyd2JCQ3J1eER0Mk5IbGFhSVcxelhmOVVaVHQxVGc3MFAxeUZYN2EwUndCT1drb3pMSTlCWHc2a1dFNnpWVmRKWmtSNThQNmRiVy1QQTJwQ1ZidjRfanFXVlIxZFhERVBkMmlfUU0?oc=5",
         "source": "CoinDesk",
         "date": "2026-07-16T18:26:00.000Z"
-      },
-      {
-        "title": "2026년 7월 16일 오늘 비트코인 ​​가격: BTC가 65,000달러를 돌파하며 급등했습니다.",
-        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQM2pwbjZuSEwteVdycHQzQnhSNVlDQ19sODVYQjRxQUxfVGJONmhmcUZzZTRaUEFJZ0FHSnBPNkx5V0pjOXlWQ2xZYkQ4QlFPNEIxMnUzNkltWlJzOE5XYkV6QjhEbFNsVjBUSnc3OGxWMF9RZXhFeVR1aThXOTBOYkY1ck5EYThzYlpj?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-07-16T07:00:00.000Z"
       }
     ],
     "stock": [
+      {
+        "title": "[코스피 시대, 미국서 TK경제의 길을 묻다 ①] 9,000 넘은 증시, TK는 왜 비켜갔나",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9PLVdKNkhSb0JXQkU2YWN3ckdYNjFURFUtMFdTa1pidE1UcmdpbXp4c1YwWjZXa1FySzlQWXdLa3ZWbUxmYlpmVWc3cFlpUUdjNk9LSmtZaEwtMkExNmduVXJSMTJ5Tkh6Y3NJ?oc=5",
+        "source": "영남일보",
+        "date": "2026-07-26T12:43:04.000Z"
+      },
       {
         "title": "7월 코스피, 국민연금은 담고 개미는 탈출",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoRTRxdDRqUVZkNS1acVRHV2ozRWoxWjdnN0k0OFFKNUpEWElOUWt6aHBicnRaeDBYMlRnOURNUm56c3ZHcVlmNWpycTNpMy05dzQ2LVd3Z0Vmd9IBX0FVX3lxTE15blhKR0tKSXphSnRRRHdxQnNmZU85RGtQSWV1cmhBTFowMVZ1S1paWUVNT2hldGhEWmhvc2hyb3RzNmQwQm9zdElONjE0SjJiVWwtU1k3bnhqejJmUWhR?oc=5",
@@ -83,22 +89,16 @@
         "date": "2026-07-26T06:45:00.000Z"
       },
       {
+        "title": "코스피 7000선 회복할까? 다음주 빅테크·삼전닉스 실적에 쏠린 눈",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Zc3FURW1EV3pWWkhDVDdESGRnT3FOVVFZREtSdUttcUthaGRhQWFhT0lneWJDZnFyUWx2RGRHVWJnQlFhaDRpZk5HVkhVVTlEUTY5UnF4OE0wQdIBX0FVX3lxTFBOYzdjR0tRS3hpS2ZRNUhzREZ4dGE2M1E1M2hXY1JLeDgyZUg3ODdtcktBcm9OOG5TZTI3c2xkNGp6YVRfa2JJTmQ2WTNPVC1oSDRjbXJiakZGbzJZTWo4?oc=5",
+        "source": "경향신문",
+        "date": "2026-07-26T06:32:00.000Z"
+      },
+      {
         "title": "[주간증시전망] 빅테크·반도체 실적에 쏠린 눈…코스피 7000선 재탈환 주목",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WNEp6eExzWGROb2txSWpzYTR6Vkh1SHVjVXVZRjdJQUgzQWdOTV9YdlpRdjBSMERvZC1aY1hjM3JMeDFBVU1DeC1KWTB3NG0tOTFj?oc=5",
         "source": "네이트",
         "date": "2026-07-26T06:11:00.000Z"
-      },
-      {
-        "title": "[주간증시전망] 빅테크·반도체 실적에 쏠린 눈…코스피 7000선 재탈환 주목",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZWUc4bDBLSEVJWEtRbVBrSXdmVXVxOElCNUwxVVRoYUlMVlRwV1FEeU1YcmVXUEhTTjVsYnFneFItMkdJQVM0eGtYOWRtNHZGVThvRHMwMXJwSmVoZFJ3dHo1aUxKS040?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-07-26T06:10:55.000Z"
-      },
-      {
-        "title": "개인 올해 ETF 69.5조 순매수, 코스피 주식 순매수의 63% 규모",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5jeURIeGhnYUFWcVl4VmVuR25xZ2VBOU5FSTNuUmlvX1cyQWxTOWNVZUpESVhjY0NQdDItRFJpblBVTkVVSXRHRVg2LXBURkgtRldUMjhMaDNsdUNrOXdSNDFlQmZ5YWVmUHh1b2F1LXluRWM?oc=5",
-        "source": "비즈니스포스트",
-        "date": "2026-07-26T05:56:18.000Z"
       }
     ],
     "kosdaq": [
@@ -113,6 +113,12 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zZ0lvaHNGSjhmcDlNOGFNdDAyUFBVZERQUTZMdlB5dFdjcGk4M19iYUFLbFpISHAzRFg4OUYxaVNRS2EzM1ZSSmx4TVIxZTFCdmpJ?oc=5",
         "source": "네이트",
         "date": "2026-07-26T07:17:00.000Z"
+      },
+      {
+        "title": "1년 전으로 돌아간 코스닥…레버리지·금리인상 부담",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBEazZqM2VYaU9pbFNVMkhkTjBCOTJ5WnlIMXJpRExhdlJza1NoY2QyRU5Kc081S3ZXajBiT1lNeWZwSlVuUGdEZGc3aUV4cU8zY1doV1cyS0dZZGJHeTduSUwyY19NNXc?oc=5",
+        "source": "연합뉴스TV",
+        "date": "2026-07-26T07:15:00.000Z"
       },
       {
         "title": "[7월 4주 화장품 주가] 글로벌 변동성 따라 코스피·코스닥 급락... 아모레퍼시픽 30일 실적 발표 공시",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3cy16U1dPZXVGLXNhbXlSdmpJaklNSWlpWXQ1RzBXaTNWVlZpS2J3R1BZYWRDQVZLd0R6TGFZX3UzY01OV0l5OC1QdUluZzd4U1NB0gFYQVVfeXFMUEtkUWNNbEItYmVPbDk4MXJnenFLYWlwZkJPMk93NlVHMEVPUnQyLUxoZUtJdkxyT2U4ZGNIUGpiVDBJYVpINDVoT0VuajhHSVVkdXQ3RVc4Zw?oc=5",
         "source": "SBS Biz",
         "date": "2026-07-26T00:34:00.000Z"
-      },
-      {
-        "title": "단일종목 레버리지 과열 속 코스닥 자금 이탈 심화",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTSUVhdm00Znhlb0tVMkstWko0cGl6UXZfWFRuMDhlUkJ5Y09RVnR5VkdqV01nSmQ2cjg4NGlsYjNhV19rQUZpeUNtS1E1NU5BSDFBMjloM3pfM0R3M1RnajlZWmdvanJH?oc=5",
-        "source": "2news.co.kr",
-        "date": "2026-07-25T23:58:00.000Z"
       }
     ],
     "fx": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "아파트 분양 기대 오피스텔은 1년 만에 가격 두배나 치솟아",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qTDZGQngxbm5iVHVYNDRBd3VlbGdjSFRTRFRCSHdWVklLY21iaEMtNWt4ZFFndXdoYjF2MVFNNmRaMVdsOUYwVEVrY0MyUEU2SnfSAVNBVV95cUxPZlZqci1yQmU2REozSEFPc2dFWnJTNlljUXB6V3hMa040VmdHVnBOWEk0VDRxcktaZTFLR1pnU2JmYmtKVTJkZDh1blg0cF9mSThBTQ?oc=5",
+        "source": "서울경제",
+        "date": "2026-07-26T11:51:31.000Z"
+      },
+      {
         "title": "두 달 만에 집값 수천만 원 폭등?",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrN0ZUVVp3aFlZaGhid3FsWW1ROGR2YjA2SEF5RjB1bXZOR1BtcFFCcElTX3NlYTRxOVl0Q1ZTU1lpZjIzeVpZamh3cmxHUDdaQnRlbGxyWXlqYVp0b1huTVZZQkw3R2hLb3Y3czRqR2lIT2Y1?oc=5",
         "source": "부산일보",
@@ -427,28 +433,22 @@
         "date": "2026-07-26T04:40:00.000Z"
       },
       {
-        "title": "수원 망포동 동수원자이1차 168㎡ 7억1000만원에 거래",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBIeGN4VG9kTmZXTjRaQV8yOHZJb2ZLQU1LMy1kUzR1MkRKRDFDSFZwazJBVWlQMUFCTm96cFllVHBhbDY5cG9LbXBiNUoxUG1seTlv?oc=5",
-        "source": "네이트",
-        "date": "2026-07-26T04:37:00.000Z"
-      },
-      {
         "title": "수원 매탄동 매탄위브하늘채 84㎡ 8억5000만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzMlQ4UnZIeUtUN3BFMU5fdTZGRlhoOXMtMl8wVVhvVFR1ZXRZZlJTNFkzdDMxM0NHUXBRQVE2ZDgzalNTcVlhWTIzT3lUVVo4bnh3?oc=5",
         "source": "네이트",
         "date": "2026-07-26T04:22:00.000Z"
       },
       {
-        "title": "수원 화서동 화서역 블루밍푸른숲아파트 84㎡ 6억9000만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNenZRSENNS1hUdVg5TjluQTVJRVNjZ20xMUNHMVlmOWpTQUJDcnZOaEE0cVZMZmJJSlNFb0Y3Tkk1blhrcUI5TThTUmF1djNqQjJ5dHpZMDJTc2dtREFpMHFTSC1VVUViUUViRzUwR0Y0X3ZNN01HcXdPMGk4QXpteER6S1pvSzjSAZsBQVVfeXFMTk1Vbm91OWpwMHBzQmNWbmRBODJvVU9PRlBUeEItLU5pVHRaSGctQXF5T2lMeG55TUJQaWFGVHEtVjRjY1VzajV5YndFalVXUWdqVUtYRW9RUy1TZ3FyVVJJRWhaLUloZ3NESmVxT3J2YUV5Uy1kTHNnNUEyQ1hIMktQRDhpZ05NdnZLc3ZZbXBGR0Rwc3FjM3FNbEk?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-26T03:40:00.000Z"
-      },
-      {
         "title": "수원 하동 광교호수마을 호반써밋 84㎡ 13억500만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5kWXNqdWF5YlZkQkN6ME42Wm04U0d3UGJRYnpOa1A0Ql9fc195VlpZVWkwajdYLUJLRXgtLVlnQlJyVTg3ZVBKeW1IRzdnUlVMN0xJ?oc=5",
         "source": "네이트",
         "date": "2026-07-26T03:23:00.000Z"
+      },
+      {
+        "title": "다시 꿈틀하는 오피스텔·빌라시장",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NOEZXZTNrV2RIZUlKN2s5WFBWSjl0RC1tWWtjVE1FTEdlcEFyaHlfZjY5ZkRkX3F2dEE1aG1mSGFKV3lNS2FPVHNKNHdYM19xTTZjOTFzMnc2SEs3WjMwREczS00?oc=5",
+        "source": "매일일보",
+        "date": "2026-07-26T00:00:00.000Z"
       }
     ],
     "lotto": [
