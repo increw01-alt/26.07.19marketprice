@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T19:41:28+09:00",
+  "updatedAt": "2026-07-26T20:59:24+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "7월 코스피, 국민연금은 담고 개미는 탈출",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoRTRxdDRqUVZkNS1acVRHV2ozRWoxWjdnN0k0OFFKNUpEWElOUWt6aHBicnRaeDBYMlRnOURNUm56c3ZHcVlmNWpycTNpMy05dzQ2LVd3Z0Vmd9IBX0FVX3lxTE15blhKR0tKSXphSnRRRHdxQnNmZU85RGtQSWV1cmhBTFowMVZ1S1paWUVNT2hldGhEWmhvc2hyb3RzNmQwQm9zdElONjE0SjJiVWwtU1k3bnhqejJmUWhR?oc=5",
+        "source": "경향신문",
+        "date": "2026-07-26T11:45:00.000Z"
+      },
+      {
         "title": "[이번주 증시] 'AI 랠리' 이어질까…코스피 향방 가를 '슈퍼위크'",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wRmhaX3ZkNkhjSGVCSEVlbGxXNXlkS2pJc09fRTNKWEN5TzIyNFB1bnVWX1NVOHc4bkhWSEYxWS1GUDFOSkVvNVJXZHZjRUN3TzRtbjlxN0ZUMDB1a25YMjZMazhoSmZhZWfSAW5BVV95cUxNNHdnUzZEd0tZOVU1UDQxZzk1Yjc5NDF4eWRMbnFYSExGd3RoR0tSdkNjMElieVF6NUZDVWtwZmdoT0FSbDUxbGRSVmY0cGx3dUF2MUVmQUhiSVFBT1h4NHhnelpWWnU0bzRXbDhkQQ?oc=5",
         "source": "뉴시안",
@@ -69,12 +75,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KZkgtMEc5ckFEcGpjZ1JBcGxzcUVCOXBveFZmT21sNkpGc1J4UGxrdE40bERFNG9JTXpZN0pOWnR5Q1QyejJBUW0tYlhHS1VQVVowd1pDTDZpUQ?oc=5",
         "source": "경향신문",
         "date": "2026-07-26T07:21:00.000Z"
-      },
-      {
-        "title": "코스피 변동성 역대 최고…레버리지 규제 '시험대'",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fQ0Z5eWkwZlhkSVpqbUFha3FHZ0FhWXNQLW1TN1pEVXlBbVo1Rzc3cEpXaW52TVRIeEdmRnI1cWdJN19ycGR3RnFKVjUxaEZ4SE9OYmhtNFRsZ24zRUxVU0Q5LWFvRWo4Tk5OUdIBcEFVX3lxTE4xZEtpZV9qNk1XdzFnak95WEVlRWJGSXpKM0R3d2ZFcVFycEQ5X09ac2EySGRmb1JGMzRIS1hBT0dkWkNHZFNyOWtOcHR0N0pWMlZFQjB1VFRyVGFoUkQwakp1SURlR3Z5VlN1bDJfWUs?oc=5",
-        "source": "남도일보",
-        "date": "2026-07-26T07:19:58.000Z"
       },
       {
         "title": "코스피 7000선 이탈…“정부 개입에 시장 불안”",
@@ -154,9 +154,9 @@
     "fx": [
       {
         "title": "엔화 추락·원화 질주…뚜렷해진 디커플링",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04SG1FVXlmQmwyR244Y3FNS0xxeWxnbUdqYVlTdExXdkxBcVM3VjhwRG15aHlTWHYxa05neklodm1qSk9fYUMydVhuQUxKYTBm?oc=5",
-        "source": "블루밍비트",
-        "date": "2026-07-26T09:07:59.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0wQl9WUHFuYWtiZ2NvZ2M3RmZrUEZpc0U3a1JBaUYwRFJaQk5MckNVU1pyQk1FcFhvRjVOYXVySkJ1UHkwbTJiTWR6SFZuTmZqNF8tQmZ4TGtqUQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-07-26T09:00:05.000Z"
       },
       {
         "title": "환율·채권시장, 유가·FOMC 촉각…원·달러 1400원대 중후반 전망",
@@ -203,6 +203,12 @@
     ],
     "metal": [
       {
+        "title": "2026년 7월 26일 오후 금 시세: SJC 금 시세, 9999 순금 반지 시세 및 주말 세계 금 시세.",
+        "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOYk9QN0hEWFJUTW9EcktIS0FBc1RnTUd2UDlaNlY5Z1hvNU1INzBMMzJlOTRadmZ4XzBOWE9UU0JWcUs4S0dYb1RYeW1SVldDMnlscHlOUXJiWnR5X3ppbWtSU0o5elpkWW8tMm1IdklseUhzZFB0WEEyLXNtZFpsWTVsbFppZERySHM5d3RXS2Z0SzBHUHhOcVMxaWxKd3N3VDRqSHQ2ZUxXQ1lFSUE?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-07-26T09:52:52.000Z"
+      },
+      {
         "title": "금시세(금값) 26일",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfLUhEb0RmTUtOS3NUelFlSVFWdnRfU3gxeUV4MWh5cUQydmNrVDBjSnlmQXpDbDY1TWk1bU42Qm1NWTV4Z1ZreFFONXJSYmVzMFNDQWdyUTRIU0k2dkNIQmNFbWo?oc=5",
         "source": "bntnews.co.kr",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lbXU1TjE2UUltTWlicVFuNlkxRVZBYVgzYnI5ejExNm85QS0xeDFKeEpuelgxQmcycVNzdmV0RE95UTNNNm9oakpQY3JUbXVTNXZMaWpwd1AtNXZhMHlWUDZFOFQ?oc=5",
         "source": "bntnews.co.kr",
         "date": "2026-07-25T01:21:02.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값)는?",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5SODFRWU1ualN4LWFNRVlKbm1kQS16clRKOUtBQWZZQ2RYVHZjLTlDellLeTRDOWJrNXdPWHc1SlA2bTNNSmtOTGQxTDRFUmlNVDAzUmZ4ZnhXMkdsXzJEYg?oc=5",
-        "source": "네이트",
-        "date": "2026-07-25T00:51:00.000Z"
       }
     ],
     "energy": [
@@ -269,6 +269,12 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PWFJ3a2tCTG1uekNYcVhLcGFKMWNGdEcyUHJRTGcwblZ6T1VLNXVNeVRsZnBvaUpTeEp6a1ZNQVZyZjNjSmpfT1pDWXYtT0I3b0c2Vm5CNHlOV2V3cDUwSTVsdEltYkQ0enFJYUtvcVB0bHdvd0VZ?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-07-01T07:00:00.000Z"
+      },
+      {
+        "title": "[원자재 시황] 미국·이란 충돌에 WTI 70달러선 회복",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFWEMwcVJnX2VFSFJIVGlfeVhhLVhiREJxaTBvcFI4MlVjRm4xMDBfeHZraXhZTnpWNVlYT3dNTFRWU0hscDlHblhWbEpyZXU1eVhGUUpkZ0xENktrb1paeU5rYVNjeDEx?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-06-29T23:22:04.000Z"
       },
       {
         "title": "국제유가 3~4% 급락...이란 프리미엄 사라져",
@@ -293,12 +299,6 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-06-13T07:00:00.000Z"
-      },
-      {
-        "title": "[원자재 시황] 금값 4300달러·WTI 90달러선 붕괴",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jZWEtb1RJRHlGRllKWEY3cDg0OWhBdkp5c0NtOXZhRFhMLXFGaXlLTFREZXc1TW43bzlER2tpVFhsSW5CWGswMTg4OWYtR2Z0d2plZDFRd0piNWxmTldTNjZoMUF4OXRr?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-06-10T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -460,7 +460,7 @@
       },
       {
         "title": "로또 1234회 당첨번호 발표…˝1, 15, 19, 31, 35, 43˝ 보너스 27:장애인인식개선신문",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aOVRlb01LTzUwczZUMnhVZW1tcGp4dWRtZnJhTk5vbFQtbGhUR1pPQVhCOG02Y0VMUFRyQW1jNUNwSTdwQi04YnVSZ3EyemfSAV9BVV95cUxPTlJlQmVGNGtzMnlMLTJuNjBad05VYlh5ZElKc0REdVA3YzRXVUxLSEZzU2J6ZmxfMHc2bmhXeWZ2U0JWMVFTbzB3RV85MUxaNTNIMFhzd1hTU0xTR0M4dw?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBIT1cxVlYtQ3d4dDlLWktzVFBtOUNiOHdPWXozVlQwdnczUFNlQ1VJSDVSSmFaYmo3VDJnZGFvbDhDeEXSAV9BVV95cUxPTlJlQmVGNGtzMnlMLTJuNjBad05VYlh5ZElKc0REdVA3YzRXVUxLSEZzU2J6ZmxfMHc2bmhXeWZ2U0JWMVFTbzB3RV85MUxaNTNIMFhzd1hTU0xTR0M4dw?oc=5",
         "source": "장애인인식개선신문",
         "date": "2026-07-25T15:47:00.000Z"
       },
