@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T11:47:05+09:00",
+  "updatedAt": "2026-07-28T14:42:40+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,8 +36,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96050,
-      "buyRate": 3.95,
+      "buy": 96000,
+      "buyRate": 4,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -48,8 +48,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95950,
-      "buyRate": 4.05,
+      "buy": 95900,
+      "buyRate": 4.1,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -120,8 +120,8 @@
       "label": "국민관광 상품권 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96600,
-      "buyRate": 3.4,
+      "buy": 96500,
+      "buyRate": 3.5,
       "sell": 96900,
       "sellRate": 3.1
     },
@@ -132,10 +132,10 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480200,
-      "buyRate": 3.96,
-      "sell": 481250,
-      "sellRate": 3.75
+      "buy": 480000,
+      "buyRate": 4,
+      "sell": 481000,
+      "sellRate": 3.8
     },
     {
       "shopId": "choigo",
@@ -144,10 +144,10 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96040,
-      "buyRate": 3.96,
-      "sell": 96250,
-      "sellRate": 3.75
+      "buy": 96000,
+      "buyRate": 4,
+      "sell": 96200,
+      "sellRate": 3.8
     },
     {
       "shopId": "choigo",
@@ -156,10 +156,10 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48020,
-      "buyRate": 3.96,
-      "sell": 48125,
-      "sellRate": 3.75
+      "buy": 48000,
+      "buyRate": 4,
+      "sell": 48100,
+      "sellRate": 3.8
     },
     {
       "shopId": "choigo",
