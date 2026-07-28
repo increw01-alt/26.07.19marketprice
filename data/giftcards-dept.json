@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-28T14:42:40+09:00",
+  "updatedAt": "2026-07-28T17:25:49+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -60,8 +60,8 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96700,
-      "buyRate": 3.3,
+      "buy": 96650,
+      "buyRate": 3.35,
       "sell": 97000,
       "sellRate": 3
     },
@@ -72,8 +72,8 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96600,
-      "buyRate": 3.4,
+      "buy": 96550,
+      "buyRate": 3.45,
       "sell": 97000,
       "sellRate": 3
     },
@@ -168,8 +168,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 483250,
-      "buyRate": 3.35,
+      "buy": 483000,
+      "buyRate": 3.4,
       "sell": 484500,
       "sellRate": 3.1
     },
@@ -180,8 +180,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96650,
-      "buyRate": 3.35,
+      "buy": 96600,
+      "buyRate": 3.4,
       "sell": 96900,
       "sellRate": 3.1
     },
@@ -192,8 +192,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48325,
-      "buyRate": 3.35,
+      "buy": 48300,
+      "buyRate": 3.4,
       "sell": 48450,
       "sellRate": 3.1
     },
@@ -242,8 +242,8 @@
       "method": null,
       "buy": 96400,
       "buyRate": 3.6,
-      "sell": 96900,
-      "sellRate": 3.1
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "choigo",
