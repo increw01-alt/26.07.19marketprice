@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-30T02:11:11+09:00",
+  "updatedAt": "2026-07-30T04:06:31+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -7,8 +7,9 @@
       "name": "씨티페이",
       "site": "https://city-pay.co.kr/",
       "url": "https://city-pay.co.kr/",
-      "ok": true,
-      "count": 8
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "choigo",
@@ -29,102 +30,6 @@
     }
   ],
   "items": [
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "롯데",
-      "label": "롯데백화점 10만원권",
-      "face": 100000,
-      "method": "이체",
-      "buy": 95850,
-      "buyRate": 4.15,
-      "sell": 96400,
-      "sellRate": 3.6
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "롯데",
-      "label": "롯데백화점 10만원권",
-      "face": 100000,
-      "method": "현금",
-      "buy": 95650,
-      "buyRate": 4.35,
-      "sell": 96400,
-      "sellRate": 3.6
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "신세계",
-      "label": "신세계백화점 10만원권",
-      "face": 100000,
-      "method": "이체",
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 97000,
-      "sellRate": 3
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "신세계",
-      "label": "신세계백화점 10만원권",
-      "face": 100000,
-      "method": "현금",
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 97000,
-      "sellRate": 3
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "현대",
-      "label": "현대백화점 10만원권",
-      "face": 100000,
-      "method": "이체",
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96600,
-      "sellRate": 3.4
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "현대",
-      "label": "현대백화점 10만원권",
-      "face": 100000,
-      "method": "현금",
-      "buy": 96200,
-      "buyRate": 3.8,
-      "sell": 96600,
-      "sellRate": 3.4
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "갤러리아",
-      "label": "갤러리아백화점 10만원권",
-      "face": 100000,
-      "method": "이체",
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96600,
-      "sellRate": 3.4
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "국민관광",
-      "label": "국민관광 상품권 10만원권",
-      "face": 100000,
-      "method": "이체",
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96900,
-      "sellRate": 3.1
-    },
     {
       "shopId": "choigo",
       "shop": "최고상품권",
