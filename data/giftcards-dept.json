@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-29T11:06:35+09:00",
+  "updatedAt": "2026-07-29T14:47:01+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -48,8 +48,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95800,
-      "buyRate": 4.2,
+      "buy": 95700,
+      "buyRate": 4.3,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -72,8 +72,8 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96500,
-      "buyRate": 3.5,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 97000,
       "sellRate": 3
     },
@@ -96,8 +96,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96200,
+      "buyRate": 3.8,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -132,8 +132,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480000,
-      "buyRate": 4,
+      "buy": 479500,
+      "buyRate": 4.1,
       "sell": 480500,
       "sellRate": 3.9
     },
@@ -144,8 +144,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96000,
-      "buyRate": 4,
+      "buy": 95900,
+      "buyRate": 4.1,
       "sell": 96100,
       "sellRate": 3.9
     },
@@ -156,8 +156,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48000,
-      "buyRate": 4,
+      "buy": 47950,
+      "buyRate": 4.1,
       "sell": 48050,
       "sellRate": 3.9
     },
@@ -168,8 +168,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 483000,
-      "buyRate": 3.4,
+      "buy": 482750,
+      "buyRate": 3.45,
       "sell": 484000,
       "sellRate": 3.2
     },
@@ -180,8 +180,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96600,
-      "buyRate": 3.4,
+      "buy": 96550,
+      "buyRate": 3.45,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -192,8 +192,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48300,
-      "buyRate": 3.4,
+      "buy": 48275,
+      "buyRate": 3.45,
       "sell": 48400,
       "sellRate": 3.2
     },
@@ -240,8 +240,8 @@
       "label": "국민관광 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96300,
+      "buyRate": 3.7,
       "sell": 96800,
       "sellRate": 3.2
     },
