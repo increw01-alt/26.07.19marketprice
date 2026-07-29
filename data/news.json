@@ -1,13 +1,7 @@
 {
-  "updatedAt": "2026-07-30T00:51:09+09:00",
+  "updatedAt": "2026-07-30T02:14:31+09:00",
   "topics": {
     "coin": [
-      {
-        "title": "암호화폐 뉴스: 비트코인 가격이 모든 강세장의 시작을 알렸던 신호를 보내고 있고, 스마트 머니는 이미 포지션을 잡았다",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KSGtIaXBKRzJtZVVyTl91MGZMZnhFU0tya1dqLTRPN211Tmp4d2UxQWQyT1VHVVRUUUlsNTNiWm9IcW5zdnZzMllXS2czLXp5bTFJYzM4cXNvRV9DWWlvdkRrOVhqU2l6WnZubzB6Y3RxQQ?oc=5",
-        "source": "financefeeds.com",
-        "date": "2026-07-28T16:20:27.000Z"
-      },
       {
         "title": "2026년 7월 27일 오늘의 비트코인 ​​가격: 암호화폐 거래소 비트마트(BitMart)가 9년 만에 운영을 종료했습니다.",
         "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRnlnc012VlkxYnUzMjdMZ0dNYmpCUlNUenFtZXpnTUl3cVhqcERkeFhLWlRmenNPNjd3bFQweWZLbmlEcndQUjdjcFkxQUxvR2U2RHkxUEJGQ1hMcktZb2xzUWE0LWlqQ2FCMFNHVWsycjBhdGQzaU40OWp6UkloMG1KdUl4VVFfSGJTMEhiR3pQMTVoeUJkRmd4WVVUZjhITXNPMVRDQQ?oc=5",
@@ -49,9 +43,21 @@
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZ2l0S3loZy1YdWk4YW44aWdwR2piQjdURXR6b09PbE5SOGd6cjJ6UG1acjRVN2FldWg2elV4TjFycWpndC05bVpYYVVDck1GTVlnUVNDbXJLSlNWUU9UdFdCTXBDRHpGcGktSmhLQVJsNEZYMmxzeFdQb3E0VHB2eFFIRXg1Nm9OX0VnVDlDRVdDZDNnZ01IazFkLU1zOEJvc3FSRkZtRHd1RVRXaE13M2x2dnNYaW1hbGU4bUotSW5XZUs4VVRveW1LM2o?oc=5",
         "source": "CoinDesk",
         "date": "2026-07-21T04:45:00.000Z"
+      },
+      {
+        "title": "매크로 촉매 부재 속 암호화폐 가격 하락, PUMP가 주목받아: 오늘의 암호화폐 시장",
+        "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ZlV1RoRDJkVm94ME9TNGpmT2hnLVZYYTZXS2pPeURZUDRFMWxuanFtcEpZVjgzeVhZV0JaRGRaamQwYlVfblpVRHA5ZXZQVkpoWHZHeVpFLTQ1SkxRcktPaGl2VzRKa2s4QWNVclJETklrQjhOMDFFYmhlNG5KeWpubW5obzU2Z3JhUXI1VXNKT0ZGYWJLRGFoRWducUIwTHptQUlSdlhjQjBSaGVkWWdyeFdkWkhBTEV4eWswT2NxZ19CaVE?oc=5",
+        "source": "CoinDesk",
+        "date": "2026-07-19T18:33:00.000Z"
       }
     ],
     "stock": [
+      {
+        "title": "靑은 한국만 이런 게 아니라는데… 코스피 변동성, 美보다 5배 커",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOWWRkTWRDYmRnWHR5X0o0MS1oRnc4QVU0X1FvT0d6U2ZYaERzYVppU2x6dlQwYUZJaTNuanNLd29ZeDdYMmRhYU1hZ1VRWHFDM0NHX3dMVFRZdUxxV1o2UGk2WXpEdE5EVHBORl9KT0NQUlNNdndlUGRRaU8tUk1pSmNhaVVvdzVzSEVR?oc=5",
+        "source": "조선일보",
+        "date": "2026-07-29T15:51:00.000Z"
+      },
       {
         "title": "외신도 걱정하는 한국 증시 \"투자자들, 절망과 좌절감 확산\"",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQY3FxbkFZYUU3Y2VtVFFzeGZtVkpQR2ZJMkpGUXREQ0FEaFBQVWVOVGpwNmpfUEJXVTFER0dvWHF6XzdzaGtWWVZGQTU3a3A5MmdnUGRIdjl1Z2x5cllEOFc3OS05U2tIcy1mbXRubVJlbUtIRFg2Tzl6aHFZSGROeGRxSmdjZEkzVVFRcV83VDFkVXJ2dlFpN0JXV1BfUQ?oc=5",
@@ -61,7 +67,7 @@
       {
         "title": "\"더 큰 폭락 온다\"…레버리지가 부추긴 코스피 공포 '확산' [분석+]",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1MUWY1LUE3TzRUS05FWjBCdlNneWxYMXdOdktTSnB0MkNRNkpqYV9WcC1WSnI4X3BBS2xBR1VNNUdYVDV3bmp1VWhmNDA1a1ZNaFBnY2hjcV9RZw?oc=5",
-        "source": "hankyung.com",
+        "source": "한국경제",
         "date": "2026-07-29T13:00:02.000Z"
       },
       {
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE42bVBvNVY2M1p2RzlZVmpndU1KZ2RJMTNRUmwyMDEzMFRSUGJhWWJKcW1kRlJ0cEJQU0ZjV3JfUHhINWJEQkppb0ZUUkROR29OMmfSAVNBVV95cUxPbmVQX0pTMl9vUnRjZEdTY2VnMUtfaVRubGlnZGVUU0hSZVN3TFBka0h6d3JDc0ZkZjZRTkVzNHZ6YVdXbmpGYmEyT1JQOHFMNjZ6RQ?oc=5",
         "source": "sedaily.com",
         "date": "2026-07-29T10:05:58.000Z"
-      },
-      {
-        "title": "[사설] 랠리 외치다 도박판 전락한 증시 정상화 시급",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE90ekQ1cmtycUdnTW5rVHJaNDNFUVZjZU5KVGw4RmQ4MEk4ek5oMHRCSjdYTkZUTVBUYW5aZVhrVEVGdFJWX2lTTjVnWjV0b2h6dDA3WUpZcW9sZw?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-07-29T09:35:35.000Z"
       }
     ],
     "kosdaq": [
@@ -397,7 +397,7 @@
       {
         "title": "\"코인 보내면 상품권 결제\"…'불법 코인 대리 결제' 성행",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tOUFoZGU5SzV2RHNOWDdKQ3ppVHNHM2ZwbS1scVVoQ3M0N29TRW8zRGVhb3pKTFgwWmtxRFBfRDJLNVFBVi1iRjFUR21KTGZRX2NnZlNIcmwxdw?oc=5",
-        "source": "hankyung.com",
+        "source": "한국경제",
         "date": "2026-05-21T07:00:00.000Z"
       }
     ],
@@ -409,27 +409,15 @@
         "date": "2026-07-29T09:50:00.000Z"
       },
       {
-        "title": "인천 만수동 포레시안 아파트 114㎡ 5억1000만원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPelNfY2RLUWJiTXhEM19wRXhFdTM1TVg3VUplaFBzU2JKdTdhUWZGZFFFbXo5UGlaYWZhdndqZmpORHJhZnZzNk81QzdTUHhPMDFBeGdJSzBSTnlzQlJQRXUtWTN1bFVqclFnRFVuSnhTUkNMZXYyc0JDNzRfZG5WWGpfY2hNMG_SAZsBQVVfeXFMTkFKWWk1TV9qV0doLXNjek9ndk1YaTd6Rk03WWh1ZU9iaW8wVHNkalpwellxaFROSnJKT3hySDFINVBucXk2UlNQVHRaSnd5eUhDUGhic2lRWG4wZVdMQWV3VVB3eFpOekRsaFFJUHIyVHdsdHZaaDM2dVU3RVdkVDVjMjctV3l2LUdxeGdyOFUtQlQtR2VCRUZhUEE?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-29T09:36:00.000Z"
-      },
-      {
         "title": "인천 송도동 송도 SK VIEW 아파트 84㎡ 7억원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBXSGxuNGZYUkFNYi1qZEJjMXBIYUhKYkxjVVhsbWR5MFpyR05GNHdxSlBNWXNNbVhUNnNzdkxJSlc1UDBRNTZpdWN0WUF5VjNhTGE3VUZJQkk2SDdSN3hXekl5RFRQbGh5Umc?oc=5",
         "source": "네이트",
         "date": "2026-07-29T08:52:00.000Z"
       },
       {
-        "title": "인천 송도동 송도 SK VIEW 아파트 84㎡ 7억원에 거래 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPcXZXRlZDeHBfcmFNOFZtQlM1NkYwdHlCeGRzR21tOGRtS05WU0VuX2hvamU0R3RsSEg1VVBsa0tFRUc0YS1kMTRSSW5pSEdIV01qSUhESjBrNWxlVHU1U080TUJmOXo2YWtrRjlsXzdTRzZlUDgxYWh1UERYRlZfZzVQZjdJT0HSAZsBQVVfeXFMUElsb2dOLW9Yd05jV1puN0ZxN1hkdTlZTWhhbkU3S0NSc3liX2UwT24ybXFEM3pxYUdwVmVfbFB4aS1QTWxvMWxsU1M2N0wzTEpaN1FBRWZaaXI1cEFVTFRXZHlONktjeGpZYWwybm5pb004aGVpUVVlcEZjYjk1ZnNLRnl0QVBnMDRrNTZpSEZSODFzME8xVWlILW8?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-29T08:51:00.000Z"
-      },
-      {
         "title": "[현장] 길음 대장 아파트 ‘국평 20억’ 돌파…“규제 영향 적어”",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50RUZBcjNNS0pSdE9NYjltUjlzWHZ1azZ1X1dQNU1UVzVIS1hiY2pOX0dyRERWdEtEelZzSUJfOTEzeFNmX0k4SnlGWHkwb2lVZm1LazJ2Qkc5UXc?oc=5",
-        "source": "에너지경제신문",
+        "source": "ekn.kr",
         "date": "2026-07-29T08:48:40.000Z"
       },
       {
@@ -439,25 +427,31 @@
         "date": "2026-07-29T08:47:00.000Z"
       },
       {
-        "title": "인천 송도동 e편한세상송도아파트 70㎡ 5억7000만원에 거래",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE50SnNMWFN4VGZxNGhyNjNVMGtYLWx4T3YyM2NBY20xeVUtUWJKX0U4V2JmYnVIelBzMm5ZLUo0bG10TnpVeFlxSk8yT2xQMGVvbldwYXhKekY1R2pUY2xjS2Y0QTFwRDJWTnc?oc=5",
-        "source": "네이트",
-        "date": "2026-07-29T07:37:00.000Z"
-      },
-      {
         "title": "수원 화서동 화서역 블루밍푸른숲아파트 84㎡ 7억4500만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jX3BHdklFNDBfSGRiRXBQU05val9STzY4UEE0SlBqOXAzREp0MVBLSkhjR0xPUVR5TUYtakFKTkVFUnB1V3dyWDB0d0ZfT3hSd3lF?oc=5",
         "source": "네이트",
         "date": "2026-07-29T06:53:00.000Z"
+      },
+      {
+        "title": "수원 조원동 수원한일타운아파트 84㎡ 5억9500만원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9BbmFRWEVySllObTZxTTZOOHdmSTltWEM2TkFubi1STkdlNE5neXdPQkt5YmVQVnRxUGRRei0xaS1YSzdmVW9tdGtlN0M5QWU4VTlj?oc=5",
+        "source": "네이트",
+        "date": "2026-07-29T06:47:00.000Z"
+      },
+      {
+        "title": "용인 풍덕천동 신정마을주공1단지아파트 59㎡ 12억원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8xSVdua0ZVOU1NU2Z4dkxqU1pEUTFGWEZXVlNlNjUwNjZPUUo2WTZpYUFqbmpUMlVYdmRUMUliUS1NSGpaaGFXTDVTZDlRMWtxeTJJ?oc=5",
+        "source": "네이트",
+        "date": "2026-07-29T06:33:00.000Z"
+      },
+      {
+        "title": "용인 상현동 광교자이 더 클래스 59㎡ 14억1800만원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TQmV3cmtTY0F6ZUs5OTBQNnlEVzJhYlhvSUZUMDBxZkNLVzcwRk1ScGM5Q0xqU2diaWtwTGpZOE1JWEhzbzZLdW8xZ3NuX1NaQ1Z3?oc=5",
+        "source": "네이트",
+        "date": "2026-07-29T05:33:00.000Z"
       }
     ],
     "lotto": [
-      {
-        "title": "토요일 로또 판매마감시간 의 안전한 사용법: 위험 피하기와 보호 조치",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lWjEwbXQ5UG9WVWh0VF9sRlpVTmdLbmlaMHl0a190UWVjWG10QUlpZFRGaTFTNW51T2d2OTBTSDktVENzQWdwRnB3MU9DdlhQbkxQZFc0LWw3d2JNRFFqSUYtWQ?oc=5",
-        "source": "centrserdce.ru",
-        "date": "2026-07-28T04:46:22.000Z"
-      },
       {
         "title": "가까운 로또 판매점 의 혁신과 미래: 기대할 수 있는 변화들 - 전문가의 관점에서",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9YcVRZdXZMLWVZTFIyc0lpZFFXQ1pMMDhjTXkyVS02WlJoOVpJOVhFNHJXSGlQUjY1UXgyNkJEd0txTnBYSl9LOU9nbWtLMV83bEMzYm5rOS1peFNwWWRCTEZVWEhlcVV1?oc=5",
@@ -491,7 +485,7 @@
       {
         "title": "로또 1234회 당첨번호 발표…˝1, 15, 19, 31, 35, 43˝ 보너스 27:장애인인식개선신문",
         "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBIT1cxVlYtQ3d4dDlLWktzVFBtOUNiOHdPWXozVlQwdnczUFNlQ1VJSDVSSmFaYmo3VDJnZGFvbDhDeEXSAV9BVV95cUxPTlJlQmVGNGtzMnlMLTJuNjBad05VYlh5ZElKc0REdVA3YzRXVUxLSEZzU2J6ZmxfMHc2bmhXeWZ2U0JWMVFTbzB3RV85MUxaNTNIMFhzd1hTU0xTR0M4dw?oc=5",
-        "source": "장애인인식개선신문",
+        "source": "dpi1004.com",
         "date": "2026-07-25T15:47:00.000Z"
       },
       {
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vZ2NTazlpQzZuMzZuNFFvX19OMnFXNjVhVFdaNV9lSlhLQi1YZnR6Z0pnV3hwanNrTmExN1lUQ0NDNTd1T0t3S1VqUHRoVjlNcDQwWWZ0ckI3ZnNPNUI4aUV2TXFGNEstcmRJWElR?oc=5",
         "source": "gukjenews.com",
         "date": "2026-07-25T15:05:00.000Z"
+      },
+      {
+        "title": "1234회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83RjFPVHU4YV9BQWJ4aHNpb25hcTMxVDZfZU13TVVHMWZSUExQcDVqbnpxQVR6eEp3TGZJWk5QRnM3bGhFSjRDTUZENHVqaU1XaGNjdXplRXhBSlFienBrUHR0ZmlxY2Z6cEs0NlF2SVkydw?oc=5",
+        "source": "톱스타뉴스",
+        "date": "2026-07-25T12:03:25.000Z"
       }
     ]
   }
