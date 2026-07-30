@@ -58,18 +58,31 @@
 
 ## 4. 다음 단계 (여기서부터 이어서)
 
-**막힌 지점: 네이버 쇼핑 검색 API 키가 필요함.**
+**막힌 지점: 네이버 쇼핑 검색 API 키가 필요함. (2026-07-30 확인 결과 = 아직 없음)**
 
+### ⚠️ API 키 현황 (코드/설정 확인 완료)
+- 이 프로젝트에 등록된 GitHub Secrets는 **3개뿐**: `DATA_GO_KR_KEY`(부동산)·`ECOS_KEY`(금리)·`OPINET_KEY`(기름값).
+- **네이버 쇼핑 검색 API 키(`NAVER_ID`/`NAVER_SECRET`)는 없음.** 아직 등록 안 함.
+- 헷갈리기 쉬운 것 3가지 (전부 쇼핑 API 아님):
+  1. **네이버 서치어드바이저**(`searchadvisor.naver.com`) = SEO 사이트 소유확인. 이미 ✅ 완료.
+     → 이걸 "네이버 API 등록"으로 기억하기 쉬운데, **쇼핑 검색 API와 전혀 다른 서비스**. 재사용 불가.
+  2. **네이버 금융**(`m.stock.naver.com`) = 금값(KRX) 가져오는 스크래핑. 키 없이 호출.
+  3. `NAVER`(035420) = 그냥 종목 리스트의 네이버 주식.
+- 결론: 쇼핑 검색 API는 **`developers.naver.com`에서 별도 신규 등록** 필요. 서치어드바이저 계정으론 안 됨.
+
+### 할 일
 1. [ ] **네이버 개발자센터에서 앱 등록 → Client ID / Secret 발급**
-   - https://developers.naver.com/apps/#/register
+   - https://developers.naver.com/apps/#/register  (먼저 https://developers.naver.com/apps 에서 기존 앱 있는지 확인)
    - 사용 API: "검색" 추가. (키는 **GitHub Secrets로만** 전달, 코드/데이터에 절대 금지 —
      기존 원칙 준수. 예: `NAVER_ID`, `NAVER_SECRET`)
 2. [ ] 키 확보 후 Claude에게: **`scripts/fetch-shopping.mjs` 초안 + 데이터 스키마 + 페이지 스펙** 요청
-   - 수집 스크립트: 대상 상품(또는 키워드) 리스트 → 네이버 쇼핑 API 조회 → `data/shopping.json` 저장.
+   - 수집 스크립트: 대상 상품(또는 키워드) 리스트 → 네이버 쇼핑 검색 API 조회 → `data/shopping.json` 저장.
+     (API 응답 필드: title·lprice/hprice·image(URL)·mallName·link)
    - 페이지: `/discount/` 또는 `/price/` 가격비교 표(행=상품, 열=판매몰), 갱신 시각·출처 표기,
      모바일 가로 스크롤, `<body data-page="...">` + `pages.js` 렌더러 패턴.
    - SEO: 페이지별 고유 title/description, 구조화 데이터(Table/FAQPage), 시세↔가격비교 내부링크.
 3. [ ] `?v=` 자산 버전 갱신, sitemap.xml에 새 페이지 추가.
+4. [ ] update-data.yml 워크플로에 fetch-shopping 스텝 + NAVER Secret env 추가.
 
 ---
 
