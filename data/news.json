@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T00:49:13+09:00",
+  "updatedAt": "2026-07-31T02:21:31+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "\"지금은 팔 때 아냐\"…개미들 비명 쏟아졌는데 '반전' 전망",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VdHBjeDBzYUl0UkJBcjlGcEUyX2lqUC1FelBxV0FQb0NoUTJrSVQ3Mk9LZFlRYlpaNGkwM3ZNRGViQkpvN3V2YUFleTFRMTRkS3NMcWtDdDdYQQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-07-30T15:59:00.000Z"
+      },
+      {
         "title": "\"코스피 약세, 외국인 매도·국민연금 매수세 약화 탓\"",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOVnpnZWZNNUlRcXJQM1otdWNOZkxKMy0wX0RpLWlHMWxkeFVSRTlSUG5tNlZySDljX2tueVp1QkhscENJV2l3djc5WF9nNlhuazk3dlhib1RvWFdLUzFqOXV2MDZyQml2Yk5DSlRGaEotQW9DbjhpdEh0bE5ydndBWA?oc=5",
         "source": "조선일보",
@@ -65,22 +71,16 @@
         "date": "2026-07-30T15:00:02.000Z"
       },
       {
-        "title": "코스피 투자금 이탈 조짐… 코스닥 반등 가능할까",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fellaN3Fpd0N1SkF1N3FFbVdEazhQUTBVdFlqdVRVQ1dnV2ZERWVuaFJXWlVoUmNiWGN1VEdvTjQxVlF2d0pUUEZOeGhFU0pXYmdwYnlzRmrSAVRBVV95cUxOZmtJWklFMHkxZ3ZBN0F6aHA1YjU0TXBtN1BLcjVFaVd1RVpYRTBRRGZKUjJPaGo1SjdzblNieHRnNno0cWR4ZFN1ZzNISXdhNDZLTVc?oc=5",
-        "source": "세계일보",
-        "date": "2026-07-30T11:40:00.000Z"
+        "title": "코스피 하락장…삼성전자 호실적도 역부족, 개인 '패닉셀'에 반대매매 급증",
+        "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBsYVZ1cWZUa0VKUnZ4dV9TNzUxRW9wOVVTdV9TNzlwcy13TE5tQkwzanV1TEtfQ3FzN0hmMkdkSG85M0tYWFJn?oc=5",
+        "source": "신문고뉴스",
+        "date": "2026-07-30T13:29:00.000Z"
       },
       {
         "title": "[사설] 도박판 변질 ‘롤러코스피’ … 증시 라인 문책 빠를수록 좋다",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5vYVNVNTJxeFZKcnQ0SXJma3pZYXYzMkpwc3BhTERRRDBVM3VPajRJdWdUZXd5cTF0dTBqWWFvUWJBVHhhMWFabHZ5eHp2QmZJU0dzajJIbWMzS1oyUlhrcGR4UzBmZ2JlYUtoWTlTTzNCYTBk?oc=5",
         "source": "대한경제",
         "date": "2026-07-30T09:23:46.000Z"
-      },
-      {
-        "title": "하락 늪에 빠졌다...韓 증시, 대내외 악재에 코스피 고점 比 40%↓",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93M3lqOGxoMkJFUjhZS0lJd1pUQ05oOUZOZmpxdzVrcVZ0dVdvampGS3ZkS3BxeDZ5RDMwcnZPSXlvZW1vZE45YnNGc3JHdGpPRVBOVmdDVGR3Wm0yRHZaVW1WdEZKT3dQV1E?oc=5",
-        "source": "월요신문",
-        "date": "2026-07-30T09:22:39.000Z"
       },
       {
         "title": "野 ‘롤러코스피’ 공세… “도박판 증시 국조·특검”",
@@ -104,21 +104,27 @@
     "kosdaq": [
       {
         "title": "“코스닥 침체에 자금조달 비상… 체질 개선 서둘러야”",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBZM1RXLWVLU3M4NnFvUmNnMEZMZmdEMHROUTB2VHdwRWxLZ0x3bHRUZlhRbW03Wm9wb0gwbm1LYWd3dkNrMk52emZybFdqNWs?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-07-30T15:32:15.000Z"
+      },
+      {
+        "title": "“코스닥 침체에 자금조달 비상… 체질 개선 서둘러야”",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TTzBJV3Awc0txUVg4QXhyeU5leENhMXdLcUtfd2FWd3FYMHBhY2hrRE5mR0ZhSjgxaEFvTE9CLVkwd05yVFJMVUl4X0F5bHR5ZE5fdnV6ZnhGbjVrWmFyN1Q0S2F1SGVobF8yRHA2OWs5OS1uc2fSAWZBVV95cUxPMk5zS29hVUk2Vk52Vk9CRnphQ01sV3pLdXRlX1dZa29RVmVyZ2JJemxCaGxlTTlVbDl5ZXJWWGxjS2FIOUF3ZU01YXhTdnlxV2s2R05OQzFDODNINkdvZjhuNGVJWGc?oc=5",
         "source": "동아일보",
         "date": "2026-07-30T15:30:00.000Z"
       },
       {
         "title": "코스피 투자금 이탈 조짐… 코스닥 반등 가능할까",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1MMkNqWTNwYktvQUVDOGMyUU4wRGxXMVR2VW5Va2dhcDZGUmFLd1ZfVGxKbUh1cWZVTjlSVHh3eHZLWDgtWGpFd1lfMlN3SmM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-07-30T11:43:09.000Z"
-      },
-      {
-        "title": "코스피 투자금 이탈 조짐… 코스닥 반등 가능할까",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9fellaN3Fpd0N1SkF1N3FFbVdEazhQUTBVdFlqdVRVQ1dnV2ZERWVuaFJXWlVoUmNiWGN1VEdvTjQxVlF2d0pUUEZOeGhFU0pXYmdwYnlzRmrSAVRBVV95cUxOZmtJWklFMHkxZ3ZBN0F6aHA1YjU0TXBtN1BLcjVFaVd1RVpYRTBRRGZKUjJPaGo1SjdzblNieHRnNno0cWR4ZFN1ZzNISXdhNDZLTVc?oc=5",
         "source": "세계일보",
         "date": "2026-07-30T11:40:00.000Z"
+      },
+      {
+        "title": "멜콘·래블업·엠비디, 코스닥 상장예비심사 승인",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBPbC1VdnFFV3dBYmx6TGszZjhnd0RoWWxJaFpfLUhTWkRiODFGeGNjTzdCWVJnSUEydVRLeGdmdE4yd0RWRUtkbVFCZmtUNFhuNlprVGhORG1zTWtK?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-07-30T10:43:00.000Z"
       },
       {
         "title": "멜콘·래블업·엠비디 3사, 코스닥 상장예심 통과",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9LU04zampyY1JwNVJzS2FPZ2YwUk0wdF9vZTFxYTg1TTBxWWpRRVJNRFgtQkF3N0RrOE1pZUZfdzdvcm8wWFBiUXhETWFmblBFdU9CUm5jSEh6UFBsekF4TlRfclRwcFY30gFuQVVfeXFMTWRzMWZqVmQ0V1JCN0daTmVBX1lHdEY2Z3oxSEdXVVEyY2k1NjVEZEZrbHVmbG1GbzVaSGFaVHZzQzR3LWMxUXQyTV9hcUs3WEZDSGlpX0V3aWxsejFGZmdrWEhLTzlyVUVDdlEwOWc?oc=5",
         "source": "머니투데이",
         "date": "2026-07-30T08:55:21.000Z"
-      },
-      {
-        "title": "\"송아지가 소보다 비싸\"…코스닥 폭락에 날벼락 맞은 곳",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EWk9vSXlERkR0UVJZc25ka1pseDZfVVcxTktrV195eVVqcWJxelluanI2alFHQ2RNcmZfWC0xVWV5WEh1SDBjbU5penp4ZktjU0pqTVlzZE03QQ?oc=5",
-        "source": "한국경제",
-        "date": "2026-07-30T08:49:27.000Z"
       }
     ],
     "fx": [
@@ -160,7 +160,7 @@
       },
       {
         "title": "원·달러 환율 장중 1419원…엔화 강세에 9개월만 최저 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBtWE5aTlM4QlhKYnJlVmdmaWh4c1huMWJ6Y1BwVU4xY2xDSmc5S2ZZbjM2aktvbUdMUDY4ZDRvVzMtcWljNlpteDdZSXU0MExGaXc1Mnc4Q0FJUE5sejQwUVlidkNGcXk50gFuQVVfeXFMT2dTSjVLVzd5LU16NDd1RzlkWW1YMDFKSVhtSDJ1eG43VnYwVk9pVjlvdjlUcVBwbTUxZWR5YlpBbFZ6c3FJcUdIUzItMnA2QVJaZ0ktMDJwZlhRRTJhVzVKNERrQ1FTQ1NFbVIxcFE?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9nU0o1S1c3eS1NejQ3dUc5ZFltWDAxSklYbUgydXhuN1Z2MFZPaVY5b3Y5VHFQcG01MWVkeWJaQWxWenNxSXFHSFMyLTJwNkFSWmdJLTAycGZYUUUyYVc1SjREa0NRU0NTRW1SMXBR0gFuQVVfeXFMT2dTSjVLVzd5LU16NDd1RzlkWW1YMDFKSVhtSDJ1eG43VnYwVk9pVjlvdjlUcVBwbTUxZWR5YlpBbFZ6c3FJcUdIUzItMnA2QVJaZ0ktMDJwZlhRRTJhVzVKNERrQ1FTQ1NFbVIxcFE?oc=5",
         "source": "머니투데이",
         "date": "2026-07-30T15:28:41.000Z"
       },
@@ -169,6 +169,12 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9aYVRKaTRyaDBmT21WSkhjUjh1akwtdVNlQ2luVXBOa2ViMmFOdGtFNU5vTmxMUENCLTZIUUYxak1MYUprcjBxVDhBMlJJXy11ejlB?oc=5",
         "source": "네이트",
         "date": "2026-07-30T15:11:00.000Z"
+      },
+      {
+        "title": "원·달러 환율 1437원 마감 2월 이후 '최저'",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1uQzlTYl9QOWJHeUw5VElxOHEyU01fSTNLUFJGbkM5RWMzTzkxSFRCdHZPc3RBLVFucENBbi0yQ0hvYVVMRVM1cFZJTWFWQUpLdzFOQmxDOEZPcEcyM28zQkd1X1JVUGxTUi10ZWl3?oc=5",
+        "source": "세이프머니",
+        "date": "2026-07-30T10:47:15.000Z"
       },
       {
         "title": "[그래픽] 원·달러 환율 추이",
@@ -184,21 +190,15 @@
       },
       {
         "title": "원·달러 환율 5개월만에 1430원대…美금리동결·SK하이닉스 ADR 영향",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE95c3paN1pTZlFYUi1KQ3E5MTV3bmRwMlBweWY0LV94MXhKaWdYVXZucFRyVFpRQVNDa2hVWHBZakdKS2pqUWVwNlFWTm85QjJZT2Q5RTJ2NW9GQXdodlZrUw?oc=5",
-        "source": "asiae.co.kr",
-        "date": "2026-07-30T08:13:23.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB6R1U1cjJFQzZHSE9mRGJzb09NRmNaSm1ubjI3QmNoYXNUcjZaYk9FY3ZSRmM5WVU0SVpnYmUzX1VEdzAxaU5KVU1OeUdOZmNHdEktNEF0Ykh5NEl5RW0zS3ZIeXBVUi1OZWc?oc=5",
+        "source": "네이트",
+        "date": "2026-07-30T08:14:00.000Z"
       },
       {
         "title": "[외환] 원·달러 환율 1437.4원 5개월 만 최저…9월 인상 기대 67%로",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5peHAxWlJaaHlNSm51bm9sSGxheEJKdmhJZUpFMkdDbVlDT3VMNHJScVEyMzBMWG4zM04yVzNjQ0U5ZHAta1NHSjljbGJLaWZKODhCZjNLRUNMNnFJWVRKb1JDQ3l3U3M?oc=5",
         "source": "자본시장뉴스",
         "date": "2026-07-30T08:00:00.000Z"
-      },
-      {
-        "title": "'美연준 금리동결' 원·달러 환율, 5개월 만에 1430원대 마감...코스피 5600선 내줘",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAzb0h0N09FaE54WWNFU1J5RzZOZTN6S3N3dG1MMUhfR3I5RU1JaWdveHA0UW9GUndTUUdvdmxvMEdLU2JaamZXNjdGZHlrOTFpalRvNzdjbkNvLVJjWUpSdWxqSEE?oc=5",
-        "source": "베타뉴스",
-        "date": "2026-07-30T07:59:46.000Z"
       }
     ],
     "metal": [
@@ -223,7 +223,7 @@
       {
         "title": "금값 또 최고 수준…순금 한 돈 살 때 82만6000원, 팔 때는 69만6000원",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE85RXdfN3BPRXZ1YTlxSU14RUd6YVYxSjRuTG1MZWt3Um9jbXc4dk0xZ2w5UXBLVEtDOHd6andYZjN2QkJjRE9PVmVMaklnRFFBUlhfS0VrbEZVU3p3TjAwUllQR0JkVmY2RXR2LXNn0gFyQVVfeXFMTmJjR3JCSDYtbEtRTUtWekdSRktEbTRfMHlTTmw1NVNVaXFlenpDc3M4UzJlQ290OE8wY1FvNzV5S1MtU0lxU2hGc2NpNklmVVdZU1RMblNSY3VMRWdrZmJ0bUY5RHVjSFdOdHJFYkhmZ193?oc=5",
-        "source": "job-post.co.kr",
+        "source": "잡포스트",
         "date": "2026-07-30T01:14:44.000Z"
       },
       {
@@ -355,7 +355,7 @@
       {
         "title": "요금은 그대로, 포인트로 ‘0원’… 통신 3사 자회사 알뜰폰 ‘도매대가 우회’ 논란 - 조선비즈",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjJKeERfb2VtRWtEdWJsUDAweUIzZjdYRjZIQXozM0NuemVucTNNYXpiTW1zV2JXUGs2YlJMN3Jld0xZMW9lWjZnM0xyYVozU0JrYklhNmZhWkhkdUtVZk1DQ01FLU5FMkR1ZUtYN0tmamozcGl5N2NocVlQSVVVR01R0gGWAUFVX3lxTFBCYUppUVpsQTBObXJneTltaC0tM2xoWURfcWhvRk80Ui1iXzBjSU5IOF8tRXJqR25QemR2VjVVVk1sTTNEOFQxcnF4aXFhR3BKbkZZZFM0dnJ5dFIxcUVHa2dLWnlrY3FGNE9QN0QyeGVtbG1STGNNYWxveGk1bVl5ZlR4Y29nNW1reGZQNmVQTlFERHAzdw?oc=5",
-        "source": "Chosunbiz",
+        "source": "biz.chosun.com",
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
@@ -415,12 +415,6 @@
         "date": "2026-07-30T08:22:00.000Z"
       },
       {
-        "title": "용인 죽전동 새터마을죽전힐스테이트 85㎡ 8억5000만원에 거래",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Ud3ZQcmNRWWYyaW5IdGxpMzBXM04xc082SS1oSEg1NmR5RmZrQ21PNlo2QXJMMUR0YktWMjVEejJBeElTbGZmNkVMSWVNcGVDYmJ3dzRJcGgtQmdHbUttMlF0ZFlJeVl3aVVLWEhn?oc=5",
-        "source": "네이트",
-        "date": "2026-07-30T06:57:00.000Z"
-      },
-      {
         "title": "인천 송도동 e편한세상송도아파트 70㎡ 5억7500만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1kMlR4WVZNRXVyTlZ5Q3JlbUhkY0ZTUGNKWGVfX0J5SVk3SDJwajRqZ1QydU43YjFhMFc1bW9zN0ZjNWE4aE1NRWllRzA2TXdVSnlJ?oc=5",
         "source": "네이트",
@@ -429,7 +423,7 @@
       {
         "title": "거래량 매매가 동반 상승하는 ‘오산’, 동탄 인접 북오산 일대 대단지 ‘북오산자이 드포레’ 분양 중",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5fTXRnN2g5eW9ySWs4TVBPMi1jUW5mY2NrdmtoaTN1SVIyYjJnSUpxVDE1MnJZNHVlVC1fUlkxQnczVXU3b1BRZk5reFJid0t6WVVWT0JSS3B3ZVpZb21ITjE0MVpWeG93SjE4WnJDSGZqdw?oc=5",
-        "source": "골프타임즈",
+        "source": "thegolftimes.co.kr",
         "date": "2026-07-30T06:35:20.000Z"
       },
       {
@@ -445,13 +439,25 @@
         "date": "2026-07-30T06:30:20.000Z"
       },
       {
-        "title": "서울 국평 평균 실거래가 13억6000만원",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBYRVhFbTRqbkFXSXhQaDhscjdlTkxjZWpYcWRjSEJsUV81N1JNbHVhOUR3T0M2bUd2QldDVVFaRnpUb2gzUVBPYmU2NA?oc=5",
-        "source": "뉴스1",
-        "date": "2026-07-30T06:29:18.000Z"
+        "title": "인천 연수동 연수2차우성아파트 40㎡ 2억500만원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1rUEwyWDV2U3BzRUxHMFZlOFppUzlCV0tSZEU4dDd1ZVp2OUFPeTR0Uk1HMlltSG9mWTg0TUg4cWNqQ0liVXJjSlU2am9HVlpXTC1ZNzRXOVZDRlg3dTRiM29LRUM3bmZMa09hZ2p3?oc=5",
+        "source": "네이트",
+        "date": "2026-07-30T06:29:00.000Z"
+      },
+      {
+        "title": "‘반도체 수혜·동탄 생활권’ 오산 주택시장… ‘북오산자이 드포레’ 공급",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5IaEFrNGgwOUNZYTlXSl8yb2VjY1ZMWVVpRElHZmp5V0pSS1pvc19ab0pnUGk2UkhpQUlBZjJURDI2cWhZc2wyZWlGUUFsT3R6N2JrRm13QzFQZw?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-07-30T06:22:27.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "일요일 로또 판매시간 에 대한 완벽한 가이드: 초보자부터 전문가까지 - 톱 5 비교",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlYU83OV82WWFpRHRsRnl4aTFGVl9oeXBKYUdrNXZLUWpsb2x1Vk9tN1BWejd4QzByc1plNUhBd2UxdVNabU5fa29fcUY5dEk0SDJlSG5JTnZOcE9pSHlSNXM5dWtTQ2hD?oc=5",
+        "source": "centrserdce.ru",
+        "date": "2026-07-29T17:44:45.000Z"
+      },
       {
         "title": "토요일 로또 판매마감시간 의 안전한 사용법: 위험 피하기와 보호 조치",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lWjEwbXQ5UG9WVWh0VF9sRlpVTmdLbmlaMHl0a190UWVjWG10QUlpZFRGaTFTNW51T2d2OTBTSDktVENzQWdwRnB3MU9DdlhQbkxQZFc0LWw3d2JNRFFqSUYtWQ?oc=5",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5vZ2NTazlpQzZuMzZuNFFvX19OMnFXNjVhVFdaNV9lSlhLQi1YZnR6Z0pnV3hwanNrTmExN1lUQ0NDNTd1T0t3S1VqUHRoVjlNcDQwWWZ0ckI3ZnNPNUI4aUV2TXFGNEstcmRJWElR?oc=5",
         "source": "gukjenews.com",
         "date": "2026-07-25T15:05:00.000Z"
-      },
-      {
-        "title": "1234회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83RjFPVHU4YV9BQWJ4aHNpb25hcTMxVDZfZU13TVVHMWZSUExQcDVqbnpxQVR6eEp3TGZJWk5QRnM3bGhFSjRDTUZENHVqaU1XaGNjdXplRXhBSlFienBrUHR0ZmlxY2Z6cEs0NlF2SVkydw?oc=5",
-        "source": "톱스타뉴스",
-        "date": "2026-07-25T12:03:25.000Z"
       }
     ]
   }
