@@ -785,6 +785,61 @@ output {
   font-weight: 700;
 }
 
+/* ---------- 핫딜 피드 ---------- */
+.deal-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.deal {
+  padding: 12px 4px;
+  border-bottom: 1px solid var(--color-border);
+  animation: rise 380ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  animation-delay: calc(var(--i, 0) * 25ms);
+}
+.deal:last-child {
+  border-bottom: none;
+}
+.deal-link {
+  text-decoration: none;
+}
+.deal-title {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--color-foreground);
+  transition: color var(--transition);
+}
+.deal-link:hover .deal-title {
+  color: var(--color-primary);
+}
+.deal-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+  font-size: 12px;
+  color: var(--color-muted-fg);
+}
+.deal-mall {
+  padding: 1px 7px;
+  border: 1px solid var(--color-border);
+  border-radius: 4px;
+  background: var(--color-surface-2);
+  font-weight: 600;
+}
+.deal-price {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--color-accent);
+}
+.deal-age {
+  margin-left: auto;
+}
+
 /* ---------- 가격비교 (네이버 쇼핑) ---------- */
 .grid-shop {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

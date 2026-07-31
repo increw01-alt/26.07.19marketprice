@@ -252,6 +252,31 @@ function renderManualGift(data) {
     .join('');
 }
 
+// ---------- 핫딜 (커뮤니티 RSS) ----------
+async function pageHotdeal() {
+  const data = await fetchJSON('/data/hotdeals.json');
+  $('#hotdeal-note').textContent =
+    `${data.deals.length}건 · 최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`;
+
+  $('#hotdeal-list').innerHTML = data.deals
+    .map(
+      (d, i) => `<li class="deal" style="--i:${i}">
+        <a class="deal-link" href="${esc(d.link)}" target="_blank" rel="noopener noreferrer nofollow">
+          <span class="deal-title">${esc(d.title)}</span>
+        </a>
+        <div class="deal-meta">
+          ${d.mall ? `<span class="deal-mall">${esc(d.mall)}</span>` : ''}
+          ${d.price ? `<span class="deal-price">${won(d.price)}</span>` : ''}
+          <span class="deal-src">${esc(d.source)}</span>
+          <span class="deal-age">${newsAge(d.date)}</span>
+        </div>
+      </li>`
+    )
+    .join('');
+
+  setStatus(data.updatedAt);
+}
+
 // ---------- 가격비교 (네이버 쇼핑) ----------
 async function pageShopping() {
   const data = await fetchJSON('/data/shopping.json');
@@ -1000,6 +1025,7 @@ const ROUTES = {
   energy: pageEnergy,
   macro: pageMacro,
   giftcard: pageGiftcard,
+  hotdeal: pageHotdeal,
   shopping: pageShopping,
   realestate: pageRealestate,
   lotto: pageLotto,

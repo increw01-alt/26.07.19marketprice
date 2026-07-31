@@ -57,6 +57,10 @@ jobs:
           NAVER_SECRET: ${{ secrets.NAVER_SECRET }}
         continue-on-error: true
 
+      - name: 핫딜 수집 (커뮤니티 RSS)
+        run: node scripts/fetch-hotdeals.mjs
+        continue-on-error: true
+
       - name: 관련 뉴스 수집
         run: node scripts/fetch-news.mjs
         continue-on-error: true
