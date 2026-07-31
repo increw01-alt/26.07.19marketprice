@@ -1,6 +1,26 @@
 {
-  "updatedAt": "2026-08-01T04:18:42+09:00",
+  "updatedAt": "2026-08-01T06:01:15+09:00",
   "deals": [
+    {
+      "title": "옥토패스 트래블러 프렌차이즈 세일 14,940원 / 가격 다양",
+      "mall": "스팀",
+      "price": 14940,
+      "category": "게임S/W",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106051",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-07-31T19:35:58.000Z"
+    },
+    {
+      "title": "마블 스파이더맨 프렌차이즈 세일 21,120원 / 가격 다양",
+      "mall": "스팀",
+      "price": 21120,
+      "category": "게임S/W",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106050",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-07-31T19:33:02.000Z"
+    },
     {
       "title": "펩시콜라 제로슈거라임or제로카페인 210ml 60캔 (22,870원",
       "mall": "롯데온",
@@ -380,26 +400,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-07-31T06:14:07.000Z"
-    },
-    {
-      "title": "티코 셀렉션 6개 골라담기 카카오페이결제 (28,710원)",
-      "mall": "카카오선물하기",
-      "price": 28710,
-      "category": "음식",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106026",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-07-31T06:09:43.000Z"
-    },
-    {
-      "title": "브레이블리 디폴트 플라잉 페어리 (29,800원/무료)",
-      "mall": "쿠팡",
-      "price": 29800,
-      "category": "게임S/W",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106024",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-07-31T04:54:10.000Z"
     }
   ]
 }
