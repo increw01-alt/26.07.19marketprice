@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T07:12:04+09:00",
+  "updatedAt": "2026-08-01T08:59:06+09:00",
   "topics": {
     "coin": [
       {
@@ -11,7 +11,7 @@
       {
         "title": "BTC, ETH 가격 소식: 코스피 17% 사상 최고치 급등 속 암호화폐는 영향 없이 비트코인 64,000달러 기록",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjZXdHpwRnJzclhXcGZHRWYtVUxvYTZZSHpub0NoTUtOOGxFckxOanF1VUx4U2I3d2ZOQTZsSWxfSjRRRVdMVFZvWl9QVlN2a09hUkh0MDc1b1JISW1UckJtbWpPVTJxNjdaa3lYaXlodC1YdUVtc2RZTFd4bkNjR2dDZXAtc3E4bFRKNzZ2YUVGbTJRajZWNzhwcFhpUkZJZWkycVZmMzJ2V2lhYzEzWVBvaDlzdV95RTFXRkRmVHFwMFU?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-31T09:09:54.000Z"
       },
       {
@@ -23,13 +23,13 @@
       {
         "title": "비트코인과 이더 시장은 무기한 계약이 지배하고 있습니다. 스페이스X는 그들의 영향력이 얼마나 광범위한지 보여주었습니다",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbllISUF4eS1ReFBiU1FQREV2SEx4X3piMzBMMnlydlFCTFE3anBOc3hGRzd1VUtxNEdDMV9nMDhtaTBVMC1YVm9zSU1lZ0JlUDBIQmtYaVVVRzFuWnUtd0tIeURMVkRfaTV6eV9YN0lsb0FEWUpwQzhreGU2MmpSa05LbjZoVXBkX0FoLUxnc1R4T2JsNEk2WW92VWNrZjVhOUhOaDhLbE9pMlVvMDlLMk8xZWQwQkFJRGV0QWJlWEl2RWZZb0dVTzF4S2tlbG1Vanc?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-30T09:00:00.000Z"
       },
       {
         "title": "롤러코스터를 탄 비트코인과 이더의 가격 변동, 2억 8,600만 달러 청산 기록",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlRLOFFMTUlMX00ySXhRb1RJSVFmV0pFRUVEckJkMk9WNnhGVHJxVWZpbTNjSGdncUpfZGFjTVBtNklmVGFlYmYzQkJvQnFpcXpUSkR2NmJ2c21HT3RUZ2R2Yk5CQnM1bHVHQVFRbUZPMzlxMHR4NDNFWk1UU2w1OFVncFNnRldId2VMZ2gzbTU0NGZiQ0JFdFc5MFR1a2xITTNRZ2ZxbnBoT3FZbTc1QVAxSk1uRGl4S1l1dlNldE9zTkhpSVVkYmhYQVZZM2M?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-29T15:54:00.000Z"
       },
       {
@@ -53,15 +53,27 @@
     ],
     "stock": [
       {
-        "title": "코스피 출렁이고 집값 뛰고…7월도 가계대출 늘었다",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rOW5GMmRkaUR1VXRLWmVCOWVpMVdKNEJFdndkc1JBb0N5enBrYTRxeGNONXcyTEFFMzZqRHppQW1GemFjcTJEbHJHdWF4MnZKbVHSAVNBVV95cUxOcDNPTndHeXE2Unk5UFh5c01FcWVHNTV1UERsY3hMN1VjT3MzMEZQVnVfZG5tRFBUU2tzel9uZnVTMXRQLWpUZFo0eURWQU9xcHYxbw?oc=5",
-        "source": "서울경제",
-        "date": "2026-07-31T21:00:00.000Z"
+        "title": "\"선진국 증시 맞나?\"…'폭락 후 폭등' 종잡을 수 없는 코스피 이유는",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MVl9pUnktaW1wTHRYT25uN3dPZGFjRDFSUUN0N2xSUHA3cE55Z1FHbk5kQ3NRT0V4ZUI4alBiUE5oSWlEOWQxN0xtdS1TTmhUeEVrNmhXdll3TVgzYU9MZdIBeEFVX3lxTE0xX3FBbnZ1WDJIcXBXcDdRcTJkZ0p5d1J0eVV5bXc4Qjk1UU5QQWZualQwb1JjN011V2RQSVpkUGVmTGxyTlB4ZWlLZzNZMUhnTkFsNTFXbE5YWVd1blA0WFVQRVJLNTg0TnRDSllqZExQS2NXV2J2eA?oc=5",
+        "source": "뉴시스",
+        "date": "2026-07-31T23:00:00.000Z"
+      },
+      {
+        "title": "코스피, '패닉' 지나 두 자릿수 반등···8월 반등 기대감 '솔솔'",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xNTEzMEtoMFFpZzcwbTlaeWxmWnpYS29iOWlNVF9FSHJodGJiRURhT1dJM0FzSDhDY3hDVGpGR2l6aE9uZ0Q3V3o0QjlGRnlQN241MkNoN1pqeUNyZGRYSGFXcjJ4T3pNM1E?oc=5",
+        "source": "서울파이낸스",
+        "date": "2026-07-31T23:00:00.000Z"
       },
       {
         "title": "[주간증시전망] '서킷' 악몽 뒤 17% 폭등한 코스피…다음주 관건은 '美 AI 실적'",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yYTVGWWF2Tnpab2RUNlNvcEhJWVFNYi1aSWJRamNaQ2drVkk1UGdOdEtZbzROOWE3dl8zTDc3SzBCd3pBU0tGRUl2SmxxNDBvOUExcA?oc=5",
         "source": "이투데이",
+        "date": "2026-07-31T21:00:00.000Z"
+      },
+      {
+        "title": "코스피 출렁이고 집값 뛰고…7월도 가계대출 늘었다",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9rOW5GMmRkaUR1VXRLWmVCOWVpMVdKNEJFdndkc1JBb0N5enBrYTRxeGNONXcyTEFFMzZqRHppQW1GemFjcTJEbHJHdWF4MnZKbVHSAVNBVV95cUxOcDNPTndHeXE2Unk5UFh5c01FcWVHNTV1UERsY3hMN1VjT3MzMEZQVnVfZG5tRFBUU2tzel9uZnVTMXRQLWpUZFo0eURWQU9xcHYxbw?oc=5",
+        "source": "서울경제",
         "date": "2026-07-31T21:00:00.000Z"
       },
       {
@@ -83,29 +95,17 @@
         "date": "2026-07-31T15:12:10.000Z"
       },
       {
-        "title": "[이슈]코스피 17% 폭등? 데드캣 바운스 우려 이유",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kM0N4T2pwNTJxS24wM1FCT2hVT2Z4NjdSWTlOb1JJNi13YlRWdEt3UTV3Yks1MUhzcmUtd1M0RUxKUVRCQ2YzUExzck1xZElI?oc=5",
-        "source": "문화일보",
-        "date": "2026-07-31T11:03:58.000Z"
-      },
-      {
-        "title": "사이드카 23번·서킷브레이커 6번 발동된 7월…극한 변동성 韓증시 ‘몸살’ - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkdqSWJmQWYzZGhhM2haVGxDUmt2QzdqcnlUdXlkRXNpaWh1V1hfWlNvdnpHV3FSdDJJaFN0MTZkSHQ1cm1KX0NNcU94MUpSWVoxN2hLbzlSMnZ2V2pkb1RJZG5FTms3SGd6UkZBQnJ2Nl81OGtIWFNpVC0yWDNEMmZTNW5MaGxt0gGcAUFVX3lxTFBTVksxVUU0Ti1HaTdEakZsQTJGUDcwTUxVbFNKbm42b05WcmkweC1wRmR2TFpfSm1TbUtmRnBFU2JJbkpaZUw2UERMckFSQ3VtSUFvN25rU1lWQ3lqX2JOZjNLdEhrX1BiV29VdW1KU2t6QTZYcFlqZ3dRNFREdFRfNFhWZG1rdU1sNVRCVWwtZkdCX042Qml3UmQxRg?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-07-31T10:31:00.000Z"
-      },
-      {
-        "title": "“주식창 켤 때마다 뒤집혀”…코스피, 장중 1000포인트 출렁 ‘아찔한 7월’ [투자360]",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzRExOQzBXekNmMVdzTjNRZXU5VVljcFlyZmpiZThjQ1EybmhlZmFXa2F3dXhRNGdXSjZXeF9oM195VGc4VFFycXo0a0VXOUF6V19PRDVR?oc=5",
-        "source": "헤럴드경제",
-        "date": "2026-07-31T10:00:07.000Z"
+        "title": "코스피 급등 부른 뜻밖 배경 있었다…\"악순환 종료\" 들썩",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5MRWZWM2hPdmJIM1EwME5tOVlvaVFzQ0dhNlRURnlac1l5UVlQQ3BFaDduaFQwMGNXNlpBV1RsYnM2dWpTOEgyQkpMem8xZlU?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-07-31T11:12:05.000Z"
       }
     ],
     "kosdaq": [
       {
         "title": "출렁이는 증시에 '월배당 ETF' 출격…고배당·AI·코스닥 공략",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9YX29ETllFNjRTY0d4TG42X2F6V3BxOGxQRndaMl93Sk1kbWo5SWxjdkRiTWhMOG9vaFhDNnZVNWl5WlE5TUdWY3NfZHdRUjNRS0FMY1F4Rzk4OVlodWtGQ0JsSQ?oc=5",
-        "source": "theguru.co.kr",
+        "source": "더구루",
         "date": "2026-07-31T15:00:19.000Z"
       },
       {
@@ -153,6 +153,24 @@
     ],
     "fx": [
       {
+        "title": "고환율에 달러보험 '불티'…환차익만 믿었다간 '낭패’",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mcHJIdHpKRk1RTXVNV3F3aXBLUHRSUnk4N1NfVEo0b2JpcDJGVmlDMERyN0xtQmU2anlaN2lzVmltc3d0b3JCZGlSMWxybjNYa1RfMUs3OVl5MGxNdFAzc2pfVEd5SFl4VHd4eW15THNFVkU?oc=5",
+        "source": "마켓인",
+        "date": "2026-07-31T23:30:05.000Z"
+      },
+      {
+        "title": "원·달러 환율 1440원대 안착...달러 약세·공급 확대 영향",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hWFRINldyLVhBLTFjRV9VMmt4b2FrQjJZUF9NQU90ejMycFVSanVndjFmTDJmaHlnOUJqY25FQnUtbWhlN2hCZC00cVQ2emlvM1FDVWVlc2RSVVhiOEh1Wmc5Z3RPOXBnOGc?oc=5",
+        "source": "월요신문",
+        "date": "2026-07-31T23:15:51.000Z"
+      },
+      {
+        "title": "[외환] 주말 이란 폭격 예고 속 1,430원 중반대로 상승",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9JNGxPUzNPODNUc3NyQmxjcHlfMDFBbDA0UXZZNVlaNVNobjcxOVV5VS1Qc19WRzBwM21QaFlVdE14aU96TUc1blB1THRNMWpjdGpRZTh0WXgwSXFwVFlIMGdSMEFUTi1salhZeUNsU0RaUQ?oc=5",
+        "source": "KB Think",
+        "date": "2026-07-31T22:10:28.000Z"
+      },
+      {
         "title": "숨 고르는 원·달러 환율…추세적 안정 여부는 불투명",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1UdmZvZnZ3Y3A5amVHNVpRczBxNjFCS0JCWHV1NXJnbk01TnBnN2JRX1Rpem1tZzdJU2E3d291NEotdWlMN1BuZHpzN3pkTWdpU1R1QXNwOVI4UFdLa1lxa9IBeEFVX3lxTFBUQmxQUTY0cEpUNmZyTDdxZl9YWmRNSENnRy15eHlfaFc3a3gzY1ZMR1FVWVQ4MWwySmdmX2p5TzNUc3dkNTc0cUg2M0Z2b2pGYzlaeE1lYjdlZlNxNkJxelJuamxEWHlGazdmNnhPN0xhZVJucWtfNA?oc=5",
         "source": "뉴시스",
@@ -161,7 +179,7 @@
       {
         "title": "‘한·일 동시 개입’ 관측에 환율 13.4원 급락…1,424원 마감",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA2dzV4U2ljTmpXYW5WSzEtejFxSHZTWUp6a3RaT1o3TjVHSG1sZTRRSU5BU1NiVkNjOTRqRS02UTFOc3BNdFVQMDVLQVNFbGFfcVpONWgtSC1UQVRCR3dtbGhBMVE?oc=5",
-        "source": "betanews.net",
+        "source": "베타뉴스",
         "date": "2026-07-31T21:36:48.000Z"
       },
       {
@@ -181,24 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5TUTNXMXFYSlRvbnVTRlh4YmNHWW8ycFFzbm1LYkloaG1RMGxFQVdKSWsxZDRzdGR6cDBtdzFmVFlwUUFRYlNEVHdfbk9NYXYw?oc=5",
         "source": "블루밍비트",
         "date": "2026-07-31T10:05:20.000Z"
-      },
-      {
-        "title": "한달만에 141원 '수직 낙하'…고환율 끌어내린 세 가지 요인",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qZDdTYlZVLUxJSU5fclZnOFBhQkFWb0hXcTNad05mTWFlNzZ1X29JdUZTY3Z2N0h3WEQtS0dIXzFId1ZtREdMVk9lTUxJWkZrMktWS3RGLWx2QQ?oc=5",
-        "source": "한국경제",
-        "date": "2026-07-31T10:00:03.000Z"
-      },
-      {
-        "title": "韓·美·日, 외환시장 동시 개입 가능성…원·엔 환율 급락 후 숨고르기",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52UVpKM0lCZWZ3dzNMVW5PNko1VGstcDI0WnJVXy1ybXVvSUZ6Wml4RWJYZjExcTJoaklXWFRZYUF1M20wdnEwMHZvY1R3WWgxMkY5Yk9HeUhIaGJmV3dQX3JpNF9yaFdaNWVrZg?oc=5",
-        "source": "프라임경제",
-        "date": "2026-07-31T09:38:19.000Z"
-      },
-      {
-        "title": "달러-원, 日 당국 개입 추정에 한때 1,426.30원으로 낙폭 확대(상보)",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1FTHRkQnVoZXA2M0M3b20tU1EyUXotWVk3dDFiUFZUMnN5TDExTkdKU3d5VjV1ZDUzay1uY0hWR0o1d09VUGY4b2kyNzNXMDllMXJaZXB1TXc1TUJ4ajc1NXJRQ2ZlRGtQcWVvYXl2MWZPUQ?oc=5",
-        "source": "KB Think",
-        "date": "2026-07-31T09:26:32.000Z"
       }
     ],
     "metal": [
@@ -311,7 +311,7 @@
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
-        "source": "marketin.edaily.co.kr",
+        "source": "마켓인",
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
@@ -323,7 +323,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "굿모닝경제",
+        "source": "goodkyung.com",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
