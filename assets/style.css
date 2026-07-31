@@ -785,6 +785,60 @@ output {
   font-weight: 700;
 }
 
+/* ---------- 가격비교 (네이버 쇼핑) ---------- */
+.grid-shop {
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}
+.shop-head {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding-bottom: var(--space-sm);
+  border-bottom: 1px solid var(--color-border);
+}
+.shop-img {
+  width: 64px;
+  height: 64px;
+  flex: none;
+  object-fit: contain;
+  background: #fff;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+.shop-meta {
+  min-width: 0;
+}
+.shop-meta h3 {
+  margin: 0 0 4px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+.shop-best {
+  margin: 0;
+  font-size: 13px;
+  color: var(--color-muted-fg);
+}
+.shop-best b {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-accent);
+  letter-spacing: -0.02em;
+}
+.shop-src {
+  margin: var(--space-sm) 0 0;
+  font-size: 12px;
+}
+.shop-src a {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--color-muted-fg);
+}
+
 /* ---------- 출처 목록 ---------- */
 .sources {
   margin-top: var(--space-md);

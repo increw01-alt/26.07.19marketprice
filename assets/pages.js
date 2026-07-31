@@ -252,6 +252,54 @@ function renderManualGift(data) {
     .join('');
 }
 
+// ---------- 가격비교 (네이버 쇼핑) ----------
+async function pageShopping() {
+  const data = await fetchJSON('/data/shopping.json');
+  $('#shop-note').textContent =
+    `${data.products.length}개 상품을 ${data.source || '네이버 쇼핑'}에서 판매처별로 비교했습니다. ` +
+    `최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`;
+
+  $('#grid-shopping').innerHTML = data.products
+    .map((p, idx) => {
+      const best = p.offers[0];
+      const rows = p.offers
+        .map(
+          (o) => `<tr>
+            <td>${esc(o.mall)}</td>
+            <td class="num${o === best ? ' is-best' : ''}">${
+              o.link
+                ? `<a href="${esc(o.link)}" target="_blank" rel="noopener noreferrer nofollow">${won(o.price)}</a>`
+                : won(o.price)
+            }</td>
+          </tr>`
+        )
+        .join('');
+      const search = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(p.query)}`;
+      return `<article class="gc shop-card" style="--i:${idx}">
+        <div class="shop-head">
+          ${p.image ? `<img class="shop-img" src="${esc(p.image)}" alt="" loading="lazy" width="64" height="64" referrerpolicy="no-referrer">` : ''}
+          <div class="shop-meta">
+            <h3>${esc(p.name)}</h3>
+            <p class="shop-best">최저가 <b>${won(best.price)}</b> <span class="hint">${esc(best.mall)}</span></p>
+          </div>
+        </div>
+        <details class="gc-all">
+          <summary>판매처별 ${p.offers.length}곳 비교</summary>
+          <div class="table-scroll">
+            <table class="tbl">
+              <thead><tr><th>판매처</th><th class="num">최저가</th></tr></thead>
+              <tbody>${rows}</tbody>
+            </table>
+          </div>
+        </details>
+        <p class="shop-src"><a href="${search}" target="_blank" rel="noopener noreferrer nofollow">네이버 쇼핑에서 더 보기 ${icon('arrow')}</a></p>
+      </article>`;
+    })
+    .join('');
+
+  setStatus(data.updatedAt);
+}
+
 // ---------- 부동산 (지도) ----------
 let realestate = null; // /data/realestate.json (없으면 자리표시 유지)
 
@@ -952,6 +1000,7 @@ const ROUTES = {
   energy: pageEnergy,
   macro: pageMacro,
   giftcard: pageGiftcard,
+  shopping: pageShopping,
   realestate: pageRealestate,
   lotto: pageLotto,
   // 소개 페이지는 실시간 데이터가 없으므로 헤더의 갱신 시각 표시를 숨깁니다.

@@ -50,6 +50,13 @@ jobs:
           OPINET_KEY: ${{ secrets.OPINET_KEY }}
         continue-on-error: true
 
+      - name: 인기상품 최저가 수집 (네이버 쇼핑)
+        run: node scripts/fetch-shopping.mjs
+        env:
+          NAVER_ID: ${{ secrets.NAVER_ID }}
+          NAVER_SECRET: ${{ secrets.NAVER_SECRET }}
+        continue-on-error: true
+
       - name: 관련 뉴스 수집
         run: node scripts/fetch-news.mjs
         continue-on-error: true

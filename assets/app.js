@@ -55,6 +55,7 @@ const MENUS = [
   { id: 'energy', href: 'energy.html', label: '유가·원자재', icon: 'oil' },
   { id: 'macro', href: 'macro.html', label: '지표', icon: 'gauge' },
   { id: 'giftcard', href: 'giftcard.html', label: '상품권시세', icon: 'ticket' },
+  { id: 'shopping', href: 'shopping.html', label: '가격비교', icon: 'cart' },
   { id: 'realestate', href: 'realestate.html', label: '부동산시세', icon: 'home' },
   { id: 'lotto', href: 'lotto.html', label: '로또', icon: 'target' },
 ];
@@ -66,6 +67,7 @@ const SPRITE = `
   <symbol id="i-fx" viewBox="0 0 24 24"><path d="M3 8h14l-3-3"/><path d="M21 16H7l3 3"/></symbol>
   <symbol id="i-coin" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 8h4.5a2.5 2.5 0 0 1 0 5H9m0 0h5a2.5 2.5 0 0 1 0 5H9V8Zm2-3v3m0 10v3"/></symbol>
   <symbol id="i-ticket" viewBox="0 0 24 24"><path d="M3 8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2a2 2 0 0 0 0 4v2a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-2a2 2 0 0 0 0-4Z"/><path d="M14 6v12"/></symbol>
+  <symbol id="i-cart" viewBox="0 0 24 24"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></symbol>
   <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></symbol>
@@ -117,7 +119,7 @@ function renderShell() {
     `<footer class="site-footer wrap">
   <p class="foot-links"><a href="about.html">모두의 시세 소개</a></p>
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
 </footer>`
   );
 
