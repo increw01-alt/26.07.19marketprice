@@ -1,15 +1,135 @@
 {
-  "updatedAt": "2026-07-31T19:38:07+09:00",
+  "updatedAt": "2026-07-31T21:54:22+09:00",
   "deals": [
     {
-      "title": "유라이프지 더블카 오버핏 링거 반팔티 4 Color (24,090원/무료)",
-      "mall": "롯데온",
-      "price": 24090,
+      "title": "머거본 안주 간식종합선물세트 16종(12,900원/무배)",
+      "mall": "네이버",
+      "price": 12900,
       "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723855",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723871",
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-07-31T10:33:39.000Z"
+      "date": "2026-07-31T12:25:40.000Z"
+    },
+    {
+      "title": "영암 노지 햇 무화과 1kg 10-16과 (12,810원 / 무료)",
+      "mall": "카카오",
+      "price": 12810,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723870",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T12:21:16.000Z"
+    },
+    {
+      "title": "폴햄 쿨스킨 에어리즘 냉감티셔츠 나시(6,775원/3장이상무배)",
+      "mall": "옥션",
+      "price": 6775,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723869",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T12:17:18.000Z"
+    },
+    {
+      "title": "광천김 무조미 구운 곱창 전장김 18g 10봉 (11,310원/무료)",
+      "mall": "롯데온",
+      "price": 11310,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723868",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:51:57.000Z"
+    },
+    {
+      "title": "남양 경기미 10kg 상등급 (27,900원/무료)",
+      "mall": "11번가",
+      "price": 27900,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723867",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:43:02.000Z"
+    },
+    {
+      "title": "디스커버리 여행용 데일리 미니 슬링백 (34,920원/무배)",
+      "mall": "지마켓",
+      "price": 34920,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723866",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:33:01.000Z"
+    },
+    {
+      "title": "베어파우 CONA 여성 여름 경량 스트랩샌들 4종택1 0211RB-W (42,300원/무료배송)",
+      "mall": "롯데홈쇼핑",
+      "price": 42300,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723864",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:25:42.000Z"
+    },
+    {
+      "title": "비파괴 당도선별 씨적은 수박 5kg (13,640원/무료)",
+      "mall": "롯데온",
+      "price": 13640,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723863",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:22:18.000Z"
+    },
+    {
+      "title": "테라바디 테라건 보상판매 40% (다양/무료)",
+      "mall": "자사몰",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723862",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:12:25.000Z"
+    },
+    {
+      "title": "국내산 1등급 무항생제 오리로스 500g 1팩 (8,600원/무료)",
+      "mall": "톡딜",
+      "price": 8600,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723861",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T11:08:44.000Z"
+    },
+    {
+      "title": "닭다리살 닭꼬치10개+파닭꼬치10개 (17,900원/무배)",
+      "mall": "롯데온",
+      "price": 17900,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723860",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T10:59:56.000Z"
+    },
+    {
+      "title": "우포스 플리플랍 쪼리 오리지널/우메가/슬라이드 (55,870원~/무료)",
+      "mall": "롯데온",
+      "price": 55870,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723859",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T10:55:17.000Z"
+    },
+    {
+      "title": "까사미아 캄포플러스 슬림 4인 카우치소파 (2,790,000원/무료)",
+      "mall": "CJ온스타일",
+      "price": 2790000,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723857",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-07-31T10:37:18.000Z"
     },
     {
       "title": "하이트진로 블랙보리 무라벨, 520ml, 20개 (티멤 13,800원/무료)",
@@ -30,126 +150,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-07-31T10:14:01.000Z"
-    },
-    {
-      "title": "생선숙편 꼬치어묵 8개입x4팩+소스 4봉 (8,900원/무배)",
-      "mall": "11번가",
-      "price": 8900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723852",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T10:10:18.000Z"
-    },
-    {
-      "title": "도담자두 1kg (9,900원 / 무배)",
-      "mall": "톡딜",
-      "price": 9900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723851",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T10:08:02.000Z"
-    },
-    {
-      "title": "삼성 갤럭시 Z폴드8 512GB SM-F971N (2,278,100원/무료)",
-      "mall": "네이버",
-      "price": 2278100,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723850",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T10:07:30.000Z"
-    },
-    {
-      "title": "하우스수박 4~5kg내외 1통 (8,190원/무배)",
-      "mall": "G마켓",
-      "price": 8190,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723849",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T10:04:18.000Z"
-    },
-    {
-      "title": "2color 발마사지 지압 매트 스텝퍼 마사지볼 (8800원/무배)",
-      "mall": "톡딜",
-      "price": 8800,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723848",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T10:00:17.000Z"
-    },
-    {
-      "title": "여우티 호박팥차 오르조 티백 + 캔6개 증정 (8,480원/무배)",
-      "mall": "카카오",
-      "price": 8480,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723847",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:59:01.000Z"
-    },
-    {
-      "title": "해신수산 완도활전복 특대 10-11미 1kg (15,710원/무료)",
-      "mall": "롯데온",
-      "price": 15710,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723846",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:48:15.000Z"
-    },
-    {
-      "title": "코주부 육포 오리지널 300g 2개 총 600g (39,840원/무료)",
-      "mall": "G마켓",
-      "price": 39840,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723845",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:47:25.000Z"
-    },
-    {
-      "title": "펩시 제로라임 210mlx30캔 + 355ml 24캔 (22,710원/무료)",
-      "mall": "지마켓",
-      "price": 22710,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723844",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:43:56.000Z"
-    },
-    {
-      "title": "하남쭈꾸미볶음 350g 6팩 (50,920원/무료)",
-      "mall": "롯데온",
-      "price": 50920,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723843",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:19:35.000Z"
-    },
-    {
-      "title": "청정미인 히아루론 아쿠아 앰플토너 2개 외 (9,500원~/무료)",
-      "mall": "11번가",
-      "price": 9500,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723842",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:11:27.000Z"
-    },
-    {
-      "title": "나이키골프 드라이 핏 클럽 스트럭처 스우시 캡 모자 (18,060원/무배)",
-      "mall": "롯데백화점",
-      "price": 18060,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=723841",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-07-31T09:04:59.000Z"
     },
     {
       "title": "8월 현장결제 맥도날드 20% 페이백 외 (8/1~31)",
