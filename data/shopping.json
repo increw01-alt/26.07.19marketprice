@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T14:41:40+09:00",
+  "updatedAt": "2026-07-31T16:19:06+09:00",
   "source": "네이버 쇼핑",
   "products": [
     {
@@ -126,7 +126,7 @@
       "id": "hetbahn",
       "name": "햇반 백미 210g 24개",
       "query": "햇반 백미 210g 24개입",
-      "image": "https://shopping-phinf.pstatic.net/main_5837584/58375845696.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_5837616/58376167192.jpg",
       "category": "식품",
       "lprice": 16280,
       "offers": [
@@ -221,6 +221,11 @@
           "link": "https://smartstore.naver.com/main/products/13641850532"
         },
         {
+          "mall": "닥터박의 선택",
+          "price": 10900,
+          "link": "https://smartstore.naver.com/main/products/7835414948"
+        },
+        {
           "mall": "oneline20",
           "price": 11500,
           "link": "https://smartstore.naver.com/main/products/6062831320"
@@ -234,11 +239,6 @@
           "mall": "또르기",
           "price": 12500,
           "link": "https://smartstore.naver.com/main/products/11485222298"
-        },
-        {
-          "mall": "온하루커머스",
-          "price": 13000,
-          "link": "https://smartstore.naver.com/main/products/13685986111"
         }
       ]
     },
