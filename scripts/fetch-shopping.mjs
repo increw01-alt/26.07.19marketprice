@@ -67,6 +67,10 @@ async function collect(q) {
   for (const it of items) {
     const price = Number(it.lprice);
     if (!inRange(price)) continue; // 하한·상한 밖(노이즈) 제거
+    // 네이버 가격비교 "카탈로그"는 여러 옵션(수량·용량)을 묶은 대표 항목이라
+    // lprice 가 최저 옵션 시작가를 가리켜, 클릭하면 화면 가격과 어긋납니다.
+    // 실제 판매처만 비교하도록 카탈로그 항목은 제외합니다.
+    if (/\/catalog\//.test(it.link) || strip(it.mallName) === '네이버') continue;
     const mall = strip(it.mallName) || '기타';
     const prev = byMall.get(mall);
     if (!prev || price < prev.price) byMall.set(mall, { mall, price, link: it.link });
