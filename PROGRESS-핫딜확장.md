@@ -5,9 +5,24 @@
 
 ---
 
-## 0. 구현 현황 (2026-07-31) ✅ 1차 배포 완료
+## 0. 구현 현황 (2026-07-31)
 
-**`/shopping` 가격비교 페이지가 라이브에 배포됨** — https://modoosise.com/shopping
+### ✅ 핫딜 피드 `/hotdeal` 배포 완료 — https://modoosise.com/hotdeal
+- `scripts/fetch-hotdeals.mjs` — **뽐뿌·루리웹 공식 RSS**에서 딜 파싱. 키 불필요.
+  제목에서 판매처(`[대괄호]`)·가격(`(…원)`) 추출. 링크 기준 중복 제거, 최신 40건.
+  → `data/hotdeals.json`. 매시간 워크플로 실행. 로컬에서도 그냥 `node`로 실행 가능.
+- `hotdeal.html` + `pageHotdeal`(pages.js) + "핫딜" 메뉴(flame 아이콘) + `.deal-*` 스타일.
+- **RSS = 사이트가 신디케이션용으로 공식 제공** → HTML 크롤링보다 저작권/ToS 위험 낮음.
+  제목·링크만 사용(본문 미전재), 화면에 출처·원문 링크 명시. (결정 C의 안전판 준수)
+- 소스 추가는 `SOURCES` 배열에 `{id,name,url}` 추가(RSS 2.0 표준이면 파서 재사용).
+
+### ⏭️ 다음: 2단계 — 핫딜에 가격비교 연계 (아직 안 함)
+사용자 요청 순서 = "핫딜 먼저(완료) → 그 위에 가격비교". 구상:
+- 핫딜 각 딜의 상품명 → 네이버 쇼핑 API로 조회해 "핫딜가 vs 현재 최저가" 대비 표시.
+- 주의: RSS 상품명이 지저분해(용량·수량·판매처 섞임) 그대로 검색하면 매칭률 낮음.
+  → 핵심 키워드 추출 or 딜별 수동 매핑 필요. API 호출량(딜 40건×시간당) 관리도.
+
+### ✅ `/shopping` 가격비교 페이지 배포 완료 — https://modoosise.com/shopping
 
 - `scripts/fetch-shopping.mjs` — 네이버 쇼핑 검색 API로 상품별 판매처 최저가 수집.
   매시간 워크플로에서 실행(`data/shopping.json`).
