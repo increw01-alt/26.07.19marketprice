@@ -1,44 +1,44 @@
 {
-  "updatedAt": "2026-07-31T14:20:39+09:00",
+  "updatedAt": "2026-07-31T14:24:22+09:00",
   "source": "네이버 쇼핑",
   "products": [
     {
       "id": "coke-zero",
       "name": "코카콜라 제로 355ml 24캔",
       "query": "코카콜라 제로 355ml 24캔",
-      "image": "https://shopping-phinf.pstatic.net/main_9092147/90921479159.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_5390313/53903136507.20260421120342.jpg",
       "category": "식품",
-      "lprice": 350,
+      "lprice": 12400,
       "offers": [
         {
-          "mall": "마트케어",
-          "price": 350,
-          "link": "https://smartstore.naver.com/main/products/13376968823"
+          "mall": "네이버",
+          "price": 12400,
+          "link": "https://search.shopping.naver.com/catalog/53903136507"
         },
         {
-          "mall": "블레스트리",
-          "price": 510,
-          "link": "https://smartstore.naver.com/main/products/10803953358"
+          "mall": "루즈랜드",
+          "price": 15900,
+          "link": "https://smartstore.naver.com/main/products/8802953654"
         },
         {
-          "mall": "진쓰몰",
-          "price": 560,
-          "link": "https://smartstore.naver.com/main/products/8935633129"
+          "mall": "365일 마트",
+          "price": 16600,
+          "link": "https://smartstore.naver.com/main/products/7617309334"
         },
         {
-          "mall": "파클라스마켓",
-          "price": 590,
-          "link": "https://smartstore.naver.com/main/products/8946025156"
+          "mall": "부산종합유통",
+          "price": 16800,
+          "link": "https://smartstore.naver.com/main/products/10346808819"
         },
         {
-          "mall": "11번가",
-          "price": 600,
-          "link": "https://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&prdNo=9308621567&tid=1000000061"
+          "mall": "삼부자닷컴",
+          "price": 17100,
+          "link": "https://smartstore.naver.com/main/products/4815741075"
         },
         {
-          "mall": "시원 유통",
-          "price": 600,
-          "link": "https://smartstore.naver.com/main/products/10263224326"
+          "mall": "마켓여왕",
+          "price": 17220,
+          "link": "https://smartstore.naver.com/main/products/10161791280"
         }
       ]
     },
@@ -46,39 +46,39 @@
       "id": "samdasoo",
       "name": "제주 삼다수 2L 12병",
       "query": "제주 삼다수 2L 12병",
-      "image": "https://shopping-phinf.pstatic.net/main_8683923/86839239090.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_4560223/45602233466.3.jpg",
       "category": "식품",
-      "lprice": 580,
+      "lprice": 9300,
       "offers": [
         {
-          "mall": "코스트코알라",
-          "price": 580,
-          "link": "https://smartstore.naver.com/main/products/9294738767"
+          "mall": "핫딜팩토리",
+          "price": 9300,
+          "link": "https://smartstore.naver.com/main/products/8884079606"
         },
         {
-          "mall": "세컨더리마켓",
-          "price": 990,
-          "link": "https://smartstore.naver.com/main/products/4526951631"
+          "mall": "미루나무1",
+          "price": 9900,
+          "link": "https://smartstore.naver.com/main/products/11952299301"
         },
         {
-          "mall": "네이버",
-          "price": 1150,
-          "link": "https://search.shopping.naver.com/catalog/59177671521"
+          "mall": "11번가",
+          "price": 10260,
+          "link": "https://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&prdNo=8097664130&tid=1000000061"
         },
         {
-          "mall": "GS더프레시",
-          "price": 1190,
-          "link": "https://shopping.naver.com/outlink/itemdetail/13163138279"
+          "mall": "알집상회",
+          "price": 10900,
+          "link": "https://smartstore.naver.com/main/products/10893830783"
         },
         {
-          "mall": "G마켓",
-          "price": 1260,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=3596146276&sub-id=1003&service-code=10000003&lcd=100000094"
+          "mall": "광동제약 공식대리점",
+          "price": 11400,
+          "link": "https://smartstore.naver.com/main/products/9506636959"
         },
         {
-          "mall": "기프티쇼비즈",
-          "price": 1490,
-          "link": "https://biz.giftishow.com/ggoods/detail?goodsNo=38439&utm_source=naver_shopping&utm_medium=pc&utm_campaign=gs25&utm_content=coupon&utm_term={query}"
+          "mall": "옥션",
+          "price": 11740,
+          "link": "https://link.auction.co.kr/gate/pcs?item-no=E736041433&sub-id=1&service-code=10000003"
         }
       ]
     },
@@ -86,39 +86,39 @@
       "id": "shin-ramyun",
       "name": "농심 신라면 20개입",
       "query": "농심 신라면 20개입",
-      "image": "https://shopping-phinf.pstatic.net/main_8206745/82067455751.17.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_4730963/47309633245.9.jpg",
       "category": "식품",
-      "lprice": 1000,
+      "lprice": 13400,
       "offers": [
         {
-          "mall": "에코그린",
-          "price": 1000,
-          "link": "https://smartstore.naver.com/main/products/4522932480"
-        },
-        {
-          "mall": "롯데마트제타",
-          "price": 1010,
-          "link": "https://lottemartzetta.com/products/OS8801043015714/details?ch_no=100076&ch_dtl_no=1001307&utm_id=100076_1001307&utm_content=OS8801043015714"
-        },
-        {
-          "mall": "로깅",
-          "price": 1250,
-          "link": "https://smartstore.naver.com/main/products/12674000727"
-        },
-        {
-          "mall": "문구네집",
-          "price": 1400,
-          "link": "https://smartstore.naver.com/main/products/11721690589"
-        },
-        {
-          "mall": "G마켓",
-          "price": 1490,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=3392722575&sub-id=1003&service-code=10000003&lcd=100000036"
+          "mall": "미루나무1",
+          "price": 13400,
+          "link": "https://smartstore.naver.com/main/products/13030177549"
         },
         {
           "mall": "옥션",
-          "price": 1490,
-          "link": "https://link.auction.co.kr/gate/pcs?item-no=D799430639&sub-id=1&service-code=10000003"
+          "price": 15220,
+          "link": "https://link.auction.co.kr/gate/pcs?item-no=D943352672&sub-id=1&service-code=10000003"
+        },
+        {
+          "mall": "G마켓",
+          "price": 17010,
+          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=4660382246&sub-id=1003&service-code=10000003&lcd=100000036"
+        },
+        {
+          "mall": "푸드라떼",
+          "price": 17200,
+          "link": "https://smartstore.naver.com/main/products/12980840720"
+        },
+        {
+          "mall": "D마켓",
+          "price": 17200,
+          "link": "https://smartstore.naver.com/main/products/12980840754"
+        },
+        {
+          "mall": "코코드림샵",
+          "price": 17800,
+          "link": "https://smartstore.naver.com/main/products/12607539275"
         }
       ]
     },
@@ -126,119 +126,119 @@
       "id": "hetbahn",
       "name": "햇반 백미 210g 24개",
       "query": "햇반 백미 210g 24개입",
-      "image": "https://shopping-phinf.pstatic.net/main_5922157/59221576330.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_5837584/58375845696.jpg",
       "category": "식품",
-      "lprice": 6240,
+      "lprice": 16280,
       "offers": [
         {
-          "mall": "11번가",
-          "price": 6240,
-          "link": "https://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&prdNo=8892321390&tid=1000000061"
+          "mall": "키친1989",
+          "price": 16280,
+          "link": "https://smartstore.naver.com/main/products/13504631451"
         },
         {
-          "mall": "문구네집",
-          "price": 6600,
-          "link": "https://moongooshouse.com/product/detail.html?product_no=15578&cate_no=160&display_group=1&utm_source=naver&utm_medium=shopping&utm_campaign=knowledge_shopping&mkt_in=Y&ghost_mall_id=naver&ref=naver_open"
+          "mall": "티에스shop",
+          "price": 19700,
+          "link": "https://smartstore.naver.com/main/products/8650621314"
         },
         {
-          "mall": "롯데ON",
-          "price": 7160,
-          "link": "https://www.lotteon.com/p/product/LO2662312517?sitmNo=LO2662312517_2662312518&ch_no=100065&ch_dtl_no=1000030&entryPoint=pcs&dp_infw_cd=CHT"
+          "mall": "프레시코스트코",
+          "price": 20190,
+          "link": "https://smartstore.naver.com/main/products/10648635953"
         },
         {
-          "mall": "서울서남부농협하나로마트",
-          "price": 8980,
-          "link": "https://smartstore.naver.com/main/products/12037197522"
+          "mall": "네이버",
+          "price": 22000,
+          "link": "https://search.shopping.naver.com/catalog/55379805801"
         },
         {
-          "mall": "G마켓",
-          "price": 9800,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=4471452190&sub-id=1003&service-code=10000003&lcd=100000036"
+          "mall": "뉴욕편의점",
+          "price": 22490,
+          "link": "https://smartstore.naver.com/main/products/4997177086"
         },
         {
-          "mall": "이마트몰",
-          "price": 10001,
-          "link": "http://emart.ssg.com/item/itemView.ssg?itemId=1000850218356&siteNo=6001&ckwhere=naver&appPopYn=n&utm_medium=PCS&utm_source=naver&utm_campaign=naver_pcs"
+          "mall": "설화 푸드리에",
+          "price": 23320,
+          "link": "https://smartstore.naver.com/main/products/10436549941"
         }
       ]
     },
     {
       "id": "spam",
-      "name": "스팸 클래식 200g 세트",
+      "name": "스팸 클래식 200g 선물세트",
       "query": "스팸 클래식 200g 선물세트",
-      "image": "https://shopping-phinf.pstatic.net/main_8746453/87464531385.jpg",
-      "category": "생활/건강",
-      "lprice": 460,
+      "image": "https://shopping-phinf.pstatic.net/main_8822952/88229524101.1.jpg",
+      "category": "식품",
+      "lprice": 16200,
       "offers": [
         {
-          "mall": "생필품반점",
-          "price": 460,
-          "link": "https://smartstore.naver.com/main/products/9920029112"
+          "mall": "봄날애푸드",
+          "price": 16200,
+          "link": "https://smartstore.naver.com/main/products/11524036070"
         },
         {
-          "mall": "아이디얼 옷장",
-          "price": 540,
-          "link": "https://smartstore.naver.com/main/products/10732358920"
+          "mall": "G마켓",
+          "price": 21780,
+          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=4701851845&sub-id=1003&service-code=10000003&lcd=100000036"
         },
         {
           "mall": "쿠팡",
-          "price": 540,
-          "link": "https://link.coupang.com/re/PCSNAVERPCSDP?pageKey=4772403010&ctag=4772403010&lptag=I6093261210&itemId=6093261210&vendorItemId=93683535017&spec=10305199"
+          "price": 24720,
+          "link": "https://link.coupang.com/re/PCSNAVERPCSDP?pageKey=8244032757&ctag=8244032757&lptag=I15395230860&itemId=15395230860&vendorItemId=85762458930&spec=10305197"
         },
         {
-          "mall": "옐로우쇼핑몰",
-          "price": 560,
-          "link": "https://smartstore.naver.com/main/products/10814654144"
+          "mall": "티쓰리고",
+          "price": 24900,
+          "link": "https://smartstore.naver.com/main/products/12974482523"
         },
         {
-          "mall": "조니직구",
-          "price": 590,
-          "link": "https://smartstore.naver.com/main/products/11411669034"
+          "mall": "티에스shop",
+          "price": 28200,
+          "link": "https://smartstore.naver.com/main/products/11033743927"
         },
         {
-          "mall": "순자네마켓",
-          "price": 600,
-          "link": "https://smartstore.naver.com/main/products/9897556710"
+          "mall": "해봐몰",
+          "price": 30900,
+          "link": "https://smartstore.naver.com/main/products/12992665788"
         }
       ]
     },
     {
       "id": "pocachip",
-      "name": "오리온 포카칩 오리지널",
-      "query": "오리온 포카칩 오리지널 66g",
-      "image": "https://shopping-phinf.pstatic.net/main_8953273/89532734837.jpg",
+      "name": "오리온 포카칩 오리지널 66g 12개",
+      "query": "오리온 포카칩 오리지널 66g 12개",
+      "image": "https://shopping-phinf.pstatic.net/main_5322931/53229315374.20250226143318.jpg",
       "category": "식품",
-      "lprice": 350,
+      "lprice": 9300,
       "offers": [
         {
-          "mall": "간식의선택",
-          "price": 350,
-          "link": "https://smartstore.naver.com/main/products/11988224149"
+          "mall": "쿠팡",
+          "price": 9300,
+          "link": "https://link.coupang.com/re/PCSNAVERPCSDP?pageKey=13288253&ctag=13288253&lptag=I262597955&itemId=262597955&vendorItemId=90541897844&spec=10305199"
         },
         {
-          "mall": "포스트에스",
-          "price": 990,
-          "link": "https://smartstore.naver.com/main/products/10208155811"
+          "mall": "케이몬드",
+          "price": 9900,
+          "link": "https://smartstore.naver.com/main/products/13641850532"
         },
         {
-          "mall": "네이버",
-          "price": 1080,
-          "link": "https://search.shopping.naver.com/catalog/53229315367"
+          "mall": "oneline20",
+          "price": 11500,
+          "link": "https://smartstore.naver.com/main/products/6062831320"
         },
         {
-          "mall": "G마켓",
-          "price": 1080,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=2255766046&sub-id=1003&service-code=10000003&lcd=100000036"
+          "mall": "찬지림몰",
+          "price": 11900,
+          "link": "https://smartstore.naver.com/main/products/12568245343"
         },
         {
-          "mall": "수리상점",
-          "price": 1110,
-          "link": "https://smartstore.naver.com/main/products/5932209326"
+          "mall": "또르기",
+          "price": 12500,
+          "link": "https://smartstore.naver.com/main/products/11485222298"
         },
         {
-          "mall": "나이스숍",
-          "price": 1110,
-          "link": "https://smartstore.naver.com/main/products/5938227816"
+          "mall": "온하루커머스",
+          "price": 13000,
+          "link": "https://smartstore.naver.com/main/products/13685986111"
         }
       ]
     },
@@ -246,30 +246,10 @@
       "id": "seoul-milk",
       "name": "서울우유 1L",
       "query": "서울우유 1L",
-      "image": "https://shopping-phinf.pstatic.net/main_5192926/51929266999.20241213210617.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_5192926/51929267002.20241213210617.jpg",
       "category": "식품",
-      "lprice": 1540,
+      "lprice": 1800,
       "offers": [
-        {
-          "mall": "네이버",
-          "price": 1540,
-          "link": "https://search.shopping.naver.com/catalog/51929266999"
-        },
-        {
-          "mall": "메가커피",
-          "price": 1540,
-          "link": "https://megacoffee.co.kr/goods/goods_view.php?goodsNo=1000024182&inflow=naver"
-        },
-        {
-          "mall": "마트케어",
-          "price": 1550,
-          "link": "https://smartstore.naver.com/main/products/13377740139"
-        },
-        {
-          "mall": "11번가",
-          "price": 1700,
-          "link": "https://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&prdNo=7976416377&tid=1000000061"
-        },
         {
           "mall": "THXMALL",
           "price": 1800,
@@ -279,6 +259,26 @@
           "mall": "양키언니",
           "price": 2130,
           "link": "https://smartstore.naver.com/main/products/6199999067"
+        },
+        {
+          "mall": "네이버",
+          "price": 2240,
+          "link": "https://search.shopping.naver.com/catalog/51929536605"
+        },
+        {
+          "mall": "우유청년",
+          "price": 2250,
+          "link": "https://smartstore.naver.com/main/products/7214307248"
+        },
+        {
+          "mall": "우유드림",
+          "price": 2250,
+          "link": "https://smartstore.naver.com/main/products/5506105745"
+        },
+        {
+          "mall": "가든스토어",
+          "price": 2380,
+          "link": "https://smartstore.naver.com/main/products/3507204089"
         }
       ]
     },
@@ -286,7 +286,7 @@
       "id": "bibigo-mandu",
       "name": "비비고 왕교자 1.05kg",
       "query": "비비고 왕교자 1.05kg",
-      "image": "https://shopping-phinf.pstatic.net/main_5305671/53056712714.20250217123159.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_5362556/53625567425.20250318124630.jpg",
       "category": "식품",
       "lprice": 8190,
       "offers": [
@@ -296,69 +296,69 @@
           "link": "https://search.shopping.naver.com/catalog/53056712714"
         },
         {
-          "mall": "옥션",
-          "price": 8190,
-          "link": "https://link.auction.co.kr/gate/pcs?item-no=F230166384&sub-id=1&service-code=10000003"
-        },
-        {
-          "mall": "G마켓",
-          "price": 8190,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=1766092115&sub-id=1003&service-code=10000003&lcd=100000036"
-        },
-        {
-          "mall": "동키24",
-          "price": 8790,
-          "link": "https://smartstore.naver.com/main/products/13327189978"
-        },
-        {
           "mall": "푸드다팜",
           "price": 8900,
           "link": "https://smartstore.naver.com/main/products/3732531983"
         },
         {
-          "mall": "푸드마니아",
-          "price": 8900,
-          "link": "https://smartstore.naver.com/main/products/13327050569"
+          "mall": "다만세푸드",
+          "price": 9400,
+          "link": "https://smartstore.naver.com/main/products/12053986072"
+        },
+        {
+          "mall": "컬리N마트",
+          "price": 9490,
+          "link": "https://smartstore.naver.com/main/products/12274490519"
+        },
+        {
+          "mall": "CJ더마켓",
+          "price": 10431,
+          "link": "https://www.cjthemarket.com/the/product/product-main?prdCd=40207361&code=Na1&utm_source=naver&utm_medium=ep_feed"
+        },
+        {
+          "mall": "쿠팡",
+          "price": 11860,
+          "link": "https://link.coupang.com/re/PCSNAVERPCSDP?pageKey=7908521180&ctag=7908521180&lptag=I5643046782&itemId=5643046782&vendorItemId=70616276062&spec=10305199"
         }
       ]
     },
     {
       "id": "downy",
-      "name": "다우니 섬유유연제",
+      "name": "다우니 섬유유연제 본품",
       "query": "다우니 섬유유연제 본품",
-      "image": "https://shopping-phinf.pstatic.net/main_8343579/83435792938.1.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_8274860/82748600072.12.jpg",
       "category": "생활/건강",
-      "lprice": 1000,
+      "lprice": 4770,
       "offers": [
         {
-          "mall": "대관령스마일팜",
-          "price": 1000,
-          "link": "https://smartstore.naver.com/main/products/5891293524"
-        },
-        {
-          "mall": "보조개자매",
-          "price": 1360,
-          "link": "https://smartstore.naver.com/main/products/13285159473"
-        },
-        {
-          "mall": "캔디스킨",
-          "price": 1750,
-          "link": "https://smartstore.naver.com/main/products/11163422897"
-        },
-        {
           "mall": "네이버",
-          "price": 4110,
-          "link": "https://search.shopping.naver.com/catalog/6205110388"
+          "price": 4770,
+          "link": "https://search.shopping.naver.com/catalog/54274625566"
         },
         {
-          "mall": "G마켓",
-          "price": 4110,
-          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=4476803142&sub-id=1003&service-code=10000003&lcd=100000074"
+          "mall": "아름다운쇼핑몰",
+          "price": 5900,
+          "link": "https://smartstore.naver.com/main/products/3982630270"
         },
         {
-          "mall": "옥션",
-          "price": 4110,
-          "link": "https://link.auction.co.kr/gate/pcs?item-no=F280360058&sub-id=1&service-code=10000003"
+          "mall": "티에스shop",
+          "price": 5990,
+          "link": "https://smartstore.naver.com/main/products/8125680150"
+        },
+        {
+          "mall": "다우니페브리즈공식몰",
+          "price": 8600,
+          "link": "https://smartstore.naver.com/main/products/4761652922"
+        },
+        {
+          "mall": "좋은하루365일",
+          "price": 13400,
+          "link": "https://smartstore.naver.com/main/products/252710904"
+        },
+        {
+          "mall": "지엑스몰",
+          "price": 15790,
+          "link": "https://smartstore.naver.com/main/products/5816434496"
         }
       ]
     },
@@ -366,39 +366,39 @@
       "id": "kleenex",
       "name": "크리넥스 3겹 화장지 30롤",
       "query": "크리넥스 데코소프트 3겹 30롤",
-      "image": "https://shopping-phinf.pstatic.net/main_9050244/90502448882.jpg",
+      "image": "https://shopping-phinf.pstatic.net/main_8516938/85169383126.17.jpg",
       "category": "생활/건강",
-      "lprice": 700,
+      "lprice": 15720,
       "offers": [
         {
-          "mall": "연주마트",
-          "price": 700,
-          "link": "https://smartstore.naver.com/main/products/12957937872"
+          "mall": "옥션",
+          "price": 15720,
+          "link": "https://link.auction.co.kr/gate/pcs?item-no=F609565923&sub-id=1&service-code=10000003"
         },
         {
-          "mall": "네이버",
-          "price": 11230,
-          "link": "https://search.shopping.naver.com/catalog/52481564198"
+          "mall": "동그라미티슈",
+          "price": 15800,
+          "link": "https://smartstore.naver.com/main/products/5203951558"
         },
         {
-          "mall": "KT알파쇼핑",
-          "price": 11230,
-          "link": "http://www.kshop.co.kr/display/ec/product/5589034?with_code=100025&utm_source=naver_ep&utm_medium=cps&utm_campaign=prd_61_%EC%A3%BC%EB%B0%A9%2F%EC%83%9D%ED%99%9C%2F%EC%95%A0%EA%B2%AC_5589034&utm_content=pc"
+          "mall": "주식회사 티슈랜드",
+          "price": 15800,
+          "link": "https://smartstore.naver.com/main/products/13657421918"
         },
         {
-          "mall": "롯데홈쇼핑",
-          "price": 11620,
-          "link": "https://www.lotteimall.com/coop/affilGate.lotte?chl_no=141370&chl_dtl_no=2540914&returnUrl=/goods/viewGoodsDetail.lotte?goods_no=2829353731&utm_source=naver&utm_medium=affiliate&utm_campaign=price_compare"
+          "mall": "G마켓",
+          "price": 15890,
+          "link": "https://link.gmarket.co.kr/gate/pcs?item-no=4801964968&sub-id=1003&service-code=10000003&lcd=100000074"
         },
         {
-          "mall": "11번가",
-          "price": 11650,
-          "link": "https://www.11st.co.kr/connect/Gateway.tmall?method=Xsite&prdNo=8413765364&tid=1000000061"
+          "mall": "태라상사",
+          "price": 15900,
+          "link": "https://smartstore.naver.com/main/products/4842939079"
         },
         {
-          "mall": "롯데ON",
-          "price": 11770,
-          "link": "https://www.lotteon.com/p/product/LO2540540989?sitmNo=LO2540540989_2540540990&ch_no=100065&ch_dtl_no=1000030&entryPoint=pcs&dp_infw_cd=CHT"
+          "mall": "순수시대",
+          "price": 15900,
+          "link": "https://smartstore.naver.com/main/products/12345766817"
         }
       ]
     }
