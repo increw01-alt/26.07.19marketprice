@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-31T14:24:22+09:00",
+  "updatedAt": "2026-07-31T14:41:40+09:00",
   "source": "네이버 쇼핑",
   "products": [
     {
@@ -8,13 +8,8 @@
       "query": "코카콜라 제로 355ml 24캔",
       "image": "https://shopping-phinf.pstatic.net/main_5390313/53903136507.20260421120342.jpg",
       "category": "식품",
-      "lprice": 12400,
+      "lprice": 15900,
       "offers": [
-        {
-          "mall": "네이버",
-          "price": 12400,
-          "link": "https://search.shopping.naver.com/catalog/53903136507"
-        },
         {
           "mall": "루즈랜드",
           "price": 15900,
@@ -39,6 +34,11 @@
           "mall": "마켓여왕",
           "price": 17220,
           "link": "https://smartstore.naver.com/main/products/10161791280"
+        },
+        {
+          "mall": "OLIVE몰",
+          "price": 17900,
+          "link": "https://smartstore.naver.com/main/products/9638588422"
         }
       ]
     },
@@ -146,11 +146,6 @@
           "link": "https://smartstore.naver.com/main/products/10648635953"
         },
         {
-          "mall": "네이버",
-          "price": 22000,
-          "link": "https://search.shopping.naver.com/catalog/55379805801"
-        },
-        {
           "mall": "뉴욕편의점",
           "price": 22490,
           "link": "https://smartstore.naver.com/main/products/4997177086"
@@ -159,6 +154,11 @@
           "mall": "설화 푸드리에",
           "price": 23320,
           "link": "https://smartstore.naver.com/main/products/10436549941"
+        },
+        {
+          "mall": "피지컬몬스터",
+          "price": 24400,
+          "link": "https://smartstore.naver.com/main/products/13673819100"
         }
       ]
     },
@@ -261,11 +261,6 @@
           "link": "https://smartstore.naver.com/main/products/6199999067"
         },
         {
-          "mall": "네이버",
-          "price": 2240,
-          "link": "https://search.shopping.naver.com/catalog/51929536605"
-        },
-        {
           "mall": "우유청년",
           "price": 2250,
           "link": "https://smartstore.naver.com/main/products/7214307248"
@@ -279,6 +274,11 @@
           "mall": "가든스토어",
           "price": 2380,
           "link": "https://smartstore.naver.com/main/products/3507204089"
+        },
+        {
+          "mall": "옥션",
+          "price": 2700,
+          "link": "https://link.auction.co.kr/gate/pcs?item-no=F327715125&sub-id=1&service-code=10000003"
         }
       ]
     },
@@ -288,13 +288,8 @@
       "query": "비비고 왕교자 1.05kg",
       "image": "https://shopping-phinf.pstatic.net/main_5362556/53625567425.20250318124630.jpg",
       "category": "식품",
-      "lprice": 8190,
+      "lprice": 8900,
       "offers": [
-        {
-          "mall": "네이버",
-          "price": 8190,
-          "link": "https://search.shopping.naver.com/catalog/53056712714"
-        },
         {
           "mall": "푸드다팜",
           "price": 8900,
@@ -319,6 +314,11 @@
           "mall": "쿠팡",
           "price": 11860,
           "link": "https://link.coupang.com/re/PCSNAVERPCSDP?pageKey=7908521180&ctag=7908521180&lptag=I5643046782&itemId=5643046782&vendorItemId=70616276062&spec=10305199"
+        },
+        {
+          "mall": "오셈푸드",
+          "price": 21000,
+          "link": "https://smartstore.naver.com/main/products/4851722414"
         }
       ]
     },
@@ -328,13 +328,8 @@
       "query": "다우니 섬유유연제 본품",
       "image": "https://shopping-phinf.pstatic.net/main_8274860/82748600072.12.jpg",
       "category": "생활/건강",
-      "lprice": 4770,
+      "lprice": 5900,
       "offers": [
-        {
-          "mall": "네이버",
-          "price": 4770,
-          "link": "https://search.shopping.naver.com/catalog/54274625566"
-        },
         {
           "mall": "아름다운쇼핑몰",
           "price": 5900,
@@ -359,6 +354,11 @@
           "mall": "지엑스몰",
           "price": 15790,
           "link": "https://smartstore.naver.com/main/products/5816434496"
+        },
+        {
+          "mall": "베베스토아",
+          "price": 15790,
+          "link": "https://smartstore.naver.com/main/products/5941282979"
         }
       ]
     },
