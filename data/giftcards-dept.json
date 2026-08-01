@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T11:49:16+09:00",
+  "updatedAt": "2026-08-01T14:51:20+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -84,8 +84,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96520,
-      "buyRate": 3.48,
+      "buy": 96550,
+      "buyRate": 3.45,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -96,8 +96,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96320,
-      "buyRate": 3.68,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -168,8 +168,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482250,
-      "buyRate": 3.55,
+      "buy": 482500,
+      "buyRate": 3.5,
       "sell": 483500,
       "sellRate": 3.3
     },
@@ -180,8 +180,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96450,
-      "buyRate": 3.55,
+      "buy": 96500,
+      "buyRate": 3.5,
       "sell": 96700,
       "sellRate": 3.3
     },
@@ -192,8 +192,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48225,
-      "buyRate": 3.55,
+      "buy": 48250,
+      "buyRate": 3.5,
       "sell": 48350,
       "sellRate": 3.3
     },
@@ -204,8 +204,8 @@
       "label": "현대 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482250,
-      "buyRate": 3.55,
+      "buy": 482500,
+      "buyRate": 3.5,
       "sell": 483250,
       "sellRate": 3.35
     },
@@ -216,8 +216,8 @@
       "label": "현대 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96450,
-      "buyRate": 3.55,
+      "buy": 96500,
+      "buyRate": 3.5,
       "sell": 96650,
       "sellRate": 3.35
     },
@@ -228,8 +228,8 @@
       "label": "현대 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48225,
-      "buyRate": 3.55,
+      "buy": 48250,
+      "buyRate": 3.5,
       "sell": 48325,
       "sellRate": 3.35
     },
