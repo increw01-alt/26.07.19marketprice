@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T19:39:04+09:00",
+  "updatedAt": "2026-08-01T21:01:20+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "\"韓 변동성 오히려 좋아\"…코스피200 커버드콜 홍콩 첫 출시",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5QQmptbEFCWTJTS29SbjVBVDE1Y2ZpZmdyZFFxZHNHdVNEYndkNTJZRkQtQjNMMFBHTmFQVTZQaGNoTTJWSDBlRy1FbW9qaW1YWmZGYlBnN0hYZw?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-01T11:22:15.000Z"
+      },
+      {
         "title": "[증시 동향] 코스피, 최악의 폭락 이후 사상 최대 폭등",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBySER6cHl5MV82NnpRU0d2VFFYTTNKSjdvZGVGVXZicnQwVlZyX2x3bENZQWZrWFEyZHY5QmlTMFV6elpvSFBVVjcxU3JRbVUwNWQyV1ZjYm90N3JNWnhzYy1GQ3dGT1ZOeC05WXJfa2rSAXRBVV95cUxNcmxDT2hUX0psNDR5RF9kc0FYeTZBd2NZblNUV0VMREV0MFVwQ3ZUNk5KRE1KX19ZWEZ0QkhuaGVMMVJWcU8tWml5NE9pTzBQZ3VzV3EtbWxOc0FTdlR1MVMyV2pvTDVkWDdDcy1EVDJJaGRmMg?oc=5",
         "source": "이뉴스투데이",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9SeVVfXy1PMHZraGpPc3NLRHZsNE1fTDdxSkFYeHpFV25vR290UG84YVZMNjZjSXM2UkM4aGhyWVF1UFR1UVgtbzQ5QU5MNmVFNnBZbHVPTlQyTW1TZFRxQWVyMlM3QldwVGJj0gFvQVVfeXFMTnVDMUstTmd4R3dsNzhLZGwweWpQZUtjU3Rvbk5vckdKVW9EaXJjc0oyWWN4cjNQc3VZQWg5OHZQWlBTRTRXeHAyS084Uk93bFU4NXRfVkhxTW14eUI3QzNlaW1wNkxyTkxBQXExQ1Nn?oc=5",
         "source": "펜앤마이크",
         "date": "2026-08-01T03:37:42.000Z"
-      },
-      {
-        "title": "왜 세계는 한국 증시를 ‘비트코인보다 위험한 시장’으로 볼까 [블룸버그 뷰]│Global Money Club",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ySGFhQk9IOUpHbnhjQVRQUzFWbHktNUF4SmQ1VHF2ODBIdzZiSmI3TmdOZ1JiWjJuMTdSeVkyYTQydy1wYm9ILUdjLUR5QlBldm1zTTNzVWRSSzg?oc=5",
-        "source": "중앙일보",
-        "date": "2026-08-01T01:41:15.000Z"
       }
     ],
     "kosdaq": [
@@ -154,7 +154,7 @@
     "fx": [
       {
         "title": "‘한미일 환율 공조’ 157엔 만들었다…추가 개입 촉각 [이슈+]",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9tcG1ZSDhaUmhnZmd3R0FVWXEtN2lRd0pDTS0tbTM0Z1hiOTBhWjJOZ2NidWtheVZqQ2trQ3JBLVFIZUc5YWR0VjJLQlNxcjNGUS1qUk9FekVmb19jMkppWTBCSQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5NXhJU21RX0FPdVBQZVdHbV84bmFPY3dhM3lNX0xOVFJHYjlMV3Q1a252UEViWWp0NTgxNnNYYXRWVWZzYUZRZjdhc29HdkgzekszZnppbzhINDQ?oc=5",
         "source": "에너지경제신문",
         "date": "2026-08-01T03:01:29.000Z"
       },
@@ -167,7 +167,7 @@
       {
         "title": "고환율에 달러보험 '불티'…환차익만 믿었다간 '낭패’",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5mcHJIdHpKRk1RTXVNV3F3aXBLUHRSUnk4N1NfVEo0b2JpcDJGVmlDMERyN0xtQmU2anlaN2lzVmltc3d0b3JCZGlSMWxybjNYa1RfMUs3OVl5MGxNdFAzc2pfVEd5SFl4VHd4eW15THNFVkU?oc=5",
-        "source": "마켓인",
+        "source": "marketin.edaily.co.kr",
         "date": "2026-07-31T23:30:05.000Z"
       },
       {
@@ -197,7 +197,7 @@
       {
         "title": "[경제뭔데]900원대도 싸다 싶었는데 ‘800원대’ 왔다···다시 만난 엔저, 지금이 환전 기회일까",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zRnI2NU56R29fd0Vzd0JiV3ZxYjJmNEI4Tjc0NTYyekVERUZQdW92eDVWbVFCQzRsTFZRVnRpVlNZenNYMW1GUVFremlhTG5kNUR3dldlZ3pBQdIBX0FVX3lxTE5VYUNaLXFSREhsS3pUZVo0b0lkbi1hWWZ1MGFkTFRIUEE5b2QzVVpLMzlYUW4xRmJtWC1nbXo0VUlRTXYxTlJsSHlpUFZPYmRRLWR6anBFRjFiMG12WXQ4?oc=5",
-        "source": "khan.co.kr",
+        "source": "경향신문",
         "date": "2026-07-31T21:00:00.000Z"
       }
     ],
@@ -317,7 +317,7 @@
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
-        "source": "마켓인",
+        "source": "marketin.edaily.co.kr",
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
@@ -329,7 +329,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "goodkyung.com",
+        "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -433,10 +433,10 @@
         "date": "2026-08-01T05:30:00.000Z"
       },
       {
-        "title": "수원 조원동 수원한일타운아파트 84㎡ 5억6000만원에 거래",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rOElaRy0yaXE3Nmg2ZWtzQVpNRzI1Z1VoeTlyVW02OVRGUTBKU3dHQzY1eHFvOTZOclgzb0JqcVpRR1RienNvZGhNbDBDZ3NldElCai1BYjMxYTgwVU91LQ?oc=5",
+        "title": "수원 우만동 우만주공4단지 41㎡ 4억원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1WLVF6WXNWazVGdGhZbURqWU04dFc5Vkd1bTh5T1JWMXh6aDBFY09PZVl4aHkyYnZLOUlZMnhUalZIQnNDalVCc0pPVWNCVVA1bXJXTVVwWDYtWUZ2Y2YzNw?oc=5",
         "source": "네이트",
-        "date": "2026-08-01T05:08:00.000Z"
+        "date": "2026-08-01T05:23:00.000Z"
       },
       {
         "title": "인천 송도동 더샵센트럴시티아파트 59㎡ 7억4700만원에 거래",
@@ -453,9 +453,21 @@
     ],
     "lotto": [
       {
+        "title": "[로또당첨번호조회] 1235회 로또 1등 당첨지역·판매점·당첨금 조회...로또 판매·추첨시간?",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LbFc3elNfQWdQTFphM1NrTUtOdFFHV0QwbFdEQjBKQ0hQaF81eklFbHBZRG1iZXlmZXd4MWV5Zi1rVDIwN2RFUjY4YXl6aWFTN0dPdU9iSXNtLTNqOWplakFTYXNrd2hmLUF3OTJrMFo?oc=5",
+        "source": "한국강사신문",
+        "date": "2026-08-01T11:39:27.000Z"
+      },
+      {
+        "title": "1235회 로또 당첨번호 6,7,11,15,39,43번+20번",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WOXV6NDRubnJ1VXNhRzBGMUI2SUM3bGVKRlN2Y3JUeWNLdjV2U1luMHl2ZzFldXgxR2hCajZlZmhUaEVJSzVJTzR0ZTJLYlVsUHA1eTVfTFlLYWREQ2pEUWl6NmE?oc=5",
+        "source": "포쓰저널",
+        "date": "2026-08-01T11:38:56.000Z"
+      },
+      {
         "title": "[로또 당첨번호조회]1235회 로또복권 판매시간 및 추첨시간!...연금복권 당첨번호 확인![종합]",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vMjBvSjhtc0kyYXl5YjJXUHB3cnFsQ0hUMnhTdjZETndaN1ppaEthelJoRlpMeFI2bGN5djJlLXlYTWNVdEdjS3dTMHd5Um9lU3BIU2VMVHFjeURtX0RxX3g1Z0NpdWttWm1BaA?oc=5",
-        "source": "economytalk.kr",
+        "source": "이코노미톡뉴스",
         "date": "2026-08-01T01:11:50.000Z"
       },
       {
@@ -487,18 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1XNUQwaGcwQldiNDY2cUFndmdGbHVOSDhROW9INnJkcndLcWxDdnk4YXlSM19FNWZhRUVDM0xxWnZTZVBjLXVjTHk3SFU1TVR1aHhEYUt1ZXgtX252TlczRUFjX04?oc=5",
         "source": "les24heures.fr",
         "date": "2026-07-30T21:03:46.000Z"
-      },
-      {
-        "title": "일요일 로또 판매시간 에 대한 완벽한 가이드: 초보자부터 전문가까지 - 톱 5 비교",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlYU83OV82WWFpRHRsRnl4aTFGVl9oeXBKYUdrNXZLUWpsb2x1Vk9tN1BWejd4QzByc1plNUhBd2UxdVNabU5fa29fcUY5dEk0SDJlSG5JTnZOcE9pSHlSNXM5dWtTQ2hD?oc=5",
-        "source": "centrserdce.ru",
-        "date": "2026-07-29T17:44:45.000Z"
-      },
-      {
-        "title": "토요일 로또 판매마감시간 의 안전한 사용법: 위험 피하기와 보호 조치",
-        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9lWjEwbXQ5UG9WVWh0VF9sRlpVTmdLbmlaMHl0a190UWVjWG10QUlpZFRGaTFTNW51T2d2OTBTSDktVENzQWdwRnB3MU9DdlhQbkxQZFc0LWw3d2JNRFFqSUYtWQ?oc=5",
-        "source": "centrserdce.ru",
-        "date": "2026-07-28T04:46:22.000Z"
       }
     ]
   }
