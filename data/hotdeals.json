@@ -1,6 +1,56 @@
 {
-  "updatedAt": "2026-08-01T21:01:11+09:00",
+  "updatedAt": "2026-08-01T22:43:35+09:00",
   "deals": [
+    {
+      "title": "하기스 매직썸머 팬티 2박스 (107,780원/무배)",
+      "mall": "지마켓",
+      "price": 107780,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724037",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-01T13:33:32.000Z"
+    },
+    {
+      "title": "국내산 100% 냉장 1+ 한돈 삼겹살 구이용 1KG (15,980원/무료)",
+      "mall": "11번가",
+      "price": 15980,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724036",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-01T12:51:26.000Z"
+    },
+    {
+      "title": "보랄 스테인레스 제빙봉 제빙기 HNZ-HC12M (85,900원/무료)",
+      "mall": "카카오",
+      "price": 85900,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724035",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-01T12:16:12.000Z"
+    },
+    {
+      "title": "RoboCop: Rogue City/4,200원",
+      "mall": "스팀",
+      "price": 4200,
+      "category": "게임S/W",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106063",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-01T12:15:12.000Z"
+    },
+    {
+      "title": "미국산 돼지 등갈비 2kg (19,800원/무료배송)",
+      "mall": "G마켓",
+      "price": 19800,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724033",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-01T12:01:09.000Z"
+    },
     {
       "title": "낫소 남녀공용 심플 쿠션 샌들 (9,050원/무료)",
       "mall": "롯데온",
@@ -120,46 +170,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-01T10:29:58.000Z"
-    },
-    {
-      "title": "앙블랑 아기물티슈 그랜드 네이비 캡형 70매x20팩 (23,330원/무료)",
-      "mall": "11번가",
-      "price": 23330,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724021",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-01T10:29:30.000Z"
-    },
-    {
-      "title": "르꼬끄 비아리츠 Z 운동화 (여성사이즈) (31,251원/무료)",
-      "mall": "SSG",
-      "price": 31251,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724020",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-01T10:13:41.000Z"
-    },
-    {
-      "title": "락토바이오틱스맥스 프로바이오틱스 유산균 4개월분 (22,900원/무료)",
-      "mall": "지마켓",
-      "price": 22900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724019",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-01T10:08:43.000Z"
-    },
-    {
-      "title": "폰타나 파스타소스600g 2+2병+면500g 1개 증정 (15,900원/무료)",
-      "mall": "롯데온",
-      "price": 15900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724018",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-01T09:57:23.000Z"
     },
     {
       "title": "삼양라면 120g 10개 (5,420원/무료)",
@@ -390,16 +400,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-07-31T15:21:18.000Z"
-    },
-    {
-      "title": "플레이스테이션 기프트 카드 6% 할인 (8/1~)",
-      "mall": "지마켓,옥션",
-      "price": null,
-      "category": "게임S/W",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106038",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-07-31T15:18:26.000Z"
     }
   ]
 }
