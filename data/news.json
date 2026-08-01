@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-02T02:04:36+09:00",
+  "updatedAt": "2026-08-02T04:03:00+09:00",
   "topics": {
     "coin": [
       {
@@ -71,6 +71,12 @@
         "date": "2026-08-01T07:01:48.000Z"
       },
       {
+        "title": "국힘 “李정부 ‘롤러코스피’ 참사, 국정조사로 규명”…김용범 실장 경질 촉구",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5ZS1NqcGZWMU1JNEprVlVORER4SVpGRDRqWWRVejB5R25qTHIwUHZBQWRuLW5tbjBUcGtUZTUzdm9ZUkN6Nk9DTlotc3pDZmFTbFHSAVNBVV95cUxOVkVEWVBUeVVhb0tNRWNkUjQzbGcwTDUyaURRbHdFcVp2OGU5MW1QdlhjQ0J3M3U1TWxxZFVkRmt1TE0tN1FnVzFTLTNqaFZDWWU4SQ?oc=5",
+        "source": "서울경제",
+        "date": "2026-08-01T05:43:22.000Z"
+      },
+      {
         "title": "국힘 \"李정부 '롤러코스피' 외국인만 배불린 최악 정책 실패\"",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8tMUF2MkN3cUZBMkV0MFpiSkthMWxCdGVzaGNQaG9NRGN5VXdEMXN4ZU13TXdzYzhsekxhY3BDalhDdGMteGNZdGFXLTU1TlEtM0xIQ1BjWFBGQQ?oc=5",
         "source": "한국경제",
@@ -91,14 +97,8 @@
       {
         "title": "코스피 7월 22.19% 하락…선행 주가수익비율 4.85배로 내려",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBTRllya084bEZQeEhmTkVneHdFMkNMc1J5WlUxeVFKdjJQMzlOZVRCTDVTczdmc29JRXA0ajhPYzloek5RVVlIUXJ4NUZOQkFzTmVSUy1UMmRjcW9FTUt1Qm40b0xYdXM?oc=5",
-        "source": "jabon.co.kr",
+        "source": "자본시장뉴스",
         "date": "2026-08-01T04:00:00.000Z"
-      },
-      {
-        "title": "[2026년 7월 월간 주요 경제지표 변화] 7월 코스피 22% 급락…美 금리 상승에 국내 증시 직격탄",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lRTV5cEZPNVFTU2tYUFk1T1R1WTB0RDgxQ2RvNGRLdjZvdjJDekZTSDZTWG9VSzloNk9TRDk0bzl2MU5tNHlUWFYwOGxMd0tENVlRWWh2c1RBSTl4ejE5TlJIS21jSzEtLURiVWxiOA?oc=5",
-        "source": "기호일보",
-        "date": "2026-08-01T03:53:42.000Z"
       }
     ],
     "kosdaq": [
@@ -195,10 +195,10 @@
         "date": "2026-07-31T21:36:48.000Z"
       },
       {
-        "title": "900원대도 싸다 싶었는데 ‘800원대’ 왔다···다시 만난 엔저, 지금이 환전 기회일까[경제뭔데]",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42V2xFV1BsSkh1ZlBHVGhBWl9mZTlxeC05c2ZhWTF0SVpqc3dtd2pYZ1h6MzI1ejk0TlMxWkl2dEZxSkZXZlRibHNjZEFoaUE?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-07-31T21:01:07.000Z"
+        "title": "[경제뭔데]900원대도 싸다 싶었는데 ‘800원대’ 왔다···다시 만난 엔저, 지금이 환전 기회일까",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4zRnI2NU56R29fd0Vzd0JiV3ZxYjJmNEI4Tjc0NTYyekVERUZQdW92eDVWbVFCQzRsTFZRVnRpVlNZenNYMW1GUVFremlhTG5kNUR3dldlZ3pBQdIBX0FVX3lxTE5VYUNaLXFSREhsS3pUZVo0b0lkbi1hWWZ1MGFkTFRIUEE5b2QzVVpLMzlYUW4xRmJtWC1nbXo0VUlRTXYxTlJsSHlpUFZPYmRRLWR6anBFRjFiMG12WXQ4?oc=5",
+        "source": "경향신문",
+        "date": "2026-07-31T21:00:00.000Z"
       }
     ],
     "metal": [
@@ -210,7 +210,7 @@
       },
       {
         "title": "금시세(금값) 추이는?…연준 동결·PCE 발표 후 흐름 '이목'",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBxc0VjZVoteDJNMEw5M0ZvdV8wVW84QWpHbW5xWXI5aFZrdlVQX3l4elJTWUFZY3dOelVQM25PejJlbWdSZXRaUEdOb0loX3otMWFuTUplY2lFUDhHMFZSVV9kUzBZdmc?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82SnRtTzljbHdIYm1QcVNwRDF0Ry1SdFN3WlQzdEVKYjRkSEEwVU5WZjVmcXhNWVZSdG9IanREMWJybmNmaHpnYTM1VmQwbmVOTlU5djgxUXNueFpoYzQyWkd2RFV0cXBt?oc=5",
         "source": "CBC뉴스",
         "date": "2026-08-01T15:00:00.000Z"
       },
@@ -329,7 +329,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "goodkyung.com",
+        "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -403,12 +403,6 @@
     ],
     "realestate": [
       {
-        "title": "서울 아파트 10채 중 1채가 '이 평수'… 2006년 이후 가장 많이 팔렸다",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1od3VQZzY5N2ZOdUpGUGdyVjZyd0JRZlFsU05aVUFrVFlrNWMtV2VERzJlS0lDU25GMEU0SmJmcklBN2dJMUFKbU5CZ3pjbUR0LWdmZWhR?oc=5",
-        "source": "위키트리",
-        "date": "2026-08-01T08:29:00.000Z"
-      },
-      {
         "title": "인천 구월동 구월롯데캐슬골드아파트 83㎡ 5억500만원에 거래",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jWThPYjh6Q2ZpOURRbG5YelQ5YkN0VVlIQU93a2R3a3NQRHFHc2NoYzg2TS1vbzhvZC1KeFFWSnUwOXNzeGxzemo5RERDWHZpa091TjgtNXVsYlBCVEZiNw?oc=5",
         "source": "네이트",
@@ -431,6 +425,12 @@
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE95Wks0alpLNUl1T3IyU2ZvczVjd0xKN25YQ2RrckVDTDB4bUxzZUtvREVNN0ZTZXV3UmY1OVVzZVhSeVJ0NjRBRVpobjV4czl2M1ZOZkNuczdkdVdSZXNZTS0zOG1VNmlrcWozcms5elg1U3Q0ZExoMNIBeEFVX3lxTE95Wks0alpLNUl1T3IyU2ZvczVjd0xKN25YQ2RrckVDTDB4bUxzZUtvREVNN0ZTZXV3UmY1OVVzZVhSeVJ0NjRBRVpobjV4czl2M1ZOZkNuczdkdVdSZXNZTS0zOG1VNmlrcWozcms5elg1U3Q0ZExoMA?oc=5",
         "source": "뉴시스",
         "date": "2026-08-01T05:30:00.000Z"
+      },
+      {
+        "title": "수원 조원동 수원한일타운아파트 84㎡ 5억6000만원에 거래",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rOElaRy0yaXE3Nmg2ZWtzQVpNRzI1Z1VoeTlyVW02OVRGUTBKU3dHQzY1eHFvOTZOclgzb0JqcVpRR1RienNvZGhNbDBDZ3NldElCai1BYjMxYTgwVU91LQ?oc=5",
+        "source": "네이트",
+        "date": "2026-08-01T05:08:00.000Z"
       },
       {
         "title": "인천 송도동 더샵센트럴시티아파트 59㎡ 7억4700만원에 거래",
