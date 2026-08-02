@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:52:30+09:00",
+  "updatedAt": "2026-08-03T07:52:56+09:00",
   "topics": {
     "coin": [
       {
@@ -17,7 +17,7 @@
       {
         "title": "BTC, ETH 가격 소식: 코스피 17% 사상 최고치 급등 속 암호화폐는 영향 없이 비트코인 64,000달러 기록",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjZXdHpwRnJzclhXcGZHRWYtVUxvYTZZSHpub0NoTUtOOGxFckxOanF1VUx4U2I3d2ZOQTZsSWxfSjRRRVdMVFZvWl9QVlN2a09hUkh0MDc1b1JISW1UckJtbWpPVTJxNjdaa3lYaXlodC1YdUVtc2RZTFd4bkNjR2dDZXAtc3E4bFRKNzZ2YUVGbTJRajZWNzhwcFhpUkZJZWkycVZmMzJ2V2lhYzEzWVBvaDlzdV95RTFXRkRmVHFwMFU?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-31T09:09:54.000Z"
       },
       {
@@ -29,13 +29,13 @@
       {
         "title": "비트코인과 이더 시장은 무기한 계약이 지배하고 있습니다. 스페이스X는 그들의 영향력이 얼마나 광범위한지 보여주었습니다",
         "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNbllISUF4eS1ReFBiU1FQREV2SEx4X3piMzBMMnlydlFCTFE3anBOc3hGRzd1VUtxNEdDMV9nMDhtaTBVMC1YVm9zSU1lZ0JlUDBIQmtYaVVVRzFuWnUtd0tIeURMVkRfaTV6eV9YN0lsb0FEWUpwQzhreGU2MmpSa05LbjZoVXBkX0FoLUxnc1R4T2JsNEk2WW92VWNrZjVhOUhOaDhLbE9pMlVvMDlLMk8xZWQwQkFJRGV0QWJlWEl2RWZZb0dVTzF4S2tlbG1Vanc?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-30T09:00:00.000Z"
       },
       {
         "title": "롤러코스터를 탄 비트코인과 이더의 가격 변동, 2억 8,600만 달러 청산 기록",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlRLOFFMTUlMX00ySXhRb1RJSVFmV0pFRUVEckJkMk9WNnhGVHJxVWZpbTNjSGdncUpfZGFjTVBtNklmVGFlYmYzQkJvQnFpcXpUSkR2NmJ2c21HT3RUZ2R2Yk5CQnM1bHVHQVFRbUZPMzlxMHR4NDNFWk1UU2w1OFVncFNnRldId2VMZ2gzbTU0NGZiQ0JFdFc5MFR1a2xITTNRZ2ZxbnBoT3FZbTc1QVAxSk1uRGl4S1l1dlNldE9zTkhpSVVkYmhYQVZZM2M?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-29T15:54:00.000Z"
       },
       {
@@ -52,6 +52,12 @@
       }
     ],
     "stock": [
+      {
+        "title": "[미리보는 증시재료] 美 고용·韓 물가 발표…코스피 반등 이어가나",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAzUWhWdnpVOVpwOXBDajlZbjYzRmtQUzdIczZ2QjNubVFRY09CMHBscXpTZjY0Ty14TTBNdjl0TmZsU19ObV9iS21pZzJMNDRZMVY2eUl5RGZ1SGpB?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-02T22:00:00.000Z"
+      },
       {
         "title": "오르는 장도 무섭다… 한국 증시를 흔드는 '3중 쏠림' - 머니투데이",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5INVNYR2dLTnVhYzJRdHBkQnhCZThWYmNPYWluMmpEbHk2YkppdHlWM0dFVmFQSWd1VHBZa2dtQTNmaEhBRDZhUG0xcEEzOWU5cTJwdGsxd0VOLV94X0lJWE1YNEJBcGZ50gFuQVVfeXFMUDV0YWpWZ2N3RUpYcmVqTHY0NVJtdFR4dUZGX1NnYy1kdnUxNFMtYlRXampWcWhzS01XWG9CNllyNF9qOWh5aWg0NlpYQk5ld3haOWptbVdSdnN2WE5ZZmRmbHNQNWZvamhZcjgxLWc?oc=5",
@@ -73,7 +79,7 @@
       {
         "title": "코스피, 역대급 하락 후 반등...상승세 이어질까",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qXzNqMWxMLVl0VUF3bldQV3UzaDl5cmxVenN2c3hsSzFTSGgxNTRtc2JuVE9fTWhhQmxFb25kQ3AzNjJ4VUVaNE5tQ0dDT2VvWTU5VHd2NElDekhnS1ZpV1dCUTBrcnBEZUJNdDFkbzByamVxUWc?oc=5",
-        "source": "ytn.co.kr",
+        "source": "YTN",
         "date": "2026-08-02T13:23:00.000Z"
       },
       {
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55LVhaeDlZNUU2UlFtdjI4WEhRZUpFcE5ySnFKY0hzNTh3ZlQtYVZYYVBaTGh6Vy1XYVE1RTVsZ1dFaHlYd1ZOeHA0bEJKTTBuQndkU0hjUXc5UFc1NGtWcWd4YmlSNmpzbEUycmRDMEFVdw?oc=5",
         "source": "한겨레",
         "date": "2026-08-02T10:58:00.000Z"
-      },
-      {
-        "title": "역대급 악몽의 달 보낸 코스피, 8월 반등 전망…불안요소 잠복",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPcUJfLW9tUFlQT0lWME9RUHA0NXR2dHNHWERHSVNibmdJajhRNTBwLWxQLVdKcXVqQm1wTjJEOVI5M1hUTjdsSUVNdGtzTjdoZWNsYUFEN0FUMTRkOG50aWcyTjUtNlZ5amdTTEpqSkU1UFg0Qk1WUEx1dTc0cTJ0dHZsRGxZQkZSLWJHT1NR?oc=5",
-        "source": "국제신문",
-        "date": "2026-08-02T10:23:00.000Z"
       }
     ],
     "kosdaq": [
@@ -119,12 +119,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE15bW9CTXI2dzYxWnpVVHNDa21teFJ4M0xzQjVVM1ludVNWcTFmMkZ0Y185RkZPTjhid1B0Tm9IR25BRkFLQ3RMTzRRYmloQUM0c3NSUg?oc=5",
         "source": "이투데이",
         "date": "2026-08-02T21:00:00.000Z"
-      },
-      {
-        "title": "코스닥 코너스톤 한도 30%라지만…전체 공모주 기준 4.5%까지 '뚝'",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tMV9nMGlKbmFrdl85elU0emF4Yl82elhibVR2dmVtNFBETkNGczcxZEI0RjRFTlM0cm9qaFl2WWtVM0Jld2JMWlFkb2hUdDZuZ2hJcHVZUGxyWHZCaGtDYg?oc=5",
-        "source": "네이트",
-        "date": "2026-08-02T20:30:00.000Z"
       },
       {
         "title": "코스닥 코너스톤 한도 30%라지만…전체 공모주 기준 4.5%까지 '뚝'",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBOZnB1NlFfR2RvT0V2b1M4cTl4R1paQkFLZHRqY2ZtVjVmVjczWW9jRzBVVEpLcnJqYzF6SlRTWWJJemNHSXc?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-02T09:41:23.000Z"
+      },
+      {
+        "title": "7월 국내 증시 종목 70%가 ‘마이너스 수익률’",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9STmZ4X0FwU1hfbnJGeE9XOVhxZV9zSDVUSHZHZWdJQmFONXJjSzBhX3RvOUxCMHZLY1p3N01xSHlWZjVONWQyM0xpbU5wZ1prRFV2czlPemdmcUdrcmc?oc=5",
+        "source": "주간경향",
+        "date": "2026-08-02T09:39:00.000Z"
       }
     ],
     "fx": [
@@ -167,7 +167,7 @@
       {
         "title": "한·미·일 환율 공조 본격화…원·달러 1300원대 진입 기대감",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5qMktMY1lwQ1h6dWJKT0d0bGN3eXRpWThmVXZfS1hBYzRyc2FEcHpJd2FnM2pKb29JWFpjc0NrT3dRSkltNmMycHZLNmp6cThYWG5kT2NJeFlxOTJ3aXhsRnJhSnA?oc=5",
-        "source": "geconomy.co.kr",
+        "source": "지이코노미",
         "date": "2026-08-02T19:50:29.000Z"
       },
       {
@@ -205,7 +205,7 @@
       {
         "title": "금시세(금값) 온스당 4000달러선 지키나 '촉각'…중동 변수에 '시선'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5leTNXV0k0Q3Fld3ZpM3hpdVlCQ3J0RHN3YndMOVZBSl94VXoyanpQRlgzVVlxVlBTbUYwSGh1dWFpUkpMWnJZbmRKX0lIVmpQNnU2U0E4bzhBSXFxR1d3YWtTZjBYaHhX?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-02T15:10:00.000Z"
       },
       {
@@ -229,7 +229,7 @@
       {
         "title": "금시세(금값) 추이는?…연준 동결·PCE 발표 후 흐름 '이목'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82SnRtTzljbHdIYm1QcVNwRDF0Ry1SdFN3WlQzdEVKYjRkSEEwVU5WZjVmcXhNWVZSdG9IanREMWJybmNmaHpnYTM1VmQwbmVOTlU5djgxUXNueFpoYzQyWkd2RFV0cXBt?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-01T15:00:00.000Z"
       },
       {
@@ -247,7 +247,7 @@
       {
         "title": "금시세(금값) 얼마?…미국 이란 신경전 이어져",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1kWXdIdGNYZml1dFhpZEhpQ0k3YVlLXzdWRUhHOTlITDFpcTJJNUNDUTd6U296U19YQ0FHMS1XMDMyVFAtWmRTbDcwYW43V3ZERkxpd3pvZEZob2F5WU9HaHhSQ0Q3UmNX?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-01T00:52:37.000Z"
       }
     ],
@@ -290,8 +290,8 @@
       },
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
-        "source": "네이트",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
+        "source": "ebn.co.kr",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
@@ -335,7 +335,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "굿모닝경제",
+        "source": "goodkyung.com",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "서울 집값 둔화 속 '전세 폭탄'…세제 개편 관망세 속 세입자 시름 깊어진다",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uVmNZSGlnUV9JQ1FTc0U2TkU0SWJkNEZnd0tRNVBkYUswMGh0NHhFVHlrNEg2SFRRR3JmQzVHdkVUZi11OVFlb3VRSnpCOEQxVDFLRkU1YjFZM3UySXhUR2ZsbjZnanFtSmlpbWtOOUs?oc=5",
+        "source": "미디어써치",
+        "date": "2026-08-02T22:04:17.000Z"
+      },
+      {
         "title": "증세 앞에 멈춰선 30억 부동산 시장…갈 길 가는 100억 ‘그사세’ 아파트",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcHYxTUxvZ3dSVjJqTmRRTGRWMVdSNnNTY29kOWZhSFRUcGV2NXJ3c2pxUUh4NHVCNDhGaWo5c1NfYzB1RFdXVlE2Wmo1RDRXeXRnZUM2NHN5Xzlzd1JfSTA1TEkyVzJET1I5RkU3ZUMyVnF4MDVuaVNjWXdZa0tRbw?oc=5",
         "source": "edaily.co.kr",
@@ -417,7 +423,7 @@
       {
         "title": "6월 서울 아파트 거래량 42% 급감…실거래가도 감소세",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9yVnNLT0NXNHBvUllHcGRXaFN0Vi10bndsNEp3U01Ua0xiQ2lJdGNxQkpkaWh2dWxLZWZjdjJieEliY3BzLXJzT3dtcW9MX19DRXBYWklCZGlqVmdJYWpkODRxM0ZmTlA1cGtjSnVrbUg5WU92ZUE1SmF2b21ldE0?oc=5",
-        "source": "프레시안",
+        "source": "pressian.com",
         "date": "2026-08-02T18:39:34.000Z"
       },
       {
@@ -425,6 +431,12 @@
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSnpkUHV4YmtJQ1JhRExqUUw1ai1RN1U1akJoT0FsOVUwN2oxQk5OSkRWMThQRVhndkVnVWJUbEtEa1lnUmdSZWFObndEeXVscWdoRXFyZHoxOHBFNFBrVEFMSzlxWk43UW5JMlVCa0dYRjBhNldIejROd2U3SVhtT1B6Y2JlcXBi?oc=5",
         "source": "조선일보",
         "date": "2026-08-02T15:44:00.000Z"
+      },
+      {
+        "title": "[스트레이트] '초고가 아파트'의 비밀",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mZ3oxXy1yWWZMVkN5RG1pcjhjWlhZa2ZsRGdwUEQ5RElGN1RpWm1NTHBzQzJhTl9VV2VFQVFCZEpUYWJuMjZRaFI0di1fMFE?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-02T12:27:00.000Z"
       },
       {
         "title": "양도세 중과 앞두고 고가아파트 매도 몰렸다",
@@ -437,21 +449,15 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1seV9nSlIzbTUtSHdLS29qcC1XWndSMXp0ZGJVbXYxUmdlUzRZZnVQM0tXdm0zTG16NElSSUs1ZkFRU1hUeHNaaU95T1RVUS0xUUE2eFJ6S0JmZjlzQ1BpaXN0OTA3b09ONHVV0gFvQVVfeXFMTXZUVHJoaTctX0hobnoyS2VaMjhVN0FXQ21pbVdvZTJYOUtqQTFMQXJRWFFaTU1jRVh3cjI3SzhaQ0RKYlZodVJndlFaRUZUNXlKT0FIeVM2aGF4Q0JrMnhPMS1wcHg5Q0RvclBhM1o0?oc=5",
         "source": "자유일보",
         "date": "2026-08-02T08:38:00.000Z"
-      },
-      {
-        "title": "5월 고가아파트 거래 급증…양도세 중과 전 막차",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGcjNZOWVDX0hJbnBzTXZQU3VyZ0ZZTG8tN0pRaGt3SzY4akw0V3JvZWJrOG9fSF9xUG90NllaVFZRd3pXWXIxR2tkeHgtR0NoYnpFLWV6VXcxMTM3Vm9yZjg2bnpOajQ?oc=5",
-        "source": "연합뉴스TV",
-        "date": "2026-08-02T06:49:00.000Z"
-      },
-      {
-        "title": "양도세 중과 시행 전 4~5월 고가아파트 매도 급증",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1jUFEyd0h4RDI4Tmx4SWljSlNoOW5RcEVZS2hya1FncVNERDZNU0p3UkVNZFpRU0doNXU1Q2pfbzdCcVNCSlczTkM1V05vdkpNejh5eGt3?oc=5",
-        "source": "joongang.co.kr",
-        "date": "2026-08-02T06:39:11.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "일요일 로또 판매시간 의 진화: 시대별 변화와 영향 - 최신 트렌드",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80Z05wUXZLb2ZuZzBSNzFCUzRRTlhlN09ZSUI2ZFBxZS1GcW9icVNuR1U2QzNKUnI4X1BhS3VtZW1FUm1kM2M1eXdSVFY3cVVneDFTMGw1WFVtY1R6ZEFJaUY2S2NrcDdh?oc=5",
+        "source": "les24heures.fr",
+        "date": "2026-08-02T18:48:39.000Z"
+      },
       {
         "title": "편의점 로또 : 위험 피하기와 보호 조치 - 톱 5 비교",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WU09SQW1QUTRsMzdhcUo0bXRYTDhHYkNhZkE4MThsUTloOW93TmhwbjQ4eFAyODZqVDM0YXJxM2FMTjNfckdWM1FjOVZrbnFyUDhuY0YxLVQtOGxwSmlMLWp1OTk4QQ?oc=5",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Fc1VrZUo2Y2ZTMm9sMUFqSDNUTXZhQmM3UnNDcEpDczRjZXFSbmRZZzNKbGJURDZJYlEtam0teFVGazJkOFk4enBud2gzR3hEZEpqX3lfMnlNRWVoSHhXdkFESnE2OFVVMV9kODQyMWdEdw?oc=5",
         "source": "톱스타뉴스",
         "date": "2026-08-01T11:39:48.000Z"
-      },
-      {
-        "title": "[로또당첨번호조회] 1235회 로또 1등 당첨지역·판매점·당첨금 조회...로또 판매·추첨시간?",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LbFc3elNfQWdQTFphM1NrTUtOdFFHV0QwbFdEQjBKQ0hQaF81eklFbHBZRG1iZXlmZXd4MWV5Zi1rVDIwN2RFUjY4YXl6aWFTN0dPdU9iSXNtLTNqOWplakFTYXNrd2hmLUF3OTJrMFo?oc=5",
-        "source": "한국강사신문",
-        "date": "2026-08-01T11:39:27.000Z"
       }
     ]
   }

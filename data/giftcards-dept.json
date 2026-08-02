@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T06:50:56+09:00",
+  "updatedAt": "2026-08-03T07:51:28+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,8 +36,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 95500,
-      "buyRate": 4.5,
+      "buy": 95750,
+      "buyRate": 4.25,
       "sell": 95900,
       "sellRate": 4.1
     },
@@ -48,8 +48,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95300,
-      "buyRate": 4.7,
+      "buy": 95550,
+      "buyRate": 4.45,
       "sell": 95900,
       "sellRate": 4.1
     },
@@ -60,10 +60,10 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 96700,
-      "sellRate": 3.3
+      "buy": 96600,
+      "buyRate": 3.4,
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "citypay",
@@ -72,10 +72,10 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96700,
-      "sellRate": 3.3
+      "buy": 96400,
+      "buyRate": 3.6,
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "citypay",
@@ -84,8 +84,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96550,
-      "buyRate": 3.45,
+      "buy": 96600,
+      "buyRate": 3.4,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -96,8 +96,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96350,
-      "buyRate": 3.65,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -120,8 +120,8 @@
       "label": "국민관광 상품권 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96900,
       "sellRate": 3.1
     },

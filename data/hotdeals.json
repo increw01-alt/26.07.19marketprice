@@ -1,6 +1,76 @@
 {
-  "updatedAt": "2026-08-03T06:52:20+09:00",
+  "updatedAt": "2026-08-03T07:52:47+09:00",
   "deals": [
+    {
+      "title": "CJ 스틱돈까스 200gX2개 (소비기한:2026-10-22)(5988원/2만이상 무료)",
+      "mall": "CJ더마켓",
+      "price": 5988,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724261",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T22:49:58.000Z"
+    },
+    {
+      "title": "미국산 프리미엄 우삼겹 2kg (21,910원/무배)",
+      "mall": "옥션",
+      "price": 21910,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724260",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T22:47:22.000Z"
+    },
+    {
+      "title": "빅맥 3400원, 맥너겟 6조각 2100원 외 (8/3~9)",
+      "mall": "맥도날드앱",
+      "price": 2100,
+      "category": "음식",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106090",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-02T22:46:26.000Z"
+    },
+    {
+      "title": "토레타 240ml, 5개 (1000원 : 배송비제외)",
+      "mall": "쿠팡",
+      "price": 1000,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724259",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T22:44:26.000Z"
+    },
+    {
+      "title": "샤인머스켓 2kg (11,440원/무배)",
+      "mall": "옥션",
+      "price": 11440,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724258",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T22:43:40.000Z"
+    },
+    {
+      "title": "포카칩 오리지널 66g x 20봉 (카드19,280원/무료)",
+      "mall": "지마켓",
+      "price": 19280,
+      "category": "음식",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106089",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-02T22:19:30.000Z"
+    },
+    {
+      "title": "농가살리기 고기듬뿍 감자탕 5kg(8~10인분) (스페16,350원/무배)",
+      "mall": "지마켓",
+      "price": 16350,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724257",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T22:06:08.000Z"
+    },
     {
       "title": "갤럭시 아이폰 2장 슬라이드 카드수납 투명케이스 1+1 (6,520원/무료)",
       "mall": "G마켓",
@@ -120,56 +190,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-02T15:34:35.000Z"
-    },
-    {
-      "title": "켈로그 오곡 첵스초코 570g 1팩+1팩 (9,520원/무배)",
-      "mall": "네이버",
-      "price": 9520,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724246",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:33:44.000Z"
-    },
-    {
-      "title": "올리브녹차 도시락김 32봉 (8,500원/무료)",
-      "mall": "G마켓",
-      "price": 8500,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724245",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:32:18.000Z"
-    },
-    {
-      "title": "도브 센서티브 바디워시 200ml x 3개[소비기한 27년 2월 20일까지](6,500원/무료)",
-      "mall": "롯데온",
-      "price": 6500,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724244",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:30:26.000Z"
-    },
-    {
-      "title": "완도 활전복 특대 9~11미 1kg (13,720원/무배)",
-      "mall": "우체국쇼핑",
-      "price": 13720,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724243",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:30:16.000Z"
-    },
-    {
-      "title": "일동후디스 후디스 그릭요거트 플레인, 450g, 2개 (7400원/무배)",
-      "mall": "토스",
-      "price": 7400,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724242",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:28:42.000Z"
     },
     {
       "title": "CGV 2D 전용 관람권 7900원 (8/3~)",
@@ -380,26 +400,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-01T16:58:00.000Z"
-    },
-    {
-      "title": "이스 메모와르 -펠가나의 맹세- ₩14,640",
-      "mall": "한국닌텐도",
-      "price": null,
-      "category": "게임S/W",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106065",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-01T15:41:18.000Z"
-    },
-    {
-      "title": "일일적립, 클릭 38원, 라이브예고 4원",
-      "mall": "네이버페이",
-      "price": 4,
-      "category": "상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106064",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-01T15:09:20.000Z"
     }
   ]
 }
