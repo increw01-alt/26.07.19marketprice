@@ -1,6 +1,126 @@
 {
-  "updatedAt": "2026-08-02T22:28:53+09:00",
+  "updatedAt": "2026-08-02T23:59:47+09:00",
   "deals": [
+    {
+      "title": "국내산 원재료로 만든 얼갈이김치 2kg(10,500/무대)",
+      "mall": "11번가",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724217",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:46:15.000Z"
+    },
+    {
+      "title": "딱딱이 복숭아 4kg (14,980원/무배)",
+      "mall": "11번가",
+      "price": 14980,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724216",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:45:23.000Z"
+    },
+    {
+      "title": "1+1 파스텔 장우산 16K(10,970원/무료)",
+      "mall": "G마켓",
+      "price": 10970,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724215",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:36:16.000Z"
+    },
+    {
+      "title": "제임스딘 면 40수 기본 베이직 조끼 런닝 5매 (14,900원~/무료)",
+      "mall": "11번가",
+      "price": 14900,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724214",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:33:12.000Z"
+    },
+    {
+      "title": "펩시콜라 제로슈거 라임향 355ml 48캔 (26,840원 / 무배)",
+      "mall": "롯데ON",
+      "price": 26840,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724213",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:30:54.000Z"
+    },
+    {
+      "title": "안국건강 아이메가 초임계 rTG 오메가3 30캡슐 3박스 (25,270원/무료)",
+      "mall": "롯데온",
+      "price": 25270,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724212",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:07:20.000Z"
+    },
+    {
+      "title": "토레타 240ml, 30개  (티멤 11,770원/무료)",
+      "mall": "11번가",
+      "price": 11770,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724211",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:03:49.000Z"
+    },
+    {
+      "title": "1+1 패브릭룸스프레이 50ml (9,900원/무료)",
+      "mall": "네이버",
+      "price": 9900,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724210",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T14:01:27.000Z"
+    },
+    {
+      "title": "방콕 만다린 오리엔탈 호텔 3박 (1,435,479원/무배)",
+      "mall": "프리비아",
+      "price": 1435479,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724209",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T13:56:53.000Z"
+    },
+    {
+      "title": "2+2오뚜기 피자 콤비네이션 외6종 (20,400원/무료)",
+      "mall": "네이버",
+      "price": 20400,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724208",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T13:52:07.000Z"
+    },
+    {
+      "title": "서울우유 멸균우유 딸기 200mlx72개 (최종가30,510/무배)",
+      "mall": "지마켓",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724207",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T13:50:25.000Z"
+    },
+    {
+      "title": "몬스터크랩 72g 12개 (8,200/무료)",
+      "mall": "네이버",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724206",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T13:37:09.000Z"
+    },
     {
       "title": "125cm 3단봉 화장실 청소솔 스퀴지 겸용 [5400원/3000원]",
       "mall": "네이버",
@@ -30,126 +150,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-02T13:04:03.000Z"
-    },
-    {
-      "title": "더푸름 탄산 워싱소다 5kg (7,300원/무료배송)",
-      "mall": "네이버",
-      "price": 7300,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724201",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T13:03:20.000Z"
-    },
-    {
-      "title": "친환경 국산 포도 블랙펄 1kg~(13,900원/무료)",
-      "mall": "네이버",
-      "price": 13900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724200",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T13:02:31.000Z"
-    },
-    {
-      "title": "우리밀 떡볶이 밀키트 480g 6팩+모둠튀김 1팩 (19,810원/무료)",
-      "mall": "네이버",
-      "price": 19810,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724199",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T13:02:26.000Z"
-    },
-    {
-      "title": "레노버 Xiaoxin Pad Pro 13 인치 AI패드8 256G (371,900원/무료)",
-      "mall": "롯데온",
-      "price": 371900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724198",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:57:53.000Z"
-    },
-    {
-      "title": "초복 몸보신 국내산 냉장삼계탕 한마리( 7900원/ 무배)",
-      "mall": "카카오",
-      "price": 7900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724197",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:50:27.000Z"
-    },
-    {
-      "title": "핸즈폰스트랩(9900/3000)",
-      "mall": "네이버",
-      "price": null,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724196",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:42:33.000Z"
-    },
-    {
-      "title": "나이키 드라이 핏 ADV 클럽 스트럭처 스우시 캡 (21,840원/2,500원)",
-      "mall": "CJ온스타일",
-      "price": 2500,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724195",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:27:31.000Z"
-    },
-    {
-      "title": "남여공용 리커버리 운동화 발편한 데일리화(15,900원/무료)",
-      "mall": "G마켓",
-      "price": 15900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724194",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:25:55.000Z"
-    },
-    {
-      "title": "동치미,물,비빔냉면 10인분 세트 (9,900원/무료)",
-      "mall": "네이버",
-      "price": 9900,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724193",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:24:56.000Z"
-    },
-    {
-      "title": "푸마 남여공용 경량 워킹화 FLYER LITE 4 2종 택1 (33,430원/무료)",
-      "mall": "롯데온",
-      "price": 33430,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724192",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:23:21.000Z"
-    },
-    {
-      "title": "슈라모드 EVA 슬리퍼샌들 1+1 (4,720원/무배)",
-      "mall": "롯데온",
-      "price": 4720,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724191",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:20:10.000Z"
-    },
-    {
-      "title": "밀레 남성 아스킨 냉감 기능성스판 집업 티셔츠 (22,110원/3,000원)",
-      "mall": "롯데백화점",
-      "price": 3000,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724190",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T12:16:00.000Z"
     },
     {
       "title": "컬러풀 RTX5080 2,009,730원",
