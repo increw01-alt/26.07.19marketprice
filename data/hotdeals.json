@@ -1,6 +1,46 @@
 {
-  "updatedAt": "2026-08-03T01:06:31+09:00",
+  "updatedAt": "2026-08-03T02:59:44+09:00",
   "deals": [
+    {
+      "title": "네이버멤버십_ 오레오, 리츠샌드, 의성마늘 프랑크 외 (다양/네멤무배)",
+      "mall": "네이버",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724253",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T17:50:34.000Z"
+    },
+    {
+      "title": "멤버십 농심 신라면 20입 외 (다양/무료)",
+      "mall": "네이버",
+      "price": null,
+      "category": "음식",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106088",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-02T17:20:34.000Z"
+    },
+    {
+      "title": "네이버멤버십_ 오뚜기피자, 신라면, 안성탕면, 신짜너, 신안너짜, 온더바디 풋샴푸 외 (다양/네멤무배)",
+      "mall": "네이버",
+      "price": null,
+      "category": null,
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724252",
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-02T16:18:29.000Z"
+    },
+    {
+      "title": "멤버십 천연사이다 제로 250ml 60캔 (21,970원/무료)",
+      "mall": "네이버",
+      "price": 21970,
+      "category": "음식",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106087",
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-02T16:13:07.000Z"
+    },
     {
       "title": "내셔널지오그래픽 남여 헤론 U넥 경량 구스다운 점퍼 (80,290원/무료)",
       "mall": "옥션",
@@ -140,26 +180,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-02T15:26:20.000Z"
-    },
-    {
-      "title": "오프로드 썸머 스포티 3종세트 (35,910원/무료)",
-      "mall": "롯데온",
-      "price": 35910,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724238",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:23:26.000Z"
-    },
-    {
-      "title": "에버데이 이온 1.5L X 12pet 저칼로리 (멤버십 11,590원/무료)",
-      "mall": "네이버",
-      "price": 11590,
-      "category": null,
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724237",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-02T15:22:59.000Z"
     },
     {
       "title": "더벤티 아메리카노50%,노브랜드 세트 구매 콤보 증정 외(8/3~7)",
@@ -380,26 +400,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-01T15:09:20.000Z"
-    },
-    {
-      "title": "RoboCop: Rogue City/4,200원",
-      "mall": "스팀",
-      "price": 4200,
-      "category": "게임S/W",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106063",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-01T12:15:12.000Z"
-    },
-    {
-      "title": "카이로 여름 방학 번들 Vol.11, 12 (8,640원/무료)",
-      "mall": "스팀",
-      "price": 8640,
-      "category": "게임S/W",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106062",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-01T10:32:28.000Z"
     }
   ]
 }
