@@ -56,7 +56,6 @@ const MENUS = [
   { id: 'macro', href: 'macro.html', label: '지표', icon: 'gauge' },
   { id: 'giftcard', href: 'giftcard.html', label: '상품권시세', icon: 'ticket' },
   { id: 'hotdeal', href: 'hotdeal.html', label: '핫딜', icon: 'flame' },
-  { id: 'shopping', href: 'shopping.html', label: '가격비교', icon: 'cart' },
   { id: 'realestate', href: 'realestate.html', label: '부동산시세', icon: 'home' },
   { id: 'lotto', href: 'lotto.html', label: '로또', icon: 'target' },
 ];

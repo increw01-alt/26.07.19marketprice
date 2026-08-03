@@ -50,12 +50,8 @@ jobs:
           OPINET_KEY: ${{ secrets.OPINET_KEY }}
         continue-on-error: true
 
-      - name: 인기상품 최저가 수집 (네이버 쇼핑)
-        run: node scripts/fetch-shopping.mjs
-        env:
-          NAVER_ID: ${{ secrets.NAVER_ID }}
-          NAVER_SECRET: ${{ secrets.NAVER_SECRET }}
-        continue-on-error: true
+      # 네이버 쇼핑 검색 API가 2026-08 종료(SE05)되어 가격비교 수집을 중단합니다.
+      # fetch-shopping.mjs / shopping.html 은 대체 소스 확보 시 복구용으로 남겨둡니다.
 
       - name: 핫딜 수집 (커뮤니티 RSS)
         run: node scripts/fetch-hotdeals.mjs
