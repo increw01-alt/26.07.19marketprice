@@ -14,8 +14,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '20'
-      - name: 핫딜 매칭 실험
-        run: node scripts/experiment-hotdeal-match.mjs
+      - name: 네이버 API 진단
+        run: node scripts/diag-naver.mjs
         env:
           NAVER_ID: ${{ secrets.NAVER_ID }}
           NAVER_SECRET: ${{ secrets.NAVER_SECRET }}
