@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-03T14:16:22+09:00",
+  "updatedAt": "2026-08-03T14:19:49+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "'1만피' 외치던 증권사도 눈높이 낮췄다…\"코스피 목표 9300\"",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81aktjUUdiSG1SQjZ4Z1A3TWJ2ZV9SQV9zV2hIWWtoaEQwSzZ3aE9yWDJRSm9fcWM5aWoyUFFnejRhTFV2R0FhNnc0LXJYd1RnWUNWYWVVaXhKdw?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-03T05:13:37.000Z"
+      },
+      {
         "title": "블룸버그 “韓 개미들, 이재명 비난하며 코스피 떠난다” - 조선비즈",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOLXJCM3ZmNTB4S09hNEVTRUFHcmktaUE2UGdXMk1jYV8ydUJBb3VxTjdLNTJCSzM5cnVWMDZXR1FYbDdMX29uQ29MdVZKMUphTlZwZ3haVGxCLVNfcTVvMGFCYkVjZFQ5dEROOVdONGhfd05yVng5VG1tXzlJUkoyaWxxT3dVVnJITjhnanBBeGdBMDBhUFQ2dlhGUWF4UdIBsgFBVV95cUxQcEFoaXpSWU52STZNMGFWWUhxRmlPeGsza1NQVUNMQXh0UGFxbllJNWhtd3EtdEN0aHBPRmdYTDlteWR1TkVXVDVERUd0dU5IUENFUXN2cF9BZWpQak9ld01NdXZET0lPU1hic1diWUlzMlZsclkybWk2QWYwejNGX1lZa05mSmpuX1pYb1BIRTBPMEFMVTZBcmJDTXdRNmdVeWFPOENNWm1zakNfOUkwR2NB?oc=5",
         "source": "Chosunbiz",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1LRXhxNmNzRVlNbzd4SGRpNE1TSXpLVEJKRlp5RG9YVlZVb2VmT0sxOUUtTExZOUp2clFfUGVHMWNLYWtMd3V3dFQ1aDJMWW90RTRoVXE5YWNmN1ptYVBYYnJuamExLVFXQV9MeElZSS0tNTNVTjVHWWE5dw?oc=5",
         "source": "비욘드포스트",
         "date": "2026-08-03T02:48:57.000Z"
-      },
-      {
-        "title": "코스피 3%대 조정에도 낙폭 제한…코스닥은 4%대 급등",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNGR4OTMxZmlzLXhIc09aajl5enBVeXp0NWlITDFNdHdVVDBtZnQtcjZkYkxFdDIwcnhGcjNqN0FGbHlkRTZ0RWppdUdlRl96c0FkMkxHbFNBRWpJQTB6Q1huajJUMHFDRFF0NnhuLUTSAXRBVV95cUxNdFV6NklBTXlRcFlFay1oWnRHbHBNaUtHczJxWUtiNlJ3Vm8tdlJDNVFnVkV3UDFlM0lBSGlweE5XajNPYVNrd20ySGU0TWZuc3FCTjk0OE1JZEhUUnFGMVNRQWFXUk1feXZtN25Kb2xDdlFOVA?oc=5",
-        "source": "산경투데이",
-        "date": "2026-08-03T02:48:32.000Z"
       }
     ],
     "kosdaq": [
@@ -133,6 +133,12 @@
         "date": "2026-08-03T03:36:22.000Z"
       },
       {
+        "title": "코스피 또 급락‥코스닥은 매수 사이드카",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rMXM2VFJNNnJ0bXh4UG1tdFZzQlUyVlowVnZldG1ZV3lZN0k3RC1wRV9faE1KYVBtOWsxMkswQ3k4UGo2VXZ6blRKSWdiUUk?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-03T03:19:15.000Z"
+      },
+      {
         "title": "구미 코스닥 상장사 지난해 매출 15.3% 감소",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJcXgyU0hXMVM0VVVLUDRUQ2JKVHpvVzBHZkJ5b3h1SmVyamVrOUhPc1kwSmNrQ0RjM2k5N1dFWWF0Z2NsczdNS2xwVnUwSHVlUkdQMDluY213Z0JMdjB4QmNWLUUwbWFhemJra0hYcUo?oc=5",
         "source": "신아일보",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBrSnBMZUxnOTZXTXozUmpKWUlLLU1JUDlJMFZ2SFFWSlViVHFMalB4X1RKcms1ODFfN2FLd0RUWlpBanNOTU01UU5XbXBqZkZaTDhfelJNdTIyMllVRGV6Ml9kRUNsSkd2cXc?oc=5",
         "source": "AI타임스",
         "date": "2026-08-03T02:48:35.000Z"
-      },
-      {
-        "title": "코스피 3%대 조정에도 낙폭 제한…코스닥은 4%대 급등",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5zNGR4OTMxZmlzLXhIc09aajl5enBVeXp0NWlITDFNdHdVVDBtZnQtcjZkYkxFdDIwcnhGcjNqN0FGbHlkRTZ0RWppdUdlRl96c0FkMkxHbFNBRWpJQTB6Q1huajJUMHFDRFF0NnhuLUTSAXRBVV95cUxNdFV6NklBTXlRcFlFay1oWnRHbHBNaUtHczJxWUtiNlJ3Vm8tdlJDNVFnVkV3UDFlM0lBSGlweE5XajNPYVNrd20ySGU0TWZuc3FCTjk0OE1JZEhUUnFGMVNRQWFXUk1feXZtN25Kb2xDdlFOVA?oc=5",
-        "source": "산경투데이",
-        "date": "2026-08-03T02:48:32.000Z"
       }
     ],
     "fx": [
@@ -217,7 +217,7 @@
       {
         "title": "금시세(금값) 얼마…고려해야할 변수는?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OMHJMSkhUbUhvSlUwQjZvQ0s3dlpjZWhWVG5hVDBiaTVxTTl4OFVvenYtX1l4UjZZaWJXMzBKYmRGTzh5TGhEYTFxNFRZWGhXRUdPdkZYMlNzemdNQ1RDYnhwNW5ISXlw?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-03T01:06:46.000Z"
       },
       {
@@ -235,7 +235,7 @@
       {
         "title": "금시세(금값) 온스당 4000달러선 지키나 '촉각'…중동 변수에 '시선'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5leTNXV0k0Q3Fld3ZpM3hpdVlCQ3J0RHN3YndMOVZBSl94VXoyanpQRlgzVVlxVlBTbUYwSGh1dWFpUkpMWnJZbmRKX0lIVmpQNnU2U0E4bzhBSXFxR1d3YWtTZjBYaHhX?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-02T15:10:00.000Z"
       },
       {
@@ -329,7 +329,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "굿모닝경제",
+        "source": "goodkyung.com",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -417,7 +417,7 @@
       {
         "title": "[서울아파트거래] 래미안신반포팰리스 전용면적 84.49㎡ 종전 최고가 43억에 거래",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqb1ByV3VVOXhERXV1MkpxOWR5X2xFdU1jMmZwWUd2VzhPbkdZUS02NV9PM0hVOWdSYkxMZXY5eWk1QkhfTDJlQkh6RE5aR2ZkNmc4eVpfdG5zendPUXhLdGlVMWxLR1VkMXFWeHhvTlZldUk?oc=5",
-        "source": "businesspost.co.kr",
+        "source": "비즈니스포스트",
         "date": "2026-08-03T01:06:04.000Z"
       },
       {
@@ -453,6 +453,12 @@
     ],
     "lotto": [
       {
+        "title": "일요일 로또 판매시간 의 진화: 시대별 변화와 영향 - 최신 트렌드",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80Z05wUXZLb2ZuZzBSNzFCUzRRTlhlN09ZSUI2ZFBxZS1GcW9icVNuR1U2QzNKUnI4X1BhS3VtZW1FUm1kM2M1eXdSVFY3cVVneDFTMGw1WFVtY1R6ZEFJaUY2S2NrcDdh?oc=5",
+        "source": "les24heures.fr",
+        "date": "2026-08-02T18:48:39.000Z"
+      },
+      {
         "title": "편의점 로또 : 위험 피하기와 보호 조치 - 톱 5 비교",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WU09SQW1QUTRsMzdhcUo0bXRYTDhHYkNhZkE4MThsUTloOW93TmhwbjQ4eFAyODZqVDM0YXJxM2FMTjNfckdWM1FjOVZrbnFyUDhuY0YxLVQtOGxwSmlMLWp1OTk4QQ?oc=5",
         "source": "les24heures.fr",
@@ -479,26 +485,20 @@
       {
         "title": "1235회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB3Smh2akNRUVQ3eTBCTjJBd0NHbE1TVGlGMm1QcjRHOURrZGt4TVVSOVJEb3Z4WExYR09sUnM0ZWJXT2d5Q3BSeU1RU3BtQkJzb2NFcGNiZm9TRnJicXBFNkRUM2F6VGk3NXg3c1VoNENmZw?oc=5",
-        "source": "톱스타뉴스",
+        "source": "topstarnews.net",
         "date": "2026-08-01T12:02:57.000Z"
       },
       {
         "title": "1235회 로또당첨번호조회 및 통계(2보)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE94dzY0UEZEeXV3UDNrTDdBbXZmQ3Bta0h4ZzZBQzg2c1Jla0p2NWoybHBLRlZCUFB6ejRYTFB5cnZ0eVVveFlueUxhRk9uR1p0cnBiVkk0Q1pNTlktT0lxdE9obmViaWg2NlU5T3Zsa0gwQQ?oc=5",
-        "source": "톱스타뉴스",
+        "source": "topstarnews.net",
         "date": "2026-08-01T11:43:31.000Z"
       },
       {
         "title": "제1235회 로또 1등 당첨번호조회(1보)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Fc1VrZUo2Y2ZTMm9sMUFqSDNUTXZhQmM3UnNDcEpDczRjZXFSbmRZZzNKbGJURDZJYlEtam0teFVGazJkOFk4enBud2gzR3hEZEpqX3lfMnlNRWVoSHhXdkFESnE2OFVVMV9kODQyMWdEdw?oc=5",
-        "source": "톱스타뉴스",
+        "source": "topstarnews.net",
         "date": "2026-08-01T11:39:48.000Z"
-      },
-      {
-        "title": "[로또당첨번호조회] 1235회 로또 1등 당첨지역·판매점·당첨금 조회...로또 판매·추첨시간?",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1LbFc3elNfQWdQTFphM1NrTUtOdFFHV0QwbFdEQjBKQ0hQaF81eklFbHBZRG1iZXlmZXd4MWV5Zi1rVDIwN2RFUjY4YXl6aWFTN0dPdU9iSXNtLTNqOWplakFTYXNrd2hmLUF3OTJrMFo?oc=5",
-        "source": "한국강사신문",
-        "date": "2026-08-01T11:39:27.000Z"
       }
     ]
   }
