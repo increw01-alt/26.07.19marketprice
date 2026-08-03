@@ -1,12 +1,57 @@
 {
-  "updatedAt": "2026-08-03T15:20:50+09:00",
+  "updatedAt": "2026-08-03T15:46:32+09:00",
   "deals": [
+    {
+      "title": "PS5 슬림 디스크 드라이브",
+      "mall": "컴퓨존",
+      "price": 99000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106110",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-03T06:23:54.000Z"
+    },
+    {
+      "title": "XBOX 무선 컨트롤러 카본블랙 + USB-C 케이블",
+      "mall": "네이버",
+      "price": 55420,
+      "cat": "기타",
+      "link": "https://shopping.naver.com/festa/onsale/play/6a431c5614fad950a99d5b9e",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-03T06:21:50.000Z"
+    },
+    {
+      "title": "김정문알로에 큐어 플러스크림 2개",
+      "mall": "토스",
+      "price": 14900,
+      "cat": "패션·뷰티",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724401",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-03T06:21:36.000Z"
+    },
+    {
+      "title": "햇감자 특 1.5kg",
+      "mall": "네이버",
+      "price": 2440,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724400",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-03T06:15:20.000Z"
+    },
     {
       "title": "Y존케어 이너 퍼퓸",
       "mall": "네이버",
       "price": 5850,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724399",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T06:07:02.000Z"
@@ -17,6 +62,7 @@
       "price": 30690,
       "cat": "건강",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724398",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T06:06:59.000Z"
@@ -24,9 +70,10 @@
     {
       "title": "립톤 아이스티 복숭아 1.5kg + 1.2kg (총 2.7kg)",
       "mall": "지마켓",
-      "price": 17200,
+      "price": 19540,
       "cat": "식품",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724397",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:52:36.000Z"
@@ -37,6 +84,7 @@
       "price": null,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724396",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:34:47.000Z"
@@ -47,6 +95,7 @@
       "price": 58900,
       "cat": "디지털·가전",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724395",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:33:23.000Z"
@@ -57,6 +106,7 @@
       "price": 15750,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724394",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:31:04.000Z"
@@ -67,6 +117,7 @@
       "price": 14950,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106109",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T05:24:25.000Z"
@@ -77,6 +128,7 @@
       "price": 8800,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724393",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:23:57.000Z"
@@ -87,6 +139,7 @@
       "price": 7980,
       "cat": "패션·뷰티",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724392",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:20:21.000Z"
@@ -97,6 +150,7 @@
       "price": null,
       "cat": "건강",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724391",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:19:30.000Z"
@@ -107,6 +161,7 @@
       "price": null,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724390",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:03:46.000Z"
@@ -117,6 +172,7 @@
       "price": 21780,
       "cat": "식품",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724389",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:01:14.000Z"
@@ -127,39 +183,10 @@
       "price": 19800,
       "cat": "기타",
       "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724388",
+      "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-03T05:01:14.000Z"
-    },
-    {
-      "title": "국내산 밤 100% 알토리 맛밤 50g 10봉",
-      "mall": "G마켓",
-      "price": 15780,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724387",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-03T05:00:08.000Z"
-    },
-    {
-      "title": "거세한우 1+원쁠 알등심 꽃등심 250g",
-      "mall": "네이버",
-      "price": 19900,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724386",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-03T04:58:44.000Z"
-    },
-    {
-      "title": "리복 하이페리엄 남여공용 샌들",
-      "mall": "자사몰",
-      "price": 45000,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724385",
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-03T04:55:55.000Z"
     },
     {
       "title": "피드코인8월3일~8월23일",
@@ -167,6 +194,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106108",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T04:51:51.000Z"
@@ -177,6 +205,7 @@
       "price": 15,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106107",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T04:18:32.000Z"
@@ -187,6 +216,7 @@
       "price": 9900,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106106",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T04:07:11.000Z"
@@ -197,26 +227,18 @@
       "price": 1,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106105",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T03:53:37.000Z"
-    },
-    {
-      "title": "크리넥스울트라클린3겹 27m 30개입",
-      "mall": "쿠팡와우",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106104",
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-03T03:41:55.000Z"
     },
     {
       "title": "민물장어 명품 국산 자포니카 홈파티 캠핑음식 손질 초벌구이 선택",
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78337",
+      "link": "https://naver.me/GbybzBE8",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T03:25:44.000Z"
@@ -227,6 +249,7 @@
       "price": 14160,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106103",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T03:17:12.000Z"
@@ -237,6 +260,7 @@
       "price": 990000,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106102",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T02:49:43.000Z"
@@ -247,6 +271,7 @@
       "price": null,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106101",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T02:42:44.000Z"
@@ -257,6 +282,7 @@
       "price": null,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106100",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T02:41:08.000Z"
@@ -266,7 +292,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78336",
+      "link": "https://naver.me/5bC2WovQ",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T02:16:42.000Z"
@@ -277,6 +304,7 @@
       "price": 14020,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106099",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T02:16:23.000Z"
@@ -287,6 +315,7 @@
       "price": null,
       "cat": "디지털·가전",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106098",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T02:06:56.000Z"
@@ -296,7 +325,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78333",
+      "link": "https://naver.me/IDkdGrTR",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T01:51:07.000Z"
@@ -306,7 +336,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78332",
+      "link": "https://naver.me/IGs7F4ps",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T01:45:47.000Z"
@@ -317,6 +348,7 @@
       "price": 10720,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106097",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T01:39:46.000Z"
@@ -327,6 +359,7 @@
       "price": 28050,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106096",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T01:35:21.000Z"
@@ -336,7 +369,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78329",
+      "link": "https://naver.me/F7FQaXs9",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T01:28:32.000Z"
@@ -347,6 +381,7 @@
       "price": 15510,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106095",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T01:07:14.000Z"
@@ -357,6 +392,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106094",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T01:06:28.000Z"
@@ -367,6 +403,7 @@
       "price": 5,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106091",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-03T00:10:26.000Z"
@@ -377,6 +414,7 @@
       "price": 2100,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106090",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T22:46:26.000Z"
@@ -387,6 +425,7 @@
       "price": 19280,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106089",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T22:19:30.000Z"
@@ -397,6 +436,7 @@
       "price": null,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106088",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T17:20:34.000Z"
@@ -407,6 +447,7 @@
       "price": 21970,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106087",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T16:13:07.000Z"
@@ -417,6 +458,7 @@
       "price": 184,
       "cat": "쿠폰·상품권",
       "link": "https://damoang.net/economy/78304",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-02T15:29:16.000Z"
@@ -427,6 +469,7 @@
       "price": 7900,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106086",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:28:20.000Z"
@@ -437,6 +480,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106085",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:22:51.000Z"
@@ -447,6 +491,7 @@
       "price": 17,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106084",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:19:15.000Z"
@@ -457,6 +502,7 @@
       "price": 5450,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106083",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:15:37.000Z"
@@ -467,6 +513,7 @@
       "price": 25770,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106082",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:12:58.000Z"
@@ -477,6 +524,7 @@
       "price": null,
       "cat": "식품",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106081",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:12:00.000Z"
@@ -487,6 +535,7 @@
       "price": 500,
       "cat": "쿠폰·상품권",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106080",
+      "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-02T15:09:10.000Z"
@@ -497,6 +546,7 @@
       "price": 70,
       "cat": "쿠폰·상품권",
       "link": "https://damoang.net/economy/78282",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-01T15:40:51.000Z"
@@ -507,6 +557,7 @@
       "price": 24180,
       "cat": "식품",
       "link": "https://damoang.net/economy/78274",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-01T02:53:58.000Z"
@@ -517,6 +568,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://damoang.net/economy/78267",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-01T00:27:14.000Z"
@@ -527,6 +579,7 @@
       "price": 1000,
       "cat": "기타",
       "link": "https://damoang.net/economy/78264",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T23:06:43.000Z"
@@ -537,6 +590,7 @@
       "price": 147,
       "cat": "쿠폰·상품권",
       "link": "https://damoang.net/economy/78250",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T15:39:12.000Z"
@@ -546,7 +600,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "기타",
-      "link": "https://damoang.net/economy/78241",
+      "link": "https://naver.me/xdMu3UIH",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T03:10:26.000Z"
@@ -557,6 +612,7 @@
       "price": 6900,
       "cat": "건강",
       "link": "https://damoang.net/economy/78239",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T02:52:13.000Z"
@@ -566,7 +622,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "건강",
-      "link": "https://damoang.net/economy/78237",
+      "link": "https://naver.me/FIcqXOtT",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T02:14:54.000Z"
@@ -576,7 +633,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "식품",
-      "link": "https://damoang.net/economy/78230",
+      "link": "https://naver.me/5T05AxRo",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T01:02:29.000Z"
@@ -587,6 +645,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://damoang.net/economy/78228",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T00:57:53.000Z"
@@ -596,7 +655,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "생활",
-      "link": "https://damoang.net/economy/78221",
+      "link": "https://naver.me/G3vZSMXP",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-31T00:11:19.000Z"
@@ -607,6 +667,7 @@
       "price": 39,
       "cat": "쿠폰·상품권",
       "link": "https://damoang.net/economy/78200",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-30T15:22:39.000Z"
@@ -617,6 +678,7 @@
       "price": null,
       "cat": "기타",
       "link": "https://damoang.net/economy/78182",
+      "direct": false,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-30T08:57:53.000Z"
@@ -626,7 +688,8 @@
       "mall": "네이버",
       "price": null,
       "cat": "기타",
-      "link": "https://damoang.net/economy/78167",
+      "link": "https://naver.me/F5sawjen",
+      "direct": true,
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-07-30T01:31:49.000Z"

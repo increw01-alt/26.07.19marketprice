@@ -66,6 +66,22 @@ function parseTitle(raw) {
   return { title: title.trim(), mall, price };
 }
 
+/** RSS 본문에서 실제 상품 판매처 링크를 뽑습니다 (있으면 커뮤니티 대신 여기로 바로 보냄).
+ *  다모앙 등은 본문에 naver.me 단축링크를 넣어줍니다. 없으면 null(→ 원문 링크 사용). */
+function extractDest(desc) {
+  if (!desc) return null;
+  // naver.me 단축링크 (영숫자로 끝나 자동으로 경계가 잡힘)
+  const nm = desc.match(/https?:\/\/naver\.me\/[A-Za-z0-9]+/i);
+  if (nm) return nm[0];
+  // 네이버 스마트스토어·쇼핑 직링크 (경로형이라 URL 문자까지만 — 뒤따르는 한글/공백 제외).
+  // 쿼리(&) 의존 몰(쿠팡·G마켓 등)은 본문에서 잘리면 깨지므로 대상에서 뺍니다.
+  const sm = desc.match(
+    /https?:\/\/(?:m\.)?(?:smartstore|shopping)\.naver\.com\/[A-Za-z0-9._~:/?#%-]+/i
+  );
+  if (sm) return sm[0].replace(/[.,)\]]+$/, '');
+  return null;
+}
+
 function parseItems(xml, src) {
   const out = [];
   for (const m of xml.matchAll(/<item>([\s\S]*?)<\/item>/g)) {
@@ -75,22 +91,24 @@ function parseItems(xml, src) {
       return r ? decode(r[1]) : '';
     };
     const rawTitle = pick(/<title>([\s\S]*?)<\/title>/);
-    const link = pick(/<link>([\s\S]*?)<\/link>/);
+    const post = pick(/<link>([\s\S]*?)<\/link>/); // 커뮤니티 원문 글
+    const desc = pick(/<description>([\s\S]*?)<\/description>/);
     // 대부분 <pubDate>, 쿨앤조이 등 일부는 <dc:date> 를 씁니다.
     const pubDate =
       pick(/<pubDate>([\s\S]*?)<\/pubDate>/) || pick(/<dc:date>([\s\S]*?)<\/dc:date>/);
-    const category = pick(/<category>([\s\S]*?)<\/category>/);
-    if (!rawTitle || !link) continue;
+    if (!rawTitle || !post) continue;
 
     const { title, mall, price } = parseTitle(rawTitle);
     if (!title) continue;
+    const dest = extractDest(desc);
     const ts = Date.parse(pubDate);
     out.push({
       title,
       mall,
       price,
       cat: classify(title),
-      link,
+      link: dest || post, // 상품 직링크가 있으면 그걸로, 없으면 커뮤니티 원문
+      direct: !!dest, // 판매처로 바로 가는지 (배지 표시용)
       source: src.name,
       sourceId: src.id,
       date: Number.isFinite(ts) ? new Date(ts).toISOString() : null,

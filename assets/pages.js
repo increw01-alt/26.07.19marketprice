@@ -313,7 +313,8 @@ function renderDeals() {
         <div class="deal-meta">
           ${d.mall ? `<span class="deal-mall">${esc(d.mall)}</span>` : ''}
           ${d.price ? `<span class="deal-price">${won(d.price)}</span>` : ''}
-          <span class="deal-src">${esc(d.source)}</span>
+          ${d.direct ? '<span class="deal-direct">판매처 바로가기 ↗</span>' : `<span class="deal-src">${esc(d.source)} 원문</span>`}
+          ${d.direct ? `<span class="deal-src">${esc(d.source)}</span>` : ''}
           <span class="deal-age">${newsAge(d.date)}</span>
         </div>
       </li>`
