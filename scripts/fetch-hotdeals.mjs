@@ -24,11 +24,12 @@ const classify = (t) => {
 };
 
 /** 수집 대상 — 각 사이트의 핫딜 게시판 RSS.
- *  (에펨코리아·클리앙·퀘이사존·아카라이브는 RSS 미제공/차단 확인됨 — 2026-08) */
+ *  - 에펨코리아·클리앙·퀘이사존·아카라이브: RSS 미제공/차단 (2026-08 확인).
+ *  - 쿨앤조이: RSS는 있으나 해외/데이터센터 IP를 차단해 GitHub Actions에서 타임아웃
+ *    (로컬 국내 IP는 정상). 국내 러너/프록시 확보 전까지 제외. */
 const SOURCES = [
   { id: 'ppomppu', name: '뽐뿌', url: 'http://www.ppomppu.co.kr/rss.php?id=ppomppu' },
   { id: 'ruliweb', name: '루리웹', url: 'https://bbs.ruliweb.com/market/board/1020/rss' },
-  { id: 'coolenjoy', name: '쿨앤조이', url: 'https://coolenjoy.net/bbs/rss.php?bo_table=jirum' },
   { id: 'damoang', name: '다모앙', url: 'https://damoang.net/rss/economy' },
 ];
 
