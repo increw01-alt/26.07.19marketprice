@@ -786,6 +786,17 @@ output {
 }
 
 /* ---------- 핫딜 피드 ---------- */
+.deal-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  margin-bottom: var(--space-md);
+}
+.seg-wrap {
+  flex-wrap: wrap;
+}
 .deal-list {
   list-style: none;
   margin: 0;

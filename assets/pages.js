@@ -253,12 +253,58 @@ function renderManualGift(data) {
 }
 
 // ---------- 핫딜 (커뮤니티 RSS) ----------
+let hotdeals = [];
+let dealUpdatedAt = null;
+let dealCat = '전체';
+let dealSort = 'new';
+// 카테고리 표시 순서 (데이터에 있는 것만 노출)
+const CAT_ORDER = ['식품', '디지털·가전', '생활', '패션·뷰티', '건강', '쿠폰·상품권', '기타'];
+
 async function pageHotdeal() {
   const data = await fetchJSON('/data/hotdeals.json');
-  $('#hotdeal-note').textContent =
-    `${data.deals.length}건 · 최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`;
+  hotdeals = data.deals;
+  dealUpdatedAt = data.updatedAt;
 
-  $('#hotdeal-list').innerHTML = data.deals
+  // 카테고리 칩 (전체 + 데이터에 실제로 있는 카테고리)
+  const present = new Set(hotdeals.map((d) => d.cat || '기타'));
+  const cats = ['전체', ...CAT_ORDER.filter((c) => present.has(c))];
+  $('#deal-cat').innerHTML = cats
+    .map(
+      (c) =>
+        `<button type="button" class="seg-btn" data-cat="${c}" aria-pressed="${c === dealCat}">${c}</button>`
+    )
+    .join('');
+
+  $('#deal-cat').addEventListener('click', (e) => {
+    const b = e.target.closest('.seg-btn');
+    if (!b) return;
+    dealCat = b.dataset.cat;
+    $$('#deal-cat .seg-btn').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.cat === dealCat)));
+    renderDeals();
+  });
+  $('#deal-sort').addEventListener('click', (e) => {
+    const b = e.target.closest('.seg-btn');
+    if (!b) return;
+    dealSort = b.dataset.sort;
+    $$('#deal-sort .seg-btn').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.sort === dealSort)));
+    renderDeals();
+  });
+
+  renderDeals();
+  setStatus(data.updatedAt);
+}
+
+function renderDeals() {
+  let list = dealCat === '전체' ? hotdeals.slice() : hotdeals.filter((d) => (d.cat || '기타') === dealCat);
+  if (dealSort === 'price') {
+    // 가격 있는 딜을 낮은 순으로, 가격 없는 딜은 뒤로.
+    list.sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+  }
+
+  $('#hotdeal-note').textContent =
+    `${list.length}건${dealCat === '전체' ? '' : ` (전체 ${hotdeals.length})`} · 최종 갱신: ${new Date(dealUpdatedAt).toLocaleString('ko-KR')}`;
+
+  $('#hotdeal-list').innerHTML = list
     .map(
       (d, i) => `<li class="deal" style="--i:${i}">
         <a class="deal-link" href="${esc(d.link)}" target="_blank" rel="noopener noreferrer nofollow">
@@ -273,8 +319,6 @@ async function pageHotdeal() {
       </li>`
     )
     .join('');
-
-  setStatus(data.updatedAt);
 }
 
 // ---------- 가격비교 (네이버 쇼핑) ----------

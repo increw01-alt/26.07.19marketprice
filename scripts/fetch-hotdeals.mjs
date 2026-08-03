@@ -7,12 +7,29 @@
 import { getText, writeJSON, nowKST } from './lib.mjs';
 
 const OUT = 'data/hotdeals.json';
-const MAX = 40; // 피드에 유지할 최신 딜 수
+const MAX = 80; // 피드에 유지할 최신 딜 수
 
-/** 수집 대상 — 각 사이트의 핫딜 게시판 RSS */
+/** 제목 키워드로 카테고리 분류 (필터용). 첫 매치 우선, 없으면 '기타'. */
+const CATS = [
+  ['건강', /루테인|유산균|프로바이오|비타민|오메가|홍삼|콜라겐|밀크씨슬|영양제|캡슐|정제|zn\b|아연|마그네슘|칼슘|글루타치온|다이어트|이너퍼퓸|프로틴|단백질|보충제|엽산|철분|눈영양|간건강/i],
+  ['식품', /라면|과자|스낵|음료|커피|우유|만두|김치|쌀\b|고기|한돈|한우|생수|삼다수|즙|밥\b|햇반|간식|피자|치킨|초콜|사탕|젤리|육수|소바|장어|쭈꾸미|볶음|두유|아이스티|콜라|사이다|펩시|\b햄\b|스팸|어묵|\b김\b|시리얼|\b빵\b|과일|견과|아몬드|양념|소스|찌개|\b떡\b|족발|해물|생선|고등어|새우|만둣|즉석|국물|반찬|간편식|도시락|차\b/i],
+  ['디지털·가전', /모니터|노트북|ssd|hdd|rtx|gtx|cpu|그래픽|\b램\b|메모리|키보드|마우스|갤럭시|아이폰|에어컨|\btv\b|이어폰|헤드셋|버즈|충전|닌텐도|플스|ps5|\bpc\b|공유기|배터리|스피커|웹캠|태블릿|스위치|카메라|드론|청소기|공기청정|전자레인지|냉장고|세탁기|건조기|선풍기|조명|파워|메인보드|그래픽카드|기계식|모뎀|허브/i],
+  ['생활', /세제|화장지|키친타올|섬유유연제|샴푸|칫솔|치약|물티슈|기저귀|주방|욕실|수납|텀블러|베개|이불|매트|커버|세탁|비누|손세정|밀폐용기|휴지|생리대|면도|쉐이빙|방향제|살충|모기|우산|수건|타월|청소|정리함/i],
+  ['패션·뷰티', /신발|운동화|스니커즈|티셔츠|자켓|바지|셔츠|원피스|화장품|크림|스킨|로션|향수|\b립\b|쿠션|파운데이션|마스카라|선크림|가방|지갑|모자|양말|구명조끼|패딩|후드|맨투맨|레깅스|속옷|앰플|세럼|토너|마스크팩/i],
+  ['쿠폰·상품권', /상품권|기프티콘|기프트|교환권|관람권|cgv|메가박스|롯데시네마|스타벅스|투썸|버거킹|맥도날드|배스킨|이디야|공차|외식|쿠폰|바우처|포인트|적립|모바일교환/i],
+];
+const classify = (t) => {
+  for (const [name, re] of CATS) if (re.test(t)) return name;
+  return '기타';
+};
+
+/** 수집 대상 — 각 사이트의 핫딜 게시판 RSS.
+ *  (에펨코리아·클리앙·퀘이사존·아카라이브는 RSS 미제공/차단 확인됨 — 2026-08) */
 const SOURCES = [
   { id: 'ppomppu', name: '뽐뿌', url: 'http://www.ppomppu.co.kr/rss.php?id=ppomppu' },
   { id: 'ruliweb', name: '루리웹', url: 'https://bbs.ruliweb.com/market/board/1020/rss' },
+  { id: 'coolenjoy', name: '쿨앤조이', url: 'https://coolenjoy.net/bbs/rss.php?bo_table=jirum' },
+  { id: 'damoang', name: '다모앙', url: 'https://damoang.net/rss/economy' },
 ];
 
 /** XML 엔티티만 풉니다. HTML 이스케이프는 렌더링(pages.js) 책임입니다. */
@@ -43,6 +60,8 @@ function parseTitle(raw) {
     const n = Number(pm[1].replace(/,/g, ''));
     if (Number.isFinite(n) && n > 0) price = n;
   }
+  // 표시용 제목: 끝에 붙은 가격/배송 괄호는 떼어냅니다 (가격은 별도 배지로 보여줌).
+  title = title.replace(/\s*\([^)]*(원|무료|만원|할인|카드|%|배송|적립)[^)]*\)\s*$/, '').trim();
   return { title: title.trim(), mall, price };
 }
 
@@ -56,7 +75,9 @@ function parseItems(xml, src) {
     };
     const rawTitle = pick(/<title>([\s\S]*?)<\/title>/);
     const link = pick(/<link>([\s\S]*?)<\/link>/);
-    const pubDate = pick(/<pubDate>([\s\S]*?)<\/pubDate>/);
+    // 대부분 <pubDate>, 쿨앤조이 등 일부는 <dc:date> 를 씁니다.
+    const pubDate =
+      pick(/<pubDate>([\s\S]*?)<\/pubDate>/) || pick(/<dc:date>([\s\S]*?)<\/dc:date>/);
     const category = pick(/<category>([\s\S]*?)<\/category>/);
     if (!rawTitle || !link) continue;
 
@@ -67,7 +88,7 @@ function parseItems(xml, src) {
       title,
       mall,
       price,
-      category: category || null,
+      cat: classify(title),
       link,
       source: src.name,
       sourceId: src.id,
