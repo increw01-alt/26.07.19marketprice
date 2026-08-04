@@ -42,26 +42,24 @@ const fetchJSON = (path) => fetch(path, { cache: 'no-store' }).then((r) => {
 });
 
 // ---------- 메뉴 정의 ----------
-// 링크에 .html 을 유지합니다. Cloudflare Pages 는 /coin.html 을 /coin 으로
-// 308 리다이렉트하지만, .html 을 빼면 로컬 정적 서버에서 404 가 나 검증이 막힙니다.
-// 리다이렉트 1회 비용보다 양쪽에서 동작하는 쪽이 낫습니다.
+// 배포 주소와 canonical 이 같은 확장자 없는 절대 경로를 사용합니다.
 const MENUS = [
-  { id: 'home', href: 'index.html', label: '홈', icon: 'layers' },
-  { id: 'coin', href: 'coin.html', label: '코인시세', icon: 'coin' },
-  { id: 'stock', href: 'stock.html', label: '주식시세', icon: 'chart' },
-  { id: 'kosdaq', href: 'kosdaq.html', label: '코스닥시세', icon: 'chart' },
-  { id: 'fx', href: 'fx.html', label: '환율시세', icon: 'fx' },
-  { id: 'metal', href: 'metal.html', label: '금·은시세', icon: 'gem' },
-  { id: 'energy', href: 'energy.html', label: '유가·원자재', icon: 'oil' },
-  { id: 'macro', href: 'macro.html', label: '지표', icon: 'gauge' },
-  { id: 'giftcard', href: 'giftcard.html', label: '상품권시세', icon: 'ticket' },
-  { id: 'hotdeal', href: 'hotdeal.html', label: '핫딜', icon: 'flame' },
-  { id: 'realestate', href: 'realestate.html', label: '부동산시세', icon: 'home' },
-  { id: 'lotto', href: 'lotto.html', label: '로또', icon: 'target' },
+  { id: 'home', href: '/', label: '홈', icon: 'layers' },
+  { id: 'coin', href: '/coin', label: '코인시세', icon: 'coin' },
+  { id: 'stock', href: '/stock', label: '주식시세', icon: 'chart' },
+  { id: 'kosdaq', href: '/kosdaq', label: '코스닥시세', icon: 'chart' },
+  { id: 'fx', href: '/fx', label: '환율시세', icon: 'fx' },
+  { id: 'metal', href: '/metal', label: '금·은시세', icon: 'gem' },
+  { id: 'energy', href: '/energy', label: '유가·원자재', icon: 'oil' },
+  { id: 'macro', href: '/macro', label: '지표', icon: 'gauge' },
+  { id: 'giftcard', href: '/giftcard', label: '상품권시세', icon: 'ticket' },
+  { id: 'hotdeal', href: '/hotdeal', label: '핫딜', icon: 'flame' },
+  { id: 'realestate', href: '/realestate', label: '부동산시세', icon: 'home' },
+  { id: 'lotto', href: '/lotto', label: '로또', icon: 'target' },
 ];
 
 const SPRITE = `
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+<svg data-icon-sprite width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
   <symbol id="i-chart" viewBox="0 0 24 24"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 5-7"/></symbol>
   <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 12L2 9Z"/><path d="M2 9h20"/><path d="m10 3-2 6 4 12 4-12-2-6"/></symbol>
   <symbol id="i-fx" viewBox="0 0 24 24"><path d="M3 8h14l-3-3"/><path d="M21 16H7l3 3"/></symbol>
@@ -87,12 +85,14 @@ const SPRITE = `
 
 /** 헤더·메뉴·푸터를 주입합니다. */
 function renderShell() {
-  const page = document.body.dataset.page || 'home';
+  const page = document.body.dataset.navPage || document.body.dataset.page || 'home';
 
-  document.body.insertAdjacentHTML('afterbegin', SPRITE + `
+  if (!$('[data-icon-sprite]')) document.body.insertAdjacentHTML('afterbegin', SPRITE);
+
+  if (!$('.site-header')) document.body.insertAdjacentHTML('afterbegin', `
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="index.html">
+    <a class="brand" href="/">
       <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
         <rect x="2" y="20" width="9" height="22" rx="2" fill="#60a5fa"/><line x1="6.5" y1="12" x2="6.5" y2="48" stroke="#60a5fa" stroke-width="2.5"/>
         <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
@@ -115,17 +115,18 @@ function renderShell() {
   ).join('')}
 </nav>`);
 
-  document.body.insertAdjacentHTML(
+  if (!$('.site-footer')) document.body.insertAdjacentHTML(
     'beforeend',
     `<footer class="site-footer wrap">
-  <p class="foot-links"><a href="about.html">모두의 시세 소개</a></p>
+  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
   <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
 </footer>`
   );
 
   // 기본은 네이비입니다. data-theme 이 없으면 네이비로 봅니다.
-  $('#theme-toggle').addEventListener('click', () => {
+  const themeToggle = $('#theme-toggle');
+  if (themeToggle && !themeToggle.dataset.bound) themeToggle.addEventListener('click', () => {
     const root = document.documentElement;
     const next = root.dataset.theme === 'light' ? 'dark' : 'light';
     root.dataset.theme = next;
@@ -133,6 +134,7 @@ function renderShell() {
       localStorage.setItem('theme', next);
     } catch (e) {}
   });
+  if (themeToggle) themeToggle.dataset.bound = 'true';
 }
 
 /** 헤더의 갱신 시각 표시 */

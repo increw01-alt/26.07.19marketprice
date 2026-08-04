@@ -38,7 +38,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=498325e">
+<link rel="stylesheet" href="assets/style.css?v=20260804-seo1">
 <script>
 if (location.host === 'www.modoosise.com' || location.host === '26-07-19marketprice.pages.dev')
   location.replace('https://modoosise.com' + location.pathname + location.search);
@@ -87,6 +87,41 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </style>
 </head>
 <body data-page="about">
+
+<!-- static-shell:header:start -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
+        <rect x="2" y="20" width="9" height="22" rx="2" fill="#60a5fa"/><line x1="6.5" y1="12" x2="6.5" y2="48" stroke="#60a5fa" stroke-width="2.5"/>
+        <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
+        <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
+      </svg>
+      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-text">대한민국 모든 시세 한눈에</span>
+    </a>
+    <p class="status" id="updated" hidden><span class="dot"></span></p>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+      <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+    </button>
+  </div>
+</header>
+
+<nav class="tabs wrap" aria-label="시세 메뉴">
+  <a class="tab" href="/"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>홈</a>
+  <a class="tab" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg>코인시세</a>
+  <a class="tab" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>주식시세</a>
+  <a class="tab" href="/kosdaq"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>코스닥시세</a>
+  <a class="tab" href="/fx"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg>환율시세</a>
+  <a class="tab" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg>금·은시세</a>
+  <a class="tab" href="/energy"><svg class="icon" aria-hidden="true"><use href="#i-oil"/></svg>유가·원자재</a>
+  <a class="tab" href="/macro"><svg class="icon" aria-hidden="true"><use href="#i-gauge"/></svg>지표</a>
+  <a class="tab" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>상품권시세</a>
+  <a class="tab" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-flame"/></svg>핫딜</a>
+  <a class="tab" href="/realestate"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>부동산시세</a>
+  <a class="tab" href="/lotto"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>로또</a>
+</nav>
+<!-- static-shell:header:end -->
 
 <main class="wrap">
 
@@ -162,13 +197,13 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     <h2>한곳에서 보는 8가지 시세</h2>
     <p class="muted">모두의 시세는 공개된 시세 정보를 한곳에 모아 보기 편하게 정리해 안내합니다. 각 분야의 믿을 수 있는 출처에서 데이터를 가져와, 누구나 쉽게 오늘의 숫자를 확인할 수 있도록 종합했습니다.</p>
     <div class="ab-cat-grid">
-      <a class="ab-cat" href="coin.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg></span><b>코인</b><span>주요 가상자산의 실시간 시세와 등락</span></a>
-      <a class="ab-cat" href="stock.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span><b>주식 · 코스닥</b><span>국내 증시 주요 지수와 종목 흐름</span></a>
-      <a class="ab-cat" href="fx.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg></span><b>환율</b><span>달러, 엔, 유로 등 주요 통화의 원화 환율</span></a>
-      <a class="ab-cat" href="metal.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg></span><b>금 · 은</b><span>국내 귀금속 시세</span></a>
-      <a class="ab-cat" href="giftcard.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg></span><b>상품권</b><span>주요 상품권 업체 시세를 한눈에 비교</span><span class="tag">업체별 비교</span></a>
-      <a class="ab-cat" href="realestate.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span><b>부동산</b><span>주요 지역 아파트 실거래 흐름</span></a>
-      <a class="ab-cat" href="lotto.html"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg></span><b>로또</b><span>최신 회차 당첨번호와 통계</span></a>
+      <a class="ab-cat" href="/coin"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg></span><b>코인</b><span>주요 가상자산의 실시간 시세와 등락</span></a>
+      <a class="ab-cat" href="/stock"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg></span><b>주식 · 코스닥</b><span>국내 증시 주요 지수와 종목 흐름</span></a>
+      <a class="ab-cat" href="/fx"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg></span><b>환율</b><span>달러, 엔, 유로 등 주요 통화의 원화 환율</span></a>
+      <a class="ab-cat" href="/metal"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg></span><b>금 · 은</b><span>국내 귀금속 시세</span></a>
+      <a class="ab-cat" href="/giftcard"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg></span><b>상품권</b><span>주요 상품권 업체 시세를 한눈에 비교</span><span class="tag">업체별 비교</span></a>
+      <a class="ab-cat" href="/realestate"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg></span><b>부동산</b><span>주요 지역 아파트 실거래 흐름</span></a>
+      <a class="ab-cat" href="/lotto"><span class="ci"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg></span><b>로또</b><span>최신 회차 당첨번호와 통계</span></a>
     </div>
     <p class="muted" style="margin-top:var(--space-lg)">특히 상품권 시세는 여러 상품권 업체가 공개하는 매입·판매 시세를 한곳에 모아 나란히 비교해 드립니다. 여기저기 흩어져 있어 일일이 찾아보기 번거로운 정보를, 모두의 시세가 대신 정리합니다.</p>
   </section>
@@ -220,7 +255,15 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 
 </main>
 
-<script src="assets/app.js?v=498325e"></script>
-<script src="assets/pages.js?v=498325e"></script>
+<!-- static-shell:footer:start -->
+<footer class="site-footer wrap">
+  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
+  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
+</footer>
+<!-- static-shell:footer:end -->
+
+<script src="assets/app.js?v=20260804-seo1"></script>
+<script src="assets/pages.js?v=20260804-seo1"></script>
 </body>
 </html>

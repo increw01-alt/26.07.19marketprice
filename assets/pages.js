@@ -4,14 +4,14 @@
 
 // ---------- 홈 대시보드 ----------
 const HOME_TILES = [
-  { id: 'kospi', href: 'stock.html', cat: '주식' },
-  { id: 'kosdaq', href: 'kosdaq.html', cat: '코스닥' },
-  { id: 'btc', href: 'coin.html', cat: '코인' },
-  { id: 'kimchi', href: 'macro.html', cat: '지표' },
-  { id: 'usdkrw', href: 'fx.html', cat: '환율' },
-  { id: 'gold_don', href: 'metal.html', cat: '금' },
-  { id: 'wti', href: 'energy.html', cat: '유가' },
-  { id: 'ust10', href: 'macro.html', cat: '금리' },
+  { id: 'kospi', href: '/stock', cat: '주식' },
+  { id: 'kosdaq', href: '/kosdaq', cat: '코스닥' },
+  { id: 'btc', href: '/coin', cat: '코인' },
+  { id: 'kimchi', href: '/macro', cat: '지표' },
+  { id: 'usdkrw', href: '/fx', cat: '환율' },
+  { id: 'gold_don', href: '/metal', cat: '금' },
+  { id: 'wti', href: '/energy', cat: '유가' },
+  { id: 'ust10', href: '/macro', cat: '금리' },
 ];
 
 async function pageHome() {
@@ -49,7 +49,7 @@ async function pageHome() {
     const rows = gift.items.filter((i) => i.card === '롯데' && i.face === 100000 && i.buy != null);
     const best = rows.sort((a, b) => b.buy - a.buy)[0];
     if (best) {
-      $('#home-gift').innerHTML = `<a class="wide-tile" href="giftcard.html">
+      $('#home-gift').innerHTML = `<a class="wide-tile" href="/giftcard">
         <span class="wt-k">상품권 · 롯데 10만원권 최고 매입가</span>
         <span class="wt-v">${won(best.buy)}</span>
         <span class="wt-m">${num(best.buyRate, 2)}% · ${best.shop}${best.method ? ` · ${best.method}` : ''} ${icon('arrow')}</span>
@@ -60,7 +60,7 @@ async function pageHome() {
   // 로또 요약 — 최신 회차
   if (lotto && lotto.rounds.length) {
     const r = lotto.rounds.at(-1);
-    $('#home-lotto').innerHTML = `<a class="wide-tile" href="lotto.html">
+    $('#home-lotto').innerHTML = `<a class="wide-tile" href="/lotto">
       <span class="wt-k">로또 ${r.round}회 · ${r.date}</span>
       <span class="wt-v">${r.numbers.join(' · ')} <b>+${r.bonus}</b></span>
       <span class="wt-m">총 판매 ${compactWon(r.sales)} · 1등 ${r.firstWinners}명 ${icon('arrow')}</span>
@@ -103,7 +103,10 @@ async function renderExtra(path, mount) {
   } catch (err) {
     console.error(err); // 부가 섹션이므로 실패해도 페이지를 막지 않습니다.
     const el = $(mount);
-    if (el) el.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다.</p>';
+    // 빌드 시 넣은 정적 스냅샷이 있으면 장애 중에도 그대로 보존합니다.
+    if (el && !el.children.length) {
+      el.innerHTML = '<p class="empty">데이터를 불러오지 못했습니다.</p>';
+    }
   }
   return null;
 }
@@ -178,6 +181,12 @@ async function pageGiftcard() {
 
   if (manual.status === 'fulfilled') renderManualGift(manual.value);
   else console.error(manual.reason);
+}
+
+/** 브랜드 상세의 시각은 정적 가격표와 같은 스냅샷을 사용합니다. */
+async function pageGiftcardBrand() {
+  const snapshot = $('time[datetime]');
+  if (snapshot) setStatus(snapshot.dateTime);
 }
 
 function renderDept() {
@@ -1070,6 +1079,7 @@ const ROUTES = {
   energy: pageEnergy,
   macro: pageMacro,
   giftcard: pageGiftcard,
+  'giftcard-brand': pageGiftcardBrand,
   hotdeal: pageHotdeal,
   shopping: pageShopping,
   realestate: pageRealestate,
@@ -1088,4 +1098,6 @@ renderShell();
   setStatus(null);
 });
 // 실시간 데이터가 있는 메뉴 페이지에만 관련 뉴스를 붙입니다.
-if (PAGE && PAGE !== 'home' && PAGE !== 'about') renderNews(PAGE);
+if (PAGE && PAGE !== 'home' && PAGE !== 'about') {
+  renderNews(PAGE === 'giftcard-brand' ? 'giftcard' : PAGE);
+}

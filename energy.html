@@ -30,7 +30,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=498325e">
+<link rel="stylesheet" href="assets/style.css?v=20260804-seo1">
 <script>
 if (location.host === 'www.modoosise.com' || location.host === '26-07-19marketprice.pages.dev')
   location.replace('https://modoosise.com' + location.pathname + location.search);
@@ -47,6 +47,41 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </head>
 <body data-page="energy">
 
+<!-- static-shell:header:start -->
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
+        <rect x="2" y="20" width="9" height="22" rx="2" fill="#60a5fa"/><line x1="6.5" y1="12" x2="6.5" y2="48" stroke="#60a5fa" stroke-width="2.5"/>
+        <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
+        <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
+      </svg>
+      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-text">대한민국 모든 시세 한눈에</span>
+    </a>
+    <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 8. 4. 16:34:13</p>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+      <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+    </button>
+  </div>
+</header>
+
+<nav class="tabs wrap" aria-label="시세 메뉴">
+  <a class="tab" href="/"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>홈</a>
+  <a class="tab" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg>코인시세</a>
+  <a class="tab" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>주식시세</a>
+  <a class="tab" href="/kosdaq"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>코스닥시세</a>
+  <a class="tab" href="/fx"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg>환율시세</a>
+  <a class="tab" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg>금·은시세</a>
+  <a class="tab" href="/energy" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-oil"/></svg>유가·원자재</a>
+  <a class="tab" href="/macro"><svg class="icon" aria-hidden="true"><use href="#i-gauge"/></svg>지표</a>
+  <a class="tab" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>상품권시세</a>
+  <a class="tab" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-flame"/></svg>핫딜</a>
+  <a class="tab" href="/realestate"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>부동산시세</a>
+  <a class="tab" href="/lotto"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>로또</a>
+</nav>
+<!-- static-shell:header:end -->
+
 <main class="wrap">
   <div class="page-head">
     <h1>유가·원자재시세</h1>
@@ -54,15 +89,151 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   </div>
   <section class="panel">
     <h2>국제 유가·원자재 <span class="tag">선물</span></h2>
-    <div class="grid" id="grid-energy"></div>
+    <div class="grid" id="grid-energy">
+      <!-- prerender:grid-energy:start -->
+        <article class="card" style="--i:0">
+
+          <div class="name">WTI 원유</div>
+          <div class="price">80.82<span class="unit">USD/bbl</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>4.55%(-3.85)</div>
+
+
+          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,3.8147225372449363 2.564102564102564,2.978848761772472 5.128205128205128,6.388331027947984 7.6923076923076925,4.375638606802813 10.256410256410255,6.927245782048459 12.82051282051282,10.039769026851985 15.384615384615385,14.582067307785403 17.94871794871795,19.751268822562352 20.51282051282051,18.93739636254729 23.076923076923077,19.146366904176222 25.64102564102564,21.10406442772117 28.205128205128204,22.874792725094576 30.76923076923077,26.03131020976963 33.33333333333333,24.293575494539045 35.8974358974359,27.25211470427059 38.46153846153847,25.580375544368934 41.02564102564102,26.955164073941873 43.58974358974359,27.967006417857174 46.15384615384615,27.84602435597129 48.717948717948715,28 51.28205128205128,25.921320414569173 53.84615384615385,22.533847854894333 56.41025641025641,24.117598535052938 58.97435897435898,24.854483173053648 61.53846153846154,17.45262642881717 64.1025641025641,16.13283279684445 66.66666666666666,15.846874433201164 69.23076923076923,16.561766146787747 71.7948717948718,12.668364024111986 74.35897435897436,11.854483173053652 76.92307692307693,10.006767053665886 79.48717948717949,7.8950938860922335 82.05128205128204,2 84.61538461538461,5.16751814240375 87.17948717948718,12.536381304497406 89.74358974358975,16.220812885544234 92.3076923076923,10.501695958938107 94.87179487179486,11.458551796296451 97.43589743589743,10.270732492895046 100,14.505079485771049" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:1">
+
+          <div class="name">브렌트유</div>
+          <div class="price">84.83<span class="unit">USD/bbl</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>5.87%(-5.29)</div>
+
+
+          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,8.785719095256596 2.564102564102564,7.750001637490087 5.128205128205128,10.25000412647502 7.6923076923076925,8.77678861732171 10.256410256410255,11.20536090674507 12.82051282051282,13.928570848432084 15.384615384615385,17.642859482128696 17.94871794871795,21.40178688158222 20.51282051282051,20.874997674764078 23.076923076923077,20.607144644346324 25.64102564102564,22.348213183917384 28.205128205128204,23.080355699526596 30.76923076923077,26.062501817613995 33.33333333333333,24.705355273779173 35.8974358974359,27.62500167023989 38.46153846153847,26.589284212473377 41.02564102564102,26.794644333223207 43.58974358974359,28 46.15384615384615,27.79463987925017 48.717948717948715,27.62500167023989 51.28205128205128,25.687496675895126 53.84615384615385,22.241074696533786 56.41025641025641,23.77678311535502 58.97435897435898,24.035712479796647 61.53846153846154,17.52678370485145 64.1025641025641,16.249997838513085 66.66666666666666,16.053575007656903 69.23076923076923,16.696426367834768 71.7948717948718,13.241073910538544 74.35897435897436,12.241071552552821 76.92307692307693,10.642856600146143 79.48717948717949,7.910716180524243 82.05128205128204,2 84.61538461538461,5.491074369035772 87.17948717948718,13.008929167942815 89.74358974358975,16.821432623046903 92.3076923076923,10.883931820676757 94.87179487179486,12.410716573521864 97.43589743589743,11.437498837382037 100,16.1607134950405" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:2">
+
+          <div class="name">천연가스</div>
+          <div class="price">2.76<span class="unit">USD/MMBtu</span></div>
+          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>0.58%(+0.02)</div>
+
+
+          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,6.352416972742208 2.564102564102564,9.483107815963262 5.128205128205128,9.75036069125284 7.6923076923076925,8.032305192588648 10.256410256410255,11.773863651879463 12.82051282051282,10.51395203830382 15.384615384615385,9.483107815963262 17.94871794871795,5.970625850525902 20.51282051282051,9.55946968145387 23.076923076923077,6.199702344379361 25.64102564102564,5.4361200999467485 28.205128205128204,9.483107815963262 30.76923076923077,6.657855332086275 33.33333333333333,2 35.8974358974359,6.276064209869968 38.46153846153847,8.185019820951496 41.02564102564102,4.596175990023529 43.58974358974359,6.696031713522395 46.15384615384615,7.6123285863178545 48.717948717948715,5.741558459290815 51.28205128205128,4.977967112239835 53.84615384615385,7.001470072866461 56.41025641025641,14.63729251719257 58.97435897435898,17.386192238197317 61.53846153846154,19.02789497398927 64.1025641025641,18.76064209869969 66.66666666666666,17.99705985426708 69.23076923076923,20.51688308141837 71.7948717948718,18.493389223410112 74.35897435897436,20.44053031854613 76.92307692307693,20.249630206128792 79.48717948717949,17.958883472830962 82.05128205128204,18.302498213611145 84.61538461538461,20.020553712275337 87.17948717948718,23.991188665419607 89.74358974358975,28 92.3076923076923,25.59471501977544 94.87179487179486,24.334803406199793 97.43589743589743,24.75477090985222 100,24.143903293782458" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:3">
+
+          <div class="name">구리</div>
+          <div class="price">6.62<span class="unit">USD/lb</span></div>
+          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>2.78%(+0.18)</div>
+
+
+          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,15.59968664983545 2.564102564102564,13.046115550711495 5.128205128205128,14.09077504495184 7.6923076923076925,16.16070407284256 10.256410256410255,15.773808864914574 12.82051282051282,9.138383550251689 15.384615384615385,7.1264768116620765 17.94871794871795,6.874997693867677 20.51282051282051,7.1651644875490135 23.076923076923077,11.305059441447657 25.64102564102564,12.001474505529751 28.205128205128204,20.33928670262814 30.76923076923077,28 33.33333333333333,23.066961567772616 35.8974358974359,20.31993364015537 38.46153846153847,22.022320522590874 41.02564102564102,18.346714577452694 43.58974358974359,21.016367153296066 46.15384615384615,21.364574685337114 48.717948717948715,18.90773200045981 51.28205128205128,19.15921111825421 53.84615384615385,23.686001280080834 56.41025641025641,17.476177298291475 58.97435897435898,16.76040917173661 61.53846153846154,16.77976223420938 64.1025641025641,13.026780937297328 66.66666666666666,14.438982576992888 69.23076923076923,14.342254162746244 71.7948717948718,17.282738918856783 74.35897435897436,14.226191135085427 76.92307692307693,6.023795028120624 79.48717948717949,8.345221622864344 82.05128205128204,13.994046630705196 84.61538461538461,13.413676145225311 87.17948717948718,12.67855495619768 89.74358974358975,13.336300793451436 92.3076923076923,15.212791441907461 94.87179487179486,8.596719189717348 97.43589743589743,8.925592108344226 100,2" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:4">
+
+          <div class="name">팔라듐</div>
+          <div class="price">1,291.00<span class="unit">USD/oz</span></div>
+          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>1.21%(+15.40)</div>
+
+
+          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,16.53649344514959 2.564102564102564,22.709149566261416 5.128205128205128,21.012341899793185 7.6923076923076925,18.714284549321494 10.256410256410255,18.206586152106155 12.82051282051282,12.64852088525452 15.384615384615385,3.215824228764564 17.94871794871795,2 20.51282051282051,2.908536956384008 23.076923076923077,12.875646969600977 25.64102564102564,15.200419279584333 28.205128205128204,18.72765833857642 30.76923076923077,28 33.33333333333333,25.474832874680946 35.8974358974359,21.62693275405338 38.46153846153847,21.439879108974427 41.02564102564102,22.82939950306211 43.58974358974359,21.119218047338947 46.15384615384615,14.559097156313378 48.717948717948715,14.759508281148165 51.28205128205128,13.396719156071242 53.84615384615385,21.03905685930485 56.41025641025641,16.96403065433083 58.97435897435898,13.971221261564848 61.53846153846154,17.124369339898116 64.1025641025641,9.655711492488535 66.66666666666666,11.713268969358843 69.23076923076923,14.345328551722751 71.7948717948718,16.950673174574995 74.35897435897436,14.679347093114066 76.92307692307693,12.20760988681835 79.48717948717949,9.08119307749584 82.05128205128204,15.440902843686624 84.61538461538461,16.589939673672013 87.17948717948718,10.858178241497264 89.74358974358975,13.944506302053178 92.3076923076923,16.723547090228543 94.87179487179486,9.174728054784861 97.43589743589743,12.728682073288615 100,10.671124596418306" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:5">
+
+          <div class="name">밀</div>
+          <div class="price">648.75<span class="unit">USc/bu</span></div>
+          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>1.49%(+9.50)</div>
+
+
+          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,25.996330275229358 2.564102564102564,25.376146788990827 5.128205128205128,24.994495412844035 7.6923076923076925,24.5651376146789 10.256410256410255,24.708256880733945 12.82051282051282,25.137614678899084 15.384615384615385,24.13577981651376 17.94871794871795,22.943119266055046 20.51282051282051,19.746788990825685 23.076923076923077,21.08256880733945 25.64102564102564,22.656880733944952 28.205128205128204,24.708256880733945 30.76923076923077,24.89908256880734 33.33333333333333,23.897247706422018 35.8974358974359,26.3302752293578 38.46153846153847,28 41.02564102564102,25.853211009174313 43.58974358974359,23.706422018348626 46.15384615384615,23.992660550458716 48.717948717948715,21.0348623853211 51.28205128205128,20.414678899082567 53.84615384615385,22.275229357798164 56.41025641025641,20.03302752293578 58.97435897435898,16.073394495412842 61.53846153846154,17.027522935779814 64.1025641025641,16.216513761467887 66.66666666666666,7.390825688073392 69.23076923076923,7.915596330275228 71.7948717948718,6.388990825688072 74.35897435897436,8.058715596330273 76.92307692307693,7.295412844036697 79.48717948717949,2 82.05128205128204,3.8128440366972463 84.61538461538461,7.295412844036697 87.17948717948718,10.730275229357797 89.74358974358975,10.253211009174311 92.3076923076923,10.587155963302752 94.87179487179486,10.062385321100916 97.43589743589743,14.689908256880734 100,12.877064220183486" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
+        </svg></span>
+        </article>
+        <article class="card" style="--i:6">
+
+          <div class="name">옥수수</div>
+          <div class="price">472.00<span class="unit">USc/bu</span></div>
+          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>7.09%(+31.25)</div>
+
+
+          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+          <polyline points="0,22.242857142857144 2.564102564102564,21.77857142857143 5.128205128205128,21.5 7.6923076923076925,21.685714285714287 10.256410256410255,24.37857142857143 12.82051282051282,24.007142857142856 15.384615384615385,22.985714285714288 17.94871794871795,23.635714285714286 20.51282051282051,20.942857142857143 23.076923076923077,22.242857142857144 25.64102564102564,24.47142857142857 28.205128205128204,25.12142857142857 30.76923076923077,26.142857142857142 33.33333333333333,23.264285714285712 35.8974358974359,24.007142857142856 38.46153846153847,28 41.02564102564102,24.007142857142856 43.58974358974359,20.942857142857143 46.15384615384615,19.457142857142856 48.717948717948715,13.607142857142856 51.28205128205128,12.957142857142856 53.84615384615385,15.835714285714285 56.41025641025641,18.435714285714283 58.97435897435898,14.62857142857143 61.53846153846154,14.721428571428572 64.1025641025641,16.207142857142856 66.66666666666666,11.099999999999998 69.23076923076923,13.32857142857143 71.7948717948718,12.12142857142857 74.35897435897436,10.357142857142858 76.92307692307693,9.150000000000002 79.48717948717949,5.714285714285715 82.05128205128204,4.9714285714285715 84.61538461538461,4.87857142857143 87.17948717948718,9.521428571428572 89.74358974358975,7.0142857142857125 92.3076923076923,10.542857142857144 94.87179487179486,11.75 97.43589743589743,13.607142857142856 100,2" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
+        </svg></span>
+        </article>
+      <!-- prerender:grid-energy:end -->
+    </div>
   </section>
   <section class="panel">
     <h2>국내 주유소 기름값 <span class="tag">전국 평균</span></h2>
-    <div class="grid" id="grid-oil"></div>
+    <div class="grid" id="grid-oil">
+      <!-- prerender:grid-oil:start -->
+        <article class="card" style="--i:0">
+
+          <div class="name">고급 휘발유</div>
+          <div class="price">2,341<span class="unit">원/L</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.03%(-0.75)</div>
+
+          <div class="memo">전국 주유소 평균 판매가 (오피넷)</div>
+          <span class="down"></span>
+        </article>
+        <article class="card" style="--i:1">
+
+          <div class="name">휘발유</div>
+          <div class="price">1,866<span class="unit">원/L</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.02%(-0.44)</div>
+
+          <div class="memo">전국 주유소 평균 판매가 (오피넷)</div>
+          <span class="down"></span>
+        </article>
+        <article class="card" style="--i:2">
+
+          <div class="name">경유</div>
+          <div class="price">1,849<span class="unit">원/L</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.03%(-0.54)</div>
+
+          <div class="memo">전국 주유소 평균 판매가 (오피넷)</div>
+          <span class="down"></span>
+        </article>
+        <article class="card" style="--i:3">
+
+          <div class="name">실내등유</div>
+          <div class="price">1,586<span class="unit">원/L</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.03%(-0.52)</div>
+
+          <div class="memo">전국 주유소 평균 판매가 (오피넷)</div>
+          <span class="down"></span>
+        </article>
+        <article class="card" style="--i:4">
+
+          <div class="name">LPG (부탄)</div>
+          <div class="price">1,102<span class="unit">원/L</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.14%(-1.59)</div>
+
+          <div class="memo">전국 주유소 평균 판매가 (오피넷)</div>
+          <span class="down"></span>
+        </article>
+      <!-- prerender:grid-oil:end -->
+    </div>
   </section>
 </main>
 
-<script src="assets/app.js?v=498325e"></script>
-<script src="assets/pages.js?v=498325e"></script>
+<!-- static-shell:footer:start -->
+<footer class="site-footer wrap">
+  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
+  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
+</footer>
+<!-- static-shell:footer:end -->
+
+<script src="assets/app.js?v=20260804-seo1"></script>
+<script src="assets/pages.js?v=20260804-seo1"></script>
 </body>
 </html>
