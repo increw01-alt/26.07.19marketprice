@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T19:32:54+09:00",
+  "updatedAt": "2026-08-04T21:57:27+09:00",
   "topics": {
     "coin": [
       {
@@ -53,10 +53,22 @@
     ],
     "stock": [
       {
+        "title": "코스피, 롤러코스터 장세 끝에 1.6%↑ ...코스닥은 사상 첫 '3일 연속 매수 사이드카'",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3Z01ScU5Ob3AyMnJTYl9qaWk5MHpCQzF3V2Y0ck9DNGxZM3dGUzNzc3draEk5Y0dqNUhySUxWS3BvbXJISzAxYkV3c3VPUTRQMEt6SXB0ZXNlZlhic2hvTjJyNmFTZ2VHOVN5Sw?oc=5",
+        "source": "프리진경제",
+        "date": "2026-08-04T10:54:11.000Z"
+      },
+      {
         "title": "코스피 1.6% 반등…순환매 확산에 6350선 회복",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YV2pkd21DckxZdDhMX1ZmNHU0YV9saDRuUGtmMng0NVFyc0hMWmxNMjBGbXc1WWhLQnZRTmNxSE5Vck1VLURySU1JTXU2UkJyREllZVVnV3VJNWFPR1NmZmItdXNWMEkxTkpwYWQ3Mlo?oc=5",
         "source": "코리아리포트",
         "date": "2026-08-04T09:53:50.000Z"
+      },
+      {
+        "title": "코스피 6300 탈환했지만 외국인은 팔았다… 코스닥 3일간 21% 폭등",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMajVJbF96NFVPc1dBNXRzT1RBUUdvN2kxYWZXRExEWEt1Q0dSRzFyNHoxMXpfY3pTYjduNm52SGt4bXpjWmMxdldyb044eUlwV0pfeEd1M0lQUQ?oc=5",
+        "source": "경북매일",
+        "date": "2026-08-04T09:52:00.000Z"
       },
       {
         "title": "[마감시황] 코스피 변동성 끝 6300선 회복…코스닥 3거래일째 매수 사이드카",
@@ -87,18 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9HaERVeWY5ZEhYdENvcmNRTUxhSjlYaXEwZF9xRUE4ZXJ2ZVJqZmlGZlFrak15SWhpbmcwa0Z4cFQ0WlJTUjlNdFRBS0ZwVFlWZUdwN2RWSVBCa2hsNDNSelRiZjY2ZmpkTUx6cXdtX1lEVWhKY1E?oc=5",
         "source": "인포스탁데일리",
         "date": "2026-08-04T08:09:59.000Z"
-      },
-      {
-        "title": "코스피, 혼조 끝에 반등… 코스닥 ‘3거래일 연속 매수 사이드카’",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB0Q1dnX1d4UTcwcHVpRmxRT294bmh5NkZzX3QxVGVLXzlXdGJZWm9zLW55RFlaOXNKN1FraGtnZUdKQzEyZGI0cXcxdjdXSXJvLTIwel9adDNUaXc1c2xPYWE4LVhHSFkzZ0E?oc=5",
-        "source": "천지일보",
-        "date": "2026-08-04T08:00:00.000Z"
-      },
-      {
-        "title": "788종목 올랐지만 삼전·닉스 출렁…코스피 1%대 반등 마감",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5ZOUZxSWVVTExrRnB2aUk5ekJ4T0RzTmtyOUdTOS01ZUd3OU9kVXhYUjgtNU1SZVJYbFg2S3VsMVRtNTJDUVp6U0x5MUhVMy11VzZmVmdKOWxSRHJjeFUwY1hmLTdiU0k?oc=5",
-        "source": "한겨레",
-        "date": "2026-08-04T07:54:00.000Z"
       }
     ],
     "kosdaq": [
@@ -107,12 +107,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBMajVJbF96NFVPc1dBNXRzT1RBUUdvN2kxYWZXRExEWEt1Q0dSRzFyNHoxMXpfY3pTYjduNm52SGt4bXpjWmMxdldyb044eUlwV0pfeEd1M0lQUQ?oc=5",
         "source": "경북매일",
         "date": "2026-08-04T09:52:00.000Z"
-      },
-      {
-        "title": "코스닥, 사상 첫 사흘 연속 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFA2d2lVX1JuaWV2UWFrQTV2eFVWS0gtQ2E0d3NERXNNUXRRdE41TnlxcnJFZHhkYXJPU3pnelpoczU4alpWUm1DT3dIZjY5Z0RH?oc=5",
-        "source": "블루밍비트",
-        "date": "2026-08-04T09:38:01.000Z"
       },
       {
         "title": "반도체 떠난 돈, 바이오·로봇으로 이동… 코스닥이 뛴다",
@@ -139,19 +133,37 @@
         "date": "2026-08-04T09:03:00.000Z"
       },
       {
+        "title": "3년 연속 흑자인데도 상폐 위기?…7월에만 21% 떨어진 코스닥, 시총 미달 기업 ‘속출’ [투자360]",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmZ3M0WTYxM1dwWlotVzNaVEZXWGRlcEJKbjg5eE9LcmVMNHhQNWMwU1Z5T0l4eWxxNVVxczViVHlHZl8tcGdOS2llUlBzMFU?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-04T09:01:43.000Z"
+      },
+      {
+        "title": "코스닥社 무자본 인수 뒤 시세조종…57억원 챙긴 3명 기소",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBNeTI5NldvckZhS19jN2duby1MMVZ1NFp4RjdKTWVsbm8zRjh5TEVCeGpvSE0xVnVxcWxGZmlHeC02U1Q0WFFqRmx1OGFMMW51ajNGZmZB?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-08-04T09:00:36.000Z"
+      },
+      {
         "title": "\"정책펀드 1조시대\"… 코스닥 반등 선봉에 바이오株",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sOUxuX29VanlidEJpc25Lc1N3eGg2NWZrNU1tVVdGbWt3UWVza2VmbUFaTE5ESWVlOHZFOHUzT3BDN0g0YWFJY1cwX29yYTg?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-04T09:00:02.000Z"
-      },
-      {
-        "title": "코스닥, 사상 첫 사흘 연속 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAwTUc0VGlKXzJYQkdGdmxPSC1DUmxObjViSW15TU5Ocm43T0V1NXVoRW5VeklHYmZfY2hMblhObWJIaVZNTzR6V0lINFhWN0Z3UURLNFhKT3Q2UQ?oc=5",
-        "source": "한국경제",
-        "date": "2026-08-04T08:54:17.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "한국은행 “올 3월 환율 급등 원인 33%는 NDF 탓”",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1KY2tNN2dJaW5BVkFyX2dWQjVQZHFLNHFTRnBOZ1l4MWtCYlNyZk9kT1JxM0tIZ3NPYXloTFJvWW8yT09qZ0wyb1hHSENXOE0?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-04T10:55:00.000Z"
+      },
+      {
+        "title": "유가 하락에도 저가매수 수요에...원·달러 환율, 2.7원 오른 1432.5원 마감",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1TTDhydjRjQzlIeE1PVHBVTUt1RnNBZ1VxNEtmekNzSF9KOHdBVXM5SUlQTnpVQVBwdEpYUmdqVXB2TEx4ZWNnVUljRWo0MTZsTmgzVHV4cVJ5a21lTnhGd0tPdFY?oc=5",
+        "source": "베타뉴스",
+        "date": "2026-08-04T10:43:07.000Z"
+      },
       {
         "title": "한달 새 100원 넘게 급락… 원·달러 환율 1300원대 안착할까",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NQXZuU2FrRTJNbW9tVmVKSmk3cm1aaXlpX3BIOHR4ckhSanN6MEJXcFRKWldwSFYyTVhXX3BnWDg3czFsOTNOS25mQnlnbmhWbDY2dERTWGs1Zw?oc=5",
@@ -177,28 +189,16 @@
         "date": "2026-08-04T08:35:00.000Z"
       },
       {
+        "title": "유가 급락에도 달러 매수세 유입…저가매수에 1430원대 복귀 [김혜란의 FX]",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBreEdRTWs4YTdCM0NhYUEzLUNzQ013MHk2aVcxZ0VLTE91UndlZE51MUZCMkVEQm1Cb3hkODFVS3hnNE9SQkUwamxCbFA2cEp3MUHSAVNBVV95cUxPVjlmcHo4Y29HNm5RQjRoVVV6SHliWXVUWVVuVUxhY1M1M2t0MUZyMjRlT2lFMlJMMWJUb240ZkZSMnJNOFl3bHFKdzB6a3gzbnl0bw?oc=5",
+        "source": "서울경제",
+        "date": "2026-08-04T08:12:22.000Z"
+      },
+      {
         "title": "환율 1432.5원 마감…외국인 3705억 순매도에 1430원대",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5uWDBOX3ZrbVdaZGRWM3dYaTYxTzh1Wk9qR2dGZXMxaG5mUUtRQ0VaZndnSU1Nc0VBQ2V5S0ZPUm1JLVMxT05meWtDbnp6allrZkFOZENGNFlwSjhMWkE3eTNYQmZvdGdJMnc?oc=5",
         "source": "컨슈머타임스",
         "date": "2026-08-04T07:44:29.000Z"
-      },
-      {
-        "title": "한국은행 \"3월 환율 급등 요소 1/3은 NDF…'야간 영향' 더욱 커\"",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XTmF4dzctMkZBMklyTjFqUlpIYkhYQ0xUMzJTNkM4R2VnX191YVVWMTMwSTFGQzVfNlZYZ3pkODNZTHpNanFRb3F4UUxrMm9FQ3I4T2pwZVNXLWNtSG01OFkwNVRnVURXaXBxMEpVSmdjSGwy?oc=5",
-        "source": "파이낸셜포스트",
-        "date": "2026-08-04T07:24:48.000Z"
-      },
-      {
-        "title": "환율, 중동 리스크 완화·저가매수 교차에 1,430원대 정체",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpQkFnYmluVlJkaTZmNVJLTFZkRGF2U244SGxNd3BpcUpoUU1rMXRkUEQ2MXB5bzVJU0x3Wml3WFMxVkRHVXdCbW5qWWozNUJnelVDalgzRjJ3ZFhma2laa2JndzhuZUppaEJLTWF5cC1GRkZw?oc=5",
-        "source": "연합뉴스 한민족센터",
-        "date": "2026-08-04T07:04:32.000Z"
-      },
-      {
-        "title": "[환율마감] 원·달러 이틀째 상승, 반발 매수+결제 수요",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94RDh1dlR6Ty1RelFFc2JjX1BNTEdjWGc2bWo0aC1keTlmd3VQa3hEU2JHblFUam5NOFBVdVM4eGFiZDduT0Z5X3NvbGQ1MFJHcnRrSGpYaFduQkhPWGNwQg?oc=5",
-        "source": "네이트",
-        "date": "2026-08-04T06:57:00.000Z"
       }
     ],
     "metal": [
@@ -206,7 +206,7 @@
         "title": "[오늘의 금값시세] 8월 3일 금시세(순금·24k)는?",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xS3plV2JCZlNBNUd5Q1JXdmZOaFJKLXA3aFFSVEc2NlJObThmS2JOOWtpR3hVVEpTRGFXUmtvOHlXYlZ3bDN4MFZpeWkzRVhlMUVQbTJhcmxNSGRjcFZXU1Z6eEU1UWlFeXc?oc=5",
         "source": "금강일보",
-        "date": "2026-08-04T09:01:28.000Z"
+        "date": "2026-08-04T12:02:19.000Z"
       },
       {
         "title": "오늘 금값, 8월 4일 한국거래소 금 시세 전 거래일과 비교",
@@ -235,7 +235,7 @@
       {
         "title": "[금 시세] 국제 금값 상승 흐름… 중동 정세·유가 변수 주목",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iejRoVzU1bzJGSWhZRGlPQ2VXU2VyaWtiUTV6UDlzZlhiaU1TVjBvdlpMOTV4anlzWTJSSTQ1MFI2UzZ1ekwybmZGQmJqYW5ZRFBuajBxRWVleFV6VTVHQ0g3alNySVRabXFEZQ?oc=5",
-        "source": "센머니",
+        "source": "senmoney.co.kr",
         "date": "2026-08-04T03:00:40.000Z"
       },
       {
@@ -274,7 +274,7 @@
         "title": "[EBN 데이터센터] 금·은 동반 약세…WTI 86달러대로 급등",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zSTR6OG1vWlkxX3dlWW5wV29uVVBIZ0F4WFh6eE5UYUhTUHNmMVc0NFQ5VnhHZFJrS0FrMGN5OGlaNllKamtseGt1M1pQVE1HbGRQaVptTXBabXpUbmZjak1oTUNyYnBm?oc=5",
         "source": "ebn.co.kr",
-        "date": "2026-07-22T23:01:00.000Z"
+        "date": "2026-07-23T07:00:00.000Z"
       },
       {
         "title": "국제유가 6월중 20% 급락...WTI 60달러대 마감",
@@ -329,7 +329,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "goodkyung.com",
+        "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -373,7 +373,7 @@
       {
         "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
-        "source": "이투데이",
+        "source": "etoday.co.kr",
         "date": "2026-07-01T23:56:00.000Z"
       },
       {
@@ -429,7 +429,7 @@
       {
         "title": "[아파트값 상승 톱10] 서울 양천구 ‘목동트라팰리스이스턴에비뉴’ 등",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE80R0pGTC1Cc2RubEhvQzR1TnFRSExVRF82NUZrSVozUDdaaG5NS01CTU1zMkJmUnpZdHdBdnBZc3oxWEJqVkljdGl2TTJOZi1BakEtYg?oc=5",
-        "source": "이투데이",
+        "source": "etoday.co.kr",
         "date": "2026-08-03T23:30:00.000Z"
       },
       {
