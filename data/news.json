@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-04T13:09:13+09:00",
+  "updatedAt": "2026-08-04T16:34:26+09:00",
   "topics": {
     "coin": [
       {
@@ -7,12 +7,6 @@
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT1dueWFGY0ZXSWY1OFpMWmhMTXpXRmpwbmZjYzY0V0xVdmUyQTRPLVkzaUcxSEpycHhoYjV5bEFjQm5HRGdyWjZ0b0tXWE9zY2l1SFpwS3g3UnY4MXVNMWhKZjdwYUJ0RVZRcjVya0NhNXVGREdFMzdGNlJmSm9hWGk3ZVlweXktQ3dPRXh1S0NlX0kxc3dmNlRhNF8yQQ?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-03T15:17:13.000Z"
-      },
-      {
-        "title": "비트코인(BTC) 및 이더(ETH) 가격 하락, Coldcard 익스플로잇 사태 5일째 지속: 오늘의 암호화폐 시장",
-        "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeGFtSFI1QWtkR2x5d2ZrWkMwb0ExaDUxN1JQVldXSnFSLVdtVGpnRHJKVzJXSGx5TEZ5Rmt6Y0s3YXdwWWJkcWhLb1ZxMnNZTmhNR3VBcjRaSjRUOFZQcElGcHUzMXE1UTkwbWo0UXhfUmlxaFdoVFRrUnA3alZwVTFsa1hXejY1WDJ2VExBcEtfd3pBbG5aOHA5aEpiZGFGU2ZGeFZSLXdvVEE?oc=5",
-        "source": "coindesk.com",
-        "date": "2026-08-02T18:51:00.000Z"
       },
       {
         "title": "2026년 8월 2일 오늘 비트코인 ​​가격: 암호화폐 시장에 대규모 해고 사태가 발생했습니다.",
@@ -35,13 +29,13 @@
       {
         "title": "BTC, ETH 가격 소식: 코스피 17% 사상 최고치 급등 속 암호화폐는 영향 없이 비트코인 64,000달러 기록",
         "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxObjZXdHpwRnJzclhXcGZHRWYtVUxvYTZZSHpub0NoTUtOOGxFckxOanF1VUx4U2I3d2ZOQTZsSWxfSjRRRVdMVFZvWl9QVlN2a09hUkh0MDc1b1JISW1UckJtbWpPVTJxNjdaa3lYaXlodC1YdUVtc2RZTFd4bkNjR2dDZXAtc3E4bFRKNzZ2YUVGbTJRajZWNzhwcFhpUkZJZWkycVZmMzJ2V2lhYzEzWVBvaDlzdV95RTFXRkRmVHFwMFU?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-30T13:43:00.000Z"
       },
       {
         "title": "롤러코스터를 탄 비트코인과 이더의 가격 변동, 2억 8,600만 달러 청산 기록",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNTlRLOFFMTUlMX00ySXhRb1RJSVFmV0pFRUVEckJkMk9WNnhGVHJxVWZpbTNjSGdncUpfZGFjTVBtNklmVGFlYmYzQkJvQnFpcXpUSkR2NmJ2c21HT3RUZ2R2Yk5CQnM1bHVHQVFRbUZPMzlxMHR4NDNFWk1UU2w1OFVncFNnRldId2VMZ2gzbTU0NGZiQ0JFdFc5MFR1a2xITTNRZ2ZxbnBoT3FZbTc1QVAxSk1uRGl4S1l1dlNldE9zTkhpSVVkYmhYQVZZM2M?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-07-29T15:54:00.000Z"
       },
       {
@@ -49,162 +43,198 @@
         "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdE1wSEhSSUtNVnljWVNlYWVfeDJYZFFROFY0M2IwbkR4RHdvQkhLaUpCSHA3Z3ZBLWR4bmh6U3pGNHlfUHNHdVBoVjV1QzlmUVdHVWt5bDEzNGxmN3VmWEw4REYxX2ZpN09sUzJsQzBTbTdrb3gtN1JxVE5DbFYwNTRQR2xfZjZRMU1oRzRjUHYzSTlvQlE5ZWR3?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-07-29T15:47:55.000Z"
+      },
+      {
+        "title": "2026년 7월 29일 오늘의 비트코인 ​​가격: 미얀마에서 암호화폐 사기범들이 종신형을 선고받았습니다.",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVnpwTzdaOVNZZW1IdDlXZDRoeWR2enZEckdrOHVwYk1FS2V0U3BZREVBQi1XZlY1dUdYZ3BVLV9aZklYSjRWaGF6b3JzaHpzUXJBbExUMXNUM1FtYzlJeXBOY0tlWkNpSG51dkpWalBtLTI5SzUyenNONVV0VWZjak1nWWdteXRjVzZyMUlnNWZjamRJcUs1Y0dUQXg2REUtNUFPYnFR?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-07-29T09:04:26.000Z"
       }
     ],
     "stock": [
       {
-        "title": "“개미들 분노 이해”…한국 증시, ‘투자 부적합’ 낙인 찍히나 [이슈+]",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yd2ZJcHRBTnA2YTh3M0c1ZWlieGc2T3dDcXMyOFJmQlNOeE5Xamdpa0w3TkQ4X3dVRTd0SC0yRmpQWWdPcmhRWjB5MVYyMXYtVFpFYUxWSEVvREFsMUh2aFR3?oc=5",
-        "source": "에너지경제신문",
-        "date": "2026-08-04T02:27:25.000Z"
+        "title": "[오늘증시] 코스피, '삼전닉스' 흔들렸지만 순환매로 선방...…코스닥 5%대 급등",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9yUy1fUVl1NjJhVmZHdUpsR1lORmZ1VllhMmhiQzJmYVcyVUEyMlZzVnRyaWhmWk9PNzlxV1JVVmJLdVhidGVSd21rTURHYlJwYlZEM2ktQV9kbGRrREtQcFZWNmxWQ19v?oc=5",
+        "source": "Queen 이코노미퀸",
+        "date": "2026-08-04T07:21:46.000Z"
       },
       {
-        "title": "장중 코스피 6,220선 하락 반전...코스닥은 4.9%대 급등",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBKbWljSjZDR25GdWl6cWdBU1JxME9fMXlvNVBXWEtXQ1hXemZGS1h5SHdiS3QxQUpUWnhFNEdkTkVkNGxhUWxldm9BUlhLZGIzaFEzVWpXMVRaSHJHaC05UEJ2YVd4SHoxUHl2Tw?oc=5",
-        "source": "프리진경제",
-        "date": "2026-08-04T01:45:49.000Z"
+        "title": "日 닛케이 0.32% 상승 마감…코스피 1.62%·코스닥 5.88% 올라",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrakdRMjhQdy1QcEtfNkpYUHJRektHckl5SURCcVlZTDRraElIZ195emdEbE9TbnZzZUFuVU5sdWNwS29ZTmNZWGl5ZC1nZ1lh?oc=5",
+        "source": "블루밍비트",
+        "date": "2026-08-04T07:00:07.000Z"
       },
       {
-        "title": "\"원금만 나오면 탈출\"…개미 이탈에 코스피 거래대금 '뚝'",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1Id0h2QUxQUzhFdXNaMUNUejV3QWtxbm9PRHEtbWxvWTZra1RPSDcwcFJWVmpxeF9DZ3BRRUdRWnJrVkxmSVcxUmNpV0QtdGI1d3hmLWFrb0p3ZjNXMm1WeVRGWS1ZSTdsVVdj?oc=5",
-        "source": "미디어데일",
-        "date": "2026-08-04T01:41:21.000Z"
+        "title": "[증시 레이더] 코스피, 장중 300포인트 널뛰기 끝 반등…코스닥 3거래일 연속 사이드카",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1rRDlwbi1rNGFLNk1KNkRnQU9Uc2FfOWJUSDBKTDdUV0xndFNoVU16V3BNaDdtSmdOeHJTNVJyQTFRaW5INjc3OThYeEhWbUktTmgxN2wwNm1MZl95Qnc?oc=5",
+        "source": "포커스온경제",
+        "date": "2026-08-04T06:57:19.000Z"
       },
       {
-        "title": "코스피 미 증시 상승에도 장중 '하락전환' 6090선, 코스닥은 3%대 상승",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QVnhRclFKR2NXYUhWVzUxVE82bzBVRG4xZUFCTkdvaFNYZGwxOFE2QUpjY1ZfWFdCZVJRN2RRdFM2U19HY3hjTVdpZWVkTjlsRHdRbTNsMWZXZ3ZrMm1wRUlyWDhQUjF6a1RDdEkxQzllVlU?oc=5",
-        "source": "비즈니스포스트",
-        "date": "2026-08-04T01:28:33.000Z"
+        "title": "코스피 '뚝' 코스닥 '쑥'… 반도체 쏠림 완화, 득일까 독일까",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFZKTFV0aHBkN0ozMzBjcVl1T2IybWRxcGd5bllqc1JPNlBFeXBIRGl6cWkyYlo5WXFsWVUwVWxVLXJvaWk0RmxsV213V21kYmE4VkhJQ0ptbjZGQ3FQUTZxaHVCR2poVjVpbjdxWXlNbmdDRzVhVERFVlhya3MxUkZ1SzhzTVRx?oc=5",
+        "source": "글로벌이코노믹",
+        "date": "2026-08-04T06:36:34.000Z"
       },
       {
-        "title": "[오늘증시] 반도체 조정에 코스피 '브레이크'…코스닥은 '순환매' 신호탄",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03NWc1a0tDN1htTGpacmlaNjdwWHNNQUR0V1RZMmR5VzlrYmRZQm81cWwxeWZ2bUpqT05XYzdzQ3RLSEZNZzZZUklVamdBMEc5VmN0Nm9NQmxwejFIWG8yT1dHbGpobWpnOWFDdU5lclRSUnM?oc=5",
-        "source": "오늘경제",
-        "date": "2026-08-04T01:25:13.000Z"
+        "title": "코스피 지수 급락한 그날 사상 최대규모 반대매매 물량이 쏟아졌다",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBNWXVxRDRKLTJwSlhLTHZWbmhwVi1aaERNSzlOQ3N6UjQ0ZV9RSmhMVmhlRTdhTkFPMmtfNXpnTTJDVTBkcDNBV1dJOGhsOFM3dkJkLWVMX1FCdw?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-04T06:30:09.000Z"
       },
       {
-        "title": "코스피, 상승 출발 후 하락 전환…코스닥은 3% 강세",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBid1ZCMm9tV1JoT2VubkZ1WXVZM0NVWmlhOHFDWG1mc3ZUc1ZybWhOR2ZxbFA1d2pxUEZkUjZ2Qnphc3NGaGdDdVkwQ3dKZlYwR3lkNGNRVTBfeDRyTlJNUlJvNkotNDg?oc=5",
-        "source": "yonhapnewstv.co.kr",
-        "date": "2026-08-04T01:23:00.000Z"
+        "title": "코스피, 美 증시 훈풍에 장중 6300선 회복···시총 상위 종목 '혼조'",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9EQ2JLdHM1dF9JLVBta1F2czNMMW1OUDVBSFZsREFFWkZOV2diS2lHcTRiVGZ5VDRYdWZUVUZWRGRTeHFaamFSVTFtZm1kOFZwZkdSLVhiNUFsS2lHZUdYSXNXQVlkRTVfWnc?oc=5",
+        "source": "seoulfn.com",
+        "date": "2026-08-04T06:28:16.000Z"
       },
       {
-        "title": "집값·코스피 여론 악화 대응 ‥ 대통령 귀국 즉시 긴급 대책회의",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBuZ3o0dzVQRE4xZ1B3SVJnVk5NdEhGbUlzVTBkWXhZVDl2SmhLNzF6QVY3eTEtRVlRS25uSkMxcldCZUxkcWNBS0paZ0p6SE9XMGZXY29GRWZMRmtvMWYwYXdsSU1ucmNrQUxsLQ?oc=5",
-        "source": "이코노미톡뉴스",
-        "date": "2026-08-04T01:15:35.000Z"
+        "title": "'투자 부적합' vs '코스피 9000'… 한국 증시 바라보는 엇갈린 시선",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1pRHRFLVliQ2ZrbFNfblYyLWRSUkVQT2xRLU1weUVfQnhWWXZfaUcyaVB5XzZEdEl6MVRRcHNlMFQ1cXRFUkFSTk5McDFmTzZvcmtiT2NTMG9YUDc1WTJLbXVMclNicE5od2ZUcVZGZE5EZ0RGUnc?oc=5",
+        "source": "인포스탁데일리",
+        "date": "2026-08-04T05:41:21.000Z"
       },
       {
-        "title": "코스피, 美 증시훈풍에도 하락 전환⋯코스닥 3.5%↑",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5xYmZsbERkOW52Wk5VcUtpYmQyZ3U4NXNZay1aOVlOd2h0bzUzcnNIYzZfYTQ2OWpEclZvTUdoNWhEM013WVlZRG4xNA?oc=5",
-        "source": "inews24.com",
-        "date": "2026-08-04T01:13:56.000Z"
+        "title": "FT \"증시 띄우려던 李대통령…코스피 폭락에 정치적 부메랑\"",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBUVmZsQnlRemhMdHIxOUVkR0dpQUdNU2dGbS1ucnhBMk1VYVF1dzRyQVc1M2VyZDFtTzJYNUZETlJ5SnFPbkJXbDlNUzFFOUE?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-04T05:29:33.000Z"
       }
     ],
     "kosdaq": [
       {
-        "title": "코스닥, 온기 되찾나…코스피 제치고 사흘 연속 '매수 사이드카' - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB6QkpqeTVqcElQczZaamJuQ3hwNjhSaUZXR1B1WC02VlkyWTNITC10QWZxSGJOVXZpUjRDWEZTTGp1UzBaRjlmRmhUdnVSU1l5WkRFSkU2QUJLdUJPUnQyQ2NPNUJXbjM10gFuQVVfeXFMT1h4RVhMYVRtN2hUbHhGNXhET1c4ak1qck9LeHg0cnVud3BjRVpUcWNLR1h0LWJHTTFmOE0yUXZCSGhLVnpOcHgxSHNZM3pWMEJ3SEpGQVNmY0xnMWZrYzY2bVNfeWlKOW1xSldwRmc?oc=5",
-        "source": "머니투데이",
-        "date": "2026-08-04T02:53:40.000Z"
+        "title": "부활 꿈꾸는 코스닥…사상 첫 3거래일 연속 '매수 사이드카'",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5OOFpUdTJFMW5NajVzeU1fejBBSnpIQnFuY0pVVkYxMGFmdDFoTmdEVThwMFk0OVJQeFZCdGVjemhERDVVenBPdTQ4QVNvLXJMb3I5WFQwWnlVQQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-04T07:25:12.000Z"
       },
       {
-        "title": "기관 매도에 코스피 혼조세...코스닥 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5qb1NaRk5mal9LZEhETzZEVU9kby1RMXdScE5sd2NJcWIyTnY2OXNhZUUxV1g0SU14YWFIQmZLdGRfSkJhbVZSem9MMVZwMXd0eklRRWJ6S1FqLXpzbkFjSVZXNWQ1QUFhRXNMZVl4S2hxeWxXd0E?oc=5",
-        "source": "YTN",
-        "date": "2026-08-04T02:48:00.000Z"
+        "title": "코스닥, 3거래일 연속 매수 사이드카…쏠림 완화에 순환매 확산(종합)",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9tVFRncVRpUktNaldrVVdpbmF5TXFpUzdKU3dwdGM0T1lVLWhlU21qM3doU3dfTFVEQTYzTHdHM2JwZlVKMHJiUi1yb3ZaakxwcGRRQjVDaDFEckZEVVE?oc=5",
+        "source": "뉴스투데이",
+        "date": "2026-08-04T07:22:00.000Z"
+      },
+      {
+        "title": "(마감시황) 코스피, 순환매 확산에 6,350선 회복…코스닥 5.88% 급등",
+        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBNbTVfc1dsMExWVXllT0dPVm5sUDUxMnQzU2RmanRfZnRTSGpoWUpWa3lVSTVfQjgwc0tIRTNuRy1lQ0VlVXFrQll0b1RjYnc2UTMtRnVNSUlOZXZiMnc?oc=5",
+        "source": "뉴스투데이",
+        "date": "2026-08-04T07:20:00.000Z"
+      },
+      {
+        "title": "코스피 6천 3백선 회복...코스닥 5.9% 상승",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE93V3owNUhPckFpQnk2djU5OE12TTdXM0NwQjRzLS1WUXRkTmltZE9rLVVhdlNpelpnLUhTdFV0X04wdGl5WXREdTRXZTBmcnlyTkR2emY0RUQ5SmttbXllOFRTOGZWY0NLVzJr?oc=5",
+        "source": "BBS불교방송",
+        "date": "2026-08-04T07:19:52.000Z"
+      },
+      {
+        "title": "[마감시황] 코스피, 급등락 속 1.62% 상승…코스닥 3거래일째 사이드카",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE42ZTBYNkdCSVB3OE15c3Aya2ZrOXdEYkNBY1JOcUhBMGFtUmlCX3RxbGw5eXM0ZEZHWW1KS2pmLUJlTHpyU19ldXZlVUdWZi1XcUFaVFEtYVkzbkRQ?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-04T07:19:00.000Z"
+      },
+      {
+        "title": "코스피, 6,300대 마감…코스닥 3거래일 연속 상승",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9QWjc3eW80ZUFvUk5IY3BOVU5nSGpITlFIV1puTFUzY1VoQ1VRRnA1LVpKdElNUUNjVUVVNWhQNFk4dEFJZW5wWlVDMjhjVE54WjJLQ0wyYmFZV2s?oc=5",
+        "source": "KBS 뉴스",
+        "date": "2026-08-04T07:11:00.000Z"
+      },
+      {
+        "title": "개인 순매수에 코스피, 1.62% 오른 6358.95 마감...코스닥은 6% 급등",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LVFNIeTBuVUhSaHgxbmhjZTlEejAzalJIQnFzWXREdkxWdDQ5RUV0SHVHcHVpRTZ1YVVFcGJ6bEVsWGQ2UmE0eUJZaVd1YU52cWpiQ0ZBOUZjTldIUHJiVG5EWi1MQ0M4XzNIcV9YNG4xdw?oc=5",
+        "source": "오피니언뉴스",
+        "date": "2026-08-04T07:00:18.000Z"
       },
       {
         "title": "코스닥 5%대 급등…3거래일째 매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5UWE5jLVFkR2IxX0xxUkZXM0FRTnZsaG9fbUpFMEl5eUFRS1hsYmtPWWk4OTZsZ3k5emVxcEdrZ1ZyZWg4UXNudC1EelhRS3dackRYbFZiRXp6NktyTml4U2RB?oc=5",
-        "source": "아시아경제",
-        "date": "2026-08-04T02:47:00.000Z"
-      },
-      {
-        "title": "코스닥, 770선 회복…3거래일째 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSZlZ2ZUF4c280Z3lMbUhLdGNjNE9DOHBVeDFUT3J1emJlc3FXQXNaOUxYamNoeXJZMVJHYUNlYU5TQzQzY3VReEpzXzY3UlEtV0pHSGdaSVBoYTFkcW5mU2xLRExhaGlONm5GYzhGejY?oc=5",
-        "source": "신아일보",
-        "date": "2026-08-04T02:42:06.000Z"
-      },
-      {
-        "title": "상승 출발했던 코스피, 장중 6,080선까지 밀려…코스닥은 3%대 강세 |",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBtVlh4SjJBNUIxV3BLNkx4dkdTSEUzazdtOW1mWU1RdWoyOU0yWGh6UW5XNGt6MFhkbWtacFpLdEJZaGh3YVliZFFhbEY5b0xiaG1jVW1jbTNFOUh4MzdscXFqSmdPQV9OczVjbVVJWURJREVF?oc=5",
-        "source": "연합인포맥스",
-        "date": "2026-08-04T02:40:17.000Z"
-      },
-      {
-        "title": "코스닥 상장폐지 기준 강화…시총 미달 게임사 '비상'",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcFdSV0p4WjJ6VGJhUnMyR254VlptSDhpeFdiV0JiUEpOMzdLOW04OVkwOFJOWktXbDZZd0QzdjJyOUI3YnptTnBORlFOU0xnV2RGd0tR?oc=5",
-        "source": "지디넷코리아",
-        "date": "2026-08-04T02:39:00.000Z"
-      },
-      {
-        "title": "기관 매수 몰린 코스닥, 5%대 급등…3거래일 연속 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8xdUltd1pmcWVfTlUzVW90UXRBZ3hWNXhlazllYU1KRXVIbkRmZDhxdXg5b2lHWFhKWlk5NFZIMDVRU1FwaEVYRlQ4bkxZVkpLTW9OUGJMTUFIRGxkZTNVVHJpVzF3NzVBR2c?oc=5",
-        "source": "hidomin.com",
-        "date": "2026-08-04T02:38:20.000Z"
-      },
-      {
-        "title": "[속보] 코스닥 6%대 급등…3거래일 연속 매수 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBldjNUMVhzU19MSFdhUlFPdV9kR3R3Q19iVjRuMEYwTDBzUG9tQnRpazRnWEVBd1JwS1JESXhZRFJYM1pRbkVkSkNtTGRRc0pRcUlZNld5cTY?oc=5",
-        "source": "kwnews.co.kr",
-        "date": "2026-08-04T02:31:42.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE80cFF2MW5Yc0RwU3VhVFV1bGlWOXhXM2I2QmNnWHQ2SHhNOXRNT2h2UjR5RHREX3I4ZjREaDZ1UGJzbUlmYzQ4d0tNOWFjelRVNThIVV9CWUVtalBvNWhOVXdB?oc=5",
+        "source": "매일신문",
+        "date": "2026-08-04T06:59:46.000Z"
       }
     ],
     "fx": [
       {
-        "title": "6월 원화 실질실효환율 또 하락 '17년3개월만 최저'",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBxQ2hRSEdxeUY0TVJoVHhlNzNlVW9HTXlCaEVvRkkwSjJCakRtR0dpU3JtckVIVTRSbkN0dHBGUGhSbXRKWEhSYk9tUjI4TDdTNHl6bkF3UzUtNHUxMXhpbg?oc=5",
+        "title": "한국은행 \"3월 환율 급등 요소 1/3은 NDF…'야간 영향' 더욱 커\"",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XTmF4dzctMkZBMklyTjFqUlpIYkhYQ0xUMzJTNkM4R2VnX191YVVWMTMwSTFGQzVfNlZYZ3pkODNZTHpNanFRb3F4UUxrMm9FQ3I4T2pwZVNXLWNtSG01OFkwNVRnVURXaXBxMEpVSmdjSGwy?oc=5",
+        "source": "파이낸셜포스트",
+        "date": "2026-08-04T07:24:48.000Z"
+      },
+      {
+        "title": "환율, 중동 리스크 완화·저가매수 교차에 1,430원대 정체",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBpQkFnYmluVlJkaTZmNVJLTFZkRGF2U244SGxNd3BpcUpoUU1rMXRkUEQ2MXB5bzVJU0x3Wml3WFMxVkRHVXdCbW5qWWozNUJnelVDalgzRjJ3ZFhma2laa2JndzhuZUppaEJLTWF5cC1GRkZw?oc=5",
+        "source": "연합뉴스 한민족센터",
+        "date": "2026-08-04T07:04:32.000Z"
+      },
+      {
+        "title": "[환율마감] 원·달러 이틀째 상승, 반발 매수+결제 수요",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE94RDh1dlR6Ty1RelFFc2JjX1BNTEdjWGc2bWo0aC1keTlmd3VQa3hEU2JHblFUam5NOFBVdVM4eGFiZDduT0Z5X3NvbGQ1MFJHcnRrSGpYaFduQkhPWGNwQg?oc=5",
         "source": "네이트",
-        "date": "2026-08-04T02:03:00.000Z"
+        "date": "2026-08-04T06:57:00.000Z"
       },
       {
-        "title": "한국 '빅맥지수' 역대 최저…美 6.12弗인데, 韓 3.74弗",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oUVZ4SGZFdkVpVWJjNDlVN2FKdDMxeFl3MDZPVUMtLXFfS1Z4eGtnMFJ5UlI0d1p2M0NwcU1EOUo3TVFCaTF1ZndVVVNralVLQ25EQjV4WTZpRTBjMDZFOA?oc=5",
-        "source": "더구루",
-        "date": "2026-08-04T01:44:39.000Z"
+        "title": "'몸통 대비 긴 꼬리'…한은 \"올해 3월 환율 급등 33%가 NDF 탓\"",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBENzFNdXhfSHZUbjlrVklyVkRYTExtUzRDUVVTNEdsWUhyWHN5OURjaU9uU0RzMkZHSVdiS3o3a0RUcDFDbTZ5RUdzWlpwOHUydWd1X09xeWlXNXh3ZjNTUQ?oc=5",
+        "source": "아시아경제",
+        "date": "2026-08-04T06:49:38.000Z"
       },
       {
-        "title": "원·달러 환율, 오전 9시 1430원대 등락",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9fcDQxRWhQNUI5TktHaGRSckdNVUpxWVh0Zk1YWEFDNFRsTjdNRkVSVzJzTkthbmxtVHAxcHlXbXJhZkhEWWswRC1POHZCbzZsWFFWU0F6SUNKUUxadzFZdWdLSkQ3X25PWjJ3?oc=5",
-        "source": "미디어데일",
-        "date": "2026-08-04T01:00:17.000Z"
+        "title": "환율 79원 뛰던 3월, NDF가 3할 밀어 올렸다",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4xZWphdUtuWTg2aDV3aWx1WDVtQkhUc1B3OWVIZUN5ZlRIeFVialEwa3gyMlp5aDl3N1BGVlltR1hmaDN3WmZjdmJObVFxWVBpSGtkODF2QkJXTTZhY3hySQ?oc=5",
+        "source": "네이트",
+        "date": "2026-08-04T06:45:00.000Z"
       },
       {
-        "title": "환율, 1430원대 초반…중동 긴장 완화에 달러 약세",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ONllxZUZVb3I2VlJlZWNoVGNDclRKY1dKVEFlUHgtVmJrc2k3NmxNQXBraGU1UDJKckRMWXRocjB2OXFjNHhkU0JrSXdGa2dmcVhGc1htMXZXZFVuUFE?oc=5",
-        "source": "news2day.co.kr",
-        "date": "2026-08-04T00:47:00.000Z"
+        "title": "원·달러 환율, 2.7원 오른 1432.5원",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nc2phVkNuVjNEbWgybk5aRjRCRzRVb1p6dF9mNGZXdWpWUnVCS1Nsdk5qalVDUE5rQUMxNDQwMkRoZjUtbGE2OWdHMzdLRklUZzhBd3lSMExGUElfblhVNw?oc=5",
+        "source": "네이트",
+        "date": "2026-08-04T06:44:00.000Z"
       },
       {
-        "title": "[환율 전망] 진격의 엔화, 열리는 하단",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSWEkyRHN5eXFiYjFaZmJSc29zblVpZmlTYnFkQnB1ay1LYUpMZE1FMzhVbGlRZ1VlMVZjYlFTU0VkRXBzVEVtTDBadDRSbjVSNWRqSXFmRTM3VlBOVEEzaQ?oc=5",
-        "source": "KB Think",
-        "date": "2026-08-04T00:46:14.000Z"
+        "title": "원·달러 환율 하락세 '멈칫'···1400원대는 15거래일째",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKMW5WSkJORU9sV1IwRzluQ2t3OU4xX2ROX3NZYjRVQk1HUXFKWVdkT2hQRUJBdU9vVVgtOVVvdWxocUU1UGU0ajBCTHphbHpxeGN3ZTEzc3FNX1draW16cg?oc=5",
+        "source": "네이트",
+        "date": "2026-08-04T06:40:00.000Z"
       },
       {
-        "title": "중동 리스크 완화에 환율 1430원대 초반 등락",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBQTk9TaFk0RURJTzZXWEN2a0EyOU1hWDBRMXVEQVVMWFJxWUkxc3JSRWxYZkIzcDJJdGlBVlhfVDlTUVhwZi12WkNfeWN0YzNVeHhjVklNRVBrd9IBWEFVX3lxTE9Vcm1adXZwNHh3LVNtaGs4N0VCQnItMFBuQVMtb3NuakpMTU9IVjh6STF6UmI2N2hMSmc4eUtpb1R1d0t5LVZrSDB4MC0xdzBDQUo3VVBzN0w?oc=5",
-        "source": "ajunews.com",
-        "date": "2026-08-04T00:44:13.000Z"
-      },
-      {
-        "title": "달러/원 하단 탐색 국면, 미국 고용 경계 시점",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFB5a1JWTlU5amJENHFlLUtsdzFKd2twSXRpQ0ZKZW1xZU1NRHZPU3lCb25Da2pPRjJZY3ZBbXN2ZHdWRURDUnZ0LUo2Yzh3a3VLLVN4LWV4d0ZKTFhRa3NURUVn?oc=5",
-        "source": "KB Think",
-        "date": "2026-08-04T00:43:18.000Z"
-      },
-      {
-        "title": "한·미·일 공조에 원화값 ‘쑥’…환율 1300원대 진입할까",
-        "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQU19Ha1cwa1VJeDVqQnFpQllHSU5QV1RLUGt6a2xVVTY4XzhJdjY1QkVYRTJyQVRXS0Zja0dtcHM0M0JTb3VCSnc4LVRieE9seW1JQTJCM3pXU2c4U0JkRUliNG1yVHdFZ0k4ZW1NUXpxNGg5OVkwOFFHUk9wZGZjLXA2ZWh4aHJrVHhYZmhvZGlnWDItY1RJUDRjZUc3MHZ4NnR1S3FMOWFQaS1adFRFSnlpdHZPTDVCbHRLTTRoakN2MmJPQlUtYzV6aFcyXzAwMW1DbFJsVUhCdnlwUGlqRHVPZzJmdFk4YTRiREVSSGNhS1RSejVtWWhqVU51Q3ZfWDU4?oc=5",
-        "source": "데일리안",
-        "date": "2026-08-04T00:34:00.000Z"
+        "title": "NDF 환율 영향, 야간이 주간의 4배…한은 \"24시간 시장서 완화 기대\"",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9KbmJxTlZ5OUxkaUw1UWtpSkNMM0p1Y0R5am1KNHZEeXBxbGVQYVhuTS1McmRaRWdkUDA1UzhDT3liQjQ4WXd2VklUblRONzVRaGZNSTdYeDZ5ZWUxblRGdm02d1M?oc=5",
+        "source": "포쓰저널",
+        "date": "2026-08-04T06:34:06.000Z"
       }
     ],
     "metal": [
       {
+        "title": "금값 상승세 연말까지 지속 전망, 도이체방크 목표가 온스당 4700달러 제시",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13MjdCRHUwMGx1dXFZUDBkbHEyQl8wdlVxU3ZpaFkzdEJBYVNZZHM4RVltdWEyQU5HT1JwOVhfd2h5UE9KbUVpbTRYd0pUa09kRUtGV0drT3FWeXVuTlZpdzZ2Q1A3RnVoUkRaNWxoM1FCMkU?oc=5",
+        "source": "비즈니스포스트",
+        "date": "2026-08-04T07:13:00.000Z"
+      },
+      {
+        "title": "오늘 금시세(금값) 변동성 극심... 금가격이 오전 폭락했다가 오후 다시 상승한 이유",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE85MG5VQUowZDlNOHBQT0F3TGdwVzBQdTBSWUdYWjRkMEtjY2UwUVdvYmtTcFozN3RORkZ3RURsXy1acmZ2M0V6cV9uMjYxX3c4Vm1NeUt3?oc=5",
+        "source": "위키트리",
+        "date": "2026-08-04T05:29:00.000Z"
+      },
+      {
+        "title": "오늘(8월 4일) 금 가격: 금값이 온스당 4,100달러 아래로 등락을 반복하고 있습니다. 전문가들은 어떻게 전망할까요?",
+        "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMUVJNC1PYjVFalVic05iaF9lbVJ4dWxudFJWWFdMd0o2MG5YdFVFY1lyWWxfOXFHbjBVeTFOdFNXR2NFbjhCQVlZeDVtdFprWk1qSGlKaU9UakhISjlyeG4xMjJqQVVxd3JsdE9VeWY3SF80emttMXlXQ0x0NGZlVjJhYTNVQjZ2REY3Y1ZuTnF1YTRrNmU0V2g4Y2JVOUdVWU5WNk1n?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-04T03:15:02.000Z"
+      },
+      {
+        "title": "[금 시세] 국제 금값 상승 흐름… 중동 정세·유가 변수 주목",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5iejRoVzU1bzJGSWhZRGlPQ2VXU2VyaWtiUTV6UDlzZlhiaU1TVjBvdlpMOTV4anlzWTJSSTQ1MFI2UzZ1ekwybmZGQmJqYW5ZRFBuajBxRWVleFV6VTVHQ0g3alNySVRabXFEZQ?oc=5",
+        "source": "센머니",
+        "date": "2026-08-04T03:00:40.000Z"
+      },
+      {
         "title": "[오늘의 금값시세] 8월 4일 금시세(순금·24k)는?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9uNG04NFFCbjB0aUlZZFRiWHhBMHdiWTFtZjQ2VjRSOGxaOTJMaFB4dElPdHRXWFJmb2JuZ3YyVWxPYUJ3dTBWUEVwOHV0RFdzS2RQZDZFRGdNcHJIcG9uWjg0Y1ZvNnF1?oc=5",
+        "source": "금강일보",
+        "date": "2026-08-04T01:49:31.000Z"
+      },
+      {
+        "title": "[오늘의 금값시세] 8월 4일 금시세(순금·24k)는?",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFB3YUl2ZXhvai0xdVk1QmZrcGlUUUdQWTVKS0FUY0U0akNlOFZubVJHR1NZa3RtUW4tUkJHNnowVVdiVnpDV3paTEg0LXVVZEN3eWxKaXdYY2hIZ25oSXRIZWw0WTZjUTVRSFE?oc=5",
         "source": "금강일보",
         "date": "2026-08-04T01:49:31.000Z"
       },
@@ -219,36 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1oUFZrcTN3VFpzMU1aXzJoT2Rwam03Si1LYk9XTzNCdGl3V25Dd3BwOU0zeU44eUViV0YwbmpMbUFVb01MR0J1NlFfaE9la3FUVTU4ODltOEM2YVVHaGFPYjFibV8?oc=5",
         "source": "bntnews.co.kr",
         "date": "2026-08-04T01:24:54.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값)는?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1dklHOUY3QVMxMnZoS3FlSnE0bHE1bktpXzRIcDFwdlJFcGtJSnNfZi1pb3M1S0ZzUHVFM0ZQMWcyQ3RaSDJHTzBIV3dTSnk2bU5jZ3MtV19wN0NFYWFQckpmREhSeTA2?oc=5",
-        "source": "키즈맘",
-        "date": "2026-08-04T00:55:27.000Z"
-      },
-      {
-        "title": "[오늘 금시세]중동 긴장 완화·연준 경계감에 금값, 보합세",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KRWdQcV9UY1BlV1JrQi1mcEpZNHhQNWZJOHZfWllVbWRtMFV3RGYtMm41WFlFTUNyUnV3TDVMZmY0QVRJY01xb3gtREhoWi1TUkgwaUFvVktvUENJeVFEZVRWTnV0bmZ4NnNTdtIBcEFVX3lxTE5NbUFSaDBNS2N3T3hHRlJSa21QRlBzalJtSXBnSThsTm5mYXA4clNLMmJ2My13Vk54dk5UMDQtRk9Ba1pCVGtIdWE2VlF4Tk54a0NhYmg1SnFRM01EUUZrbVEyeWJFdTJNRDgzWTZ6c2Y?oc=5",
-        "source": "남도일보",
-        "date": "2026-08-04T00:11:00.000Z"
-      },
-      {
-        "title": "오늘의 금값시세(8월 4일자) 순금·18K·14K 가격…상승 기대감 이어질까",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA0eXd6VHc0aldlZ2JNdklBY1NiYzAteHprVXhfZ2duQjZuSEwyZklsa2MxS0FLTTF2UXhaMDA3ekZqaXdva2VfQS1uQXpDMmlKcXI2d21WbEpQOVA3ckN6MGs3OEZiQQ?oc=5",
-        "source": "비건뉴스",
-        "date": "2026-08-03T23:48:40.000Z"
-      },
-      {
-        "title": "숨 고른 국제 금값…국내 금시세는?",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBpXzBXOHV3Zkp6b3ptN0VEUTZScnRhUURTdnRxMjMzNFJCZ1k1U3RuTHo5UnhwZjRjTThNaFBqTWhYLXRlS1VrTHRPeXF1Sk02aTJkOQ?oc=5",
-        "source": "이투데이",
-        "date": "2026-08-03T22:53:00.000Z"
-      },
-      {
-        "title": "금시세(금값) 흐름은?…'4000달러 시대' 전쟁과 통화정책 등 변수로",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlMS0wWERhXzFfczlFTTJiX0tDeGVtLXNTMXlVVE9valprVlU2SUdENFl6ak1vaDh5QlhtdE85YjJqNHVwS1VmS0x2YWRVQlR2UWp3d3pDNmNJdlJSSFFZaHQyTGJYR2pE?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-08-03T15:20:00.000Z"
       }
     ],
     "energy": [
@@ -321,12 +321,6 @@
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
-        "title": "미·이란 충돌·미국 물가·한은 금리 결정…글로벌 금융시장 '변곡점' 맞는다",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oWTdqY1VrSkJhbUY4WkF6b2hCaVpLRndmbFc3WV92a2RGczhNMlhmQUhTQWVTeDVzQXlVNGtVSGJwaFVNcnRTNHp6QUFBeWdMVnY1MDAzbDNwZ3dNUjhhSTA5Q2UwUW43MGlJ0gFvQVVfeXFMTVYtODRTVElzQU1sRVZmMUNSUjZ1czhYai0tUklDSlVHb2pjcm9UZ0kyeEJmSV9jS1h6UGdUUks5MFplVmo1RUF5cHVkSVMzNjFLYWk4V19aamFkWUpuc3g5X205Ul92TGFsXzZCM2dJ?oc=5",
-        "source": "the-news.co.kr",
-        "date": "2026-07-13T00:36:56.000Z"
-      },
-      {
         "title": "[숏폼뉴스] 2026년 7월 둘째 주 주요 경제지표",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5CbFQ3OFRCOWc1UW90ckVaUTc0b0dOcDFya251VmltQ0I4WXBoRmFEcnRaaUFzSm9PYkx4Nk5hbDI5ck5DUXYzRjQ5aE5pTms1SmhJRkhUd2N2Z2lmcy03UjJIQ284RnBlbmhtWlNrVQ?oc=5",
         "source": "기호일보",
@@ -349,6 +343,12 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WWTVqRnJjdVdYUUQxQ2V0SElEcXdGUnN3ZDJQQk0xR3lsdUQxVEw2cXpBZTJwZnoxa25pUFVXeUQtcWx4UzZDVDRsa3Z1dy1ERmUtQ0FXcWdUcm9NR0tzTHZ3?oc=5",
         "source": "KB Think",
         "date": "2026-06-29T07:00:00.000Z"
+      },
+      {
+        "title": "금리·환율 보기 전에 '분리수거장' 가보세요…'이것' 보면 경제 흐름이 보입니다",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
+        "source": "위키트리",
+        "date": "2026-06-18T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -397,11 +397,17 @@
       {
         "title": "허위 상품권 판매로 1천400만원 챙긴 20대 구속영장",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wWEx3RV80WFU0MDY1bnBnYlVJNTBFbG55bzVlcXVGQVRiQ2RZaDFmWU9FUUdUOVZtYndCekpmaTg5MW1QaVpJRlpwV1VLVE5kX1lQTTRmWjBTa05tODE5MDBuUDFiYWNJUG1zddIBcEFVX3lxTE5QSE1hS2REajE0RlVpNVlhWV9rSjFIdkRScVN2a1ZDYmhVVzZsaWFBbVBhS3R3dm9UQTMyQzJCY0Z6TGc5SFZZWmZyMUlDejE1UHRDYWxzZ2ZSWGxsMXZnb3NpY0swRzRtank4U2poay0?oc=5",
-        "source": "남도일보",
+        "source": "namdonews.com",
         "date": "2026-06-15T07:00:00.000Z"
       }
     ],
     "realestate": [
+      {
+        "title": "'22억' 동탄 아파트, 3개월 만에…\"될 입지·단지만 뛴다\" 경기 줄신고가",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBINTdpSTA1V3lIV2liNi1nWmhUTW5EQzJfX1NocTVMMXRNaEhwTFdVazBXMkF4eGtTcW9nUlFkejV5RnFINVBkWmpBdXRmelctY2lUSzBTTjNLQ0pi?oc=5",
+        "source": "supple.kr",
+        "date": "2026-08-04T06:15:08.000Z"
+      },
       {
         "title": "\"아파트는 포기했습니다\"…30대 1인가구, 서울 빌라라도 살 수 있을까요? [1인가구 이야기]",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85OFVhNm56N3YtUnV6LTB5Nl8tVHp4STBURVJmbXpxYU53bUFSWnZHc2pScFRjX1M4bi1KLWRRSW0tZlJZUi0waHJ4TzlWeVVnNllESDRfbC00cDR4dzJZS3FsbFNYYU1M?oc=5",
@@ -411,7 +417,7 @@
       {
         "title": "“나주 아파트 최고가 6억 돌파… 혁신도시 중심 상승 흐름”",
         "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5xVXQ5WU5DU21MSXZueFFncjdmMEVic0V5c3BialBMTGkyYzBrQm04Q2owbUMxTTgteElnYU5SR0xIMnFDcG9CZEo3M0dZQWhYd2xCVVB2VWhQcG1uM2JYZ2dIWnZLdw?oc=5",
-        "source": "전남타임스",
+        "source": "jntimes.kr",
         "date": "2026-08-04T02:16:20.000Z"
       },
       {
@@ -429,14 +435,8 @@
       {
         "title": "'시세 80억' 은마+잠실주공 2주택…내년 보유세 8102만원",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE11YlU5Rkc3UVZRZHVzRm5RYy1NUWdwTE51bkU1bkhIZUEyeWoybXZXVGJFNS04SkFVX1VXbERfRndhV3kxUExaWmZ5NjlGSFlIM19JRXN5c1V1aXMwSGpPa2VrODJCTEpEcGNB?oc=5",
-        "source": "미디어데일",
+        "source": "mediadale.com",
         "date": "2026-08-03T22:27:25.000Z"
-      },
-      {
-        "title": "강남3구 주춤한 사이, 중랑·노원 집값 키맞추기 … ‘대전의 대치동’도 신고가",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB0dWlOVVZmNVFWc3AwY0o4b01lLWRlb1RPOTRoaEd4YzVuNGtqZXRsX3VYZzMyRV9XTFF6c1dqbzBuM0YtcVdtM1U2WUV3NWRUVWJfU184Mks?oc=5",
-        "source": "매일경제",
-        "date": "2026-08-03T19:17:00.000Z"
       },
       {
         "title": "[부동산라운지-7월4주]매매·전세 모두 오른 서울 아파트 시장…용산 상승률 최고",
