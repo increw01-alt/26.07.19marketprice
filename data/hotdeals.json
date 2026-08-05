@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-06T06:06:52+09:00",
+  "updatedAt": "2026-08-06T07:57:59+09:00",
   "deals": [
+    {
+      "title": "환타 제로 파인애플 350ml, 24개",
+      "mall": "쿠팡와우",
+      "price": 11900,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106165",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-05T22:16:15.000Z"
+    },
+    {
+      "title": "문라이터. 무료배포",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78437",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-05T22:15:08.000Z"
+    },
+    {
+      "title": "락토핏 골드 360포+30포 기획세트 외 아임비타 오메가 등",
+      "mall": "종근당건강몰",
+      "price": 52288,
+      "cat": "건강",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725132",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T22:01:24.000Z"
+    },
+    {
+      "title": "닥토바이오 14900원",
+      "mall": "두타온",
+      "price": 14900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725131",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T21:17:47.000Z"
+    },
+    {
+      "title": "차량용 히터 에어컨 C필터 2개 (9,980 or 11,650 /무배)",
+      "mall": "11번가",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725130",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T21:10:47.000Z"
+    },
     {
       "title": "조선호텔 특제육수 포기김치 4kg",
       "mall": "오늘의집",
@@ -11,17 +66,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-05T20:23:49.000Z"
-    },
-    {
-      "title": "딱딱이 털복숭아 1kg + 1kg",
-      "mall": "카카오",
-      "price": 8960,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725128",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T19:49:55.000Z"
     },
     {
       "title": "Moonlighter",
@@ -55,28 +99,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-05T17:55:12.000Z"
-    },
-    {
-      "title": "블랙야크키즈 스노우 롱 덕다운자켓",
-      "mall": "신세계",
-      "price": 67200,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725125",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T16:11:35.000Z"
-    },
-    {
-      "title": "폴햄 쿨피케 카라티셔츠",
-      "mall": "옥션",
-      "price": 13490,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725124",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T16:00:44.000Z"
     },
     {
       "title": "(끌올)[에픽게임즈] Sol Cesto 외1",
@@ -541,17 +563,6 @@
       "date": "2026-08-04T09:30:53.000Z"
     },
     {
-      "title": "모험가 엘리엇의 천년 모험 / 53,800원",
-      "mall": "네이버",
-      "price": 53800,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106133",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-04T06:53:02.000Z"
-    },
-    {
       "title": "8월 할인에 파도타기 + 링크프라이스 전용 할인코드",
       "mall": "알리익스프레스",
       "price": null,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T01:51:07.000Z"
-    },
-    {
-      "title": "생 메밀소바 냉모밀 6인분(생면 6인분+소스 6봉)무료배송",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/IGs7F4ps",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-03T01:45:47.000Z"
     }
   ]
 }
