@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-06T04:23:12+09:00",
+  "updatedAt": "2026-08-06T06:07:01+09:00",
   "topics": {
     "coin": [
       {
@@ -55,14 +55,8 @@
       {
         "title": "AI 훈풍에 아시아 증시 일제히 급등…코스피 4%대 상승",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZU1p1VEZhTmxFOXRyMnVmVXRoVzFqby1URmFfa21YR3RaZFJKMGU0VlBZRWpaNDVSQXAyS256a1gzWHNkSmV6NG4yTE9lNHFM?oc=5",
-        "source": "munhwa.com",
+        "source": "문화일보",
         "date": "2026-08-05T16:03:29.000Z"
-      },
-      {
-        "title": "반도체 훈풍에 코스피 6,600선 눈앞…조정장 끝내고 상승장 진입 기대감",
-        "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE5PWFR4ZEZtc3E5emhXZzZPeng4ZmJkTzVwU0t5cnRIMnZmMWU5Y2NUOVVGRGQtd2JOWTdveUc5TVNIUTd4cTlkSw?oc=5",
-        "source": "신문고뉴스",
-        "date": "2026-08-05T13:34:00.000Z"
       },
       {
         "title": "김원훈 ‘개미’도 물렸다…“문상훈, 너도?” 예능이 된 ‘롤러 코스피’",
@@ -97,15 +91,27 @@
       {
         "title": "미국 반도체 훈풍에 코스피 3.8%↑…6600선 눈앞",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1Ua1p5ZmtFSjNPTjBaTkU4UjFsZkVoWk1hVFEtRE8zYUV1Sk9vVnpNQVo1TTZIbVhHRjFkeVJ0QkR5SUZ2YUViOUQxVi10WjBPZVIzQlNNVUxzOUlMdFdjakhmRkR5a0FMb1JQaTJ1Q3o?oc=5",
-        "source": "koreareport.co.kr",
+        "source": "코리아리포트",
         "date": "2026-08-05T08:48:19.000Z"
+      },
+      {
+        "title": "전고점 뚫은 S&P, 코스피 반등…증시 조정장 끝났나",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfa1V4bzVYbV9UWXpWRmlWdGo2WjUzdmotUlk4Z1lBTlNjWnNVU25PZ2c4ZngzaGhLWDFvRWdLQVY3ZGFaTVFVV19nQnZ5RHlSVF92X2VvVG9jZw?oc=5",
+        "source": "hankyung.com",
+        "date": "2026-08-05T08:44:17.000Z"
       }
     ],
     "kosdaq": [
       {
+        "title": "“이번엔 내 차례?”…코스닥 순환매에 개미들 ‘기대’",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFAwWTE1ZVFJa0w2ZHhMUGs0ZWJoNjUtWHJ1UVVYUVdZekVwYnNmREpKQ295NlVLUlNfYU1RTE5GenV4YlRkcGpwQUJTSmFhUTB1aWJiWnBNWXczWmRDMEhXUXUzMA?oc=5",
+        "source": "kukinews.com",
+        "date": "2026-08-05T17:03:12.000Z"
+      },
+      {
         "title": "나흘간 24% 반등…빚투 턴 코스닥의 반격",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5odGpOdTJFM245NEZBS2ctOU1aZGJOaE90a1oxVjdHM3lzbjZzSGktUmxoMzc4dWdrTF9QOW0tR25UNzFZSkFWWGhvNWRVdmdZczFFYU9n?oc=5",
-        "source": "중앙일보",
+        "source": "joongang.co.kr",
         "date": "2026-08-05T15:02:01.000Z"
       },
       {
@@ -139,16 +145,10 @@
         "date": "2026-08-05T08:06:30.000Z"
       },
       {
-        "title": "[장마감] 코스피 3.76%↑(6598.26), 코스닥 2.42%↑(799.59)",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5LOHNFMlp3LWJxTjEwVFR2Z0VjSmF4bWd1emxhOURKN3N6VzVscmtfVTVzX3pkYUM4UzA0MHJqLXR5c3FfME9NenF5VUQ0YThMaFE5VXdrUVgtS1RGYndxcFFB?oc=5",
-        "source": "버핏연구소",
-        "date": "2026-08-05T08:01:24.000Z"
-      },
-      {
-        "title": "코스피 6,500선 회복‥코스닥 나흘째 상승",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9yVVhmM09vLTJ3XzZKSVJTd1g1VElEMmdDNzdVX2l3Nk1tUFphT0hSemhpajRVdE8tTGxQVEh1M3BORWVlRG1BQ2NaUWVOOU9UbFFsSERCTkNCQzlQSGVKbWlyeHdaeDZmSHl6NUFnaWYwV0p3djYzVQ?oc=5",
-        "source": "MBC 뉴스",
-        "date": "2026-08-05T08:00:10.000Z"
+        "title": "美 훈풍에 코스피 3%대 급등…코스닥 800선 눈앞",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vdXRWNU40cFh1V0JsRnYzVndDUFNqZkRoSDY4QXBiTVhnUy13c05laldGOXdyVEJxYVRLYWF6WUZqX0dMY0Y5RkxBQk5xMUpjWDByODRmbExSd9IBWEFVX3lxTE8wT2h1XzR0SmVCMGUxZEI5VEZSTnNuU0lxSmYxYWt0MW9mZmctMEEtTzlUd3lweDl4NG5wdXEyLVdwNVF5NHUtU05nUC1pWFExaDJsbFh3UTI?oc=5",
+        "source": "아주경제",
+        "date": "2026-08-05T08:00:16.000Z"
       }
     ],
     "fx": [
@@ -177,16 +177,16 @@
         "date": "2026-08-05T09:57:02.000Z"
       },
       {
-        "title": "美, 엔화 이어 원화·위안화도 환율 방어 대상 시사",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1SZUpEUlRkaWFMa1FfdW54TnRmN283cHlfTXZady1mYVZsT05IUUUyYTFnYk9ZMlp3b2VQZjRzLWRqb3NQY3phWkYwMFFaQUNUQUc2a1J6R215Zw?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-08-05T09:29:40.000Z"
+        "title": "한눈에 보는 오늘의 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5OSWZxMFliMXRNRGVFdmF4cVIxWWlyXzdNRDBMd0pVN0pic19KejFPSUp5emFPZEY1d20tYnVybi15TC1YbVMzb1ZCZEVKSFl2YUNTbTAwU21NdTlZN29TcjRR?oc=5",
+        "source": "데일리바이트(DAILY BYTE)",
+        "date": "2026-08-05T08:49:00.000Z"
       },
       {
-        "title": "원가 압박에 \"더이상 못버텨\"… 식품업계 제품가격 줄인상",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HeHpTOUtBUFd1SzdfWkJUZTNPSkpDRzhfZEVlN3BoT1FhOWZqZU4waE9RWkZhaXAyOV92R01qb2g0clNNTmVLZmZYVHFJUlB6ZDB1WmNKZklVdw?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-08-05T09:14:13.000Z"
+        "title": "반도체 변동성에 지친 증시…실적·환율 호재 업은 은행주 주목",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5tc0ZwZlZqYkdTcF9JR2pEZDlheGdnR25fRjAtdjJuSW9jZEpmM3RHYkxWXzBuSFRqajVva25rYU0xWE5kN1ZvM2gtZGdvdkppd3VmUWdVZmtZSUdsWWlNLUZoMU1vendlTERuVnNwd3lWeVk5?oc=5",
+        "source": "대한경제",
+        "date": "2026-08-05T08:46:21.000Z"
       },
       {
         "title": "'美 환율안정 발언·외국인 순매수' 원·달러 환율, 1420원대 하락 마감...코스피 6500선 회복",
@@ -205,7 +205,7 @@
       {
         "title": "금시세(금값) 얼마?…중동 정세·연준 정책이 향후 변수",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zdVB6LWYzdFIyWTU0amhXWlRSMjdPVmtOdWJNcTBfQ09hX0Y2QllROEd1LWFDS2hTMzU5a1A2Zy1RaWx4bW9nQzlKeGh0VE83bzlobVotRVlxY2ZBdmJiZi1mX1l1S25U?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-05T15:02:00.000Z"
       },
       {
@@ -385,7 +385,7 @@
       {
         "title": "허위 상품권 판매로 1천400만원 챙긴 20대 구속영장",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0wWEx3RV80WFU0MDY1bnBnYlVJNTBFbG55bzVlcXVGQVRiQ2RZaDFmWU9FUUdUOVZtYndCekpmaTg5MW1QaVpJRlpwV1VLVE5kX1lQTTRmWjBTa05tODE5MDBuUDFiYWNJUG1zddIBcEFVX3lxTE5QSE1hS2REajE0RlVpNVlhWV9rSjFIdkRScVN2a1ZDYmhVVzZsaWFBbVBhS3R3dm9UQTMyQzJCY0Z6TGc5SFZZWmZyMUlDejE1UHRDYWxzZ2ZSWGxsMXZnb3NpY0swRzRtank4U2poay0?oc=5",
-        "source": "남도일보",
+        "source": "namdonews.com",
         "date": "2026-06-15T07:00:00.000Z"
       },
       {
@@ -403,9 +403,15 @@
     ],
     "realestate": [
       {
+        "title": "문정시영 39㎡가 12.5억 — 작은 아파트가 국평보다 비싸진 이유 3가지",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE94cDlmVHkwaTVyVGRwV0o5Rl82NjZ6TXF3MFNqMU1rejd6eTJzX2ZmWEVxdG5LRFhMNWcydVo0Nk5GY3Y3Y0lkZzl4WXBQbjA4bEpPWGFTbDNvVGtTQ2R4d3NHdGhVdkE0OWpDT2NtU25SUzJtcTU3N3kwVkg?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-05T13:44:00.000Z"
+      },
+      {
         "title": "여주 2026년 7월 아파트 매매 실거래가",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE82QU1wbTczc0JwbVlRSUJOdmxPSl8teTh3NDl5MERuZ01nOHVoVFFmakFqZjl1S01ra3hUaktjbzlWZXZHdVZDT1RGZnJUVEdpYVNwSUdocHZXaV9URzVFUGVGaHRpckNoMkhZZUF1VQ?oc=5",
-        "source": "yeojujournal.com",
+        "source": "여주저널",
         "date": "2026-08-05T07:21:34.000Z"
       },
       {
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnMUo5dnNsdzdPSEpJV2FlaXJRcnlGMWU1c2Jhd2w4eWpuVjdULVNHZkhpRzBrNDl1dGNzUUVydXcxU3Y1bDFnTlgtRFh5RlhidmRGTFRtclRxMUUtcHJUZ25CcXdhaEI3c3VIcjRn?oc=5",
         "source": "이투데이",
         "date": "2026-08-04T23:30:00.000Z"
-      },
-      {
-        "title": "슈퍼리치들의 세상…월 2000만원 이상 월세 올해만 28건",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5BQUl6YnVmYUFmRGxGdHhrMFR4UFJvRDNqZWdScDNGN1pCMUxrM3RZdzl2VTRuNnhuLVV5VHpYeFN4a3JndWhRTjFVcld3Y1R1YXJQTFNSVnc2UTUwSkIyYXdxR2J4QWJaT0Rn?oc=5",
-        "source": "미디어데일",
-        "date": "2026-08-04T23:11:00.000Z"
       }
     ],
     "lotto": [
