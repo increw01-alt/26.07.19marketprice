@@ -1,6 +1,127 @@
 {
-  "updatedAt": "2026-08-05T07:58:15+09:00",
+  "updatedAt": "2026-08-05T09:05:02+09:00",
   "deals": [
+    {
+      "title": "칵테일새우 900g 냉동 새우살 흰다리새우",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://naver.me/Fjmof03Q",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-04T23:59:45.000Z"
+    },
+    {
+      "title": "닌텐도 스위치2 포켓몬 레전드 Z-A 50,220원",
+      "mall": "SSG",
+      "price": 50220,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106143",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-04T23:56:16.000Z"
+    },
+    {
+      "title": "손질 조미 반건조 노가리 300g, 반건조 손질 두절 조미 노가리 500g",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://naver.me/5c8dqhnq",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-04T23:47:23.000Z"
+    },
+    {
+      "title": "설빙 맛있는 검은콩 미숫가루, 24g, 50개입, 1박스",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724854",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:47:13.000Z"
+    },
+    {
+      "title": "싱싱한 통찜용 오징어 1kg,, 원양산 냉동 손질오징어 1kg",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://naver.me/5DZe8Q9P",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-04T23:37:23.000Z"
+    },
+    {
+      "title": "헤어클리닉 홈케어 3종세트",
+      "mall": "롯데온",
+      "price": 49900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724853",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:36:36.000Z"
+    },
+    {
+      "title": "듀얼센스 무선 아이콘 블루 + 신지모루 케이블 (112,800/무배)",
+      "mall": "컴퓨존",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724852",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:19:17.000Z"
+    },
+    {
+      "title": "아임닭 닭가슴살 김치볶음밥 200g * 20개",
+      "mall": "토스쇼핑",
+      "price": 14000,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724851",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:17:22.000Z"
+    },
+    {
+      "title": "좋은생각 1년 정기구독+과월호1권 추가증정 40,000원",
+      "mall": "지마켓",
+      "price": 40000,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724850",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:14:59.000Z"
+    },
+    {
+      "title": "널담 고단백 배꼽 베이글, 맛혼합, 10개",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724849",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:09:39.000Z"
+    },
+    {
+      "title": "또또떡볶이 200g 6봉+떡볶이소스 6봉",
+      "mall": "오늘의집",
+      "price": 9450,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724848",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-04T23:01:02.000Z"
+    },
     {
       "title": "슈퍼오닝 평택 꿈마지쌀 10kg 특등급",
       "mall": "팔도감",
@@ -121,83 +242,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-04T15:44:14.000Z"
-    },
-    {
-      "title": "가시없는 순살 고등어 필렛 700g x 2팩 총 1.4kg",
-      "mall": "롯데온",
-      "price": 27380,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724837",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:41:09.000Z"
-    },
-    {
-      "title": "삼육김 올리브녹차 도시락김 4g32봉",
-      "mall": "토스쇼핑",
-      "price": 8400,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724836",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:37:20.000Z"
-    },
-    {
-      "title": "수제 닭꼬치 모음",
-      "mall": "네이버",
-      "price": 7920,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724835",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:34:40.000Z"
-    },
-    {
-      "title": "오뚜기 XO 수제통새우만두 4봉 외 4봉+4봉 골라담기",
-      "mall": "오늘의집",
-      "price": 23370,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724834",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:29:37.000Z"
-    },
-    {
-      "title": "커버낫 쿨 코튼 2팩 티셔츠",
-      "mall": "롯데온",
-      "price": 28400,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724833",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:28:06.000Z"
-    },
-    {
-      "title": "지평소주, 박재서명인안동소주 35도, 22도(다양/무배)",
-      "mall": "팔도감",
-      "price": null,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724832",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:25:10.000Z"
-    },
-    {
-      "title": "잘풀리는집 도톰한 3겹 퀼팅 광폭 화장지 30m x 24롤 x 2팩",
-      "mall": "오늘의집",
-      "price": 20704,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=724831",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-04T15:24:53.000Z"
     },
     {
       "title": "PS5 카잔 30,000원 / 2,500원",
@@ -574,17 +618,6 @@
       "date": "2026-08-03T09:24:36.000Z"
     },
     {
-      "title": "질레트 프로글라이드 센서티브 젤 170g 6개",
-      "mall": "카카오톡",
-      "price": 20810,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106113",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-03T09:06:28.000Z"
-    },
-    {
       "title": "민물장어 명품 국산 자포니카 홈파티 캠핑음식 손질 초벌구이 선택",
       "mall": "네이버",
       "price": null,
@@ -660,39 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-01T15:40:51.000Z"
-    },
-    {
-      "title": "펩시제로슈거 라임향 제로카페인 355ml 48캔 24,180원",
-      "mall": "네이버",
-      "price": 24180,
-      "cat": "식품",
-      "link": "https://damoang.net/economy/78274",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-01T02:53:58.000Z"
-    },
-    {
-      "title": "Sol Cesto",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/78267",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-01T00:27:14.000Z"
-    },
-    {
-      "title": "📱 알뜰폰 요금제 추천 — 2026년 8월",
-      "mall": null,
-      "price": 1000,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/78264",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-07-31T23:06:43.000Z"
     }
   ]
 }
