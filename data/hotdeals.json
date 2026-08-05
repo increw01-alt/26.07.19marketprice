@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-06T02:49:00+09:00",
+  "updatedAt": "2026-08-06T04:23:04+09:00",
   "deals": [
+    {
+      "title": "Moonlighter",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725127",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T18:02:44.000Z"
+    },
+    {
+      "title": "문라이터",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106164",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-05T18:01:50.000Z"
+    },
+    {
+      "title": "이어맥 초슬림 3포트 고속충전 보조배터리 10000mAh (13,900원/무료)/쿠폰적용시 10,340원 구매가능",
+      "mall": "지그재그",
+      "price": 10340,
+      "cat": "디지털·가전",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725126",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T17:55:12.000Z"
+    },
     {
       "title": "블랙야크키즈 스노우 롱 덕다운자켓",
       "mall": "신세계",
@@ -143,28 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-05T15:20:26.000Z"
-    },
-    {
-      "title": "뷰카 아크네 바디워시 1050ml 1+1",
-      "mall": "오늘의집",
-      "price": 10900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725111",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:15:37.000Z"
-    },
-    {
-      "title": "도루코 페이스 스타터킷 모션+면도날2입",
-      "mall": "롯데온",
-      "price": 15680,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725110",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:15:30.000Z"
     },
     {
       "title": "일일적립, 클릭 43원, 퀴즈미션, 라이브예고 17원",
@@ -539,17 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-04T06:53:02.000Z"
-    },
-    {
-      "title": "쉬크 하이드로5 몬헌 에디션+날9+랜덤 키캡 4종",
-      "mall": "롯데온",
-      "price": 20850,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106132",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-04T06:46:07.000Z"
     },
     {
       "title": "8월 할인에 파도타기 + 링크프라이스 전용 할인코드",
