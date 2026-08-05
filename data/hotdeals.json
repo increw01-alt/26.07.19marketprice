@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-06T07:57:59+09:00",
+  "updatedAt": "2026-08-06T08:56:20+09:00",
   "deals": [
+    {
+      "title": "The Witcher 3: Wild Hunt 할인",
+      "mall": "스팀",
+      "price": 6960,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106166",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-05T23:54:35.000Z"
+    },
+    {
+      "title": "신선한 맛있는 해조류 염지 미역 줄기 2kg 10,400원",
+      "mall": "네이버",
+      "price": 10400,
+      "cat": "기타",
+      "link": "https://naver.me/FyAsR92p",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-05T23:35:15.000Z"
+    },
+    {
+      "title": "락토핏 코어맥스 16개월분+무선핸디청소기",
+      "mall": "sk스토아",
+      "price": 99000,
+      "cat": "디지털·가전",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725136",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T23:34:54.000Z"
+    },
+    {
+      "title": "산과들에 마이포켓넛츠, 20g, 100봉",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725135",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T23:32:09.000Z"
+    },
+    {
+      "title": "8월 6일 네이버페이 62원 + 랜덤 포인트",
+      "mall": null,
+      "price": 62,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/78439",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-05T23:21:13.000Z"
+    },
+    {
+      "title": "소고기 모듬 구이용 200g X 5팩 (소갈비살+안창살+토시살+살치살+우삼겹 각200g)",
+      "mall": "옥션",
+      "price": 29680,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725134",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T23:14:38.000Z"
+    },
+    {
+      "title": "다인경주빵 호두과자 1kg",
+      "mall": "G마켓",
+      "price": 9900,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725133",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-05T23:01:19.000Z"
+    },
     {
       "title": "환타 제로 파인애플 350ml, 24개",
       "mall": "쿠팡와우",
@@ -154,50 +231,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-05T15:29:42.000Z"
-    },
-    {
-      "title": "다인경주빵 아이스 경주빵 38g x 50개입",
-      "mall": "G마켓",
-      "price": 20610,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725117",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:28:29.000Z"
-    },
-    {
-      "title": "대용량 제습제 570ml 24개입",
-      "mall": "롯데온",
-      "price": 12720,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725116",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:26:51.000Z"
-    },
-    {
-      "title": "네파 브레보 쿠셔닝 워킹화",
-      "mall": "G마켓",
-      "price": 46860,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725115",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:26:25.000Z"
-    },
-    {
-      "title": "밥도둑 꽃게탕 밀키트",
-      "mall": "네이버",
-      "price": 17390,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725114",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-05T15:24:49.000Z"
     },
     {
       "title": "일일적립, 클릭 43원, 퀴즈미션, 라이브예고 17원",
@@ -552,17 +585,6 @@
       "date": "2026-08-04T10:03:15.000Z"
     },
     {
-      "title": "펩시 제로카페인 355ml 48개+선풍기",
-      "mall": "네이버",
-      "price": 25760,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106135",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-04T09:30:53.000Z"
-    },
-    {
       "title": "8월 할인에 파도타기 + 링크프라이스 전용 할인코드",
       "mall": "알리익스프레스",
       "price": null,
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-03T03:25:44.000Z"
-    },
-    {
-      "title": "쭈꾸미 볶음 500g 4팩set 무료배송, 쭈꾸미볶음 500g 캠핑음식",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/5bC2WovQ",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-03T02:16:42.000Z"
-    },
-    {
-      "title": "칠갑농산 냉면육수 300ml 1박스 (30개입) 무료배송",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/IDkdGrTR",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-03T01:51:07.000Z"
     }
   ]
 }
