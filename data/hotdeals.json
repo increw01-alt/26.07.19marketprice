@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-08T01:48:56+09:00",
+  "updatedAt": "2026-08-08T02:44:27+09:00",
   "deals": [
+    {
+      "title": "Breathedge 재배포",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725636",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T17:39:56.000Z"
+    },
+    {
+      "title": "Breathedge",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106221",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-07T17:06:38.000Z"
+    },
     {
       "title": "Grim Trials",
       "mall": "MS스토어",
@@ -165,17 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-07T15:23:58.000Z"
-    },
-    {
-      "title": "아이스쇼크 탈모샴푸 1000ml",
-      "mall": "G마켓",
-      "price": 23830,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725618",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T15:20:18.000Z"
     },
     {
       "title": "8월 8일 네이버페이 57원 + 랜덤 포인트",
@@ -616,17 +627,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-06T15:11:44.000Z"
-    },
-    {
-      "title": "우리는 여기에 있었다 투게더",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106190",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T15:00:01.000Z"
     },
     {
       "title": "산지직송 완도전복 활전복 1kg 산소포장 17,520원",
