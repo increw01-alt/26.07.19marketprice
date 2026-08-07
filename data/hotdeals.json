@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-08T00:51:50+09:00",
+  "updatedAt": "2026-08-08T01:48:56+09:00",
   "deals": [
+    {
+      "title": "Grim Trials",
+      "mall": "MS스토어",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106220",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-07T16:36:07.000Z"
+    },
+    {
+      "title": "하루견과 견과류 BEST 100봉",
+      "mall": "롯데온",
+      "price": null,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725635",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T16:24:04.000Z"
+    },
+    {
+      "title": "프릴 베이킹소다 1000mlx6개 주방세제_프릴 수세미 증정",
+      "mall": "오늘의집",
+      "price": null,
+      "cat": "생활",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725634",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T16:22:02.000Z"
+    },
+    {
+      "title": "온더고 도시락 17개 삼성카드 모니모 할인적용시",
+      "mall": "아워홈몰",
+      "price": 40300,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725632",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T16:08:33.000Z"
+    },
+    {
+      "title": "여수 돌산 갓김치 1.5kg",
+      "mall": "카카오",
+      "price": 8900,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725629",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T15:58:09.000Z"
+    },
     {
       "title": "하이랩 탄탄한 3단 접이식 토퍼 매트리스",
       "mall": "지마켓",
@@ -123,17 +178,6 @@
       "date": "2026-08-07T15:20:18.000Z"
     },
     {
-      "title": "산들내음 난각번호 1번 산림방사 유정란 60구",
-      "mall": "토스",
-      "price": 32900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725617",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T15:19:37.000Z"
-    },
-    {
       "title": "8월 8일 네이버페이 57원 + 랜덤 포인트",
       "mall": null,
       "price": 57,
@@ -145,28 +189,6 @@
       "date": "2026-08-07T15:16:27.000Z"
     },
     {
-      "title": "퍼실 2.0 라벤더 세탁세제 x 6개 + 매트 증정",
-      "mall": "오늘의집",
-      "price": 45044,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725616",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T15:13:25.000Z"
-    },
-    {
-      "title": "투게더 바닐라 오리지널 5통",
-      "mall": "오늘의집",
-      "price": 21173,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725615",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T15:12:23.000Z"
-    },
-    {
       "title": "일일적립, 클릭 43원, 퀴즈미션, 라이브예고 1원",
       "mall": "네이버페이",
       "price": 1,
@@ -176,17 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-07T15:09:57.000Z"
-    },
-    {
-      "title": "모닝컴스 인도 히말라야 숙취해소제 1박스 1포 100원",
-      "mall": "카카오",
-      "price": 500,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725614",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T15:08:14.000Z"
     },
     {
       "title": "생지 녹차 500ml 20페트",
@@ -616,17 +627,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-06T15:00:01.000Z"
-    },
-    {
-      "title": "switch 캡콤 아케이드 스타디움 1,2 각 1,000엔",
-      "mall": "일본e샵",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106189",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T13:09:42.000Z"
     },
     {
       "title": "산지직송 완도전복 활전복 1kg 산소포장 17,520원",
