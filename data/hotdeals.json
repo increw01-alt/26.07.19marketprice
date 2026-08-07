@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-08T05:35:34+09:00",
+  "updatedAt": "2026-08-08T06:34:29+09:00",
   "deals": [
+    {
+      "title": "Breathedge [무료]",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78538",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-07T21:32:54.000Z"
+    },
     {
       "title": "해남 산지직송 무화과 450g 2팩",
       "mall": "네이버",
@@ -66,17 +77,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-07T16:22:02.000Z"
-    },
-    {
-      "title": "온더고 도시락 17개 삼성카드 모니모 할인적용시",
-      "mall": "아워홈몰",
-      "price": 40300,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725632",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T16:08:33.000Z"
     },
     {
       "title": "여수 돌산 갓김치 1.5kg",
@@ -187,6 +187,17 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-07T15:29:15.000Z"
+    },
+    {
+      "title": "고메 소바바 소이허니/양념 치킨 240g 2+2 골라담기",
+      "mall": "오늘의집",
+      "price": 16865,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725619",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T15:23:58.000Z"
     },
     {
       "title": "8월 8일 네이버페이 57원 + 랜덤 포인트",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-05T23:35:15.000Z"
-    },
-    {
-      "title": "8월 6일 네이버페이 62원 + 랜덤 포인트",
-      "mall": null,
-      "price": 62,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/78439",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-05T23:21:13.000Z"
     }
   ]
 }
