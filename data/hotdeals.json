@@ -1,8 +1,74 @@
 {
-  "updatedAt": "2026-08-07T20:41:55+09:00",
+  "updatedAt": "2026-08-07T21:52:10+09:00",
   "deals": [
     {
-      "title": "서설13도, 문배술25 (다양,무배)",
+      "title": "휴대용 미니 손선풍기",
+      "mall": "네이버",
+      "price": 2500,
+      "cat": "디지털·가전",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725598",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T12:25:07.000Z"
+    },
+    {
+      "title": "K2 씬에어 코코 후디 구스다운",
+      "mall": "롯데온",
+      "price": 130454,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725597",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T12:22:03.000Z"
+    },
+    {
+      "title": "Blast the Past",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106215",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-07T12:13:59.000Z"
+    },
+    {
+      "title": "스카트 거품 2배 그물 망사수세미",
+      "mall": "지마켓",
+      "price": 13590,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725595",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T11:58:20.000Z"
+    },
+    {
+      "title": "칵테일새우 900g+간장새우장 500g+오돌뼈 300g",
+      "mall": "네이버",
+      "price": 29900,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725594",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-07T11:55:18.000Z"
+    },
+    {
+      "title": "매일두유 고단백 190ml 48개 외 골라담기",
+      "mall": "롯데온",
+      "price": 25930,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106214",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-07T11:50:42.000Z"
+    },
+    {
+      "title": "전통주 서설13도, 문배술25 (다양,무배)",
       "mall": "동원몰",
       "price": null,
       "cat": "기타",
@@ -79,28 +145,6 @@
       "date": "2026-08-07T11:10:01.000Z"
     },
     {
-      "title": "트라이 인견 5부반바지 3매",
-      "mall": "롯데온",
-      "price": 15980,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725584",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T11:08:39.000Z"
-    },
-    {
-      "title": "산사춘 375ml 6입 + 전용잔",
-      "mall": "11번가",
-      "price": 19750,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725583",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T11:08:16.000Z"
-    },
-    {
       "title": "소형 휴대용 선풍기 1+1",
       "mall": "카카오톡",
       "price": 9900,
@@ -143,28 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-07T11:04:22.000Z"
-    },
-    {
-      "title": "신림동 호남집 백순대 2~4인분 양념순대볶음 간편 밀키트 800g",
-      "mall": "오늘의집",
-      "price": 10935,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725578",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T10:57:55.000Z"
-    },
-    {
-      "title": "노랑풍선 규슈 힐튼 세미패키지",
-      "mall": "롯데온",
-      "price": 388730,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725577",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-07T10:55:48.000Z"
     },
     {
       "title": "We Were Here Together 무료 배포",
@@ -594,28 +616,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-06T08:05:17.000Z"
-    },
-    {
-      "title": "롯데 곽과자 1개+봉지과자 5봉",
-      "mall": "롯데온",
-      "price": 10900,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106184",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T07:57:06.000Z"
-    },
-    {
-      "title": "PS5 고스트 오브 요테이 컬렉터즈",
-      "mall": "네이버",
-      "price": 3000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106183",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T07:28:46.000Z"
     },
     {
       "title": "산지직송 완도전복 활전복 1kg 산소포장 17,520원",
