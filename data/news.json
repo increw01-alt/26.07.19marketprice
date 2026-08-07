@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-08T04:49:39+09:00",
+  "updatedAt": "2026-08-08T05:35:42+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "\"올해 코스피 사이드카 43회 중 25회는 삼전닉스 ETF 이후 발생\"",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOd3VwZEdyM1hlckhpLWYtWm9zTldlR1NrVktSQkRtV2hLOVVrNWVGX2IwSXRubERSaGJVNFJieE5RUEFnTTlud2tkeFVmajV6RTdBMEZwU1NibWF0dmhzdmdYMkR0TkxhNG01RVkyLVhfRTJmQVUwaU55WjVwQzN2Q2h6SGdiOFJSdTVtR3dB?oc=5",
+        "source": "국제신문",
+        "date": "2026-08-07T18:54:00.000Z"
+      },
+      {
         "title": "코스피, 이틀 연속 하락...코스닥, 다시 800선 하회",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9Jd0lZRVcyLTZhbUZkM001VzVzVDE1YkxobHZsam1ZOTVkTGZVRkk2RFB1VVYycWdXRXo5a183aWRhMGtRUlZRdWpCc0Z3bjlmeU1CcUdjekpTNzNwaHFlbkJaUUFvVU5CUERJMnZoNlZhN3ZEUWc?oc=5",
         "source": "YTN",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80RV9hNllMdHJROGFtbkVreEFvcVJNa0FDcmVlMzVWSGRVTk4tallxTDQ4U3Y4SkdsTXhCeTd3LXlhTlg1bFlfRTNxbzhTOTNTTWFxcXF1TlNjV3NEY0hPbW85amo2M1JVd1NDYg?oc=5",
         "source": "굿모닝경제",
         "date": "2026-08-07T08:49:14.000Z"
-      },
-      {
-        "title": "[마감시황] 코스피, 美고용지표 앞두고 ‘전강후약’…6250선 후퇴",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xTUlWVk44Rlh2VmVyTTg4V2tCdUxFdkQwblZ3Z0VseTlCSWgxM3ZkcVNncE9VWUR5eC04QnY0SlhUMXl3dE93dnFIV3RKN05LZWFtWGRqaEg3MFZWTDFBakpFWGJ0bHdkRW5KZDd1c28?oc=5",
-        "source": "한양경제",
-        "date": "2026-08-07T08:33:55.000Z"
       }
     ],
     "kosdaq": [
@@ -107,12 +107,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95a3FpcnJPYkQ1bXd4X3lyeVJObjFjZUFtYWZ0SmhQRmQxNWd2SXg0SmIyYzd0a0oteklBYld0OGpVN2tVMk9QY3JWcFBUc29sd1pULUxydEc3QXpsay1LdzM2UGFfWUItcHFCZw?oc=5",
         "source": "뉴스탭",
         "date": "2026-08-07T12:45:18.000Z"
-      },
-      {
-        "title": "코스닥 퇴출 규정 현실화…바이오헬스 8곳 '경고등'",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5jYmJxRDh3NDdhQmlKNi02XzhqQk44cnR2S3N6SkFMTkxDUENtcW42M25BQW1Vc0o3Z3JqMWJoVFhETE5JbHd0cHlFOHpiZlFuS3ptOC1B?oc=5",
-        "source": "dailypharm.com",
-        "date": "2026-08-07T11:20:10.000Z"
       },
       {
         "title": "코스피, 이틀 연속 하락...코스닥, 다시 800선 하회",
@@ -141,7 +135,7 @@
       {
         "title": "[0807마감체크] 코스피, 외국인 매도세에 6200선 마감... 코스닥도 하락",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBZcmpMZnhOM1lvdlY3a2h4YW96cUpkTUpScVBHLW5KTE5FUl9qWEQ3X1RmUk5QMzNIb3Y2Q0IwdzVkS1dNbzZmSWxPbUJBR2UzNzF5dVR4Z1ZKRzVjMHU1UHZlLWJTdmEwYUxocko1Tm91UFFhaWc?oc=5",
-        "source": "인포스탁데일리",
+        "source": "infostockdaily.co.kr",
         "date": "2026-08-07T08:22:53.000Z"
       },
       {
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FMnU5YVRMSG5sc3BXcUlxSjJyNlE0UWE3dTYxdm54VkJVcGg2SnFWd2RVc3BpeGRSb1JLN0dpVEpKbEliSy12eW5fVWxranpFQUE?oc=5",
         "source": "더나은미래",
         "date": "2026-08-07T08:16:00.000Z"
+      },
+      {
+        "title": "코스피, 외국인 '팔자'에 하락 전환 6,250선… 코스닥도 6일 만에 꺾였다",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1wTzhxVXFLM3pJazJiT1NIOFdyZW41MDBSeXd0X3BjZTlyYWJscEhxdl9sTk1RcjVSYkNqS3MxNnZmNnBub05hMXk5NmxyWjRwNFY2T3hFWXZYT3oyVHREalYyTEp4Z0ticFNjRg?oc=5",
+        "source": "파이낸스투데이",
+        "date": "2026-08-07T08:01:06.000Z"
       }
     ],
     "fx": [
@@ -441,7 +441,7 @@
       {
         "title": "\"핵심 입지가 시세 이끈다\"…대장주 아파트 신고가 행진",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4VW1aN0hIdm40T29oWmJnTmllLUl2U0VPOXVtOHhLamFWMWR3aFBpdkRDRG12N0xidFA1OXczbjl4SnBpUVZLUzVCUXltNjJiUFhOQURiNUlFQQ?oc=5",
-        "source": "한국경제",
+        "source": "hankyung.com",
         "date": "2026-08-06T02:28:40.000Z"
       },
       {
