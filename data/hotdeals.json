@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-09T06:25:16+09:00",
+  "updatedAt": "2026-08-09T07:22:49+09:00",
   "deals": [
+    {
+      "title": "IOS 일시무료 Yepnotes",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78596",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-08T22:09:02.000Z"
+    },
+    {
+      "title": "오늘특가 광천김40g 10봉 10,900원/ 가그린제로820ml 4개+100ml 13900원/ 드라이 쿨 반팔티 3,900원,사이즈S~3XL까지",
+      "mall": "토스쇼핑",
+      "price": 3900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725777",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T22:07:43.000Z"
+    },
+    {
+      "title": "(롯데온) 공식 수입사 바이타믹스 리퍼전 (다양)",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78593",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-08T22:03:07.000Z"
+    },
     {
       "title": "쿠쿠 6인용 IH전기압력밥솥",
       "mall": "쿠쿠몰",
@@ -24,17 +57,6 @@
       "date": "2026-08-08T16:15:59.000Z"
     },
     {
-      "title": "내셔널지오그래픽 역시즌특가 남여공용 골든몰 구스다운점퍼",
-      "mall": "지마켓",
-      "price": 109760,
-      "cat": "디지털·가전",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725774",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T16:14:35.000Z"
-    },
-    {
       "title": "하이뮨 프로틴 밸런스 액티브 바닐라봉봉 ZERO 18입",
       "mall": "지마켓",
       "price": 18620,
@@ -44,17 +66,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-08T16:06:07.000Z"
-    },
-    {
-      "title": "컬럼비아 남성 기능성 여름 냉감 반팔 티셔츠",
-      "mall": "롯데온",
-      "price": 30000,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725772",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T16:01:32.000Z"
     },
     {
       "title": "마니커 버팔로 치킨윙봉 1kg+1kg",
@@ -187,6 +198,17 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-08T15:07:36.000Z"
+    },
+    {
+      "title": "후디스 무가당 플레인 그릭요거트 400g 2개",
+      "mall": "토스",
+      "price": 6600,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725760",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T15:07:03.000Z"
     },
     {
       "title": "밀키스 190ml 30개 7,550원",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-06T16:30:20.000Z"
-    },
-    {
-      "title": "아이스 아메리카노 XL",
-      "mall": "CU",
-      "price": 1300,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/78488",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-06T16:16:17.000Z"
-    },
-    {
-      "title": "아이스 아메리카노 라떼류",
-      "mall": "GS25",
-      "price": 1900,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/78486",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-06T16:12:35.000Z"
     }
   ]
 }
