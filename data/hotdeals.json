@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-08T13:51:30+09:00",
+  "updatedAt": "2026-08-08T14:39:03+09:00",
   "deals": [
+    {
+      "title": "경봉복숭아 4kg",
+      "mall": "옥션",
+      "price": 14790,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725693",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:17:07.000Z"
+    },
+    {
+      "title": "바리스타룰스 원데이 무라벨 아메리카노 350ml 20개",
+      "mall": "토스쇼핑",
+      "price": 9990,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725692",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:08:48.000Z"
+    },
+    {
+      "title": "카누 미니 마일드 아메리카노 260개",
+      "mall": "네이버",
+      "price": 34520,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106229",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-08T05:04:00.000Z"
+    },
+    {
+      "title": "농협안심한우 1등급 등심200g+채끝200g+부채200g",
+      "mall": "네이버",
+      "price": 38900,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725691",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:03:39.000Z"
+    },
+    {
+      "title": "컨셉원 에어쿨 피케 카라티",
+      "mall": "공홈",
+      "price": 12100,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725690",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T04:57:24.000Z"
+    },
+    {
+      "title": "다우니 미스티크 1L 6개 초고농축 섬유유연제 본품 + 200ml 유연제 3개 증정",
+      "mall": "롯데온",
+      "price": 31820,
+      "cat": "생활",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725689",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T04:51:52.000Z"
+    },
+    {
+      "title": "바르온 삼계탕 1kg 4팩",
+      "mall": "옥션",
+      "price": 16720,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725688",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T04:51:49.000Z"
+    },
     {
       "title": "디어 쿠페아 헤어컬러 샴푸 염색약 15ml 3입 x3개(내추럴/딥/다크 브라운 택1)",
       "mall": "Hmall",
@@ -112,17 +189,6 @@
       "date": "2026-08-08T03:02:10.000Z"
     },
     {
-      "title": "쿠진아트 디지털 에어프라이어 오븐 TOA-75KR",
-      "mall": "오늘의집",
-      "price": 199000,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725678",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T03:01:15.000Z"
-    },
-    {
       "title": "닌텐도스위치2 단품+NS2 젤다의 전설 지혜의 투영 705,672원",
       "mall": "오늘의집",
       "price": 705672,
@@ -132,61 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-08T02:51:08.000Z"
-    },
-    {
-      "title": "부광약품 콤팩트헤드 초극세모 12입+12입 24입",
-      "mall": "옥션",
-      "price": 13060,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725677",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T02:48:45.000Z"
-    },
-    {
-      "title": "하림펫푸드 밥이보약 고양이 사료 3.4kg+간식 7개",
-      "mall": "네이버",
-      "price": 31010,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725676",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T02:26:14.000Z"
-    },
-    {
-      "title": "스파클 생수 2L, 24개",
-      "mall": "토스",
-      "price": 7200,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725675",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T02:13:19.000Z"
-    },
-    {
-      "title": "채담카레 10팩+새우갈릭카레2팩",
-      "mall": "지마켓",
-      "price": 12900,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725674",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T02:07:25.000Z"
-    },
-    {
-      "title": "오늘하루딜 남성필수영양제 익스트림 듀얼아르기닌플러스 120정 2개월분",
-      "mall": "토스쇼핑",
-      "price": 9900,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725673",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T02:06:40.000Z"
     },
     {
       "title": "3+1 바디워시 1000ml 28,900원(무료배송), 3+1 샴푸 1000ml 32,900원",
@@ -561,17 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-07T00:32:19.000Z"
-    },
-    {
-      "title": "고스트리콘 업데이트기념 세일 와일드랜드2.740원 브레이크포인트3.250",
-      "mall": "스팀",
-      "price": 740,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106199",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T23:59:03.000Z"
     },
     {
       "title": "닭정육 뼈없는 순살 닭다리살 2kg 11,500원",
