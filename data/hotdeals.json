@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-08T14:39:03+09:00",
+  "updatedAt": "2026-08-08T15:42:28+09:00",
   "deals": [
+    {
+      "title": "달콤파크 프리미엄 하스 아보카도 중과 10개입",
+      "mall": "토스쇼핑",
+      "price": 9700,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725697",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T06:08:08.000Z"
+    },
+    {
+      "title": "피에로구르망 큐물로 님부스 12개입",
+      "mall": "네이버",
+      "price": 10900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725696",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:57:24.000Z"
+    },
+    {
+      "title": "스타메라 솔리드 블랙 이태리벨트",
+      "mall": "네이버",
+      "price": 29900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725695",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:56:52.000Z"
+    },
+    {
+      "title": "타미진스 린넨 블렌드 데님 셔츠",
+      "mall": "H패션",
+      "price": 53116,
+      "cat": "패션·뷰티",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725694",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T05:39:43.000Z"
+    },
     {
       "title": "경봉복숭아 4kg",
       "mall": "옥션",
@@ -26,7 +70,7 @@
     {
       "title": "카누 미니 마일드 아메리카노 260개",
       "mall": "네이버",
-      "price": 34520,
+      "price": 37520,
       "cat": "기타",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106229",
       "direct": false,
@@ -145,50 +189,6 @@
       "date": "2026-08-08T04:04:09.000Z"
     },
     {
-      "title": "1인1일1번구매한정 에브리워터 500ml X20병X2박스",
-      "mall": "토스쇼핑",
-      "price": 4400,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725682",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T03:31:36.000Z"
-    },
-    {
-      "title": "신라면10+너구리10+짜파게티10입",
-      "mall": "카카오",
-      "price": 21600,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725681",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T03:21:56.000Z"
-    },
-    {
-      "title": "일리 네스프레소 호환 캡슐 커피 5종 세트 100캡슐",
-      "mall": "롯데온",
-      "price": 54390,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725680",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T03:15:08.000Z"
-    },
-    {
-      "title": "지리산 프레시웰 생수 2L 24개",
-      "mall": "네이버",
-      "price": 10900,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725679",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T03:02:10.000Z"
-    },
-    {
       "title": "닌텐도스위치2 단품+NS2 젤다의 전설 지혜의 투영 705,672원",
       "mall": "오늘의집",
       "price": 705672,
@@ -220,17 +220,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-08T01:41:46.000Z"
-    },
-    {
-      "title": "구글 플레이 렌덤 쿠폰 배포 중",
-      "mall": null,
-      "price": null,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106226",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-08T01:39:07.000Z"
     },
     {
       "title": "Grim Trials [무료]",
@@ -572,6 +561,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-07T00:32:19.000Z"
+    },
+    {
+      "title": "고스트리콘 업데이트기념 세일 와일드랜드2.740원 브레이크포인트3.250",
+      "mall": "스팀",
+      "price": 740,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106199",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-06T23:59:03.000Z"
     },
     {
       "title": "닭정육 뼈없는 순살 닭다리살 2kg 11,500원",
