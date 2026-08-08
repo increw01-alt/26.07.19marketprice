@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-08T19:26:31+09:00",
+  "updatedAt": "2026-08-08T20:23:23+09:00",
   "deals": [
+    {
+      "title": "질레트 프로글라이드 매뉴얼 면도기 핸들1+면도날 12입",
+      "mall": "롯데온",
+      "price": 31530,
+      "cat": "생활",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725736",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T11:10:56.000Z"
+    },
+    {
+      "title": "선쉐이드 티타늄 원터치 햇빛가리개 블랙 1개",
+      "mall": "토스쇼핑",
+      "price": 7900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725735",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:57:35.000Z"
+    },
+    {
+      "title": "GS25 데이지 에일캔 500ml 4캔 6000원",
+      "mall": null,
+      "price": 6000,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78572",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-08T10:56:21.000Z"
+    },
+    {
+      "title": "밀키 카라멜 토마토 62g*24봉",
+      "mall": "떠리몰",
+      "price": 15900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725734",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:51:12.000Z"
+    },
+    {
+      "title": "스테비아 대추방울토마토 500g x  4팩",
+      "mall": "롯데온",
+      "price": 9730,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725733",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:30:02.000Z"
+    },
     {
       "title": "생선숙편 꼬치어묵 8개입x4팩+소스 4봉",
       "mall": "11번가",
@@ -134,28 +189,6 @@
       "date": "2026-08-08T09:21:17.000Z"
     },
     {
-      "title": "칫솔 12개 초극세모 어금니 치과 교정 소프트",
-      "mall": "네이버",
-      "price": 6900,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725721",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T09:17:50.000Z"
-    },
-    {
-      "title": "애슐리 데일리 볶음밥 10종 3팩 골라담기 (12인분)",
-      "mall": "옥션",
-      "price": 23470,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725720",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T09:16:59.000Z"
-    },
-    {
       "title": "플레이스테이션 포탈 리모트플레이어 / 284,000",
       "mall": "하이마트",
       "price": null,
@@ -165,28 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-08T09:09:48.000Z"
-    },
-    {
-      "title": "60분러시 바비리스 코털정리기 NE1000WK",
-      "mall": "11번가",
-      "price": 10900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725719",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T09:05:07.000Z"
-    },
-    {
-      "title": "칼집 양념 돼지 왕구이 2.4kg",
-      "mall": "옥션",
-      "price": 16990,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725718",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T09:01:16.000Z"
     },
     {
       "title": "멕시카나시킨 어플 포장할인5,000원+토스쿠폰 할인 4,000원",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-06T16:07:48.000Z"
-    },
-    {
-      "title": "8월 7일 네이버페이 53원 + 랜덤 포인트",
-      "mall": null,
-      "price": 53,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/78481",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-06T15:17:44.000Z"
     }
   ]
 }
