@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-08T15:42:28+09:00",
+  "updatedAt": "2026-08-08T16:47:54+09:00",
   "deals": [
+    {
+      "title": "EDIFIER Comfo Bass 오픈 이어 블루투스 오픈형이어폰",
+      "mall": "카카오",
+      "price": 43710,
+      "cat": "디지털·가전",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725702",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T07:21:29.000Z"
+    },
+    {
+      "title": "드리미 L50s pro ultra 외 3종",
+      "mall": "자사몰",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725701",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T07:12:41.000Z"
+    },
+    {
+      "title": "아트란 10.95인치 큐패드V11",
+      "mall": "롯데온",
+      "price": 3500,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725699",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T07:10:09.000Z"
+    },
+    {
+      "title": "빙그레 더단백 드링크 8종 250ml 42팩",
+      "mall": "롯데온",
+      "price": 49950,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106230",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-08T07:07:27.000Z"
+    },
+    {
+      "title": "스지 가득한 사골 도가니탕 500g 5팩",
+      "mall": "네이버",
+      "price": 12700,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725698",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T07:01:04.000Z"
+    },
     {
       "title": "달콤파크 프리미엄 하스 아보카도 중과 10개입",
       "mall": "토스쇼핑",
@@ -143,50 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-08T04:45:12.000Z"
-    },
-    {
-      "title": "수박(11브릭스), 6-8kg, 1박스",
-      "mall": "토스",
-      "price": 9900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725686",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T04:34:43.000Z"
-    },
-    {
-      "title": "슈펜 논슬립 투버클 리커버리 슬리퍼",
-      "mall": "롯데온",
-      "price": 13020,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725685",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T04:25:43.000Z"
-    },
-    {
-      "title": "국내산 알록달록 파프리카 1kg",
-      "mall": "11번가",
-      "price": 4920,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725684",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T04:22:04.000Z"
-    },
-    {
-      "title": "블랙야크 남성 기능성 카라티",
-      "mall": "롯데온",
-      "price": 30020,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725683",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T04:04:09.000Z"
     },
     {
       "title": "닌텐도스위치2 단품+NS2 젤다의 전설 지혜의 투영 705,672원",
@@ -561,17 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-07T00:32:19.000Z"
-    },
-    {
-      "title": "고스트리콘 업데이트기념 세일 와일드랜드2.740원 브레이크포인트3.250",
-      "mall": "스팀",
-      "price": 740,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106199",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-06T23:59:03.000Z"
     },
     {
       "title": "닭정육 뼈없는 순살 닭다리살 2kg 11,500원",
