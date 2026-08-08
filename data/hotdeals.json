@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-08-08T18:32:43+09:00",
+  "updatedAt": "2026-08-08T19:26:31+09:00",
   "deals": [
+    {
+      "title": "생선숙편 꼬치어묵 8개입x4팩+소스 4봉",
+      "mall": "11번가",
+      "price": 9050,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725732",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:19:38.000Z"
+    },
+    {
+      "title": "호정가 옛날도나스 (16개입) 1+1 (2개 묶음, 총 32개입)",
+      "mall": "롯데온",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725731",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:17:15.000Z"
+    },
+    {
+      "title": "인텍스 다우니 에어배드 싱글 64106",
+      "mall": "11번가",
+      "price": 9900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725730",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:10:16.000Z"
+    },
+    {
+      "title": "서울우유 커피타운 아메리카노 350ml 20개",
+      "mall": "카카오",
+      "price": 18800,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725729",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:08:56.000Z"
+    },
+    {
+      "title": "K2 여성 여름 샌들 니아",
+      "mall": "G마켓",
+      "price": 35220,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725728",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T10:02:05.000Z"
+    },
+    {
+      "title": "호올스 블루베리 27,9g x 20개",
+      "mall": "11번가",
+      "price": 6790,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725727",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T09:57:35.000Z"
+    },
+    {
+      "title": "오아 소닉플로우 미니 드라이기",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725726",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T09:47:14.000Z"
+    },
+    {
+      "title": "에쏘브로 콜드브루 원액, 1kg, 2개",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725725",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T09:40:15.000Z"
+    },
+    {
+      "title": "앤드지 남성 신상품 여름 반팔 니트 카라티 14종",
+      "mall": "G마켓",
+      "price": 29700,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725724",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-08T09:38:45.000Z"
+    },
     {
       "title": "플레이스테이션 VR2 PC어댑터 / 61,000원",
       "mall": "하이마트",
@@ -90,28 +189,6 @@
       "date": "2026-08-08T09:01:16.000Z"
     },
     {
-      "title": "모나리자 천연펄프 보타닉포레 와이드 30M 30롤 2팩",
-      "mall": "카카오",
-      "price": 25900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725717",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:59:19.000Z"
-    },
-    {
-      "title": "대만 자유여행 vs NO쇼핑 패키지! 3일/4일/5일",
-      "mall": "롯데온",
-      "price": 295250,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725716",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:57:10.000Z"
-    },
-    {
       "title": "멕시카나시킨 어플 포장할인5,000원+토스쿠폰 할인 4,000원",
       "mall": "멕시카나치킨",
       "price": 4000,
@@ -123,39 +200,6 @@
       "date": "2026-08-08T08:53:24.000Z"
     },
     {
-      "title": "밥이보약 헤어볼 3.4kg+하루양갱 7개",
-      "mall": "네이버",
-      "price": 31970,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725715",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:52:42.000Z"
-    },
-    {
-      "title": "히말라야 너리싱 바디로션 400ml 2개 (1900원/무배) 소비기한임박",
-      "mall": "롯데온",
-      "price": 1900,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725714",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:49:47.000Z"
-    },
-    {
-      "title": "100억유산균 꾸미 프로바이오틱스 키즈 구미 2박스",
-      "mall": "지마켓",
-      "price": 27900,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725713",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:27:01.000Z"
-    },
-    {
       "title": "금강만두 육개장 5개 17970원 무배",
       "mall": "G마켓",
       "price": 17970,
@@ -165,50 +209,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-08T08:13:47.000Z"
-    },
-    {
-      "title": "득근파티 촉촉 부드러운 통살 스팀닭가슴살 18팩 6가지맛",
-      "mall": "카카오",
-      "price": 21027,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725712",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:09:41.000Z"
-    },
-    {
-      "title": "금강만두 육개장 630g x5봉",
-      "mall": "지마켓",
-      "price": 17970,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725711",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:08:42.000Z"
-    },
-    {
-      "title": "원산 물냉면 10인분 물/비빔 택 1",
-      "mall": "톡딜",
-      "price": 9800,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725710",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:06:57.000Z"
-    },
-    {
-      "title": "1+1 리피트인 약산성 샴푸 1000ml",
-      "mall": "카카오",
-      "price": 8900,
-      "cat": "생활",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725709",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-08T08:06:13.000Z"
     },
     {
       "title": "빙그레 더단백 드링크 8종 250ml 42팩",
