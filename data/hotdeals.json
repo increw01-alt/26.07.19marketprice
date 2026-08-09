@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-10T00:25:58+09:00",
+  "updatedAt": "2026-08-10T01:28:22+09:00",
   "deals": [
+    {
+      "title": "피지 모락셀라 냄새제거 세탁세제 2.3리필",
+      "mall": "GS Shop",
+      "price": 12950,
+      "cat": "생활",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725941",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T16:03:44.000Z"
+    },
+    {
+      "title": "폴햄 반바지/긴바지 여러종",
+      "mall": "지마켓",
+      "price": 12830,
+      "cat": "패션·뷰티",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725940",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T16:02:45.000Z"
+    },
+    {
+      "title": "오레오 100g 12개 골라담기 + 오레오 키링 증정",
+      "mall": "옥션",
+      "price": 11900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725939",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T15:38:44.000Z"
+    },
+    {
+      "title": "아이스 쿨 반팔티 3장",
+      "mall": "옥션",
+      "price": 9520,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725938",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T15:36:56.000Z"
+    },
+    {
+      "title": "포스트 콘푸라이트 시리얼 600g 3개 +그래놀라 310g 본품 1개 증정",
+      "mall": "옥션",
+      "price": 10860,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725937",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T15:31:22.000Z"
+    },
+    {
+      "title": "카스 제로 레몬 스퀴즈 24캔+쿨러백 증정",
+      "mall": "옥션",
+      "price": 18050,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725936",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T15:29:20.000Z"
+    },
+    {
+      "title": "8월 10일 네이버페이 79원 + 랜덤 포인트",
+      "mall": null,
+      "price": 79,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/78626",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-09T15:27:41.000Z"
+    },
     {
       "title": "8/9 오늘특가추천 대추방울토마토2Kg 7,900원/ 찹쌀약과30개 8,900원/ 일동 하이뮨 250mlX24입 22,900원/ 수미햇감자3Kg 6,900원",
       "mall": "토스쇼핑",
@@ -134,39 +211,6 @@
       "date": "2026-08-09T15:07:24.000Z"
     },
     {
-      "title": "통뼈감자탕 1kg 4팩",
-      "mall": "지마켓",
-      "price": 18900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725926",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:05:57.000Z"
-    },
-    {
-      "title": "논슬립 미끄럼방지 슬리퍼 1+1",
-      "mall": "옥션",
-      "price": 6710,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725925",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:05:08.000Z"
-    },
-    {
-      "title": "메가커피 23% 메뉴",
-      "mall": "카카오톡 선물하기",
-      "price": null,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725924",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:04:47.000Z"
-    },
-    {
       "title": "카페 2천원 이상 결제시 500원 적립 (8/10~16)",
       "mall": "네이버페이",
       "price": 500,
@@ -178,28 +222,6 @@
       "date": "2026-08-09T15:03:45.000Z"
     },
     {
-      "title": "전라도식 배추김치 10kg 당일생산",
-      "mall": "지마켓",
-      "price": 29900,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725923",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:03:41.000Z"
-    },
-    {
-      "title": "세계문학추리소설시집 500권",
-      "mall": "G마켓",
-      "price": 3900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725922",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:01:12.000Z"
-    },
-    {
       "title": "독거미 AULA F99 PRO 무선 키보드 [47,900원/무료]",
       "mall": "네이버",
       "price": 47900,
@@ -209,17 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-09T14:51:31.000Z"
-    },
-    {
-      "title": "K2 남여공용 트리퍼 롱 다운 115,500원 /무료  토스 113,768",
-      "mall": "롯데ON",
-      "price": 115500,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725921",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T14:01:51.000Z"
     },
     {
       "title": "카이로 여름 방학 번들 Vol.13",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-06T23:08:39.000Z"
-    },
-    {
-      "title": "고스트 리콘 퓨처솔저 무료배포",
-      "mall": "유비소프트",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/78501",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-06T22:27:42.000Z"
     }
   ]
 }
