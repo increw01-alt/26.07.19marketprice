@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T05:26:17+09:00",
+  "updatedAt": "2026-08-10T06:27:05+09:00",
   "topics": {
     "coin": [
       {
@@ -103,6 +103,18 @@
     ],
     "kosdaq": [
       {
+        "title": "[코스피·코스닥 전 거래일(7일) 주요공시]",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8xNTYyWEhZS0lqZDh4VFFwWEtnWlRSRkkxS3Q3WGF0RGVBNWNOTjZJalpvUHZKY3JxbDgxQ0JGS2ZBNHY4ektrWnF1ajg5UU5JbTFFb2swYmdpblnSAWBBVV95cUxPRnRLUTFBb1lpQ25nUHNNS0NrWUpjUldMUWtvdWtLM1ljSmt0dkxpNXBLZ2NaSWVqbDR5cUJRVEdLS2pjMFJndGVURkx6YWRYMUNsd2ZTd3Z6N1FidUpDbnM?oc=5",
+        "source": "연합뉴스",
+        "date": "2026-08-09T21:05:00.000Z"
+      },
+      {
+        "title": "[주간IPO] 딜리셔스·케이앤에스아이앤씨, 코스닥 상장",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3TzRLVlBQSEdnclozZm9FRW41T0RBRVhBYkJvWUU2Qk1LZWZNXzk4QW5FeEplNHpmT3VHUW5kT1RqR1VTdVNINzg2QzMzQXRaRlUxaXNMUzVRNnd6?oc=5",
+        "source": "newspim.com",
+        "date": "2026-08-09T21:00:00.000Z"
+      },
+      {
         "title": "日 증시 ‘쪽집게 투자’ 美 펀드, 코스닥 ‘숨은 우량주’ 사모아",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE84TmRUbGRlVzhHeFBnZkJwYjcySzduV1ZydlBucWpVempYX2gtTVBkTm04cTRLZURYSkh3dU5sNjdLcU9yLTdfdkl1aHBzQlE?oc=5",
         "source": "v.daum.net",
@@ -111,7 +123,7 @@
       {
         "title": "日 증시 ‘쪽집게 투자’ 美 펀드, 코스닥 ‘숨은 우량주’ 사모아",
         "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYlZoV2VKSXgzemZvOHVSX3V1WmNvV3kzdFdmX1E3aG8xR0NwUW43Q0VVYzUwcV83ZnNvRWs0RmZ1WWNOcVo2ZmhVSEdxaU9PN0FnOE5lczVKb3MwRDhiUTg0eG0wRldDMW9laGNLWGV4cDhlUnVVZWM4UEFJRjZnXzZlMVpOYk0weUdPUklR?oc=5",
-        "source": "chosun.com",
+        "source": "조선일보",
         "date": "2026-08-09T15:32:00.000Z"
       },
       {
@@ -137,18 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4eElBZ1UtWlVSZGV2U240ajFRWlhYZTdiVlc5dlNmbUxOeFAwd19pVE9iUDY0V3UxVmdKSFpaTEZHQW1IeDVvR3h5Z2d0c2NoOG81NGhJVGlpN3pBM0U2Vkg1ZFhxalo2bFJnRDJpWTdmeEZ2?oc=5",
         "source": "파이낸셜포스트",
         "date": "2026-08-09T08:00:00.000Z"
-      },
-      {
-        "title": "주가 1000원 미만 동전주 '벼랑 끝'...13일부터 무더기 퇴출 시작?",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiQm9KY1E1SFFmdmhmeS00MHBUbDRJcGRDOTNZS1hmeXgyOWJMdmd2TVROUmU4ZkNkeE1uaXFDdl9KVDZiMlYxbXhKOGt5ams?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-09T06:55:18.000Z"
-      },
-      {
-        "title": "씨큐비스타, 코스닥 상장 준비 착수...대신증권 대표주관사 선정",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41dVBPRlQ1WldEWUhZalRObDEwc21TTDVpeE1vVkpuTlRfMlNYYUJlMXVBb09SME93Z3ZvWkEzYlVyZmNsbThObHM1Z1I3VzY2bEliTXRSYmRMNHJ5R21V?oc=5",
-        "source": "헬로티",
-        "date": "2026-08-09T06:54:42.000Z"
       }
     ],
     "fx": [
@@ -205,7 +205,7 @@
       {
         "title": "금시세(금값) 껑충, 온스당 4400달러선 일시적 회복…美 고용 한파에 새주장 흐름은?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16X3hWU3BoSmtnZDJ2RjgtdHJDcWtwWHR5VVo4ZVlwRGVodWtoclhGMnkzcUpzR1dXMjFwUnN4V0FZZ1NhSGVjcWF5aWo1bHBNdTE3VHlhT3F6R083VTBJbkVsM1lpbm02?oc=5",
-        "source": "cbci.co.kr",
+        "source": "CBC뉴스",
         "date": "2026-08-09T15:05:00.000Z"
       },
       {
@@ -246,8 +246,8 @@
       },
       {
         "title": "금시세(금값)는?…'경제지표와 중동 정세 등 주요 관전 포인트로'",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE54OTVQV2RqbzhuUi1KYlptX1J1MUtpZ0N1aTFNR0Exd3NwRVkwc05GVFhXaUNfc3JiODA1NzU0SGc5UWpDNTl1TE9nTWI1NGZES1B6UFByN0FGYUxSdzdaRF9LdUZ0V1RS?oc=5",
-        "source": "cbci.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5PcUJTZExhSnBsUG1iTlFQX1hycmtPQnF5LUtScXRRT1FFdTNhUVlDLTJMSGcwZWh0el9ibGdyMy1rZWNsRWlwTkE1V1dxVGdWS2VnXzNoUnBpZE9vU2tjcExvVQ?oc=5",
+        "source": "CBC뉴스",
         "date": "2026-08-08T15:00:00.000Z"
       }
     ],
@@ -391,7 +391,7 @@
       {
         "title": "갤럭시S26 125만원→50만원 ‘뚝’…뜻밖의 기회에 비수기 버티는 이통사들",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hTHdsZjBUTDhuU0FyR1A1dmo5azhJdGh3bFJ0aDdrS1JrYkxiRzFleXF5MHVTWXBkaGNCN192R2JKaFNfRkZXdlkxWXFRdFgyNWF3R3hB?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-06-15T07:00:00.000Z"
       },
       {
@@ -423,13 +423,19 @@
       {
         "title": "송파동 래미안 105㎡ 23억1천만원 ‘최근 3년 신고가’",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5QSnlHMFczWTB3RGhFM3V0cEh3eUhmNGpXZXNCYTBvWUVVV2I2Y25mQlgwRzFtUEx2Z3FDLUJuSEFiS1NSMmJTaW1GVXRTLVdDMGpHVWVPWWo?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-08-07T00:31:09.000Z"
+      },
+      {
+        "title": "아실 사이트 앱 다운로드",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1qU2hHMkc3djVlUWRnWDRmNW45ajVlWTdTUjlfUUNhRVlXWXBkT3lGVW9fV3A2c3dCNm4zeGV4SUVicThxVWI0SXYwMGRTYmlqYy0zcA?oc=5",
+        "source": "브런치",
+        "date": "2026-08-07T00:25:09.000Z"
       },
       {
         "title": "관악구 '두산' 26평, 3.2억 떨어진 10.5억원에 거래 [일일 하락가]",
         "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mYTE5SW96X0o2MUVQZEYwbUFyMlRXeEF0dUJicUJucFo2M2JlNzRmVWNyMGg0T2s3UnJKdkNBVVBZSXJlRkN1aDFnM2VmSGtmczVRNFYwZ3NyNjliNFlhdGZQTzRFY2FqMzFRR3BtaFVVSlJLUW9SMHhn?oc=5",
-        "source": "한국금융신문",
+        "source": "fntimes.com",
         "date": "2026-08-06T23:52:05.000Z"
       },
       {
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE11WVRSeV9sNmNkNlhFMzRZRDBnck1WcjdoNDkzWmktdHZ5MXpUeVNEdVFpS3EwRE12WHRRbTc1VG53VklEWlZ2TVV0QjBwODZrNHA1TDlsTFVDWTNrSW5MMXhWbW5WVEtMUU1RdmdzQUFEOGdpSG5qSldYVUVoeUnSAXNBVV95cUxQb1hsMDRGajFxTXhqUjA4ZTV6NWVPaWxJTS1JTEIyWkNHMlh0ZE9lSWN4blJNeVhoWS1GVVNuNzduVUQxelh4NnJ4bjQzcW9kUEl0bHVVOFd3M0xBRG8yekpQSF9kYTIycTJoal9wS2F6LXdV?oc=5",
         "source": "땅집고",
         "date": "2026-08-06T21:00:00.000Z"
-      },
-      {
-        "title": "아파트 전세 밀려난 신혼부부⋯오피스텔도 월세 100만원 시대",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iRi15RGxUOGJ4Q3hBQW9Kc3gwOHJjZWZaX01wWGx3V3ROMFp6ZU1FV2FVejRfVTVHZWo4RUFaelJqQXUxLUxUREViY2pNQUhTSGhTcg?oc=5",
-        "source": "이투데이",
-        "date": "2026-08-06T20:00:00.000Z"
       }
     ],
     "lotto": [
