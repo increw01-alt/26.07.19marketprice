@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-10T03:32:50+09:00",
+  "updatedAt": "2026-08-10T04:29:06+09:00",
   "deals": [
+    {
+      "title": "파이널 판타지 시리즈 / 가격 다양",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106253",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-09T18:58:04.000Z"
+    },
+    {
+      "title": "롯데리아 메뉴 25~39% 할인 (8/10~16)",
+      "mall": "지마켓,옥션",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106252",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-09T18:41:57.000Z"
+    },
     {
       "title": "롯데리아 나폴리콤보 외",
       "mall": "옥션",
@@ -200,17 +222,6 @@
       "date": "2026-08-09T15:08:55.000Z"
     },
     {
-      "title": "폭염도 잊게하는 책과 함께 즐거운 시간",
-      "mall": "G마켓",
-      "price": 3900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106249",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-09T15:08:02.000Z"
-    },
-    {
       "title": "카페 2천원 이상 결제시 500원 적립 (8/10~16)",
       "mall": "네이버페이",
       "price": 500,
@@ -242,17 +253,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-09T11:39:48.000Z"
-    },
-    {
-      "title": "쿠쿠 필터 정수기",
-      "mall": "쿠팡",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106244",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-09T11:32:40.000Z"
     },
     {
       "title": "공식판매처 y700 5세대 72.9만",
