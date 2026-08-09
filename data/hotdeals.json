@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-09T15:46:36+09:00",
+  "updatedAt": "2026-08-09T16:50:22+09:00",
   "deals": [
+    {
+      "title": "피지 모락셀라 액체세제 코튼향 2.1L 용기 + 부스터 코튼향 3p",
+      "mall": "지마켓",
+      "price": 14000,
+      "cat": "생활",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725847",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:42:14.000Z"
+    },
+    {
+      "title": "소곱창 모둠 830g (소스포함)",
+      "mall": "롯데온",
+      "price": 13490,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725846",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:41:30.000Z"
+    },
+    {
+      "title": "서양네트웍스(유아동복) FAMILY SALE : 블루독, 밍크뮤, 블루독베이비, 리틀그라운드 등",
+      "mall": "서양몰",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725845",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:32:15.000Z"
+    },
+    {
+      "title": "진도담은 꽃송이미역 30g X 6개",
+      "mall": "롯데온",
+      "price": 6650,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725844",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:04:20.000Z"
+    },
     {
       "title": "센트룸 우먼 멀티비타민 미네랄 50정 1개",
       "mall": "쿠팡",
@@ -68,17 +112,6 @@
       "date": "2026-08-09T05:44:55.000Z"
     },
     {
-      "title": "MSI MAG Codex Z2 A7NVM MA10 데스크탑",
-      "mall": "옥션",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106240",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-09T05:32:47.000Z"
-    },
-    {
       "title": "보디가드/제임스딘 남녀 런닝팬티 모음전",
       "mall": "11번가",
       "price": 7000,
@@ -132,50 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-09T04:57:42.000Z"
-    },
-    {
-      "title": "루비토 올인원 고농축 캡슐세제 90개입 x 2개",
-      "mall": "지마켓",
-      "price": 15920,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725831",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T04:56:33.000Z"
-    },
-    {
-      "title": "Tom Clancy&#039;s Ghost Recon Wildlands(고스트리콘 와일드랜드)",
-      "mall": "스팀",
-      "price": 2740,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725830",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T04:41:40.000Z"
-    },
-    {
-      "title": "푸켓 5성급 다이아몬드 클리프 리조트 자유여행",
-      "mall": "롯데온",
-      "price": 675980,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725829",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T04:34:59.000Z"
-    },
-    {
-      "title": "모나리자 소프트리 미용티슈 230매 12개",
-      "mall": "지마켓",
-      "price": 12900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725828",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T04:29:47.000Z"
     },
     {
       "title": "TEAMGROUP SD EXPRESS 512G / 14,255엔(직배)",
@@ -627,6 +616,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-07T07:26:26.000Z"
+    },
+    {
+      "title": "닌텐도 스위치2 오비탈스 사전예약",
+      "mall": "SSG",
+      "price": 56000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106211",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-07T07:03:51.000Z"
     },
     {
       "title": "닭정육 뼈없는 순살 닭다리살 2kg 11,500원",
