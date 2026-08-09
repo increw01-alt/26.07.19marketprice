@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-10T06:26:56+09:00",
+  "updatedAt": "2026-08-10T07:25:01+09:00",
   "deals": [
+    {
+      "title": "유플러스망 통화 300분, 데이터 4.5GB",
+      "mall": "모나",
+      "price": 550,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725943",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T21:56:44.000Z"
+    },
+    {
+      "title": "더블불고기버거 2600원, 치즈버거 2000원 외 (8/10~16)",
+      "mall": "맥도날드앱",
+      "price": 2000,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106254",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-09T21:43:55.000Z"
+    },
     {
       "title": "파이널 판타지 시리즈 / 가격 다양",
       "mall": "스팀",
@@ -187,17 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-09T15:14:28.000Z"
-    },
-    {
-      "title": "동인동 돼지갈비찜 2팩+껍데기증정",
-      "mall": "G마켓",
-      "price": 15900,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725928",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:13:49.000Z"
     },
     {
       "title": "일일적립, 클릭 48원, 라이브예고 18원",
@@ -594,17 +605,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-07T21:32:54.000Z"
-    },
-    {
-      "title": "Breathedge",
-      "mall": "스팀",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106221",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-07T17:06:38.000Z"
     },
     {
       "title": "8월 8일 네이버페이 57원 + 랜덤 포인트",
