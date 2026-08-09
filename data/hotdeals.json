@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-10T01:28:22+09:00",
+  "updatedAt": "2026-08-10T02:26:29+09:00",
   "deals": [
+    {
+      "title": "롯데리아 나폴리콤보 외",
+      "mall": "옥션",
+      "price": null,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725942",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T16:49:41.000Z"
+    },
     {
       "title": "피지 모락셀라 냄새제거 세탁세제 2.3리필",
       "mall": "GS Shop",
@@ -198,17 +209,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-09T15:08:02.000Z"
-    },
-    {
-      "title": "미트앤조이 목전지 2kg 및 삼겹살등 옵션다양",
-      "mall": "네이버",
-      "price": 12920,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725927",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T15:07:24.000Z"
     },
     {
       "title": "카페 2천원 이상 결제시 500원 적립 (8/10~16)",
