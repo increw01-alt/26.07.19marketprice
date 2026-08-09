@@ -1,6 +1,127 @@
 {
-  "updatedAt": "2026-08-09T16:50:22+09:00",
+  "updatedAt": "2026-08-09T17:36:05+09:00",
   "deals": [
+    {
+      "title": "오리온 촉촉한 초코칩 320g 3개",
+      "mall": "11번가",
+      "price": 9230,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725858",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:31:21.000Z"
+    },
+    {
+      "title": "해운대암소갈비집 뼈없는 갈비탕 800g X 5팩",
+      "mall": "카카오",
+      "price": 41850,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725857",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:16:10.000Z"
+    },
+    {
+      "title": "오브휴 딥케어 커브 마사지건",
+      "mall": "카카오",
+      "price": 29900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725856",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:12:27.000Z"
+    },
+    {
+      "title": "스파오 맨투맨/후디/가디건/집업/패딩/웜팬츠",
+      "mall": "카카오",
+      "price": 7210,
+      "cat": "패션·뷰티",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725855",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:10:07.000Z"
+    },
+    {
+      "title": "오징어젓갈 500g 1+1",
+      "mall": "카카오",
+      "price": 9900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725854",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:08:02.000Z"
+    },
+    {
+      "title": "머스크 멜론 4kg 2수",
+      "mall": "토스",
+      "price": 15900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725853",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:05:55.000Z"
+    },
+    {
+      "title": "로얄 밀크티 홍차 진한 밀크티음료",
+      "mall": "네이버",
+      "price": 35990,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725852",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:04:30.000Z"
+    },
+    {
+      "title": "알로에 젤리스틱 60포(리유저블백 증정)",
+      "mall": "11번가",
+      "price": 26900,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725851",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:03:51.000Z"
+    },
+    {
+      "title": "식물성 멜라토닌 2mg 90정, 2개(6개월)+샐러드캔디1개",
+      "mall": "네이버",
+      "price": 24900,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725850",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T08:02:20.000Z"
+    },
+    {
+      "title": "흔한남매 이무기4 특별한정판",
+      "mall": "지마켓",
+      "price": 30780,
+      "cat": "기타",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725849",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:51:59.000Z"
+    },
+    {
+      "title": "애슐리 볶음밥 올인원 230g 10종세트",
+      "mall": "토스",
+      "price": 18990,
+      "cat": "식품",
+      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725848",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-09T07:46:33.000Z"
+    },
     {
       "title": "피지 모락셀라 액체세제 코튼향 2.1L 용기 + 부스터 코튼향 3p",
       "mall": "지마켓",
@@ -44,127 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-09T07:04:20.000Z"
-    },
-    {
-      "title": "센트룸 우먼 멀티비타민 미네랄 50정 1개",
-      "mall": "쿠팡",
-      "price": 19000,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725843",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T06:38:55.000Z"
-    },
-    {
-      "title": "전라도 총각김치 1kg",
-      "mall": "롯데온",
-      "price": 5250,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725842",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T06:21:47.000Z"
-    },
-    {
-      "title": "포빅 여행용 캐리어 24인치",
-      "mall": "네이버",
-      "price": 109000,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725841",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T06:13:50.000Z"
-    },
-    {
-      "title": "초코쌀케이크 1박스 18개입",
-      "mall": "옥션",
-      "price": null,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725840",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T06:03:46.000Z"
-    },
-    {
-      "title": "컨셉원 시어서커 셔츠",
-      "mall": "공홈",
-      "price": 22200,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725839",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:54:03.000Z"
-    },
-    {
-      "title": "지프스피릿 여름 기능성 티셔츠 전투용 전 품목 균일가",
-      "mall": "G마켓",
-      "price": 9900,
-      "cat": "패션·뷰티",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725838",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:44:55.000Z"
-    },
-    {
-      "title": "보디가드/제임스딘 남녀 런닝팬티 모음전",
-      "mall": "11번가",
-      "price": 7000,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725836",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:21:56.000Z"
-    },
-    {
-      "title": "국산 저온숙성 묵은지 5kg",
-      "mall": "옥션",
-      "price": 25290,
-      "cat": "기타",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725835",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:15:34.000Z"
-    },
-    {
-      "title": "맥심 모카골드 커피믹스 400개입",
-      "mall": "네이버",
-      "price": 47360,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725834",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:01:31.000Z"
-    },
-    {
-      "title": "1++9등급 한우 등심 500g",
-      "mall": "인더마켓",
-      "price": 49830,
-      "cat": "식품",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725833",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T05:01:19.000Z"
-    },
-    {
-      "title": "알부민 맥스 영양제 600mg x 120정",
-      "mall": "지마켓",
-      "price": 6940,
-      "cat": "건강",
-      "link": "http://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=725832",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-09T04:57:42.000Z"
     },
     {
       "title": "TEAMGROUP SD EXPRESS 512G / 14,255엔(직배)",
