@@ -2,8 +2,10 @@ name: 시세 데이터 갱신
 
 on:
   schedule:
-    # 매시 정각 (UTC) — 한국시간 매시 정각
-    - cron: '0 * * * *'
+    # ⚠️ 8월 한정 긴축: 하루 3회 (KST 09:00 / 14:00 / 19:00).
+    # Actions 무료 한도(2,000분/월)를 행 걸린 잡 4개가 76% 태워 잔여가 ~116분뿐.
+    # 9월 리셋 후 또는 저장소 public 전환 시 '0 * * * *'(매시간)으로 복구할 것.
+    - cron: '0 0,5,10 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -19,6 +21,8 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
+    # 행(hang) 시 기본 타임아웃 360분을 태우지 않도록 상한 (평상시 ~1.4분, 최대 5.8분 실측)
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
