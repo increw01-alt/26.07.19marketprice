@@ -1,10 +1,13 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
+import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const require = createRequire(import.meta.url);
+const SITE_CONFIG = require('../assets/site-config.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260804-seo1';
+const ASSET_VERSION = '20260807-audit1';
 
 const esc = (value) =>
   String(value ?? '')
@@ -226,26 +229,47 @@ function replaceRegion(source, key, rendered, file) {
   return source.slice(0, startAt + start.length) + content + source.slice(endAt);
 }
 
-const STATIC_MENUS = [
-  { id: 'home', href: '/', label: '홈', icon: 'layers' },
-  { id: 'coin', href: '/coin', label: '코인시세', icon: 'coin' },
-  { id: 'stock', href: '/stock', label: '주식시세', icon: 'chart' },
-  { id: 'kosdaq', href: '/kosdaq', label: '코스닥시세', icon: 'chart' },
-  { id: 'fx', href: '/fx', label: '환율시세', icon: 'fx' },
-  { id: 'metal', href: '/metal', label: '금·은시세', icon: 'gem' },
-  { id: 'energy', href: '/energy', label: '유가·원자재', icon: 'oil' },
-  { id: 'macro', href: '/macro', label: '지표', icon: 'gauge' },
-  { id: 'giftcard', href: '/giftcard', label: '상품권시세', icon: 'ticket' },
-  { id: 'hotdeal', href: '/hotdeal', label: '핫딜', icon: 'flame' },
-  { id: 'realestate', href: '/realestate', label: '부동산시세', icon: 'home' },
-  { id: 'lotto', href: '/lotto', label: '로또', icon: 'target' },
-];
+function staticNavigation(page) {
+  const activePage = SITE_CONFIG.pages.find((item) => item.id === page);
+  const activeGroup = activePage
+    ? SITE_CONFIG.groups.find((group) => group.id === activePage.groupId)
+    : null;
+  const primary = SITE_CONFIG.groups.map((group) => {
+    const href = group.pages[0]?.href || '/';
+    const current = activeGroup?.id === group.id ? ' aria-current="location"' : '';
+    return `<a class="nav-link nav-link-primary" href="${esc(href)}"${current}>${icon(group.icon)}<span>${esc(group.label)}</span></a>`;
+  }).join('');
+  const secondary = activeGroup && activeGroup.pages.length > 1
+    ? `<nav class="secondary-nav wrap" aria-label="${esc(activeGroup.label)} 세부 메뉴">
+  <p class="nav-section-title">${esc(activeGroup.label)} 세부 메뉴</p>
+  <div class="nav-links">
+    ${activeGroup.pages.map((item) =>
+      `<a class="nav-link nav-link-secondary" href="${esc(item.href)}"${activePage?.id === item.id ? ' aria-current="page"' : ''}>${icon(item.icon)}<span>${esc(item.label)}</span></a>`,
+    ).join('')}
+  </div>
+</nav>`
+    : '';
+
+  return `<div class="nav-backdrop" data-nav-dismiss hidden></div>
+<div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
+  <div class="nav-panel-head">
+    <strong id="nav-drawer-title">카테고리</strong>
+    <button class="nav-close" type="button" aria-label="카테고리 메뉴 닫기">${icon('x')}</button>
+  </div>
+  <nav class="primary-nav wrap" aria-label="주요 카테고리">
+    <p class="nav-section-title">주요 카테고리</p>
+    <div class="nav-links">${primary}</div>
+  </nav>
+  ${secondary}
+</div>`;
+}
 
 function staticHeader(page, stamp, hideStatus = false) {
   const status = hideStatus
     ? '<p class="status" id="updated" hidden><span class="dot"></span></p>'
     : `<p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 ${formatStamp(stamp)}</p>`;
-  return `<header class="site-header">
+  return `<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
       <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
@@ -257,24 +281,23 @@ function staticHeader(page, stamp, hideStatus = false) {
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     ${status}
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
-      ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
-    </button>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+        ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
+      </button>
+      <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false">
+        ${icon('menu')}<span>카테고리</span>
+      </button>
+    </div>
   </div>
 </header>
-
-<nav class="tabs wrap" aria-label="시세 메뉴">
-  ${STATIC_MENUS.map(
-    (menu) =>
-      `<a class="tab" href="${menu.href}"${menu.id === page ? ' aria-current="page"' : ''}>${icon(menu.icon)}${menu.label}</a>`,
-  ).join('\n  ')}
-</nav>`;
+${staticNavigation(page)}`;
 }
 
 const staticFooter = `<footer class="site-footer wrap">
   <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
 </footer>`;
 
 const BRAND_PAGES = [
@@ -518,7 +541,7 @@ ${brandJsonLd(config, data, items)}
 
 ${staticRegionBlock('header', staticHeader('giftcard', data.updatedAt))}
 
-<main class="wrap">
+<main id="main" class="wrap">
   <div class="page-head">
     <nav class="breadcrumbs" aria-label="현재 위치"><a href="/">홈</a><span aria-hidden="true">›</span><a href="/giftcard">상품권시세</a><span aria-hidden="true">›</span><span>${esc(
       config.h1,
@@ -572,6 +595,7 @@ ${staticRegionBlock('header', staticHeader('giftcard', data.updatedAt))}
 
 ${staticRegionBlock('footer', staticFooter)}
 
+<script src="/assets/site-config.js?v=${ASSET_VERSION}"></script>
 <script src="/assets/app.js?v=${ASSET_VERSION}"></script>
 <script src="/assets/pages.js?v=${ASSET_VERSION}"></script>
 </body>
@@ -601,6 +625,23 @@ function staticRegionBlock(key, rendered) {
   return `<!-- static-shell:${key}:start -->\n${rendered.trim()}\n<!-- static-shell:${key}:end -->`;
 }
 
+function ensureMainTarget(source, file) {
+  const main = source.match(/<main\b([^>]*)>/i);
+  if (!main || main.index == null) throw new Error(`${file}: main 요소를 찾지 못했습니다.`);
+  if (/\bid\s*=\s*["']main["']/i.test(main[0])) return source;
+  if (/\bid\s*=/i.test(main[0])) throw new Error(`${file}: main 요소의 id는 main이어야 합니다.`);
+  const replacement = `<main id="main"${main[1]}>`;
+  return source.slice(0, main.index) + replacement + source.slice(main.index + main[0].length);
+}
+
+function ensureSiteConfigScript(source, file) {
+  if (/<script\s+src=["'][^"']*assets\/site-config\.js/i.test(source)) return source;
+  const app = source.match(/<script\s+src=(["'])(\/?assets\/)app\.js[^"']*\1[^>]*><\/script>/i);
+  if (!app || app.index == null) throw new Error(`${file}: app.js 스크립트를 찾지 못했습니다.`);
+  const script = `<script src="${app[2]}site-config.js?v=${ASSET_VERSION}"></script>\n`;
+  return source.slice(0, app.index) + script + source.slice(app.index);
+}
+
 function upsertStaticShell(source, file, page, stamp, hideStatus = false) {
   const header = staticHeader(page, stamp, hideStatus);
   const replacedHeader = replaceStaticRegion(source, 'header', header, file);
@@ -624,7 +665,8 @@ function upsertStaticShell(source, file, page, stamp, hideStatus = false) {
   } else {
     source = replacedFooter;
   }
-  return source;
+  source = ensureMainTarget(source, file);
+  return ensureSiteConfigScript(source, file);
 }
 
 function latestStamp(...values) {
@@ -659,7 +701,7 @@ ${rows.join('\n')}
 `;
 }
 
-const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate, shopping] = await Promise.all([
+const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate] = await Promise.all([
   readJson('data/markets.json'),
   readJson('data/giftcards-dept.json'),
   readJson('data/giftcards.json'),
@@ -668,7 +710,6 @@ const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate, shopp
   readJson('data/rates.json'),
   readJson('data/hotdeals.json'),
   readJson('data/realestate.json'),
-  readJson('data/shopping.json'),
 ]);
 
 for (const [label, value, key] of [
@@ -763,7 +804,7 @@ const renderPlan = {
   ],
   'coin.html': [['grid-coin', marketGrid(pickGroup('coin'))]],
   'stock.html': [
-    ['grid-stock', marketGrid(pickIds(['kospi', 'spx', 'ndq', 'dji', 'nkx']))],
+    ['grid-stock', marketGrid(pickIds(['kospi', 'spx', 'ndq', 'dji', 'nkx', 'hsi', 'sse', 'dax']))],
     ['grid-stock-items', marketGrid(pickGroup('stock'))],
   ],
   'kosdaq.html': [
@@ -771,13 +812,13 @@ const renderPlan = {
     ['grid-kosdaq-items', marketGrid(pickGroup('kosdaq_stock'))],
   ],
   'fx.html': [['grid-fx', marketGrid(pickGroup('fx'))]],
-  'metal.html': [['grid-metal', marketGrid(pickIds(['gold_krx', 'gold_don', 'gold', 'silver', 'plat']))]],
+  'metal.html': [['grid-metal', marketGrid(pickIds(['gold_krx', 'gold_don', 'gold', 'silver', 'plat', 'palladium']))]],
   'energy.html': [
-    ['grid-energy', marketGrid(pickGroup('energy'))],
+    ['grid-energy', marketGrid(pickIds(['wti', 'brent', 'natgas', 'copper', 'wheat', 'corn']))],
     ['grid-oil', marketGrid(oil.items)],
   ],
   'macro.html': [
-    ['grid-macro', marketGrid(pickGroup('macro'))],
+    ['grid-macro', marketGrid(pickIds(['dxy', 'vix', 'ust10', 'kimchi']))],
     ['grid-rates', marketGrid(rates.items)],
   ],
   'giftcard.html': [
@@ -803,7 +844,7 @@ const shellPlan = {
   'hotdeal.html': { page: 'hotdeal', stamp: hotdeals.updatedAt },
   'realestate.html': { page: 'realestate', stamp: realestate.updatedAt },
   'lotto.html': { page: 'lotto', stamp: lotto.updatedAt },
-  'shopping.html': { page: 'shopping', stamp: shopping.updatedAt },
+  'shopping.html': { page: 'shopping-retired', hideStatus: true },
   'about.html': { page: 'about', hideStatus: true },
 };
 
@@ -839,7 +880,7 @@ for (const [file, shell] of Object.entries(shellPlan)) {
     shell.hideStatus,
   );
   document.next = document.next.replace(
-    /((?:\/)?assets\/(?:style\.css|app\.js|pages\.js))\?v=[^"']+/g,
+    /((?:\/)?assets\/(?:style\.css|site-config\.js|app\.js|pages\.js))\?v=[^"']+/g,
     `$1?v=${ASSET_VERSION}`,
   );
 }

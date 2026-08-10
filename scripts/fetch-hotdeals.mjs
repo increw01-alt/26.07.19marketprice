@@ -28,7 +28,7 @@ const classify = (t) => {
  *  - 쿨앤조이: RSS는 있으나 해외/데이터센터 IP를 차단해 GitHub Actions에서 타임아웃
  *    (로컬 국내 IP는 정상). 국내 러너/프록시 확보 전까지 제외. */
 const SOURCES = [
-  { id: 'ppomppu', name: '뽐뿌', url: 'http://www.ppomppu.co.kr/rss.php?id=ppomppu' },
+  { id: 'ppomppu', name: '뽐뿌', url: 'https://www.ppomppu.co.kr/rss.php?id=ppomppu' },
   { id: 'ruliweb', name: '루리웹', url: 'https://bbs.ruliweb.com/market/board/1020/rss' },
   { id: 'damoang', name: '다모앙', url: 'https://damoang.net/rss/economy' },
 ];
@@ -44,14 +44,44 @@ const decode = (s) =>
     .replace(/&#39;|&apos;/g, "'")
     .trim();
 
+const cleanText = (value, max = 300) =>
+  String(value ?? '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/[<>]/g, ' ')
+    .replace(/[\u0000-\u001f\u007f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, max);
+
+function safeHttpsUrl(value, allowedHosts) {
+  try {
+    const url = new URL(String(value ?? '').trim());
+    if (url.protocol === 'http:') url.protocol = 'https:';
+    if (url.protocol !== 'https:' || !allowedHosts.has(url.hostname.toLowerCase())) return null;
+    url.username = '';
+    url.password = '';
+    return url.href.slice(0, 2048);
+  } catch {
+    return null;
+  }
+}
+
+const DEST_HOSTS = new Set([
+  'naver.me',
+  'smartstore.naver.com',
+  'm.smartstore.naver.com',
+  'shopping.naver.com',
+  'm.shopping.naver.com',
+]);
+
 /** 딜 제목에서 판매처([대괄호])와 가격((…원))을 뽑아냅니다.
  *  예: "[네이버]목우촌 팝콘치킨 420g, 3개 (9,900원/네멤무료)" */
 function parseTitle(raw) {
-  let title = raw;
+  let title = cleanText(raw);
   let mall = null;
   const mm = title.match(/^\s*\[([^\]]{1,20})\]\s*/);
   if (mm) {
-    mall = mm[1].trim();
+    mall = cleanText(mm[1], 40);
     title = title.slice(mm[0].length);
   }
   // 가장 뒤쪽 괄호의 "숫자원" 을 가격으로 봅니다 (원화만).
@@ -63,7 +93,7 @@ function parseTitle(raw) {
   }
   // 표시용 제목: 끝에 붙은 가격/배송 괄호는 떼어냅니다 (가격은 별도 배지로 보여줌).
   title = title.replace(/\s*\([^)]*(원|무료|만원|할인|카드|%|배송|적립)[^)]*\)\s*$/, '').trim();
-  return { title: title.trim(), mall, price };
+  return { title: cleanText(title), mall, price };
 }
 
 /** RSS 본문에서 실제 상품 판매처 링크를 뽑습니다 (있으면 커뮤니티 대신 여기로 바로 보냄).
@@ -72,13 +102,13 @@ function extractDest(desc) {
   if (!desc) return null;
   // naver.me 단축링크 (영숫자로 끝나 자동으로 경계가 잡힘)
   const nm = desc.match(/https?:\/\/naver\.me\/[A-Za-z0-9]+/i);
-  if (nm) return nm[0];
+  if (nm) return safeHttpsUrl(nm[0], DEST_HOSTS);
   // 네이버 스마트스토어·쇼핑 직링크 (경로형이라 URL 문자까지만 — 뒤따르는 한글/공백 제외).
   // 쿼리(&) 의존 몰(쿠팡·G마켓 등)은 본문에서 잘리면 깨지므로 대상에서 뺍니다.
   const sm = desc.match(
     /https?:\/\/(?:m\.)?(?:smartstore|shopping)\.naver\.com\/[A-Za-z0-9._~:/?#%-]+/i
   );
-  if (sm) return sm[0].replace(/[.,)\]]+$/, '');
+  if (sm) return safeHttpsUrl(sm[0].replace(/[.,)\]]+$/, ''), DEST_HOSTS);
   return null;
 }
 
@@ -98,6 +128,10 @@ function parseItems(xml, src) {
       pick(/<pubDate>([\s\S]*?)<\/pubDate>/) || pick(/<dc:date>([\s\S]*?)<\/dc:date>/);
     if (!rawTitle || !post) continue;
 
+    const sourceHost = new URL(src.url).hostname.toLowerCase();
+    const safePost = safeHttpsUrl(post, new Set([sourceHost]));
+    if (!safePost) continue;
+
     const { title, mall, price } = parseTitle(rawTitle);
     if (!title) continue;
     const dest = extractDest(desc);
@@ -107,7 +141,7 @@ function parseItems(xml, src) {
       mall,
       price,
       cat: classify(title),
-      link: dest || post, // 상품 직링크가 있으면 그걸로, 없으면 커뮤니티 원문
+      link: dest || safePost, // 검증된 직링크가 있으면 그리로, 없으면 검증된 원문
       direct: !!dest, // 판매처로 바로 가는지 (배지 표시용)
       source: src.name,
       sourceId: src.id,

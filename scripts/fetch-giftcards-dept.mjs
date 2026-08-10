@@ -1,6 +1,7 @@
 // 백화점 상품권 매입/판매 시세 — 각 상품권 업체 공식 시세 페이지에서 직접 수집합니다.
 // 취합 사이트를 거치지 않고 1차 출처에서만 가져오며, 업체별 원문 링크를 함께 저장합니다.
 import { getText, writeJSON, nowKST } from './lib.mjs';
+import { pathToFileURL } from 'node:url';
 
 const OUT = 'data/giftcards-dept.json';
 
@@ -13,14 +14,39 @@ const SHOPS = [
 
 // ---------- HTML 유틸 ----------
 const stripTags = (s) => s.replace(/<[^>]+>/g, ' ');
-const decode = (s) =>
+const codePoint = (raw, radix) => {
+  const value = Number.parseInt(raw, radix);
+  return Number.isInteger(value) && value >= 0 && value <= 0x10ffff
+    ? String.fromCodePoint(value)
+    : ' ';
+};
+const decodeOnce = (s) =>
   s
-    .replace(/&nbsp;/g, ' ')
-    .replace(/&amp;/g, '&')
-    .replace(/&lt;/g, '<')
-    .replace(/&gt;/g, '>')
-    .replace(/&quot;/g, '"');
-const clean = (s) => decode(stripTags(s)).replace(/\s+/g, ' ').trim();
+    .replace(/&#x([0-9a-f]+);?/gi, (_, hex) => codePoint(hex, 16))
+    .replace(/&#(\d+);?/g, (_, dec) => codePoint(dec, 10))
+    .replace(/&nbsp;/gi, ' ')
+    .replace(/&amp;/gi, '&')
+    .replace(/&lt;/gi, '<')
+    .replace(/&gt;/gi, '>')
+    .replace(/&quot;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'");
+const decode = (input) => {
+  let value = String(input ?? '');
+  // Decode nested entities before stripping tags so encoded markup cannot reappear later.
+  for (let i = 0; i < 3; i++) {
+    const next = decodeOnce(value);
+    if (next === value) break;
+    value = next;
+  }
+  return value;
+};
+export const clean = (s) =>
+  stripTags(decode(s))
+    .replace(/[<>&]/g, ' ')
+    .replace(/[\u0000-\u001f\u007f]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 160);
 
 function rows(html) {
   return [...html.matchAll(/<tr[^>]*>([\s\S]*?)<\/tr>/gi)].map((m) => m[1]);
@@ -168,7 +194,9 @@ async function main() {
   });
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+if (process.argv[1] && import.meta.url === pathToFileURL(process.argv[1]).href) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

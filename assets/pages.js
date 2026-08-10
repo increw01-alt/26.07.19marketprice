@@ -2,6 +2,44 @@
 
 /* 페이지별 렌더러. app.js 의 공용 함수를 사용합니다. */
 
+const esc = (s) =>
+  String(s ?? '')
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+
+const safeWebUrl = (value) => {
+  try {
+    const url = new URL(String(value ?? ''), location.origin);
+    return url.protocol === 'http:' || url.protocol === 'https:' ? url.href : null;
+  } catch {
+    return null;
+  }
+};
+const urlAttr = (value) => esc(safeWebUrl(value) || '#');
+const safeDealUrl = (value) => {
+  try {
+    const url = new URL(String(value ?? ''));
+    if (url.protocol === 'http:' && url.hostname.toLowerCase() === 'www.ppomppu.co.kr') {
+      url.protocol = 'https:';
+    }
+    return url.protocol === 'https:' ? url.href : null;
+  } catch {
+    return null;
+  }
+};
+const finite = (value, fallback = 0) => (Number.isFinite(Number(value)) ? Number(value) : fallback);
+const updateQuery = (values, mode = 'push') => {
+  const url = new URL(location.href);
+  for (const [key, value] of Object.entries(values)) {
+    if (value == null || value === '' || value === '전체' || value === 'new') url.searchParams.delete(key);
+    else url.searchParams.set(key, String(value));
+  }
+  history[mode === 'replace' ? 'replaceState' : 'pushState']({}, '', `${url.pathname}${url.search}${url.hash}`);
+};
+
 // ---------- 홈 대시보드 ----------
 const HOME_TILES = [
   { id: 'kospi', href: '/stock', cat: '주식' },
@@ -15,12 +53,10 @@ const HOME_TILES = [
 ];
 
 async function pageHome() {
-  const results = await Promise.allSettled([
-    fetchJSON('/data/markets.json'),
-    fetchJSON('/data/giftcards-dept.json'),
-    fetchJSON('/data/lotto.json'),
-  ]);
-  const [markets, gift, lotto] = results.map((r) => (r.status === 'fulfilled' ? r.value : null));
+  const home = await fetchJSON('/data/home.json');
+  const markets = { items: home.markets || [], updatedAt: home.updatedAt };
+  const gift = home.giftcard;
+  const lotto = home.lotto;
 
   // 시세 타일
   if (markets) {
@@ -31,9 +67,9 @@ async function pageHome() {
       const d = dir(it.changePct);
       const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
       return `<a class="tile" href="${t.href}" style="--i:${i}">
-        <span class="tile-cat">${t.cat}</span>
-        <span class="tile-name">${it.name}</span>
-        <span class="tile-price">${fmtPrice(it.price, it.group, it.unit)}<em>${it.unit}</em></span>
+        <span class="tile-cat">${esc(t.cat)}</span>
+        <span class="tile-name">${esc(it.name)}</span>
+        <span class="tile-price">${fmtPrice(it.price, it.group, it.unit)}<em>${esc(it.unit)}</em></span>
         <span class="tile-delta ${d}">${
           it.changePct == null
             ? ''
@@ -46,24 +82,22 @@ async function pageHome() {
 
   // 상품권 요약 — 롯데 10만원권 최고 매입가
   if (gift) {
-    const rows = gift.items.filter((i) => i.card === '롯데' && i.face === 100000 && i.buy != null);
-    const best = rows.sort((a, b) => b.buy - a.buy)[0];
-    if (best) {
+    if (Number.isFinite(gift.buy)) {
       $('#home-gift').innerHTML = `<a class="wide-tile" href="/giftcard">
         <span class="wt-k">상품권 · 롯데 10만원권 최고 매입가</span>
-        <span class="wt-v">${won(best.buy)}</span>
-        <span class="wt-m">${num(best.buyRate, 2)}% · ${best.shop}${best.method ? ` · ${best.method}` : ''} ${icon('arrow')}</span>
+        <span class="wt-v">${won(gift.buy)}</span>
+        <span class="wt-m">${num(gift.buyRate, 2)}% · ${esc(gift.shop)}${gift.method ? ` · ${esc(gift.method)}` : ''} ${icon('arrow')}</span>
       </a>`;
     }
   }
 
   // 로또 요약 — 최신 회차
-  if (lotto && lotto.rounds.length) {
-    const r = lotto.rounds.at(-1);
+  if (lotto?.round) {
+    const r = lotto;
     $('#home-lotto').innerHTML = `<a class="wide-tile" href="/lotto">
-      <span class="wt-k">로또 ${r.round}회 · ${r.date}</span>
-      <span class="wt-v">${r.numbers.join(' · ')} <b>+${r.bonus}</b></span>
-      <span class="wt-m">총 판매 ${compactWon(r.sales)} · 1등 ${r.firstWinners}명 ${icon('arrow')}</span>
+      <span class="wt-k">로또 ${finite(r.round)}회 · ${esc(r.date)}</span>
+      <span class="wt-v">${(r.numbers || []).map((n) => finite(n)).join(' · ')} <b>+${finite(r.bonus)}</b></span>
+      <span class="wt-m">총 판매 ${compactWon(finite(r.sales))} · 1등 ${finite(r.firstWinners)}명 ${icon('arrow')}</span>
     </a>`;
   }
 
@@ -113,14 +147,17 @@ async function renderExtra(path, mount) {
 
 /** 유가·원자재 페이지: markets(energy) + oil(주유소) 두 섹션 */
 async function pageEnergy() {
-  const { data } = await renderMarketGroup('energy', '#grid-energy');
+  const { data } = await renderMarketGroup(
+    ['wti', 'brent', 'natgas', 'copper', 'wheat', 'corn'],
+    '#grid-energy'
+  );
   await renderExtra('/data/oil.json', '#grid-oil');
   setStatus(data.updatedAt);
 }
 
 /** 지표 페이지: markets(macro) + rates(금리) 두 섹션 */
 async function pageMacro() {
-  const { data } = await renderMarketGroup('macro', '#grid-macro');
+  const { data } = await renderMarketGroup(['dxy', 'vix', 'ust10', 'kimchi'], '#grid-macro');
   await renderExtra('/data/rates.json', '#grid-rates');
   setStatus(data.updatedAt);
 }
@@ -147,13 +184,16 @@ async function pageGiftcard() {
     $('#dept-sources .source-list').innerHTML = dept.shops
       .map(
         (s) =>
-          `<li><a href="${s.site}" target="_blank" rel="noopener noreferrer nofollow">${s.name}</a>` +
-          `<span class="src-state ${s.ok ? 'ok' : 'ng'}">${s.ok ? `${s.count}건` : '수집 실패'}</span></li>`
+          `<li><a href="${urlAttr(s.site)}" target="_blank" rel="noopener noreferrer nofollow">${esc(s.name)}</a>` +
+          `<span class="src-state ${s.ok ? 'ok' : 'ng'}">${s.ok ? `${finite(s.count)}건` : '수집 실패'}</span></li>`
       )
       .join('');
 
-    const faces = [...new Set(dept.items.map((i) => i.face))].sort((a, b) => a - b);
-    face = faces.includes(100000) ? 100000 : faces[0];
+    const faces = [...new Set(dept.items.map((i) => Number(i.face)))]
+      .filter((value) => Number.isInteger(value) && value > 0 && value <= 10_000_000)
+      .sort((a, b) => a - b);
+    const requestedFace = Number(new URLSearchParams(location.search).get('face'));
+    face = faces.includes(requestedFace) ? requestedFace : faces.includes(100000) ? 100000 : faces[0];
     $('#face-seg').innerHTML = faces
       .map(
         (f) =>
@@ -164,6 +204,15 @@ async function pageGiftcard() {
       const btn = e.target.closest('.seg-btn');
       if (!btn) return;
       face = Number(btn.dataset.face);
+      $$('#face-seg .seg-btn').forEach((b) =>
+        b.setAttribute('aria-pressed', String(Number(b.dataset.face) === face))
+      );
+      updateQuery({ face });
+      renderDept();
+    });
+    addEventListener('popstate', () => {
+      const next = Number(new URLSearchParams(location.search).get('face'));
+      face = faces.includes(next) ? next : faces.includes(100000) ? 100000 : faces[0];
       $$('#face-seg .seg-btn').forEach((b) =>
         b.setAttribute('aria-pressed', String(Number(b.dataset.face) === face))
       );
@@ -209,7 +258,7 @@ function renderDept() {
             (isBuy ? item.buyRate : item.sellRate) != null
               ? `${num(isBuy ? item.buyRate : item.sellRate, 2)}% · `
               : ''
-          }${shopLabel(item)}</span>
+          }${esc(shopLabel(item))}</span>
         </div>`;
       };
 
@@ -218,7 +267,7 @@ function renderDept() {
         .sort((a, b) => (b.buy ?? 0) - (a.buy ?? 0))
         .map(
           (i) => `<tr>
-            <td>${shopLabel(i)}</td>
+            <td>${esc(shopLabel(i))}</td>
             <td class="num${i === bestBuy ? ' is-best' : ''}">${i.buy != null ? won(i.buy) : '—'}</td>
             <td class="num${i === bestSell ? ' is-best' : ''}">${i.sell != null ? won(i.sell) : '—'}</td>
           </tr>`
@@ -226,7 +275,7 @@ function renderDept() {
         .join('');
 
       return `<article class="gc" style="--i:${idx}">
-        <header class="gc-head"><h3>${cardName}</h3><span class="gc-face">${faceLabel(face)}</span></header>
+        <header class="gc-head"><h3>${esc(cardName)}</h3><span class="gc-face">${esc(faceLabel(face))}</span></header>
         <div class="gc-best">${best(bestBuy, '최고 매입가')}${best(bestSell, '최저 판매가')}</div>
         <details class="gc-all">
           <summary>업체별 전체 ${list.length}건</summary>
@@ -252,7 +301,7 @@ function renderManualGift(data) {
     .map((i) => {
       const has = typeof i.rate === 'number';
       return `<tr>
-        <td>${i.name}</td>
+        <td>${esc(i.name)}</td>
         <td class="num">${won(i.face)}</td>
         <td class="num">${has ? num(i.rate, 1) + '%' : '<span class="flat">미입력</span>'}</td>
         <td class="num">${has ? won(Math.round((i.face * i.rate) / 100)) : '<span class="flat">—</span>'}</td>
@@ -271,12 +320,19 @@ const CAT_ORDER = ['식품', '디지털·가전', '생활', '패션·뷰티', '�
 
 async function pageHotdeal() {
   const data = await fetchJSON('/data/hotdeals.json');
-  hotdeals = data.deals;
+  hotdeals = (data.deals || [])
+    .map((deal) => ({ ...deal, link: safeDealUrl(deal.link) }))
+    .filter((deal) => deal.link);
   dealUpdatedAt = data.updatedAt;
 
   // 카테고리 칩 (전체 + 데이터에 실제로 있는 카테고리)
   const present = new Set(hotdeals.map((d) => d.cat || '기타'));
   const cats = ['전체', ...CAT_ORDER.filter((c) => present.has(c))];
+  const params = new URLSearchParams(location.search);
+  const requestedCat = params.get('category');
+  const requestedSort = params.get('sort');
+  dealCat = cats.includes(requestedCat) ? requestedCat : '전체';
+  dealSort = requestedSort === 'price' ? 'price' : 'new';
   $('#deal-cat').innerHTML = cats
     .map(
       (c) =>
@@ -289,6 +345,7 @@ async function pageHotdeal() {
     if (!b) return;
     dealCat = b.dataset.cat;
     $$('#deal-cat .seg-btn').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.cat === dealCat)));
+    updateQuery({ category: dealCat, sort: dealSort });
     renderDeals();
   });
   $('#deal-sort').addEventListener('click', (e) => {
@@ -296,6 +353,23 @@ async function pageHotdeal() {
     if (!b) return;
     dealSort = b.dataset.sort;
     $$('#deal-sort .seg-btn').forEach((x) => x.setAttribute('aria-pressed', String(x.dataset.sort === dealSort)));
+    updateQuery({ category: dealCat, sort: dealSort });
+    renderDeals();
+  });
+
+  $$('#deal-sort .seg-btn').forEach((x) =>
+    x.setAttribute('aria-pressed', String(x.dataset.sort === dealSort))
+  );
+  addEventListener('popstate', () => {
+    const next = new URLSearchParams(location.search);
+    dealCat = cats.includes(next.get('category')) ? next.get('category') : '전체';
+    dealSort = next.get('sort') === 'price' ? 'price' : 'new';
+    $$('#deal-cat .seg-btn').forEach((x) =>
+      x.setAttribute('aria-pressed', String(x.dataset.cat === dealCat))
+    );
+    $$('#deal-sort .seg-btn').forEach((x) =>
+      x.setAttribute('aria-pressed', String(x.dataset.sort === dealSort))
+    );
     renderDeals();
   });
 
@@ -316,7 +390,7 @@ function renderDeals() {
   $('#hotdeal-list').innerHTML = list
     .map(
       (d, i) => `<li class="deal" style="--i:${i}">
-        <a class="deal-link" href="${esc(d.link)}" target="_blank" rel="noopener noreferrer nofollow">
+        <a class="deal-link" href="${urlAttr(d.link)}" target="_blank" rel="noopener noreferrer nofollow">
           <span class="deal-title">${esc(d.title)}</span>
         </a>
         <div class="deal-meta">
@@ -347,7 +421,7 @@ async function pageShopping() {
             <td>${esc(o.mall)}</td>
             <td class="num${o === best ? ' is-best' : ''}">${
               o.link
-                ? `<a href="${esc(o.link)}" target="_blank" rel="noopener noreferrer nofollow">${won(o.price)}</a>`
+                ? `<a href="${urlAttr(o.link)}" target="_blank" rel="noopener noreferrer nofollow">${won(o.price)}</a>`
                 : won(o.price)
             }</td>
           </tr>`
@@ -356,7 +430,7 @@ async function pageShopping() {
       const search = `https://search.shopping.naver.com/search/all?query=${encodeURIComponent(p.query)}`;
       return `<article class="gc shop-card" style="--i:${idx}">
         <div class="shop-head">
-          ${p.image ? `<img class="shop-img" src="${esc(p.image)}" alt="" loading="lazy" width="64" height="64" referrerpolicy="no-referrer">` : ''}
+          ${p.image && safeWebUrl(p.image) ? `<img class="shop-img" src="${urlAttr(p.image)}" alt="" loading="lazy" width="64" height="64" referrerpolicy="no-referrer">` : ''}
           <div class="shop-meta">
             <h3>${esc(p.name)}</h3>
             <p class="shop-best">최저가 <b>${won(best.price)}</b> <span class="hint">${esc(best.mall)}</span></p>
@@ -397,45 +471,77 @@ async function pageRealestate() {
   ]);
   if (mapRes.status !== 'fulfilled') throw mapRes.reason;
   const map = mapRes.value;
+  const provinces = (map.provinces || [])
+    .map((province) => ({
+      lawd: String(province.lawd ?? '').replace(/\D/g, '').slice(0, 5),
+      name: String(province.name ?? '').slice(0, 30),
+      full: String(province.full ?? province.name ?? '').slice(0, 60),
+      d: String(province.d ?? ''),
+      label: [finite(province.label?.[0]), finite(province.label?.[1])],
+    }))
+    .filter(
+      (province) =>
+        province.lawd &&
+        province.name &&
+        /^[MmZzLlHhVvCcSsQqTtAaEe0-9+.,\-\s]+$/.test(province.d)
+    );
+  if (!provinces.length) throw new Error('지도 지역 데이터가 올바르지 않습니다.');
+  const mapWidth = Math.min(Math.max(finite(map.width, 800), 1), 2000);
+  const mapHeight = Math.min(Math.max(finite(map.height, 700), 1), 2000);
   if (reRes.status === 'fulfilled') realestate = reRes.value;
   else console.error(reRes.reason);
 
   // SVG 에는 z-index 가 없어 나중에 그려진 것이 위에 옵니다.
   // 확대본을 별도 레이어(kmap-top)에 <use> 로 얹어 잘리지 않게 합니다.
   $('#map-root').innerHTML = `
-    <svg class="kmap" viewBox="0 0 ${map.width} ${map.height}" role="img" aria-label="전국 시도 지도">
+    <div class="map-picker">
+      <label for="region-select">지역 선택</label>
+      <select id="region-select">
+        <option value="">전국</option>
+        ${provinces.map((p) => `<option value="${esc(p.lawd)}">${esc(p.full)}</option>`).join('')}
+      </select>
+    </div>
+    <svg class="kmap" viewBox="0 0 ${mapWidth} ${mapHeight}" role="group" aria-labelledby="kmap-title">
+      <title id="kmap-title">전국 시도별 실거래가 선택 지도</title>
       <g class="kmap-areas">
-        ${map.provinces
+        ${provinces
           .map(
             (p) =>
-              `<path id="kp-${p.lawd}" class="kmap-area" d="${p.d}" data-lawd="${p.lawd}" data-name="${p.name}" tabindex="0" role="button" aria-label="${p.full} 시세 보기"><title>${p.full}</title></path>`
+              `<path id="kp-${esc(p.lawd)}" class="kmap-area" d="${esc(p.d)}" data-lawd="${esc(p.lawd)}" data-name="${esc(p.name)}" tabindex="0" role="button" aria-label="${esc(p.full)} 시세 보기"><title>${esc(p.full)}</title></path>`
           )
           .join('')}
       </g>
       <g class="kmap-top" aria-hidden="true"></g>
       <g class="kmap-labels">
-        ${map.provinces
+        ${provinces
           .map(
             (p) =>
-              `<text class="kmap-label" x="${p.label[0]}" y="${p.label[1]}" data-lawd="${p.lawd}" data-name="${p.name}">${p.name}</text>`
+              `<text class="kmap-label" x="${p.label[0]}" y="${p.label[1]}" data-lawd="${esc(p.lawd)}" data-name="${esc(p.name)}">${esc(p.name)}</text>`
           )
           .join('')}
       </g>
     </svg>`;
 
   const top = $('.kmap-top');
+  const regionSelect = $('#region-select');
 
-  const select = (lawd, name) => {
+  const select = (lawd, { push = true } = {}) => {
+    const province = provinces.find((item) => item.lawd === String(lawd));
+    if (!province) return;
     $$('.kmap-area').forEach((a) => a.classList.toggle('is-on', a.dataset.lawd === lawd));
     $$('.kmap-label').forEach((t) => t.classList.toggle('is-on', t.dataset.lawd === lawd));
-    renderRegion(lawd, name);
+    regionSelect.value = province.lawd;
+    renderRegion(province.lawd, province.name);
+    if (push) updateQuery({ region: province.lawd });
   };
 
   // 지도 밖(빈 영역)을 클릭하면 전국 요약으로 돌아갑니다.
-  const showNation = () => {
+  const showNation = ({ push = true } = {}) => {
     $$('.kmap-area').forEach((a) => a.classList.remove('is-on'));
     $$('.kmap-label').forEach((t) => t.classList.remove('is-on'));
+    regionSelect.value = '';
     renderNation();
+    if (push) updateQuery({ region: null });
   };
 
   const ZOOM = 1.18;
@@ -469,8 +575,9 @@ async function pageRealestate() {
   root.addEventListener('pointerleave', () => zoom(null));
 
   root.addEventListener('click', (e) => {
+    if (!e.target.closest('.kmap')) return;
     const a = e.target.closest('.kmap-area, .kmap-label');
-    if (a) select(a.dataset.lawd, a.dataset.name);
+    if (a) select(a.dataset.lawd);
     else showNation(); // 지도 여백 클릭 → 전국
   });
   root.addEventListener('focusin', (e) => {
@@ -483,12 +590,23 @@ async function pageRealestate() {
     const a = e.target.closest('.kmap-area');
     if (a) {
       e.preventDefault();
-      select(a.dataset.lawd, a.dataset.name);
+      select(a.dataset.lawd);
     }
   });
 
-  // 처음엔 지역 선택 없이 전국 평균을 보여줍니다.
-  renderNation();
+  regionSelect.addEventListener('change', () => {
+    if (regionSelect.value) select(regionSelect.value);
+    else showNation();
+  });
+  addEventListener('popstate', () => {
+    const requested = new URLSearchParams(location.search).get('region');
+    if (provinces.some((province) => province.lawd === requested)) select(requested, { push: false });
+    else showNation({ push: false });
+  });
+
+  const requested = new URLSearchParams(location.search).get('region');
+  if (provinces.some((province) => province.lawd === requested)) select(requested, { push: false });
+  else showNation({ push: false });
   if (realestate) setStatus(realestate.updatedAt);
   else setStatus(null, '부동산 실거래가 데이터가 아직 수집되지 않았습니다');
 }
@@ -502,18 +620,26 @@ function renderNation() {
     return;
   }
 
-  const months = realestate.months;
+  const months = (realestate.months || []).filter((month) => /^\d{6}$/.test(String(month)));
+  if (!months.length) {
+    $('#region-panel').innerHTML = head + '<p class="empty">표시할 월별 데이터가 없습니다.</p>';
+    return;
+  }
   const ym = months.at(-2) || months.at(-1);
   const ymLabel = `${ym.slice(0, 4)}.${ym.slice(4)}`;
 
   // 시도별로 거래건수·가중평균단가를 집계합니다.
   const bySido = new Map();
-  for (const e of Object.values(realestate.sgg)) {
-    const cur = e.m[ym] || { n: 0, pm2: null };
-    if (!bySido.has(e.sido)) bySido.set(e.sido, { sido: e.sido, n: 0, wSum: 0 });
-    const s = bySido.get(e.sido);
-    s.n += cur.n;
-    s.wSum += (cur.pm2 ?? 0) * cur.n;
+  for (const e of Object.values(realestate.sgg || {})) {
+    const cur = e.m?.[ym] || { n: 0, pm2: null };
+    const sido = String(e.sido ?? '').slice(0, 30);
+    if (!sido) continue;
+    const count = Math.max(0, finite(cur.n));
+    const pm2 = Number.isFinite(Number(cur.pm2)) ? Number(cur.pm2) : null;
+    if (!bySido.has(sido)) bySido.set(sido, { sido, n: 0, wSum: 0 });
+    const s = bySido.get(sido);
+    s.n += count;
+    s.wSum += (pm2 ?? 0) * count;
   }
   const sidos = [...bySido.values()]
     .map((s) => ({ ...s, pm2: s.n ? s.wSum / s.n : null }))
@@ -538,7 +664,7 @@ function renderNation() {
           ${sidos
             .map(
               (r) => `<tr>
-            <td>${r.sido}</td>
+            <td>${esc(r.sido)}</td>
             <td class="num">${r.pm2 != null ? num(r.pm2, 0) + '만원' : '<span class="flat">—</span>'}</td>
             <td class="num">${r.n.toLocaleString('ko-KR')}</td>
           </tr>`
@@ -553,8 +679,8 @@ function renderNation() {
 }
 
 function renderRegion(lawd, name) {
-  const unified = UNIFIED_NOTE[name] ? `<span class="tag">${UNIFIED_NOTE[name]}</span>` : '';
-  const head = `<div class="region-head"><h3>${name}</h3>${unified}<span class="tag">아파트 매매 실거래가</span></div>`;
+  const unified = UNIFIED_NOTE[name] ? `<span class="tag">${esc(UNIFIED_NOTE[name])}</span>` : '';
+  const head = `<div class="region-head"><h3>${esc(name)}</h3>${unified}<span class="tag">아파트 매매 실거래가</span></div>`;
 
   if (!realestate) {
     $('#region-panel').innerHTML =
@@ -562,26 +688,38 @@ function renderRegion(lawd, name) {
     return;
   }
 
-  const rows = Object.entries(realestate.sgg)
+  const rows = Object.entries(realestate.sgg || {})
     .filter(([, e]) => e.sido === name)
     .map(([code, e]) => ({ code, ...e }));
 
   if (!rows.length) {
     $('#region-panel').innerHTML =
-      head + `<p class="empty">${name} 지역의 실거래 데이터가 없습니다.</p>`;
+      head + `<p class="empty">${esc(name)} 지역의 실거래 데이터가 없습니다.</p>`;
     return;
   }
 
   // 이번 달은 신고(30일 이내)가 덜 쌓여 있어 전월을 대표 달로 씁니다.
-  const months = realestate.months;
+  const months = (realestate.months || []).filter((month) => /^\d{6}$/.test(String(month)));
+  if (!months.length) {
+    $('#region-panel').innerHTML = head + '<p class="empty">표시할 월별 데이터가 없습니다.</p>';
+    return;
+  }
   const ym = months.at(-2) || months.at(-1);
   const ymLabel = `${ym.slice(0, 4)}.${ym.slice(4)}`;
 
   const enriched = rows
     .map((r) => {
-      const cur = r.m[ym] || { n: 0, pm2: null };
-      const spark = months.map((k) => r.m[k]?.pm2).filter((v) => v != null);
-      return { ...r, n: cur.n, pm2: cur.pm2, spark };
+      const cur = r.m?.[ym] || { n: 0, pm2: null };
+      const spark = months
+        .map((k) => Number(r.m?.[k]?.pm2))
+        .filter((value) => Number.isFinite(value));
+      return {
+        ...r,
+        sgg: String(r.sgg ?? '').slice(0, 60),
+        n: Math.max(0, finite(cur.n)),
+        pm2: Number.isFinite(Number(cur.pm2)) ? Number(cur.pm2) : null,
+        spark,
+      };
     })
     .sort((a, b) => (b.pm2 ?? -1) - (a.pm2 ?? -1));
 
@@ -606,7 +744,7 @@ function renderRegion(lawd, name) {
           ${enriched
             .map(
               (r) => `<tr>
-            <td>${r.sgg}</td>
+            <td>${esc(r.sgg)}</td>
             <td class="num">${r.pm2 != null ? num(r.pm2, 0) + '만원' : '<span class="flat">—</span>'}</td>
             <td class="num">${r.n.toLocaleString('ko-KR')}</td>
             <td class="spark-cell">${sparkline(r.spark)}</td>
@@ -624,10 +762,20 @@ function renderRegion(lawd, name) {
 // ---------- 로또 ----------
 let lotto = null;
 let shown = 20;
+let lottoFrequencyData = null;
+let lottoTotalRounds = 0;
+let lottoArchiveLoaded = false;
 
 async function pageLotto() {
-  const data = await fetchJSON('/data/lotto.json');
+  const data = await fetchJSON('/data/lotto-recent.json');
   lotto = data.rounds.slice().sort((a, b) => b.round - a.round);
+  lottoTotalRounds = Math.max(lotto.length, finite(data.totalRounds, lotto.length));
+  lottoFrequencyData =
+    Array.isArray(data.frequency) && data.frequency.length === 46
+      ? data.frequency.map((value) => Math.max(0, finite(value)))
+      : null;
+  lottoArchiveLoaded = lotto.length >= lottoTotalRounds;
+  shown = 20;
 
   renderLottoHead();
   renderLottoTable();
@@ -638,24 +786,37 @@ async function pageLotto() {
     renderEstimate();
     renderLottoTable();
   });
-  $('#lotto-more').addEventListener('click', () => {
-    shown += 20;
+  $('#lotto-more').addEventListener('click', async () => {
+    const button = $('#lotto-more');
+    if (shown >= lotto.length && !lottoArchiveLoaded) {
+      button.disabled = true;
+      button.setAttribute('aria-busy', 'true');
+      const oldLabel = button.textContent;
+      button.textContent = '전체 회차 불러오는 중…';
+      try {
+        const archive = await fetchJSON('/data/lotto.json');
+        lotto = archive.rounds.slice().sort((a, b) => b.round - a.round);
+        lottoTotalRounds = lotto.length;
+        lottoArchiveLoaded = true;
+      } catch (err) {
+        console.error(err);
+        button.textContent = '불러오지 못했습니다. 다시 시도';
+        return;
+      } finally {
+        button.disabled = false;
+        button.removeAttribute('aria-busy');
+        if (button.textContent === '전체 회차 불러오는 중…') button.textContent = oldLabel;
+      }
+    }
+    shown = Math.min(shown + 20, lotto.length);
     renderLottoTable();
   });
 
   // 회차 행 클릭·키보드로 당첨번호 펼치기
   const tbody = $('#tbl-lotto tbody');
   tbody.addEventListener('click', (e) => {
-    const tr = e.target.closest('.lotto-row');
-    if (tr) toggleLottoRow(tr);
-  });
-  tbody.addEventListener('keydown', (e) => {
-    if (e.key !== 'Enter' && e.key !== ' ') return;
-    const tr = e.target.closest('.lotto-row');
-    if (tr) {
-      e.preventDefault();
-      toggleLottoRow(tr);
-    }
+    const button = e.target.closest('.lotto-toggle');
+    if (button) toggleLottoRow(button.closest('.lotto-row'));
   });
 
   setStatus(data.updatedAt);
@@ -671,15 +832,20 @@ function ballClass(n) {
   if (n <= 40) return 'b4';
   return 'b5';
 }
+const validBalls = (nums, max = 6) =>
+  Array.isArray(nums)
+    ? [...new Set(nums.map(Number).filter((n) => Number.isInteger(n) && n >= 1 && n <= 45))].slice(0, max)
+    : [];
 const ballsHtml = (nums) =>
-  nums.map((n) => `<span class="ball ${ballClass(n)}">${n}</span>`).join('');
+  validBalls(nums).map((n) => `<span class="ball ${ballClass(n)}">${n}</span>`).join('');
 
 /** 한 게임 카드 (공 6개 + 복사 버튼) */
 function gameRow(nums, idx) {
-  const text = nums.join(', ');
+  const safeNums = validBalls(nums);
+  const text = safeNums.join(', ');
   return `<div class="pick-row">
     <span class="pick-no">${idx + 1}</span>
-    <span class="balls">${ballsHtml(nums)}</span>
+    <span class="balls">${ballsHtml(safeNums)}</span>
     <button class="copy-btn" type="button" data-copy="${text}" aria-label="${idx + 1}게임 번호 복사">
       <svg class="icon" aria-hidden="true"><use href="#i-copy"/></svg>복사
     </button>
@@ -723,8 +889,9 @@ function bindCopy(root) {
 
 // --- 클라이언트용 추천 알고리즘 (스크립트와 동일한 규칙) ---
 function lottoFrequency() {
+  if (lottoFrequencyData) return lottoFrequencyData.slice();
   const f = Array(46).fill(0);
-  for (const r of lotto) for (const n of r.numbers) f[n]++;
+  for (const r of lotto) for (const n of validBalls(r.numbers)) f[n]++;
   return f;
 }
 function weightedPick(freq) {
@@ -777,8 +944,11 @@ const RANK_LABEL = { 1: '1등', 2: '2등', 3: '3등', 4: '4등', 5: '5등', 0: '
 
 /** 한 게임 채점 (6/45 등수) */
 function scoreGame(game, winNumbers, bonus) {
-  const matched = game.filter((n) => winNumbers.includes(n)).length;
-  const bonusHit = game.includes(bonus);
+  const safeGame = validBalls(game);
+  const safeWinners = validBalls(winNumbers);
+  const safeBonus = finite(bonus);
+  const matched = safeGame.filter((n) => safeWinners.includes(n)).length;
+  const bonusHit = safeGame.includes(safeBonus);
   if (matched === 6) return 1;
   if (matched === 5 && bonusHit) return 2;
   if (matched === 5) return 3;
@@ -787,7 +957,7 @@ function scoreGame(game, winNumbers, bonus) {
   return 0;
 }
 
-// 내 번호는 이 브라우저(localStorage)에만 저장합니다. 서버로 전송하지 않습니다.
+// 내 번호는 브라우저에 저장하고, 생성 조합은 익명 공개 결과 통계를 위해 제한적으로 서버에도 기록합니다.
 const MY_KEY = 'modoo-lotto-mypick'; // 진행 중인 내 번호 { round, games, savedAt }
 const HIST_KEY = 'modoo-lotto-myhistory'; // 채점 완료 기록 [{round,date,best,winNumbers,bonus}]
 const readLS = (k, fb) => {
@@ -802,14 +972,18 @@ const writeLS = (k, v) => {
     localStorage.setItem(k, JSON.stringify(v));
   } catch {}
 };
+const validGames = (games) =>
+  Array.isArray(games)
+    ? games.map((game) => validBalls(game)).filter((game) => game.length === 6).slice(0, 5)
+    : [];
 
 /**
  * 로또 번호 추첨기 (방문자가 버튼을 눌러 직접 뽑습니다).
  * 뽑은 번호는 이 브라우저에 저장했다가, 해당 회차 추첨이 끝나면 자동 채점합니다.
  */
 function renderPicks() {
-  const latest = lotto[0]?.round;
-  if (!latest) return;
+  const latest = finite(lotto[0]?.round);
+  if (latest <= 0) return;
   const upcoming = latest + 1;
   const freq = lottoFrequency();
 
@@ -817,16 +991,22 @@ function renderPicks() {
   const genLabel = $('#gen-label');
   const copyAll = $('#copy-all-btn');
   const mine = $('#picks-mine');
-  const roundOf = new Map(lotto.map((r) => [r.round, r]));
+  const roundOf = new Map(lotto.map((r) => [finite(r.round), r]));
 
   // 1) 저장된 내 번호가 추첨 완료됐으면 채점해서 기록으로 옮깁니다.
-  const my = readLS(MY_KEY, null);
+  const storedMy = readLS(MY_KEY, null);
+  const myGames = validGames(storedMy?.games);
+  const my =
+    Number.isInteger(Number(storedMy?.round)) && myGames.length
+      ? { ...storedMy, round: Number(storedMy.round), games: myGames }
+      : null;
+  if (storedMy && !my) localStorage.removeItem(MY_KEY);
   if (my && roundOf.has(my.round)) {
     const r = roundOf.get(my.round);
     const ranks = my.games.map((g) => scoreGame(g, r.numbers, r.bonus));
     const best = Math.min(...ranks.map((x) => x || 9));
     const bestRank = best === 9 ? 0 : best;
-    const hist = readLS(HIST_KEY, []);
+    const hist = Array.isArray(readLS(HIST_KEY, [])) ? readLS(HIST_KEY, []) : [];
     if (!hist.some((h) => h.round === my.round)) {
       hist.unshift({ round: r.round, date: r.date, best: bestRank, winNumbers: r.numbers, bonus: r.bonus });
       writeLS(HIST_KEY, hist.slice(0, 12));
@@ -835,12 +1015,12 @@ function renderPicks() {
     const cls = bestRank >= 1 && bestRank <= 3 ? 'win-hi' : bestRank ? 'win-lo' : 'win-none';
     const msg =
       bestRank >= 1 && bestRank <= 3
-        ? '🎉 축하합니다! 큰 행운이 왔어요!'
+        ? '축하합니다! 큰 행운이 왔어요!'
         : bestRank
           ? '아깝지만 다음이 있어요!'
           : '이번엔 아쉽네요. 다음 주 행운을 노려봐요!';
     $('#my-result').innerHTML = `<div class="my-result ${cls}">
-      <span class="mr-k">${r.round}회 추첨 결과 · 지난주 뽑은 번호</span>
+      <span class="mr-k">${finite(r.round)}회 추첨 결과 · 지난주 뽑은 번호</span>
       <span class="mr-v">${RANK_LABEL[bestRank]}</span>
       <span class="mr-m">${msg}</span>
     </div>`;
@@ -851,7 +1031,7 @@ function renderPicks() {
     genLabel.textContent = '다시 뽑기';
   }
 
-  // 3) 버튼 → 그 자리에서 5게임 생성 후 저장(브라우저) + 서버 기록(공개 피드용)
+  // 3) 버튼 → 5게임 생성 후 브라우저 저장 + 익명 공개 결과 통계를 위한 제한된 서버 기록
   genBtn.addEventListener('click', () => {
     const games = makeGames(freq, 5);
     writeLS(MY_KEY, { round: upcoming, games, savedAt: Date.now() });
@@ -884,7 +1064,17 @@ async function renderFeed() {
   } catch {
     return; // 로컬 정적 서버 등 API 가 없는 환경 — 조용히 넘어감
   }
-  const list = data.results || [];
+  const list = Array.isArray(data.results)
+    ? data.results
+        .map((result) => ({
+          round: finite(result.round),
+          best: finite(result.best),
+          at: String(result.at ?? ''),
+          sample: validBalls(result.sample),
+        }))
+        .filter((result) => result.round > 0 && result.best >= 1 && result.best <= 5 && result.sample.length === 6)
+        .slice(0, 50)
+    : [];
   if (!list.length) return;
 
   $('#feed-sec').hidden = false;
@@ -897,7 +1087,7 @@ async function renderFeed() {
       const when = `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}. ${d.getHours()}시 ${String(d.getMinutes()).padStart(2, '0')}분`;
       const hi = r.best >= 1 && r.best <= 3;
       return `<div class="feed-row${hi ? ' hi' : ''}">
-        <span class="feed-rank ${hi ? 'rank-hi' : 'rank-lo'}">${hi ? '🎉 ' : ''}${RANK_LABEL[r.best]}</span>
+        <span class="feed-rank ${hi ? 'rank-hi' : 'rank-lo'}">${hi ? '당첨 · ' : ''}${RANK_LABEL[r.best]}</span>
         <span class="feed-when">${when}에 뽑은 번호</span>
         <span class="balls balls-sm">${ballsHtml(r.sample)}</span>
         <span class="feed-round">${r.round}회</span>
@@ -907,16 +1097,30 @@ async function renderFeed() {
 }
 
 function showMyGames(games, round, mine, copyAll, isNew) {
+  const safeGames = validGames(games);
+  if (!safeGames.length) return;
   mine.innerHTML =
-    `<p class="pick-mine-label">${round}회 대상 · 내가 뽑은 5게임 ` +
+    `<p class="pick-mine-label">${finite(round)}회 대상 · 내가 뽑은 ${safeGames.length}게임 ` +
     `<span class="hint">${isNew ? '이 번호는 추첨 후 자동으로 채점돼요' : '지난번 뽑은 번호예요'}</span></p>` +
-    games.map((g, i) => gameRow(g, i)).join('');
+    safeGames.map((g, i) => gameRow(g, i)).join('');
   copyAll.hidden = false;
-  copyAll.dataset.copy = games.map((g) => g.join(', ')).join('\n');
+  copyAll.dataset.copy = safeGames.map((g) => g.join(', ')).join('\n');
 }
 
 function renderMyHistory() {
-  const hist = readLS(HIST_KEY, []);
+  const raw = readLS(HIST_KEY, []);
+  const hist = Array.isArray(raw)
+    ? raw
+        .map((item) => ({
+          round: finite(item.round),
+          date: String(item.date ?? '').slice(0, 20),
+          best: finite(item.best),
+          winNumbers: validBalls(item.winNumbers),
+          bonus: finite(item.bonus),
+        }))
+        .filter((item) => item.round > 0 && item.best >= 0 && item.best <= 5 && item.winNumbers.length === 6)
+        .slice(0, 12)
+    : [];
   if (!hist.length) return;
   $('#picks-history-sec').hidden = false;
   $('#tbl-picks tbody').innerHTML = hist
@@ -924,7 +1128,7 @@ function renderMyHistory() {
       const cls = h.best >= 1 && h.best <= 3 ? 'rank-hi' : h.best ? 'rank-lo' : 'flat';
       return `<tr>
         <td class="num">${h.round}</td>
-        <td>${h.date}</td>
+        <td>${esc(h.date)}</td>
         <td><span class="balls balls-sm">${ballsHtml(h.winNumbers)}<span class="ball bonus">${h.bonus}</span></span></td>
         <td><span class="${cls}">${RANK_LABEL[h.best]}</span></td>
       </tr>`;
@@ -937,29 +1141,30 @@ function renderLottoHead() {
   if (!r) return;
   $('#lotto-head').innerHTML = `
     <div class="stat" style="--i:0">
-      <div class="k">최신 회차</div><div class="v">${r.round}회</div>
+      <div class="k">최신 회차</div><div class="v">${finite(r.round)}회</div>
       <div class="balls">
         ${ballsHtml(r.numbers)}
-        <span class="ball bonus" title="보너스 번호">${r.bonus}</span>
+        <span class="ball bonus" title="보너스 번호">${finite(r.bonus)}</span>
       </div>
     </div>
-    <div class="stat" style="--i:1"><div class="k">추첨일</div><div class="v">${r.date}</div></div>
-    <div class="stat" style="--i:2"><div class="k">판매 게임 수</div><div class="v">${r.games.toLocaleString('ko-KR')}</div></div>
-    <div class="stat" style="--i:3"><div class="k">총 판매금액</div><div class="v">${(r.sales / 1e8).toFixed(0)}억원</div></div>
-    <div class="stat" style="--i:4"><div class="k">1등 당첨금</div><div class="v">${(r.firstPrize / 1e8).toFixed(2)}억원</div></div>`;
+    <div class="stat" style="--i:1"><div class="k">추첨일</div><div class="v">${esc(r.date)}</div></div>
+    <div class="stat" style="--i:2"><div class="k">판매 게임 수</div><div class="v">${finite(r.games).toLocaleString('ko-KR')}</div></div>
+    <div class="stat" style="--i:3"><div class="k">총 판매금액</div><div class="v">${(finite(r.sales) / 1e8).toFixed(0)}억원</div></div>
+    <div class="stat" style="--i:4"><div class="k">1등 당첨금</div><div class="v">${(finite(r.firstPrize) / 1e8).toFixed(2)}억원</div></div>`;
 }
 
-const perPerson = () => Number($('#ppl').value);
+const perPerson = () => Math.max(1, finite($('#ppl').value, 5));
 
 function renderEstimate() {
   const g = perPerson();
   $('#ppl-out').textContent = `${g}게임`;
   const r = lotto[0];
   if (!r) return;
-  const people = Math.round(r.games / g);
+  const games = finite(r.games);
+  const people = Math.round(games / g);
   $('#estimate').innerHTML =
-    `${r.round}회차에 <strong>${people.toLocaleString('ko-KR')}명</strong>이 로또를 구입한 것으로 추정됩니다. ` +
-    `<span class="hint">판매 게임 ${r.games.toLocaleString('ko-KR')}개 ÷ 1인당 ${g}게임 기준</span>`;
+    `${finite(r.round)}회차에 <strong>${people.toLocaleString('ko-KR')}명</strong>이 로또를 구입한 것으로 추정됩니다. ` +
+    `<span class="hint">판매 게임 ${games.toLocaleString('ko-KR')}개 ÷ 1인당 ${g}게임 기준</span>`;
 }
 
 function renderLottoTable() {
@@ -967,17 +1172,21 @@ function renderLottoTable() {
   $('#tbl-lotto tbody').innerHTML = lotto
     .slice(0, shown)
     .map(
-      (r) => `<tr class="lotto-row" data-round="${r.round}" tabindex="0" role="button" aria-expanded="false" aria-label="${r.round}회 당첨번호 보기">
-      <td class="num"><span class="row-caret">▸</span>${r.round}</td><td>${r.date}</td>
-      <td class="num">${r.games.toLocaleString('ko-KR')}</td>
-      <td class="num">${(r.sales / 1e8).toFixed(0)}억원</td>
-      <td class="num">${Math.round(r.games / g).toLocaleString('ko-KR')}명</td>
-      <td class="num">${r.firstWinners}명</td>
-      <td class="num">${(r.firstPrize / 1e8).toFixed(2)}억</td>
+      (r) => `<tr class="lotto-row" data-round="${finite(r.round)}">
+      <td class="num"><button class="lotto-toggle" type="button" aria-expanded="false" aria-label="${finite(r.round)}회 당첨번호 보기"><span class="row-caret" aria-hidden="true">▸</span>${finite(r.round)}</button></td><td>${esc(r.date)}</td>
+      <td class="num">${finite(r.games).toLocaleString('ko-KR')}</td>
+      <td class="num">${(finite(r.sales) / 1e8).toFixed(0)}억원</td>
+      <td class="num">${Math.round(finite(r.games) / g).toLocaleString('ko-KR')}명</td>
+      <td class="num">${finite(r.firstWinners)}명</td>
+      <td class="num">${(finite(r.firstPrize) / 1e8).toFixed(2)}억</td>
     </tr>`
     )
     .join('');
-  $('#lotto-more').hidden = shown >= lotto.length;
+  const more = $('#lotto-more');
+  const hasLoadedRows = shown < lotto.length;
+  const hasArchiveRows = !lottoArchiveLoaded && lottoTotalRounds > lotto.length;
+  more.hidden = !hasLoadedRows && !hasArchiveRows;
+  if (!more.hidden) more.textContent = hasLoadedRows ? '20회 더 보기' : '이전 전체 회차 불러오기';
 }
 
 /** 회차 행 클릭 → 그 아래에 당첨번호 행을 토글합니다. */
@@ -987,14 +1196,14 @@ function toggleLottoRow(tr) {
   // 이미 펼쳐져 있으면 접기
   if (next && next.classList.contains('lotto-detail')) {
     next.remove();
-    tr.setAttribute('aria-expanded', 'false');
+    tr.querySelector('.lotto-toggle').setAttribute('aria-expanded', 'false');
     tr.querySelector('.row-caret').textContent = '▸';
     return;
   }
   // 다른 열린 행은 닫기 (한 번에 하나만)
   $$('.lotto-detail').forEach((d) => d.remove());
   $$('.lotto-row').forEach((t) => {
-    t.setAttribute('aria-expanded', 'false');
+    t.querySelector('.lotto-toggle')?.setAttribute('aria-expanded', 'false');
     t.querySelector('.row-caret').textContent = '▸';
   });
 
@@ -1004,24 +1213,16 @@ function toggleLottoRow(tr) {
   detail.className = 'lotto-detail';
   detail.innerHTML = `<td colspan="7">
     <div class="detail-box">
-      <span class="detail-label">${r.round}회 당첨번호</span>
-      <span class="balls">${ballsHtml(r.numbers)}<span class="ball plus">+</span><span class="ball bonus" title="보너스 번호">${r.bonus}</span></span>
+      <span class="detail-label">${finite(r.round)}회 당첨번호</span>
+      <span class="balls">${ballsHtml(r.numbers)}<span class="ball plus">+</span><span class="ball bonus" title="보너스 번호">${finite(r.bonus)}</span></span>
     </div>
   </td>`;
   tr.after(detail);
-  tr.setAttribute('aria-expanded', 'true');
+  tr.querySelector('.lotto-toggle').setAttribute('aria-expanded', 'true');
   tr.querySelector('.row-caret').textContent = '▾';
 }
 
 // ---------- 관련 뉴스 ----------
-
-/** 외부 데이터(뉴스 제목·출처)는 반드시 이스케이프해서 넣습니다. */
-const esc = (s) =>
-  String(s ?? '')
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;');
 
 function newsAge(iso) {
   if (!iso) return '';
@@ -1033,49 +1234,91 @@ function newsAge(iso) {
 }
 
 /**
- * 메뉴 페이지 하단에 관련 뉴스 섹션을 붙입니다.
+ * 메뉴 페이지 하단에 관련 뉴스 섹션을 게시판처럼 붙입니다 (한 페이지 10건).
  * HTML 파일에는 마운트가 없습니다 — 여기서 <main> 끝에 만들어 넣어,
  * 페이지 9장을 일일이 고치지 않아도 됩니다.
+ * 데이터는 누적 아카이브(/data/news/{topic}.json)를 우선 쓰고,
+ * 아카이브가 아직 없으면 최신 스냅샷(news.json)으로 폴백합니다.
  */
+const NEWS_PER_PAGE = 10;
+
 async function renderNews(topic) {
-  let data;
+  let items = null;
+  let updatedAt = null;
   try {
-    data = await fetchJSON('/data/news.json');
-  } catch (err) {
-    console.error(err); // 뉴스는 부가 정보라 실패해도 페이지를 막지 않습니다.
-    return;
+    const archive = await fetchJSON(`/data/news/${topic}.json`);
+    items = archive.items;
+    updatedAt = archive.updatedAt;
+  } catch {
+    // 아카이브 미생성 환경 폴백
+    try {
+      const data = await fetchJSON('/data/news.json');
+      items = data.topics?.[topic];
+      updatedAt = data.updatedAt;
+    } catch (err) {
+      console.error(err); // 뉴스는 부가 정보라 실패해도 페이지를 막지 않습니다.
+      return;
+    }
   }
-  const items = data.topics?.[topic];
   if (!items?.length) return;
 
-  const main = $('main');
-  main.insertAdjacentHTML(
+  const pages = Math.ceil(items.length / NEWS_PER_PAGE);
+  let page = 1;
+
+  $('main').insertAdjacentHTML(
     'beforeend',
     `<section class="panel news-panel">
       <h2>관련 뉴스 <span class="tag">구글뉴스</span></h2>
-      <ul class="news-list">
-        ${items
-          .map(
-            (n) => `<li>
-          <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.title)}</a>
-          <span class="news-meta">${esc(n.source || '')}${n.source ? ' · ' : ''}${newsAge(n.date)}</span>
-        </li>`
-          )
-          .join('')}
-      </ul>
-      <p class="note">최종 수집: ${new Date(data.updatedAt).toLocaleString('ko-KR')}</p>
+      <ul class="news-list" id="news-list"></ul>
+      ${
+        pages > 1
+          ? `<nav class="pager" aria-label="뉴스 페이지 이동">
+        <button type="button" class="pager-btn" id="news-prev">◀ 이전</button>
+        <span class="pager-info" id="news-info" aria-live="polite"></span>
+        <button type="button" class="pager-btn" id="news-next">다음 ▶</button>
+      </nav>`
+          : ''
+      }
+      <p class="note">최종 수집: ${new Date(updatedAt).toLocaleString('ko-KR')} · 총 ${items.length}건</p>
     </section>`
   );
+
+  const renderPage = () => {
+    const slice = items.slice((page - 1) * NEWS_PER_PAGE, page * NEWS_PER_PAGE);
+    $('#news-list').innerHTML = slice
+      .map(
+        (n) => `<li>
+        <a href="${urlAttr(n.link)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.title)}</a>
+        <span class="news-meta">${esc(n.source || '')}${n.source ? ' · ' : ''}${newsAge(n.date)}</span>
+      </li>`
+      )
+      .join('');
+    if (pages > 1) {
+      $('#news-info').textContent = `${page} / ${pages}`;
+      $('#news-prev').disabled = page === 1;
+      $('#news-next').disabled = page === pages;
+    }
+  };
+
+  if (pages > 1) {
+    $('#news-prev').addEventListener('click', () => {
+      if (page > 1) { page--; renderPage(); }
+    });
+    $('#news-next').addEventListener('click', () => {
+      if (page < pages) { page++; renderPage(); }
+    });
+  }
+  renderPage();
 }
 
 // ---------- 디스패처 ----------
 const ROUTES = {
   home: pageHome,
   coin: () => pageGroup('coin', '#grid-coin'),
-  stock: () => pageStock(['kospi', 'spx', 'ndq', 'dji', 'nkx'], 'stock', '#grid-stock', '#grid-stock-items'),
+  stock: () => pageStock(['kospi', 'spx', 'ndq', 'dji', 'nkx', 'hsi', 'sse', 'dax'], 'stock', '#grid-stock', '#grid-stock-items'),
   kosdaq: () => pageStock(['kosdaq'], 'kosdaq_stock', '#grid-kosdaq', '#grid-kosdaq-items'),
   fx: () => pageGroup('fx', '#grid-fx'),
-  metal: () => pageGroup('metal', '#grid-metal'),
+  metal: () => pageGroup(['gold_krx', 'gold_don', 'gold', 'silver', 'plat', 'palladium'], '#grid-metal'),
   energy: pageEnergy,
   macro: pageMacro,
   giftcard: pageGiftcard,

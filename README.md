@@ -4,8 +4,8 @@
 
 <https://modoosise.com>
 
-빌드 도구가 없는 순수 정적 사이트입니다. GitHub Actions가 매시간 시세를 수집해
-`data/*.json` 으로 커밋하고, 브라우저는 그 JSON만 읽습니다.
+프레임워크나 외부 패키지 없이 Node 내장 기능만 쓰는 정적 사이트입니다. GitHub Actions가
+매시간 시세를 `data/*.json`으로 갱신하고, 배포 빌드는 공개 파일만 선별합니다.
 
 ## 구조
 
@@ -24,8 +24,12 @@ data/giftcards.json     기타 상품권 시세 (수동 관리)
 data/korea-provinces.json  전국 17개 시도 SVG 경로 (지도 형상)
 data/sgg-codes.json     전국 256개 시군구 법정동코드 (실거래가 API 검증 완료)
 data/realestate.json    시군구×월 아파트 실거래 집계 (자동 수집, 하루 1회)
+data/home.json          홈용 경량 요약 (배포 빌드에서 생성, Git 제외)
+data/lotto-recent.json  로또 최근 회차 요약 (배포 빌드에서 생성, Git 제외)
 scripts/fetch-*.mjs     수집 스크립트 (Node 20 내장 fetch만 사용, 의존성 없음)
 scripts/build-korea-map.mjs  지도 데이터 생성기 (1회성, 워크플로에 없음)
+scripts/build-runtime-data.mjs  브라우저용 경량 JSON 생성기
+scripts/build-deploy.mjs Cloudflare Pages용 dist allowlist 빌드·검증
 .github/workflows/      매시간 실행되는 수집 워크플로
 design-system/          ui-ux-pro-max 스킬이 생성한 디자인 규칙 (MASTER.md)
 ```
@@ -164,7 +168,8 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 
 - **백엔드**: Cloudflare Pages Functions + D1. 코드는 `functions/api/lotto/`,
   스키마는 `schema.sql`.
-- `POST /api/lotto/pick` — 뽑은 번호 저장 (엄격 검증)
+- `POST /api/lotto/pick` — 최신 추첨 회차의 다음 회차만 저장합니다. JSON 2KB,
+  10분 12회, 15분 중복 방지 제한을 적용합니다.
 - `GET /api/lotto/results` — 당첨(1~5등) 피드 + 통계. 읽을 때 미채점 건을
   `lotto.json` 당첨번호로 채점(idempotent)합니다. 별도 크론/시크릿 불필요.
 - 프론트는 API 가 없으면(로컬 정적 서버 등) 피드를 조용히 숨깁니다.
@@ -176,8 +181,14 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 2. 그 DB 의 **Console** 에 `schema.sql` 내용을 붙여 실행(테이블 생성).
 3. Pages 프로젝트 → **Settings → Functions → D1 database bindings** →
    **Variable name = `DB`**, 위 데이터베이스 선택.
-4. 재배포하면 `env.DB` 로 연결됩니다. (Git 연동 배포는 대시보드 바인딩이
+4. **Settings → Variables and Secrets**에 예측하기 어려운 32바이트 이상의 값을
+   `LOTTO_RATE_SALT` secret으로 등록합니다. 원본 IP는 저장하지 않고 이 값으로 만든
+   일 단위 회전 지문만 요청 제한에 사용합니다.
+5. 재배포하면 `env.DB` 로 연결됩니다. (Git 연동 배포는 대시보드 바인딩이
    필수 — `wrangler.toml` 바인딩은 무시됩니다.)
+
+미채점 번호는 21일, 낙첨 결과는 30일, 당첨 결과는 365일 뒤 요청당 제한된 수만
+정리됩니다. 채점도 한 요청에서 최대 2회차·34건으로 제한해 D1 비용 폭주를 막습니다.
 
 무료 한도(Workers Free): 요청 10만/일, D1 읽기 500만/일·쓰기 10만/일,
 저장 5GB. 초과해도 과금이 아니라 그날 제한만 걸립니다.
@@ -204,7 +215,39 @@ Secret 으로만 전달하며 코드·데이터에 절대 넣지 마세요.**
 ## 배포 (Cloudflare Pages)
 
 이 저장소의 `main` 브랜치가 Cloudflare Pages 에 연결돼 있어 push 하면 자동 배포됩니다.
-빌드 명령 없이 저장소 루트를 그대로 서빙합니다. 커스텀 도메인: modoosise.com / www.modoosise.com
+저장소 루트는 배포하지 않습니다. `scripts/build-deploy.mjs` 가 공개 파일만 `dist/` 로
+복사하고, 누락·추가 파일과 원본 불일치가 없는지 검사합니다. 따라서 `.github/`,
+`.claude/`, `scripts/`, `design-system/`, Markdown, SQL 및 빌드 전용 데이터는 공개되지
+않습니다. 빌드 시 홈·로또용 경량 JSON도 원본 데이터에서 새로 생성해 함께 배포합니다.
+
+Cloudflare Pages의 **Settings → Builds & deployments**를 다음과 같이 설정합니다.
+
+- Framework preset: `None`
+- Build command: `node scripts/build-deploy.mjs`
+- Build output directory: `dist`
+- Root directory: 저장소 루트(기본값)
+
+설정 변경 후 새 배포에서 `/README.md`, `/schema.sql`, `/scripts/`, `/.github/`가 모두
+404인지 확인하세요. 로컬에서도 다음 명령으로 같은 산출물을 만들고 재검증할 수 있습니다.
+
+```sh
+node scripts/build-deploy.mjs
+node scripts/build-deploy.mjs --check
+```
+
+`functions/`는 예외적으로 저장소 루트에 유지합니다. Cloudflare Pages가 이 디렉터리를
+정적 파일과 별도로 Functions 번들로 컴파일하기 때문입니다. [Cloudflare 공식 규칙](https://developers.cloudflare.com/pages/functions/get-started/)상
+`functions/`를 정적 출력 디렉터리인 `dist/` 안에 넣으면 안 되며, 빌드 검증도
+`dist/functions`를 금지합니다.
+
+`_headers`는 정적 응답에 1년 HSTS, 클릭재킹·객체·base/form 방어와 캐시 정책을 적용합니다.
+배포 빌더는 allowlist HTML의 인라인 스크립트를 SHA-256으로 계산해 `_headers`의
+`script-src`에 삽입하므로, 등록되지 않은 인라인 스크립트와 이벤트 속성은 실행되지
+않습니다. Google Fonts·Analytics에 필요한 출처만 별도로 허용합니다. Cloudflare의
+`_headers`는 Pages Functions 응답에는 적용되지 않으므로 API 보안 헤더는 Functions
+코드에서 별도로 설정합니다.
+
+커스텀 도메인: modoosise.com / www.modoosise.com
 
 <https://modoosise.com> · <https://26-07-19marketprice.pages.dev>
 

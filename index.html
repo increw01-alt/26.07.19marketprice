@@ -6,8 +6,8 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-D5NLQZ3DST');</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="naver-site-verification" content="d341f858e06ba6f44ea8644e75e7b8797021941d" />
-<title>모두의 시세 — 대한민국 모든 시세 한눈에</title>
-<meta name="description" content="코인·주식·코스닥·환율·금·상품권·부동산·로또까지, 대한민국 모든 시세를 한 화면에서 확인하세요. 매시간 자동 갱신됩니다.">
+<title>모두의 시세 — 오늘의 환율·금시세·주식·코인시세 한눈에</title>
+<meta name="description" content="오늘의 원달러 환율, 금시세(금 1돈 가격), 코스피·코스닥 주식시세, 비트코인 코인시세부터 상품권·부동산 시세까지 대한민국 모든 시세를 매시간 갱신해 한눈에 보여드립니다.">
 <link rel="alternate" type="application/rss+xml" title="모두의 시세 — 주요 시세 요약" href="/rss.xml">
 <link rel="canonical" href="https://modoosise.com/">
 <meta name="theme-color" content="#0b1220">
@@ -16,16 +16,16 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="모두의 시세">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="모두의 시세 — 대한민국 모든 시세 한눈에">
-<meta property="og:description" content="코인·주식·코스닥·환율·금·상품권·부동산·로또까지, 대한민국 모든 시세를 한 화면에서 확인하세요. 매시간 자동 갱신됩니다.">
+<meta property="og:title" content="모두의 시세 — 오늘의 환율·금시세·주식·코인시세 한눈에">
+<meta property="og:description" content="오늘의 원달러 환율, 금시세(금 1돈 가격), 코스피·코스닥 주식시세, 비트코인 코인시세부터 상품권·부동산 시세까지 대한민국 모든 시세를 매시간 갱신해 한눈에 보여드립니다.">
 <meta property="og:url" content="https://modoosise.com/">
 <meta property="og:image" content="https://modoosise.com/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="모두의 시세 — 대한민국 모든 시세 한눈에">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="모두의 시세 — 대한민국 모든 시세 한눈에">
-<meta name="twitter:description" content="코인·주식·코스닥·환율·금·상품권·부동산·로또까지, 대한민국 모든 시세를 한 화면에서 확인하세요. 매시간 자동 갱신됩니다.">
+<meta name="twitter:title" content="모두의 시세 — 오늘의 환율·금시세·주식·코인시세 한눈에">
+<meta name="twitter:description" content="오늘의 원달러 환율, 금시세(금 1돈 가격), 코스피·코스닥 주식시세, 비트코인 코인시세부터 상품권·부동산 시세까지 대한민국 모든 시세를 매시간 갱신해 한눈에 보여드립니다.">
 <meta name="twitter:image" content="https://modoosise.com/assets/og.png">
 <script type="application/ld+json">
 {
@@ -38,7 +38,7 @@
       "alternateName": "대한민국 모든 시세 한눈에",
       "url": "https://modoosise.com/",
       "inLanguage": "ko",
-      "description": "코인·주식·코스닥·환율·금·유가·상품권·부동산·로또 시세를 한 화면에서 확인하세요."
+      "description": "국내외 금융시장, 원자재·경제지표, 생활시세와 혜택·도구를 한 화면에서 확인하세요."
     },
     {
       "@type": "Organization",
@@ -54,7 +54,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20260804-seo1">
+<link rel="stylesheet" href="assets/style.css?v=20260807-audit1">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -66,6 +66,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <body data-page="home">
 
 <!-- static-shell:header:start -->
+<a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
@@ -78,32 +79,34 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 8. 4. 16:34:01</p>
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
-      <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
-    </button>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false">
+        <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg><span>카테고리</span>
+      </button>
+    </div>
   </div>
 </header>
+<div class="nav-backdrop" data-nav-dismiss hidden></div>
+<div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
+  <div class="nav-panel-head">
+    <strong id="nav-drawer-title">카테고리</strong>
+    <button class="nav-close" type="button" aria-label="카테고리 메뉴 닫기"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+  </div>
+  <nav class="primary-nav wrap" aria-label="주요 카테고리">
+    <p class="nav-section-title">주요 카테고리</p>
+    <div class="nav-links"><a class="nav-link nav-link-primary" href="/" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg><span>홈</span></a><a class="nav-link nav-link-primary" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>금융시장</span></a><a class="nav-link nav-link-primary" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg><span>원자재·지표</span></a><a class="nav-link nav-link-primary" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>생활시세</span></a><a class="nav-link nav-link-primary" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg><span>혜택·도구</span></a></div>
+  </nav>
 
-<nav class="tabs wrap" aria-label="시세 메뉴">
-  <a class="tab" href="/" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg>홈</a>
-  <a class="tab" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg>코인시세</a>
-  <a class="tab" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>주식시세</a>
-  <a class="tab" href="/kosdaq"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg>코스닥시세</a>
-  <a class="tab" href="/fx"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg>환율시세</a>
-  <a class="tab" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg>금·은시세</a>
-  <a class="tab" href="/energy"><svg class="icon" aria-hidden="true"><use href="#i-oil"/></svg>유가·원자재</a>
-  <a class="tab" href="/macro"><svg class="icon" aria-hidden="true"><use href="#i-gauge"/></svg>지표</a>
-  <a class="tab" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-ticket"/></svg>상품권시세</a>
-  <a class="tab" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-flame"/></svg>핫딜</a>
-  <a class="tab" href="/realestate"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg>부동산시세</a>
-  <a class="tab" href="/lotto"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg>로또</a>
-</nav>
+</div>
 <!-- static-shell:header:end -->
 
-<main class="wrap">
+<main id="main" class="wrap">
   <div class="page-head">
     <h1>모두의 시세 <span class="h1-sub">대한민국 모든 시세 한눈에</span></h1>
-    <p class="lead">코인 · 주식 · 코스닥 · 환율 · 금은 · 상품권 · 부동산 · 로또를 한 곳에서 봅니다.</p>
+    <p class="lead">금융시장부터 원자재·경제지표, 생활시세와 혜택·도구까지 한 곳에서 봅니다.</p>
   </div>
   <section class="panel">
     <h2>주요 지표</h2>
@@ -212,11 +215,12 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <footer class="site-footer wrap">
   <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
 </footer>
 <!-- static-shell:footer:end -->
 
-<script src="assets/app.js?v=20260804-seo1"></script>
-<script src="assets/pages.js?v=20260804-seo1"></script>
+<script src="assets/site-config.js?v=20260807-audit1"></script>
+<script src="assets/app.js?v=20260807-audit1"></script>
+<script src="assets/pages.js?v=20260807-audit1"></script>
 </body>
 </html>

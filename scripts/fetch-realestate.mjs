@@ -84,8 +84,15 @@ const refresh = new Set(months.slice(-MONTHS_REFRESH));
 const sgg = {};
 let calls = 0;
 let failed = 0;
+let streak = 0; // 연속 실패 (서킷브레이커용)
 
-for (const c of codes.items) {
+// 서킷브레이커 — API 가 응답을 물고 있는 날은 실패 1건당 최대 ~63초
+// (20초 타임아웃 × 3회 재시도)가 걸려, 768콜 전부 실패하면 13시간이 됩니다.
+// 실제로 이 패턴이 기본 잡 타임아웃 360분씩 나흘(1,440분)을 태웠습니다(2026-08).
+// 연속 12회 실패면 API 장애로 판단하고 즉시 중단해 기존 데이터를 유지합니다.
+const MAX_STREAK = 12;
+
+outer: for (const c of codes.items) {
   const entry = { sido: c.sido, sgg: c.sgg, m: {} };
   const prevM = prev.sgg?.[c.lawd]?.m || {};
 
@@ -98,14 +105,25 @@ for (const c of codes.items) {
     try {
       entry.m[ym] = await fetchMonth(c.lawd, ym);
       calls++;
+      streak = 0;
       await new Promise((r) => setTimeout(r, 150));
     } catch (err) {
       failed++;
+      streak++;
       console.error(`${c.sido} ${c.sgg} ${ym} 실패: ${err.message}`);
       if (prevM[ym]) entry.m[ym] = prevM[ym]; // 실패 시 이전 값 유지
+      if (streak >= MAX_STREAK) {
+        console.error(`연속 ${streak}회 실패 — API 장애로 판단하고 수집을 중단합니다.`);
+        break outer;
+      }
     }
   }
   sgg[c.lawd] = entry;
+}
+
+if (streak >= MAX_STREAK) {
+  // 부분 수집 상태로 파일을 덮으면 멀쩡한 시군구가 사라지므로 저장하지 않습니다.
+  throw new Error(`API 장애로 조기 중단 (성공 ${calls}콜, 실패 ${failed}건) — 기존 데이터 유지`);
 }
 
 // 전 시군구가 0건이면 API 장애일 가능성이 높으므로 기존 파일을 덮지 않습니다.

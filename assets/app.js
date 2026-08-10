@@ -10,53 +10,74 @@
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
 
-const won = (n) => n.toLocaleString('ko-KR') + '원';
-const num = (n, d = 2) =>
-  n.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d });
+const SITE_CONFIG = globalThis.MODOO_SITE_CONFIG;
+if (!SITE_CONFIG?.groups?.length || !SITE_CONFIG?.pages?.length) {
+  throw new Error('사이트 카테고리 설정을 불러오지 못했습니다.');
+}
+
+function escapeHTML(value) {
+  return String(value ?? '')
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#39;');
+}
+
+function safeHttpUrl(value, fallback = '#') {
+  try {
+    const base = globalThis.location?.href || 'https://modoosise.com/';
+    const url = new URL(String(value ?? ''), base);
+    if (url.protocol !== 'http:' && url.protocol !== 'https:') return fallback;
+    return escapeHTML(url.href);
+  } catch {
+    return fallback;
+  }
+}
+
+globalThis.escapeHTML = escapeHTML;
+globalThis.safeHttpUrl = safeHttpUrl;
+
+const num = (n, d = 2) => {
+  const value = Number(n);
+  if (!Number.isFinite(value)) return '—';
+  return value.toLocaleString('ko-KR', { minimumFractionDigits: d, maximumFractionDigits: d });
+};
+const won = (n) => `${num(n, 0)}원`;
 
 /** 큰 금액을 조/억 단위로 압축 */
 function compactWon(n) {
-  if (n >= 1e12) return (n / 1e12).toFixed(1) + '조원';
-  if (n >= 1e8) return Math.round(n / 1e8).toLocaleString('ko-KR') + '억원';
-  if (n >= 1e4) return Math.round(n / 1e4).toLocaleString('ko-KR') + '만원';
-  return won(Math.round(n));
+  const value = Number(n);
+  if (!Number.isFinite(value)) return '—';
+  if (value >= 1e12) return (value / 1e12).toFixed(1) + '조원';
+  if (value >= 1e8) return Math.round(value / 1e8).toLocaleString('ko-KR') + '억원';
+  if (value >= 1e4) return Math.round(value / 1e4).toLocaleString('ko-KR') + '만원';
+  return won(Math.round(value));
 }
 
 function fmtPrice(v, group, unit = '') {
   // 원화 단위(국내 금값 등)는 소수점 없이 정수로 표시합니다.
-  if (unit.includes('원') || unit === 'KRW') return num(v, 0);
-  if (group === 'coin' || group === 'fx') return v >= 100 ? num(v, 0) : num(v, 2);
-  return num(v, 2);
+  const value = Number(v);
+  if (!Number.isFinite(value)) return '—';
+  const normalizedUnit = String(unit ?? '');
+  if (normalizedUnit.includes('원') || normalizedUnit === 'KRW') return num(value, 0);
+  if (group === 'coin' || group === 'fx') return value >= 100 ? num(value, 0) : num(value, 2);
+  return num(value, 2);
 }
 
 function dir(n) {
-  if (n == null || Math.abs(n) < 1e-9) return 'flat';
-  return n > 0 ? 'up' : 'down';
+  const value = Number(n);
+  if (n == null || !Number.isFinite(value) || Math.abs(value) < 1e-9) return 'flat';
+  return value > 0 ? 'up' : 'down';
 }
 
-const icon = (id, cls = 'icon') => `<svg class="${cls}" aria-hidden="true"><use href="#i-${id}"/></svg>`;
+const icon = (id, cls = 'icon') =>
+  `<svg class="${escapeHTML(cls)}" aria-hidden="true"><use href="#i-${escapeHTML(id)}"/></svg>`;
 
-const fetchJSON = (path) => fetch(path, { cache: 'no-store' }).then((r) => {
+const fetchJSON = (path, options = {}) => fetch(path, options).then((r) => {
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
   return r.json();
 });
-
-// ---------- 메뉴 정의 ----------
-// 배포 주소와 canonical 이 같은 확장자 없는 절대 경로를 사용합니다.
-const MENUS = [
-  { id: 'home', href: '/', label: '홈', icon: 'layers' },
-  { id: 'coin', href: '/coin', label: '코인시세', icon: 'coin' },
-  { id: 'stock', href: '/stock', label: '주식시세', icon: 'chart' },
-  { id: 'kosdaq', href: '/kosdaq', label: '코스닥시세', icon: 'chart' },
-  { id: 'fx', href: '/fx', label: '환율시세', icon: 'fx' },
-  { id: 'metal', href: '/metal', label: '금·은시세', icon: 'gem' },
-  { id: 'energy', href: '/energy', label: '유가·원자재', icon: 'oil' },
-  { id: 'macro', href: '/macro', label: '지표', icon: 'gauge' },
-  { id: 'giftcard', href: '/giftcard', label: '상품권시세', icon: 'ticket' },
-  { id: 'hotdeal', href: '/hotdeal', label: '핫딜', icon: 'flame' },
-  { id: 'realestate', href: '/realestate', label: '부동산시세', icon: 'home' },
-  { id: 'lotto', href: '/lotto', label: '로또', icon: 'target' },
-];
 
 const SPRITE = `
 <svg data-icon-sprite width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -79,17 +100,168 @@ const SPRITE = `
   <symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="12" height="12" rx="2"/><path d="M5 15V5a2 2 0 0 1 2-2h10"/></symbol>
   <symbol id="i-check" viewBox="0 0 24 24"><path d="M4 12l5 5L20 6"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+  <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
   <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M2 12h2m16 0h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></symbol>
   <symbol id="i-moon" viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></symbol>
 </svg>`;
 
-/** 헤더·메뉴·푸터를 주입합니다. */
+function currentNavigation(page) {
+  const activePage = SITE_CONFIG.pages.find((item) => item.id === page);
+  const activeGroup = activePage
+    ? SITE_CONFIG.groups.find((group) => group.id === activePage.groupId)
+    : null;
+  return { activePage, activeGroup };
+}
+
+function navigationMarkup(page) {
+  const { activePage, activeGroup } = currentNavigation(page);
+  const primary = SITE_CONFIG.groups.map((group) => {
+    const href = group.pages[0]?.href || '/';
+    const current = activeGroup?.id === group.id ? ' aria-current="location"' : '';
+    return `<a class="nav-link nav-link-primary" href="${escapeHTML(href)}"${current}>${icon(group.icon)}<span>${escapeHTML(group.label)}</span></a>`;
+  }).join('');
+  const secondary = activeGroup && activeGroup.pages.length > 1
+    ? `<nav class="secondary-nav wrap" aria-label="${escapeHTML(activeGroup.label)} 세부 메뉴">
+  <p class="nav-section-title">${escapeHTML(activeGroup.label)} 세부 메뉴</p>
+  <div class="nav-links">
+    ${activeGroup.pages.map((item) =>
+      `<a class="nav-link nav-link-secondary" href="${escapeHTML(item.href)}"${activePage?.id === item.id ? ' aria-current="page"' : ''}>${icon(item.icon)}<span>${escapeHTML(item.label)}</span></a>`,
+    ).join('')}
+  </div>
+</nav>`
+    : '';
+
+  return `<div class="nav-backdrop" data-nav-dismiss hidden></div>
+<div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
+  <div class="nav-panel-head">
+    <strong id="nav-drawer-title">카테고리</strong>
+    <button class="nav-close" type="button" aria-label="카테고리 메뉴 닫기">${icon('x')}</button>
+  </div>
+  <nav class="primary-nav wrap" aria-label="주요 카테고리">
+    <p class="nav-section-title">주요 카테고리</p>
+    <div class="nav-links">${primary}</div>
+  </nav>
+  ${secondary}
+</div>`;
+}
+
+function bindThemeToggle() {
+  const themeToggle = $('#theme-toggle');
+  if (!themeToggle || themeToggle.dataset.bound) return;
+  const updateLabel = () => {
+    const current = document.documentElement.dataset.theme === 'light' ? '라이트' : '다크';
+    themeToggle.setAttribute('aria-label', `${current} 테마 사용 중, 화면 테마 전환`);
+  };
+  updateLabel();
+  themeToggle.addEventListener('click', () => {
+    const root = document.documentElement;
+    const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+    root.dataset.theme = next;
+    updateLabel();
+    try {
+      localStorage.setItem('theme', next);
+    } catch (e) {}
+  });
+  themeToggle.dataset.bound = 'true';
+}
+
+function bindNavigationDrawer() {
+  const toggle = $('.nav-toggle');
+  const panel = $('#site-navigation');
+  const closeButton = $('.nav-close', panel || document);
+  const backdrop = $('[data-nav-dismiss]');
+  if (!toggle || !panel || !closeButton || !backdrop || panel.dataset.bound) return;
+
+  const mobile = matchMedia('(max-width: 767px)');
+  let restoreFocus = false;
+  const isOpen = () => panel.dataset.open === 'true';
+  const focusable = () => $$('a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])', panel)
+    .filter((item) => !item.hidden);
+
+  const close = (returnFocus = true) => {
+    panel.dataset.open = 'false';
+    document.body.classList.remove('nav-open');
+    toggle.setAttribute('aria-expanded', 'false');
+    backdrop.hidden = true;
+    if (mobile.matches) {
+      panel.setAttribute('aria-hidden', 'true');
+      panel.setAttribute('inert', '');
+    }
+    if (returnFocus && restoreFocus && mobile.matches) toggle.focus();
+    restoreFocus = false;
+  };
+
+  const open = () => {
+    restoreFocus = true;
+    panel.dataset.open = 'true';
+    panel.removeAttribute('aria-hidden');
+    panel.removeAttribute('inert');
+    document.body.classList.add('nav-open');
+    toggle.setAttribute('aria-expanded', 'true');
+    backdrop.hidden = false;
+    closeButton.focus();
+  };
+
+  const syncViewport = () => {
+    if (mobile.matches) {
+      panel.setAttribute('role', 'dialog');
+      panel.setAttribute('aria-modal', 'true');
+      if (!isOpen()) close(false);
+    } else {
+      panel.dataset.open = 'false';
+      panel.removeAttribute('role');
+      panel.removeAttribute('aria-modal');
+      panel.removeAttribute('aria-hidden');
+      panel.removeAttribute('inert');
+      document.body.classList.remove('nav-open');
+      toggle.setAttribute('aria-expanded', 'false');
+      backdrop.hidden = true;
+    }
+  };
+
+  toggle.addEventListener('click', () => (isOpen() ? close() : open()));
+  closeButton.addEventListener('click', () => close());
+  backdrop.addEventListener('click', () => close());
+  panel.addEventListener('click', (event) => {
+    if (event.target.closest('a[href]')) close(false);
+  });
+  document.addEventListener('keydown', (event) => {
+    if (!mobile.matches || !isOpen()) return;
+    if (event.key === 'Escape') {
+      event.preventDefault();
+      close();
+      return;
+    }
+    if (event.key !== 'Tab') return;
+    const items = focusable();
+    const first = items[0];
+    const last = items.at(-1);
+    if (!first || !last) return;
+    if (event.shiftKey && document.activeElement === first) {
+      event.preventDefault();
+      last.focus();
+    } else if (!event.shiftKey && document.activeElement === last) {
+      event.preventDefault();
+      first.focus();
+    }
+  });
+  if (typeof mobile.addEventListener === 'function') mobile.addEventListener('change', syncViewport);
+  else mobile.addListener(syncViewport);
+  panel.dataset.bound = 'true';
+  syncViewport();
+}
+
+/** 헤더·메뉴·푸터를 주입하고 공통 상호작용을 연결합니다. */
 function renderShell() {
   const page = document.body.dataset.navPage || document.body.dataset.page || 'home';
+  const main = $('main');
+  if (main && !main.id) main.id = 'main';
 
   if (!$('[data-icon-sprite]')) document.body.insertAdjacentHTML('afterbegin', SPRITE);
 
   if (!$('.site-header')) document.body.insertAdjacentHTML('afterbegin', `
+<a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
@@ -102,39 +274,30 @@ function renderShell() {
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
-    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
-      ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
-    </button>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+        ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
+      </button>
+      <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false">
+        ${icon('menu')}<span>카테고리</span>
+      </button>
+    </div>
   </div>
 </header>
-
-<nav class="tabs wrap" aria-label="시세 메뉴">
-  ${MENUS.map(
-    (m) =>
-      `<a class="tab" href="${m.href}"${m.id === page ? ' aria-current="page"' : ''}>${icon(m.icon)}${m.label}</a>`
-  ).join('')}
-</nav>`);
+${navigationMarkup(page)}`);
+  else if (!$('.skip-link')) document.body.insertAdjacentHTML('afterbegin', '<a class="skip-link" href="#main">본문 바로가기</a>');
 
   if (!$('.site-footer')) document.body.insertAdjacentHTML(
     'beforeend',
     `<footer class="site-footer wrap">
   <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
   <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 네이버 쇼핑 · 국토교통부 · 한국은행 · 오피넷</p>
-</footer>`
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+</footer>`,
   );
 
-  // 기본은 네이비입니다. data-theme 이 없으면 네이비로 봅니다.
-  const themeToggle = $('#theme-toggle');
-  if (themeToggle && !themeToggle.dataset.bound) themeToggle.addEventListener('click', () => {
-    const root = document.documentElement;
-    const next = root.dataset.theme === 'light' ? 'dark' : 'light';
-    root.dataset.theme = next;
-    try {
-      localStorage.setItem('theme', next);
-    } catch (e) {}
-  });
-  if (themeToggle) themeToggle.dataset.bound = 'true';
+  bindThemeToggle();
+  bindNavigationDrawer();
 }
 
 /** 헤더의 갱신 시각 표시 */
@@ -142,21 +305,26 @@ function setStatus(stamp, msg) {
   const el = $('#updated');
   if (!el) return;
   el.className = stamp ? 'status is-live' : 'status is-error';
-  el.innerHTML =
-    '<span class="dot"></span>' +
-    (stamp ? `최종 갱신 ${new Date(stamp).toLocaleString('ko-KR')}` : msg || '데이터를 불러오지 못했습니다.');
+  const dot = document.createElement('span');
+  dot.className = 'dot';
+  const text = stamp
+    ? `최종 갱신 ${new Date(stamp).toLocaleString('ko-KR')}`
+    : String(msg || '데이터를 불러오지 못했습니다.');
+  el.replaceChildren(dot, document.createTextNode(text));
 }
 
 // ---------- 공용 조각 ----------
 function sparkline(values) {
-  if (!values || values.length < 2) return '';
-  const min = Math.min(...values);
-  const max = Math.max(...values);
+  if (!Array.isArray(values) || values.length < 2) return '';
+  const points = values.map(Number);
+  if (points.some((value) => !Number.isFinite(value))) return '';
+  const min = Math.min(...points);
+  const max = Math.max(...points);
   const span = max - min || 1;
-  const pts = values
+  const pts = points
     .map((v, i) => `${(i / (values.length - 1)) * 100},${28 - ((v - min) / span) * 26}`)
     .join(' ');
-  const cls = values.at(-1) >= values[0] ? 'up' : 'down';
+  const cls = points.at(-1) >= points[0] ? 'up' : 'down';
   return `<svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
     <polyline points="${pts}" fill="none" stroke="currentColor" stroke-width="1.5"
       vector-effect="non-scaling-stroke" class="${cls}" />
@@ -172,13 +340,14 @@ function card(item, i = 0) {
       : `${icon(d)}<span class="sr-label">${label}</span>${num(Math.abs(item.changePct), 2)}%`;
   const abs =
     item.change == null ? '' : `(${item.change > 0 ? '+' : '-'}${num(Math.abs(item.change), 2)})`;
-  return `<article class="card" style="--i:${i}">
-    ${item.rank ? `<span class="rank">${item.rank}</span>` : ''}
-    <div class="name">${item.name}</div>
-    <div class="price">${fmtPrice(item.price, item.group, item.unit)}<span class="unit">${item.unit}</span></div>
+  const index = Number.isInteger(i) && i >= 0 ? i : 0;
+  return `<article class="card" style="--i:${index}">
+    ${item.rank ? `<span class="rank">${escapeHTML(item.rank)}</span>` : ''}
+    <div class="name">${escapeHTML(item.name)}</div>
+    <div class="price">${fmtPrice(item.price, item.group, item.unit)}<span class="unit">${escapeHTML(item.unit)}</span></div>
     <div class="delta ${d}">${pct}${abs}</div>
     ${item.volume ? `<div class="memo">24h 거래대금 ${compactWon(item.volume)}</div>` : ''}
-    ${item.note ? `<div class="memo">${item.note}</div>` : ''}
+    ${item.note ? `<div class="memo">${escapeHTML(item.note)}</div>` : ''}
     <span class="${d}">${sparkline(item.spark)}</span>
   </article>`;
 }
@@ -207,3 +376,7 @@ async function renderMarketGroup(groupOrIds, mountSel) {
   }
   return { data, pick };
 }
+
+// 정적 HTML에서도 테마와 모바일 내비게이션이 즉시 동작하게 합니다.
+// pages.js가 다시 호출해도 각 바인딩은 data-bound로 한 번만 연결됩니다.
+renderShell();
