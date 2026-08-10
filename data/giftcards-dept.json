@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T08:25:41+09:00",
+  "updatedAt": "2026-08-10T10:18:41+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -38,8 +38,8 @@
       "method": "이체",
       "buy": 95550,
       "buyRate": 4.45,
-      "sell": 95900,
-      "sellRate": 4.1
+      "sell": 95800,
+      "sellRate": 4.2
     },
     {
       "shopId": "citypay",
@@ -50,8 +50,8 @@
       "method": "현금",
       "buy": 95350,
       "buyRate": 4.65,
-      "sell": 95900,
-      "sellRate": 4.1
+      "sell": 95800,
+      "sellRate": 4.2
     },
     {
       "shopId": "citypay",
@@ -62,8 +62,8 @@
       "method": "이체",
       "buy": 96620,
       "buyRate": 3.38,
-      "sell": 96800,
-      "sellRate": 3.2
+      "sell": 96700,
+      "sellRate": 3.3
     },
     {
       "shopId": "citypay",
@@ -74,8 +74,8 @@
       "method": "현금",
       "buy": 96520,
       "buyRate": 3.48,
-      "sell": 96800,
-      "sellRate": 3.2
+      "sell": 96700,
+      "sellRate": 3.3
     },
     {
       "shopId": "citypay",
