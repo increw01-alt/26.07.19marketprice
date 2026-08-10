@@ -5,8 +5,8 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5NLQZ3DST"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-D5NLQZ3DST');</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>환율시세 | 모두의 시세</title>
-<meta name="description" content="달러·엔·유로·위안 대비 원화 환율과 최근 추이를 매시간 갱신해 보여줍니다.">
+<title>환율시세 — 오늘의 원달러 환율·엔화·유로 | 모두의 시세</title>
+<meta name="description" content="오늘의 환율을 매시간 갱신합니다. 원달러 환율과 엔화(100엔)·유로·위안 환율의 실시간 시세, 최근 40거래일 추이를 차트로 확인하세요.">
 <link rel="alternate" type="application/rss+xml" title="모두의 시세 — 주요 시세 요약" href="/rss.xml">
 <link rel="canonical" href="https://modoosise.com/fx">
 <meta name="theme-color" content="#0b1220">
@@ -15,22 +15,22 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="모두의 시세">
 <meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="환율시세 | 모두의 시세">
-<meta property="og:description" content="달러·엔·유로·위안 대비 원화 환율과 최근 추이를 매시간 갱신해 보여줍니다.">
+<meta property="og:title" content="환율시세 — 오늘의 원달러 환율·엔화·유로 | 모두의 시세">
+<meta property="og:description" content="오늘의 환율을 매시간 갱신합니다. 원달러 환율과 엔화(100엔)·유로·위안 환율의 실시간 시세, 최근 40거래일 추이를 차트로 확인하세요.">
 <meta property="og:url" content="https://modoosise.com/fx">
 <meta property="og:image" content="https://modoosise.com/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="모두의 시세 — 대한민국 모든 시세 한눈에">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="환율시세 | 모두의 시세">
-<meta name="twitter:description" content="달러·엔·유로·위안 대비 원화 환율과 최근 추이를 매시간 갱신해 보여줍니다.">
+<meta name="twitter:title" content="환율시세 — 오늘의 원달러 환율·엔화·유로 | 모두의 시세">
+<meta name="twitter:description" content="오늘의 환율을 매시간 갱신합니다. 원달러 환율과 엔화(100엔)·유로·위안 환율의 실시간 시세, 최근 40거래일 추이를 차트로 확인하세요.">
 <meta name="twitter:image" content="https://modoosise.com/assets/og.png">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=791a674">
+<link rel="stylesheet" href="assets/style.css?v=20260807-audit1">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -40,7 +40,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </script>
 <script type="application/ld+json">
 {"@context":"https://schema.org","@graph":[
-{"@type":"WebPage","@id":"https://modoosise.com/fx","url":"https://modoosise.com/fx","name":"환율시세 | 모두의 시세","description":"달러·엔·유로·위안 대비 원화 환율과 최근 추이를 매시간 갱신해 보여줍니다.","inLanguage":"ko","isPartOf":{"@type":"WebSite","name":"모두의 시세","url":"https://modoosise.com/"}},
+{"@type":"WebPage","@id":"https://modoosise.com/fx","url":"https://modoosise.com/fx","name":"환율시세 — 오늘의 원달러 환율·엔화·유로 | 모두의 시세","description":"오늘의 환율을 매시간 갱신합니다. 원달러 환율과 엔화(100엔)·유로·위안 환율의 실시간 시세, 최근 40거래일 추이를 차트로 확인하세요.","inLanguage":"ko","isPartOf":{"@type":"WebSite","name":"모두의 시세","url":"https://modoosise.com/"}},
 {"@type":"BreadcrumbList","itemListElement":[
 {"@type":"ListItem","position":1,"name":"홈","item":"https://modoosise.com/"},
 {"@type":"ListItem","position":2,"name":"환율시세","item":"https://modoosise.com/fx"}]}
@@ -49,15 +49,114 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </head>
 <body data-page="fx">
 
-<main class="wrap">
+<!-- static-shell:header:start -->
+<a class="skip-link" href="#main">본문 바로가기</a>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/">
+      <svg class="brand-logo" viewBox="0 0 46 56" aria-hidden="true">
+        <rect x="2" y="20" width="9" height="22" rx="2" fill="#60a5fa"/><line x1="6.5" y1="12" x2="6.5" y2="48" stroke="#60a5fa" stroke-width="2.5"/>
+        <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
+        <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
+      </svg>
+      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-text">대한민국 모든 시세 한눈에</span>
+    </a>
+    <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 8. 10. 14:13:31</p>
+    <div class="header-actions">
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
+        <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
+      </button>
+      <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false">
+        <svg class="icon" aria-hidden="true"><use href="#i-menu"/></svg><span>카테고리</span>
+      </button>
+    </div>
+  </div>
+</header>
+<div class="nav-backdrop" data-nav-dismiss hidden></div>
+<div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
+  <div class="nav-panel-head">
+    <strong id="nav-drawer-title">카테고리</strong>
+    <button class="nav-close" type="button" aria-label="카테고리 메뉴 닫기"><svg class="icon" aria-hidden="true"><use href="#i-x"/></svg></button>
+  </div>
+  <nav class="primary-nav wrap" aria-label="주요 카테고리">
+    <p class="nav-section-title">주요 카테고리</p>
+    <div class="nav-links"><a class="nav-link nav-link-primary" href="/"><svg class="icon" aria-hidden="true"><use href="#i-layers"/></svg><span>홈</span></a><a class="nav-link nav-link-primary" href="/stock" aria-current="location"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>금융시장</span></a><a class="nav-link nav-link-primary" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg><span>원자재·지표</span></a><a class="nav-link nav-link-primary" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>생활시세</span></a><a class="nav-link nav-link-primary" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg><span>혜택·도구</span></a></div>
+  </nav>
+  <nav class="secondary-nav wrap" aria-label="금융시장 세부 메뉴">
+  <p class="nav-section-title">금융시장 세부 메뉴</p>
+  <div class="nav-links">
+    <a class="nav-link nav-link-secondary" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>주요 증시</span></a><a class="nav-link nav-link-secondary" href="/kosdaq"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>코스닥 종목</span></a><a class="nav-link nav-link-secondary" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg><span>코인</span></a><a class="nav-link nav-link-secondary" href="/fx" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg><span>환율</span></a>
+  </div>
+</nav>
+</div>
+<!-- static-shell:header:end -->
+
+<main id="main" class="wrap">
   <div class="page-head">
     <h1>환율시세</h1>
-    <p class="lead">달러 · 엔 · 유로 · 위안 대비 원화</p>
+    <p class="lead">오늘의 원달러 환율 · 엔화 · 유로 · 위안 환율</p>
   </div>
-  <div class="grid" id="grid-fx"></div>
+  <div class="grid" id="grid-fx">
+    <!-- prerender:grid-fx:start -->
+      <article class="card" style="--i:0">
+
+        <div class="name">달러/원</div>
+        <div class="price">1,416<span class="unit">KRW</span></div>
+        <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.45%(-6.42)</div>
+
+
+        <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+        <polyline points="0,9.364081545415115 2.564102564102564,9.813596111137553 5.128205128205128,7.047745970280342 7.6923076923076925,4.725666546030272 10.256410256410255,5.917328445613489 12.82051282051282,4.440668894398851 15.384615384615385,5.167522646265645 17.94871794871795,3.731046689877946 20.51282051282051,3.0195098689852813 23.076923076923077,5.1694372626374125 25.64102564102564,3.9280653843287006 28.205128205128204,2.6120935144615522 30.76923076923077,2 33.33333333333333,3.8515507763984935 35.8974358974359,5.98044073894134 38.46153846153847,6.40889452457435 41.02564102564102,8.111245317855953 43.58974358974359,11.26919488226277 46.15384615384615,10.779520070693529 48.717948717948715,12.200702445087241 51.28205128205128,12.34990242820413 53.84615384615385,14.22821113584706 56.41025641025641,14.549563149561893 58.97435897435898,15.955428592981477 61.53846153846154,14.321933942143025 64.1025641025641,16.689917461355193 66.66666666666666,15.789020411498834 69.23076923076923,16.571327991206417 71.7948717948718,16.875448457575352 74.35897435897436,19.94158983205797 76.92307692307693,18.71170565197986 79.48717948717949,20.86926816213891 82.05128205128204,22.950339413347894 84.61538461538461,27.097188333771875 87.17948717948718,24.208942839002496 89.74358974358975,25.586112385825732 92.3076923076923,25.599491351447952 94.87179487179486,26.99006321287355 97.43589743589743,26.77200708731351 100,28" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+      </svg></span>
+      </article>
+      <article class="card" style="--i:1">
+
+        <div class="name">엔/원</div>
+        <div class="price">9<span class="unit">KRW</span></div>
+        <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.67%(-0.06)</div>
+
+
+        <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+        <polyline points="0,6.684520747207632 2.564102564102564,7.09819831348144 5.128205128205128,4.195869100253578 7.6923076923076925,3.075493772834463 10.256410256410255,4.712074877454501 12.82051282051282,3.3114784066604166 15.384615384615385,4.177162794220187 17.94871794871795,2.8499317087948093 20.51282051282051,2.168560452732823 23.076923076923077,4.718287679639818 25.64102564102564,3.464931225663914 28.205128205128204,3.4267038198679103 30.76923076923077,2.2867055434700276 33.33333333333333,2 35.8974358974359,4.98441968144699 38.46153846153847,6.743423543882649 41.02564102564102,9.09644598465994 43.58974358974359,13.112496376518271 46.15384615384615,12.207158694136357 48.717948717948715,12.836043654140953 51.28205128205128,14.15186762735722 53.84615384615385,15.740511700908025 56.41025641025641,15.865175141479007 58.97435897435898,18.20495718415644 61.53846153846154,16.585384898633915 64.1025641025641,19.23349846834448 66.66666666666666,19.590412071482483 69.23076923076923,20.301794896570815 71.7948717948718,22.096547833876095 74.35897435897436,25.164653621261937 76.92307692307693,24.071845481681503 79.48717948717949,26.694734395524904 82.05128205128204,28 84.61538461538461,26.6989781128646 87.17948717948718,18.12840052334828 89.74358974358975,19.609933171245096 92.3076923076923,19.968306613147952 94.87179487179486,21.441249977149216 97.43589743589743,22.741253372123087 100,24.876454289288336" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+      </svg></span>
+      </article>
+      <article class="card" style="--i:2">
+
+        <div class="name">유로/원</div>
+        <div class="price">1,635<span class="unit">KRW</span></div>
+        <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.25%(-4.02)</div>
+
+
+        <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+        <polyline points="0,4.37210363454696 2.564102564102564,4.030969681224036 5.128205128205128,3.9813854132037854 7.6923076923076925,3.271347411138393 10.256410256410255,14.37028221724964 12.82051282051282,4.647795070067762 15.384615384615385,7.021908223289373 17.94871794871795,5.702961851737005 20.51282051282051,4.322519366526709 23.076923076923077,5.927083711631276 25.64102564102564,3.114653376652523 28.205128205128204,2.4383171817571494 30.76923076923077,2 33.33333333333333,4.056754469037301 35.8974358974359,5.7743602923579616 38.46153846153847,5.486757011199483 41.02564102564102,9.796641924817184 43.58974358974359,11.65108870656092 46.15384615384615,11.085832893343724 48.717948717948715,21.19903826186878 51.28205128205128,14.304839699447523 53.84615384615385,15.465106728907736 56.41025641025641,13.507520795910937 58.97435897435898,16.528190529933728 61.53846153846154,14.953405798923352 64.1025641025641,18.368764369501875 66.66666666666666,17.640858598979968 69.23076923076923,18.321165409087904 71.7948717948718,19.731339086255655 74.35897435897436,23.450159187774528 76.92307692307693,21.978489396948845 79.48717948717949,24.106642306607107 82.05128205128204,24.431918010148163 84.61538461538461,27.627125336044973 87.17948717948718,22.30575040809618 89.74358974358975,26.302247252742138 92.3076923076923,25.546571386800686 94.87179487179486,26.56999745783782 97.43589743589743,27.202705307531783 100,28" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+      </svg></span>
+      </article>
+      <article class="card" style="--i:3">
+
+        <div class="name">위안/원</div>
+        <div class="price">210<span class="unit">KRW</span></div>
+        <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.40%(-0.84)</div>
+
+        <div class="memo">달러/원 ÷ 달러/위안 환산값</div>
+        <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
+        <polyline points="0,8.241836864428222 2.564102564102564,8.740039119912321 5.128205128205128,5.731890866806825 7.6923076923076925,3.745123989616971 10.256410256410255,5.038996703362763 12.82051282051282,3.714048115853341 15.384615384615385,5.229769818190693 17.94871794871795,3.675000583845204 20.51282051282051,2.904868961865379 23.076923076923077,5.605870826251579 25.64102564102564,4.05738544670637 28.205128205128204,2.6337985659131675 30.76923076923077,2 33.33333333333333,3.7395877555538917 35.8974358974359,6.04426622960014 38.46153846153847,6.843496875140666 41.02564102564102,8.57337831067721 43.58974358974359,12.405812942071227 46.15384615384615,11.400304501436192 48.717948717948715,12.228689771007474 51.28205128205128,12.523396267599585 53.84615384615385,14.12661769230025 56.41025641025641,14.393387948845849 58.97435897435898,16.11494626456726 61.53846153846154,14.342365429784008 64.1025641025641,16.91197421367785 66.66666666666666,15.62114287134492 69.23076923076923,16.783287277430507 71.7948717948718,17.113302505747427 74.35897435897436,20.40923246775413 76.92307692307693,18.800400615967007 79.48717948717949,21.380357080383515 82.05128205128204,23.422280194813897 84.61538461538461,27.44150028244684 87.17948717948718,24.117747753877577 89.74358974358975,25.678631946932068 92.3076923076923,25.73283637211691 94.87179487179486,27.092728252313858 97.43589743589743,26.81579245817626 100,28" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
+      </svg></span>
+      </article>
+    <!-- prerender:grid-fx:end -->
+  </div>
 </main>
 
-<script src="assets/app.js?v=791a674"></script>
-<script src="assets/pages.js?v=791a674"></script>
+<!-- static-shell:footer:start -->
+<footer class="site-footer wrap">
+  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
+  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+</footer>
+<!-- static-shell:footer:end -->
+
+<script src="assets/site-config.js?v=20260807-audit1"></script>
+<script src="assets/app.js?v=20260807-audit1"></script>
+<script src="assets/pages.js?v=20260807-audit1"></script>
 </body>
 </html>

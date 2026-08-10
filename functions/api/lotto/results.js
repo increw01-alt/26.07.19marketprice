@@ -1,41 +1,51 @@
-// GET /api/lotto/results — 이 사이트에서 나온 당첨(1~5등) 공개 피드 + 통계.
-import { json, scorePending } from './_lib.js';
+// GET /api/lotto/results — 이 사이트에서 나온 당첨 공개 피드와 제한된 통계입니다.
+import {
+  cleanupOldPicks,
+  ensurePublicStats,
+  json,
+  safeStoredSample,
+  scorePending,
+} from './_lib.js';
 
 export async function onRequestGet({ request, env }) {
-  if (!env.DB) return json({ results: [], stats: { total: 0, wins: 0 } });
+  if (!env.DB) return json({ error: 'service-unavailable' }, 503);
 
-  // 미채점 + 추첨완료 건을 먼저 채점 (idempotent, 한 번 채점되면 이후엔 건너뜀)
+  // 유지보수와 채점은 각각 처리량이 제한되어 있어 한 번의 GET이 DB 전체를 순회하지 않습니다.
   try {
+    await ensurePublicStats(env);
+    await cleanupOldPicks(env);
     await scorePending(env, request);
-  } catch (err) {
-    // 채점 실패해도 기존 결과는 반환
-    console.error(err);
+  } catch (error) {
+    // 채점이 잠시 실패해도 이미 저장된 공개 결과는 계속 제공할 수 있습니다.
+    console.error('lotto maintenance failed', error);
   }
 
-  const { results } = await env.DB.prepare(
-    `SELECT round, games, best_rank, created_at
-       FROM lotto_picks
-      WHERE best_rank BETWEEN 1 AND 5
-      ORDER BY created_at DESC
-      LIMIT 30`
-  ).all();
+  try {
+    const { results = [] } = await env.DB.prepare(
+      `SELECT round, games, best_rank, created_at
+         FROM lotto_picks
+        WHERE best_rank BETWEEN 1 AND 5
+        ORDER BY created_at DESC
+        LIMIT 30`
+    ).all();
 
-  const stats = await env.DB.prepare(
-    `SELECT COUNT(*) AS total,
-            SUM(CASE WHEN best_rank BETWEEN 1 AND 5 THEN 1 ELSE 0 END) AS wins
-       FROM lotto_picks
-      WHERE best_rank IS NOT NULL`
-  ).first();
+    const stats = await env.DB.prepare(
+      `SELECT total_scored AS total, wins
+         FROM lotto_public_stats
+        WHERE singleton = 1`
+    ).first();
 
-  return json({
-    results: results.map((r) => {
-      let sample = [];
-      try {
-        // 대표로 첫 게임만 노출 (전체 5게임을 다 보여줄 필요는 없음)
-        sample = JSON.parse(r.games)[0] || [];
-      } catch {}
-      return { round: r.round, best: r.best_rank, at: r.created_at, sample };
-    }),
-    stats: { total: stats?.total || 0, wins: stats?.wins || 0 },
-  });
+    return json({
+      results: results.map((row) => ({
+        round: Number(row.round),
+        best: Number(row.best_rank),
+        at: Number(row.created_at),
+        sample: safeStoredSample(row.games),
+      })),
+      stats: { total: Number(stats?.total || 0), wins: Number(stats?.wins || 0) },
+    });
+  } catch (error) {
+    console.error('lotto results read failed', error);
+    return json({ error: 'service-unavailable' }, 503);
+  }
 }
