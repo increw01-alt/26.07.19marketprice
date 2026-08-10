@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-10T17:36:33+09:00",
+  "updatedAt": "2026-08-10T18:03:35+09:00",
   "deals": [
+    {
+      "title": "NS 풍화설월 실물칩 64,800 / 3,000",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106270",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-10T08:53:31.000Z"
+    },
+    {
+      "title": "하림 맥시칸 치킨, 고메피자 1+1",
+      "mall": "홈플러스 익스프레스몰",
+      "price": 9990,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726113",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:50:14.000Z"
+    },
+    {
+      "title": "진공 흡착 핸디형 스팀다리미",
+      "mall": "토스",
+      "price": 59900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726112",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:50:08.000Z"
+    },
+    {
+      "title": "파스쿠찌 카페 라떼 R+카사타 티라미수 조각",
+      "mall": "롯데온",
+      "price": 9680,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726111",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:49:50.000Z"
+    },
+    {
+      "title": "리버노보 인체공학 사무용의자",
+      "mall": "롯데홈쇼핑",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726110",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:46:19.000Z"
+    },
+    {
+      "title": "보솜이 모달썸머 팬티 기저귀 4팩",
+      "mall": "깨끗한나라몰",
+      "price": 35900,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726109",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:44:55.000Z"
+    },
+    {
+      "title": "닌텐도 스위치 2 본체 + 마리오 카트 월드",
+      "mall": "인벤게임즈",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106269",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-10T08:41:58.000Z"
+    },
+    {
+      "title": "센소다인 오리지날 플러스 민감성 치약 100g 6개",
+      "mall": "롯데온",
+      "price": 19860,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726108",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T08:37:46.000Z"
+    },
     {
       "title": "도도한나쵸 오리지널 치즈맛 92g X 12입",
       "mall": "지마켓",
@@ -99,72 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-10T08:18:47.000Z"
-    },
-    {
-      "title": "휴대용 손 선풍기",
-      "mall": "지마켓",
-      "price": 8120,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726097",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:17:34.000Z"
-    },
-    {
-      "title": "삼양 짱구 24개 115g 1박스/띠부씰포함",
-      "mall": "지마켓",
-      "price": 15340,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726096",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:15:51.000Z"
-    },
-    {
-      "title": "탑텐 남성 크링클 재킷",
-      "mall": "무신사",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726095",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:15:40.000Z"
-    },
-    {
-      "title": "스페인 제로칼로리 꿀홍차 20티백",
-      "mall": "네이버",
-      "price": 5600,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726094",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:14:21.000Z"
-    },
-    {
-      "title": "맥심 카누 다크 / 마일드 미니 250T",
-      "mall": "11번가",
-      "price": 36670,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726093",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:13:48.000Z"
-    },
-    {
-      "title": "경북의성 백도 딱딱이복숭아 2kg 로얄과 7~8과",
-      "mall": "카카오",
-      "price": 11350,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726092",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T08:13:38.000Z"
     },
     {
       "title": "오리온 통크 10개+나샌드 10개",
@@ -517,28 +539,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-09T03:26:26.000Z"
-    },
-    {
-      "title": "알리&#039;s Pick (8월10일(월)~8월13일(목))",
-      "mall": "알리익스프레스",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106238",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-09T00:29:49.000Z"
-    },
-    {
-      "title": "핫식스 더킹 8종 355ml 24캔",
-      "mall": "롯데온",
-      "price": 17780,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106237",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-09T00:17:21.000Z"
     },
     {
       "title": "조선호텔 특제육수 포기김치 4kg 토스27,457원/무배",
