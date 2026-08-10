@@ -7,7 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
 const SITE_CONFIG = require('../assets/site-config.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260807-audit1';
+const ASSET_VERSION = '20260810-light1';
 
 const esc = (value) =>
   String(value ?? '')
@@ -264,6 +264,16 @@ function staticNavigation(page) {
 </div>`;
 }
 
+function staticTopNav(page) {
+  const links = SITE_CONFIG.pages.map((item) => {
+    const current = item.id === page ? ' aria-current="page"' : '';
+    return `<a class="top-link" href="${esc(item.href)}"${current}>${esc(item.nav || item.label)}</a>`;
+  }).join('');
+  return `<nav class="top-nav" aria-label="주요 메뉴">
+  <div class="wrap">${links}</div>
+</nav>`;
+}
+
 function staticHeader(page, stamp, hideStatus = false) {
   const status = hideStatus
     ? '<p class="status" id="updated" hidden><span class="dot"></span></p>'
@@ -291,13 +301,29 @@ function staticHeader(page, stamp, hideStatus = false) {
     </div>
   </div>
 </header>
+${staticTopNav(page)}
 ${staticNavigation(page)}`;
 }
 
-const staticFooter = `<footer class="site-footer wrap">
-  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
-  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+const staticFooter = `<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <span class="brand-mark">모두의 시세</span>
+      <p>대한민국 모든 시세를 한눈에 제공하는 시장 정보 서비스입니다. 코인·주식·환율·금·상품권·부동산·로또까지 매시간 갱신합니다.</p>
+    </div>
+    <nav class="foot-col" aria-label="서비스 메뉴">
+      <strong>서비스</strong>
+      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+    </nav>
+    <nav class="foot-col" aria-label="안내">
+      <strong>안내</strong>
+      <div class="foot-menu"><a href="/about">모두의 시세 소개</a><a href="/rss.xml">RSS 피드</a></div>
+    </nav>
+  </div>
+  <div class="wrap foot-legal">
+    <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+  </div>
 </footer>`;
 
 const BRAND_PAGES = [
@@ -512,7 +538,7 @@ function renderBrandPage(config, data) {
 <meta name="description" content="${esc(config.description)}">
 <link rel="alternate" type="application/rss+xml" title="모두의 시세 — 주요 시세 요약" href="/rss.xml">
 <link rel="canonical" href="${canonical}">
-<meta name="theme-color" content="#0b1220">
+<meta name="theme-color" content="#f4f6fb">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website">

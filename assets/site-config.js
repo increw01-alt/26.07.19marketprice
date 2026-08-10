@@ -6,17 +6,17 @@
       id: 'home',
       label: '홈',
       icon: 'layers',
-      pages: [{ id: 'home', href: '/', label: '홈', icon: 'layers' }],
+      pages: [{ id: 'home', href: '/', label: '홈', nav: '홈', icon: 'layers' }],
     },
     {
       id: 'markets',
       label: '금융시장',
       icon: 'chart',
       pages: [
-        { id: 'stock', href: '/stock', label: '주요 증시', icon: 'chart' },
-        { id: 'kosdaq', href: '/kosdaq', label: '코스닥 종목', icon: 'chart' },
-        { id: 'coin', href: '/coin', label: '코인', icon: 'coin' },
-        { id: 'fx', href: '/fx', label: '환율', icon: 'fx' },
+        { id: 'stock', href: '/stock', label: '주요 증시', nav: '주식', icon: 'chart' },
+        { id: 'kosdaq', href: '/kosdaq', label: '코스닥 종목', nav: '코스닥', icon: 'chart' },
+        { id: 'coin', href: '/coin', label: '코인', nav: '코인', icon: 'coin' },
+        { id: 'fx', href: '/fx', label: '환율', nav: '환율', icon: 'fx' },
       ],
     },
     {
@@ -24,9 +24,9 @@
       label: '원자재·지표',
       icon: 'gem',
       pages: [
-        { id: 'metal', href: '/metal', label: '귀금속', icon: 'gem' },
-        { id: 'energy', href: '/energy', label: '에너지·원자재', icon: 'oil' },
-        { id: 'macro', href: '/macro', label: '경제지표·금리', icon: 'gauge' },
+        { id: 'metal', href: '/metal', label: '귀금속', nav: '금·은', icon: 'gem' },
+        { id: 'energy', href: '/energy', label: '에너지·원자재', nav: '유가', icon: 'oil' },
+        { id: 'macro', href: '/macro', label: '경제지표·금리', nav: '지표', icon: 'gauge' },
       ],
     },
     {
@@ -34,8 +34,8 @@
       label: '생활시세',
       icon: 'home',
       pages: [
-        { id: 'giftcard', href: '/giftcard', label: '상품권', icon: 'ticket' },
-        { id: 'realestate', href: '/realestate', label: '부동산', icon: 'home' },
+        { id: 'giftcard', href: '/giftcard', label: '상품권', nav: '상품권', icon: 'ticket' },
+        { id: 'realestate', href: '/realestate', label: '부동산', nav: '부동산', icon: 'home' },
       ],
     },
     {
@@ -43,8 +43,8 @@
       label: '혜택·도구',
       icon: 'target',
       pages: [
-        { id: 'hotdeal', href: '/hotdeal', label: '핫딜', icon: 'flame' },
-        { id: 'lotto', href: '/lotto', label: '로또', icon: 'target' },
+        { id: 'hotdeal', href: '/hotdeal', label: '핫딜', nav: '핫딜', icon: 'flame' },
+        { id: 'lotto', href: '/lotto', label: '로또', nav: '로또', icon: 'target' },
       ],
     },
   ];

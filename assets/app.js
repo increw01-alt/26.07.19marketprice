@@ -114,6 +114,16 @@ function currentNavigation(page) {
   return { activePage, activeGroup };
 }
 
+function topNavMarkup(page) {
+  const links = SITE_CONFIG.pages.map((item) => {
+    const current = item.id === page ? ' aria-current="page"' : '';
+    return `<a class="top-link" href="${escapeHTML(item.href)}"${current}>${escapeHTML(item.nav || item.label)}</a>`;
+  }).join('');
+  return `<nav class="top-nav" aria-label="주요 메뉴">
+  <div class="wrap">${links}</div>
+</nav>`;
+}
+
 function navigationMarkup(page) {
   const { activePage, activeGroup } = currentNavigation(page);
   const primary = SITE_CONFIG.groups.map((group) => {
@@ -150,13 +160,14 @@ function bindThemeToggle() {
   const themeToggle = $('#theme-toggle');
   if (!themeToggle || themeToggle.dataset.bound) return;
   const updateLabel = () => {
-    const current = document.documentElement.dataset.theme === 'light' ? '라이트' : '다크';
+    const current = document.documentElement.dataset.theme === 'dark' ? '다크' : '라이트';
     themeToggle.setAttribute('aria-label', `${current} 테마 사용 중, 화면 테마 전환`);
   };
   updateLabel();
   themeToggle.addEventListener('click', () => {
     const root = document.documentElement;
-    const next = root.dataset.theme === 'light' ? 'dark' : 'light';
+    // 기본(속성 없음)이 라이트이므로, 다크가 아니면 다크로 전환합니다.
+    const next = root.dataset.theme === 'dark' ? 'light' : 'dark';
     root.dataset.theme = next;
     updateLabel();
     try {
@@ -284,15 +295,31 @@ function renderShell() {
     </div>
   </div>
 </header>
+${topNavMarkup(page)}
 ${navigationMarkup(page)}`);
   else if (!$('.skip-link')) document.body.insertAdjacentHTML('afterbegin', '<a class="skip-link" href="#main">본문 바로가기</a>');
 
   if (!$('.site-footer')) document.body.insertAdjacentHTML(
     'beforeend',
-    `<footer class="site-footer wrap">
-  <p class="foot-links"><a href="/about">모두의 시세 소개</a></p>
-  <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-  <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    `<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <span class="brand-mark">모두의 시세</span>
+      <p>대한민국 모든 시세를 한눈에 제공하는 시장 정보 서비스입니다. 코인·주식·환율·금·상품권·부동산·로또까지 매시간 갱신합니다.</p>
+    </div>
+    <nav class="foot-col" aria-label="서비스 메뉴">
+      <strong>서비스</strong>
+      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+    </nav>
+    <nav class="foot-col" aria-label="안내">
+      <strong>안내</strong>
+      <div class="foot-menu"><a href="/about">모두의 시세 소개</a><a href="/rss.xml">RSS 피드</a></div>
+    </nav>
+  </div>
+  <div class="wrap foot-legal">
+    <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+  </div>
 </footer>`,
   );
 
