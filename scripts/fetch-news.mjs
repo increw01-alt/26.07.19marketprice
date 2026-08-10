@@ -1,10 +1,16 @@
 // 메뉴별 관련 뉴스를 구글뉴스 RSS 에서 수집합니다. (키 불필요)
 // 링크는 news.google.com 리다이렉트 URL 그대로 저장합니다 — 원문 URL 을 얻으려면
 // 기사마다 추가 요청이 필요해서, 매시간 수집에는 과합니다.
-import { getText, writeJSON, nowKST } from './lib.mjs';
+//
+// 산출물 2종:
+//   data/news.json        최신 스냅샷 (토픽당 8건, 홈·요약용 — 기존 형식 유지)
+//   data/news/{topic}.json 누적 아카이브 (링크 기준 중복 제거, 게시판 페이지네이션용)
+import { getText, readJSON, writeJSON, nowKST } from './lib.mjs';
 
 const OUT = 'data/news.json';
 const PER_TOPIC = 8;
+const ARCHIVE_DIR = 'data/news';
+const ARCHIVE_MAX = 100; // 한 페이지 10건 × 최대 10페이지
 
 /** 메뉴 id → 검색어. 페이지 쪽(pages.js)은 이 id 로 뉴스를 찾습니다. */
 const TOPICS = [
@@ -85,4 +91,20 @@ for (const t of TOPICS) {
 if (!okCount) throw new Error('모든 토픽 수집 실패');
 
 await writeJSON(OUT, { updatedAt: nowKST(), topics });
+
+// 누적 아카이브 — 이번에 받은 기사를 기존 아카이브 위에 얹고 링크로 중복 제거.
+// 스냅샷(news.json)은 매시간 교체돼 옛 기사가 사라지지만, 여기엔 계속 쌓입니다.
+for (const t of TOPICS) {
+  const fresh = topics[t.id];
+  if (!fresh?.length) continue; // 이번에 실패한 토픽은 기존 아카이브 유지
+  const path = `${ARCHIVE_DIR}/${t.id}.json`;
+  const prev = await readJSON(path, { items: [] });
+  const seen = new Set();
+  const merged = [...fresh, ...(prev.items || [])].filter(
+    (n) => n?.link && !seen.has(n.link) && (seen.add(n.link), true)
+  );
+  merged.sort((a, b) => (b.date || '').localeCompare(a.date || ''));
+  await writeJSON(path, { updatedAt: nowKST(), topic: t.id, items: merged.slice(0, ARCHIVE_MAX) });
+}
+
 console.log(`done: ${okCount}/${TOPICS.length} topics`);

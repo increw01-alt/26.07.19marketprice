@@ -1024,39 +1024,81 @@ function newsAge(iso) {
 }
 
 /**
- * 메뉴 페이지 하단에 관련 뉴스 섹션을 붙입니다.
+ * 메뉴 페이지 하단에 관련 뉴스 섹션을 게시판처럼 붙입니다 (한 페이지 10건).
  * HTML 파일에는 마운트가 없습니다 — 여기서 <main> 끝에 만들어 넣어,
  * 페이지 9장을 일일이 고치지 않아도 됩니다.
+ * 데이터는 누적 아카이브(/data/news/{topic}.json)를 우선 쓰고,
+ * 아카이브가 아직 없으면 최신 스냅샷(news.json)으로 폴백합니다.
  */
+const NEWS_PER_PAGE = 10;
+
 async function renderNews(topic) {
-  let data;
+  let items = null;
+  let updatedAt = null;
   try {
-    data = await fetchJSON('/data/news.json');
-  } catch (err) {
-    console.error(err); // 뉴스는 부가 정보라 실패해도 페이지를 막지 않습니다.
-    return;
+    const archive = await fetchJSON(`/data/news/${topic}.json`);
+    items = archive.items;
+    updatedAt = archive.updatedAt;
+  } catch {
+    // 아카이브 미생성 환경 폴백
+    try {
+      const data = await fetchJSON('/data/news.json');
+      items = data.topics?.[topic];
+      updatedAt = data.updatedAt;
+    } catch (err) {
+      console.error(err); // 뉴스는 부가 정보라 실패해도 페이지를 막지 않습니다.
+      return;
+    }
   }
-  const items = data.topics?.[topic];
   if (!items?.length) return;
 
-  const main = $('main');
-  main.insertAdjacentHTML(
+  const pages = Math.ceil(items.length / NEWS_PER_PAGE);
+  let page = 1;
+
+  $('main').insertAdjacentHTML(
     'beforeend',
     `<section class="panel news-panel">
       <h2>관련 뉴스 <span class="tag">구글뉴스</span></h2>
-      <ul class="news-list">
-        ${items
-          .map(
-            (n) => `<li>
-          <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.title)}</a>
-          <span class="news-meta">${esc(n.source || '')}${n.source ? ' · ' : ''}${newsAge(n.date)}</span>
-        </li>`
-          )
-          .join('')}
-      </ul>
-      <p class="note">최종 수집: ${new Date(data.updatedAt).toLocaleString('ko-KR')}</p>
+      <ul class="news-list" id="news-list"></ul>
+      ${
+        pages > 1
+          ? `<nav class="pager" aria-label="뉴스 페이지 이동">
+        <button type="button" class="pager-btn" id="news-prev">◀ 이전</button>
+        <span class="pager-info" id="news-info" aria-live="polite"></span>
+        <button type="button" class="pager-btn" id="news-next">다음 ▶</button>
+      </nav>`
+          : ''
+      }
+      <p class="note">최종 수집: ${new Date(updatedAt).toLocaleString('ko-KR')} · 총 ${items.length}건</p>
     </section>`
   );
+
+  const renderPage = () => {
+    const slice = items.slice((page - 1) * NEWS_PER_PAGE, page * NEWS_PER_PAGE);
+    $('#news-list').innerHTML = slice
+      .map(
+        (n) => `<li>
+        <a href="${esc(n.link)}" target="_blank" rel="noopener noreferrer nofollow">${esc(n.title)}</a>
+        <span class="news-meta">${esc(n.source || '')}${n.source ? ' · ' : ''}${newsAge(n.date)}</span>
+      </li>`
+      )
+      .join('');
+    if (pages > 1) {
+      $('#news-info').textContent = `${page} / ${pages}`;
+      $('#news-prev').disabled = page === 1;
+      $('#news-next').disabled = page === pages;
+    }
+  };
+
+  if (pages > 1) {
+    $('#news-prev').addEventListener('click', () => {
+      if (page > 1) { page--; renderPage(); }
+    });
+    $('#news-next').addEventListener('click', () => {
+      if (page < pages) { page++; renderPage(); }
+    });
+  }
+  renderPage();
 }
 
 // ---------- 디스패처 ----------
