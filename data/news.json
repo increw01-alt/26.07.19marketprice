@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-10T13:26:02+09:00",
+  "updatedAt": "2026-08-10T14:13:54+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,18 @@
     ],
     "stock": [
       {
+        "title": "'코스피 전망은?'…LS증권, 개미 대상 오프라인 세미나",
+        "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTjRSN2o4SHlFV0I3UU0zRXN6NXFkMnVHcXdldEFxS2JEblRoNzIwbjN0cVJnSG9FaWxRT1ZoTFJVV05GaFBPZnpfQlhHYzhobGxaeEdqNXpza2tEMllFTGpTNlZEV2toODJtTGVJejZGOXpJbDF2azN4Rnp6a3dXQWdUSDRLY2F6QWhSekw3ZzU2bkxNQm03MzU0RVRNZkxrbUFWVXpENWJWSDhvb3N1Z2pUZEtRei0xcXFMV0NWaU9qX2N2RHp4bjBaLTExS184b2JVdExCdDFvV0FreEd3aW4yWjBPSHI2N0h1NHhkYklkWVNSMV9iZ2MwVFZua2VBMEY3MGpEaGlnMUk0NGc?oc=5",
+        "source": "데일리안",
+        "date": "2026-08-10T04:42:00.000Z"
+      },
+      {
+        "title": "KB \"삼전 주주환원 10배 예상\"...삼전·닉스 주주환원이 6000 코스피 깨울까",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPb214U1l4em1iVTJlYUc5QzRJSGRsZ1NYMFgzRmhXTGxqSEltOFRjNVdkMkV1SXFKd21fbHNnMEhRZzhPYVpCcE1LM2xBaGdybzNkQU9wTXQ0Z2hkYUJuN0QtcGRfOTd2LTRnQ3o4ZDhjX3VmenVuNDk5ejJWTnB3ZA?oc=5",
+        "source": "조선일보",
+        "date": "2026-08-10T04:06:00.000Z"
+      },
+      {
         "title": "코스피, 장중 상승세 지속… 6,290선 안착?",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE91VGRkbWd0azNwUEZ6bmJrb1d4cGx1TTdYRHBtbGJsVmZRVFdTN0Jabm5BMG9tWGhtXzVveVB2WkRiYk5RVndZa0g1NHpyX2NEQWR4eV9VOU5ud19GOFFqVWYxeXBTYTV1VzNJcw?oc=5",
         "source": "프리진경제",
@@ -61,7 +73,7 @@
       {
         "title": "코스닥 장중 6%대 급등…매수 사이드카 발동, 코스피는 상승폭 축소",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vRVJJVV9uSkh6enNhTS1aaW4xU0g2MGxLZEhGTzNzYWN6dG5ablVkdnFISE5feDZaandibHBuVEFCRE42eUIwZTlyUVNxM1gyUW5maXI4eE5MWFVRMDlFY21pSTZRVjBrc1pReUNoVVfSAXRBVV95cUxPSVpiMnNYNzAtMU9lYXVkekJnT3FMY2lGYkY1RE1CRndOV3dQS2w2Z2llNXlBT0pDR0doQ0g5VjFlZVZkaUJXNFhUeU9IbmtaVE5CcG5SendHSnh1Z2l4R1RkVEJaVGVBb1hISFBBTGxkcWc1TA?oc=5",
-        "source": "산경투데이",
+        "source": "sankyungtoday.com",
         "date": "2026-08-10T02:50:57.000Z"
       },
       {
@@ -87,26 +99,26 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5FLU5qQWxwWV9FbVUtY20wZ3lqX0xKSVJXWmU0YlM1Vm5LeXhvdnZjX3p0WGtFVXBPTm1TYVUxWlBZNXE3NF80aHpGMzBPOUhRZ21BaDViQkNjRW1V?oc=5",
         "source": "뉴스핌",
         "date": "2026-08-10T02:24:00.000Z"
-      },
-      {
-        "title": "[증시타임] 美 고용 쇼크에 금리 변수 부각…코스피 훈풍 이어갈까",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBua1ZvbkNWb1VVeDlVdEh4aUxQeWtXd2dNbjU2c043aGxCNnRaMjlxNUhSMERWVTlaOTlVeTdHVldhZWJjVUJOSFhrSDhJaTA?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-10T02:19:30.000Z"
-      },
-      {
-        "title": "\"2015년 中 증시 닮은 코스피…반도체 실적이 다른 점\"-리서치알음",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE40Y1hvQnpyRGMyZHd0UmRqei01NG96OFdXT0Q1S01kNjRvUFVHZ19oQlFzd0FEaVdDaE0xSmN6Rk5LOE9tTXNQYmpQT3lOQm1GQmxpWVRqck9IdHptaW00eDZKdkxYbmNX?oc=5",
-        "source": "녹색경제신문",
-        "date": "2026-08-10T02:17:16.000Z"
       }
     ],
     "kosdaq": [
       {
-        "title": "[경제읽기] 코스닥 급등에 매수 사이드카…조만간 주택 공급대책",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBBTEpSZWw1TUNGb20zMmFQRl9YRUJjX2x1b0NpU2NORV9sZEZ2Z3BKVnIyTnI1eGxlQmxIczZPS2ZDMTh1OW1zM002MFE5SThTcjgtQTVXWVloRllkd3NlYUdsNTNILVE?oc=5",
-        "source": "연합뉴스TV",
-        "date": "2026-08-10T04:08:00.000Z"
+        "title": "[食전食후] 코스피, 외국인 매도에 상승폭 축소…코스닥은 5%대 급등",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9MMHpMMHBySWZGMkF2Rm9razc1VVhkWVRzWkJEczZCM3RGZHVWVVozMjhObGR6Z05kM0N2bUdmR1pEOFdra0JZZVFQeGY3bzd0akhFRF9RVldPQdIBWEFVX3lxTE82R2s4azBYdDA4SG5zYV9lbEVUVUNvcFI2REVnUDV2ZjRZWnFOVkNqOEZibXBuS0tzZVlmd2xaUllUN3E4Rk1uQ1lpS0o1eUFoRmdFYTNQVUk?oc=5",
+        "source": "아주경제",
+        "date": "2026-08-10T04:47:02.000Z"
+      },
+      {
+        "title": "[특징주]오전 상승분 반납 ‘삼전닉스’…5%대 폭등 코스닥으로 ‘머니무브’",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBqcFdZNGhob2NJNVhOTEJRRWdjclF0ZnQwd0hJRVBNVEkyZExyNno3UVY5UWU1UThINkN6eFpTa0FpbTR2elVDM0xvUlF6U0dUY3E3Sm0ySmFiU180UHdsOHFpaHpDd3hTeTNLVtIBcEFVX3lxTE1ZMXJaNjk0Umx6cm1xenRtOXVpNThSbnNOanJRR0JjVmRUdFBEUmRvYkNkSjZCQlc4bndvbGlNYnpHUWplZjRyQ25FWGx3d3pnYnN3b2htM3RVaEExRWlwMDVYSXpjNDdkbFZCYUFJeUk?oc=5",
+        "source": "남도일보",
+        "date": "2026-08-10T04:45:54.000Z"
+      },
+      {
+        "title": "코스피 상승 흐름 유지…코스닥 '매수 사이드카' 발동 속 6%대 급등",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE83S19fTDZHc0RidHU2alRQeXM2TWdCb05FZ3R3R0VfcVBlNDZKRk1FbHowYnRzaloxeW1wM0FUM1pzdHNLajNhQmxCWndhNjA?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-10T04:42:03.000Z"
       },
       {
         "title": "코스피 6,299.90 코스닥 848.19",
@@ -135,23 +147,17 @@
       {
         "title": "'급등' 코스닥 매수 사이드카‥제약·바이오 '훨훨'",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE01c3NwUjhFN1lSZUVvZVhVWGRhYWx6R2JKZGJjeEZqa0c0ZUlFam03SVE5VkxqUGNleEtWOXpHZXBEaHRod0pEcmRFajZfLVFiUTVaaEVvMVpVajZrUTJ6M1hlN1g2aUZ3RDZvd2ptcERYUE9WcTJPdw?oc=5",
-        "source": "imnews.imbc.com",
+        "source": "MBC 뉴스",
         "date": "2026-08-10T03:07:05.000Z"
-      },
-      {
-        "title": "코스피 6,300선 탈환 시도…코스닥 매수 사이드카",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84YUtGd3ZHbXFBOXdGS1FjTlhhOXlNaEEzVXBaU2ljSHl0UXgxMS1zeU9QQlE2bWd4SzVzQTJ2SkJ2QnFZaU1Hd2lMczhtUWQybHZHYUFkbTZJS2R3ZWpKWVAxcTl1eFE?oc=5",
-        "source": "연합뉴스TV",
-        "date": "2026-08-10T02:57:00.000Z"
-      },
-      {
-        "title": "외국인·기관 쌍끌이 매수…코스닥, 장중 850선 돌파",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBIZmk0VTdxSkN5OGFFcWtheS1LUTNsWmNHTk1HSURXbFJQT21KX2VnSldOTTRfcTIxcnZrempHMG5LaVlQOXpaYjVrOGNqTjAxbWYwVE5JSXdnZ9IBVEFVX3lxTFBLaUg1ZTg5Rl9mNWlZaTdQNUU0ZzJUUFVRdF9lSXdONWtsSENUaEx4MzRHanhpXzdqMjVDZzduSEJ6amJhSm5POXVoUUFGOF9CUDhmag?oc=5",
-        "source": "더팩트",
-        "date": "2026-08-10T02:53:31.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[환율 전망] 질주하는 원화에 연료 주입한 미국 고용",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0tWTROMzRXQTRQU2Z1bW1EOWMyamRnTHBzRkFMYjFBTWdTc3h6Y2hZaVY3ZTAxTjJnM19JbmFWb3FjOVJtckNTX1J5aDNSOVB3QXlLbFJNQ0N6OFNiMlluNA?oc=5",
+        "source": "KB Think",
+        "date": "2026-08-10T04:47:44.000Z"
+      },
       {
         "title": "美 고용 둔화·달러 매도 겹쳐…원·달러 1300원대 진입하나",
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ES2JmQzdrTGQ3RjJROTlHTEZvNkZQOXY4djQxZXJQbWRnenRwMTR3SEN4ZkZzaUswS3l2bS1GRmhkdUlSVlZ5LTN2bHBfYm9TaHlqdWQtS2F1X1BIY3ZtNUJrYWdnUGZheFhzNnlDNzNKWEpr?oc=5",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE10VXdsS3FITjJiSWhtVDZwSTF2b3ZQTGVkLTYwQy1UNGlVTVhvS2hwVWdlakFraTNkSlFLc2RRWU9uZDZzSG1XeXc1SndBVUFkTmEyRFk0MklmN3PSAWBBVV95cUxOa0NwYWJObFJ1dGpoVVRPdlY5MjYxbnR6V3dYdDJFeF9CWlRGRHViX3lIbE1WQmlrb3Q3cUlRZ3dUcUduNkNWeWRHS1Q5NmdJOE1YZ25kOGRfOEh5VmJvVWY?oc=5",
         "source": "연합뉴스",
         "date": "2026-08-10T01:48:21.000Z"
-      },
-      {
-        "title": "[포커스] 美 고용 쇼크에 환율 ‘뚝’…1400원대 찍고 다시 반등모드",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1YUVZRTnVrVjIzOW05Rkk4Wnp1cm5tS0lKeFFXXzBPaFRSLVZDY2tnN19DSEh1am1BRVo4bnNKSVF4czVscGcxRFdud3FZdFhza2JINFlkWWlYZUIwa2dnd3lUSjlWWGNpRjVnTy1oRHIxcjg?oc=5",
-        "source": "오늘경제",
-        "date": "2026-08-10T01:42:53.000Z"
       }
     ],
     "metal": [
@@ -227,6 +227,12 @@
         "date": "2026-08-10T01:25:34.000Z"
       },
       {
+        "title": "2026년 8월 10일 오늘 금시세 금한돈 살때 팔때 금값조회",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRHhoUjlJQ3J2WjZSVkFGZUxIaGdadmJzb2tUR29VZVhmMzhTdGZocHZNUHppckc1X1Z4clNrRzZvbDdQLUNGX1hUb2hwTURDbGRxVUdwdVBiZndrVVRRN0VVMnZkWTFHRFFlanRhSEtjMGFHVS1yLVN4eWpFYndiUUZQUUloNUtmWWc?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-10T00:59:00.000Z"
+      },
+      {
         "title": "금시세(금값) 주초장 얼마?…순금 18K 14K 등 가격은",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE11aHhha2w1N2t0dmdFaDB1RkphdUdWQXdiS1c1RTcyQzhJcFNWSXFXbVBqMDg0QVV3SFV6cFVMTkh3YUJxOG1mT2VEdkFnYXpFaWlJQ1djR0ExUUFVSWhGVklMT2ZZdjMw?oc=5",
         "source": "CBC뉴스",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ZZ0lIQ0tXVTQyQlZNZ001VnctbnVjbTRNOEdrakxULUhFWklBUThYTU5uZ0xYbGZyRTlSZktyby1uN2U0aDRmT05haGlIVUNNZnk1S05sNTAxbWlEQ0VtaU4zb194SzdhdFNEeNIBcEFVX3lxTE1DTVhqcW5kNmp0NDVzbDdVSWxNTGc0UWdaVUR6aEpsTDVxclphUjRQa0xKaFBmZ1hJaEN0dnFmbGJoT3BpNl85bmYxc3ZkSUxQN2gwMDBySmtOV0w1bXFzTnBpczJ3Y3kxQ25JRUpOcWs?oc=5",
         "source": "남도일보",
         "date": "2026-08-10T00:19:00.000Z"
-      },
-      {
-        "title": "2026년 8월 10일 오늘 금 가격: 글로벌 금 가격 급등, 이번 주 SJC의 금 가격은 어떻게 될까요?",
-        "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOFRvNkRtNUJTLTZXMVNMQnFEOWNrWm54ZWtJR3ZVWjVkN1ZxMnYzVmFQeGV5N0ZtT2tMNURudFpHTGpMemtmNVFiMkNDM1VvbFRpYnpHTkhFeERTSi13OVRjbWlialVjZFBhMm5yZ3RpOVY0RFp6ODNGUFM2bXl5XzdtNjk2WDhvTjlfWGc2ekpoRGc?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-09T23:44:33.000Z"
       }
     ],
     "energy": [
@@ -309,6 +309,12 @@
         "date": "2026-08-07T05:02:50.000Z"
       },
       {
+        "title": "1490원 밑으로 내려온 환율…유가·외인·금리가 향배 좌우",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5nSGF5U1BNeURvdlVoYXdHYmMySllfR0ZjMlNGRVhEZVF0NXA3YThLNy0yREhXSmxBVzdCbFkzSlZ2dEltWU1qb3VHVFo1Ti1HTlE0?oc=5",
+        "source": "네이트",
+        "date": "2026-07-23T02:26:00.000Z"
+      },
+      {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
         "source": "마켓인",
@@ -323,7 +329,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "goodkyung.com",
+        "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WWTVqRnJjdVdYUUQxQ2V0SElEcXdGUnN3ZDJQQk0xR3lsdUQxVEw2cXpBZTJwZnoxa25pUFVXeUQtcWx4UzZDVDRsa3Z1dy1ERmUtQ0FXcWdUcm9NR0tzTHZ3?oc=5",
         "source": "KB Think",
         "date": "2026-06-29T07:00:00.000Z"
-      },
-      {
-        "title": "금리·환율 보기 전에 '분리수거장' 가보세요…'이것' 보면 경제 흐름이 보입니다",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
-        "source": "위키트리",
-        "date": "2026-06-18T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -403,6 +403,24 @@
     ],
     "realestate": [
       {
+        "title": "수도권 6억 넘는 아파트 신고가 비중 '껑충'⋯25억 이상은 감소",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9kUklxbjBaU2tpUERROHhrSGR3SXptXzdONy1LdkgyYW9uZTlPS2FaX3N3UkZBSFBMY1AxLXd6RHNjcFRVT0cxQUtVakV4dk9yWWRXRlJmUDloNUkzZlNyQ3ZQdUJ5RHZYVjdNdjVUYlIxdzF0VlVFVQ?oc=5",
+        "source": "네이트",
+        "date": "2026-08-10T05:01:00.000Z"
+      },
+      {
+        "title": "수도권 15억~20억 아파트, 거래 절반 넘게 '신고가' 속출",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oa2VvQk5PbDIwY3cxZ3Nyb3JMRmhwM3psdkRHbnBlMjlEUFlkVUJMQnZPRWFEeUtHSkR4ZjFVTzYxTkxFd05JMS13LTFyWGt4QmUxRUM3MmdoQ2tTdHkxdTdn?oc=5",
+        "source": "이코노미스트",
+        "date": "2026-08-10T04:52:00.000Z"
+      },
+      {
+        "title": "수도권 고가 아파트 다시 들썩?… 15억~20억 아파트 절반이 ‘신고가’",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SdUxadGpfc2xmTkFkcUR4dHNrRDJNT0E0NlNYYnd0RjJOdkhXVmdiY0h4TGowNXJlR2g3bGhOdS1rMzBlUHRrWGkxVDhCbFlrMzJvOFR4UnZBcmFkbXBtVkpOamI?oc=5",
+        "source": "bntnews.co.kr",
+        "date": "2026-08-10T04:34:41.000Z"
+      },
+      {
         "title": "수도권 15억대 아파트 신고가 상승, 고가 구간 비중 확대",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4ycGhFYVphdDA2bEFsNnNqQTdvMFRTcXFkS2U3elBoRGpTNHFKSzFqRmtEeWQ1WHRNZjJYNHo5d2ZiX3dMS1RELVF5R1JPcm92NjZj?oc=5",
         "source": "네이트",
@@ -410,7 +428,7 @@
       },
       {
         "title": "매수세 20억 이하로 '풍선효과'…수도권 15억~20억 절반이 신고가",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5kampuMzUxaTRWQlJXSEt4MFNmX1pGUURWbnpSaTdUanJBdnRERGZLSE5WVVp5SHhOc3JoNDRIUmphaUFNMkpNOHVzSXRET0hfcWwyOVRQU2hqQzludnY4ZFFwNTVYUFVBQktmdzZn0gFzQVVfeXFMTVN2WENXVTlybDhVUFZtSmRJVlowNnJ5bmRLOHp4UWFESVFncklkVk81VlBPSlY5WUJjamRQS1dpcWpqRjFqWkw5RWwzc2ZnbkJieXhBa1FhX1dRNFN2dFJEVDl0cFI3RGNsMUJsaC1mYmZwNA?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TdlhDV1U5cmw4VVBWbUpkSVZaMDZyeW5kSzh6eFFhRElRZ3JJZFZPNVZQT0pWOVlCY2pkUEtXaXFqakYxalpMOUVsM3NmZ25CYnl4QWtRYV9XUTRTdnRSRFQ5dHBSN0RjbDFCbGgtZmJmcDTSAXNBVV95cUxNU3ZYQ1dVOXJsOFVQVm1KZElWWjA2cnluZEs4enhRYURJUWdySWRWTzVWUE9KVjlZQmNqZFBLV2lxampGMWpaTDlFbDNzZmduQmJ5eEFrUWFfV1E0U3Z0UkRUOXRwUjdEY2wxQmxoLWZiZnA0?oc=5",
         "source": "한국일보",
         "date": "2026-08-10T02:30:00.000Z"
       },
@@ -431,24 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE02V3pUSENjTVFKeDFPV082U0dRdEpJUzBBakl5RXB2d19lam1oS3RBQ0tMei11U25kdC1CMWFla2lPUEY1NVBxVFVkM190djJlMWxaYkxrY3llR0VVaXhlcENJQzBENVE4WDRMWjVUOA?oc=5",
         "source": "기호일보",
         "date": "2026-08-10T02:08:26.000Z"
-      },
-      {
-        "title": "반포동 아크로리버파크 84.97㎡ 53억 9천만원 거래",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqV2Jaa2hkd1BQWWlfc2RGbWxHaDdTU1V0bmhBYUt2U2JCbU5hbE1IRlpNZVpZaUVzQ3o0dzNOOVk2RHJNeE02NWo4R25EcjkzczByeWRqUVE?oc=5",
-        "source": "mk.co.kr",
-        "date": "2026-08-10T02:05:55.000Z"
-      },
-      {
-        "title": "인천 아파트 3억원 이하 거래 비중 50% 밑으로",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE41bVJIbDlILUZQX0NTQkNUOGptSDJaRjVPNWIxZjBZTzVRd3k5WHlkOHFPc0wyVkpPNWJHaWVuT1gzNDdwM3pDRm5SYTVncVZLYVNPTVFJNUMyd3BWY2JwNjVwRjdDYkNvOVBGWg?oc=5",
-        "source": "incheonin.com",
-        "date": "2026-08-10T02:00:50.000Z"
-      },
-      {
-        "title": "수도권 15억~20억 아파트 신고가 거래 비중 과반…서울 59㎡ 분양가는 15억 돌파",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE95YXczeXBtMWtma05EYTUxem54YkhpSGJGMVRwOHlsTFJLSmFCQzBBVXRDeUdlY0NRVGNicUFNTUlxZzFwSGhQVUhkdXFqS292djVJeDRKWTgwei1iVWwwWTVXaEVkNW9hSmhr?oc=5",
-        "source": "일간투데이",
-        "date": "2026-08-10T02:00:11.000Z"
       }
     ],
     "lotto": [
