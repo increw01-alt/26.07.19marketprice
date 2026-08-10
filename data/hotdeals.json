@@ -1,16 +1,27 @@
 {
-  "updatedAt": "2026-08-10T15:04:23+09:00",
+  "updatedAt": "2026-08-10T15:12:12+09:00",
   "deals": [
     {
-      "title": "서울우유 한끼식사 190ml x 18개",
-      "mall": "나100샵",
-      "price": null,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726056",
+      "title": "냉동밥 소분 밀폐용용기 16종세트",
+      "mall": "GS샵",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726058",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-08-10T05:56:47.000Z"
+      "date": "2026-08-10T06:07:10.000Z"
+    },
+    {
+      "title": "고기왕만두 420g 1팩",
+      "mall": "네이버",
+      "price": 3990,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726057",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-10T06:05:06.000Z"
     },
     {
       "title": "닌텐도 썸머 피날레 (다양/무배)",
@@ -176,17 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-10T04:50:43.000Z"
-    },
-    {
-      "title": "가시제거연구소 고등어밥상 550g 순살 노르웨이 오렌지2세트",
-      "mall": "네이버",
-      "price": 24930,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726040",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-10T04:42:59.000Z"
     },
     {
       "title": "멤버십 더미식 비빔면 138g 12개",
