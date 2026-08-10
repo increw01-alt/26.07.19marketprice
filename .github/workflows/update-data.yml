@@ -87,7 +87,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/ rss.xml sitemap.xml index.html coin.html stock.html kosdaq.html fx.html metal.html energy.html macro.html giftcard.html giftcard/lotte.html giftcard/shinsegae.html giftcard/hyundai.html hotdeal.html realestate.html lotto.html shopping.html about.html
+          git add data/ _headers rss.xml sitemap.xml index.html coin.html stock.html kosdaq.html fx.html metal.html energy.html macro.html giftcard.html giftcard/lotte.html giftcard/shinsegae.html giftcard/hyundai.html hotdeal.html realestate.html lotto.html shopping.html about.html
           if git diff --staged --quiet; then
             echo "변경 없음"
           else

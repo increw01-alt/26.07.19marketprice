@@ -2,8 +2,6 @@ node_modules/
 dist/
 .dist-build/
 .dist-backup/
-data/home.json
-data/lotto-recent.json
 .claude/settings.local.json
 .claude/launch.json
 .DS_Store

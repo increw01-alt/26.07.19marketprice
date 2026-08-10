@@ -1,0 +1,28 @@
+# Static response hardening. The deploy builder replaces the inline-script
+# placeholder with SHA-256 hashes collected from the allowlisted HTML files.
+/*
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://www.googletagmanager.com https://static.cloudflareinsights.com __INLINE_SCRIPT_HASHES__; script-src-attr 'none'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self' https://cloudflareinsights.com https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com https://*.google-analytics.com; frame-src 'none'; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests
+  Strict-Transport-Security: max-age=31536000
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), geolocation=(), microphone=(), payment=(), usb=()
+  X-Permitted-Cross-Domain-Policies: none
+
+# Root and clean-URL HTML routes revalidate on every navigation.
+/
+  Cache-Control: no-cache, must-revalidate
+
+/:page
+  Cache-Control: no-cache, must-revalidate
+
+/giftcard/*
+  Cache-Control: no-cache, must-revalidate
+
+# JSON changes frequently; allow a short stale response while it refreshes.
+/data/*
+  Cache-Control: public, max-age=300, stale-while-revalidate=1800
+
+# Asset URLs carry a release query version, but filenames are not content hashes.
+/assets/*
+  Cache-Control: public, max-age=604800, stale-while-revalidate=2592000

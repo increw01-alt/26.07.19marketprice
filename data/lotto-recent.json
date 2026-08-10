@@ -1,0 +1,2935 @@
+{
+  "updatedAt": "2026-08-10T14:13:17+09:00",
+  "gamePrice": 1000,
+  "totalRounds": 1236,
+  "frequency": [
+    0,
+    170,
+    155,
+    172,
+    162,
+    153,
+    166,
+    170,
+    158,
+    136,
+    161,
+    166,
+    180,
+    179,
+    172,
+    170,
+    168,
+    171,
+    177,
+    170,
+    170,
+    167,
+    145,
+    147,
+    166,
+    153,
+    165,
+    181,
+    157,
+    156,
+    158,
+    169,
+    144,
+    174,
+    185,
+    163,
+    164,
+    173,
+    171,
+    168,
+    173,
+    150,
+    157,
+    165,
+    164,
+    175
+  ],
+  "rounds": [
+    {
+      "round": 1236,
+      "date": "2026-08-08",
+      "sales": 114070835000,
+      "games": 114070835,
+      "numbers": [
+        12,
+        18,
+        21,
+        29,
+        34,
+        38
+      ],
+      "bonus": 10,
+      "firstPrize": 2441919375,
+      "firstWinners": 11,
+      "firstTotal": 26861113125
+    },
+    {
+      "round": 1235,
+      "date": "2026-08-01",
+      "sales": 115445069000,
+      "games": 115445069,
+      "numbers": [
+        6,
+        7,
+        11,
+        15,
+        39,
+        43
+      ],
+      "bonus": 20,
+      "firstPrize": 3090961625,
+      "firstWinners": 9,
+      "firstTotal": 27818654625
+    },
+    {
+      "round": 1234,
+      "date": "2026-07-25",
+      "sales": 115990429000,
+      "games": 115990429,
+      "numbers": [
+        1,
+        15,
+        19,
+        31,
+        35,
+        43
+      ],
+      "bonus": 27,
+      "firstPrize": 1595129563,
+      "firstWinners": 18,
+      "firstTotal": 28712332134
+    },
+    {
+      "round": 1233,
+      "date": "2026-07-18",
+      "sales": 116159776000,
+      "games": 116159776,
+      "numbers": [
+        2,
+        7,
+        20,
+        25,
+        37,
+        40
+      ],
+      "bonus": 29,
+      "firstPrize": 837965396,
+      "firstWinners": 31,
+      "firstTotal": 25976927276
+    },
+    {
+      "round": 1232,
+      "date": "2026-07-11",
+      "sales": 114636304000,
+      "games": 114636304,
+      "numbers": [
+        12,
+        15,
+        19,
+        22,
+        24,
+        36
+      ],
+      "bonus": 3,
+      "firstPrize": 2533260819,
+      "firstWinners": 11,
+      "firstTotal": 27865869009
+    },
+    {
+      "round": 1231,
+      "date": "2026-07-04",
+      "sales": 118084580000,
+      "games": 118084580,
+      "numbers": [
+        4,
+        13,
+        14,
+        18,
+        31,
+        38
+      ],
+      "bonus": 15,
+      "firstPrize": 1652990074,
+      "firstWinners": 17,
+      "firstTotal": 28100831258
+    },
+    {
+      "round": 1230,
+      "date": "2026-06-27",
+      "sales": 120177677000,
+      "games": 120177677,
+      "numbers": [
+        3,
+        8,
+        9,
+        22,
+        28,
+        42
+      ],
+      "bonus": 45,
+      "firstPrize": 1771357196,
+      "firstWinners": 16,
+      "firstTotal": 28341715136
+    },
+    {
+      "round": 1229,
+      "date": "2026-06-20",
+      "sales": 116155532000,
+      "games": 116155532,
+      "numbers": [
+        12,
+        13,
+        29,
+        34,
+        37,
+        42
+      ],
+      "bonus": 16,
+      "firstPrize": 3519759000,
+      "firstWinners": 8,
+      "firstTotal": 28158072000
+    },
+    {
+      "round": 1228,
+      "date": "2026-06-13",
+      "sales": 119052273000,
+      "games": 119052273,
+      "numbers": [
+        24,
+        29,
+        30,
+        31,
+        35,
+        44
+      ],
+      "bonus": 1,
+      "firstPrize": 2698334421,
+      "firstWinners": 11,
+      "firstTotal": 29681678631
+    },
+    {
+      "round": 1227,
+      "date": "2026-06-06",
+      "sales": 118882558000,
+      "games": 118882558,
+      "numbers": [
+        1,
+        14,
+        16,
+        34,
+        41,
+        44
+      ],
+      "bonus": 13,
+      "firstPrize": 2674808455,
+      "firstWinners": 11,
+      "firstTotal": 29422893005
+    },
+    {
+      "round": 1226,
+      "date": "2026-05-30",
+      "sales": 120259943000,
+      "games": 120259943,
+      "numbers": [
+        4,
+        6,
+        13,
+        17,
+        26,
+        28
+      ],
+      "bonus": 41,
+      "firstPrize": 2815230113,
+      "firstWinners": 10,
+      "firstTotal": 28152301130
+    },
+    {
+      "round": 1225,
+      "date": "2026-05-23",
+      "sales": 120402887000,
+      "games": 120402887,
+      "numbers": [
+        8,
+        9,
+        19,
+        25,
+        41,
+        42
+      ],
+      "bonus": 33,
+      "firstPrize": 2228133087,
+      "firstWinners": 13,
+      "firstTotal": 28965730131
+    },
+    {
+      "round": 1224,
+      "date": "2026-05-16",
+      "sales": 121110408000,
+      "games": 121110408,
+      "numbers": [
+        9,
+        18,
+        21,
+        27,
+        44,
+        45
+      ],
+      "bonus": 28,
+      "firstPrize": 2414855250,
+      "firstWinners": 12,
+      "firstTotal": 28978263000
+    },
+    {
+      "round": 1223,
+      "date": "2026-05-09",
+      "sales": 122621163000,
+      "games": 122621163,
+      "numbers": [
+        16,
+        18,
+        20,
+        32,
+        33,
+        39
+      ],
+      "bonus": 26,
+      "firstPrize": 1857554133,
+      "firstWinners": 16,
+      "firstTotal": 29720866128
+    },
+    {
+      "round": 1222,
+      "date": "2026-05-02",
+      "sales": 124243558000,
+      "games": 124243558,
+      "numbers": [
+        4,
+        11,
+        17,
+        22,
+        32,
+        41
+      ],
+      "bonus": 34,
+      "firstPrize": 1202986844,
+      "firstWinners": 24,
+      "firstTotal": 28871684256
+    },
+    {
+      "round": 1221,
+      "date": "2026-04-25",
+      "sales": 122979623000,
+      "games": 122979623,
+      "numbers": [
+        6,
+        13,
+        18,
+        28,
+        30,
+        36
+      ],
+      "bonus": 9,
+      "firstPrize": 1830801165,
+      "firstWinners": 16,
+      "firstTotal": 29292818640
+    },
+    {
+      "round": 1220,
+      "date": "2026-04-18",
+      "sales": 121958822000,
+      "games": 121958822,
+      "numbers": [
+        2,
+        22,
+        25,
+        28,
+        34,
+        43
+      ],
+      "bonus": 16,
+      "firstPrize": 2114514161,
+      "firstWinners": 14,
+      "firstTotal": 29603198254
+    },
+    {
+      "round": 1219,
+      "date": "2026-04-11",
+      "sales": 120945801000,
+      "games": 120945801,
+      "numbers": [
+        1,
+        2,
+        15,
+        28,
+        39,
+        45
+      ],
+      "bonus": 31,
+      "firstPrize": 2508232844,
+      "firstWinners": 12,
+      "firstTotal": 30098794128
+    },
+    {
+      "round": 1218,
+      "date": "2026-04-04",
+      "sales": 123335928000,
+      "games": 123335928,
+      "numbers": [
+        3,
+        28,
+        31,
+        32,
+        42,
+        45
+      ],
+      "bonus": 25,
+      "firstPrize": 1714482042,
+      "firstWinners": 18,
+      "firstTotal": 30860676756
+    },
+    {
+      "round": 1217,
+      "date": "2026-03-28",
+      "sales": 125155256000,
+      "games": 125155256,
+      "numbers": [
+        8,
+        10,
+        15,
+        20,
+        29,
+        31
+      ],
+      "bonus": 41,
+      "firstPrize": 2179738018,
+      "firstWinners": 14,
+      "firstTotal": 30516332252
+    },
+    {
+      "round": 1216,
+      "date": "2026-03-21",
+      "sales": 125556526000,
+      "games": 125556526,
+      "numbers": [
+        3,
+        10,
+        14,
+        15,
+        23,
+        24
+      ],
+      "bonus": 25,
+      "firstPrize": 2148654000,
+      "firstWinners": 14,
+      "firstTotal": 30081156000
+    },
+    {
+      "round": 1215,
+      "date": "2026-03-14",
+      "sales": 126977101000,
+      "games": 126977101,
+      "numbers": [
+        13,
+        15,
+        19,
+        21,
+        44,
+        45
+      ],
+      "bonus": 39,
+      "firstPrize": 1998542133,
+      "firstWinners": 16,
+      "firstTotal": 31976674128
+    },
+    {
+      "round": 1214,
+      "date": "2026-03-07",
+      "sales": 124815860000,
+      "games": 124815860,
+      "numbers": [
+        10,
+        15,
+        19,
+        27,
+        30,
+        33
+      ],
+      "bonus": 14,
+      "firstPrize": 2431577188,
+      "firstWinners": 12,
+      "firstTotal": 29178926256
+    },
+    {
+      "round": 1213,
+      "date": "2026-02-28",
+      "sales": 131111079000,
+      "games": 131111079,
+      "numbers": [
+        5,
+        11,
+        25,
+        27,
+        36,
+        38
+      ],
+      "bonus": 2,
+      "firstPrize": 1740011646,
+      "firstWinners": 18,
+      "firstTotal": 31320209628
+    },
+    {
+      "round": 1212,
+      "date": "2026-02-21",
+      "sales": 131727929000,
+      "games": 131727929,
+      "numbers": [
+        5,
+        8,
+        25,
+        31,
+        41,
+        44
+      ],
+      "bonus": 45,
+      "firstPrize": 2654089032,
+      "firstWinners": 12,
+      "firstTotal": 31849068384
+    },
+    {
+      "round": 1211,
+      "date": "2026-02-14",
+      "sales": 134945802000,
+      "games": 134945802,
+      "numbers": [
+        23,
+        26,
+        27,
+        35,
+        38,
+        40
+      ],
+      "bonus": 10,
+      "firstPrize": 2370956036,
+      "firstWinners": 14,
+      "firstTotal": 33193384504
+    },
+    {
+      "round": 1210,
+      "date": "2026-02-07",
+      "sales": 123111058000,
+      "games": 123111058,
+      "numbers": [
+        1,
+        7,
+        9,
+        17,
+        27,
+        38
+      ],
+      "bonus": 31,
+      "firstPrize": 1102298407,
+      "firstWinners": 24,
+      "firstTotal": 26455161768
+    },
+    {
+      "round": 1209,
+      "date": "2026-01-31",
+      "sales": 124040394000,
+      "games": 124040394,
+      "numbers": [
+        2,
+        17,
+        20,
+        35,
+        37,
+        39
+      ],
+      "bonus": 24,
+      "firstPrize": 1371910466,
+      "firstWinners": 22,
+      "firstTotal": 30182030252
+    },
+    {
+      "round": 1208,
+      "date": "2026-01-24",
+      "sales": 120408668000,
+      "games": 120408668,
+      "numbers": [
+        6,
+        27,
+        30,
+        36,
+        38,
+        42
+      ],
+      "bonus": 25,
+      "firstPrize": 5001713625,
+      "firstWinners": 6,
+      "firstTotal": 30010281750
+    },
+    {
+      "round": 1207,
+      "date": "2026-01-17",
+      "sales": 122934287000,
+      "games": 122934287,
+      "numbers": [
+        10,
+        22,
+        24,
+        27,
+        38,
+        45
+      ],
+      "bonus": 11,
+      "firstPrize": 1733202949,
+      "firstWinners": 17,
+      "firstTotal": 29464450133
+    },
+    {
+      "round": 1206,
+      "date": "2026-01-10",
+      "sales": 121012690000,
+      "games": 121012690,
+      "numbers": [
+        1,
+        3,
+        17,
+        26,
+        27,
+        42
+      ],
+      "bonus": 23,
+      "firstPrize": 1868807000,
+      "firstWinners": 15,
+      "firstTotal": 28032105000
+    },
+    {
+      "round": 1205,
+      "date": "2026-01-03",
+      "sales": 132670747000,
+      "games": 132670747,
+      "numbers": [
+        1,
+        4,
+        16,
+        23,
+        31,
+        41
+      ],
+      "bonus": 2,
+      "firstPrize": 3226386263,
+      "firstWinners": 10,
+      "firstTotal": 32263862630
+    },
+    {
+      "round": 1204,
+      "date": "2025-12-27",
+      "sales": 123758619000,
+      "games": 123758619,
+      "numbers": [
+        8,
+        16,
+        28,
+        30,
+        31,
+        44
+      ],
+      "bonus": 27,
+      "firstPrize": 1661007688,
+      "firstWinners": 18,
+      "firstTotal": 29898138384
+    },
+    {
+      "round": 1203,
+      "date": "2025-12-20",
+      "sales": 121655631000,
+      "games": 121655631,
+      "numbers": [
+        3,
+        6,
+        18,
+        29,
+        35,
+        39
+      ],
+      "bonus": 24,
+      "firstPrize": 1368060733,
+      "firstWinners": 21,
+      "firstTotal": 28729275393
+    },
+    {
+      "round": 1202,
+      "date": "2025-12-13",
+      "sales": 116954237000,
+      "games": 116954237,
+      "numbers": [
+        5,
+        12,
+        21,
+        33,
+        37,
+        40
+      ],
+      "bonus": 7,
+      "firstPrize": 1920410813,
+      "firstWinners": 14,
+      "firstTotal": 26885751382
+    },
+    {
+      "round": 1201,
+      "date": "2025-12-06",
+      "sales": 115389593000,
+      "games": 115389593,
+      "numbers": [
+        7,
+        9,
+        24,
+        27,
+        35,
+        36
+      ],
+      "bonus": 37,
+      "firstPrize": 1414555718,
+      "firstWinners": 19,
+      "firstTotal": 26876558642
+    },
+    {
+      "round": 1200,
+      "date": "2025-11-29",
+      "sales": 118339596000,
+      "games": 118339596,
+      "numbers": [
+        1,
+        2,
+        4,
+        16,
+        20,
+        32
+      ],
+      "bonus": 45,
+      "firstPrize": 2357299875,
+      "firstWinners": 12,
+      "firstTotal": 28287598500
+    },
+    {
+      "round": 1199,
+      "date": "2025-11-22",
+      "sales": 118624796000,
+      "games": 118624796,
+      "numbers": [
+        16,
+        24,
+        25,
+        30,
+        31,
+        32
+      ],
+      "bonus": 7,
+      "firstPrize": 1695609839,
+      "firstWinners": 17,
+      "firstTotal": 28825367263
+    },
+    {
+      "round": 1198,
+      "date": "2025-11-15",
+      "sales": 120207517000,
+      "games": 120207517,
+      "numbers": [
+        26,
+        30,
+        33,
+        38,
+        39,
+        41
+      ],
+      "bonus": 21,
+      "firstPrize": 2953686638,
+      "firstWinners": 10,
+      "firstTotal": 29536866380
+    },
+    {
+      "round": 1197,
+      "date": "2025-11-08",
+      "sales": 120244434000,
+      "games": 120244434,
+      "numbers": [
+        1,
+        5,
+        7,
+        26,
+        28,
+        43
+      ],
+      "bonus": 30,
+      "firstPrize": 2205089827,
+      "firstWinners": 13,
+      "firstTotal": 28666167751
+    },
+    {
+      "round": 1196,
+      "date": "2025-11-01",
+      "sales": 121645432000,
+      "games": 121645432,
+      "numbers": [
+        8,
+        12,
+        15,
+        29,
+        40,
+        45
+      ],
+      "bonus": 14,
+      "firstPrize": 2001627550,
+      "firstWinners": 15,
+      "firstTotal": 30024413250
+    },
+    {
+      "round": 1195,
+      "date": "2025-10-25",
+      "sales": 122918013000,
+      "games": 122918013,
+      "numbers": [
+        3,
+        15,
+        27,
+        33,
+        34,
+        36
+      ],
+      "bonus": 37,
+      "firstPrize": 2939186738,
+      "firstWinners": 10,
+      "firstTotal": 29391867380
+    },
+    {
+      "round": 1194,
+      "date": "2025-10-18",
+      "sales": 121085706000,
+      "games": 121085706,
+      "numbers": [
+        3,
+        13,
+        15,
+        24,
+        33,
+        37
+      ],
+      "bonus": 2,
+      "firstPrize": 985155349,
+      "firstWinners": 28,
+      "firstTotal": 27584349772
+    },
+    {
+      "round": 1193,
+      "date": "2025-10-11",
+      "sales": 118676603000,
+      "games": 118676603,
+      "numbers": [
+        6,
+        9,
+        16,
+        19,
+        24,
+        28
+      ],
+      "bonus": 17,
+      "firstPrize": 1717013508,
+      "firstWinners": 16,
+      "firstTotal": 27472216128
+    },
+    {
+      "round": 1192,
+      "date": "2025-10-04",
+      "sales": 129050196000,
+      "games": 129050196,
+      "numbers": [
+        10,
+        16,
+        23,
+        36,
+        39,
+        40
+      ],
+      "bonus": 11,
+      "firstPrize": 1079546587,
+      "firstWinners": 29,
+      "firstTotal": 31306851023
+    },
+    {
+      "round": 1191,
+      "date": "2025-09-27",
+      "sales": 121272809000,
+      "games": 121272809,
+      "numbers": [
+        1,
+        4,
+        11,
+        12,
+        20,
+        41
+      ],
+      "bonus": 2,
+      "firstPrize": 1536334355,
+      "firstWinners": 18,
+      "firstTotal": 27654018390
+    },
+    {
+      "round": 1190,
+      "date": "2025-09-20",
+      "sales": 118368861000,
+      "games": 118368861,
+      "numbers": [
+        7,
+        9,
+        19,
+        23,
+        26,
+        45
+      ],
+      "bonus": 33,
+      "firstPrize": 4622793813,
+      "firstWinners": 6,
+      "firstTotal": 27736762878
+    },
+    {
+      "round": 1189,
+      "date": "2025-09-13",
+      "sales": 119484685000,
+      "games": 119484685,
+      "numbers": [
+        9,
+        19,
+        29,
+        35,
+        37,
+        38
+      ],
+      "bonus": 31,
+      "firstPrize": 2263651299,
+      "firstWinners": 13,
+      "firstTotal": 29427466887
+    },
+    {
+      "round": 1188,
+      "date": "2025-09-06",
+      "sales": 116617971000,
+      "games": 116617971,
+      "numbers": [
+        3,
+        4,
+        12,
+        19,
+        22,
+        27
+      ],
+      "bonus": 9,
+      "firstPrize": 1074625172,
+      "firstWinners": 24,
+      "firstTotal": 25791004128
+    },
+    {
+      "round": 1187,
+      "date": "2025-08-30",
+      "sales": 117650847000,
+      "games": 117650847,
+      "numbers": [
+        5,
+        13,
+        26,
+        29,
+        37,
+        40
+      ],
+      "bonus": 42,
+      "firstPrize": 2619380012,
+      "firstWinners": 11,
+      "firstTotal": 28813180132
+    },
+    {
+      "round": 1186,
+      "date": "2025-08-23",
+      "sales": 116690738000,
+      "games": 116690738,
+      "numbers": [
+        2,
+        8,
+        13,
+        16,
+        23,
+        28
+      ],
+      "bonus": 35,
+      "firstPrize": 1985676911,
+      "firstWinners": 14,
+      "firstTotal": 27799476754
+    },
+    {
+      "round": 1185,
+      "date": "2025-08-16",
+      "sales": 117480804000,
+      "games": 117480804,
+      "numbers": [
+        6,
+        17,
+        22,
+        28,
+        29,
+        32
+      ],
+      "bonus": 38,
+      "firstPrize": 2388695125,
+      "firstWinners": 12,
+      "firstTotal": 28664341500
+    },
+    {
+      "round": 1184,
+      "date": "2025-08-09",
+      "sales": 117748924000,
+      "games": 117748924,
+      "numbers": [
+        14,
+        16,
+        23,
+        25,
+        31,
+        37
+      ],
+      "bonus": 42,
+      "firstPrize": 1910655600,
+      "firstWinners": 15,
+      "firstTotal": 28659834000
+    },
+    {
+      "round": 1183,
+      "date": "2025-08-02",
+      "sales": 115605968000,
+      "games": 115605968,
+      "numbers": [
+        4,
+        15,
+        17,
+        23,
+        27,
+        36
+      ],
+      "bonus": 31,
+      "firstPrize": 2073966000,
+      "firstWinners": 13,
+      "firstTotal": 26961558000
+    },
+    {
+      "round": 1182,
+      "date": "2025-07-26",
+      "sales": 115431308000,
+      "games": 115431308,
+      "numbers": [
+        1,
+        13,
+        21,
+        25,
+        28,
+        31
+      ],
+      "bonus": 22,
+      "firstPrize": 2124785424,
+      "firstWinners": 13,
+      "firstTotal": 27622210512
+    },
+    {
+      "round": 1181,
+      "date": "2025-07-19",
+      "sales": 113802682000,
+      "games": 113802682,
+      "numbers": [
+        8,
+        10,
+        14,
+        20,
+        33,
+        41
+      ],
+      "bonus": 28,
+      "firstPrize": 1593643500,
+      "firstWinners": 17,
+      "firstTotal": 27091939500
+    },
+    {
+      "round": 1180,
+      "date": "2025-07-12",
+      "sales": 115377965000,
+      "games": 115377965,
+      "numbers": [
+        6,
+        12,
+        18,
+        37,
+        40,
+        41
+      ],
+      "bonus": 3,
+      "firstPrize": 2535566421,
+      "firstWinners": 11,
+      "firstTotal": 27891230631
+    },
+    {
+      "round": 1179,
+      "date": "2025-07-05",
+      "sales": 115024678000,
+      "games": 115024678,
+      "numbers": [
+        3,
+        16,
+        18,
+        24,
+        40,
+        44
+      ],
+      "bonus": 21,
+      "firstPrize": 2162821097,
+      "firstWinners": 13,
+      "firstTotal": 28116674261
+    },
+    {
+      "round": 1178,
+      "date": "2025-06-28",
+      "sales": 118774279000,
+      "games": 118774279,
+      "numbers": [
+        5,
+        6,
+        11,
+        27,
+        43,
+        44
+      ],
+      "bonus": 17,
+      "firstPrize": 2391608407,
+      "firstWinners": 12,
+      "firstTotal": 28699300884
+    },
+    {
+      "round": 1177,
+      "date": "2025-06-21",
+      "sales": 115411832000,
+      "games": 115411832,
+      "numbers": [
+        3,
+        7,
+        15,
+        16,
+        19,
+        43
+      ],
+      "bonus": 21,
+      "firstPrize": 4576672000,
+      "firstWinners": 6,
+      "firstTotal": 27460032000
+    },
+    {
+      "round": 1176,
+      "date": "2025-06-14",
+      "sales": 115765450000,
+      "games": 115765450,
+      "numbers": [
+        7,
+        9,
+        11,
+        21,
+        30,
+        35
+      ],
+      "bonus": 29,
+      "firstPrize": 2052166154,
+      "firstWinners": 13,
+      "firstTotal": 26678160002
+    },
+    {
+      "round": 1175,
+      "date": "2025-06-07",
+      "sales": 117488305000,
+      "games": 117488305,
+      "numbers": [
+        3,
+        4,
+        6,
+        8,
+        32,
+        42
+      ],
+      "bonus": 31,
+      "firstPrize": 1384026094,
+      "firstWinners": 20,
+      "firstTotal": 27680521880
+    },
+    {
+      "round": 1174,
+      "date": "2025-05-31",
+      "sales": 119020467000,
+      "games": 119020467,
+      "numbers": [
+        8,
+        11,
+        14,
+        17,
+        36,
+        39
+      ],
+      "bonus": 22,
+      "firstPrize": 1910619425,
+      "firstWinners": 15,
+      "firstTotal": 28659291375
+    },
+    {
+      "round": 1173,
+      "date": "2025-05-24",
+      "sales": 118782668000,
+      "games": 118782668,
+      "numbers": [
+        1,
+        5,
+        18,
+        20,
+        30,
+        35
+      ],
+      "bonus": 3,
+      "firstPrize": 1179946063,
+      "firstWinners": 24,
+      "firstTotal": 28318705512
+    },
+    {
+      "round": 1172,
+      "date": "2025-05-17",
+      "sales": 117565241000,
+      "games": 117565241,
+      "numbers": [
+        7,
+        9,
+        24,
+        40,
+        42,
+        44
+      ],
+      "bonus": 45,
+      "firstPrize": 2203004452,
+      "firstWinners": 13,
+      "firstTotal": 28639057876
+    },
+    {
+      "round": 1171,
+      "date": "2025-05-10",
+      "sales": 115285696000,
+      "games": 115285696,
+      "numbers": [
+        3,
+        6,
+        7,
+        11,
+        12,
+        17
+      ],
+      "bonus": 19,
+      "firstPrize": 1128345286,
+      "firstWinners": 21,
+      "firstTotal": 23695251006
+    },
+    {
+      "round": 1170,
+      "date": "2025-05-03",
+      "sales": 116709995000,
+      "games": 116709995,
+      "numbers": [
+        3,
+        13,
+        28,
+        34,
+        38,
+        42
+      ],
+      "bonus": 25,
+      "firstPrize": 1386550969,
+      "firstWinners": 20,
+      "firstTotal": 27731019380
+    },
+    {
+      "round": 1169,
+      "date": "2025-04-26",
+      "sales": 118803195000,
+      "games": 118803195,
+      "numbers": [
+        5,
+        12,
+        24,
+        26,
+        39,
+        42
+      ],
+      "bonus": 20,
+      "firstPrize": 2852735813,
+      "firstWinners": 10,
+      "firstTotal": 28527358130
+    },
+    {
+      "round": 1168,
+      "date": "2025-04-19",
+      "sales": 117811795000,
+      "games": 117811795,
+      "numbers": [
+        9,
+        21,
+        24,
+        30,
+        33,
+        37
+      ],
+      "bonus": 29,
+      "firstPrize": 2136635914,
+      "firstWinners": 13,
+      "firstTotal": 27776266882
+    },
+    {
+      "round": 1167,
+      "date": "2025-04-12",
+      "sales": 118762131000,
+      "games": 118762131,
+      "numbers": [
+        8,
+        23,
+        31,
+        35,
+        39,
+        40
+      ],
+      "bonus": 24,
+      "firstPrize": 2884087913,
+      "firstWinners": 10,
+      "firstTotal": 28840879130
+    },
+    {
+      "round": 1166,
+      "date": "2025-04-05",
+      "sales": 116717661000,
+      "games": 116717661,
+      "numbers": [
+        14,
+        23,
+        25,
+        27,
+        29,
+        42
+      ],
+      "bonus": 16,
+      "firstPrize": 2072319938,
+      "firstWinners": 14,
+      "firstTotal": 29012479132
+    },
+    {
+      "round": 1165,
+      "date": "2025-03-29",
+      "sales": 118112106000,
+      "games": 118112106,
+      "numbers": [
+        6,
+        7,
+        27,
+        29,
+        38,
+        45
+      ],
+      "bonus": 17,
+      "firstPrize": 2192485270,
+      "firstWinners": 13,
+      "firstTotal": 28502308510
+    },
+    {
+      "round": 1164,
+      "date": "2025-03-22",
+      "sales": 121102645000,
+      "games": 121102645,
+      "numbers": [
+        17,
+        18,
+        23,
+        25,
+        38,
+        39
+      ],
+      "bonus": 22,
+      "firstPrize": 2193092164,
+      "firstWinners": 13,
+      "firstTotal": 28510198132
+    },
+    {
+      "round": 1163,
+      "date": "2025-03-15",
+      "sales": 122246316000,
+      "games": 122246316,
+      "numbers": [
+        2,
+        13,
+        15,
+        16,
+        33,
+        43
+      ],
+      "bonus": 4,
+      "firstPrize": 1936891150,
+      "firstWinners": 15,
+      "firstTotal": 29053367250
+    },
+    {
+      "round": 1162,
+      "date": "2025-03-08",
+      "sales": 120578328000,
+      "games": 120578328,
+      "numbers": [
+        20,
+        21,
+        22,
+        25,
+        28,
+        29
+      ],
+      "bonus": 6,
+      "firstPrize": 823931021,
+      "firstWinners": 36,
+      "firstTotal": 29661516756
+    },
+    {
+      "round": 1161,
+      "date": "2025-03-01",
+      "sales": 123230590000,
+      "games": 123230590,
+      "numbers": [
+        2,
+        12,
+        20,
+        24,
+        34,
+        42
+      ],
+      "bonus": 37,
+      "firstPrize": 1792657969,
+      "firstWinners": 16,
+      "firstTotal": 28682527504
+    },
+    {
+      "round": 1160,
+      "date": "2025-02-22",
+      "sales": 123177536000,
+      "games": 123177536,
+      "numbers": [
+        7,
+        13,
+        18,
+        36,
+        39,
+        45
+      ],
+      "bonus": 19,
+      "firstPrize": 2509359875,
+      "firstWinners": 12,
+      "firstTotal": 30112318500
+    },
+    {
+      "round": 1159,
+      "date": "2025-02-15",
+      "sales": 124802304000,
+      "games": 124802304,
+      "numbers": [
+        3,
+        9,
+        27,
+        28,
+        38,
+        39
+      ],
+      "bonus": 7,
+      "firstPrize": 1284854250,
+      "firstWinners": 23,
+      "firstTotal": 29551647750
+    },
+    {
+      "round": 1158,
+      "date": "2025-02-08",
+      "sales": 119706159000,
+      "games": 119706159,
+      "numbers": [
+        21,
+        25,
+        27,
+        32,
+        37,
+        38
+      ],
+      "bonus": 20,
+      "firstPrize": 1394358197,
+      "firstWinners": 21,
+      "firstTotal": 29281522137
+    },
+    {
+      "round": 1157,
+      "date": "2025-02-01",
+      "sales": 123443439000,
+      "games": 123443439,
+      "numbers": [
+        5,
+        7,
+        12,
+        20,
+        25,
+        26
+      ],
+      "bonus": 28,
+      "firstPrize": 2257842157,
+      "firstWinners": 12,
+      "firstTotal": 27094105884
+    },
+    {
+      "round": 1156,
+      "date": "2025-01-25",
+      "sales": 127643987000,
+      "games": 127643987,
+      "numbers": [
+        30,
+        31,
+        34,
+        39,
+        41,
+        45
+      ],
+      "bonus": 7,
+      "firstPrize": 1505207090,
+      "firstWinners": 21,
+      "firstTotal": 31609348890
+    },
+    {
+      "round": 1155,
+      "date": "2025-01-18",
+      "sales": 118482730000,
+      "games": 118482730,
+      "numbers": [
+        10,
+        16,
+        19,
+        27,
+        37,
+        38
+      ],
+      "bonus": 13,
+      "firstPrize": 4066375179,
+      "firstWinners": 7,
+      "firstTotal": 28464626253
+    },
+    {
+      "round": 1154,
+      "date": "2025-01-11",
+      "sales": 115268257000,
+      "games": 115268257,
+      "numbers": [
+        4,
+        8,
+        22,
+        26,
+        32,
+        38
+      ],
+      "bonus": 27,
+      "firstPrize": 1854965425,
+      "firstWinners": 15,
+      "firstTotal": 27824481375
+    },
+    {
+      "round": 1153,
+      "date": "2025-01-04",
+      "sales": 126343367000,
+      "games": 126343367,
+      "numbers": [
+        1,
+        9,
+        10,
+        13,
+        35,
+        44
+      ],
+      "bonus": 5,
+      "firstPrize": 2027312925,
+      "firstWinners": 15,
+      "firstTotal": 30409693875
+    },
+    {
+      "round": 1152,
+      "date": "2024-12-28",
+      "sales": 120703009000,
+      "games": 120703009,
+      "numbers": [
+        30,
+        31,
+        32,
+        35,
+        36,
+        37
+      ],
+      "bonus": 5,
+      "firstPrize": 874349668,
+      "firstWinners": 35,
+      "firstTotal": 30602238380
+    },
+    {
+      "round": 1151,
+      "date": "2024-12-21",
+      "sales": 116118444000,
+      "games": 116118444,
+      "numbers": [
+        2,
+        3,
+        9,
+        15,
+        27,
+        29
+      ],
+      "bonus": 8,
+      "firstPrize": 1620503030,
+      "firstWinners": 17,
+      "firstTotal": 27548551510
+    },
+    {
+      "round": 1150,
+      "date": "2024-12-14",
+      "sales": 114152034000,
+      "games": 114152034,
+      "numbers": [
+        8,
+        9,
+        18,
+        35,
+        39,
+        45
+      ],
+      "bonus": 25,
+      "firstPrize": 1570620309,
+      "firstWinners": 17,
+      "firstTotal": 26700545253
+    },
+    {
+      "round": 1149,
+      "date": "2024-12-07",
+      "sales": 112146718000,
+      "games": 112146718,
+      "numbers": [
+        8,
+        15,
+        19,
+        21,
+        32,
+        36
+      ],
+      "bonus": 38,
+      "firstPrize": 1613380765,
+      "firstWinners": 17,
+      "firstTotal": 27427473005
+    },
+    {
+      "round": 1148,
+      "date": "2024-11-30",
+      "sales": 113188640000,
+      "games": 113188640,
+      "numbers": [
+        3,
+        6,
+        13,
+        15,
+        16,
+        22
+      ],
+      "bonus": 32,
+      "firstPrize": 2073332308,
+      "firstWinners": 13,
+      "firstTotal": 26953320004
+    },
+    {
+      "round": 1147,
+      "date": "2024-11-23",
+      "sales": 115707061000,
+      "games": 115707061,
+      "numbers": [
+        7,
+        11,
+        24,
+        26,
+        27,
+        37
+      ],
+      "bonus": 32,
+      "firstPrize": 3323422079,
+      "firstWinners": 8,
+      "firstTotal": 26587376632
+    },
+    {
+      "round": 1146,
+      "date": "2024-11-16",
+      "sales": 116694743000,
+      "games": 116694743,
+      "numbers": [
+        6,
+        11,
+        17,
+        19,
+        40,
+        43
+      ],
+      "bonus": 28,
+      "firstPrize": 2526476353,
+      "firstWinners": 11,
+      "firstTotal": 27791239883
+    },
+    {
+      "round": 1145,
+      "date": "2024-11-09",
+      "sales": 116115162000,
+      "games": 116115162,
+      "numbers": [
+        2,
+        11,
+        31,
+        33,
+        37,
+        44
+      ],
+      "bonus": 32,
+      "firstPrize": 3051630084,
+      "firstWinners": 9,
+      "firstTotal": 27464670756
+    },
+    {
+      "round": 1144,
+      "date": "2024-11-02",
+      "sales": 116378514000,
+      "games": 116378514,
+      "numbers": [
+        3,
+        4,
+        12,
+        15,
+        26,
+        34
+      ],
+      "bonus": 6,
+      "firstPrize": 1489347375,
+      "firstWinners": 18,
+      "firstTotal": 26808252750
+    },
+    {
+      "round": 1143,
+      "date": "2024-10-26",
+      "sales": 116432896000,
+      "games": 116432896,
+      "numbers": [
+        10,
+        16,
+        17,
+        27,
+        28,
+        36
+      ],
+      "bonus": 6,
+      "firstPrize": 2545657023,
+      "firstWinners": 11,
+      "firstTotal": 28002227253
+    },
+    {
+      "round": 1142,
+      "date": "2024-10-19",
+      "sales": 114254355000,
+      "games": 114254355,
+      "numbers": [
+        2,
+        8,
+        28,
+        30,
+        37,
+        41
+      ],
+      "bonus": 22,
+      "firstPrize": 3117517709,
+      "firstWinners": 9,
+      "firstTotal": 28057659381
+    },
+    {
+      "round": 1141,
+      "date": "2024-10-12",
+      "sales": 115803173000,
+      "games": 115803173,
+      "numbers": [
+        7,
+        11,
+        12,
+        21,
+        26,
+        35
+      ],
+      "bonus": 20,
+      "firstPrize": 2457758285,
+      "firstWinners": 11,
+      "firstTotal": 27035341135
+    },
+    {
+      "round": 1140,
+      "date": "2024-10-05",
+      "sales": 115238556000,
+      "games": 115238556,
+      "numbers": [
+        7,
+        10,
+        22,
+        29,
+        31,
+        38
+      ],
+      "bonus": 15,
+      "firstPrize": 2279823938,
+      "firstWinners": 12,
+      "firstTotal": 27357887256
+    },
+    {
+      "round": 1139,
+      "date": "2024-09-28",
+      "sales": 117915887000,
+      "games": 117915887,
+      "numbers": [
+        5,
+        12,
+        15,
+        30,
+        37,
+        40
+      ],
+      "bonus": 18,
+      "firstPrize": 2167490972,
+      "firstWinners": 13,
+      "firstTotal": 28177382636
+    },
+    {
+      "round": 1138,
+      "date": "2024-09-21",
+      "sales": 109651510000,
+      "games": 109651510,
+      "numbers": [
+        14,
+        16,
+        19,
+        20,
+        29,
+        34
+      ],
+      "bonus": 35,
+      "firstPrize": 1902656786,
+      "firstWinners": 14,
+      "firstTotal": 26637195004
+    },
+    {
+      "round": 1137,
+      "date": "2024-09-14",
+      "sales": 119250007000,
+      "games": 119250007,
+      "numbers": [
+        4,
+        9,
+        12,
+        15,
+        33,
+        45
+      ],
+      "bonus": 26,
+      "firstPrize": 2023447688,
+      "firstWinners": 14,
+      "firstTotal": 28328267632
+    },
+    {
+      "round": 1136,
+      "date": "2024-09-07",
+      "sales": 113031911000,
+      "games": 113031911,
+      "numbers": [
+        21,
+        33,
+        35,
+        38,
+        42,
+        44
+      ],
+      "bonus": 1,
+      "firstPrize": 2314468157,
+      "firstWinners": 12,
+      "firstTotal": 27773617884
+    },
+    {
+      "round": 1135,
+      "date": "2024-08-31",
+      "sales": 113817137000,
+      "games": 113817137,
+      "numbers": [
+        1,
+        6,
+        13,
+        19,
+        21,
+        33
+      ],
+      "bonus": 4,
+      "firstPrize": 2953726125,
+      "firstWinners": 9,
+      "firstTotal": 26583535125
+    },
+    {
+      "round": 1134,
+      "date": "2024-08-24",
+      "sales": 111660087000,
+      "games": 111660087,
+      "numbers": [
+        3,
+        7,
+        9,
+        13,
+        19,
+        24
+      ],
+      "bonus": 23,
+      "firstPrize": 1755689384,
+      "firstWinners": 14,
+      "firstTotal": 24579651376
+    },
+    {
+      "round": 1133,
+      "date": "2024-08-17",
+      "sales": 111210839000,
+      "games": 111210839,
+      "numbers": [
+        13,
+        14,
+        20,
+        28,
+        29,
+        34
+      ],
+      "bonus": 23,
+      "firstPrize": 2105079491,
+      "firstWinners": 13,
+      "firstTotal": 27366033383
+    },
+    {
+      "round": 1132,
+      "date": "2024-08-10",
+      "sales": 110018123000,
+      "games": 110018123,
+      "numbers": [
+        6,
+        7,
+        19,
+        28,
+        34,
+        41
+      ],
+      "bonus": 5,
+      "firstPrize": 2404951807,
+      "firstWinners": 11,
+      "firstTotal": 26454469877
+    },
+    {
+      "round": 1131,
+      "date": "2024-08-03",
+      "sales": 109120798000,
+      "games": 109120798,
+      "numbers": [
+        1,
+        2,
+        6,
+        14,
+        27,
+        38
+      ],
+      "bonus": 33,
+      "firstPrize": 1542367898,
+      "firstWinners": 17,
+      "firstTotal": 26220254266
+    },
+    {
+      "round": 1130,
+      "date": "2024-07-27",
+      "sales": 109515089000,
+      "games": 109515089,
+      "numbers": [
+        15,
+        19,
+        21,
+        25,
+        27,
+        28
+      ],
+      "bonus": 40,
+      "firstPrize": 2263301219,
+      "firstWinners": 12,
+      "firstTotal": 27159614628
+    },
+    {
+      "round": 1129,
+      "date": "2024-07-20",
+      "sales": 110363498000,
+      "games": 110363498,
+      "numbers": [
+        5,
+        10,
+        11,
+        17,
+        28,
+        34
+      ],
+      "bonus": 22,
+      "firstPrize": 2369567660,
+      "firstWinners": 11,
+      "firstTotal": 26065244260
+    },
+    {
+      "round": 1128,
+      "date": "2024-07-13",
+      "sales": 111364194000,
+      "games": 111364194,
+      "numbers": [
+        1,
+        5,
+        8,
+        16,
+        28,
+        33
+      ],
+      "bonus": 45,
+      "firstPrize": 419925560,
+      "firstWinners": 63,
+      "firstTotal": 26455310280
+    },
+    {
+      "round": 1127,
+      "date": "2024-07-06",
+      "sales": 111571373000,
+      "games": 111571373,
+      "numbers": [
+        10,
+        15,
+        24,
+        30,
+        31,
+        37
+      ],
+      "bonus": 32,
+      "firstPrize": 2267891969,
+      "firstWinners": 12,
+      "firstTotal": 27214703628
+    },
+    {
+      "round": 1126,
+      "date": "2024-06-29",
+      "sales": 111998191000,
+      "games": 111998191,
+      "numbers": [
+        4,
+        5,
+        9,
+        11,
+        37,
+        40
+      ],
+      "bonus": 7,
+      "firstPrize": 2386382421,
+      "firstWinners": 11,
+      "firstTotal": 26250206631
+    },
+    {
+      "round": 1125,
+      "date": "2024-06-22",
+      "sales": 109407294000,
+      "games": 109407294,
+      "numbers": [
+        6,
+        14,
+        25,
+        33,
+        40,
+        44
+      ],
+      "bonus": 30,
+      "firstPrize": 2195289188,
+      "firstWinners": 12,
+      "firstTotal": 26343470256
+    },
+    {
+      "round": 1124,
+      "date": "2024-06-15",
+      "sales": 112014841000,
+      "games": 112014841,
+      "numbers": [
+        3,
+        8,
+        17,
+        30,
+        33,
+        34
+      ],
+      "bonus": 28,
+      "firstPrize": 2623327913,
+      "firstWinners": 10,
+      "firstTotal": 26233279130
+    },
+    {
+      "round": 1123,
+      "date": "2024-06-08",
+      "sales": 113142957000,
+      "games": 113142957,
+      "numbers": [
+        13,
+        19,
+        21,
+        24,
+        34,
+        35
+      ],
+      "bonus": 26,
+      "firstPrize": 1731310711,
+      "firstWinners": 16,
+      "firstTotal": 27700971376
+    },
+    {
+      "round": 1122,
+      "date": "2024-06-01",
+      "sales": 115540004000,
+      "games": 115540004,
+      "numbers": [
+        3,
+        6,
+        21,
+        30,
+        34,
+        35
+      ],
+      "bonus": 22,
+      "firstPrize": 2556266046,
+      "firstWinners": 11,
+      "firstTotal": 28118926506
+    },
+    {
+      "round": 1121,
+      "date": "2024-05-25",
+      "sales": 113898519000,
+      "games": 113898519,
+      "numbers": [
+        6,
+        24,
+        31,
+        32,
+        38,
+        44
+      ],
+      "bonus": 8,
+      "firstPrize": 2524513262,
+      "firstWinners": 11,
+      "firstTotal": 27769645882
+    },
+    {
+      "round": 1120,
+      "date": "2024-05-18",
+      "sales": 114804359000,
+      "games": 114804359,
+      "numbers": [
+        2,
+        19,
+        26,
+        31,
+        38,
+        41
+      ],
+      "bonus": 34,
+      "firstPrize": 2522163375,
+      "firstWinners": 11,
+      "firstTotal": 27743797125
+    },
+    {
+      "round": 1119,
+      "date": "2024-05-11",
+      "sales": 111840714000,
+      "games": 111840714,
+      "numbers": [
+        1,
+        9,
+        12,
+        13,
+        20,
+        45
+      ],
+      "bonus": 3,
+      "firstPrize": 1396028764,
+      "firstWinners": 19,
+      "firstTotal": 26524546516
+    },
+    {
+      "round": 1118,
+      "date": "2024-05-04",
+      "sales": 113727120000,
+      "games": 113727120,
+      "numbers": [
+        11,
+        13,
+        14,
+        15,
+        16,
+        45
+      ],
+      "bonus": 3,
+      "firstPrize": 1477445132,
+      "firstWinners": 19,
+      "firstTotal": 28071457508
+    },
+    {
+      "round": 1117,
+      "date": "2024-04-27",
+      "sales": 113895333000,
+      "games": 113895333,
+      "numbers": [
+        3,
+        4,
+        9,
+        30,
+        33,
+        36
+      ],
+      "bonus": 7,
+      "firstPrize": 3028385542,
+      "firstWinners": 9,
+      "firstTotal": 27255469878
+    },
+    {
+      "round": 1116,
+      "date": "2024-04-20",
+      "sales": 110862553000,
+      "games": 110862553,
+      "numbers": [
+        15,
+        16,
+        17,
+        25,
+        30,
+        31
+      ],
+      "bonus": 32,
+      "firstPrize": 2695000238,
+      "firstWinners": 10,
+      "firstTotal": 26950002380
+    },
+    {
+      "round": 1115,
+      "date": "2024-04-13",
+      "sales": 113939215000,
+      "games": 113939215,
+      "numbers": [
+        7,
+        12,
+        23,
+        32,
+        34,
+        36
+      ],
+      "bonus": 8,
+      "firstPrize": 2257278282,
+      "firstWinners": 12,
+      "firstTotal": 27087339384
+    },
+    {
+      "round": 1114,
+      "date": "2024-04-06",
+      "sales": 113597890000,
+      "games": 113597890,
+      "numbers": [
+        10,
+        16,
+        19,
+        32,
+        33,
+        38
+      ],
+      "bonus": 3,
+      "firstPrize": 1583813824,
+      "firstWinners": 17,
+      "firstTotal": 26924835008
+    },
+    {
+      "round": 1113,
+      "date": "2024-03-30",
+      "sales": 113342318000,
+      "games": 113342318,
+      "numbers": [
+        11,
+        13,
+        20,
+        21,
+        32,
+        44
+      ],
+      "bonus": 8,
+      "firstPrize": 1987426822,
+      "firstWinners": 14,
+      "firstTotal": 27823975508
+    },
+    {
+      "round": 1112,
+      "date": "2024-03-23",
+      "sales": 114216084000,
+      "games": 114216084,
+      "numbers": [
+        16,
+        20,
+        26,
+        36,
+        42,
+        44
+      ],
+      "bonus": 24,
+      "firstPrize": 2804455650,
+      "firstWinners": 10,
+      "firstTotal": 28044556500
+    },
+    {
+      "round": 1111,
+      "date": "2024-03-16",
+      "sales": 116382835000,
+      "games": 116382835,
+      "numbers": [
+        3,
+        13,
+        30,
+        33,
+        43,
+        45
+      ],
+      "bonus": 4,
+      "firstPrize": 1714662540,
+      "firstWinners": 16,
+      "firstTotal": 27434600640
+    },
+    {
+      "round": 1110,
+      "date": "2024-03-09",
+      "sales": 115083786000,
+      "games": 115083786,
+      "numbers": [
+        3,
+        7,
+        11,
+        20,
+        22,
+        41
+      ],
+      "bonus": 24,
+      "firstPrize": 1647392719,
+      "firstWinners": 16,
+      "firstTotal": 26358283504
+    },
+    {
+      "round": 1109,
+      "date": "2024-03-02",
+      "sales": 117196327000,
+      "games": 117196327,
+      "numbers": [
+        10,
+        12,
+        13,
+        19,
+        33,
+        40
+      ],
+      "bonus": 2,
+      "firstPrize": 1584352875,
+      "firstWinners": 17,
+      "firstTotal": 26933998875
+    },
+    {
+      "round": 1108,
+      "date": "2024-02-24",
+      "sales": 114578905000,
+      "games": 114578905,
+      "numbers": [
+        7,
+        19,
+        26,
+        37,
+        39,
+        44
+      ],
+      "bonus": 27,
+      "firstPrize": 1957990849,
+      "firstWinners": 14,
+      "firstTotal": 27411871886
+    },
+    {
+      "round": 1107,
+      "date": "2024-02-17",
+      "sales": 117664962000,
+      "games": 117664962,
+      "numbers": [
+        6,
+        14,
+        30,
+        31,
+        40,
+        41
+      ],
+      "bonus": 29,
+      "firstPrize": 2025625233,
+      "firstWinners": 14,
+      "firstTotal": 28358753262
+    },
+    {
+      "round": 1106,
+      "date": "2024-02-10",
+      "sales": 126617296000,
+      "games": 126617296,
+      "numbers": [
+        1,
+        3,
+        4,
+        29,
+        42,
+        45
+      ],
+      "bonus": 36,
+      "firstPrize": 2790462819,
+      "firstWinners": 11,
+      "firstTotal": 30695091009
+    },
+    {
+      "round": 1105,
+      "date": "2024-02-03",
+      "sales": 113295292000,
+      "games": 113295292,
+      "numbers": [
+        6,
+        16,
+        34,
+        37,
+        39,
+        40
+      ],
+      "bonus": 11,
+      "firstPrize": 1834853800,
+      "firstWinners": 15,
+      "firstTotal": 27522807000
+    },
+    {
+      "round": 1104,
+      "date": "2024-01-27",
+      "sales": 112449384000,
+      "games": 112449384,
+      "numbers": [
+        1,
+        7,
+        21,
+        30,
+        35,
+        38
+      ],
+      "bonus": 2,
+      "firstPrize": 1817193100,
+      "firstWinners": 15,
+      "firstTotal": 27257896500
+    },
+    {
+      "round": 1103,
+      "date": "2024-01-20",
+      "sales": 110195070000,
+      "games": 110195070,
+      "numbers": [
+        10,
+        12,
+        29,
+        31,
+        40,
+        44
+      ],
+      "bonus": 2,
+      "firstPrize": 1574419633,
+      "firstWinners": 17,
+      "firstTotal": 26765133761
+    },
+    {
+      "round": 1102,
+      "date": "2024-01-13",
+      "sales": 113178102000,
+      "games": 113178102,
+      "numbers": [
+        13,
+        14,
+        22,
+        26,
+        37,
+        38
+      ],
+      "bonus": 20,
+      "firstPrize": 1383591413,
+      "firstWinners": 20,
+      "firstTotal": 27671828260
+    },
+    {
+      "round": 1101,
+      "date": "2024-01-06",
+      "sales": 114758876000,
+      "games": 114758876,
+      "numbers": [
+        6,
+        7,
+        13,
+        28,
+        36,
+        42
+      ],
+      "bonus": 41,
+      "firstPrize": 2100529500,
+      "firstWinners": 13,
+      "firstTotal": 27306883500
+    },
+    {
+      "round": 1100,
+      "date": "2023-12-30",
+      "sales": 116187023000,
+      "games": 116187023,
+      "numbers": [
+        17,
+        26,
+        29,
+        30,
+        31,
+        43
+      ],
+      "bonus": 12,
+      "firstPrize": 2207575472,
+      "firstWinners": 13,
+      "firstTotal": 28698481136
+    },
+    {
+      "round": 1099,
+      "date": "2023-12-23",
+      "sales": 107510729000,
+      "games": 107510729,
+      "numbers": [
+        3,
+        20,
+        28,
+        38,
+        40,
+        43
+      ],
+      "bonus": 4,
+      "firstPrize": 2959934125,
+      "firstWinners": 9,
+      "firstTotal": 26639407125
+    },
+    {
+      "round": 1098,
+      "date": "2023-12-16",
+      "sales": 103850339000,
+      "games": 103850339,
+      "numbers": [
+        12,
+        16,
+        21,
+        24,
+        41,
+        43
+      ],
+      "bonus": 15,
+      "firstPrize": 1930461895,
+      "firstWinners": 13,
+      "firstTotal": 25096004635
+    },
+    {
+      "round": 1097,
+      "date": "2023-12-09",
+      "sales": 108873101000,
+      "games": 108873101,
+      "numbers": [
+        14,
+        33,
+        34,
+        35,
+        37,
+        40
+      ],
+      "bonus": 4,
+      "firstPrize": 3864293090,
+      "firstWinners": 7,
+      "firstTotal": 27050051630
+    },
+    {
+      "round": 1096,
+      "date": "2023-12-02",
+      "sales": 105753078000,
+      "games": 105753078,
+      "numbers": [
+        1,
+        12,
+        16,
+        19,
+        23,
+        43
+      ],
+      "bonus": 34,
+      "firstPrize": 2539391175,
+      "firstWinners": 10,
+      "firstTotal": 25393911750
+    },
+    {
+      "round": 1095,
+      "date": "2023-11-25",
+      "sales": 106160572000,
+      "games": 106160572,
+      "numbers": [
+        8,
+        14,
+        28,
+        29,
+        34,
+        40
+      ],
+      "bonus": 12,
+      "firstPrize": 2617825575,
+      "firstWinners": 10,
+      "firstTotal": 26178255750
+    },
+    {
+      "round": 1094,
+      "date": "2023-11-18",
+      "sales": 104078823000,
+      "games": 104078823,
+      "numbers": [
+        6,
+        7,
+        15,
+        22,
+        26,
+        40
+      ],
+      "bonus": 41,
+      "firstPrize": 2112854469,
+      "firstWinners": 12,
+      "firstTotal": 25354253628
+    },
+    {
+      "round": 1093,
+      "date": "2023-11-11",
+      "sales": 105589036000,
+      "games": 105589036,
+      "numbers": [
+        10,
+        17,
+        22,
+        30,
+        35,
+        43
+      ],
+      "bonus": 44,
+      "firstPrize": 1967040750,
+      "firstWinners": 13,
+      "firstTotal": 25571529750
+    },
+    {
+      "round": 1092,
+      "date": "2023-11-04",
+      "sales": 108970510000,
+      "games": 108970510,
+      "numbers": [
+        7,
+        18,
+        19,
+        26,
+        33,
+        45
+      ],
+      "bonus": 37,
+      "firstPrize": 1583289844,
+      "firstWinners": 16,
+      "firstTotal": 25332637504
+    },
+    {
+      "round": 1091,
+      "date": "2023-10-28",
+      "sales": 109335581000,
+      "games": 109335581,
+      "numbers": [
+        6,
+        20,
+        23,
+        24,
+        28,
+        30
+      ],
+      "bonus": 44,
+      "firstPrize": 2898470459,
+      "firstWinners": 9,
+      "firstTotal": 26086234131
+    },
+    {
+      "round": 1090,
+      "date": "2023-10-21",
+      "sales": 108364862000,
+      "games": 108364862,
+      "numbers": [
+        12,
+        19,
+        21,
+        29,
+        40,
+        45
+      ],
+      "bonus": 1,
+      "firstPrize": 2386494614,
+      "firstWinners": 11,
+      "firstTotal": 26251440754
+    },
+    {
+      "round": 1089,
+      "date": "2023-10-14",
+      "sales": 108725932000,
+      "games": 108725932,
+      "numbers": [
+        4,
+        18,
+        31,
+        37,
+        42,
+        43
+      ],
+      "bonus": 40,
+      "firstPrize": 2978522167,
+      "firstWinners": 9,
+      "firstTotal": 26806699503
+    },
+    {
+      "round": 1088,
+      "date": "2023-10-07",
+      "sales": 109089305000,
+      "games": 109089305,
+      "numbers": [
+        11,
+        21,
+        22,
+        30,
+        39,
+        44
+      ],
+      "bonus": 31,
+      "firstPrize": 2434697898,
+      "firstWinners": 11,
+      "firstTotal": 26781676878
+    },
+    {
+      "round": 1087,
+      "date": "2023-09-30",
+      "sales": 113960897000,
+      "games": 113960897,
+      "numbers": [
+        13,
+        14,
+        18,
+        21,
+        34,
+        44
+      ],
+      "bonus": 16,
+      "firstPrize": 1732253602,
+      "firstWinners": 16,
+      "firstTotal": 27716057632
+    },
+    {
+      "round": 1086,
+      "date": "2023-09-23",
+      "sales": 109250306000,
+      "games": 109250306,
+      "numbers": [
+        11,
+        16,
+        25,
+        27,
+        35,
+        36
+      ],
+      "bonus": 37,
+      "firstPrize": 1515913809,
+      "firstWinners": 17,
+      "firstTotal": 25770534753
+    },
+    {
+      "round": 1085,
+      "date": "2023-09-16",
+      "sales": 106249975000,
+      "games": 106249975,
+      "numbers": [
+        4,
+        7,
+        17,
+        18,
+        38,
+        44
+      ],
+      "bonus": 36,
+      "firstPrize": 1073277473,
+      "firstWinners": 23,
+      "firstTotal": 24685381879
+    },
+    {
+      "round": 1084,
+      "date": "2023-09-09",
+      "sales": 109818924000,
+      "games": 109818924,
+      "numbers": [
+        8,
+        12,
+        13,
+        29,
+        33,
+        42
+      ],
+      "bonus": 5,
+      "firstPrize": 1738764600,
+      "firstWinners": 15,
+      "firstTotal": 26081469000
+    },
+    {
+      "round": 1083,
+      "date": "2023-09-02",
+      "sales": 108995141000,
+      "games": 108995141,
+      "numbers": [
+        3,
+        7,
+        14,
+        15,
+        22,
+        38
+      ],
+      "bonus": 17,
+      "firstPrize": 1713084525,
+      "firstWinners": 15,
+      "firstTotal": 25696267875
+    },
+    {
+      "round": 1082,
+      "date": "2023-08-26",
+      "sales": 107566880000,
+      "games": 107566880,
+      "numbers": [
+        21,
+        26,
+        27,
+        32,
+        34,
+        42
+      ],
+      "bonus": 31,
+      "firstPrize": 3720489643,
+      "firstWinners": 7,
+      "firstTotal": 26043427501
+    },
+    {
+      "round": 1081,
+      "date": "2023-08-19",
+      "sales": 106974323000,
+      "games": 106974323,
+      "numbers": [
+        1,
+        9,
+        16,
+        23,
+        24,
+        38
+      ],
+      "bonus": 17,
+      "firstPrize": 2343892944,
+      "firstWinners": 11,
+      "firstTotal": 25782822384
+    },
+    {
+      "round": 1080,
+      "date": "2023-08-12",
+      "sales": 104111986000,
+      "games": 104111986,
+      "numbers": [
+        13,
+        16,
+        23,
+        31,
+        36,
+        44
+      ],
+      "bonus": 38,
+      "firstPrize": 3639444429,
+      "firstWinners": 7,
+      "firstTotal": 25476111003
+    },
+    {
+      "round": 1079,
+      "date": "2023-08-05",
+      "sales": 103120206000,
+      "games": 103120206,
+      "numbers": [
+        4,
+        8,
+        18,
+        24,
+        37,
+        45
+      ],
+      "bonus": 6,
+      "firstPrize": 2712329417,
+      "firstWinners": 9,
+      "firstTotal": 24410964753
+    },
+    {
+      "round": 1078,
+      "date": "2023-07-29",
+      "sales": 105407618000,
+      "games": 105407618,
+      "numbers": [
+        6,
+        10,
+        11,
+        14,
+        36,
+        38
+      ],
+      "bonus": 43,
+      "firstPrize": 2141604938,
+      "firstWinners": 12,
+      "firstTotal": 25699259256
+    },
+    {
+      "round": 1077,
+      "date": "2023-07-22",
+      "sales": 105927489000,
+      "games": 105927489,
+      "numbers": [
+        4,
+        8,
+        17,
+        30,
+        40,
+        43
+      ],
+      "bonus": 34,
+      "firstPrize": 3570901018,
+      "firstWinners": 7,
+      "firstTotal": 24996307126
+    }
+  ]
+}

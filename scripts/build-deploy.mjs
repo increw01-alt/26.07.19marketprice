@@ -10,6 +10,10 @@ const staging = path.join(root, '.dist-build');
 const backup = path.join(root, '.dist-backup');
 const checkOnly = process.argv.includes('--check');
 const INLINE_HASH_PLACEHOLDER = '__INLINE_SCRIPT_HASHES__';
+// CSP 템플릿(플레이스홀더 보유)과 서빙본(_headers, 해시 렌더링됨)을 분리합니다.
+// Cloudflare Pages 가 저장소 루트를 서빙하므로 루트 _headers 도 렌더링본이어야 하고,
+// 다음 빌드가 다시 치환할 수 있도록 원본 플레이스홀더는 이 템플릿에 남습니다.
+const HEADERS_TEMPLATE = '_headers.template';
 
 const PUBLIC_FILES = [
   'index.html',
@@ -160,9 +164,9 @@ async function createTransforms(manifest) {
     }
   }
 
-  const headerSource = await readFile(manifest.get('_headers'), 'utf8');
+  const headerSource = await readFile(path.join(root, HEADERS_TEMPLATE), 'utf8');
   if (!headerSource.includes(INLINE_HASH_PLACEHOLDER)) {
-    throw new Error(`_headers is missing ${INLINE_HASH_PLACEHOLDER}.`);
+    throw new Error(`${HEADERS_TEMPLATE} is missing ${INLINE_HASH_PLACEHOLDER}.`);
   }
   const renderedHeaders = headerSource.replace(
     INLINE_HASH_PLACEHOLDER,
@@ -335,6 +339,19 @@ if (!checkOnly) await restoreInterruptedBuild();
 await buildRuntimeData();
 const manifest = await collectSourceManifest();
 const transforms = await createTransforms(manifest);
+
+// 루트 _headers 동기화 — Pages 가 루트를 서빙하므로 루트에도 렌더링본이 있어야 합니다.
+// 빌드 모드는 새로 써 넣고, 검증 모드는 어긋남(인라인 스크립트 변경 등)을 잡아냅니다.
+const rootHeadersPath = path.join(root, '_headers');
+const renderedHeaders = transforms.get('_headers');
+if (checkOnly) {
+  const current = await readFile(rootHeadersPath);
+  if (!current.equals(renderedHeaders)) {
+    throw new Error('루트 _headers 가 템플릿 렌더링 결과와 다릅니다 — build-deploy 를 다시 실행하세요.');
+  }
+} else {
+  await writeFile(rootHeadersPath, renderedHeaders);
+}
 
 if (checkOnly) {
   const count = await validateOutput(dist, manifest, transforms);
