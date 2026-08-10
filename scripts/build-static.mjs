@@ -7,7 +7,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
 const SITE_CONFIG = require('../assets/site-config.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260810-light1';
+const ASSET_VERSION = '20260810-light2';
 
 const esc = (value) =>
   String(value ?? '')
