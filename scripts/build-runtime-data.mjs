@@ -1,67 +1,37 @@
 // Build small browser-facing summaries from the larger source datasets.
 // The original files remain available for detail pages and on-demand archive loading.
+// 홈 데이터 구성은 assets/home-render.js 의 composeHome 하나로 통일합니다 —
+// 정적 프리렌더(build-static)와 런타임(home.json)이 절대 어긋나지 않게.
+import { createRequire } from 'node:module';
 import { readJSON, writeJSON } from './lib.mjs';
 
-const HOME_IDS = ['kospi', 'kosdaq', 'btc', 'kimchi', 'usdkrw', 'gold_don', 'wti', 'ust10'];
+const require = createRequire(import.meta.url);
+const HOME_RENDER = require('../assets/home-render.js');
+
 const RECENT_ROUNDS = 160;
 
-const [markets, giftcards, lotto] = await Promise.all([
+const [markets, dept, lotto, rates, manual, realestate] = await Promise.all([
   readJSON('data/markets.json', null),
   readJSON('data/giftcards-dept.json', null),
   readJSON('data/lotto.json', null),
+  readJSON('data/rates.json', null),
+  readJSON('data/giftcards.json', null),
+  readJSON('data/realestate.json', null),
 ]);
 
 if (!markets?.items?.length) throw new Error('data/markets.json is missing or empty');
-if (!giftcards?.items?.length) throw new Error('data/giftcards-dept.json is missing or empty');
+if (!dept?.items?.length) throw new Error('data/giftcards-dept.json is missing or empty');
 if (!lotto?.rounds?.length) throw new Error('data/lotto.json is missing or empty');
 
-const marketById = new Map(markets.items.map((item) => [item.id, item]));
-const homeMarkets = HOME_IDS.map((id) => marketById.get(id))
-  .filter(Boolean)
-  .map(({ id, name, group, unit, price, date, change, changePct, spark }) => ({
-    id,
-    name,
-    group,
-    unit,
-    price,
-    date,
-    change,
-    changePct,
-    spark: Array.isArray(spark) ? spark.slice(-40) : [],
-  }));
-
-const bestGiftcard = giftcards.items
-  .filter((item) => item.card === '롯데' && item.face === 100000 && Number.isFinite(item.buy))
-  .sort((a, b) => b.buy - a.buy)[0];
+await writeJSON(
+  'data/home.json',
+  HOME_RENDER.composeHome({ markets, rates, dept, manual, realestate, lotto })
+);
 
 const rounds = lotto.rounds
   .filter((round) => Number.isInteger(round.round))
   .slice()
   .sort((a, b) => b.round - a.round);
-const latest = rounds[0];
-
-await writeJSON('data/home.json', {
-  updatedAt: markets.updatedAt,
-  markets: homeMarkets,
-  giftcard: bestGiftcard
-    ? {
-        shop: bestGiftcard.shop,
-        method: bestGiftcard.method,
-        buy: bestGiftcard.buy,
-        buyRate: bestGiftcard.buyRate,
-      }
-    : null,
-  lotto: latest
-    ? {
-        round: latest.round,
-        date: latest.date,
-        numbers: latest.numbers,
-        bonus: latest.bonus,
-        sales: latest.sales,
-        firstWinners: latest.firstWinners,
-      }
-    : null,
-});
 
 const frequency = Array(46).fill(0);
 for (const round of rounds) {

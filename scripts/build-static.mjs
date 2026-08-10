@@ -6,8 +6,10 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
 const SITE_CONFIG = require('../assets/site-config.js');
+// 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
+const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260810-light2';
+const ASSET_VERSION = '20260810-home1';
 
 const esc = (value) =>
   String(value ?? '')
@@ -287,7 +289,7 @@ function staticHeader(page, stamp, hideStatus = false) {
         <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
         <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
       </svg>
-      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     ${status}
@@ -323,6 +325,7 @@ const staticFooter = `<footer class="site-footer">
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
     <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`;
 
@@ -554,9 +557,8 @@ function renderBrandPage(config, data) {
 <meta name="twitter:description" content="${esc(config.description)}">
 <meta name="twitter:image" content="https://modoosise.com/assets/og.png">
 <meta name="color-scheme" content="light dark">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="/assets/style.css?v=${ASSET_VERSION}">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <script type="application/ld+json">
@@ -754,49 +756,16 @@ const pickIds = (ids) => ids.map((id) => byId.get(id)).filter(Boolean);
 const pickGroup = (group) => markets.items.filter((item) => item.group === group);
 const marketGrid = (items) => items.map((item, index) => marketCard(item, index)).join('\n');
 
-const HOME_TILES = [
-  { id: 'kospi', href: '/stock', cat: '주식' },
-  { id: 'kosdaq', href: '/kosdaq', cat: '코스닥' },
-  { id: 'btc', href: '/coin', cat: '코인' },
-  { id: 'kimchi', href: '/macro', cat: '지표' },
-  { id: 'usdkrw', href: '/fx', cat: '환율' },
-  { id: 'gold_don', href: '/metal', cat: '금' },
-  { id: 'wti', href: '/energy', cat: '유가' },
-  { id: 'ust10', href: '/macro', cat: '금리' },
-];
-
-const homeTiles = HOME_TILES.map((tile, index) => {
-  const item = byId.get(tile.id);
-  if (!item) throw new Error(`홈 주요 지표에 필요한 ${tile.id} 데이터가 없습니다.`);
-  const d = direction(item.changePct);
-  const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
-  return `<a class="tile" href="${tile.href}" style="--i:${index}">
-  <span class="tile-cat">${tile.cat}</span>
-  <span class="tile-name">${esc(item.name)}</span>
-  <span class="tile-price">${fmtPrice(item.price, item.group, item.unit)}<em>${esc(item.unit)}</em></span>
-  <span class="tile-delta ${d}">${item.changePct == null ? '' : `${icon(d)}<span class="sr-label">${label}</span>${num(Math.abs(item.changePct), 2)}%`}</span>
-  ${sparkline(item.spark)}
-</a>`;
-}).join('\n');
-
-const bestHomeGift = dept.items
-  .filter((item) => item.card === '롯데' && item.face === 100000 && item.buy != null)
-  .slice()
-  .sort((a, b) => b.buy - a.buy)[0];
-if (!bestHomeGift) throw new Error('홈 상품권 요약에 사용할 롯데 10만원권 데이터가 없습니다.');
-const homeGift = `<a class="wide-tile" href="/giftcard">
-  <span class="wt-k">상품권 · 롯데 10만원권 최고 매입가</span>
-  <span class="wt-v">${won(bestHomeGift.buy)}</span>
-  <span class="wt-m">${num(bestHomeGift.buyRate, 2)}% · ${shopLabel(bestHomeGift)} ${icon('arrow')}</span>
-</a>`;
-
-const latestLotto = lotto.rounds.at(-1);
-if (!latestLotto) throw new Error('홈 로또 요약에 사용할 회차 데이터가 없습니다.');
-const homeLotto = `<a class="wide-tile" href="/lotto">
-  <span class="wt-k">로또 ${esc(latestLotto.round)}회 · ${esc(latestLotto.date)}</span>
-  <span class="wt-v">${latestLotto.numbers.map(esc).join(' · ')} <b>+${esc(latestLotto.bonus)}</b></span>
-  <span class="wt-m">총 판매 ${compactWon(latestLotto.sales)} · 1등 ${esc(latestLotto.firstWinners)}명 ${icon('arrow')}</span>
-</a>`;
+// 홈 데이터·마크업 — home-render.js 가 단일 소스입니다 (런타임 home.json 과 동일 함수).
+const homeData = HOME_RENDER.composeHome({
+  markets,
+  rates,
+  dept,
+  manual: manualGift,
+  realestate,
+  lotto,
+});
+if (!homeData.markets.length) throw new Error('홈 프리렌더에 필요한 시세 데이터가 없습니다.');
 
 const faces = [...new Set(dept.items.map((item) => Number(item.face)))].sort((a, b) => a - b);
 if (!faces.length || faces.some((value) => !Number.isFinite(value))) {
@@ -824,9 +793,14 @@ const manualNote = pricedManual.length
 
 const renderPlan = {
   'index.html': [
-    ['home-grid', homeTiles],
-    ['home-gift', homeGift],
-    ['home-lotto', homeLotto],
+    ['hero-live', HOME_RENDER.heroLive(homeData)],
+    ['hero-stats', HOME_RENDER.heroStats(homeData)],
+    ['hero-pill', HOME_RENDER.heroPill(homeData)],
+    ['cat-grid', HOME_RENDER.catCards(homeData)],
+    ['kpi-grid', HOME_RENDER.kpiCards(homeData)],
+    ['btc-block', HOME_RENDER.btcBlock(homeData)],
+    ['gift-rows', HOME_RENDER.giftRows(homeData)],
+    ['quick-grid', HOME_RENDER.quickCards()],
   ],
   'coin.html': [['grid-coin', marketGrid(pickGroup('coin'))]],
   'stock.html': [

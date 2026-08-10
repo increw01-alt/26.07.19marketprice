@@ -74,7 +74,9 @@ function dir(n) {
 const icon = (id, cls = 'icon') =>
   `<svg class="${escapeHTML(cls)}" aria-hidden="true"><use href="#i-${escapeHTML(id)}"/></svg>`;
 
-const fetchJSON = (path, options = {}) => fetch(path, options).then((r) => {
+// 시세 JSON 은 항상 재검증합니다 — 브라우저 휴리스틱 캐시가 며칠 묵은 시세를
+// 보여주는 사고 방지 (엣지 캐시는 _headers 의 /data/* 5분 규칙이 담당).
+const fetchJSON = (path, options = {}) => fetch(path, { cache: 'no-store', ...options }).then((r) => {
   if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
   return r.json();
 });
@@ -281,7 +283,7 @@ function renderShell() {
         <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
         <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
       </svg>
-      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
@@ -304,7 +306,7 @@ ${navigationMarkup(page)}`);
     `<footer class="site-footer">
   <div class="wrap foot-grid">
     <div class="foot-brand">
-      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-mark">모두의 <b>시세</b></span>
       <p>대한민국 모든 시세를 한눈에 제공하는 시장 정보 서비스입니다. 코인·주식·환율·금·상품권·부동산·로또까지 매시간 갱신합니다.</p>
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
@@ -319,6 +321,7 @@ ${navigationMarkup(page)}`);
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
     <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`,
   );

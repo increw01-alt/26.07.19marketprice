@@ -51,10 +51,9 @@
 }
 </script>
 <meta name="color-scheme" content="light dark">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Fira+Sans:wght@400;500;600;700&display=swap">
-<link rel="stylesheet" href="assets/style.css?v=20260810-light2">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<link rel="stylesheet" href="assets/style.css?v=20260810-home1">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -75,7 +74,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
         <rect x="18" y="10" width="9" height="24" rx="2" fill="#f87171"/><line x1="22.5" y1="4" x2="22.5" y2="40" stroke="#f87171" stroke-width="2.5"/>
         <rect x="34" y="16" width="9" height="18" rx="2" fill="#fbbf24"/><line x1="38.5" y1="8" x2="38.5" y2="42" stroke="#fbbf24" stroke-width="2.5"/>
       </svg>
-      <span class="brand-mark">모두의 시세</span>
+      <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
     <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 8. 10. 18:03:15</p>
@@ -106,110 +105,306 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </div>
 <!-- static-shell:header:end -->
 
-<main id="main" class="wrap">
-  <div class="page-head">
-    <h1>모두의 시세 <span class="h1-sub">대한민국 모든 시세 한눈에</span></h1>
-    <p class="lead">금융시장부터 원자재·경제지표, 생활시세와 혜택·도구까지 한 곳에서 봅니다.</p>
-  </div>
-  <section class="panel">
-    <h2>주요 지표</h2>
-    <div class="grid grid-tile" id="home-grid">
-      <!-- prerender:home-grid:start -->
-        <a class="tile" href="/stock" style="--i:0">
-          <span class="tile-cat">주식</span>
-          <span class="tile-name">코스피</span>
-          <span class="tile-price">6,299.66<em>pt</em></span>
-          <span class="tile-delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>0.65%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,6.19847934825011 2.564102564102564,4.864735715096977 5.128205128205128,3.848357790688013 7.6923076923076925,2.3744569224712215 10.256410256410255,2.4587849069759784 12.82051282051282,2 15.384615384615385,8.724944033320266 17.94871794871795,6.7520124498906995 20.51282051282051,3.3605549420627163 23.076923076923077,7.193663502652271 25.64102564102564,7.31594412803684 28.205128205128204,6.711687318254768 30.76923076923077,7.9896882354662395 33.33333333333333,12.828761721523003 35.8974358974359,9.577829220881966 38.46153846153847,9.851119964576277 41.02564102564102,12.768061293135045 43.58974358974359,15.792074788097661 46.15384615384615,15.458894878052062 48.717948717948715,14.099966065671731 51.28205128205128,19.040126407106268 53.84615384615385,18.671651190052067 56.41025641025641,15.514277033088536 58.97435897435898,18.93918377609057 61.53846153846154,21.18644451862138 64.1025641025641,19.47565153008874 66.66666666666666,19.10828323501346 69.23076923076923,16.898978738971515 71.7948717948718,19.898993300084996 74.35897435897436,19.418055531094424 76.92307692307693,24.824017294719848 79.48717948717949,27.485461560255207 82.05128205128204,28 84.61538461538461,20.601755349163714 87.17948717948718,23.09764446947415 89.74358974358975,22.348139304647198 92.3076923076923,20.581008674679346 94.87179487179486,22.81017647098795 97.43589743589743,23.08789850820699 100,22.785953989377596" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/kosdaq" style="--i:1">
-          <span class="tile-cat">코스닥</span>
-          <span class="tile-name">코스닥</span>
-          <span class="tile-price">854.47<em>pt</em></span>
-          <span class="tile-delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>6.97%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,2 2.564102564102564,3.0253075199702977 5.128205128205128,2.1382704620263304 7.6923076923076925,4.2109208789940595 10.256410256410255,6.504662976176142 12.82051282051282,6.383763974189147 15.384615384615385,11.518973035083494 17.94871794871795,10.330689338973183 20.51282051282051,11.766784393565352 23.076923076923077,14.200798686376045 25.64102564102564,9.578575648783719 28.205128205128204,9.871807198839917 30.76923076923077,8.992116625521838 33.33333333333333,13.175495243256261 35.8974358974359,13.062611329379415 38.46153846153847,14.488016881924374 41.02564102564102,15.546053357819526 43.58974358974359,18.633990396194605 46.15384615384615,18.032834326830443 48.717948717948715,15.131922805776334 51.28205128205128,17.6748134684088 53.84615384615385,18.702122721981375 56.41025641025641,15.666283756322255 58.97435897435898,18.177109989663617 61.53846153846154,20.995864819163454 64.1025641025641,20.74872206416586 66.66666666666666,20.899011081506906 69.23076923076923,18.28131021194605 71.7948717948718,21.090716823217726 74.35897435897436,19.979245067638086 76.92307692307693,23.920825681398522 79.48717948717949,26.80436981926381 82.05128205128204,28 84.61538461538461,22.991703295600516 87.17948717948718,21.816779438623957 89.74358974358975,18.91987546162492 92.3076923076923,17.659447818822255 94.87179487179486,17.520516907012684 97.43589743589743,17.71154996838873 100,13.993735448779704" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/coin" style="--i:2">
-          <span class="tile-cat">코인</span>
-          <span class="tile-name">비트코인</span>
-          <span class="tile-price">91,736,000<em>KRW</em></span>
-          <span class="tile-delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>0.66%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,18.15497076023392 2.564102564102564,12.692690058479531 5.128205128205128,9.442690058479531 7.6923076923076925,7.808187134502923 10.256410256410255,6.4093567251462 12.82051282051282,10.659064327485378 15.384615384615385,18.280409356725144 17.94871794871795,12.958771929824563 20.51282051282051,7.633333333333333 23.076923076923077,9.503508771929823 25.64102564102564,10.351169590643273 28.205128205128204,20.447076023391812 30.76923076923077,8.598830409356726 33.33333333333333,9.868421052631579 35.8974358974359,14.357602339181287 38.46153846153847,13.023391812865496 41.02564102564102,8.519005847953217 43.58974358974359,10.085087719298247 46.15384615384615,9.412280701754387 48.717948717948715,2 51.28205128205128,4.444152046783628 53.84615384615385,9.028362573099415 56.41025641025641,14.091520467836258 58.97435897435898,13.312280701754386 61.53846153846154,10.104093567251464 64.1025641025641,17.406140350877195 66.66666666666666,19.1812865497076 69.23076923076923,23.955555555555556 71.7948717948718,23.210526315789473 74.35897435897436,28 76.92307692307693,27.251169590643276 79.48717948717949,25.985380116959064 82.05128205128204,27.923976608187136 84.61538461538461,24.52573099415205 87.17948717948718,22.796198830409356 89.74358974358975,24.628362573099416 92.3076923076923,24.282456140350877 94.87179487179486,24.233040935672516 97.43589743589743,25.07309941520468 100,22.769590643274853" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/macro" style="--i:3">
-          <span class="tile-cat">지표</span>
-          <span class="tile-name">김치프리미엄</span>
-          <span class="tile-price">-0.71<em>%</em></span>
-          <span class="tile-delta flat"></span>
+<main id="main" class="home">
 
-        </a>
-        <a class="tile" href="/fx" style="--i:4">
-          <span class="tile-cat">환율</span>
-          <span class="tile-name">달러/원</span>
-          <span class="tile-price">1,418<em>KRW</em></span>
-          <span class="tile-delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.28%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,9.500932563621511 2.564102564102564,9.958800720438557 5.128205128205128,7.141551174828923 7.6923076923076925,4.776319195626144 10.256410256410255,5.990126442637958 12.82051282051282,4.48602526657416 15.384615384615385,5.2263865652296 17.94871794871795,3.7632157391492846 20.51282051282051,3.0384560149210174 23.076923076923077,5.228336762032999 25.64102564102564,3.9638957467963998 28.205128205128204,2.6234684048908576 30.76923076923077,2 33.33333333333333,3.885959223324061 35.8974358974359,6.05441158848652 38.46153846153847,6.490827580466199 41.02564102564102,8.224814150452378 43.58974358974359,11.441449731664992 46.15384615384615,10.942675007752307 48.717948717948715,12.390268042293293 51.28205128205128,12.542240695631174 53.84615384615385,14.4554551084271 56.41025641025641,14.782778993855782 58.97435897435898,16.214770453969592 61.53846153846154,14.550919620242166 64.1025641025641,16.962908756950775 66.66666666666666,16.045269812288986 69.23076923076923,16.842115469579397 71.7948717948718,17.15188758377751 74.35897435897436,20.27500884997846 76.92307692307693,19.02226901556224 79.48717948717949,21.21992676699996 82.05128205128204,23.33967177785319 84.61538461538461,27.56358400802032 87.17948717948718,24.621664564320362 89.74358974358975,26.024426855271066 92.3076923076923,26.038054450006996 94.87179487179486,27.454468118581477 97.43589743589743,27.232359728984846 100,28" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/metal" style="--i:5">
-          <span class="tile-cat">금</span>
-          <span class="tile-name">금 1돈 (국내)</span>
-          <span class="tile-price">743,550<em>원/3.75g</em></span>
-          <span class="tile-delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>1.40%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,3.164016736401674 2.564102564102564,2.2719665271966534 5.128205128205128,2.2066945606694546 7.6923076923076925,2 10.256410256410255,10.01757322175732 12.82051282051282,6.177405857740585 15.384615384615385,9.789121338912132 17.94871794871795,11.018410041841005 20.51282051282051,16.990794979079496 23.076923076923077,16.14225941422594 25.64102564102564,13.052719665271965 28.205128205128204,14.44518828451883 30.76923076923077,15.815899581589958 33.33333333333333,9.984937238493725 35.8974358974359,8.03765690376569 38.46153846153847,8.646861924686192 41.02564102564102,10.572384937238493 43.58974358974359,13.944769874476986 46.15384615384615,15.14142259414226 48.717948717948715,14.641004184100417 51.28205128205128,17.643514644351463 53.84615384615385,20.395815899581592 56.41025641025641,21.461924686192468 58.97435897435898,22.092887029288704 61.53846153846154,23.63765690376569 64.1025641025641,20.961506276150626 66.66666666666666,17.29539748953975 69.23076923076923,19.297071129707113 71.7948717948718,23.844351464435146 74.35897435897436,20.8092050209205 76.92307692307693,24.181589958158995 79.48717948717949,26.705439330543932 82.05128205128204,28 84.61538461538461,26.400836820083683 87.17948717948718,27.521338912133892 89.74358974358975,27.205857740585774 92.3076923076923,22.7673640167364 94.87179487179486,18.894560669456066 97.43589743589743,17.610878661087867 100,14.630125523012552" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/energy" style="--i:6">
-          <span class="tile-cat">유가</span>
-          <span class="tile-name">WTI 원유</span>
-          <span class="tile-price">79.19<em>USD/bbl</em></span>
-          <span class="tile-delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>1.29%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,10.039769026851985 2.564102564102564,14.582067307785403 5.128205128205128,19.751268822562352 7.6923076923076925,18.93739636254729 10.256410256410255,19.146366904176222 12.82051282051282,21.10406442772117 15.384615384615385,22.874792725094576 17.94871794871795,26.03131020976963 20.51282051282051,24.293575494539045 23.076923076923077,27.25211470427059 25.64102564102564,25.580375544368934 28.205128205128204,26.955164073941873 30.76923076923077,27.967006417857174 33.33333333333333,27.84602435597129 35.8974358974359,28 38.46153846153847,25.921320414569173 41.02564102564102,22.533847854894333 43.58974358974359,24.117598535052938 46.15384615384615,24.854483173053648 48.717948717948715,17.45262642881717 51.28205128205128,16.13283279684445 53.84615384615385,15.846874433201164 56.41025641025641,16.561766146787747 58.97435897435898,12.668364024111986 61.53846153846154,11.854483173053652 64.1025641025641,10.006767053665886 66.66666666666666,7.8950938860922335 69.23076923076923,2 71.7948717948718,5.16751814240375 74.35897435897436,12.536381304497406 76.92307692307693,16.220812885544234 79.48717948717949,10.501695958938107 82.05128205128204,11.458551796296451 84.61538461538461,10.270732492895046 87.17948717948718,15.033001973186098 89.74358974358975,20.05922850166304 92.3076923076923,20.66413042004917 94.87179487179486,18.387480950718114 97.43589743589743,17.40863218894564 100,16.297800707558586" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg>
-        </a>
-        <a class="tile" href="/macro" style="--i:7">
-          <span class="tile-cat">금리</span>
-          <span class="tile-name">미 국채 10년</span>
-          <span class="tile-price">4.66<em>%</em></span>
-          <span class="tile-delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.21%</span>
-          <svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,21.656858471281723 2.564102564102564,19.983923030999556 5.128205128205128,21.23862461121118 7.6923076923076925,24.09652829001952 10.256410256410255,21.656858471281723 12.82051282051282,22.493292953414375 15.384615384615385,18.45042103607986 17.94871794871795,19.565689170929016 20.51282051282051,25.908863937655724 23.076923076923077,26.60589821243434 25.64102564102564,28 28.205128205128204,27.860599792645964 30.76923076923077,24.793562564798137 33.33333333333333,20.82039075114064 35.8974358974359,20.123323238353592 38.46153846153847,20.541557098424136 41.02564102564102,17.0563192485142 43.58974358974359,14.268115673382876 46.15384615384615,16.35925173572715 48.717948717948715,14.268115673382876 51.28205128205128,11.479878860243126 53.84615384615385,13.152814300525288 56.41025641025641,15.941017875656609 58.97435897435898,14.268115673382876 61.53846153846154,16.219851528373113 64.1025641025641,12.246646476707188 66.66666666666666,10.155510414362912 69.23076923076923,8.134041217687223 71.7948717948718,4.92760378248536 74.35897435897436,6.600539222767527 76.92307692307693,9.249342590544806 79.48717948717949,11.828412616636644 82.05128205128204,10.57371103642502 84.61538461538461,7.715807357616683 87.17948717948718,2 89.74358974358975,6.112605259019965 92.3076923076923,10.225210518039926 94.87179487179486,10.922244792818546 97.43589743589743,7.227873393869121 100,7.924940906656168" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
-        </svg>
-        </a>
-      <!-- prerender:home-grid:end -->
+  <section class="hero" aria-label="모두의 시세 소개">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="hero-live"><span class="hero-dot" aria-hidden="true"></span><span id="hero-live">
+          <!-- prerender:hero-live:start -->
+            매시간 자동 업데이트 · 마지막 갱신 18:03
+          <!-- prerender:hero-live:end -->
+        </span></span>
+        <h1>대한민국 <span class="hero-accent">모든 시세</span> 한눈에</h1>
+        <p class="hero-sub">코인, 주식, 환율, 금·은, 유가, 상품권, 부동산, 로또까지<br>실시간 시장 정보를 한곳에서 쉽고 빠르게 확인하세요.</p>
+        <p class="hero-cta-row"><a class="hero-cta" href="#indicators">지표 한눈에 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></p>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-blob hero-blob-a"></div>
+        <div class="hero-blob hero-blob-b"></div>
+        <div class="hero-float hero-float-main">
+          <div class="hero-card">
+            <div class="hero-card-head">
+              <span class="hero-dot-r"></span><span class="hero-dot-y"></span><span class="hero-dot-g"></span>
+              <span class="hero-card-title">BTC/KRW · 실시간</span>
+            </div>
+            <svg viewBox="0 0 300 110" class="hero-chart" aria-hidden="true">
+              <defs><linearGradient id="gHero" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.3"></stop><stop offset="1" stop-color="#3b82f6" stop-opacity="0"></stop></linearGradient></defs>
+              <path d="M0 84L25 76L50 80L75 62L100 68L125 48L150 56L175 34L200 44L225 24L250 34L275 18L300 26L300 110L0 110Z" fill="url(#gHero)"></path>
+              <path d="M0 84L25 76L50 80L75 62L100 68L125 48L150 56L175 34L200 44L225 24L250 34L275 18L300 26" fill="none" stroke="#2563eb" stroke-width="2.5" stroke-linejoin="round"></path>
+              <circle cx="275" cy="18" r="4" fill="#2563eb" stroke="#fff" stroke-width="2"></circle>
+            </svg>
+            <div class="hero-mini-grid" id="hero-stats">
+              <!-- prerender:hero-stats:start -->
+                <div class="hero-mini"><div class="hero-mini-k">KOSPI</div><div class="hero-mini-v">6,299.66 <span class="up">▲</span></div></div>
+                <div class="hero-mini"><div class="hero-mini-k">USD/KRW</div><div class="hero-mini-v">1,418 <span class="down">▼</span></div></div>
+                <div class="hero-mini"><div class="hero-mini-k">금 1돈</div><div class="hero-mini-v">743,550 <span class="up">▲</span></div></div>
+              <!-- prerender:hero-stats:end -->
+            </div>
+          </div>
+        </div>
+        <div class="hero-float hero-float-bars">
+          <div class="hero-card hero-card-sm">
+            <div class="hero-card-title">시세 추이</div>
+            <div class="hero-bars">
+              <i style="height:34%"></i><i style="height:55%"></i><i style="height:42%"></i><i style="height:70%"></i><i style="height:58%"></i><i class="hi" style="height:88%"></i><i style="height:64%"></i>
+            </div>
+          </div>
+        </div>
+        <div class="hero-float hero-float-pill">
+          <div class="hero-pill" id="hero-pill">
+            <!-- prerender:hero-pill:start -->
+              <span class="hero-pill-v">91,736,000원</span><span class="hero-pill-d up">▲ 0.66%</span>
+            <!-- prerender:hero-pill:end -->
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section class="panel">
-    <h2>바로 보기</h2>
-    <div class="wide-grid">
-      <div id="home-gift">
-        <!-- prerender:home-gift:start -->
-          <a class="wide-tile" href="/giftcard">
-            <span class="wt-k">상품권 · 롯데 10만원권 최고 매입가</span>
-            <span class="wt-v">95,550원</span>
-            <span class="wt-m">4.45% · 최고상품권 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
-          </a>
-        <!-- prerender:home-gift:end -->
+  <section class="wrap home-sec" aria-label="카테고리 요약">
+    <div class="cat-grid" id="cat-grid">
+      <!-- prerender:cat-grid:start -->
+        <a class="hcard" href="/coin" style="--i:0">
+          <span class="hcard-top"><span class="hicon" style="background:#fdf1d8"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M23.638%2014.904c-1.602%206.43-8.113%2010.34-14.542%208.736C2.67%2022.05-1.244%2015.525.362%209.105%201.962%202.67%208.475-1.243%2014.9.358c6.43%201.605%2010.342%208.115%208.738%2014.548z%22%20fill%3D%22%23f7931a%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M17.288%2010.29c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525%202.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54%202.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35%201.407s.975.225.955.236c.535.136.63.486.615.766l-1.477%205.92c-.075.166-.24.406-.614.314.015.02-.96-.24-.96-.24l-.66%201.51%201.71.426.93.242-.54%202.19%201.32.327.54-2.17c.36.1.705.19%201.05.273l-.51%202.154%201.32.33.545-2.19c2.24.427%203.93.257%204.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193%201.5-.76%201.68-1.93zm-3.01%204.22c-.404%201.64-3.157.75-4.05.53l.72-2.9c.896.23%203.757.67%203.33%202.37zm.41-4.24c-.37%201.49-2.662.735-3.405.55l.654-2.64c.744.18%203.137.524%202.75%202.09z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">코인</span></span>
+          <span class="hcard-n">BTC/KRW</span>
+          <span class="hcard-v">91,736,000원</span>
+          <span class="hcard-d up">▲ 0.66%</span>
+        </a>
+        <a class="hcard" href="/stock" style="--i:1">
+          <span class="hcard-top"><span class="hicon" style="background:#dbeafe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%223%22%20y%3D%2213%22%20width%3D%224.6%22%20height%3D%228%22%20rx%3D%221.3%22%20fill%3D%22%2393c5fd%22%2F%3E%3Crect%20x%3D%229.7%22%20y%3D%229%22%20width%3D%224.6%22%20height%3D%2212%22%20rx%3D%221.3%22%20fill%3D%22%233b82f6%22%2F%3E%3Crect%20x%3D%2216.4%22%20y%3D%224.5%22%20width%3D%224.6%22%20height%3D%2216.5%22%20rx%3D%221.3%22%20fill%3D%22%231d4ed8%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">주식</span></span>
+          <span class="hcard-n">코스피</span>
+          <span class="hcard-v">6,299.66</span>
+          <span class="hcard-d up">▲ 0.65%</span>
+        </a>
+        <a class="hcard" href="/kosdaq" style="--i:2">
+          <span class="hcard-top"><span class="hicon" style="background:#ede9fe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%2021v-5l4.5-5%203.5%203%205-7%205%204v10Z%22%20fill%3D%22%23ddd6fe%22%2F%3E%3Cpath%20d%3D%22M3%2016l4.5-5%203.5%203%205-7%205%204%22%20fill%3D%22none%22%20stroke%3D%22%237c3aed%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">코스닥</span></span>
+          <span class="hcard-n">코스닥 지수</span>
+          <span class="hcard-v">854.47</span>
+          <span class="hcard-d up">▲ 6.97%</span>
+        </a>
+        <a class="hcard" href="/fx" style="--i:3">
+          <span class="hcard-top"><span class="hicon" style="background:#d1fae5"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2216.6%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%20text-anchor%3D%22middle%22%3E%24%3C%2Ftext%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">환율</span></span>
+          <span class="hcard-n">USD/KRW</span>
+          <span class="hcard-v">1,418원</span>
+          <span class="hcard-d down">▼ 0.28%</span>
+        </a>
+        <a class="hcard" href="/metal" style="--i:4">
+          <span class="hcard-top"><span class="hicon" style="background:#fef9c3"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8.4%204.8h7.2l1.7%205.4H6.7Z%22%20fill%3D%22%23fbbf24%22%2F%3E%3Cpath%20d%3D%22M3.9%2012.6h7.2l1.7%205.4H2.2Z%22%20fill%3D%22%23f59e0b%22%2F%3E%3Cpath%20d%3D%22M13.2%2012.6h7.2l1.7%205.4h-10.6Z%22%20fill%3D%22%23fcd34d%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">금·은</span></span>
+          <span class="hcard-n">금 1돈 (국내)</span>
+          <span class="hcard-v">743,550원</span>
+          <span class="hcard-d up">▲ 1.40%</span>
+        </a>
+        <a class="hcard" href="/giftcard" style="--i:5">
+          <span class="hcard-top"><span class="hicon" style="background:#ccfbf1"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%222.5%22%20y%3D%225.5%22%20width%3D%2219%22%20height%3D%2213.5%22%20rx%3D%222.6%22%20fill%3D%22%2314b8a6%22%2F%3E%3Crect%20x%3D%222.5%22%20y%3D%229.2%22%20width%3D%2219%22%20height%3D%222.8%22%20fill%3D%22%230f766e%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2215.6%22%20r%3D%221.7%22%20fill%3D%22%2399f6e4%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">상품권</span></span>
+          <span class="hcard-n">신세계 10만원권</span>
+          <span class="hcard-v">96,620원</span>
+          <span class="hcard-d flat">최고 매입가</span>
+        </a>
+        <a class="hcard" href="/realestate" style="--i:6">
+          <span class="hcard-top"><span class="hicon" style="background:#dbeafe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%223%22%20y%3D%229.5%22%20width%3D%227.6%22%20height%3D%2211.5%22%20rx%3D%221%22%20fill%3D%22%2393c5fd%22%2F%3E%3Crect%20x%3D%2212.6%22%20y%3D%223.5%22%20width%3D%228.4%22%20height%3D%2217.5%22%20rx%3D%221%22%20fill%3D%22%232563eb%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%226.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%226.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%2210%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%2210%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%2213.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%2213.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2212%22%20width%3D%221.6%22%20height%3D%221.6%22%20fill%3D%22%23dbeafe%22%2F%3E%3Crect%20x%3D%227.8%22%20y%3D%2212%22%20width%3D%221.6%22%20height%3D%221.6%22%20fill%3D%22%23dbeafe%22%2F%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">부동산</span></span>
+          <span class="hcard-n">서울 아파트 ㎡당</span>
+          <span class="hcard-v">1,531만원</span>
+          <span class="hcard-d flat">전월 기준</span>
+        </a>
+        <a class="hcard" href="/lotto" style="--i:7">
+          <span class="hcard-top"><span class="hicon" style="background:#dcfce7"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20transform%3D%22rotate(45%2012%2012)%22%3E%3Crect%20x%3D%224.2%22%20y%3D%224.2%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%2322c55e%22%2F%3E%3Crect%20x%3D%2212.8%22%20y%3D%224.2%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%234ade80%22%2F%3E%3Crect%20x%3D%224.2%22%20y%3D%2212.8%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%234ade80%22%2F%3E%3Crect%20x%3D%2212.8%22%20y%3D%2212.8%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%2322c55e%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E')"></span></span><span class="hcard-k">로또</span></span>
+          <span class="hcard-n">1등 당첨금 · 제1236회</span>
+          <span class="hcard-v">24.4억원</span>
+          <span class="hcard-d flat">추첨 08-08</span>
+        </a>
+      <!-- prerender:cat-grid:end -->
+    </div>
+  </section>
+
+  <section class="wrap home-sec" id="indicators" aria-label="주요 지표">
+    <div class="sec-head"><h2>주요 지표</h2><a class="sec-more" href="/macro">더보기 ›</a></div>
+    <div class="cat-grid" id="kpi-grid">
+      <!-- prerender:kpi-grid:start -->
+        <a class="hcard kpi" href="/coin" style="--i:0">
+          <span class="kpi-k">BTC/KRW</span>
+          <span class="hcard-v">91,736,000원</span>
+          <span class="hcard-d up">▲ 0.66%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 32.3L5.6 23.1L11.3 17.6L16.9 14.8L22.6 12.5L28.2 19.7L33.8 32.6L39.5 23.5L45.1 14.5L50.8 17.7L56.4 19.1L62.1 36.2L67.7 16.2L73.3 18.3L79.0 25.9L84.6 23.7L90.3 16.0L95.9 18.7L101.5 17.5L107.2 5.0L112.8 9.1L118.5 16.9L124.1 25.5L129.7 24.1L135.4 18.7L141.0 31.1L146.7 34.1L152.3 42.2L157.9 40.9L163.6 49.0L169.2 47.7L174.9 45.6L180.5 48.9L186.2 43.1L191.8 40.2L197.4 43.3L203.1 42.7L208.7 42.6L214.4 44.0L220.0 40.1L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 32.3L5.6 23.1L11.3 17.6L16.9 14.8L22.6 12.5L28.2 19.7L33.8 32.6L39.5 23.5L45.1 14.5L50.8 17.7L56.4 19.1L62.1 36.2L67.7 16.2L73.3 18.3L79.0 25.9L84.6 23.7L90.3 16.0L95.9 18.7L101.5 17.5L107.2 5.0L112.8 9.1L118.5 16.9L124.1 25.5L129.7 24.1L135.4 18.7L141.0 31.1L146.7 34.1L152.3 42.2L157.9 40.9L163.6 49.0L169.2 47.7L174.9 45.6L180.5 48.9L186.2 43.1L191.8 40.2L197.4 43.3L203.1 42.7L208.7 42.6L214.4 44.0L220.0 40.1" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40일 (일봉)</span>
+        </a>
+        <a class="hcard kpi" href="/fx" style="--i:1">
+          <span class="kpi-k">USD/KRW</span>
+          <span class="hcard-v">1,418원</span>
+          <span class="hcard-d down">▼ 0.28%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark down" aria-hidden="true"><path d="M0.0 17.7L5.6 18.5L11.3 13.7L16.9 9.7L22.6 11.8L28.2 9.2L33.8 10.5L39.5 8.0L45.1 6.8L50.8 10.5L56.4 8.3L62.1 6.1L67.7 5.0L73.3 8.2L79.0 11.9L84.6 12.6L90.3 15.5L95.9 21.0L101.5 20.1L107.2 22.6L112.8 22.8L118.5 26.1L124.1 26.6L129.7 29.1L135.4 26.2L141.0 30.3L146.7 28.8L152.3 30.1L157.9 30.6L163.6 35.9L169.2 33.8L174.9 37.5L180.5 41.1L186.2 48.3L191.8 43.3L197.4 45.7L203.1 45.7L208.7 48.1L214.4 47.7L220.0 49.0L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 17.7L5.6 18.5L11.3 13.7L16.9 9.7L22.6 11.8L28.2 9.2L33.8 10.5L39.5 8.0L45.1 6.8L50.8 10.5L56.4 8.3L62.1 6.1L67.7 5.0L73.3 8.2L79.0 11.9L84.6 12.6L90.3 15.5L95.9 21.0L101.5 20.1L107.2 22.6L112.8 22.8L118.5 26.1L124.1 26.6L129.7 29.1L135.4 26.2L141.0 30.3L146.7 28.8L152.3 30.1L157.9 30.6L163.6 35.9L169.2 33.8L174.9 37.5L180.5 41.1L186.2 48.3L191.8 43.3L197.4 45.7L203.1 45.7L208.7 48.1L214.4 47.7L220.0 49.0" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40거래일</span>
+        </a>
+        <a class="hcard kpi" href="/stock" style="--i:2">
+          <span class="kpi-k">KOSPI</span>
+          <span class="hcard-v">6,299.66</span>
+          <span class="hcard-d up">▲ 0.65%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 12.1L5.6 9.8L11.3 8.1L16.9 5.6L22.6 5.8L28.2 5.0L33.8 16.4L39.5 13.0L45.1 7.3L50.8 13.8L56.4 14.0L62.1 13.0L67.7 15.1L73.3 23.3L79.0 17.8L84.6 18.3L90.3 23.2L95.9 28.3L101.5 27.8L107.2 25.5L112.8 33.8L118.5 33.2L124.1 27.9L129.7 33.7L135.4 37.5L141.0 34.6L146.7 34.0L152.3 30.2L157.9 35.3L163.6 34.5L169.2 43.6L174.9 48.1L180.5 49.0L186.2 36.5L191.8 40.7L197.4 39.4L203.1 36.4L208.7 40.2L214.4 40.7L220.0 40.2L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 12.1L5.6 9.8L11.3 8.1L16.9 5.6L22.6 5.8L28.2 5.0L33.8 16.4L39.5 13.0L45.1 7.3L50.8 13.8L56.4 14.0L62.1 13.0L67.7 15.1L73.3 23.3L79.0 17.8L84.6 18.3L90.3 23.2L95.9 28.3L101.5 27.8L107.2 25.5L112.8 33.8L118.5 33.2L124.1 27.9L129.7 33.7L135.4 37.5L141.0 34.6L146.7 34.0L152.3 30.2L157.9 35.3L163.6 34.5L169.2 43.6L174.9 48.1L180.5 49.0L186.2 36.5L191.8 40.7L197.4 39.4L203.1 36.4L208.7 40.2L214.4 40.7L220.0 40.2" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40거래일</span>
+        </a>
+        <a class="hcard kpi" href="/kosdaq" style="--i:3">
+          <span class="kpi-k">KOSDAQ</span>
+          <span class="hcard-v">854.47</span>
+          <span class="hcard-d up">▲ 6.97%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 5.0L5.6 6.7L11.3 5.2L16.9 8.7L22.6 12.6L28.2 12.4L33.8 21.1L39.5 19.1L45.1 21.5L50.8 25.6L56.4 17.8L62.1 18.3L67.7 16.8L73.3 23.9L79.0 23.7L84.6 26.1L90.3 27.9L95.9 33.1L101.5 32.1L107.2 27.2L112.8 31.5L118.5 33.3L124.1 28.1L129.7 32.4L135.4 37.1L141.0 36.7L146.7 37.0L152.3 32.6L157.9 37.3L163.6 35.4L169.2 42.1L174.9 47.0L180.5 49.0L186.2 40.5L191.8 38.5L197.4 33.6L203.1 31.5L208.7 31.3L214.4 31.6L220.0 25.3L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 5.0L5.6 6.7L11.3 5.2L16.9 8.7L22.6 12.6L28.2 12.4L33.8 21.1L39.5 19.1L45.1 21.5L50.8 25.6L56.4 17.8L62.1 18.3L67.7 16.8L73.3 23.9L79.0 23.7L84.6 26.1L90.3 27.9L95.9 33.1L101.5 32.1L107.2 27.2L112.8 31.5L118.5 33.3L124.1 28.1L129.7 32.4L135.4 37.1L141.0 36.7L146.7 37.0L152.3 32.6L157.9 37.3L163.6 35.4L169.2 42.1L174.9 47.0L180.5 49.0L186.2 40.5L191.8 38.5L197.4 33.6L203.1 31.5L208.7 31.3L214.4 31.6L220.0 25.3" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40거래일</span>
+        </a>
+        <a class="hcard kpi" href="/metal" style="--i:4">
+          <span class="kpi-k">금 1돈 (국내)</span>
+          <span class="hcard-v">743,550원</span>
+          <span class="hcard-d up">▲ 1.40%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 7.0L5.6 5.5L11.3 5.3L16.9 5.0L22.6 18.6L28.2 12.1L33.8 18.2L39.5 20.3L45.1 30.4L50.8 28.9L56.4 23.7L62.1 26.1L67.7 28.4L73.3 18.5L79.0 15.2L84.6 16.2L90.3 19.5L95.9 25.2L101.5 27.2L107.2 26.4L112.8 31.5L118.5 36.1L124.1 37.9L129.7 39.0L135.4 41.6L141.0 37.1L146.7 30.9L152.3 34.3L157.9 42.0L163.6 36.8L169.2 42.5L174.9 46.8L180.5 49.0L186.2 46.3L191.8 48.2L197.4 47.7L203.1 40.1L208.7 33.6L214.4 31.4L220.0 26.4L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 7.0L5.6 5.5L11.3 5.3L16.9 5.0L22.6 18.6L28.2 12.1L33.8 18.2L39.5 20.3L45.1 30.4L50.8 28.9L56.4 23.7L62.1 26.1L67.7 28.4L73.3 18.5L79.0 15.2L84.6 16.2L90.3 19.5L95.9 25.2L101.5 27.2L107.2 26.4L112.8 31.5L118.5 36.1L124.1 37.9L129.7 39.0L135.4 41.6L141.0 37.1L146.7 30.9L152.3 34.3L157.9 42.0L163.6 36.8L169.2 42.5L174.9 46.8L180.5 49.0L186.2 46.3L191.8 48.2L197.4 47.7L203.1 40.1L208.7 33.6L214.4 31.4L220.0 26.4" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40일 (일별)</span>
+        </a>
+        <a class="hcard kpi" href="/energy" style="--i:5">
+          <span class="kpi-k">WTI 유가</span>
+          <span class="hcard-v">$79.19</span>
+          <span class="hcard-d up">▲ 1.29%</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 18.6L5.6 26.3L11.3 35.0L16.9 33.7L22.6 34.0L28.2 37.3L33.8 40.3L39.5 45.7L45.1 42.7L50.8 47.7L56.4 44.9L62.1 47.2L67.7 48.9L73.3 48.7L79.0 49.0L84.6 45.5L90.3 39.7L95.9 42.4L101.5 43.7L107.2 31.2L112.8 28.9L118.5 28.4L124.1 29.6L129.7 23.1L135.4 21.7L141.0 18.5L146.7 15.0L152.3 5.0L157.9 10.4L163.6 22.8L169.2 29.1L174.9 19.4L180.5 21.0L186.2 19.0L191.8 27.1L197.4 35.6L203.1 36.6L208.7 32.7L214.4 31.1L220.0 29.2L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 18.6L5.6 26.3L11.3 35.0L16.9 33.7L22.6 34.0L28.2 37.3L33.8 40.3L39.5 45.7L45.1 42.7L50.8 47.7L56.4 44.9L62.1 47.2L67.7 48.9L73.3 48.7L79.0 49.0L84.6 45.5L90.3 39.7L95.9 42.4L101.5 43.7L107.2 31.2L112.8 28.9L118.5 28.4L124.1 29.6L129.7 23.1L135.4 21.7L141.0 18.5L146.7 15.0L152.3 5.0L157.9 10.4L163.6 22.8L169.2 29.1L174.9 19.4L180.5 21.0L186.2 19.0L191.8 27.1L197.4 35.6L203.1 36.6L208.7 32.7L214.4 31.1L220.0 29.2" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">최근 40거래일</span>
+        </a>
+        <a class="hcard kpi" href="/macro" style="--i:6">
+          <span class="kpi-k">한국 기준금리</span>
+          <span class="hcard-v">2.75%</span>
+          <span class="hcard-d up">▲ 0.25%p</span>
+          <svg viewBox="0 0 220 56" preserveAspectRatio="none" class="kpi-spark up" aria-hidden="true"><path d="M0.0 5.0L9.6 5.0L19.1 16.0L28.7 27.0L38.3 27.0L47.8 27.0L57.4 38.0L67.0 38.0L76.5 38.0L86.1 49.0L95.7 49.0L105.2 49.0L114.8 49.0L124.3 49.0L133.9 49.0L143.5 49.0L153.0 49.0L162.6 49.0L172.2 49.0L181.7 49.0L191.3 49.0L200.9 49.0L210.4 49.0L220.0 38.0L220 56L0 56Z" fill="currentColor" opacity="0.12"></path><path d="M0.0 5.0L9.6 5.0L19.1 16.0L28.7 27.0L38.3 27.0L47.8 27.0L57.4 38.0L67.0 38.0L76.5 38.0L86.1 49.0L95.7 49.0L105.2 49.0L114.8 49.0L124.3 49.0L133.9 49.0L143.5 49.0L153.0 49.0L162.6 49.0L172.2 49.0L181.7 49.0L191.3 49.0L200.9 49.0L210.4 49.0L220.0 38.0" fill="none" stroke="currentColor" stroke-width="1.8" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path></svg>
+          <span class="kpi-cap">월별 · 최근 24개월</span>
+        </a>
+        <a class="hcard kpi" href="/macro" style="--i:7">
+          <span class="kpi-k">김치 프리미엄</span>
+          <span class="hcard-v">-0.71%</span>
+          <span class="hcard-d flat">실시간</span>
+          <span class="kpi-spark kpi-spark-empty" aria-hidden="true"></span>
+          <span class="kpi-cap">업비트 · 코인베이스 대비</span>
+        </a>
+      <!-- prerender:kpi-grid:end -->
+    </div>
+  </section>
+
+  <section class="wrap home-sec" aria-label="비트코인 요약과 상품권 시세">
+    <div class="btc-gift-grid">
+      <div class="btc-card" id="btc-block">
+        <!-- prerender:btc-block:start -->
+          <div class="btc-main">
+            <div class="btc-head"><h3>비트코인</h3><span class="btc-code">BTC/KRW</span></div>
+            <div class="btc-price"><span class="btc-now">91,736,000원</span><span class="hcard-d up">▲ 0.66% (+606,000원)</span></div>
+            <svg viewBox="0 0 900 250" preserveAspectRatio="none" class="btc-chart" aria-hidden="true">
+            <defs><linearGradient id="gBtcHome" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b82f6" stop-opacity="0.26"></stop><stop offset="1" stop-color="#3b82f6" stop-opacity="0"></stop></linearGradient></defs>
+            <line x1="84" x2="894" y1="8.0" y2="8.0" class="btc-grid"></line><text x="76" y="12.0" class="btc-ylabel" text-anchor="end">97,610,400</text><line x1="84" x2="894" y1="86.0" y2="86.0" class="btc-grid"></line><text x="76" y="90.0" class="btc-ylabel" text-anchor="end">95,056,800</text><line x1="84" x2="894" y1="164.0" y2="164.0" class="btc-grid"></line><text x="76" y="168.0" class="btc-ylabel" text-anchor="end">92,503,200</text><line x1="84" x2="894" y1="242.0" y2="242.0" class="btc-grid"></line><text x="76" y="246.0" class="btc-ylabel" text-anchor="end">89,949,600</text>
+            <path d="M84.0 150.4L104.8 106.5L125.5 80.3L146.3 67.2L167.1 56.0L187.8 90.1L208.6 151.4L229.4 108.6L250.2 65.8L270.9 80.8L291.7 87.6L312.5 168.8L333.2 73.6L354.0 83.8L374.8 119.8L395.5 109.1L416.3 72.9L437.1 85.5L457.8 80.1L478.6 20.5L499.4 40.2L520.2 77.0L540.9 117.7L561.7 111.4L582.5 85.7L603.2 144.3L624.0 158.6L644.8 197.0L665.5 191.0L686.3 229.5L707.1 223.4L727.8 213.3L748.6 228.9L769.4 201.5L790.2 187.6L810.9 202.4L831.7 199.6L852.5 199.2L873.2 205.9L894.0 187.4L894 250L84 250Z" fill="url(#gBtcHome)"></path>
+            <path d="M84.0 150.4L104.8 106.5L125.5 80.3L146.3 67.2L167.1 56.0L187.8 90.1L208.6 151.4L229.4 108.6L250.2 65.8L270.9 80.8L291.7 87.6L312.5 168.8L333.2 73.6L354.0 83.8L374.8 119.8L395.5 109.1L416.3 72.9L437.1 85.5L457.8 80.1L478.6 20.5L499.4 40.2L520.2 77.0L540.9 117.7L561.7 111.4L582.5 85.7L603.2 144.3L624.0 158.6L644.8 197.0L665.5 191.0L686.3 229.5L707.1 223.4L727.8 213.3L748.6 228.9L769.4 201.5L790.2 187.6L810.9 202.4L831.7 199.6L852.5 199.2L873.2 205.9L894.0 187.4" fill="none" stroke="#2563eb" stroke-width="2" vector-effect="non-scaling-stroke" stroke-linejoin="round"></path>
+          </svg>
+            <p class="kpi-cap">최근 40일 일봉 추이 · 상세 차트는 코인 페이지에서</p>
+          </div>
+          <aside class="btc-side">
+            <h4>시장 요약</h4>
+            <div class="btc-row"><span>전일 대비</span><b class="up">▲ 0.66% (+606,000원)</b></div>
+            <div class="btc-row"><span>24H 거래대금</span><b>348억원</b></div>
+            <div class="btc-row"><span>김치 프리미엄</span><b class="down">-0.71%</b></div>
+            <a class="btc-more" href="/coin">코인 시세 더보기 →</a>
+          </aside>
+        <!-- prerender:btc-block:end -->
       </div>
-      <div id="home-lotto">
-        <!-- prerender:home-lotto:start -->
-          <a class="wide-tile" href="/lotto">
-            <span class="wt-k">로또 1236회 · 2026-08-08</span>
-            <span class="wt-v">12 · 18 · 21 · 29 · 34 · 38 <b>+10</b></span>
-            <span class="wt-m">총 판매 1,141억원 · 1등 11명 <svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg></span>
-          </a>
-        <!-- prerender:home-lotto:end -->
+      <aside class="gift-panel">
+        <div class="gift-head">
+          <span class="gift-title">상품권 시세 <small>주요 상품</small></span>
+          <a class="gift-all" href="/giftcard">전체보기 ›</a>
+        </div>
+        <div class="gift-rows" id="gift-rows">
+          <!-- prerender:gift-rows:start -->
+            <a class="gift-row" href="/giftcard/shinsegae">
+              <span class="gift-chip" style="background:#c8102e">신세계</span>
+              <span class="gift-name">신세계상품권 10만원권</span>
+              <span class="gift-val">96,620원</span>
+            </a>
+            <a class="gift-row" href="/giftcard/lotte">
+              <span class="gift-chip" style="background:#da291c">롯데</span>
+              <span class="gift-name">롯데상품권 10만원권</span>
+              <span class="gift-val">95,550원</span>
+            </a>
+            <a class="gift-row" href="/giftcard/hyundai">
+              <span class="gift-chip" style="background:#00805a">현대</span>
+              <span class="gift-name">현대상품권 10만원권</span>
+              <span class="gift-val">96,650원</span>
+            </a>
+          <!-- prerender:gift-rows:end -->
+        </div>
+        <p class="gift-note">오늘 기준 · 단위: 원 · 최고 매입가</p>
+      </aside>
+    </div>
+  </section>
+
+  <section class="wrap home-sec" aria-label="바로 보기">
+    <div class="sec-head"><h2>바로 보기</h2></div>
+    <div class="quick-grid" id="quick-grid">
+      <!-- prerender:quick-grid:start -->
+        <a class="quick-card" href="/coin">
+          <span class="hicon hicon-lg" style="background:#fdf1d8"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M23.638%2014.904c-1.602%206.43-8.113%2010.34-14.542%208.736C2.67%2022.05-1.244%2015.525.362%209.105%201.962%202.67%208.475-1.243%2014.9.358c6.43%201.605%2010.342%208.115%208.738%2014.548z%22%20fill%3D%22%23f7931a%22%2F%3E%3Cpath%20fill-rule%3D%22evenodd%22%20d%3D%22M17.288%2010.29c.24-1.59-.974-2.45-2.64-3.03l.54-2.153-1.315-.33-.525%202.107c-.345-.087-.705-.167-1.064-.25l.526-2.127-1.32-.33-.54%202.165c-.285-.067-.565-.132-.84-.2l-1.815-.45-.35%201.407s.975.225.955.236c.535.136.63.486.615.766l-1.477%205.92c-.075.166-.24.406-.614.314.015.02-.96-.24-.96-.24l-.66%201.51%201.71.426.93.242-.54%202.19%201.32.327.54-2.17c.36.1.705.19%201.05.273l-.51%202.154%201.32.33.545-2.19c2.24.427%203.93.257%204.64-1.774.57-1.637-.03-2.58-1.217-3.196.854-.193%201.5-.76%201.68-1.93zm-3.01%204.22c-.404%201.64-3.157.75-4.05.53l.72-2.9c.896.23%203.757.67%203.33%202.37zm.41-4.24c-.37%201.49-2.662.735-3.405.55l.654-2.64c.744.18%203.137.524%202.75%202.09z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">코인</span><span class="quick-d">실시간 코인 시세와 김치 프리미엄</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/stock">
+          <span class="hicon hicon-lg" style="background:#dbeafe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%223%22%20y%3D%2213%22%20width%3D%224.6%22%20height%3D%228%22%20rx%3D%221.3%22%20fill%3D%22%2393c5fd%22%2F%3E%3Crect%20x%3D%229.7%22%20y%3D%229%22%20width%3D%224.6%22%20height%3D%2212%22%20rx%3D%221.3%22%20fill%3D%22%233b82f6%22%2F%3E%3Crect%20x%3D%2216.4%22%20y%3D%224.5%22%20width%3D%224.6%22%20height%3D%2216.5%22%20rx%3D%221.3%22%20fill%3D%22%231d4ed8%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">주식</span><span class="quick-d">코스피 지수와 주요 종목 시세</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/kosdaq">
+          <span class="hicon hicon-lg" style="background:#ede9fe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3%2021v-5l4.5-5%203.5%203%205-7%205%204v10Z%22%20fill%3D%22%23ddd6fe%22%2F%3E%3Cpath%20d%3D%22M3%2016l4.5-5%203.5%203%205-7%205%204%22%20fill%3D%22none%22%20stroke%3D%22%237c3aed%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">코스닥</span><span class="quick-d">코스닥 지수와 시장 동향</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/fx">
+          <span class="hicon hicon-lg" style="background:#d1fae5"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2212%22%20r%3D%2210%22%20fill%3D%22%2310b981%22%2F%3E%3Ctext%20x%3D%2212%22%20y%3D%2216.6%22%20font-family%3D%22Arial%2C%20sans-serif%22%20font-size%3D%2213%22%20font-weight%3D%22700%22%20fill%3D%22%23fff%22%20text-anchor%3D%22middle%22%3E%24%3C%2Ftext%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">환율</span><span class="quick-d">주요국 환율과 외환 시장 동향</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/metal">
+          <span class="hicon hicon-lg" style="background:#fef9c3"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8.4%204.8h7.2l1.7%205.4H6.7Z%22%20fill%3D%22%23fbbf24%22%2F%3E%3Cpath%20d%3D%22M3.9%2012.6h7.2l1.7%205.4H2.2Z%22%20fill%3D%22%23f59e0b%22%2F%3E%3Cpath%20d%3D%22M13.2%2012.6h7.2l1.7%205.4h-10.6Z%22%20fill%3D%22%23fcd34d%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">금·은</span><span class="quick-d">국내외 금·은 시세와 귀금속 가격</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/energy">
+          <span class="hicon hicon-lg" style="background:#ffedd5"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M12%202.6S5.6%209.9%205.6%2014.4a6.4%206.4%200%200%200%2012.8%200C18.4%209.9%2012%202.6%2012%202.6Z%22%20fill%3D%22%23f97316%22%2F%3E%3Cpath%20d%3D%22M8.9%2014.6a3.1%203.1%200%200%200%203.1%203.1%22%20fill%3D%22none%22%20stroke%3D%22%23fed7aa%22%20stroke-width%3D%221.7%22%20stroke-linecap%3D%22round%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">유가·원자재</span><span class="quick-d">국제 유가와 전국 주유소 기름값</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/macro">
+          <span class="hicon hicon-lg" style="background:#e0f2fe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M3.2%2019a8.8%208.8%200%200%201%2017.6%200%22%20fill%3D%22none%22%20stroke%3D%22%23bae6fd%22%20stroke-width%3D%223.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M3.2%2019a8.8%208.8%200%200%201%2012.3-8.08%22%20fill%3D%22none%22%20stroke%3D%22%230284c7%22%20stroke-width%3D%223.2%22%20stroke-linecap%3D%22round%22%2F%3E%3Cpath%20d%3D%22M12%2019l4.7-5.5%22%20stroke%3D%22%23075985%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%2F%3E%3Ccircle%20cx%3D%2212%22%20cy%3D%2219%22%20r%3D%222.1%22%20fill%3D%22%23075985%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">지표</span><span class="quick-d">기준금리·국고채 등 국내 금리 지표</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/giftcard">
+          <span class="hicon hicon-lg" style="background:#ccfbf1"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%222.5%22%20y%3D%225.5%22%20width%3D%2219%22%20height%3D%2213.5%22%20rx%3D%222.6%22%20fill%3D%22%2314b8a6%22%2F%3E%3Crect%20x%3D%222.5%22%20y%3D%229.2%22%20width%3D%2219%22%20height%3D%222.8%22%20fill%3D%22%230f766e%22%2F%3E%3Ccircle%20cx%3D%2217%22%20cy%3D%2215.6%22%20r%3D%221.7%22%20fill%3D%22%2399f6e4%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">상품권</span><span class="quick-d">백화점·문화상품권 매입/판매 시세</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/hotdeal">
+          <span class="hicon hicon-lg" style="background:#fee2e2"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20d%3D%22M8.5%2014.5A2.5%202.5%200%200%200%2011%2012c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054%202-6%20.5%202.5%202%204.9%204%206.5%202%201.6%203%203.5%203%205.5a7%207%200%201%201-14%200c0-1.153.433-2.294%201-3a2.5%202.5%200%200%200%202.5%202.5Z%22%20fill%3D%22%23f97316%22%2F%3E%3Cpath%20d%3D%22M12%2020.6a3.4%203.4%200%200%200%203.4-3.4c0-1-.5-1.9-1.2-2.6-.8.9-2.2%201.4-2.2%202.8a2.2%202.2%200%200%201-2.2-2.2c-.7.7-1.2%201.5-1.2%202A3.4%203.4%200%200%200%2012%2020.6Z%22%20fill%3D%22%23fde68a%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">핫딜</span><span class="quick-d">핫딜 커뮤니티 실시간 특가 모음</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/realestate">
+          <span class="hicon hicon-lg" style="background:#dbeafe"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Crect%20x%3D%223%22%20y%3D%229.5%22%20width%3D%227.6%22%20height%3D%2211.5%22%20rx%3D%221%22%20fill%3D%22%2393c5fd%22%2F%3E%3Crect%20x%3D%2212.6%22%20y%3D%223.5%22%20width%3D%228.4%22%20height%3D%2217.5%22%20rx%3D%221%22%20fill%3D%22%232563eb%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%226.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%226.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%2210%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%2210%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2214.6%22%20y%3D%2213.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%2217.6%22%20y%3D%2213.5%22%20width%3D%221.7%22%20height%3D%221.7%22%20fill%3D%22%23bfdbfe%22%2F%3E%3Crect%20x%3D%225%22%20y%3D%2212%22%20width%3D%221.6%22%20height%3D%221.6%22%20fill%3D%22%23dbeafe%22%2F%3E%3Crect%20x%3D%227.8%22%20y%3D%2212%22%20width%3D%221.6%22%20height%3D%221.6%22%20fill%3D%22%23dbeafe%22%2F%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">부동산</span><span class="quick-d">전국 아파트 실거래가 지도와 통계</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+        <a class="quick-card" href="/lotto">
+          <span class="hicon hicon-lg" style="background:#dcfce7"><span class="hicon-img" style="background-image:url('data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cg%20transform%3D%22rotate(45%2012%2012)%22%3E%3Crect%20x%3D%224.2%22%20y%3D%224.2%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%2322c55e%22%2F%3E%3Crect%20x%3D%2212.8%22%20y%3D%224.2%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%234ade80%22%2F%3E%3Crect%20x%3D%224.2%22%20y%3D%2212.8%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%234ade80%22%2F%3E%3Crect%20x%3D%2212.8%22%20y%3D%2212.8%22%20width%3D%227%22%20height%3D%227%22%20rx%3D%223.3%22%20fill%3D%22%2322c55e%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E')"></span></span>
+          <span class="quick-body"><span class="quick-t">로또</span><span class="quick-d">로또 당첨 결과와 번호 추첨</span></span>
+          <svg class="quick-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"></path></svg>
+        </a>
+      <!-- prerender:quick-grid:end -->
+    </div>
+  </section>
+
+  <section class="wrap home-sec" aria-label="데이터 안내">
+    <div class="trust">
+      <span class="trust-shield" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-3 8-10V5l-8-3-8 3v7c0 7 8 10 8 10ZM9 12l2 2 4-4"></path></svg></span>
+      <div class="trust-body">
+        <div class="trust-t">정확한 데이터 · 빠른 업데이트 · 신뢰할 수 있는 정보</div>
+        <div class="trust-d">동행복권 · Yahoo Finance · 업비트 · 국토교통부 · 한국은행 · 오피넷 등 공신력 있는 1차 출처에서 매시간 자동 수집합니다. 모든 시세는 참고용입니다.</div>
       </div>
+      <a class="trust-btn" href="/about">데이터 출처 및 안내 →</a>
     </div>
   </section>
 </main>
@@ -233,12 +428,14 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
     <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>
 <!-- static-shell:footer:end -->
 
-<script src="assets/site-config.js?v=20260810-light2"></script>
-<script src="assets/app.js?v=20260810-light2"></script>
-<script src="assets/pages.js?v=20260810-light2"></script>
+<script src="assets/site-config.js?v=20260810-home1"></script>
+<script src="assets/home-render.js?v=20260810-home1"></script>
+<script src="assets/app.js?v=20260810-home1"></script>
+<script src="assets/pages.js?v=20260810-home1"></script>
 </body>
 </html>

@@ -41,67 +41,26 @@ const updateQuery = (values, mode = 'push') => {
 };
 
 // ---------- 홈 대시보드 ----------
-const HOME_TILES = [
-  { id: 'kospi', href: '/stock', cat: '주식' },
-  { id: 'kosdaq', href: '/kosdaq', cat: '코스닥' },
-  { id: 'btc', href: '/coin', cat: '코인' },
-  { id: 'kimchi', href: '/macro', cat: '지표' },
-  { id: 'usdkrw', href: '/fx', cat: '환율' },
-  { id: 'gold_don', href: '/metal', cat: '금' },
-  { id: 'wti', href: '/energy', cat: '유가' },
-  { id: 'ust10', href: '/macro', cat: '금리' },
-];
-
+// 마크업 생성은 home-render.js(프리렌더와 공유)가 담당하고,
+// 여기서는 최신 home.json 으로 각 마운트를 갱신만 합니다.
 async function pageHome() {
   const home = await fetchJSON('/data/home.json');
-  const markets = { items: home.markets || [], updatedAt: home.updatedAt };
-  const gift = home.giftcard;
-  const lotto = home.lotto;
-
-  // 시세 타일
-  if (markets) {
-    const byId = new Map(markets.items.map((i) => [i.id, i]));
-    $('#home-grid').innerHTML = HOME_TILES.map((t, i) => {
-      const it = byId.get(t.id);
-      if (!it) return '';
-      const d = dir(it.changePct);
-      const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
-      return `<a class="tile" href="${t.href}" style="--i:${i}">
-        <span class="tile-cat">${esc(t.cat)}</span>
-        <span class="tile-name">${esc(it.name)}</span>
-        <span class="tile-price">${fmtPrice(it.price, it.group, it.unit)}<em>${esc(it.unit)}</em></span>
-        <span class="tile-delta ${d}">${
-          it.changePct == null
-            ? ''
-            : `${icon(d)}<span class="sr-label">${label}</span>${num(Math.abs(it.changePct), 2)}%`
-        }</span>
-        ${sparkline(it.spark)}
-      </a>`;
-    }).join('');
+  const R = globalThis.MODOO_HOME_RENDER;
+  if (R) {
+    const put = (sel, html) => {
+      const el = $(sel);
+      if (el && html) el.innerHTML = html;
+    };
+    put('#hero-live', R.heroLive(home));
+    put('#hero-stats', R.heroStats(home));
+    put('#hero-pill', R.heroPill(home));
+    put('#cat-grid', R.catCards(home));
+    put('#kpi-grid', R.kpiCards(home));
+    put('#btc-block', R.btcBlock(home));
+    put('#gift-rows', R.giftRows(home));
+    // #quick-grid 는 데이터와 무관한 정적 링크라 프리렌더 그대로 둡니다.
   }
-
-  // 상품권 요약 — 롯데 10만원권 최고 매입가
-  if (gift) {
-    if (Number.isFinite(gift.buy)) {
-      $('#home-gift').innerHTML = `<a class="wide-tile" href="/giftcard">
-        <span class="wt-k">상품권 · 롯데 10만원권 최고 매입가</span>
-        <span class="wt-v">${won(gift.buy)}</span>
-        <span class="wt-m">${num(gift.buyRate, 2)}% · ${esc(gift.shop)}${gift.method ? ` · ${esc(gift.method)}` : ''} ${icon('arrow')}</span>
-      </a>`;
-    }
-  }
-
-  // 로또 요약 — 최신 회차
-  if (lotto?.round) {
-    const r = lotto;
-    $('#home-lotto').innerHTML = `<a class="wide-tile" href="/lotto">
-      <span class="wt-k">로또 ${finite(r.round)}회 · ${esc(r.date)}</span>
-      <span class="wt-v">${(r.numbers || []).map((n) => finite(n)).join(' · ')} <b>+${finite(r.bonus)}</b></span>
-      <span class="wt-m">총 판매 ${compactWon(finite(r.sales))} · 1등 ${finite(r.firstWinners)}명 ${icon('arrow')}</span>
-    </a>`;
-  }
-
-  setStatus(markets?.updatedAt);
+  setStatus(home.updatedAt);
 }
 
 // ---------- 단순 그룹 페이지 ----------
