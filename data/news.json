@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-11T17:54:39+09:00",
+  "updatedAt": "2026-08-11T18:46:41+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "코스피 6345 마감, 삼성전자 반등이 이끌었다",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13ZERvaUxEbDZoWWludGtKOHFqczBqMENBVlctN2pieVYxV1VaQ1dWMWNsbFZGb1lfZ2hMeUk0dDVBeHVjYlVkSUJWQThGRS1faGFLRmhRblp3RnFWNXRGcg?oc=5",
+        "source": "theconnectmoney.com",
+        "date": "2026-08-11T08:51:00.000Z"
+      },
+      {
         "title": "[마감시황] 코스피 6345.53로 0.73% 상승…삼성전자 4.13% 강세",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxbnZ4TmNVakl5bkViVG9qQjItQVI3R2l3dGJSV0Jac2NiTC1yeXRPUlpOek80WnFncVNXcFE5ZzB1akZhQ3NnbXJPSWdHbDhNb3FYRkUwazctZG1IVkNKXzZoVHVpOTA?oc=5",
         "source": "자본시장뉴스",
@@ -89,19 +95,37 @@
         "date": "2026-08-11T07:40:30.000Z"
       },
       {
-        "title": "반도체 수출 호조에 코스피 6,345선-코스닥도 막판 반등",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1GMnJ3ZjBSNC1XWGotejU3eVNGTHBnNXR4Smlhb0Y1LW9tNmdTa0N0MGpVXzd1alc1WmpLU2U2TmduaE1BSlZITDFxVmxLWUpyMDlsWkxyVXdPRVZfaExvUkJxb2VHOFY0Q3pxTjVR?oc=5",
-        "source": "미디어파인",
-        "date": "2026-08-11T07:39:25.000Z"
-      },
-      {
-        "title": "[코스피·코스닥지수] 이달 코스닥 19% 급등…세계 주요 증시 상승률 1위, 기관이 반등 이끌었다",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1CVWRDZVVtOXlOQzMyekRwMGR2Yk0yendfVktCUHlLdU8zbTFmT1BnVVR3dkJfRkxxY0RmcXp6XzJoX2dVajRUVVNGQm1YTE1HSGlCaV84WXpPeGVOX1A0YmNHSTJCUUR2cmVXQWMzR1E?oc=5",
-        "source": "한국강사신문",
-        "date": "2026-08-11T07:33:00.000Z"
+        "title": "중동 리스크 딛고 반등한 코스피···반도체 수출 호조에 6345선 마감",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaNF81bFRkYkkzNDQxV3l6M0I2dDhhUERSXzF1OGVMd1JxTlhJM0RwVDZtMzJEcEdCWndjeFE1MktuNEprbmlkdTVmUWVOZndSX2ljUHNiczBLRVNvQ0RQTU1DbHZvLWxaUDJNSw?oc=5",
+        "source": "스마트비즈",
+        "date": "2026-08-11T07:39:43.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "코스피·코스닥 이틀째 동반 상승…삼성전자 4%대 급등",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5hYnZpMzVBa2ZiRHNJeGJMelVIODNTOXlLQnltcF9IZHVDUDJwTkQyZlZSN1ZwSmx2M2xqcDhqZGI1VHdxcjVuX3FMWGRKb2s?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-11T09:10:11.000Z"
+      },
+      {
+        "title": "승강제 올라타는 코스닥… 시총보다 실적이 대장주 가른다",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yUEpoZFBQTWJPT21PdldTM0F4Uy1JUmw0MHNMWml1dHUzV1F4QmktamdvNGdBd3E4c3VSU04xZ2tuU0ZrYUd0NmszYXhKWmc?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-11T09:09:40.000Z"
+      },
+      {
+        "title": "코스닥 33% 급등했는데 '못 믿는 개미'…현물 '매수' 레버리지 '매도'",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBWQ19INHdZX2s4Tjh4dkNvZ0Y1cWhRYVJBZjZuRi1RRHFhYUdUQm9UVU82bUlVdkFXMjBCMkRkSmh5WVlxSkYwcGU3QjdTNlFaSlpNTHN6cnpOUURLUktz0gFkQVVfeXFMTWVsUThjZkJWR3Y1d3Z5d2FaaHBOQkRGUHZaWHZzaUpuUHlGb19IbWdvV1h3TDE1OXlUaEJ2SVFSMTg2dkM5T0Nqb0d6WmJVOFpwd1BxSVhZbHF2ZHp5R1ZyV1plcQ?oc=5",
+        "source": "뉴스1",
+        "date": "2026-08-11T09:05:26.000Z"
+      },
+      {
+        "title": "코스닥 857선 사수…개인 5590억 매수에 순환매 지속",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBybHZfU1kyMlZRSmppOEI2WDFWWkRocmI2Q0NUTWNHMFF2TGpVNFdUVUNpeWhDb2hfN2Q4OUloclU2eDdCTUU5YmNIcXpCUVJOQ3hONWM1by12LThuZ0JHUHRB?oc=5",
+        "source": "이코노미스트",
+        "date": "2026-08-11T09:02:00.000Z"
+      },
       {
         "title": "코스피 소폭 상승… 코스닥 850선 유지",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxNXcxRGMyQUdkTVd1bE9FUUh2dkFxMEFjMk16Mi1lQkZCWVNXUkhibnBFbUVNeVR6U3ZSTWJubjFWYmZ0VWRGMFJDdWpPVmx6dkdmOGU3Ri1QVUxueElZcTZqUGI?oc=5",
@@ -123,35 +147,23 @@
       {
         "title": "코스닥 체질 개선 시동…‘동전주 퇴출’만으론 부족해",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xOVEwZ0RNWUJwYnVWNUxWMnQzbXRLRUlxR0d5VVdUTzRLVUxrSjRscG44em14UW56Rm1SYlFmUnI4NGJYYUE2RTZTTUhWalZGUjRBdHpvdVhqVG43OVYwbFJ1OGRSN0VKYV9UajNDajA?oc=5",
-        "source": "한양경제",
+        "source": "hanyangeconomy.com",
         "date": "2026-08-11T07:50:29.000Z"
-      },
-      {
-        "title": "코스피 6300선 회복·코스닥 850선 안착…수출 호조에 반도체주 반등",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1xRFhxWk5hUV9reDFicEpScmlDT3Z2QVBXQVJmaExieTJ2M21aSHBQUVdfQTNNeTBCSGFlVXU3N1hKNjd0b3JWUHRTZzJDMzF3NS1GRzZiUk9kdWxvdjljSm9YQVdyd2kwNndxZU5INU80dw?oc=5",
-        "source": "인더스트리뉴스",
-        "date": "2026-08-11T07:50:01.000Z"
-      },
-      {
-        "title": "반도체·화장품 수출이 끌어올렸다…코스피·코스닥 동반 상승 - 머니투데이",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqajZNMlBWTFFKZnFpRXB0QlJSZmluX21OczJObDY4WXdHV0VMemo1RUkyMWdGV3phVW9mMGxncDEwYWpnZHlMVmlFeFZIMmJVemw1RTZIWmdzT1FIQ3FNNkhpd1VwRlJu0gFuQVVfeXFMTWZtVFZQaDVFd1R3bDlPNlhHejJMa1hITXJVbUI4WEJCNHVtTEJ1VEk3QTI4SWE3X2pPUVJPcnBMXzZfSWwxZXUwVGx6YTJEN3RER2V0LUw1YnM2UHZqYkphekhaZjFpVWJ1TENHdmc?oc=5",
-        "source": "머니투데이",
-        "date": "2026-08-11T07:49:17.000Z"
-      },
-      {
-        "title": "‘삼전·닉스’ 쉬자 10종목 중 9개 올랐다…코스닥으로 번진 순환매",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vbXVZTjhZclBPby1paTd0NjBIQXdIOHBnQVR6R2xUT3hHTUpnSVU3U2YwUFNaSnVGeklNZmpRVDY0Uzl1d3VrMXNBVFpmenFWeGVjTTV0NlNJNTZaaUNNSmxEbDVIY01U?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-08-11T07:40:31.000Z"
-      },
-      {
-        "title": "반도체 수출 호조에 코스피·코스닥 동반 상승",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzNnl3Z1pzenNVbUZDWUtSQVZnaHhzdDQtdGx6VUZ2bTR6ZWd5LVYzcUpMZkdfZDZuNjkxbnZWTTJLT0ZxOFpTWUtoYW53cEhrZUgwMjFRNmhJQTZ4TXBFWg?oc=5",
-        "source": "뉴스토마토",
-        "date": "2026-08-11T07:40:19.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "한눈에 보는 오늘의 뉴스",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBTSlBrWHFmNWRaOWtvR1JqSVRZcU1xeFYweXV2SUlPYXhKWjNxbFVSLVE0dmp5Zm5IOXhRcGFxMnh1bU1qNnNfcHZ6OFRuVm5YZDV6bHd5aVlMY3NBQkw5bzh3?oc=5",
+        "source": "데일리바이트(DAILY BYTE)",
+        "date": "2026-08-11T09:17:00.000Z"
+      },
+      {
+        "title": "[마켓] 엔·달러 다시 159엔대…원·달러는 1415.9원 3거래일째 1410원대",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNOHdjM2pNb3NDYXJUT2hXNGFQeEU5NFZuQUlhanlqYlN6bVp4UTNGVERwc3lMbHR5VUN3WDAzSWduM0dDSkdDUHoxQUxEWUlaMHg1OWVfUEllV3gzendmamJPRHdyVWc?oc=5",
+        "source": "자본시장뉴스",
+        "date": "2026-08-11T09:00:00.000Z"
+      },
       {
         "title": "원·달러 환율 급락에 희비 엇갈리는 제약·바이오",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5SSENyMVVmRUwyUEcyUGFpLTc5S0F6UW5hRzZ0WTBMUjdrSTlCbWJpbDJ1eVc1M0VMSk1xUHZJckRRWmRyejFKTDlULW1rVWljTVc5ZXlJR0RpdHJCSGtBMFdQa2E?oc=5",
@@ -187,18 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoZXhnRTg2RUowejlrWkZRckQtSmxwMkhDaGlnMDhMZ3MtcFk5SmZ2Y084TWcyZHF4bzNoM3NTSDY4VXBtY2FsVVdnc0tMYnVTMjU0?oc=5",
         "source": "네이트",
         "date": "2026-08-11T07:53:00.000Z"
-      },
-      {
-        "title": "원·달러 환율, 1410원대 초반 안착…美 고용쇼크 여파에 약세 지속",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9PMC1yRjc3Znk2SjRqZ0hXa0VkOGYyb3FBQUNjc2Jyd044NVM0RC10WkYyREhCWk16Vmt4RjJaWHZDeWlLX19SSzVVTkFyTVhBamhJ?oc=5",
-        "source": "네이트",
-        "date": "2026-08-11T07:47:00.000Z"
-      },
-      {
-        "title": "1550원의 공포, 1420원의 기회…환율이 바꾼 금융지주 표정 : 네이버 블로그",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPejhVY2phZXFiVF81VXBqNEFxbEpEVC0wTDZoMDZPa29hWEg4bkhKa0tvVklodXJMdjB5ZmEyUmdtcDktVmNFUl9iLU4wTGMyWS1lUjJYdTU3dWt6cEtZbUpHWEZHNGMyRjVIMXpVWHBSb2V5SUJJXzJ4bU5SRUh6RXNEVFZUdHpvMnRLc3pORQ?oc=5",
-        "source": "Naver Blog",
-        "date": "2026-08-11T07:37:27.000Z"
       }
     ],
     "metal": [
@@ -223,7 +223,7 @@
       {
         "title": "[오늘의 금값시세] 8월 10일 금시세(순금·24K)는?",
         "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9sNjBQRkM0clVWRk5rbFloQlBFX2gwYkI3SllNZS1RWVNYNFhBLWVYNlZSSzIyLXV2VjhTbWZ1b3QwS3NFOFFLWA?oc=5",
-        "source": "얼리어답터뉴스",
+        "source": "eanews.kr",
         "date": "2026-08-11T05:43:40.000Z"
       },
       {
@@ -323,7 +323,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "goodkyung.com",
+        "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -466,15 +466,9 @@
       },
       {
         "title": "안 찾아간 로또 당첨금 581억…이젠 깜빡해도 통장에 자동 입금",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9HcmN2Y2N5SHZpZXZoYWlBUUJXRjF5U1NodmRaTjRaSDNqOGNiT2FFajc4cFAtYzRjenZwSHljQzh5Z193QmlpZEtCc2M0Q3p0NGVhNGQzRDBVcm10aWRIdi05OWZPUzEwRUdR0gFuQVVfeXFMTXFtZG5oMGZ1eFJFMzdSa2hTRWZ0eUExWTVYX0YtcENRMnRGSk01QzY5QVBadnpZcjFKYU1TN0stQUxpV0MwdTJNZ3NuRGNWT2ZRM0VUODB0UnZ1MXhBQjhoMGV3ODN0a1I3TFBGY3c?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBkcU5EQmJ0bnctNllpYnREWUR6cm9YMFZLY1ltN0k2VWFpZktGRFJaLTc5c2theEltOTdvSnhuczAtVmNCWUFaR0RvV0psS2xiTVJXT1RZN0dLNWdWa0hRSGdGdW1Za0dBS1HSAW5BVV95cUxNcW1kbmgwZnV4UkUzN1JraFNFZnR5QTFZNVhfRi1wQ1EydEZKTTVDNjlBUFp2ellyMUphTVM3Sy1BTGlXQzB1Mk1nc25EY1ZPZlEzRVQ4MHRSdnUxeEFCOGgwZXc4M3RrUjdMUEZjdw?oc=5",
         "source": "주간조선",
         "date": "2026-08-11T06:00:00.000Z"
-      },
-      {
-        "title": "로또 4등·5등도 ‘QR등록’하면 앞으로 당첨금 자동입금···당첨 여부도 자동 알림",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBick1Cdk5USklFSE1BODF3bFF0M2NycEZZbUVzTHFSRkVkcnd2MlNUS3VWODVScldiekZzTzhvemZJNC1kTjZwU1p0QldHVFZ0MVZvMEloSDZWQdIBX0FVX3lxTE92eC1yeGdrcGFCUkNWQUpnSmRVaVJpNjQ1NlozV2NpRkhSbHV3cUl1cWVNS2E2ZzdESFROdlNxZUlPT003U2VPZTRYWG56UzRFQ2xJa1kzYTdnbS1kTWpj?oc=5",
-        "source": "경향신문",
-        "date": "2026-08-11T05:39:00.000Z"
       },
       {
         "title": "로또 당첨금, 안 찾아가도 된다…'이날'부터 자동으로 받습니다",
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xdFpNMWRTRnMxblF3T01nSUV0YnJrQlZEd2dFRXVseHFpN0RKSm8xVXpVZnNJWnhNTVdaUlhLOUxmTUNkU1Q2UVhEZHZxSHJZaWFCTlF4aWlmOW1SV0VfZ0RUYm9NYjdXZFNlcnd3?oc=5",
         "source": "미디어파인",
         "date": "2026-08-11T04:34:11.000Z"
+      },
+      {
+        "title": "로또 당첨금, 이제 자동으로 입금된다",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9sd2p2bkM0R2x3R3BzNXVRYy1xaW1DQUV1ZnRLMmJJVFRORWNTcVFIZW9HTHVUbTJLUVlYWEdWVmx4YTIwRXhrektrMk5IcnlGaGtrZ3lwNVh5eVlHYzFZLVFB?oc=5",
+        "source": "매일신문",
+        "date": "2026-08-11T04:23:26.000Z"
       }
     ]
   }
