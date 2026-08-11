@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-12T00:45:48+09:00",
+  "updatedAt": "2026-08-12T01:43:01+09:00",
   "deals": [
+    {
+      "title": "아이더 2PACK 기능성 아이스 반팔 라운드 티셔츠",
+      "mall": "롯데온",
+      "price": 24340,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726485",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-11T16:15:07.000Z"
+    },
+    {
+      "title": "홈플러스&amp;롯데마트&amp;이마트&amp;GS프레시&amp;킴스 이번주 전단(8/13~19)",
+      "mall": "대형마트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106304",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-11T16:07:52.000Z"
+    },
+    {
+      "title": "블랙야크 남녀 미들기장 한겨울 발열 구스다운 M윈터디퍼다운자켓",
+      "mall": "롯데온",
+      "price": 114730,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726484",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-11T16:03:48.000Z"
+    },
+    {
+      "title": "T데이, 백억커피 아메리카노 100원, 브랜드 위크 외 (8/12)",
+      "mall": "T멤버십",
+      "price": 100,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106303",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-11T16:02:54.000Z"
+    },
+    {
+      "title": "아이더 온더락 카고 아이스 조거 팬츠",
+      "mall": "지마켓",
+      "price": 36130,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726483",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-11T16:01:48.000Z"
+    },
+    {
+      "title": "폴햄 여성 팬츠 여러종",
+      "mall": "지마켓",
+      "price": 13120,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726482",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-11T16:00:00.000Z"
+    },
     {
       "title": "카이로소프트 여름 방학 번들 Vol.14",
       "mall": "스팀",
@@ -11,6 +77,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-11T15:44:25.000Z"
+    },
+    {
+      "title": "화산송이 모공 클렌징폼 150ml 외 다양",
+      "mall": "이니스프리몰",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726481",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-11T15:41:01.000Z"
     },
     {
       "title": "카누 캡슐커피 돌체구스토 호환 캡슐 6종 48개입 골라담기 +스무스미디엄 16개입 증정",
@@ -145,39 +222,6 @@
       "date": "2026-08-11T15:11:32.000Z"
     },
     {
-      "title": "햇 샤인머스켓 1.5kg (3수)",
-      "mall": "11번가",
-      "price": 12930,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726469",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-11T15:10:53.000Z"
-    },
-    {
-      "title": "초강력 무선 에어건 AERO X10",
-      "mall": "11번가",
-      "price": 26900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726468",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-11T15:10:27.000Z"
-    },
-    {
-      "title": "스파오 패쪼후드니트웜팬츠 100종",
-      "mall": "11번가",
-      "price": 9420,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726467",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-11T15:10:12.000Z"
-    },
-    {
       "title": "일일적립, 클릭 28원, 퀴즈미션, 라이브예고 12원",
       "mall": "네이버페이",
       "price": 12,
@@ -187,28 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-11T15:09:40.000Z"
-    },
-    {
-      "title": "사운드본 런오프 EMS 슬리퍼형 발마사지기",
-      "mall": "하이마트",
-      "price": 68000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726466",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-11T15:09:12.000Z"
-    },
-    {
-      "title": "그릭데이 시그니처 딸기3 + 유자3 (100g 6개입) 임박",
-      "mall": "지마켓",
-      "price": 17500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726465",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-11T15:05:33.000Z"
     },
     {
       "title": "넨도로이드 토미에 재예약 / 63,900원",
@@ -528,28 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-10T11:57:01.000Z"
-    },
-    {
-      "title": "스파클 2L 24병 7,200원",
-      "mall": "토스",
-      "price": 7200,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106274",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-10T11:45:49.000Z"
-    },
-    {
-      "title": "신메뉴 4종 네이버페이 5천원 이상 결제시 50% 할인(8/11~14)",
-      "mall": "더벤티",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106273",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-10T10:56:13.000Z"
     },
     {
       "title": "벤딕트 TPE 카매트 자동차 용품 차량 발매트 바닥 1열+2열 에어핏",
