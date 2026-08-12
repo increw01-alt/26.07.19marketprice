@@ -2,6 +2,12 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { createRequire } from 'node:module';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import {
+  GIFT_CARD_CHECKLIST,
+  GIFT_CARD_FAQ,
+  GIFT_CARD_FAQ_UPDATED,
+  GIFT_CARD_OFFICIAL_LINKS,
+} from './giftcard-faq.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const require = createRequire(import.meta.url);
@@ -9,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260810-home1';
+const ASSET_VERSION = '20260812-faq1';
 
 const esc = (value) =>
   String(value ?? '')
@@ -111,6 +117,72 @@ function safeHttpUrl(value) {
   } catch {
     throw new Error(`허용되지 않은 외부 URL: ${value}`);
   }
+}
+
+function giftCardFaqHtml() {
+  const questions = GIFT_CARD_FAQ.map(
+    ({ question, paragraphs }) => `<details class="faq-item">
+  <summary>${esc(question)}</summary>
+  <div class="faq-answer">${paragraphs.map((paragraph) => `<p>${esc(paragraph)}</p>`).join('')}</div>
+</details>`,
+  ).join('\n');
+  const checklist = GIFT_CARD_CHECKLIST.map((item) => `<li>${esc(item)}</li>`).join('\n');
+  const officialLinks = GIFT_CARD_OFFICIAL_LINKS.map(
+    ({ label, href }) =>
+      `<li><a href="${safeHttpUrl(href)}" target="_blank" rel="noopener noreferrer">${esc(label)}</a></li>`,
+  ).join('\n');
+  const updated = GIFT_CARD_FAQ_UPDATED.split('-').map(Number);
+  const updatedLabel = `${updated[0]}. ${updated[1]}. ${updated[2]}.`;
+
+  return `<section class="panel faq-panel" id="giftcard-faq" aria-labelledby="giftcard-faq-title">
+  <div class="faq-heading">
+    <div>
+      <span class="eyebrow">상품권 이용 가이드</span>
+      <h2 id="giftcard-faq-title">상품권 상테크 자주 묻는 질문</h2>
+    </div>
+    <time class="faq-updated" datetime="${esc(GIFT_CARD_FAQ_UPDATED)}">내용 확인 ${esc(updatedLabel)}</time>
+  </div>
+  <p class="faq-intro">실제 상품권·카드 이용자 대화에서 반복된 질문을 익명으로 묶고, 변동될 수 있는 정책은 공식 확인 절차 중심으로 정리했습니다.</p>
+  <div class="faq-method" role="note" aria-label="상품권 예상 순손익 계산 방법">
+    <strong>예상 순손익 계산</strong>
+    <code>최종 회수금액 또는 실제 사용가치 − 실제 결제금액 − 전환·정산 등 기타 비용</code>
+    <span>카드 혜택은 지급 조건과 월 한도를 확인한 경우에만 더하세요.</span>
+  </div>
+  <div class="faq-list">${questions}</div>
+  <aside class="faq-check" aria-labelledby="giftcard-check-title">
+    <div>
+      <h3 id="giftcard-check-title">결제 전 30초 체크리스트</h3>
+      <p>큰 금액을 한 번에 결제하기보다 먼저 소액으로 구매·등록·사용 과정을 확인하면 위험을 줄일 수 있습니다.</p>
+    </div>
+    <ul>${checklist}</ul>
+  </aside>
+  <div class="faq-references">
+    <h3>공식 확인처</h3>
+    <ul>${officialLinks}</ul>
+    <p>수수료·한도·사용처·카드 실적은 변경될 수 있습니다. 구매일의 판매 상세페이지, 발행사 약관, 전환 화면과 카드 상품설명서가 우선하며 이 안내는 수익이나 거래 안전을 보장하지 않습니다.</p>
+  </div>
+</section>`;
+}
+
+function giftCardFaqJsonLd() {
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    '@id': 'https://modoosise.com/giftcard#faq',
+    url: 'https://modoosise.com/giftcard#giftcard-faq',
+    inLanguage: 'ko',
+    dateModified: GIFT_CARD_FAQ_UPDATED,
+    mainEntity: GIFT_CARD_FAQ.map(({ question, paragraphs }) => ({
+      '@type': 'Question',
+      name: question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: paragraphs.join(' '),
+      },
+    })),
+  };
+  const json = JSON.stringify(structuredData).replaceAll('<', '\\u003c');
+  return `<script type="application/ld+json">${json}</script>`;
 }
 
 function faceLabel(value) {
@@ -822,12 +894,14 @@ const renderPlan = {
     ['grid-rates', marketGrid(rates.items)],
   ],
   'giftcard.html': [
+    ['giftcard-faq-jsonld', giftCardFaqJsonLd()],
     ['dept-note', deptNote],
     ['face-seg', faceButtons],
     ['grid-dept', deptCards(dept.items, defaultFace)],
     ['dept-sources', sourceRows],
     ['gift-note', manualNote],
     ['gift-rows', manualGiftRows(manualGift)],
+    ['giftcard-faq', giftCardFaqHtml()],
   ],
 };
 

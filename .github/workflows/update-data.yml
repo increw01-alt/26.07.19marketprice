@@ -76,7 +76,7 @@ jobs:
         run: node scripts/build-static.mjs --check
 
       - name: 보안 회귀 테스트
-        run: node --test scripts/security-sanitizers.test.mjs functions/api/lotto/security.test.mjs functions/security-routes.test.mjs
+        run: node --test scripts/security-sanitizers.test.mjs scripts/giftcard-faq.test.mjs functions/api/lotto/security.test.mjs functions/security-routes.test.mjs
 
       - name: 배포 allowlist 산출물 검증
         run: |
