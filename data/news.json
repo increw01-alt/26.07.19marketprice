@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T05:29:13+09:00",
+  "updatedAt": "2026-08-13T06:32:27+09:00",
   "topics": {
     "coin": [
       {
@@ -61,13 +61,13 @@
       {
         "title": "반도체 쌍끌이에 코스피 3.68% 급등…외국인 3.4조 순매수",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90SERNdC1yR0Z0SVVzUXY3cXRWeTFjSURhMWFIYkQyZDR4YXJWdzRzR1lkV0R0MnZHYm1OcmNUQ0VRM3RpTElHTjYwVnVBUnZpRmc2cXRVNzdPOFowaEptMWE0RFkwSXlNOWtIOA?oc=5",
-        "source": "굿모닝경제",
+        "source": "goodkyung.com",
         "date": "2026-08-12T09:15:52.000Z"
       },
       {
         "title": "'현기증 증시' 멈췄다…탄탄한 실적·外人 귀환에 코스피 반등",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iVEI3ZW9CY19zbFZIaVhvWEt3MmRBVW9xMUxIaTBVQURHbXJQSkxzOGYtaWZOZUFURGZzT0x5N3hIc255cVNDLXZFbUhjekkxSEhr?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-12T09:06:00.000Z"
       },
       {
@@ -103,6 +103,24 @@
     ],
     "kosdaq": [
       {
+        "title": "코스닥 승강제 최대 수혜, ‘미용·의료기기 5사’ 뜬다",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9SSlpCWlVTTEVyblVScGRsLS1QYVg5U29yWHYtUlBIeEhpV3BVS1hURUJ0UDVmaE5xRmZTR0FvMmJiLVBwWkllb2wzOWNlODUwMnRMS0FhM3d5dw?oc=5",
+        "source": "브릿지경제",
+        "date": "2026-08-12T21:00:00.000Z"
+      },
+      {
+        "title": "中企 “코스닥 상폐 위기… 구제책 마련 필요”",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfRV9LTTB1Y1hVWnFiLUJqYkI3SzBURDNUbTdIcjFsQ1JCdDhHaUxDajd5WTU0Z0JPamFoUlZMR1dvMS1EWDUyZmgzYTZoRU9zWTAxdDZEUnpBQVFReG9Ob3MtUnN4OS14YUxr0gFUQVVfeXFMTnR6MEo2eXY3Rlc5TXNVdG9Qek1FVjY3NUt6OG1Rb3o2Y2dWMExWN293VVdfZVhfeTZveWFKc3V4SzdiOGY2d1BnWmRVZ19leTdkdlBV?oc=5",
+        "source": "세계일보",
+        "date": "2026-08-12T21:00:00.000Z"
+      },
+      {
+        "title": "“주가 1000원도 안되면 회사가 잘못”…동전주 23개 관리종목行",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2WGpldm1HTkdsNUxXcmhCYXZiUXNnVlRTRTc2X29GM2prSDhrZXFMUzg1aEVPQUxrT1o2Zm1ObW1FRDBTeFAyQjhCaG4yVGxtMUE?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-12T20:55:10.000Z"
+      },
+      {
         "title": "“코스닥 인버스 잔뜩 샀는데 어째”…코스닥 19% 급등..레버리지 규제가 판 바꿔",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBseFRYZXZUVEpsV3JQQkp1N0ZZME85eV9Sc3JlNktHZVRWb0xSWVcyUEhBY2NHWEduT21jSjNQV0cwdV9YOHNBTGgxN2VFUzNk?oc=5",
         "source": "문화일보",
@@ -117,7 +135,7 @@
       {
         "title": "미래에셋운용, ‘TIGER 코스닥액티브 ETF’ 8월 수익률 23.6%...동종 ETF 중 1위",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pU05NYi1KRFhWQTFOMTBQVU81eU5Lem5qeUxDWXRwLU5GLTBRZ0F2Mjc5TVZmdHBmc002TENsaTgwOXpyM09acTNDeFp3UWNpdXJwOTdobTM5R1NKLWdic2xVYWc?oc=5",
-        "source": "베타뉴스",
+        "source": "betanews.net",
         "date": "2026-08-12T14:42:24.000Z"
       },
       {
@@ -131,27 +149,15 @@
         "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNEtEcnB3YnJFWkhWWXFjMEVRdnVNV0NCTkRUdWdYZFBPR2NlZ1M1X2xvZWc5bnRSRlFaSmFNSG9zMG1wYVdERHp4MmpYMmdpdHhUMl9QUDR0R0FnMVBQNUxINk5tU3NFQlJDazllNzNTZXF0eUZ1TWxLWkk4VTYyd3ZuajlkS084RkE?oc=5",
         "source": "네이버 프리미엄콘텐츠",
         "date": "2026-08-12T12:16:00.000Z"
-      },
-      {
-        "title": "中企업계 \"코스닥 상폐 시총 기준 유예…LH 자재 분리발주 해야\"",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0xTXZDXzdtZWlWSXFGY0NVYVRYQVhZdXBzeV84QmZNT1lBdG82TjM0Y1pTWGJqRi11dTc2d3gwSUtqU0JOTEpSMXZaOFZ4dFItcVRsa0RRbk9kNnhjOVhGX1p3?oc=5",
-        "source": "매일신문",
-        "date": "2026-08-12T09:53:29.000Z"
-      },
-      {
-        "title": "코스피·코스닥 동전주 등 30개 종목 '신규 관리종목' 지정",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE84ck1UdEd2OVkwT3JXX25DdjZqOEw1a0NxY0J2UFJoV05wZE54OGdrcHM2SU9PczJUR1pKUGdvYm9LbkpxX2MzZnd2VjViNExaajVGb0l0SVdxcHdwZGFIXzVyN3pCelpSSF9jdzd0Q0tfVmM00gF0QVVfeXFMT2taOEN0bkFmSnAtelBuQ0xVTUNiay1TNHNGdGJsUXhpVzE4Qm5BUVUwR0QwTTRDY0FMM1pUUXRRd2tKZzlRLVZ2VWdMZnNmcXZiSmNqdjYtdFhTbngtd2JlVDZzV1A4TktxTzExYjZWTzVLSG0?oc=5",
-        "source": "imnews.imbc.com",
-        "date": "2026-08-12T09:50:01.000Z"
-      },
-      {
-        "title": "코스피·코스닥 동전주 등 30개 종목 '신규 관리종목' 지정",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9rWjhDdG5BZkpwLXpQbkNMVU1DYmstUzRzRnRibFF4aVcxOEJuQVFVMEdEME00Q2NBTDNaVFF0UXdrSmc5US1WdlVnTGZzZnF2YkpjanY2LXRYU254LXdiZVQ2c1dQOE5LcU8xMWI2Vk81S0ht0gF0QVVfeXFMT2taOEN0bkFmSnAtelBuQ0xVTUNiay1TNHNGdGJsUXhpVzE4Qm5BUVUwR0QwTTRDY0FMM1pUUXRRd2tKZzlRLVZ2VWdMZnNmcXZiSmNqdjYtdFhTbngtd2JlVDZzV1A4TktxTzExYjZWTzVLSG0?oc=5",
-        "source": "imnews.imbc.com",
-        "date": "2026-08-12T09:50:01.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "한은 부총재 “원달러 환율, 4분기로 갈수록 낮아질 것…경상흑자 효과 본격화”[경제정책 줌인]",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ya2M2VkZVV1RoYVFpeTNtRXFieXNGcGtKU3FsUHVuSk1KZndKOE1PZU1qUllmTG42TVo3TXVCamxqa2RTU2hKemZucHJQTVRHdDVtQTlTNy1kN0RUVmJlOA?oc=5",
+        "source": "아시아경제",
+        "date": "2026-08-12T21:10:00.000Z"
+      },
       {
         "title": "달러-원, 뉴욕장서 1,410원 후반대 거래",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HdWtHajlKbTZ4eEZicllPVVJ3dnhEMDlPU2h1dGNJT3RkZ0tiZE9ZaklKUlkwMmxwOTRaS0hXNnFhY0EwR2NHOWx3ZUV1cUljaDZxNmxlbE02NHF4VjgwTUphZ2ZTMVZXT2hpcUtfbGhHQQ?oc=5",
@@ -161,7 +167,7 @@
       {
         "title": "'달러 매도 속 저가 매수 수요' 원·달러 환율, 나흘째 1410원대...코스피는 3.68% 급등",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE50SXZjblNJS3hRX1laQk56YVhxYlJaY29uQUNDM3hfOWlsN0tGZXFxYWl6Ymo2TldXWm9pYV8xVlUxeVlPZU9UUk5jT0xETkdFc3FXX1FHZzhzSmdKRzM3QkFuZWU?oc=5",
-        "source": "베타뉴스",
+        "source": "betanews.net",
         "date": "2026-08-12T09:52:17.000Z"
       },
       {
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56YjdSZHliYmdFSDI1dmZZamJPeTJvMmd3RF81X0RvbWw5R1F3aWtfQUp1dnNMcnZEdVZWUGE4N0RsZkRvU1Z4YUxkM0pNampMSWZleUdJUGRGdk5yYTZBRVFqSklfdmtw?oc=5",
         "source": "공감신문",
         "date": "2026-08-12T07:29:11.000Z"
-      },
-      {
-        "title": "환율, 1415.7원 마감…나흘째 1410원대",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9NUTNkVmlERXlJbHBlR01QVHE1TVg2SDltZmlpSVNSeEZsdk1yLU1HMDVUVzZRb3JHbmFwTHNvZmVVVk9zU1lIWlFnZWNaVU0?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-12T07:22:52.000Z"
       }
     ],
     "metal": [
@@ -210,7 +210,7 @@
       },
       {
         "title": "금시세(금값) 추이는?…美 물가 흐름 둘러싼 시장 판단 등 '이목'",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QUFBjWGxRS0NRQXpCQ2VwYkRiTldVeGFnVmU1MDYwY2NoRnptb0JQclVpRVZIVkRJeUhPZEpXQjZkUXgyMXMzekkyMGE5dUJ2RHpaWmtiMjJxaWgtZnFSelJxWWxWQjQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1DRDlKM2xPaUV3MW13OTFqTjdXVEc1UElUdXo5aGdJdDZySElHSUNKZ0JqVXdTbWJKZXItaXdVUWF4OTE2ZklCTjVDa1VmZ0EyYk9Od3ByT05BVVBvMlhaazIzMTBoeDVJ?oc=5",
         "source": "CBC뉴스",
         "date": "2026-08-12T15:10:00.000Z"
       },
@@ -285,7 +285,7 @@
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
@@ -335,7 +335,7 @@
       {
         "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "굿모닝경제",
+        "source": "goodkyung.com",
         "date": "2026-07-04T07:00:00.000Z"
       },
       {
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "동탄·구리 묶이자 '병점·다산' 불장…한 달새 1억5천만원 뛰어",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OeVhUdU1lbkJnT2JNdk50OWZjYVZoZ1BuUTJfT0llRkw1Y1Zyc3ZXSFktREg5SUFmQW00VWhSMmxDUmc0X01Wd2dKU0xvOTZKMGRKVTUzVmRVY0tmUU8xS9IBeEFVX3lxTFByUDUyNk5rb2daS2RNOGhXTE9wdG5pdmU0eFo4X3gxOURNMFBwWng5T2VfQ1pvVzhZZ19QNzR4RVFGM2c0OHN3Z2VRWjhaV1VRekhGN1NtME1YcW9tUVd0ZW5SV19KZWpkb05oSXh5a2g3Wk1TN3U2cg?oc=5",
+        "source": "뉴시스",
+        "date": "2026-08-12T21:00:00.000Z"
+      },
+      {
         "title": "[챗 APT] 낙찰률 ‘뚝’·낙찰가율 ‘쑥’…아파트 경매 옥석 가리기",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5MWHJXRUQ4MVNrZmpUbEhDb2tvb2RCSTdGV1hOZVpXbFpkSTFLWXotQjFvelRfX2Rud3pfQWJkcndGUjJFS0xveTNQZnlUbWQ4WVV4LXR1anA3MDNDTjkyMkhodVpVanM?oc=5",
         "source": "강원도민일보",
@@ -411,7 +417,7 @@
       {
         "title": "어! 중대형 오피스텔 거래는 늘고 있네 [감평사의 부동산 현장진단]",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAweFp6MWNiWjd2dllOdFVCbWdweTZpSFFseGRHSDRkV3U5dXdzMF82aG1YaFNlamVDR1FvYUdTTWhfTXZQcm9CSmdkVjZXb0ZNZ2pZ?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-12T12:01:00.000Z"
       },
       {
@@ -435,7 +441,7 @@
       {
         "title": "\"좁아진 대출 문에\"…서울 아파트 계약해제 23% 급증",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuNzB1RWVVZTcxZktBYlFUZ2pvVE9vbG93MlJhYk81emROcnZ4cHJ2NW5qUEh5QV9nemI1aEh5aHNoOXVQQ3NhZDBHUFc3N2Q0WlVF?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-12T06:18:00.000Z"
       },
       {
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBoQkNxVEp5amsxeW9YVGp1eElTaVYyNkVUWU5jTVgxcU0taEVraEFPM3pSYWYzWDZQWkJLRzNLVWQtRTR6T1Bhdzh1S3EyUVNoN0E1NFFyd1VfVEpteHVwTGhOOA?oc=5",
         "source": "국토일보",
         "date": "2026-08-12T02:45:50.000Z"
-      },
-      {
-        "title": "삼성동 아이파크 71억·잠실동 아시아선수촌 65억… 서울 아파트 실거래가",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8yaWdsUTlQYkMzQ2M1Y0d2UzBKbmoyTlZqTFQ1Z19BbE55a3FtdFZpTjloekoxQ2Vzd0hHZTlJaERrRTNXQkE?oc=5",
-        "source": "매일경제",
-        "date": "2026-08-12T02:18:26.000Z"
       }
     ],
     "lotto": [
@@ -491,7 +491,7 @@
       {
         "title": "\"로또 당첨 깜빡해도 돈 받는다\"…18일부터 앱 등록하면 자동 지급",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdXJJU2hwLXBJRGM4aU1nOWNhZ1lsb0dkQjJ2NFRsSE1PcVBWVVpRbDhGd1J6Y1MzV2Z1aE5XeTNsNjhYTkRzOHhBM01ibFNvdzhN?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-11T06:43:00.000Z"
       },
       {
