@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T18:20:58+09:00",
+  "updatedAt": "2026-08-12T18:53:45+09:00",
   "topics": {
     "coin": [
       {
@@ -17,7 +17,7 @@
       {
         "title": "BTC, ETH 가격 뉴스: 이번 주 미국 인플레이션 지표 발표를 앞두고 비트코인 65,000달러 돌파",
         "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNzhrZF9ld3JQUG1ZNmt4aTZZaG9YS0duYkN3aTBONkp1cUg1c2FIbjNwbGdlVVluVnZ3c09EQWRILUNOS0Z0bVczbF9xdVBsdGZ2M1Z0NTVYbXZWLWMzNjcxaUJuZVllVlhHU0hiZF9wQi1HX1NtUUVhX0c4QnhYejhHZW9GQ3ZjcUVIazYwc1NPZkNGWGJlVVNVdE5wdUdTZ2R5Z192WDZxQQ?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-08-10T07:25:22.000Z"
       },
       {
@@ -29,7 +29,7 @@
       {
         "title": "마라, 2분기 6억1130만달러 순손실…비트코인 가격 하락에 발목",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ka3JYQkhyYzVUSW9aTFgxakFYRU13OXVUejBldjF4bFdJc0VPa1RxbGJXajFoSkRVZDlrbW1mTlBKVEZLb1N2RGppLUctdFl2TW1VMy1uUWZrUWttUFVPcDlGN1dqLTRRR0doNTdqbE1qZ28?oc=5",
-        "source": "디지털투데이",
+        "source": "digitaltoday.co.kr",
         "date": "2026-08-07T11:19:30.000Z"
       },
       {
@@ -47,11 +47,17 @@
       {
         "title": "OKX의 라피크, 정치적 요인이 미국 최대 암호화폐 법안에 장애가 될 수 있다고 지적",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ09pajNlVXktTEhHUmZQczFJWmJtU2hTU2ZFOFJSMi1obU0yUEtHMFRpSlFPS0dEQWdjZTZySWF1QnV4bzNJdkRwNDRrM1JHUW5vR3pGc1ZrQWw4YTJkQzVfa2VUMGd3MHFBQjZKcl9TSjAyTENYMW5Ic0hOdnpfRG9JeUxtckZBWW9yTlh1ZTA1MU1VMkxlS0FQMmp1MmVEYksxSGYyZjdaRjJxSlVtaTVJU2Q3OG1iZFBoM3pxVHJLdVRjNWxiTWRoRUdNQlk?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-08-04T07:00:00.000Z"
       }
     ],
     "stock": [
+      {
+        "title": "반도체 쌍끌이에 코스피 3.68% 급등…외국인 3.4조 순매수",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE90SERNdC1yR0Z0SVVzUXY3cXRWeTFjSURhMWFIYkQyZDR4YXJWdzRzR1lkV0R0MnZHYm1OcmNUQ0VRM3RpTElHTjYwVnVBUnZpRmc2cXRVNzdPOFowaEptMWE0RFkwSXlNOWtIOA?oc=5",
+        "source": "굿모닝경제",
+        "date": "2026-08-12T09:15:52.000Z"
+      },
       {
         "title": "'현기증 증시' 멈췄다…탄탄한 실적·外人 귀환에 코스피 반등",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iVEI3ZW9CY19zbFZIaVhvWEt3MmRBVW9xMUxIaTBVQURHbXJQSkxzOGYtaWZOZUFURGZzT0x5N3hIc255cVNDLXZFbUhjekkxSEhr?oc=5",
@@ -93,15 +99,21 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBpaF94VWctYk9FXzNoTjg3MTg3eG1Wajg2LUljdXlrVS1EbG5OcDNUN0NkcDN3LXFLNFEzWVJlUlZHZTFrcXUzeDNCalZoQ0Rhai1LLUZza0M0QXdEejE4R0dJMmJfeEhsTC16UDZ0WdIBc0FVX3lxTE5NUl9pMzFNZDk5VGI5VkV3cm5nVEJoMml6ODhsdkxNa01tNEtBdGc0ajZCeDU4ZXMzU29hSGNIdkRhLUdLb2otd0JSUDFhTzd2UGFLaUlNM2t4X3VYSE0waTdVTmZ0eUxveThWeG5kZXZfcEU?oc=5",
         "source": "시사저널",
         "date": "2026-08-12T07:59:33.000Z"
-      },
-      {
-        "title": "AI 반등에도 외면받는 코스피… 외인, 대만으로 쏠린다",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52TFRla0l6cDhlTHFjVjc2RW56MFRLODZQdjVlM0FMY1pYUk1oYjRYRkxrQ085VzZ6MW1qSDNLUWpHN0l6a3J0bTllVWM3QzV3ZHkzQWt6WUVKa2lGQVQwcGV6NTVZT0gy?oc=5",
-        "source": "더쎈뉴스",
-        "date": "2026-08-12T07:51:31.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "바로팜·크리에이츠·진코스텍, 코스닥 상장예심 통과",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04UU9SWGhtd0JXTERTUk5ibVFKNlRlRkNYUmlOSGpmNkllUFQ3U0lYa0p5YUFSY0Fud2tzTXhoUHNNQnJiVlJadUp1ZHVBNWs?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-12T09:45:00.000Z"
+      },
+      {
+        "title": "[단독] 코스닥 거래소가 공인한 우량기업이 상폐 대상?",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TdkhhQnVOcW02SGtkZjQ2aW5zY0JrVVc3V0JMNzZZaDZSMGZKYmpRd0JwcV9HUlNpQlZfVENjODdNYm4teEhEQTZ2d2RmSDA?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-12T09:34:11.000Z"
+      },
       {
         "title": "동전주 상폐 기준 첫 적용…코스닥 23곳 관리종목",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LSDdBQ3FIalBSUjZIVHBZWWFfVjcwYU9wNzNsQ0htYTN3OE5Vc09vYjZvaWJtVmNvakMxdGhjb1BfRHYxdElvR2xLZmFnY0xlTjhBSm8xTklLTU1T?oc=5",
@@ -127,41 +139,35 @@
         "date": "2026-08-12T08:47:42.000Z"
       },
       {
-        "title": "한국거래소, 올해 코스닥 라이징스타 18개사 선정",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE51Y3oyQ2hMM3BIUDRYTmdKcEVldFZiR1MwWm9CQVRTQUF3YTZxQjRuMWdUNGhkcXhhSXBmSEw1Q2hwMVMxV3RWTmlYaElnX00?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-12T08:32:04.000Z"
+        "title": "동전주·시총미달 상폐수순에 기대·반발…\"밸류업 기대 vs 새싹뽑아\"",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TRWt4ekcybmlpNjlIcElPZkNXV243UUhtOTh6WFRUVTZhV1BnMDJQbVpWN2RQb25tenJNTWdDSHkzVkVWYzZWRVRHV1Jwc3oxYTkxNG9ZLVZBN1XSAWBBVV95cUxNQ3BOSWFrVUo2SHVSQzdVLU41Q19Sa1cxRHRfcGNiMXF1cFItbHlybWlRVFNVbXF0LVBsT2otVThBeUNjTTBTLVQyb2dpZnRVSkdOUFJzWi0ycWxuNWhrTWM?oc=5",
+        "source": "연합뉴스",
+        "date": "2026-08-12T08:36:06.000Z"
       },
       {
         "title": "에스티팜·티에스이·샘씨엔에스 등 18개사 '코스닥 라이징스타' 선정",
         "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1yQ2xZRm9CaElXYlJaYlRNRG5VR21mZG1qdXE1MFI3M2tHRHVXM0hjT0VlbnZ1enB5c0hhRkllQ1diWEVSb1kwYU1mT3MyOVluN0kzWGhlSUdfU0pobDRz0gFkQVVfeXFMUHFqeDRIdXpZWDBXb3ZQOHpiYjZEVDVGSW52Vktudm9pNVZ5dXpRTGEtTlpPM3NRZ2V3azN3X2l2V1dObHNyV1NYMXE1Nkt4UmFSNkFIYTFsbWRwc2x6a0plYlZ3Uw?oc=5",
         "source": "뉴스1",
         "date": "2026-08-12T08:31:22.000Z"
-      },
-      {
-        "title": "韓 총리 만난 김기문 중기중앙회장 “코스닥 상장폐지 기준 보완해야”",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE40TUY4OEJNcW5wNGtBRDFfRFZ0QkRPaWpqZGtzenBnTmJtSlRJZ28zZlNlTFR6Vkk0ME5mdG1fdGF1NVNsNk0yNXBtU0tyamNiTmfSAVNBVV95cUxPUWJleFRuMjZHR1ZnRG9fOUNfcWljdWd2Tlh2U1FJOU41QWg1ZEFOYzVMNThiU2ZSN3NVQmNrWHg5cURoaFFRX0pXNmFybG5SLU9jbw?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-12T08:22:52.000Z"
-      },
-      {
-        "title": "한국거래소, '코스닥 라이징스타' 18개사 선정…8개사 신규 진입",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRWnU5azRSZlBoNFJFdzBkRm5rQ0ZpclJLQ09vOFRRMEhaUmNXM2ZYNTM3LTZwYl9zempQN2k3NWZDN25WSFVKS3k1bFdBMXI0SjdMYnA3dnRwRDhxSlFYN1N1Yzl2NzlKOFBMNktzUQ?oc=5",
-        "source": "newstopkorea.com",
-        "date": "2026-08-12T08:17:23.000Z"
       }
     ],
     "fx": [
       {
+        "title": "美·日 개입에도 다시 엔저…동조 옅어진 원화는 강세",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBJZXRXLWd4Vm9yelJmZUVna1paZDBTanhhNFFUZTBOVnNxcXlUSGEtSzB1ZWNUaE5qcHE5clFyUWJMdTRtLU1CM2pQMmxaRi0z?oc=5",
+        "source": "블루밍비트",
+        "date": "2026-08-12T09:31:12.000Z"
+      },
+      {
         "title": "원·달러 환율 연중 최저에도 ‘1410원 벽’…美 CPI 분수령",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSUlvV0pfUmZKc3FQQ3BieXBVVHpMcUZjWmwxTWl3Y1RnZzdvbEVOdm1aeDc1a0w4SU55S0hKSHd6d3o2azhJNTNLZkpkaFRBV1ZIaUVPd1lyLUlobm5JZG1n?oc=5",
-        "source": "이코노미스트",
+        "source": "economist.co.kr",
         "date": "2026-08-12T09:04:00.000Z"
       },
       {
         "title": "美·日 개입에도 다시 엔저…동조 옅어진 원화는 강세",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1WjJZQlE5cEtVbktjWkRRdzd1WEwwaE5TYmRIRzlHaFA1RmlTNTYwV21WZUhWUk9Ed29kaTBNTVFiS21kbHB3VXV2RXZHLTB3NmJvUDc5MXA0dw?oc=5",
-        "source": "hankyung.com",
+        "source": "한국경제",
         "date": "2026-08-12T09:01:00.000Z"
       },
       {
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE00RHNXZHRuOXNwQk5LMVFwV2FEcWNDYkx2Q1BpUGZkVm9UdlVMMGdoVmhoMkQ1X3EzOWs2MUVjdVJXZ2pVWE5TWDdGVE5ybGYtVUVuNlUwN1JRNEJvNm1kNExB?oc=5",
         "source": "매일신문",
         "date": "2026-08-12T07:17:41.000Z"
-      },
-      {
-        "title": "10개월 최저 찍고 또 내린 달러·원…유가·엔저에도 1415.7원(종합)",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE54TVdyVkFIbTZVTlNsVmxEeGhsYW9UcXl5UEhwWTg1dGgwc0R2dWp4ZVFUTzY5ajVCT29MSndjdmtSMEhsUXJTNl9SZngyRDZkb2o0LWhEcksteUHSAWBBVV95cUxOcTBucG14X21sR3BFRjBuOTJkdWlGX3gzdVRqeVlKOWhVWnZXTkxoeU9Tc3B3bHVnVVVvTkxyd3FUUTJmVkVsSVQ0QzZlLVlWZUU3VktXc3pmakI1Rl9Belc?oc=5",
-        "source": "뉴스1",
-        "date": "2026-08-12T07:14:13.000Z"
       }
     ],
     "metal": [
@@ -278,14 +278,14 @@
       },
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
-        "source": "ebn.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
+        "source": "네이트",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
-        "source": "네이트",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
+        "source": "ebn.co.kr",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
@@ -295,17 +295,17 @@
         "date": "2026-06-16T07:00:00.000Z"
       },
       {
-        "title": "[원자재 시황] WTI 80달러선 붕괴 '눈앞'…금·암호화폐 상승",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YREliSm5GSGhuWUp6NW1yTTJzYjZKMzVVVjNjMDJYUHJkVWxjUFJJMThOWmRyMjBaQzVMS2N3THZCUUZkNGdtS1hzZEpUNUZ1eTBN?oc=5",
-        "source": "네이트",
-        "date": "2026-06-16T07:00:00.000Z"
+        "title": "골드만삭스 \"내년 국제유가 배럴당 80달러\"...현재보다 10% ↓",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
+        "source": "thecommoditiesnews.com",
+        "date": "2026-06-13T07:00:00.000Z"
       }
     ],
     "macro": [
       {
         "title": "'반도체주' 뜻밖의 악재…한국 개미들 '초긴장' 하는 이유",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
-        "source": "hankyung.com",
+        "source": "한국경제",
         "date": "2026-08-11T16:27:50.000Z"
       },
       {
@@ -497,7 +497,7 @@
       {
         "title": "종이로또 당첨금 자동입금…18일부터 페이코 등록 연계",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EczRNYXBYMElRTjVLTU5SRldiak1ORVNHWURnNVZiaFNqMUVyOU15NEVPaV9wUWxNc1FwdEhyOWdyTmdqcGR0TU1PS2ltU2RFNW1HOEtaR0JOMDNBcGZENXAxcUdrV0JreFJZZw?oc=5",
-        "source": "speconomy.com",
+        "source": "스페셜경제",
         "date": "2026-08-11T05:06:42.000Z"
       }
     ]
