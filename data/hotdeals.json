@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-08-12T21:36:45+09:00",
+  "updatedAt": "2026-08-12T23:10:20+09:00",
   "deals": [
+    {
+      "title": "컨셉원 드레스/사피아노/웨빙 레더 벨트",
+      "mall": "공홈",
+      "price": 14900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726698",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-12T14:03:25.000Z"
+    },
+    {
+      "title": "이지앤프리 에어클립 16종+스팀뚜껑 2종",
+      "mall": "GS샵",
+      "price": 49900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726697",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-12T13:57:34.000Z"
+    },
+    {
+      "title": "Lenovo 700 Modern Wireless Keyboard & Mouse Combo [$47.99 / $12.76]",
+      "mall": "Amazon",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78770",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-12T13:51:41.000Z"
+    },
+    {
+      "title": "Vinacafe Premium 200스틱 3in1 [$62.99 / 배송비 무료]",
+      "mall": "Amazon",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78769",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-12T13:43:49.000Z"
+    },
+    {
+      "title": "쿠킹 베어 간편떡볶이 560g 3개",
+      "mall": "네이버",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726696",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-12T13:37:12.000Z"
+    },
+    {
+      "title": "Lavazza Crema e Gusto Gound Coffee 250g x 4 [$14.99/배송비 별도]",
+      "mall": "Amazon",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78768",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-12T13:28:32.000Z"
+    },
+    {
+      "title": "도국 순대국밥 400g x 3세트",
+      "mall": "네이버",
+      "price": 8400,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726695",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-12T13:16:26.000Z"
+    },
+    {
+      "title": "파이어엠블렘 풍화설월 (64,800/3,000)",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106327",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-12T13:01:26.000Z"
+    },
+    {
+      "title": "치과 칫솔 12개 초극세모",
+      "mall": "네이버",
+      "price": 6900,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726694",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-12T12:38:24.000Z"
+    },
     {
       "title": "나이키 남성 이니시에이터 운동화",
       "mall": "CJ온스타일",
@@ -22,17 +121,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-12T12:18:22.000Z"
-    },
-    {
-      "title": "강릉 엄지네꼬막 꼬막무침 333g",
-      "mall": "네이버",
-      "price": 22000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726691",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-12T12:13:08.000Z"
     },
     {
       "title": "남성용 컴프레션 민소매 나시",
@@ -66,17 +154,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-12T11:59:53.000Z"
-    },
-    {
-      "title": "트라이 아동 쿨플러스 레이온 상하의세트",
-      "mall": "롯데온",
-      "price": 4960,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726687",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-12T11:57:58.000Z"
     },
     {
       "title": "프레시웰 생수 500ml X 80 유라벨/무라벨 랜덤",
@@ -132,39 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-12T11:33:40.000Z"
-    },
-    {
-      "title": "에어무드 워셔블 냉감 반팔 셔츠",
-      "mall": "G마켓",
-      "price": 14900,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726680",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-12T11:30:57.000Z"
-    },
-    {
-      "title": "IPX7 워터프루프 듀얼 제모기",
-      "mall": "옥션",
-      "price": 19000,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726679",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-12T11:25:31.000Z"
-    },
-    {
-      "title": "흔한남매 방방곡곡 한국사 1/흔한 국어 1 선택",
-      "mall": "지마켓",
-      "price": 13610,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726678",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-12T11:21:54.000Z"
     },
     {
       "title": "콜오브듀티 모던워페어3(2023) 21,120원",
@@ -563,17 +607,6 @@
       "date": "2026-08-11T15:09:40.000Z"
     },
     {
-      "title": "넨도로이드 토미에 재예약 / 63,900원",
-      "mall": "네이버쇼핑",
-      "price": 63900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106299",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-11T12:51:25.000Z"
-    },
-    {
       "title": "대추 방울토마토 완숙 토마토 찰 특품 쥬스용",
       "mall": "네이버",
       "price": null,
@@ -660,39 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-10T03:19:16.000Z"
-    },
-    {
-      "title": "한우 사골육수 6팩 세트, 무항생제 사골육수 (250ml)",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/FfsN6SSg",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-10T02:51:18.000Z"
-    },
-    {
-      "title": "테팔 인덕션 티타늄 1X 델피니 프라이팬 20cm",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://naver.me/5DZmURco",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-10T01:55:38.000Z"
-    },
-    {
-      "title": "폼포나치 유리막크리너 200ml 자동차 세차 발수 유리막코팅 관리 올인원 코팅제",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://naver.me/xD8SimgT",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-10T01:07:01.000Z"
     }
   ]
 }
