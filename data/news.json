@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-13T02:47:35+09:00",
+  "updatedAt": "2026-08-13T03:43:01+09:00",
   "topics": {
     "coin": [
       {
         "title": "한때 간과되었던 한 그룹이 비트코인 시장에 17억 8천만 달러의 매도 압력을 추가했다",
         "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnVKVTg5M3RzQlcxTnZ5R0cwdWdkdXotazFpOXlUUzVuQ25DMm9OUUxqREk5VlJ1NVNpRlhGYkJ2dVlPNVJYRnlWVlRXZ21IenkyYk9QTEN3ckpVZ1dKZGJKYzJoSU03SmdtcVB5clNXdmVIWXZjYnVuRkd1cHdxNl9lZ3dST1NlbktOeWJhc0l6TXVkV1NOZHNsVmE0WDlla0g4VXhyczBOd0pTWU9QOGF4a0FxS2Nmam5IZE9sWHRKQzloN0FranRsdw?oc=5",
-        "source": "CoinDesk",
+        "source": "coindesk.com",
         "date": "2026-08-12T08:53:23.000Z"
       },
       {
@@ -47,7 +47,7 @@
       {
         "title": "OKX의 라피크, 정치적 요인이 미국 최대 암호화폐 법안에 장애가 될 수 있다고 지적",
         "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOZ09pajNlVXktTEhHUmZQczFJWmJtU2hTU2ZFOFJSMi1obU0yUEtHMFRpSlFPS0dEQWdjZTZySWF1QnV4bzNJdkRwNDRrM1JHUW5vR3pGc1ZrQWw4YTJkQzVfa2VUMGd3MHFBQjZKcl9TSjAyTENYMW5Ic0hOdnpfRG9JeUxtckZBWW9yTlh1ZTA1MU1VMkxlS0FQMmp1MmVEYksxSGYyZjdaRjJxSlVtaTVJU2Q3OG1iZFBoM3pxVHJLdVRjNWxiTWRoRUdNQlk?oc=5",
-        "source": "CoinDesk",
+        "source": "coindesk.com",
         "date": "2026-08-04T07:00:00.000Z"
       }
     ],
@@ -55,7 +55,7 @@
       {
         "title": "코스피·코스닥 나란히 '상승' … 반도체 인기",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB1MG9zbWFmVTd3ajFCdmFuV3FrWXJnMHo1VUVmMjdCSEZJNXlOMDd6VG5IWWcyRGw1SlY3OFdwOURVdmVTaEV1T1ZOa200bi1Jb2Jvd0dyTGpNVWx6Zzg2U3ZRb240NERJSGk2R0Zn?oc=5",
-        "source": "safemoney.co.kr",
+        "source": "세이프머니",
         "date": "2026-08-12T10:22:01.000Z"
       },
       {
@@ -109,6 +109,12 @@
         "date": "2026-08-12T17:26:00.000Z"
       },
       {
+        "title": "\"흑자기업도 퇴출될 판…코스닥 상폐 요건 개선해야\"",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1yTFhrQzVOWFdlR2NGcU9EaklIelU5Wm5ZaUtqdlZGZHlUUzkwUk0wMEVnSEVQc3dVblJ4eTBaRXRvUVNBcGxtbEEtc0FqcmhIbVdsNHF3dEpsQQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-12T17:08:00.000Z"
+      },
+      {
         "title": "미래에셋운용, ‘TIGER 코스닥액티브 ETF’ 8월 수익률 23.6%...동종 ETF 중 1위",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pU05NYi1KRFhWQTFOMTBQVU81eU5Lem5qeUxDWXRwLU5GLTBRZ0F2Mjc5TVZmdHBmc002TENsaTgwOXpyM09acTNDeFp3UWNpdXJwOTdobTM5R1NKLWdic2xVYWc?oc=5",
         "source": "베타뉴스",
@@ -143,15 +149,15 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04UU9SWGhtd0JXTERTUk5ibVFKNlRlRkNYUmlOSGpmNkllUFQ3U0lYa0p5YUFSY0Fud2tzTXhoUHNNQnJiVlJadUp1ZHVBNWs?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-12T09:45:00.000Z"
-      },
-      {
-        "title": "[단독] 코스닥 거래소가 공인한 우량기업이 상폐 대상?",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5TdkhhQnVOcW02SGtkZjQ2aW5zY0JrVVc3V0JMNzZZaDZSMGZKYmpRd0JwcV9HUlNpQlZfVENjODdNYm4teEhEQTZ2d2RmSDA?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-12T09:34:11.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "美·日 개입에도 다시 엔저…동조 옅어진 원화는 강세",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1WjJZQlE5cEtVbktjWkRRdzd1WEwwaE5TYmRIRzlHaFA1RmlTNTYwV21WZUhWUk9Ed29kaTBNTVFiS21kbHB3VXV2RXZHLTB3NmJvUDc5MXA0dw?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-12T17:39:00.000Z"
+      },
       {
         "title": "달러-원, 뉴욕장서 1,410원 후반대 거래",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1HdWtHajlKbTZ4eEZicllPVVJ3dnhEMDlPU2h1dGNJT3RkZ0tiZE9ZaklKUlkwMmxwOTRaS0hXNnFhY0EwR2NHOWx3ZUV1cUljaDZxNmxlbE02NHF4VjgwTUphZ2ZTMVZXT2hpcUtfbGhHQQ?oc=5",
@@ -175,12 +181,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1RSUlvV0pfUmZKc3FQQ3BieXBVVHpMcUZjWmwxTWl3Y1RnZzdvbEVOdm1aeDc1a0w4SU55S0hKSHd6d3o2azhJNTNLZkpkaFRBV1ZIaUVPd1lyLUlobm5JZG1n?oc=5",
         "source": "이코노미스트",
         "date": "2026-08-12T09:04:00.000Z"
-      },
-      {
-        "title": "美·日 개입에도 다시 엔저…동조 옅어진 원화는 강세",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1WjJZQlE5cEtVbktjWkRRdzd1WEwwaE5TYmRIRzlHaFA1RmlTNTYwV21WZUhWUk9Ed29kaTBNTVFiS21kbHB3VXV2RXZHLTB3NmJvUDc5MXA0dw?oc=5",
-        "source": "한국경제",
-        "date": "2026-08-12T09:01:00.000Z"
       },
       {
         "title": "원·달러 환율 소폭 하락…외인 주식 매수에도 美 물가 대기",
@@ -247,7 +247,7 @@
       {
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45cDZfRDh4cUpvb2RCa2tVblE4d2JGVk5OdmVLQ0RIOHRoaDZLdlRDMkg4MVRrY01vYVhEM3QzRUI4NlM5S0JybGhSNldHTzdCLXZDVndCS2lTX2VTZS15WE1Gam5uMGt1?oc=5",
-        "source": "kizmom.com",
+        "source": "키즈맘",
         "date": "2026-08-12T00:50:48.000Z"
       }
     ],
@@ -446,7 +446,7 @@
       },
       {
         "title": "삼성동 아이파크 71억·잠실동 아시아선수촌 65억… 서울 아파트 실거래가",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RUWlfYWNiWTc3QVJjZVhKeGRrYndhRU5ibERVaVV6R2JnbVdSY3lVR3NHYzdIUDd5UHI2SEZFU3Rac0tmRm5uUmdna1MyNkdhVHpVN1NFX0I?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8yaWdsUTlQYkMzQ2M1Y0d2UzBKbmoyTlZqTFQ1Z19BbE55a3FtdFZpTjloekoxQ2Vzd0hHZTlJaERrRTNXQkE?oc=5",
         "source": "매일경제",
         "date": "2026-08-12T02:18:26.000Z"
       }
