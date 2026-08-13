@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-13T09:49:33+09:00",
+  "updatedAt": "2026-08-13T12:20:11+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피 장중 6,850선 돌파…외국인 1.3조 매수에 반도체주 급등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5V0lPQXpsMDJRNHYtaW5qdHF6MjhnV0FPdWRTdXZORDNBbU9LX3I2LXRMbG50dExnQWNSNnFmTEdpNlp1YTQ2NHlZaWMtZlJsR25aMVNGR3ptYTFjbTlPbmVXMXk5dzlOQWo2T2dhWTfSAXRBVV95cUxNdlp3YWJINGU1TF95ZWYwOHRvd3N3VWF3Q1JjQzU0LW1mb1I4UHgwY1RpWXRFUWE0SV80Umdla3ZYdWN5b0w0OFdyUGlvZ09kbVJ1aU1XV2VUVHJRNHlJSmJUdUt6SHRsTFVmOVhycHdpQzEteg?oc=5",
+      "source": "산경투데이",
+      "date": "2026-08-13T03:06:04.000Z"
+    },
+    {
+      "title": "코스피 6,800선 안착…증시 시총 6천조 회복",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3TlNJcGxpU1QtRmc5SlZmRDVwOGtzWjBBNXZNNnBPNk9VWTZtc2lhTHc5V2ZrT1RUcnZlMHhWMmphV2xIWXFFUXRmRkV3YldHSHV3?oc=5",
+      "source": "네이트",
+      "date": "2026-08-13T02:52:00.000Z"
+    },
+    {
+      "title": "“다들 국장 떠나신 건가요?”…코스피 연이틀 훈풍에도 투자자들 ‘설레발 금지’",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5EclBoY2IzaERuNTZUZldIcU5CenB3YnM0X2lNdVRWWS1NVXFCVS00Z0sxNGViT3RGR0k1Qk1xZk1KVnppQXFKZEVBeTlKYUVvaWc?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-08-13T02:03:24.000Z"
+    },
+    {
+      "title": "[오늘증시] 돌아온 외인, 코스피 6800선 밀어올렸다…반도체株 '불기둥'",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5DeTc5dmFsbXIydFBpTTZ4UVNjcjZzX0FGNUFDanlKcldaTzBmUEdsU29jQzRFUlNYaXgwWWxFaW8zbFoxV05mRFFFR3FVRGdwWG50V0phejVPRFU5aGFtY1VZQXQxcTBKWmdULWpkOXFYdWc?oc=5",
+      "source": "startuptoday.co.kr",
+      "date": "2026-08-13T02:00:00.000Z"
+    },
+    {
+      "title": "코스피 인플레 우려 완화에 장중 3%대 상승 6820선, 코스닥도 소폭 올라",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBHZ3BwWWdnRUFCbUFSR1ZyV1otaWxDb0gxQlJyVTR3UzZVeExtX2ZCR2NnWFludnJXMzltWE52Z0o0bTA4OXYtWFJ4RHpSN19zaklzdUEyMUFUa2hrWXBUWnBkb2g1M2xhR2NvN3BFUUw1RVk?oc=5",
+      "source": "비즈니스포스트",
+      "date": "2026-08-13T01:53:54.000Z"
+    },
+    {
+      "title": "[주식 시황]‘삼전닉스’ 급등에 코스피 6,800선…삼성전자 4.7%·SK하이닉스 6.65%↑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9CbzFEX25UQ2dQaUN2UDdaQmtwX0g3dHlPNXM2TkpQX24wUU9LUXBxWDc3Qi1uYUhPTlh3N2JMQk9XVXlQNmhCMFE4SHRPVHpOMU55Q0RGLVVZWmVpZG5zWUhHeVoyZTNZcTY5StIBcEFVX3lxTE9IOFR6V3B1V0Zhemt3TkQzUUlVZmgyN09fcUtOVkU0Wkp0NUgtSzRHSkM1SFZQSGFBY00tQ0h0MjdWVVhDdTdHdFBkdzlwXzBRQ3JNQzlLMURpZGxwTW11NnRBY1NnM2xWbXI3VWdXaXA?oc=5",
+      "source": "남도일보",
+      "date": "2026-08-13T01:45:00.000Z"
+    },
+    {
+      "title": "코스피·코스닥 나흘째 상승…국내 증시 시총 6천조 회복",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9pMDZ0REdYdGVUMV9JNVozbVhKWVRuVnFRTGdpOU94bFJ0YTUyT2VnMGxLdWVkMHBKZHRxaWtEdW92eUh1UzNITGQ2M20tVV9DUXVkWFR6WmFmVjlBbWpiSGRQR1pfS0N1?oc=5",
+      "source": "CBC뉴스",
+      "date": "2026-08-13T01:22:00.000Z"
+    },
+    {
+      "title": "코스피 6800선 돌파…반도체·외국인 '쌍끌이'",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lbFRLYU53VW91aHFyX1VXRVJoUjY0WG5oemRQcU5TVE5fbmF4djNMdy1vYkplNjlxSjNjN0tkZ19yWHdCM0Nta1RtWkJLUmFZUU5J?oc=5",
+      "source": "경제타임스",
+      "date": "2026-08-13T01:21:46.000Z"
+    },
     {
       "title": "코스피, 4%대 급등에 6900선 눈앞…7000피 탈환 기대감 '쑥'",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IaHpTeENGMThPbnU5el9lNTdaTkViSjNNQVkyVklzbzFpSXROZVRIN09SanFVOURnbXFuWTA3UU1zYzJxbjE0bW1xZFdsMTJmbkVwM2J1N0xwZ9IBVEFVX3lxTFBWVFFnR1NPWS1hbm5HWnhrZG13ZlJyUDZGZHZpRXZ0UVZlSnlBWV94aHhmanFBbk9VLXZRSEpFR3A3dFJ6OEVyTnpXZHgzU1BBMXdKZg?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE55ZjNRNHp6Nm55amVQY2h3MFh6LTM1UklrSm5BREVwbWoxeVhQajl6YWRDSEJLMHJHYkgxNl9yU0xQeEpsNVBUdk1tU0o2RW5rZWYw?oc=5",
       "source": "네이트",
       "date": "2026-08-11T00:32:00.000Z"
-    },
-    {
-      "title": "코스피, 장 초반 1%대 내림세⋯“美 증시 약세ㆍ유가 급등의 ‘이중고’ 영향”",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kRWtQVzZubkwxamJHSWFBeWpwWjZfRjdhN3FTVE5vakp3WTJ6X2RzZUc0LTNsSEdNN2ZxSF96ZVVTRFZFZFR6cGZVZkdLLTRqNGhFYg?oc=5",
-      "source": "이투데이",
-      "date": "2026-08-11T00:31:00.000Z"
-    },
-    {
-      "title": "코스피, 기관·개인 순매도에 6240선 약세",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NZWVKV0drd0ZucVljVUtxNUZ5VnBxRjRXOVB0NGRaNWc2VHFRX0pVNllad0pmbmRBNnlEREN4ZFFLaXRFMG1ZZy1PQUZveDEzX1kta21hZzB5LS1Sd1RnSnlFREdlMlZRMDI2bNIBcEFVX3lxTE5oekhYVXA2VTloX0Q1QzlhdXN2WjRZRkhmZzhkb2ZsZ0hpQnByeVVXQ2pULWg5dlFVdTNqQ3ZSdFVRX0ZnaEMxR2RJUF9xTHFzY2V2UzlGemhWbG1hRVNDYk9Jd2YyR1VfQTJuY2xVVnI?oc=5",
-      "source": "한국금융경제신문",
-      "date": "2026-08-11T00:29:16.000Z"
-    },
-    {
-      "title": "또 커진 호르무즈 해협 불확실성…코스피·코스닥 동반 하락 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE52S09jTFJhNGYwaEpGZ0ppSGFlbjdxV1N2elZlbnlVZ2FtbFRDeTBQV2pYRGh3TC1SOF94cGFNMVk5RkEtX0M5ZXh0dHprWUVkanVGWkhUcE9oS1oxTXJmTnQyUXJFN0Jh0gFuQVVfeXFMT2VKZDRueDlwRlBhUmlGWWRUSjdqb0JlSjIyUXJrZ1lTRnNjS1ZCbmR0bGlTV28zT2pXV0lyN18yVndOZmt2LUlia2FZU0MwbHNyOUp0YVZIVVB3SXR5Ykpsc2lOcDFOV2FaQjBBdmc?oc=5",
-      "source": "머니투데이",
-      "date": "2026-08-11T00:29:15.000Z"
-    },
-    {
-      "title": "코스피, 유가 급등·美 증시 약세에 하락",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4LXpxNUhfOVlaVzU4S0RiVlp4Ni1QYklLOFRINVNOYVJXbExkQk9KYlFRYU9BRzNES19hOVBoNnBESHFYcVdVY2ktOFVEaDZpQ0o5dVEtd1BaTjBwVVBQMw?oc=5",
-      "source": "네이트",
-      "date": "2026-08-11T00:25:00.000Z"
-    },
-    {
-      "title": "[개장시황] 코스피, '개인·기관' 동반 매도에 1% 하락 출발",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2SG44bERyUkk1WGVPMURHcTZJenU2aXg1U2NWaVdELTZvUUgzZTBiSVhlWFVFTmRzZ0FCTzBrZWdPem1pZDY5enNfeWZKYlZDdnd6R0RPSDZYc1ZT?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-08-11T00:24:00.000Z"
-    },
-    {
-      "title": "코스피 6200선에서 하락 출발…국제유가 급등·뉴욕증시 약세 영향 받나",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tZ00zRXpTZ1QyZnZxMXFySGlyMndEMWNMSlVqc1FQMFI3SGViLXozQnVJdkFXTjJfLVNrb2xNMUZqV3hseWIzbEdVaHNqYWNJb0FFb0tQUllEY3dhVWpxSg?oc=5",
-      "source": "네이트",
-      "date": "2026-08-11T00:23:00.000Z"
-    },
-    {
-      "title": "[오늘의 증시]호르무즈에 조정받은 美증시…코스피, 반등 이어갈까",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Qd05WT2FGbGZOVU1nb3hkcVd2T0d1WUxlOElTOVNjTmR5blRycGs1S1BCSlF6UE00SFVieUd5ZEdrWUxzdVdYakpWOExRVnNKbmhOb2FVdHZrUVB4bG9CSNIBeEFVX3lxTFBQUl9SYWhPeFkwek04S2FPSk5JbS1qVS1JSE9EM09wYTdIYlpWSVdwdjVzSHdWU1BYVGlZN1VoWWJYZmNXX1pUbUJfREF0MGhfaE5XRmNOdjkzZjRFR1dKWERVSmlxbzdjSlotaUZTYVY5WDZjRVY2ZA?oc=5",
-      "source": "뉴시스",
-      "date": "2026-08-10T22:57:17.000Z"
-    },
-    {
-      "title": "[마켓뷰] '찔끔 반등' 코스피, 美증시 약세에 또 흔들리나",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5MLVVHLU5xOEw2dGtVSllvY2hkRnQwSnpaVW5wR3g3RFNaVlo4cV9ZWm5KdXZLM2l4M2dDbGEzZkZFX09ZM2xQd2dKRkpkOW9UQlBN?oc=5",
-      "source": "네이트",
-      "date": "2026-08-10T22:57:00.000Z"
     }
   ]
 }
