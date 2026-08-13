@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-14T07:28:16+09:00",
+  "updatedAt": "2026-08-14T08:28:39+09:00",
   "deals": [
+    {
+      "title": "아이깨끗해 핸드워시 490ml 본품 1개+450ml 리필 3개(향 선택)",
+      "mall": "지마켓",
+      "price": 11900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726925",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-13T23:22:17.000Z"
+    },
+    {
+      "title": "네이버페이 추가",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/78838",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-13T23:16:26.000Z"
+    },
+    {
+      "title": "겟피-X 스위치 패키지 44,000원 배송비 3,000원",
+      "mall": "네이버",
+      "price": 3000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106368",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-13T23:04:37.000Z"
+    },
+    {
+      "title": "롱코 듀얼모터 모션데스크 듀얼플러스 3STEP 1200 (319,130/20,000)",
+      "mall": "컴퓨존",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726924",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-13T22:39:22.000Z"
+    },
     {
       "title": "겟피X 스위치판 재판 44,000원/유배",
       "mall": "네이버",
@@ -220,28 +264,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-13T15:09:10.000Z"
-    },
-    {
-      "title": "어린이축구동화 온 더 볼 완결세트 총6권 58,800원 무배",
-      "mall": "지마켓",
-      "price": 58800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726909",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-13T15:07:53.000Z"
-    },
-    {
-      "title": "창고대방출 파워바큠 진공용기 BEST 세트 모음전/밀폐용기 보관용기 진공용기",
-      "mall": "지마켓",
-      "price": 29900,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726908",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-13T15:06:23.000Z"
     },
     {
       "title": "Beholder: Conductor",
@@ -552,17 +574,6 @@
       "date": "2026-08-13T01:11:31.000Z"
     },
     {
-      "title": "스위치 파이어엠블램 만자천홍 한정판 14.8만[무료배송]",
-      "mall": "이마트",
-      "price": null,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106339",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T01:08:36.000Z"
-    },
-    {
       "title": "iOS 일시무료 QR Forge",
       "mall": null,
       "price": null,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-12T00:20:54.000Z"
-    },
-    {
-      "title": "우거지 뼈해장국 감자탕 1kg 10팩 해장국 국밥 캠핑음식 공동구매",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://naver.me/5HyW4oDS",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-12T00:02:41.000Z"
     }
   ]
 }
