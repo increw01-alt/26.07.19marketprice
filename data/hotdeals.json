@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-14T04:49:14+09:00",
+  "updatedAt": "2026-08-14T05:27:02+09:00",
   "deals": [
+    {
+      "title": "겟피X 스위치판 재판 44,000원/유배",
+      "mall": "네이버",
+      "price": 44000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106367",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-13T20:24:09.000Z"
+    },
     {
       "title": "Caravan SandWitch 무료배포",
       "mall": "에픽게임즈",
@@ -550,17 +561,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-13T01:08:36.000Z"
-    },
-    {
-      "title": "센소다인 오리지날 플러스 5개",
-      "mall": "GS샵",
-      "price": 12900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106338",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T01:07:41.000Z"
     },
     {
       "title": "iOS 일시무료 QR Forge",
