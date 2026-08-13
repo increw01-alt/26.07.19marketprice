@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T02:47:09+09:00",
+  "updatedAt": "2026-08-14T03:43:45+09:00",
   "topics": {
     "coin": [
       {
@@ -65,6 +65,12 @@
         "date": "2026-08-13T08:52:00.000Z"
       },
       {
+        "title": "연일 상승장…국내 증시 시가총액 6천조 원 회복",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EZURmTlhHRndFV0tQSTRWb2p1bk5uOEZOd3Z1b2hqam9PZ2pRMzBGa2M5QnJMeXBfSXlHZDZwd3N1eDBYUkRYWTVoV1JNWkRKRXdkMWtGTnh4R0htam5SZ1BXSFh1MjdF?oc=5",
+        "source": "mbnmoney.mbn.co.kr",
+        "date": "2026-08-13T08:46:00.000Z"
+      },
+      {
         "title": "[마감시황] 반도체 날개 단 코스피 3.56% 급등...6,800선 회복",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1zRUg1ZlFZSXpPSUUxNUVOM1RLOGRlOGJrT0kzV3RuUFBjTjFvM1phRkpBcl9wSHI2bHB6ekdubXNUR1c1WE1WaGEtUkRBTFNoMndjaHlFTVV1TDg5c2V6czBnNF9uOERhZjlhVEJB0gFyQVVfeXFMTmZUT1Y2bkliTjl2ZXpFQWI3TUJmNTVOTDk5NTlEY1A1OERCLWhRVkY2dlVWNFlLUXdqR2c0Z19rcEtKS0ZJRVQwYXNTLVZ2U1gzR292Z1dfbE5RYjQ2c01zanNSc2xlMUhzOEdYNDBfYlhR?oc=5",
         "source": "폴리뉴스 Polinews",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16YzNNVThwY1pzZ3ltY0RObmVCb21EaVdkcGlXWkRnT3JCSzJtSGlVQ09iVk1sM3loV1hxWlpiaW1KYXd6c1BOYzlYMFFfNXNrQ0xzX3EtQi1uUm51eThrbFJhZlZoRVpnelE?oc=5",
         "source": "천지일보",
         "date": "2026-08-13T08:00:00.000Z"
-      },
-      {
-        "title": "국내 증시 시가총액 6천조원 회복…코스피 나흘째 상승",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9DQVpzZzM4VnN0QkY2QUhIZkktSlJIbnhfdVdBcTdwVVpMbFpHbDZNRDZadmM1ZnFoQy14QWpzc0RmdTF1bnBTZWw5SW85OEFJei0wYXFDZjlzSUhvSzdSNGQ5cFI5NHpuZE9yWkx1ck5mRms?oc=5",
-        "source": "스페셜타임스",
-        "date": "2026-08-13T07:52:00.000Z"
       }
     ],
     "kosdaq": [
@@ -123,7 +123,7 @@
       {
         "title": "인제니아테라퓨틱스, 18일 코스닥 입성...임상 성과 주목",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pd19TMEJXcVdCN19TTzRoMVZsVFRzcDhlVnhhaHVzRVNjdVNXb1VwdzF5bUE4Rm9SbWJQWkRBT2ItRmRSYVNXQXEwRUx6YkF2a0Q0aEpzYWxHQQ?oc=5",
-        "source": "fnnews.com",
+        "source": "파이낸셜뉴스",
         "date": "2026-08-13T11:39:25.000Z"
       },
       {
@@ -141,7 +141,7 @@
       {
         "title": "원텍, ‘2026 코스닥 라이징스타’ 선정…올리지오 기술력 인정",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUjNsXzJ3UVdOOTlWd2w3X3RHM19PeU1TcF9KdkxuTXRfZWlPdFUya09qYmxHbk1FQ1hrWFBmdE1nVU1nT0lnLXYyTE83MHlzTVNnMERJb0ZZZzR6aVlRTTFGRXJ3SmJwWW5PVg?oc=5",
-        "source": "newstap.co.kr",
+        "source": "뉴스탭",
         "date": "2026-08-13T09:35:38.000Z"
       },
       {
@@ -179,7 +179,7 @@
       {
         "title": "원·달러 환율 급락 후 '반등' 1419.4원 '상승마감'",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16dFpsSF9qX3VDS3FJRlcxcHRsYzBFUUE4a1NESnp3bzBFaXJBWXhzbnZsRWluZWJxRXJtblIzSlZqVHNzWnRYSDNIejlLaEVWb2pxc282b3JTdjA1TXo0VV9UcVlBM3FvS1kxMTVR?oc=5",
-        "source": "세이프머니",
+        "source": "safemoney.co.kr",
         "date": "2026-08-13T08:58:21.000Z"
       },
       {
@@ -295,10 +295,10 @@
         "date": "2026-06-16T07:00:00.000Z"
       },
       {
-        "title": "[원자재 시황] WTI 80달러선 붕괴 '눈앞'…금·암호화폐 상승",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YREliSm5GSGhuWUp6NW1yTTJzYjZKMzVVVjNjMDJYUHJkVWxjUFJJMThOWmRyMjBaQzVMS2N3THZCUUZkNGdtS1hzZEpUNUZ1eTBN?oc=5",
-        "source": "네이트",
-        "date": "2026-06-16T07:00:00.000Z"
+        "title": "골드만삭스 \"내년 국제유가 배럴당 80달러\"...현재보다 10% ↓",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
+        "source": "thecommoditiesnews.com",
+        "date": "2026-06-13T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -386,7 +386,7 @@
         "title": "갤럭시S26 125만원→50만원 ‘뚝’…뜻밖의 기회에 비수기 버티는 이통사들",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hTHdsZjBUTDhuU0FyR1A1dmo5azhJdGh3bFJ0aDdrS1JrYkxiRzFleXF5MHVTWXBkaGNCN192R2JKaFNfRkZXdlkxWXFRdFgyNWF3R3hB?oc=5",
         "source": "매일경제",
-        "date": "2026-06-16T07:00:00.000Z"
+        "date": "2026-06-15T07:00:00.000Z"
       },
       {
         "title": "삼성전자 디지털 온누리상품권 20%받는 방법",
