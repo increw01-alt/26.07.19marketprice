@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T19:00:56+09:00",
+  "updatedAt": "2026-08-13T20:01:12+09:00",
   "topics": {
     "coin": [
       {
@@ -15,12 +15,6 @@
         "date": "2026-08-13T00:30:44.000Z"
       },
       {
-        "title": "Trump Media, 분기 손실 2억 3,800만 달러 기록…비트코인이 주요 원인",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tWl9yM2JOV1lIMlBxOFlBZmtCcHNFUjdwRHhZV0hSWU45VUo5UHE4WFg4UkluWHpMNVBwN1lOa1pxaHBFTloySXlRMnJnaHQ3MVJCN0xkU3NkZy1MZng3cWphdURJbEFHMGhKd3g3RkIwZE1ubkE?oc=5",
-        "source": "FinanceFeeds",
-        "date": "2026-08-12T23:52:46.000Z"
-      },
-      {
         "title": "암호 화폐 가격 차트 디자이너를 위한 반응형 디자인 실전 핸드북",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHpMNzg5TUNXa1NfajFld0ZGRHliQUYtdHFMTWVSZmhSYTNKMjNiQXpBT2FCLWdubUo1dU5iQ2dpbUg3VnRGSmJ0MFQwM0VrR3hCeG1EaHg3bThJd2tuNW04a09neXBxRGZmYWxLTnBITWI0ckFLVDJSVVg5RGtaN3h1T1UzVnZZWS01aVNmLUFQRVRRSW9Ja05tTWNoZXZvelJUdkt2YmV5dTU2SG1Mb1JEeFR5a0hGb21MZG1iQU12SVZfNkY3cWNUY0xCUQ?oc=5",
         "source": "Gwara Media",
@@ -29,7 +23,7 @@
       {
         "title": "[D-BIZ 암호화폐 뉴스] 트럼프 미디어, 비트코인 가격 하락·보유 축소…상반기 암호화폐 손실 3억6천만 달러",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiMkpDTjJ4RVQ1UjcxZ2doY1kydDVUTHNrQjE1ZDZPQ0Q1emlHMUU4LVhQalE5TGRzVXNxNWJxZUYydlJ6TjRtYnpFeTcyTFB6VmQwUHNySktINFFjODJ3T3gzemZOZW83ODFRZQ?oc=5",
-        "source": "dailybizon.com",
+        "source": "데일리비즈온",
         "date": "2026-08-11T00:34:27.000Z"
       },
       {
@@ -49,6 +43,12 @@
         "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQTUl3Slp3b2JkZGpJN0RKYXNqWVBtMkZma1NSdWJXWUNPc0FNVkpHS0dkbnc1eUR0d3pIWkpJbl80M2I2cVB0QjJvLURSSmNsZ2RtbTJFaTFGV283b3BEZVZRT014RDNpSm9ONEtrMVNtcEliTGo2S0tsalpZZU50RG1TalVVVjZrVkJQaUhVN0VMODFjNDE5dGVvLWx6bE1DVnFJRk1BMm9USWk1d3FV?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-07T06:16:16.000Z"
+      },
+      {
+        "title": "비트코인 \"악재 다 쏟아졌다\"… 8월 상원 표결 분수령",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxONnpfcnBHdUhKV3FYZEk2dk51RU1UYk8tcF9qTHk1VnFaVzNhdEJIU0hHelpoQ193Ym82NTB0N0Q0TkxrX2ZlcWFWam5VZlQxOXEtX1BNMHhueU5sUUlCckRoUDhOb1FPaGVwNVBIZ2xWVld3Y3NRVlVya245VjAtWnZFbWtES0Y5?oc=5",
+        "source": "글로벌이코노믹",
+        "date": "2026-08-05T22:37:22.000Z"
       }
     ],
     "stock": [
@@ -85,7 +85,7 @@
       {
         "title": "코스피 나흘 연속 상승… 코스닥 강보합 마감",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16YzNNVThwY1pzZ3ltY0RObmVCb21EaVdkcGlXWkRnT3JCSzJtSGlVQ09iVk1sM3loV1hxWlpiaW1KYXd6c1BOYzlYMFFfNXNrQ0xzX3EtQi1uUm51eThrbFJhZlZoRVpnelE?oc=5",
-        "source": "천지일보",
+        "source": "newscj.com",
         "date": "2026-08-13T08:00:00.000Z"
       },
       {
@@ -97,11 +97,17 @@
       {
         "title": "코스피, 반도체 강세 에 3%대 마감…6800선 회복",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0wTXlwSHczZmduVXJGcTc4ZEhSS011TXI2WG9EaktpSWdleTdhYVVwT3JueHpVOGRoOEJvcDY4bnJ4OWlTRjFrWXNicGNkczRfQzV5MldSV1JITkk3cldQYw?oc=5",
-        "source": "증권일보",
+        "source": "s-d.kr",
         "date": "2026-08-13T07:50:45.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "인제니아테라퓨틱스, 코스닥 신규 상장…18일 거래 개시",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4anNGQU04RmFfUkV3UDlwZVRia2hGRDJHZHQzXy1Vb1Fzd1RBeXhEOXlpV05naExsaGlrWVpxNG4yTlFXc2FUbm0tTWpmbG5WUGQtVWtCYUozUVXSAWBBVV95cUxPRTE4amhQSWFSdlVKQXpOY1JEZ3gwMTVXeUVYTWRHbEt0ZUVzVkJDVC1YaXp6SUZRTjY0M21jbzVKVWdXcTVZbEtmREtNMEJnWktPeGplWVNHVkhmSUw2TjA?oc=5",
+        "source": "연합뉴스",
+        "date": "2026-08-13T10:29:12.000Z"
+      },
       {
         "title": "브릴스, 로봇 플랫폼으로 코스닥 도전 \"레고처럼 조립하는 모듈화가 핵심\"",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yWUthSW5iZld1WkVVREVzWVpJcDJYYlN0alNNLTlTdUxHRk05amw1a0ZoSVlDbzlDN1BhMmpkdXlZVHJRT2pjQ0hJVHpSbVRScjhBTzA4blJ3RUt2bXNZd3lSaUNZUE5wYnc?oc=5",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14dmpoWFV6bzRhR2tvWm55R2p5ZmdxUkxpOGVyR0RFUEFqZFo5UmZrc3Z2cWQxdTl4V3g0NVk1a2h0ZU1BaUI3UHg1ZndTWFVxdm8yLUpVQkJHdw?oc=5",
         "source": "한국경제",
         "date": "2026-08-13T08:56:53.000Z"
-      },
-      {
-        "title": "檢, 3500억대 반도체 소재 담합 코스닥 상장사 기소… 부동산 추징 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNS0EwUXRxbXdFNEJYdHJ2TS1ZS1pRQXdxamFfN0d6cTdRZWttWmxDMTZLWXBiakQ3ejBaM1JmSldlMkNuNGc2QTR5Y2p2SWh2blg5RmxCd3E1T2JsbVZqOTdqNzlKVTVBYlZlY2FsYkVKbTZDVVVpNWhybHVvNDBqZmt1TdIBlwFBVV95cUxQNFF5S2dib0ZrVkFfbWhUN1FmOTVLdGNMbGEwWlV1TXluWmFIdXJqaUpKclZLM3ZiMFFnV1dIWU54XzZ5ZTk3QUJHLXhHX0hhamdDcjlmLWh4d0NseUtYOFNmN2FDdTl5dHRIc3poWXFDVlZhWUVCZDFYekMwXzFFX1NudzEzNUVya0VoWTl4MWVuZ3A3Q3Q0?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-08-13T08:24:00.000Z"
       }
     ],
     "fx": [
@@ -157,6 +157,12 @@
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9URWNkZG5jc3paWUtUcmNsUFdUVi1TT2JUdjN5dHQwV2VhVTJpUkp1MU90d2Z5akFmcTFQM1FVUVZscUlQbF9uYWkxSmpla3AzeklYUVFJMVFXV0YyUW9vSkJIa2ZOb1ZrcUt6TmlXREFOd3g5OHV2dA?oc=5",
         "source": "네이트",
         "date": "2026-08-13T09:16:00.000Z"
+      },
+      {
+        "title": "원·달러 환율 급락 후 '반등' 1419.4원 '상승마감'",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16dFpsSF9qX3VDS3FJRlcxcHRsYzBFUUE4a1NESnp3bzBFaXJBWXhzbnZsRWluZWJxRXJtblIzSlZqVHNzWnRYSDNIejlLaEVWb2pxc282b3JTdjA1TXo0VV9UcVlBM3FvS1kxMTVR?oc=5",
+        "source": "세이프머니",
+        "date": "2026-08-13T08:58:21.000Z"
       },
       {
         "title": "원·달러 환율 1410원대 하락…외국인 증권자금은 6개월 연속 순유출",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5VMy15cUNOcG1CNTFZVExIcGxQYWFrak1ETHlhNVdrZkNCTHRBdGhaNTRWTDFXZmpnN04zN2p4U0Q5blFtdWktS1FzeFBRRndLd0HSAVNBVV95cUxOMVlfdlUwQ1EybW40ZFJWZmlmcXlHVDZsbmg2T2g0YzdlZkp2ODhGTFc1U3JjUkUzZ0lILXZHekI2R1d3Z1NHeG54ZG02R0RGS0dsbw?oc=5",
         "source": "서울경제",
         "date": "2026-08-13T07:13:31.000Z"
-      },
-      {
-        "title": "원·달러 환율, 3.7원 상승에도 5거래일 연속 1410원대",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1IVkJIcnlqZTIxNHItTU5kcFBURGN3aVIzOWYxcjdpR1E0NTU4djdkVGVYSkRkVDlEdXlFUU5TWEF4cloyLW1ZbGoyNTNEWU0zZ3M4?oc=5",
-        "source": "네이트",
-        "date": "2026-08-13T07:12:00.000Z"
       }
     ],
     "metal": [
@@ -317,7 +317,7 @@
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
-        "source": "marketin.edaily.co.kr",
+        "source": "마켓인",
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
@@ -367,7 +367,7 @@
       {
         "title": "갤럭시 S26 살까, S27 기다릴까…가격 인상 우려 속 셈법 복잡해진 소비자들",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sQ21GTkZLZjZhYTMzSEpORjM3TzBCSjFWM19FRHF1V3owa2hINW52M1BEeUdyNk80SXpHSHF0N2F2ODFKSjNaRnJKTmIzZFNDd1J4WDNB?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-06-22T07:00:00.000Z"
       },
       {
@@ -379,7 +379,7 @@
       {
         "title": "갤럭시S26 125만원→50만원 ‘뚝’…뜻밖의 기회에 비수기 버티는 이통사들",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1hTHdsZjBUTDhuU0FyR1A1dmo5azhJdGh3bFJ0aDdrS1JrYkxiRzFleXF5MHVTWXBkaGNCN192R2JKaFNfRkZXdlkxWXFRdFgyNWF3R3hB?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-06-15T07:00:00.000Z"
       },
       {
@@ -417,7 +417,7 @@
       {
         "title": "서대문구 DMC파크뷰자이1단지 121.614㎡ 20억 원에 거래...최근 3년 신고가",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1HVUVwcXB4N0NjMlFJT1FYc0xXOGpLTXRzcFJmZ0pxLVM1R3pfR1h3a2lZQVZNQnZUbUFXOTloVDMyWndfUGIyUW40Y2RvemxjQjR6d2FvMWo?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-08-13T01:50:39.000Z"
       },
       {
@@ -429,7 +429,7 @@
       {
         "title": "광진구 광장현대9차 84.96㎡, 21억 4천만원 최근 3년 신고가",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5LR1o0M2kwcTVXc2FZb1lhSlVKYXZXcHM0OHFCM2toZTRaU2hjU0VGdGljcTRBLTZadE1uQVBhbG5IdlFHOXZOUl9rV0xTSFdSVUhOTVR3bUc?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-08-13T01:03:21.000Z"
       },
       {
@@ -441,7 +441,7 @@
       {
         "title": "압구정동 신현대12차 91.5억·한양3 58.7억…서울 고가 아파트 거래",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CZDJncjRBQmxWSFdad3YtOUMyZ29ldXBXejRGVkhGdGFsemh2bV9jek9Dd28xS0ZIY0xrY0ZERW5WblpkYlhYMUNCRVFycFBDQzhKaGFybXc?oc=5",
-        "source": "매일경제",
+        "source": "mk.co.kr",
         "date": "2026-08-13T00:50:33.000Z"
       },
       {
