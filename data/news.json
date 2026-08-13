@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-14T06:32:47+09:00",
+  "updatedAt": "2026-08-14T07:28:25+09:00",
   "topics": {
     "coin": [
       {
@@ -53,10 +53,10 @@
     ],
     "stock": [
       {
-        "title": "반도체 강세…코스피 6,800선·시총 6천조 회복",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UYmUtX0FKdHRnLVpzWmdZR0VpS3JaUVZ4eGd5dlR4Mk5NbU5YUnVRX2VVenBfMFpMbU1Ka1BBWmM2Z1ZVbmNrbmhwSFFaZ05nOWN3?oc=5",
-        "source": "네이트",
-        "date": "2026-08-13T12:12:00.000Z"
+        "title": "\"선행지수 꺾이면 코스피도 같이 꺾인다\"",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0wV2l3eTVnek9KaTM5UjNYNHJGLW9vWXNBWjdnMURzZDZ5dUQwNkxtUHhHQ1FfWlUxUXQ5UU92aEdDcjdIbU9uenNteE5wTE1BTlJnSjdXODM3Y3ladEhzNXY4dnlxNl8z?oc=5",
+        "source": "한경매거진&북",
+        "date": "2026-08-13T21:00:00.000Z"
       },
       {
         "title": "연일 상승장…국내 증시 시가총액 6천조 원 회복",
@@ -67,7 +67,7 @@
       {
         "title": "[마감]국내 증시, 美 물가 둔화·AI 기대감에 3.5% 폭등…코스피 6810선 돌파",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pNHlRTXNIQUFYN3ZlR1NEUmJDamk3ZjNVaGtYUXM0VlhuQWZBd1dkd3RNbU1veHNlYUFoMnhfb0VWVGNDUVFSX0Y0ZkNCWHp1RE1YazVxZFVVOUl5b2tVVXBPc0luQ3hMdUxZalFn?oc=5",
-        "source": "알파경제",
+        "source": "alphabiz.co.kr",
         "date": "2026-08-13T08:31:15.000Z"
       },
       {
@@ -109,12 +109,6 @@
         "date": "2026-08-13T15:35:00.000Z"
       },
       {
-        "title": "반도체 핵심소재 3500억 ‘가격 짬짜미’…코스닥사 임직원 5명 기소",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NaUhSRUdYYzhTTEUzOTRnd2pERlJzTmQtZVBmT0I3SEpLR3MxVmdpRXppQTZqLWR0T3dobzBzemUwVjB2V3JORk90QllMUmFXOUE?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-13T13:40:06.000Z"
-      },
-      {
         "title": "[리포트] '로봇 모듈화 강자' 브릴스, 코스닥 IPO 도전장···\"글로벌 피지컬 AI 시장 선도\"",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EYWJhS1g1Z2otdGpfaElnX082bF9FeFhyY19uaVV3UWNXMnZBSno3dkNQNXNBXzVWd3A2Z2ZIbkJGbVl2WDFSVmNGUzN5d1hrcHpOTnpPRDA3X0l6eVpuRC01Q3ZyZFE?oc=5",
         "source": "팍스경제TV",
@@ -147,8 +141,14 @@
       {
         "title": "원텍, ‘2026 코스닥 라이징스타’ 선정…올리지오 기술력 인정",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUjNsXzJ3UVdOOTlWd2w3X3RHM19PeU1TcF9KdkxuTXRfZWlPdFUya09qYmxHbk1FQ1hrWFBmdE1nVU1nT0lnLXYyTE83MHlzTVNnMERJb0ZZZzR6aVlRTTFGRXJ3SmJwWW5PVg?oc=5",
-        "source": "newstap.co.kr",
+        "source": "뉴스탭",
         "date": "2026-08-13T09:35:38.000Z"
+      },
+      {
+        "title": "충청권 기업 3곳 ‘2026 코스닥 라이징스타’ 이름 올렸다",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ta2ZWOUJNTk1kdEVXUkR5QzhwTmFTYkFhdFVaVms2YTFEdHZFUlVCSUlNRHFNSTd0eXJkeXBkLU5yNE5WekxJckxfajVPQXhmUUw2LWJ4Mml1bVRBc3dDOFJXYUtUSlhFSEE?oc=5",
+        "source": "중부매일",
+        "date": "2026-08-13T09:33:40.000Z"
       }
     ],
     "fx": [
@@ -165,15 +165,9 @@
         "date": "2026-08-13T21:05:00.000Z"
       },
       {
-        "title": "환율·유가 하락에 수입물가 2개월째 하락...수출물가는 28년만 최고폭↑",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAxc0JJYUJhUmFxUnNBZWMzejc4WHV4NUIxb1QxQ0pBYnFEMHc5M3lrOVJJU2hYR1A4OFJvX0h3UThocGItb2pTMDYtRWVYNjRkY3c?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-13T21:00:00.000Z"
-      },
-      {
         "title": "유가·환율 동반 하락에···7월 수입물가 1.0%↓",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBqcGV6dzhTWU55eE11ODdLRnU2UzdPMHNnMmppYTd0R0daZ0VpU0Z4S2dLMHNGZTlIclFGRGlIbGlyd3U4Rk5SdTA1MFcwbmc2WjcxVWtFTHRVS2IzSFI3Qm1la2xrMmpiRHc?oc=5",
-        "source": "seoulfn.com",
+        "source": "서울파이낸스",
         "date": "2026-08-13T21:00:00.000Z"
       },
       {
@@ -199,6 +193,12 @@
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9yLUd5M1VGZDNBTkFHYTJtZWUzTDdkN1F0NHByTzZuX01wVHBrNGRSZ25TcGhXVy1Bd2NnSUppdkZJdUE3U2RCT0xwSEF2Zw?oc=5",
         "source": "전자신문",
         "date": "2026-08-13T11:36:59.000Z"
+      },
+      {
+        "title": "원·달러 환율 급락 후 '반등' 1419.4원 '상승마감'",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16dFpsSF9qX3VDS3FJRlcxcHRsYzBFUUE4a1NESnp3bzBFaXJBWXhzbnZsRWluZWJxRXJtblIzSlZqVHNzWnRYSDNIejlLaEVWb2pxc282b3JTdjA1TXo0VV9UcVlBM3FvS1kxMTVR?oc=5",
+        "source": "세이프머니",
+        "date": "2026-08-13T08:58:21.000Z"
       }
     ],
     "metal": [
@@ -235,7 +235,7 @@
       {
         "title": "[투데이’s 금 시세] 금값, 美 금리인상 기대 후퇴에 상승세 지속 By 투데이코리아",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LV0hGMV91RU9pY0R1czAxMTJUSFNpc25SRGdNN2JreTdoRlNIck1MLVNnN1JKQlZtV3dDcmFmWS1EMTdoS256QmdLeFVLV083eDJXNDZZQm1QNE1oMFk3ZlVzZG1XU2NDbTYxU21IN24?oc=5",
-        "source": "Investing.com 한국어",
+        "source": "kr.investing.com",
         "date": "2026-08-13T04:45:00.000Z"
       },
       {
