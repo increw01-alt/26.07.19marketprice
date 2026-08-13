@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T12:19:54+09:00",
+  "updatedAt": "2026-08-13T14:24:53+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,8 +36,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 95600,
-      "buyRate": 4.4,
+      "buy": 95650,
+      "buyRate": 4.35,
       "sell": 95800,
       "sellRate": 4.2
     },
@@ -48,8 +48,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95400,
-      "buyRate": 4.6,
+      "buy": 95450,
+      "buyRate": 4.55,
       "sell": 95800,
       "sellRate": 4.2
     },
@@ -132,10 +132,10 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 478000,
-      "buyRate": 4.4,
-      "sell": 479000,
-      "sellRate": 4.2
+      "buy": 478250,
+      "buyRate": 4.35,
+      "sell": 479500,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -144,10 +144,10 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 95600,
-      "buyRate": 4.4,
-      "sell": 95800,
-      "sellRate": 4.2
+      "buy": 95650,
+      "buyRate": 4.35,
+      "sell": 95900,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -156,10 +156,10 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 47800,
-      "buyRate": 4.4,
-      "sell": 47900,
-      "sellRate": 4.2
+      "buy": 47825,
+      "buyRate": 4.35,
+      "sell": 47950,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -168,10 +168,10 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 483000,
-      "buyRate": 3.4,
-      "sell": 483500,
-      "sellRate": 3.3
+      "buy": 483250,
+      "buyRate": 3.35,
+      "sell": 484000,
+      "sellRate": 3.2
     },
     {
       "shopId": "choigo",
@@ -180,10 +180,10 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96600,
-      "buyRate": 3.4,
-      "sell": 96700,
-      "sellRate": 3.3
+      "buy": 96650,
+      "buyRate": 3.35,
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "choigo",
@@ -192,10 +192,10 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48300,
-      "buyRate": 3.4,
-      "sell": 48350,
-      "sellRate": 3.3
+      "buy": 48325,
+      "buyRate": 3.35,
+      "sell": 48400,
+      "sellRate": 3.2
     },
     {
       "shopId": "choigo",
