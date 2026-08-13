@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-14T01:41:37+09:00",
+  "updatedAt": "2026-08-14T02:47:00+09:00",
   "deals": [
+    {
+      "title": "Deponia",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106366",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-13T17:01:11.000Z"
+    },
+    {
+      "title": "Deponia 재배포",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726923",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-13T17:01:05.000Z"
+    },
     {
       "title": "에디션 남성 경량 패딩 점퍼 / 패딩조끼 아우터 3종 택1",
       "mall": "더현대",
@@ -198,17 +220,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-13T15:07:53.000Z"
-    },
-    {
-      "title": "창고대방출 파워바큠 진공용기 BEST 세트 모음전/밀폐용기 보관용기 진공용기",
-      "mall": "지마켓",
-      "price": 29900,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=726908",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-13T15:06:23.000Z"
     },
     {
       "title": "Beholder: Conductor",
@@ -539,17 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-13T01:07:41.000Z"
-    },
-    {
-      "title": "쌀로별 오리지널 62g 16입",
-      "mall": "지마켓",
-      "price": 13230,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106337",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T00:55:31.000Z"
     },
     {
       "title": "iOS 일시무료 QR Forge",
