@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-13T21:38:06+09:00",
+  "updatedAt": "2026-08-13T23:13:13+09:00",
   "topics": {
     "coin": [
       {
@@ -55,7 +55,7 @@
       {
         "title": "반도체 강세…코스피 6,800선·시총 6천조 회복",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9UYmUtX0FKdHRnLVpzWmdZR0VpS3JaUVZ4eGd5dlR4Mk5NbU5YUnVRX2VVenBfMFpMbU1Ka1BBWmM2Z1ZVbmNrbmhwSFFaZ05nOWN3?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T12:12:00.000Z"
       },
       {
@@ -79,7 +79,7 @@
       {
         "title": "[마감]국내 증시, 美 물가 둔화·AI 기대감에 3.5% 폭등…코스피 6810선 돌파",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5pNHlRTXNIQUFYN3ZlR1NEUmJDamk3ZjNVaGtYUXM0VlhuQWZBd1dkd3RNbU1veHNlYUFoMnhfb0VWVGNDUVFSX0Y0ZkNCWHp1RE1YazVxZFVVOUl5b2tVVXBPc0luQ3hMdUxZalFn?oc=5",
-        "source": "알파경제",
+        "source": "alphabiz.co.kr",
         "date": "2026-08-13T08:31:15.000Z"
       },
       {
@@ -103,10 +103,22 @@
     ],
     "kosdaq": [
       {
+        "title": "반도체 핵심소재 3500억 ‘가격 짬짜미’…코스닥사 임직원 5명 기소",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5NaUhSRUdYYzhTTEUzOTRnd2pERlJzTmQtZVBmT0I3SEpLR3MxVmdpRXppQTZqLWR0T3dobzBzemUwVjB2V3JORk90QllMUmFXOUE?oc=5",
+        "source": "서울경제",
+        "date": "2026-08-13T13:40:06.000Z"
+      },
+      {
         "title": "[리포트] '로봇 모듈화 강자' 브릴스, 코스닥 IPO 도전장···\"글로벌 피지컬 AI 시장 선도\"",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9EYWJhS1g1Z2otdGpfaElnX082bF9FeFhyY19uaVV3UWNXMnZBSno3dkNQNXNBXzVWd3A2Z2ZIbkJGbVl2WDFSVmNGUzN5d1hrcHpOTnpPRDA3X0l6eVpuRC01Q3ZyZFE?oc=5",
-        "source": "팍스경제TV",
+        "source": "paxetv.com",
         "date": "2026-08-13T12:03:16.000Z"
+      },
+      {
+        "title": "“로봇 넘어 자동화 설루션”…브릴스, 코스닥 출사표",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE05dnluVHVnSHhuNVNTOTViX1M3ZlNBTG1xdExQXzlCUGxmeVpONjhWQVhQNzdrTDNVTFVqYTVab08xRDZ0ZlRXdHlfR2tHRFlKR1E?oc=5",
+        "source": "경인일보",
+        "date": "2026-08-13T11:43:24.000Z"
       },
       {
         "title": "인제니아테라퓨틱스, 18일 코스닥 입성...임상 성과 주목",
@@ -121,6 +133,12 @@
         "date": "2026-08-13T11:39:25.000Z"
       },
       {
+        "title": "코스피·코스닥 나흘째 동반 상승…코스피 6,800선 돌파 마감",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kTW1uYWlldExTNmhObWlBbkpvVDVoX3duMmYzUy1zQzJ2UGlkQTFTQ2dNY2FRVmdveHh2Yl9SLTFtMGpCUnlORThRNzhZWlVnd0Z0NkY2RmJndXk3SDhOLTlTS0xwRFYzdjg4?oc=5",
+        "source": "일간투데이",
+        "date": "2026-08-13T11:20:57.000Z"
+      },
+      {
         "title": "인제니아테라퓨틱스, 코스닥 신규 상장…18일 거래 개시",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB4anNGQU04RmFfUkV3UDlwZVRia2hGRDJHZHQzXy1Vb1Fzd1RBeXhEOXlpV05naExsaGlrWVpxNG4yTlFXc2FUbm0tTWpmbG5WUGQtVWtCYUozUVXSAWBBVV95cUxPRTE4amhQSWFSdlVKQXpOY1JEZ3gwMTVXeUVYTWRHbEt0ZUVzVkJDVC1YaXp6SUZRTjY0M21jbzVKVWdXcTVZbEtmREtNMEJnWktPeGplWVNHVkhmSUw2TjA?oc=5",
         "source": "연합뉴스",
@@ -131,32 +149,14 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5yWUthSW5iZld1WkVVREVzWVpJcDJYYlN0alNNLTlTdUxHRk05amw1a0ZoSVlDbzlDN1BhMmpkdXlZVHJRT2pjQ0hJVHpSbVRScjhBTzA4blJ3RUt2bXNZd3lSaUNZUE5wYnc?oc=5",
         "source": "AI타임스",
         "date": "2026-08-13T09:51:11.000Z"
-      },
-      {
-        "title": "양 제약지수 동반 상승, 코스닥 제약지수 1만선 회복",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hcWZGOWszY1RwaW8zTjh6dVEwUUNYQnRkQlBOalV1TGxYdERXZDJQcU1lWk1XSGx3Szl3dWU4emJvZGZZNHhDVldzZHhQRnh2czNncjZHTFRVaUJjWHJJNFo0NWRlLWM?oc=5",
-        "source": "의약뉴스",
-        "date": "2026-08-13T09:41:09.000Z"
-      },
-      {
-        "title": "원텍, ‘2026 코스닥 라이징스타’ 선정…올리지오 기술력 인정",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tUjNsXzJ3UVdOOTlWd2w3X3RHM19PeU1TcF9KdkxuTXRfZWlPdFUya09qYmxHbk1FQ1hrWFBmdE1nVU1nT0lnLXYyTE83MHlzTVNnMERJb0ZZZzR6aVlRTTFGRXJ3SmJwWW5PVg?oc=5",
-        "source": "뉴스탭",
-        "date": "2026-08-13T09:35:38.000Z"
-      },
-      {
-        "title": "충청권 기업 3곳 ‘2026 코스닥 라이징스타’ 이름 올렸다",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ta2ZWOUJNTk1kdEVXUkR5QzhwTmFTYkFhdFVaVms2YTFEdHZFUlVCSUlNRHFNSTd0eXJkeXBkLU5yNE5WekxJckxfajVPQXhmUUw2LWJ4Mml1bVRBc3dDOFJXYUtUSlhFSEE?oc=5",
-        "source": "중부매일",
-        "date": "2026-08-13T09:33:40.000Z"
       }
     ],
     "fx": [
       {
-        "title": "약발 다한 미일 환율개입 공조…'엔 홀로 약세'에 커지는 9월 금리 인상 압박",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9URWNkZG5jc3paWUtUcmNsUFdUVi1TT2JUdjN5dHQwV2VhVTJpUkp1MU90d2Z5akFmcTFQM1FVUVZscUlQbF9uYWkxSmpla3AzeklYUVFJMVFXV0YyUW9vSkJIa2ZOb1ZrcUt6TmlXREFOd3g5OHV2dA?oc=5",
-        "source": "네이트",
-        "date": "2026-08-13T09:16:00.000Z"
+        "title": "'결제수요·달러 강세' 원·달러 환율, 사흘만에 반등...코스피는 6,800선 회복",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5jRWpYblpkVTdWYkdMUWtvMG15NC1sV0Z4RHNxZUdwbTZ0eVdaOGU0WjN6OFk3Uk5oOUVwMFN6M2tSN1lTSC1WUjJ3OFV3YjFfaTZYbTV3SFlqOTdLdm13Qmc1dUo?oc=5",
+        "source": "베타뉴스",
+        "date": "2026-08-13T12:45:00.000Z"
       },
       {
         "title": "원·달러 환율 급락 후 '반등' 1419.4원 '상승마감'",
@@ -167,7 +167,7 @@
       {
         "title": "원·달러 환율 1410원대 하락…외국인 증권자금은 6개월 연속 순유출",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE44dmJfaDlISTRNUkt3VU5lLXNuaklRRXB1elZwODR4Q0Iza1RIQ1o0d010RXVfSjYxSVRiNmt1UllsdURGbnhVM3VVM0xMckN3a0sw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T08:42:00.000Z"
       },
       {
@@ -185,13 +185,13 @@
       {
         "title": "원화 가치 한달새 9.4% 올라…환율 변동성은 주요국 중 2위",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5OOFNvc1A5cUNpVnpIQ0ZTbzdfMHlSSUhTSXlEVmFFMHpWcHVVT3NDWXp5aW5HN1A5M2Z5cHZSWVp4b243MW9BZ2lzaGJVY3pBMEdF?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T07:44:00.000Z"
       },
       {
         "title": "원·달러 환율, 3.7원 오른 1419.4원",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wYTJsdEdlc0FGUmlwZU5RbE5saDhBbjl6a1lBMGNHVGwyUkt3c2Rwd2JjMFNhcXRiY0FUWWVQVXhuLU50UjlDRUtYeU1HR2hkLWk4?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T07:17:00.000Z"
       },
       {
@@ -285,7 +285,7 @@
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
@@ -295,10 +295,10 @@
         "date": "2026-06-16T07:00:00.000Z"
       },
       {
-        "title": "골드만삭스 \"내년 국제유가 배럴당 80달러\"...현재보다 10% ↓",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
-        "source": "thecommoditiesnews.com",
-        "date": "2026-06-13T07:00:00.000Z"
+        "title": "[원자재 시황] WTI 80달러선 붕괴 '눈앞'…금·암호화폐 상승",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9YREliSm5GSGhuWUp6NW1yTTJzYjZKMzVVVjNjMDJYUHJkVWxjUFJJMThOWmRyMjBaQzVMS2N3THZCUUZkNGdtS1hzZEpUNUZ1eTBN?oc=5",
+        "source": "news.nate.com",
+        "date": "2026-06-16T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -405,13 +405,13 @@
       {
         "title": "2분기 전국 부동산 매매거래금액 19.1% 증가",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9ZT3JOY0M4czVRN2w2Y2ZWb0dRb2RROWxiM09RVHh5MVVaQmkzeUZmRUpuTHJhdGN2MnhWTUtSdldrSmhKZlJJQWVNbllhcTNUSFo4ZnR1UTBTSlRsT3Q2ZjhTeFRQUEpPRXFIM0xn?oc=5",
-        "source": "thereport.co.kr",
+        "source": "더리포트",
         "date": "2026-08-13T07:18:57.000Z"
       },
       {
         "title": "동탄·구리 묶이자…병점·다산 실거래가 폭주",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ocklVUzl3ekV5ZnN5N2VEVmVwTzI5Ujk0VlRhYWZncUtUWGJkdEpTcDBoUWxnNEdUS1Z3V19pcU8tRzdhMXZUVVpHYW1KRFI5OVpR?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T02:26:00.000Z"
       },
       {
@@ -471,12 +471,6 @@
         "date": "2026-08-12T04:09:20.000Z"
       },
       {
-        "title": "\"앗! 깜빡했다\" 매년 수백억원 버려졌는데…미수령 로또 당첨금, 앱이 찾아준다",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5jOXNBbnEzdXkyUnMzRGowNjNHRGp6MmpKeDJNVTctMVBnR3VqQ2pzZjlIMVota1hKSi1uWnBVcW5YT3RKNE1BMUJOUlBfLVd1am0wTFRtN1ZpMk0zNTFRaA?oc=5",
-        "source": "asiae.co.kr",
-        "date": "2026-08-11T22:04:00.000Z"
-      },
-      {
         "title": "송도 로또 정리 DevOps 실전 기술",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSVl6eTkyeHNHekNwV2oyaUs4Wlpab3FKQ1FQci14eGdFNkhESzVmaUtwNEcxaHpnTmRRSlowbTZGcjdyN0xGcWJ6OHdHdUlOdjgtTWNzX1BubXNaU3pKV0pmVktBNkVIY1lTZXhjV090b2F1NUVEZWtOa3h2a2dmVGZSZ0VOY0NkOXBucDRNNHJTVmV1VDdCbkkzUkY0YXhqZ2dwcXJzbFFLRlFrSnFjX2Z6WEE5dmhYRjlwRVYzRllydw?oc=5",
         "source": "Gwara Media",
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmcEczUDRlb2p3UWh5UjVPUVBVdDduTjBuTzA0VURydlU4Wk4xa1RFTVkyYUxTTG9NeXR2dUVPdTFEQXhvblB4azhvVVhvMGpxY1RzMHpDZ2lULXYxT0NOY2k5UUJtOFFvTXc?oc=5",
         "source": "hidomin.com",
         "date": "2026-08-11T06:54:03.000Z"
+      },
+      {
+        "title": "\"로또 당첨 깜빡해도 돈 받는다\"…18일부터 앱 등록하면 자동 지급",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4xdXJJU2hwLXBJRGM4aU1nOWNhZ1lsb0dkQjJ2NFRsSE1PcVBWVVpRbDhGd1J6Y1MzV2Z1aE5XeTNsNjhYTkRzOHhBM01ibFNvdzhN?oc=5",
+        "source": "news.nate.com",
+        "date": "2026-08-11T06:43:00.000Z"
       }
     ]
   }
