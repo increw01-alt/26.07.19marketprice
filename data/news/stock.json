@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T05:19:03+09:00",
+  "updatedAt": "2026-08-15T06:16:42+09:00",
   "topic": "stock",
   "items": [
     {
@@ -7,12 +7,6 @@
       "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBIc3VJSjZCcDg4SnFUOVY4SWktbmpZTGdHRE5GTGJ4LWZfbUlvWDU1aFpkX2VMaTB3LVRTOXVkcUR0V3lVZFVR?oc=5",
       "source": "신문고뉴스",
       "date": "2026-08-14T15:05:00.000Z"
-    },
-    {
-      "title": "[마감시황] 코스피 2.42% 오른 6977.94 마감…외국인 3조 1568억 순매수",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zdklneFJITThpQnlkZWRCT1MtdXVsaEJJT3o2TEx1SHR5bFBQNTdZMzRQT1c4Y3hEODVpdlJJUWh3TzZCRk4xdnBMcG5GNTFJY0NtZEY2dlUtMWM0QkpMaloyRmwySDg?oc=5",
-      "source": "자본시장뉴스",
-      "date": "2026-08-14T14:01:34.000Z"
     },
     {
       "title": "코스피 올랐지만…\"결혼자금 날려\" 아직 손실?",
@@ -30,7 +24,7 @@
       "title": "[이슈체크] \"들어갈까, 말까?\"…외국인 사자, 코스피 이번 주 내내 상승, ‘셀 코리아’ 끝났나",
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5mWkIzdlhhYkZON2dMTEFDYTQxeTV6S0F2RnJKREQxb0pBR0JaMlU5MDhrc2hwcUVPNmxuSGs2TmE0VjV2aDJGMl9mdGVLWEU?oc=5",
       "source": "v.daum.net",
-      "date": "2026-08-14T10:19:14.000Z"
+      "date": "2026-08-14T10:19:00.000Z"
     },
     {
       "title": "외국인 강한 순매수에 코스피 11% 급등…화장품주는 소외",
@@ -91,6 +85,12 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbDdBY280Y3NxRHpWY3ZwVElRQ3FJQzJ3S2xIUkx2QzlZOE5FTUprbkthX00xcm9VeXA0S1hMcFhZNXQ0TlUyZnFDVXZKTjYzU2R5RDBvZ3Q5NTc3UGJOVF83UFBpY09KY2NDOGJKZ3ozZHM0NkRTdmdydS1pSkhZb3ZWenpzcXVlOHc?oc=5",
       "source": "네이버 프리미엄콘텐츠",
       "date": "2026-08-14T08:04:00.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피 2.42% 오른 6977.94 마감…외국인 3조 1568억 순매수",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zdklneFJITThpQnlkZWRCT1MtdXVsaEJJT3o2TEx1SHR5bFBQNTdZMzRQT1c4Y3hEODVpdlJJUWh3TzZCRk4xdnBMcG5GNTFJY0NtZEY2dlUtMWM0QkpMaloyRmwySDg?oc=5",
+      "source": "자본시장뉴스",
+      "date": "2026-08-14T08:00:00.000Z"
     },
     {
       "title": "[주식] 코스피 7000 턱밑 마감...큐리옥스 30%↑·페니트리움 12%↓",
