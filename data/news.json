@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T04:40:40+09:00",
+  "updatedAt": "2026-08-15T05:19:03+09:00",
   "topics": {
     "coin": [
       {
@@ -35,7 +35,7 @@
       {
         "title": "암호 화폐 가격 차트 디자이너를 위한 반응형 디자인 실전 핸드북",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHpMNzg5TUNXa1NfajFld0ZGRHliQUYtdHFMTWVSZmhSYTNKMjNiQXpBT2FCLWdubUo1dU5iQ2dpbUg3VnRGSmJ0MFQwM0VrR3hCeG1EaHg3bThJd2tuNW04a09neXBxRGZmYWxLTnBITWI0ckFLVDJSVVg5RGtaN3h1T1UzVnZZWS01aVNmLUFQRVRRSW9Ja05tTWNoZXZvelJUdkt2YmV5dTU2SG1Mb1JEeFR5a0hGb21MZG1iQU12SVZfNkY3cWNUY0xCUQ?oc=5",
-        "source": "gwaramedia.com",
+        "source": "Gwara Media",
         "date": "2026-08-11T17:43:26.000Z"
       },
       {
@@ -57,12 +57,6 @@
         "link": "https://news.google.com/rss/articles/CBMiR0FVX3lxTFBIc3VJSjZCcDg4SnFUOVY4SWktbmpZTGdHRE5GTGJ4LWZfbUlvWDU1aFpkX2VMaTB3LVRTOXVkcUR0V3lVZFVR?oc=5",
         "source": "신문고뉴스",
         "date": "2026-08-14T15:05:00.000Z"
-      },
-      {
-        "title": "[마감시황] 코스피 2.42% 오른 6977.94 마감…외국인 3조 1568억 순매수",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zdklneFJITThpQnlkZWRCT1MtdXVsaEJJT3o2TEx1SHR5bFBQNTdZMzRQT1c4Y3hEODVpdlJJUWh3TzZCRk4xdnBMcG5GNTFJY0NtZEY2dlUtMWM0QkpMaloyRmwySDg?oc=5",
-        "source": "자본시장뉴스",
-        "date": "2026-08-14T14:01:34.000Z"
       },
       {
         "title": "코스피 올랐지만…\"결혼자금 날려\" 아직 손실?",
@@ -99,13 +93,19 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BNG1Xa2drUG9nYTJiSHZPYWV4V256XzcxTFFhRDFLbjNQNUhYeERJTVZ1aXc2U0tRcjBKSTZDVXJoZTF5b1NXdDhuTUowRDBwZ09NdDl4c181TFc5bExxMXRGbEk?oc=5",
         "source": "주간동아",
         "date": "2026-08-14T08:09:13.000Z"
+      },
+      {
+        "title": "외인 3조 순매수 폭발! 7,000선 넘보는 코스피, 현대차와 로봇이 이끌었다 (2026.08.14)",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbDdBY280Y3NxRHpWY3ZwVElRQ3FJQzJ3S2xIUkx2QzlZOE5FTUprbkthX00xcm9VeXA0S1hMcFhZNXQ0TlUyZnFDVXZKTjYzU2R5RDBvZ3Q5NTc3UGJOVF83UFBpY09KY2NDOGJKZ3ozZHM0NkRTdmdydS1pSkhZb3ZWenpzcXVlOHc?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-14T08:04:00.000Z"
       }
     ],
     "kosdaq": [
       {
         "title": "의약품 주문에서 헬스케어 AX로…바로팜, 코스닥 상장 수순",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBBdHhWNW1IbzhMUmR1Ql9fOW5xQkNwMm1URzJjMFAwQ0RSdWJmRE0xUXcybWFFUXU1cFc5RWRidFB5VndqRGdLMkNfN25KUE9I?oc=5",
-        "source": "데일리팜",
+        "source": "dailypharm.com",
         "date": "2026-08-14T09:22:08.000Z"
       },
       {
@@ -185,7 +185,7 @@
       {
         "title": "원·달러 환율 美 물가 안도에 소폭 하락 [김혜란의 FX]",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nRWgtWlZjUldNTHZTWXJZRkpHTzNuUEhCcE5SdHljREZvWlNwNENqMkh1RDBmY19wMFQ3Q3AxdEduN2JrMWdPZi1ydWJCdXAyUXhWVWdmQkx4aTNXclQxYw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-14T07:52:00.000Z"
       },
       {
@@ -197,7 +197,7 @@
       {
         "title": "[환율마감] 원·달러 하락, 수출업체 네고+외인 코스피 3조 순매수",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9SYWlKMkttUXlLTEFPaDlaZzQtb1ZvMkpkT2pGUDl1SlJveGg4YVRrZGVSY1JobmpfSlFMMDJoMGI2ZVZWQWZWSUdEZ0duYzB4WlUw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-14T07:08:00.000Z"
       }
     ],
@@ -241,7 +241,7 @@
       {
         "title": "오늘 금시세, 순금 1돈 살 때 86만6000원…국제 금값도 고점 찍고 하락",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE54U29OTGthaW9QLUhxUE1kQUJVS0dWQWtrVWVJRzhJWkxhNVdjZlA2RFBsZUozWVkxWURtNmlzQl9HV05CMi1fUUdGWVA2ZjU0OGNwS1plYlNlbjNONEZTX1d3Zk9TelRVRFdvOFdR0gFyQVVfeXFMT3hkOHF3V01kS29fOVh4MmVHbGo2OE9KZWFHUmJnZFFYSHltYURPQjhXYlBPQmJHOHA3c1F6TGNMZEVNLWc0SlNkcDJHZDR3UzhseFZQaG9UOE9INTlINy1qRlI4U3JfS2JMdnhRbEVtNTVn?oc=5",
-        "source": "잡포스트",
+        "source": "job-post.co.kr",
         "date": "2026-08-14T01:51:25.000Z"
       },
       {
@@ -285,7 +285,7 @@
       {
         "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-06-19T07:00:00.000Z"
       },
       {
@@ -307,12 +307,6 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
         "source": "한국경제",
         "date": "2026-08-11T16:27:50.000Z"
-      },
-      {
-        "title": "[환율 전망] 가득가득 달러, 알쏭달쏭 연준",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoMlJaUE44MHE4YzF2NHdUZk02LTd2N1N5em5qT0s5eGtpNWdxVFQwODEtYjkxUDM5N3NOaG1OWnQ4cmx4dE9OQjI1YUJ3MHZqdW02ZzlQREZFczNXYnZfSA?oc=5",
-        "source": "KB Think",
-        "date": "2026-07-29T07:00:00.000Z"
       },
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
@@ -349,6 +343,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
         "source": "위키트리",
         "date": "2026-06-18T07:00:00.000Z"
+      },
+      {
+        "title": "한은총재 “금리 늦지 않게 올려야”…물가·집값·환율까지 경고",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE13VzdLeVFpcVd6QW1HRzc2WHEtUU9ST0NRZF9TV0ZQNW9abDhEUDRNNVJ4Y3NuWjFNUnVXblJ3dk9mRVlJcHZMZ0ZKRG5wRFRVVF9RN1p5YVJkVzA?oc=5",
+        "source": "경기일보",
+        "date": "2026-06-12T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -441,7 +441,7 @@
       {
         "title": "동탄·구리 묶이자…병점·다산 실거래가 폭주",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ocklVUzl3ekV5ZnN5N2VEVmVwTzI5Ujk0VlRhYWZncUtUWGJkdEpTcDBoUWxnNEdUS1Z3V19pcU8tRzdhMXZUVVpHYW1KRFI5OVpR?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-13T02:26:00.000Z"
       },
       {
@@ -479,7 +479,7 @@
       {
         "title": "로또판매시간 알아보기 웹사이트 구축 실용 도구",
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNM21TalZPZ0hpSUUxSTZES0ExZ0lLRjlJNXNKcl9LUGxWOXM3STZIV2pIUzBwcTY0TkN1bkVIZUplUks3WlMyZzFTQk4wN05NUUZhaUZYSThNanBTR2ZtNXVWcklOa2NyOU5nc0MxLVEzcWFac3dTZ2pPM1MwMUhIUk82NTFJZ1luM19DU0pzejkyVG1TcUd2N21oX0dISF9HZWprWWlpWW9qcWxCMng5SW05ZjNBTHlvejVjaGRHRXpBUVFyXzM4cy1TNmY2UQ?oc=5",
-        "source": "gwaramedia.com",
+        "source": "Gwara Media",
         "date": "2026-08-12T07:16:34.000Z"
       },
       {
@@ -491,13 +491,13 @@
       {
         "title": "로또판매시간 포스트 코로나 시대 브랜드 구축: 기초, 심화 및 마스터",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQWFF4cDl0cEhzaVZQN0E5amdUOFJxUVUtVWtlam9zZlJpcmJNUnlNY185Zi1kYnJDdmtvT19KV0Y0LWt6WTFmUWpyT3BwM09uMFRQS19Jb0p0TU85MlBzMENRNVNoWkRZdHh5ZW94cmlJOU9HeEN0V0hkbUJUT0taN0ZzTDJCQkhHV01RSjE2cFBod3dQS0V5ZmF1eVVqRk9ha05xeXQ3dTVjMnF2VWx2WHZtd2hFVG5SbERFdDVWTHRxcHZqblN2dVJTZlY?oc=5",
-        "source": "gwaramedia.com",
+        "source": "Gwara Media",
         "date": "2026-08-12T04:09:20.000Z"
       },
       {
         "title": "송도 로또 정리 DevOps 실전 기술",
         "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSVl6eTkyeHNHekNwV2oyaUs4Wlpab3FKQ1FQci14eGdFNkhESzVmaUtwNEcxaHpnTmRRSlowbTZGcjdyN0xGcWJ6OHdHdUlOdjgtTWNzX1BubXNaU3pKV0pmVktBNkVIY1lTZXhjV090b2F1NUVEZWtOa3h2a2dmVGZSZ0VOY0NkOXBucDRNNHJTVmV1VDdCbkkzUkY0YXhqZ2dwcXJzbFFLRlFrSnFjX2Z6WEE5dmhYRjlwRVYzRllydw?oc=5",
-        "source": "gwaramedia.com",
+        "source": "Gwara Media",
         "date": "2026-08-11T16:26:21.000Z"
       }
     ]
