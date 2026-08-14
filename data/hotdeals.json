@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-14T20:33:58+09:00",
+  "updatedAt": "2026-08-14T21:33:44+09:00",
   "deals": [
+    {
+      "title": "천연사이다 제로 250ml x 30캔",
+      "mall": "11번가",
+      "price": 11900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727082",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T12:19:13.000Z"
+    },
+    {
+      "title": "LENOVO 레노버 바디코어 온열 복부허리 마사지패드",
+      "mall": "옥션",
+      "price": 31890,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727081",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T12:12:32.000Z"
+    },
+    {
+      "title": "네파 남성 디플라이 하프 반바지",
+      "mall": "롯데온",
+      "price": 3000,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727080",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T12:10:46.000Z"
+    },
+    {
+      "title": "다이슨 에어랩 i.d. 멀티 스타일러 앤 드라이어",
+      "mall": "카카오",
+      "price": 520821,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727079",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T12:10:09.000Z"
+    },
+    {
+      "title": "영광 법성포 굴비 중소 진공포장 10미 5팩",
+      "mall": "롯데온",
+      "price": 13900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727078",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T11:59:03.000Z"
+    },
+    {
+      "title": "(쿠팡)브레이블리 디폴트 스위치2",
+      "mall": null,
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106384",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-14T11:57:50.000Z"
+    },
+    {
+      "title": "아이더 키즈 공용 스테롤 S 롱 다운 자켓(유아동다운) JUW25563-INT",
+      "mall": "롯데온",
+      "price": 124180,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727077",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T11:39:41.000Z"
+    },
+    {
+      "title": "순살 슬라이스 족발 200g 4팩",
+      "mall": "지마켓",
+      "price": 22020,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727076",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T11:30:39.000Z"
+    },
     {
       "title": "한우21번가 국내산 1++등급 채끝 구이용 500g 2팩",
       "mall": "롯데온",
@@ -99,83 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-14T11:00:25.000Z"
-    },
-    {
-      "title": "통마늘마라 닭갈비 2팩 총 1.05kg",
-      "mall": "G마켓",
-      "price": 11910,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727067",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:55:57.000Z"
-    },
-    {
-      "title": "까끄넬조 살치촌 블럭 소시지 1.5kg 임박",
-      "mall": "자사몰",
-      "price": 10990,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727066",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:51:27.000Z"
-    },
-    {
-      "title": "구구 크러스터 홈 660ml 3개",
-      "mall": "11번가",
-      "price": 14600,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727065",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:50:03.000Z"
-    },
-    {
-      "title": "소리나는 한글자석(세이펜/세이고 호환)",
-      "mall": "지마켓",
-      "price": 57380,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727064",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:40:04.000Z"
-    },
-    {
-      "title": "하이 코엔자임Q10 맥스 6개월분",
-      "mall": "옥션",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727063",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:38:46.000Z"
-    },
-    {
-      "title": "오사카 자유여행 3일/4일",
-      "mall": "롯데온",
-      "price": 269880,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727062",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:31:09.000Z"
-    },
-    {
-      "title": "프로젝트엠 남성 26년 인기슬랙스 6종 택1",
-      "mall": "옥션",
-      "price": 16870,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727061",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T10:23:23.000Z"
     },
     {
       "title": "Targeted - 10 Days",
@@ -594,17 +605,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-13T08:17:46.000Z"
-    },
-    {
-      "title": "XBOX 기어스 오브 워 E 데이 패드 한정판 예약 시작",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106355",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T08:10:20.000Z"
     },
     {
       "title": "옥천칡냉면 2Kg + 어가네육수 10봉 물냉면10인분세트 12,900원",
