@@ -1,16 +1,49 @@
 {
-  "updatedAt": "2026-08-15T15:15:57+09:00",
+  "updatedAt": "2026-08-15T16:20:23+09:00",
   "deals": [
     {
-      "title": "(쿠팡) 닌텐도 스위치2 별의 커비 디스커버리 + 스타리 월드(₩61,440)",
-      "mall": null,
+      "title": "오뚜기 열려라 참깨라면 (4개입) x 2개",
+      "mall": "롯데마트",
       "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727169",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:09:01.000Z"
+    },
+    {
+      "title": "국내산 손질오징어700g 2개",
+      "mall": "롯데온",
+      "price": 26980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727168",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T06:44:19.000Z"
+    },
+    {
+      "title": "앤커 9만mAh 대용량 보조배터리 199000원/무료배송",
+      "mall": "네이버",
+      "price": 199000,
       "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106393",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106394",
       "direct": false,
       "source": "루리웹",
       "sourceId": "ruliweb",
-      "date": "2026-08-15T06:15:20.000Z"
+      "date": "2026-08-15T06:36:56.000Z"
+    },
+    {
+      "title": "칼마아디 6개월분 180정",
+      "mall": "11번가",
+      "price": 11900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727167",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T06:20:21.000Z"
     },
     {
       "title": "아이더 온더락 카고 아이스 조거 팬츠",
@@ -143,39 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-15T04:18:49.000Z"
-    },
-    {
-      "title": "핀다이렉트Z MAX 알뜰폰요금제 110GB",
-      "mall": "공홈",
-      "price": 12900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727153",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:06:55.000Z"
-    },
-    {
-      "title": "휘슬러 모던 커트러리 유니 5인세트",
-      "mall": "29CM",
-      "price": 75300,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727152",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:03:32.000Z"
-    },
-    {
-      "title": "폴햄키즈 공용 버뮤다핏 6부 팬츠",
-      "mall": "네이버",
-      "price": 9910,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727151",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:01:07.000Z"
     },
     {
       "title": "케이준 감자튀김1kg+1kg 7,900원",
