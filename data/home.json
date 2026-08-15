@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-15T20:07:57+09:00",
+  "updatedAt": "2026-08-15T21:10:56+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 89136000,
-      "change": 16000,
-      "changePct": 0.01795332,
-      "volume": 45886680872.9408,
+      "price": 89150000,
+      "change": 30000,
+      "changePct": 0.03366248,
+      "volume": 43488401892.86481,
       "spark": [
         94922000,
         92917000,
@@ -156,7 +156,7 @@
         89642000,
         89554000,
         89120000,
-        89136000
+        89150000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 0.24,
+      "price": 0.33,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -387,20 +387,20 @@
     "buy": 96700
   },
   "lotto": {
-    "round": 1236,
-    "date": "2026-08-08",
+    "round": 1237,
+    "date": "2026-08-15",
     "numbers": [
-      12,
-      18,
-      21,
-      29,
+      10,
+      20,
+      23,
       34,
-      38
+      37,
+      40
     ],
-    "bonus": 10,
-    "sales": 114070835000,
-    "firstWinners": 11,
-    "firstPrize": 2441919375
+    "bonus": 36,
+    "sales": 118363161000,
+    "firstWinners": 23,
+    "firstPrize": 1214932680
   },
   "rate": {
     "price": 2.75,
