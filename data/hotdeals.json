@@ -1,6 +1,127 @@
 {
-  "updatedAt": "2026-08-15T11:06:05+09:00",
+  "updatedAt": "2026-08-15T12:30:59+09:00",
   "deals": [
+    {
+      "title": "바디랩 검은콩두유 순수두유 무가당 고단백 1+1박스 (총 40포)",
+      "mall": "네이버",
+      "price": 20900,
+      "cat": "식품",
+      "link": "https://shopping.naver.com/",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T03:27:43.000Z"
+    },
+    {
+      "title": "국산 미단 전라도 포기김치 10kg",
+      "mall": "네이버",
+      "price": 25800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727148",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T03:02:42.000Z"
+    },
+    {
+      "title": "케이준 감자튀김1kg+1kg 7,900원",
+      "mall": "네이버",
+      "price": 7900,
+      "cat": "기타",
+      "link": "https://naver.me/GrgSjlaY",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-15T03:01:28.000Z"
+    },
+    {
+      "title": "비비고 왕교자3봉+김치왕교자2봉 총5봉",
+      "mall": "CJ더마켓",
+      "price": 35256,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727147",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T02:55:38.000Z"
+    },
+    {
+      "title": "세진 통통 김말이 튀김1kg 5,500원",
+      "mall": "네이버",
+      "price": 5500,
+      "cat": "기타",
+      "link": "https://naver.me/xjYW8oZY",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-15T02:54:13.000Z"
+    },
+    {
+      "title": "루치펠로 미스틱포레스트 치약 100g 5개 + 칫솔 1p(증정)",
+      "mall": "롯데온",
+      "price": 25940,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727146",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T02:54:07.000Z"
+    },
+    {
+      "title": "맥반석 구운계란 구운란 훈제계란 30구 한판 8,800원",
+      "mall": "네이버",
+      "price": 8800,
+      "cat": "기타",
+      "link": "https://naver.me/FGEj6FmH",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-15T02:49:45.000Z"
+    },
+    {
+      "title": "칵테일새우 900g 41/50 80-100미 (9,830원)",
+      "mall": "네이버",
+      "price": 9830,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727145",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T02:48:26.000Z"
+    },
+    {
+      "title": "금미옥 쌀떡볶이 440g, 4개 21,980원",
+      "mall": "네이버",
+      "price": 21980,
+      "cat": "기타",
+      "link": "https://naver.me/5aje2ab9",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-15T02:44:46.000Z"
+    },
+    {
+      "title": "아망떼 두꺼운 70평량 고평량 물티슈 72매 10팩",
+      "mall": "컬리",
+      "price": 8720,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727144",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T02:25:21.000Z"
+    },
+    {
+      "title": "돼지고기 포함 순대국밥 순대국 캠핑음식 2,900원",
+      "mall": "네이버",
+      "price": 2900,
+      "cat": "식품",
+      "link": "https://naver.me/xfbGgYWh",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-15T02:15:01.000Z"
+    },
     {
       "title": "오넛티 땅콩버터 오리지널 230g",
       "mall": "카카오",
@@ -112,28 +233,6 @@
       "date": "2026-08-15T01:53:32.000Z"
     },
     {
-      "title": "베베앙 고평량 로얄 플러스 물티슈 77평량 70매 20팩",
-      "mall": "지마켓",
-      "price": 17820,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727134",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:46:05.000Z"
-    },
-    {
-      "title": "평택 꿈마지쌀 10kg 특등급",
-      "mall": "팔도감",
-      "price": 26825,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727133",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:37:47.000Z"
-    },
-    {
       "title": "새청무 특 20kg 59,000원",
       "mall": "네이버",
       "price": 59000,
@@ -145,17 +244,6 @@
       "date": "2026-08-15T01:30:52.000Z"
     },
     {
-      "title": "버버리 허 EDP 30m+바캉스 비치백+샘플",
-      "mall": "카카오선물하기",
-      "price": 63648,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727132",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:23:10.000Z"
-    },
-    {
       "title": "래빗 인 던전",
       "mall": "스토브",
       "price": null,
@@ -165,39 +253,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-15T01:21:13.000Z"
-    },
-    {
-      "title": "주니어 베이직 긴팔 티셔츠",
-      "mall": "지오다노",
-      "price": null,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727131",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:20:13.000Z"
-    },
-    {
-      "title": "(네멤) 닭다리 북채 2kg",
-      "mall": "네이버",
-      "price": 14880,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727130",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:11:32.000Z"
-    },
-    {
-      "title": "LG 휘센 제습기 20리터 DQ205PBBC",
-      "mall": "G마켓",
-      "price": 369210,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727129",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:10:00.000Z"
     },
     {
       "title": "라방 5원",
@@ -638,61 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-13T05:53:57.000Z"
-    },
-    {
-      "title": "냉동 미국산 왕목살 목전지 1kg 구이 제육 찌개용 7,270원",
-      "mall": "네이버",
-      "price": 7270,
-      "cat": "식품",
-      "link": "https://naver.me/F7FMl3V0",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-13T01:52:18.000Z"
-    },
-    {
-      "title": "신라호텔 납품 숄더랙 500g+500g 뉴질랜드 캠핑 양고기 양갈비 목초육 숄더렉 1kg",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/FBMhSl90",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-13T01:44:11.000Z"
-    },
-    {
-      "title": "일본인이 개발한 전통 야끼소바 814g (1인분 x 2개입) 밀키트 야키",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/G9U9YzHx",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-13T01:31:55.000Z"
-    },
-    {
-      "title": "햄 폭탄 부대찌개 밀키트 국내산 소세지 1인분 혼밥 야식 캠핑 택배 수제 간편식",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/F8lQltY7",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-13T01:22:39.000Z"
-    },
-    {
-      "title": "한우 소곱창전골 국내산 밀키트 술안주 간단 국물요리 레토르트 홈파티",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/5nhJfQQy",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-13T01:16:32.000Z"
     }
   ]
 }
