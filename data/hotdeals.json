@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-08-15T16:20:23+09:00",
+  "updatedAt": "2026-08-15T17:12:31+09:00",
   "deals": [
+    {
+      "title": "SK요금제 라이트39 선약 12개월간",
+      "mall": "플랜픽",
+      "price": 29250,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727180",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T08:07:19.000Z"
+    },
+    {
+      "title": "타미슈즈 하나 레더 컵솔 스니커즈",
+      "mall": "H패션",
+      "price": 52924,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727179",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T08:05:28.000Z"
+    },
+    {
+      "title": "생면 서리태 콩국수 10인분",
+      "mall": "카카오",
+      "price": 15430,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727178",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T08:02:56.000Z"
+    },
+    {
+      "title": "호떡 쌀군만두 1kg",
+      "mall": "카카오",
+      "price": 6800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727177",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T08:02:06.000Z"
+    },
+    {
+      "title": "카누 미니 마일드 아메리카노 130입 2개",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727176",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T08:00:37.000Z"
+    },
+    {
+      "title": "동국제약 맛있는 샐러드 미니볼 식이섬유정 20포x2박스",
+      "mall": "GS홈쇼핑",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727175",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:56:50.000Z"
+    },
+    {
+      "title": "딱딱이 백도복숭아 4kg 중 (22-24과)",
+      "mall": "지마켓",
+      "price": 19980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727174",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:50:12.000Z"
+    },
+    {
+      "title": "하이뮨 프로틴 밸런스 액티브 비건 250ml 24입",
+      "mall": "알리",
+      "price": 21170,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727173",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:48:12.000Z"
+    },
+    {
+      "title": "오리온 찍먹 오감자 20봉",
+      "mall": "롯데온",
+      "price": 19860,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727172",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:47:46.000Z"
+    },
+    {
+      "title": "아디다스 에어로레디 드로즈 3장세트",
+      "mall": "롯데온",
+      "price": 15980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727171",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:43:28.000Z"
+    },
+    {
+      "title": "파워에이드 900ml 12입",
+      "mall": "롯데온",
+      "price": 11510,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727170",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T07:32:15.000Z"
+    },
+    {
+      "title": "연금확인적립 22원",
+      "mall": "네이버페이",
+      "price": 22,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106395",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-15T07:23:59.000Z"
+    },
     {
       "title": "오뚜기 열려라 참깨라면 (4개입) x 2개",
       "mall": "롯데마트",
@@ -55,127 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-15T06:00:27.000Z"
-    },
-    {
-      "title": "피코크 조선호텔 특제육수 포기김치 8kg",
-      "mall": "네이버",
-      "price": 57800,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727165",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T05:59:46.000Z"
-    },
-    {
-      "title": "크리넥스 마이비데 클린케어 화장실용 물티슈, 리필형, 40매, 16팩",
-      "mall": "토스",
-      "price": null,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727164",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T05:55:34.000Z"
-    },
-    {
-      "title": "도루코 페이스 스타터킷 모션(면도기,면도날5입)+2입날 증정",
-      "mall": "롯데온",
-      "price": 14890,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727163",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T05:51:47.000Z"
-    },
-    {
-      "title": "맨잇슈트 르메스트 포멀핏 사계절 정장",
-      "mall": "11번가",
-      "price": 38800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727162",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T05:17:32.000Z"
-    },
-    {
-      "title": "매직캔 호환 반값 리필봉투 250 20개",
-      "mall": "오늘의집",
-      "price": 17708,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727161",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T05:02:13.000Z"
-    },
-    {
-      "title": "셀렉스 프로핏 WPI 음료 330ml 36팩",
-      "mall": "셀렉스몰",
-      "price": 50048,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727160",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:57:15.000Z"
-    },
-    {
-      "title": "레고 스피드 챔피언 77251 외 4종 (30,300/3,000)",
-      "mall": "G마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727159",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:55:34.000Z"
-    },
-    {
-      "title": "프레시웰 2L X 24개",
-      "mall": "네이버",
-      "price": 9900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727158",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:54:09.000Z"
-    },
-    {
-      "title": "태현쿡 매콤오돌뼈 300g 4팩",
-      "mall": "롯데온",
-      "price": 13260,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727156",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:47:08.000Z"
-    },
-    {
-      "title": "맥심 모카골드 마일드 커피믹스 400개입",
-      "mall": "네이버",
-      "price": 47040,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727155",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:38:13.000Z"
-    },
-    {
-      "title": "랩원오원 데님 클리어런스",
-      "mall": "롯데온",
-      "price": 9340,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727154",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T04:18:49.000Z"
     },
     {
       "title": "케이준 감자튀김1kg+1kg 7,900원",
@@ -660,17 +671,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-13T17:01:11.000Z"
-    },
-    {
-      "title": "Watercolor - Art Painting Styliza..",
-      "mall": "에셋 무료",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106365",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T16:12:34.000Z"
     },
     {
       "title": "8월 14일 네이버페이 45원 + 랜덤 포인트",
