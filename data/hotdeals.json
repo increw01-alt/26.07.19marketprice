@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-15T22:24:42+09:00",
+  "updatedAt": "2026-08-15T23:10:12+09:00",
   "deals": [
+    {
+      "title": "나일론 테이퍼드 슬랙스",
+      "mall": "컨셉원",
+      "price": 21800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727224",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:56:44.000Z"
+    },
+    {
+      "title": "아워홈 치킨 가라아게 1kg 3팩",
+      "mall": "롯데온",
+      "price": 20430,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727223",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:56:27.000Z"
+    },
+    {
+      "title": "네이버 멤버십)멜론 2KG 개당 4720원",
+      "mall": null,
+      "price": 4720,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106398",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-15T13:55:53.000Z"
+    },
+    {
+      "title": "부대찌개 500g 2팩+김치볶음밥 250g 1팩 8,420원",
+      "mall": "네이버",
+      "price": 8420,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727222",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:40:09.000Z"
+    },
+    {
+      "title": "유니짜장 360g 4팩",
+      "mall": "카카오",
+      "price": 12900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727221",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:30:12.000Z"
+    },
+    {
+      "title": "정상가 79000 기능성 냉감 쿨 캐얼 폴로 카라 티셔츠(28,460/무배)",
+      "mall": "지마켓",
+      "price": null,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727220",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:21:00.000Z"
+    },
     {
       "title": "아임에코 가벼운샘 생수 2L 18병",
       "mall": "11번가",
@@ -11,17 +77,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-15T13:05:38.000Z"
-    },
-    {
-      "title": "햅푸드 17곡물쫀디기, 110g, 20개",
-      "mall": "토스쇼핑",
-      "price": 12600,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727218",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T12:55:00.000Z"
     },
     {
       "title": "트라이 프리미엄 에어로쿨 런닝 5장 세트",
@@ -121,50 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-15T11:33:34.000Z"
-    },
-    {
-      "title": "블루베리 퓨레 100 14개 20g",
-      "mall": "쿠팡",
-      "price": 11400,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727208",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:28:10.000Z"
-    },
-    {
-      "title": "마레주로 무소음 탁상용 미니선풍기 BLDC 서큘레이터",
-      "mall": "쿠팡",
-      "price": 18880,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727207",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:19:48.000Z"
-    },
-    {
-      "title": "한성 명란 떡갈비 500g 2팩",
-      "mall": "네이버",
-      "price": 12900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727206",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:11:13.000Z"
-    },
-    {
-      "title": "한우 1++등급 보섭살 400g+400g 총800g",
-      "mall": "롯데온",
-      "price": 25880,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727205",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:09:03.000Z"
     },
     {
       "title": "투끼 C to C 케이블 1M * 5ea",
@@ -649,17 +660,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-13T23:16:26.000Z"
-    },
-    {
-      "title": "겟피-X 스위치 패키지 44,000원 배송비 3,000원",
-      "mall": "네이버",
-      "price": 3000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106368",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T23:04:37.000Z"
     },
     {
       "title": "Caravan SandWitch 무료배포",
