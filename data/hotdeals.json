@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-15T13:17:09+09:00",
+  "updatedAt": "2026-08-15T14:13:49+09:00",
   "deals": [
+    {
+      "title": "매직캔 호환 반값 리필봉투 250 20개",
+      "mall": "오늘의집",
+      "price": 17708,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727161",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T05:02:13.000Z"
+    },
+    {
+      "title": "셀렉스 프로핏 WPI 음료 330ml 36팩",
+      "mall": "셀렉스몰",
+      "price": 50048,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727160",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:57:15.000Z"
+    },
+    {
+      "title": "레고 스피드 챔피언 77251 외 4종 (30,300/3000)",
+      "mall": "G마켓",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727159",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:55:34.000Z"
+    },
+    {
+      "title": "프레시웰 2L X 24개",
+      "mall": "네이버",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727158",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:54:09.000Z"
+    },
+    {
+      "title": "태현쿡 매콤오돌뼈 300g 4팩",
+      "mall": "롯데온",
+      "price": 13260,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727156",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:47:08.000Z"
+    },
+    {
+      "title": "맥심 모카골드 마일드 커피믹스 400개입",
+      "mall": "네이버",
+      "price": 47040,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727155",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:38:13.000Z"
+    },
+    {
+      "title": "랩원오원 데님 클리어런스",
+      "mall": "롯데온",
+      "price": 9340,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727154",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T04:18:49.000Z"
+    },
     {
       "title": "핀다이렉트Z MAX 알뜰폰요금제 110GB",
       "mall": "공홈",
@@ -123,17 +200,6 @@
       "date": "2026-08-15T02:49:45.000Z"
     },
     {
-      "title": "칵테일새우 900g 41/50 80-100미 (9,830원)",
-      "mall": "네이버",
-      "price": 9830,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727145",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:48:26.000Z"
-    },
-    {
       "title": "금미옥 쌀떡볶이 440g, 4개 21,980원",
       "mall": "네이버",
       "price": 21980,
@@ -143,17 +209,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-15T02:44:46.000Z"
-    },
-    {
-      "title": "아망떼 두꺼운 70평량 고평량 물티슈 72매 10팩",
-      "mall": "컬리",
-      "price": 8720,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727144",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:25:21.000Z"
     },
     {
       "title": "돼지고기 포함 순대국밥 순대국 캠핑음식 2,900원",
@@ -167,17 +222,6 @@
       "date": "2026-08-15T02:15:01.000Z"
     },
     {
-      "title": "오넛티 땅콩버터 오리지널 230g",
-      "mall": "카카오",
-      "price": 9400,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727143",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:04:44.000Z"
-    },
-    {
       "title": "PS5 할인 가격 다양",
       "mall": "플레이샵",
       "price": null,
@@ -187,50 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-15T02:03:23.000Z"
-    },
-    {
-      "title": "국내산 횡성 흑찰옥수수 20개",
-      "mall": "인더마켓",
-      "price": 15960,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727142",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:01:25.000Z"
-    },
-    {
-      "title": "육포선몰세트 쇠고기집 VIP 프리미엄 육포 + 쇼핑백 선물세트",
-      "mall": "G마켓",
-      "price": 23800,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727141",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:00:24.000Z"
-    },
-    {
-      "title": "나이키 줌 보메로 5 FD0884-025 포톤더스트",
-      "mall": "롯데백화점",
-      "price": 119490,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727140",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:59:37.000Z"
-    },
-    {
-      "title": "꼬치어묵10개입 x 3봉",
-      "mall": "롯데온",
-      "price": 8940,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727139",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T01:58:19.000Z"
     },
     {
       "title": "새청무 특 20kg 59,000원",
