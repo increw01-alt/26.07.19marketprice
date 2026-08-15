@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-08-15T14:13:58+09:00",
+  "updatedAt": "2026-08-15T15:16:06+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "애플이 4조 달러 규모로 iOS 제한 완화, 인앱 비트코인 및 암호화폐 결제 금지 해제",
+        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUlJRkhkWWQ4bEdYaFFVU244QlIyRk5aaTdjd0FBUEZWSDVRQmd1ejN6b3RLTnNIVnRuTlFFUGxuRERJS1h2S3pZNE0xZHVJdWY2VUhhb3hYUDdHUVJSTzhZZGNDZS1NbnpXbExnMFdubUk4YzdYNU1WQ1ZwOTlacE5nOHpzUFlpT2FZVA?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-15T03:35:00.000Z"
+      },
       {
         "title": "2026년 8월 14일 오늘 비트코인 ​​가격: 63,000달러 선에서 정체 상태입니다.",
         "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNS0zR1ZqOXVLMnZhUDN1RHZPeUZVVVlzY25sSE1oVk93ODNJcWhYUHJINmlEcUdUWVBrUmlra1Y3Sm1lMXdaVllNOTl1enpDR3ZwYlJYWkcwS3FfbDVvdkJNb3dINWw5dnpndGVoaHlxclVjN0Q5UzByZHZBMUtPaGNkbzNfeFdkbGF5VTdhbE1UajA?oc=5",
@@ -41,21 +47,21 @@
       {
         "title": "비트코인 9118만 원대 하락, 미국 '암호화폐 명확성 법안' 투표 연기에 가상화폐 혼조세",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNbC1uWmRjZ0d6Y3V6WExjU3ktbkZSbEhFX3hkTlhaSDhkTngtQkJwakREUElocWZlcDM2elVWcWFTRUJOYUdUb2VFeFoyMTFrVW9jdW5YR3VKLTlLOTJvZy1XNE5jT2pTV0E5UHJQdjRGdnM?oc=5",
-        "source": "비즈니스포스트",
+        "source": "businesspost.co.kr",
         "date": "2026-08-09T04:47:38.000Z"
-      },
-      {
-        "title": "마라, 2분기 6억1130만달러 순손실…비트코인 가격 하락에 발목",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ka3JYQkhyYzVUSW9aTFgxakFYRU13OXVUejBldjF4bFdJc0VPa1RxbGJXajFoSkRVZDlrbW1mTlBKVEZLb1N2RGppLUctdFl2TW1VMy1uUWZrUWttUFVPcDlGN1dqLTRRR0doNTdqbE1qZ28?oc=5",
-        "source": "디지털투데이",
-        "date": "2026-08-07T11:19:30.000Z"
       }
     ],
     "stock": [
       {
+        "title": "코스피, 6,977.94로 마감, 종가 기준 7,000선 재돌파 눈앞에",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5Q0k0QWtOSjhBbXJvaVk1V0Q2TnBGd2wwUzZVQUZXUERWQjN3bHBYMTRzMDJZUWVyUUVkQ3U2VVJpSXVtTElOU2VsU3R3eTIyU3VmUDBsRjNMYUx6NmhHc01Qb2pndVhG?oc=5",
+        "source": "정경시사 FOCUS",
+        "date": "2026-08-15T05:38:23.000Z"
+      },
+      {
         "title": "\"신혼집 마련할 돈 날렸다\"...해외서도 놀란 코스피 개미 잔혹사 - 머니투데이",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtYzZpOFNvTXdSOXZqd2ViWU44dDBucHg5bldsd1Axa2NXM0VmVmsyeVlpZmQydWtUYzJ1UkI1SW1RemJyZjRpWjJKRGZ6OVdpdmpLV2I2dTk5QmdVeWNnWXJSMmFWdUs50gFuQVVfeXFMT1hfYWhNckp4MmVEVFhYU1g0MnhKS2JYc3NhUU1FYlNQY3FJMldCN0QzNXlVdFpuSGVydmpJd29FeDZSRTJrdEtzNnpPNnEwZ1Y0R1kwRGxSOXI1a3RfdmVycmtyQjVNTTlwdHJ4OWc?oc=5",
-        "source": "mt.co.kr",
+        "source": "머니투데이",
         "date": "2026-08-15T03:56:50.000Z"
       },
       {
@@ -79,7 +85,7 @@
       {
         "title": "[주간증시전망] 코스피 한 주 11% 급등…7000선 안착 주목",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5sd3IwOVc1QmE2U0hxWk9ZY0VqTlAtSmhmT0lkbUUyWVZmUkxHN1JBcTU5Y0dvTjFYUk9Na3ptOEU5dGwxdWpJRTl5c3lCZTc3UzZpVS1YMXpwZ9IBWEFVX3lxTFB4clh5em5nbl9OWUtEb2ZyOUN4bFdsc18wcFlqRDlIME5vNEwtWmZPLWk1aTFQVnBvQ0g2dDJjdmNfS1NvN0E0Tk1TckdQR0xHdV9ZWVBXa0w?oc=5",
-        "source": "아주경제",
+        "source": "ajunews.com",
         "date": "2026-08-14T23:06:00.000Z"
       },
       {
@@ -93,15 +99,27 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE90am81RVcybmduYUhiRWtXV2dRUEFScUZXVlVsa0F5Z2N4eldjWjQ1T3dBTy1fNThCOC0tRk50bjBtX3k0b1h6V2ZwRXVXMUF5N1VpXw?oc=5",
         "source": "이투데이",
         "date": "2026-08-14T22:00:00.000Z"
-      },
-      {
-        "title": "[주간증시전망] 닷새 연속 상승한 코스피, 상승세 이어갈까",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRR18ySGN2eFhLYjZLQkVhMENUeUc3cHpSLVBHdDRKdVhQYU9KamN1UVM4RWRPSm5lWDcySWhhSHdLQXhDektncGZaMjJkRm5EeU8tWW1kRQ?oc=5",
-        "source": "세계비즈",
-        "date": "2026-08-14T22:00:00.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "“코스닥 다음 주자는 여기”…한국거래소가 뽑은 ‘라이징스타’ 18곳",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1jUDBLdmJhUEo1eHBRZ1N1QkFTaExHY3pFbUJQd3NtalVHTElfcGNGOFlwNGlndjFEa196VnVYTWlwSjJnUTRQbFVLMktqQW8?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-15T06:12:00.000Z"
+      },
+      {
+        "title": "코스닥 보름 만에 35% 오르고…신용 잔고도 6조대 회복",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB3Vl93bW8wa0x6YzhnMVFsemtlQjZ1UFJNMTQwODJDNjJFS1ZQX1YtNGNKeWhpTkdaVmwzZnI3aTFXWXg3OFE?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-15T04:41:50.000Z"
+      },
+      {
+        "title": "[8월 둘째 주 세계경제동향 브리핑] 코스피 11%대 급반등…코스닥도 8% 상승",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5tWklJVlJuYXhPUWlKSkJKYTY3QndKOU9IMFFtMFhnY3JXSldTX3BST2JoSFNtQ0hOR0FTNTVjZTZ1eERzcXczOWx3S1NzMWdWSzJrekdGcndSZ2lmMlZLMDJXYXZmMjB6eTdjRDdUTQ?oc=5",
+        "source": "기호일보",
+        "date": "2026-08-15T01:52:10.000Z"
+      },
       {
         "title": "[IPO챗] 인제니아·기도산업, 다음주 코스닥 입성",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE01VzJsY1dzRzJZOW85cjY2emVqZzFmVFIyb0Q4Y0d6RlVCZ0FQQTZOZjFNa2M1X3BKMGpEWUZuV0lBekVhTEdobUl4amRVTUg4RnU3ZWZJZllqUE3SAWBBVV95cUxNVHY2cWIzQVY0WmFKc3l4TGFuUi0wUjkxU0tqRFJwX0xBLW12Q2F1QWRnZlBIM2s0aElzTU1Kam1McjdfNm9LOE54MFh4YXQ4MDJkNlk0RWxMMHJFZ2tKSTg?oc=5",
@@ -131,24 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mYzFEX3VUSkEtUl9ZaFFRZHhDaWpOdDZsdWNUdkx6dG56MTJwdm9WVl9jSFpLZDRxSUJvUnl5SVpuZW96NzY5US1YUGZDLWc?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-14T08:38:29.000Z"
-      },
-      {
-        "title": "ETF 애프터마켓 도입 논란… 코스닥 상품 수익률 두자릿수 [ETF 브리핑]",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1pZi10SE9ORzFBSkV3N3BMbmZpOE41VllJeTMzYmpabjhBUWljOVJLcFViTzFjOVNLQ0ZkdnZZRVUybE1LZVVITnhMNmZGV3M0eXhwMkxjd0RSR2cwekNMZDY1emY?oc=5",
-        "source": "MTN 머니투데이방송",
-        "date": "2026-08-14T08:37:18.000Z"
-      },
-      {
-        "title": "코스피 6,977.94 코스닥 864.65",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZNHFuWVdUMnNjb0QtMkRQamJndzZTYXJrSTg0dkRid2YtM2FCdy1VS0hCVEFEVURsaHN2ak84aDNDLUtPaVBlWV94WGlBY1E?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-14T08:32:05.000Z"
-      },
-      {
-        "title": "코스피 6,977.94 코스닥 864.65",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1aNWYwNkZjQlVaYXIwZjItbEpPR0J6cURUdWlWZDV5V0o2N3l3TnBNUFZFcFpuVVY4dFAwanFaT2JYT09BLS1aNngyQy1iRkk3VDNnbUhSZlRBams?oc=5",
-        "source": "KBS 뉴스",
-        "date": "2026-08-14T08:25:00.000Z"
       }
     ],
     "fx": [
@@ -203,8 +203,14 @@
     ],
     "metal": [
       {
+        "title": "오늘(8월 15일) 금 가격: 주말을 앞두고 금값이 급등했는데, 추가 상승 여력이 있을까요?",
+        "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRFdwblB5ZFdiank5bjU4SkVOemJoMUQ0N0xKeDBEdkEtcHJuYTlyNWRKbXFEQjhKYkdNQmJ3NGFsVWcyTTF1eUhKdnRNSGg0OHVBNllMWWpYT2h2VnVKQl9Wa0dGN2dqSUlSQnY2eF9MbjNxRmp4NGJiRWplUF83ODB4WGxOb3Y0cVhxUFBucmhGRUFONGhmUzA2T2U2SG5WSHc?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-15T05:23:01.000Z"
+      },
+      {
         "title": "금시세(금값)는?…美 물가·금리 전망에 쏠린 시선, 달러·중앙은행 수요도 변수",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1WQ2U3aWpmWGxwdjYzRzJSYUptU0FzM004Um0yS1dESG1VcGF0S1RMdVBNa1BvWUlKaFprbklSSmlwLUhfRVhaV2VYbGVaY3FqT2M5MmR2MnF2U05kb2k3eGhOWFVLYnM?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mdENLZ092RWpaRldfNGhodm9pcUxiOW9OQ0pyUE50djRoVHQwVG5iYWdHQl9QOVpGWGRfR0htN3FsbGFHUWI2d1ZVYURtblZRc1U2M0FBaFhZU1dHSS1UNmhXRU96Y3NB?oc=5",
         "source": "CBC뉴스",
         "date": "2026-08-15T00:56:29.000Z"
       },
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50NVdENXdISGJEeUZWVzBtQ0lmbk1uQk9WVEt3NzE3M0gwdU82TWExNDVoS2k4WnZ5T3NGM01ZSFVhSDlFbTJVYmhUaGE5U1VOZXNUX3ZaNGFfRUZsc0hLcjZPelc4V2tm?oc=5",
         "source": "CBC뉴스",
         "date": "2026-08-14T15:00:00.000Z"
-      },
-      {
-        "title": "[금값시세] 국제 금시세 하락",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBCeWw5emhxZDBMVk9PdVVIbEltSnlLOHNfWGZCZ00xMWoyeTBBNWt6RmI1RVpCTkpWOGRCeGlMcUhELWN5TThwNDFmRU5rTGx2Q3k5QWV5aTlma1hobWRScUljU1RMLTNpOWY5Qw?oc=5",
-        "source": "게임톡",
-        "date": "2026-08-14T07:15:12.000Z"
       }
     ],
     "energy": [
@@ -311,8 +311,14 @@
       {
         "title": "'반도체주' 뜻밖의 악재…한국 개미들 '초긴장' 하는 이유",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
-        "source": "한국경제",
+        "source": "hankyung.com",
         "date": "2026-08-11T16:27:50.000Z"
+      },
+      {
+        "title": "[환율 전망] 가득가득 달러, 알쏭달쏭 연준",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoMlJaUE44MHE4YzF2NHdUZk02LTd2N1N5em5qT0s5eGtpNWdxVFQwODEtYjkxUDM5N3NOaG1OWnQ4cmx4dE9OQjI1YUJ3MHZqdW02ZzlQREZFczNXYnZfSA?oc=5",
+        "source": "KB Think",
+        "date": "2026-07-29T07:00:00.000Z"
       },
       {
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9WWTVqRnJjdVdYUUQxQ2V0SElEcXdGUnN3ZDJQQk0xR3lsdUQxVEw2cXpBZTJwZnoxa25pUFVXeUQtcWx4UzZDVDRsa3Z1dy1ERmUtQ0FXcWdUcm9NR0tzTHZ3?oc=5",
         "source": "KB Think",
         "date": "2026-06-29T07:00:00.000Z"
-      },
-      {
-        "title": "금리·환율 보기 전에 '분리수거장' 가보세요…'이것' 보면 경제 흐름이 보입니다",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB3QVc1bkxkNHBnNzg1NTBLNVA5RE56TEZGYTd5QV9wTXFuM19halJPSUFjM19UYU1JY05td1kzZV9JWXFPdGpNOEpVNVJ5a1RuMmxYQnBB?oc=5",
-        "source": "위키트리",
-        "date": "2026-06-18T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "부동산 실거래가 조회: 2026년 최신 확인 방법 완벽 가이드 : 부동산",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE41OHpObWZVTWREeHRsVWRRVW5DNWJ5bmpMMjY1M3hCQmZpVExBc09hWHUxRzhpRnlDR2tzLVJtTTFkbFI5SElrcnJB?oc=5",
+        "source": "재경일보",
+        "date": "2026-08-15T06:01:00.000Z"
+      },
+      {
         "title": "양도세 중과 시행 전 고가 아파트 매매 늘었다 [김경민의 부동산NOW]",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE84R0NVc1gwUFJkSllUeV9kZXpOUFlQcWVxU2M1WWNjYm9zM25JLThweWZSVWlETFowRWctS2hvbGl6bDNXTnI5NFhHRkJOTHBoQ1E0?oc=5",
         "source": "네이트",
@@ -441,14 +447,8 @@
       {
         "title": "[서울아파트거래] '재건축 사업시행인가' 잠실주공 5단지 전용 81.75㎡ 43.25억으로 신고가",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jUWpSdjlteHNHalZZcXJCX1gwNVNOdmdWUkZqeE1pVDdqeU9hQW1Nd3MtRnI1MVZKYWpZRE03NGZVNFgtYVFlMG8ySkpVVm0wVUFOWGQ3MnFzRUViVnZsWHFfUFJEWjF5MVVjX1Y1NU15ZUk?oc=5",
-        "source": "비즈니스포스트",
+        "source": "businesspost.co.kr",
         "date": "2026-08-14T00:51:00.000Z"
-      },
-      {
-        "title": "대치동 은마아파트 실거래가분석(1). 재건축진행상황. 반포부동산중개사무소 #은마#은마아파트#대치동은마 Cogeco (P6k0lT4R2u)",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5KZ3lJd2hoY3Q4bVRHN21JamNmUXhGQldqcUd5NVVISE9RNWpxelNYWnRieHc3MXd0NXc3WGs1elNqZUlNWDVmOWxpcE9YYWszRHM2UFBpUUZxa0E?oc=5",
-        "source": "mshale.com",
-        "date": "2026-08-14T00:00:33.000Z"
       }
     ],
     "lotto": [

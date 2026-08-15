@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-15T14:13:49+09:00",
+  "updatedAt": "2026-08-15T15:15:57+09:00",
   "deals": [
+    {
+      "title": "(쿠팡) 닌텐도 스위치2 별의 커비 디스커버리 + 스타리 월드(₩61,440)",
+      "mall": null,
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106393",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-15T06:15:20.000Z"
+    },
+    {
+      "title": "아이더 온더락 카고 아이스 조거 팬츠",
+      "mall": "지마켓",
+      "price": 34540,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727166",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T06:00:27.000Z"
+    },
+    {
+      "title": "피코크 조선호텔 특제육수 포기김치 8kg",
+      "mall": "네이버",
+      "price": 57800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727165",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T05:59:46.000Z"
+    },
+    {
+      "title": "크리넥스 마이비데 클린케어 화장실용 물티슈, 리필형, 40매, 16팩",
+      "mall": "토스",
+      "price": null,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727164",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T05:55:34.000Z"
+    },
+    {
+      "title": "도루코 페이스 스타터킷 모션(면도기,면도날5입)+2입날 증정",
+      "mall": "롯데온",
+      "price": 14890,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727163",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T05:51:47.000Z"
+    },
+    {
+      "title": "맨잇슈트 르메스트 포멀핏 사계절 정장",
+      "mall": "11번가",
+      "price": 38800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727162",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T05:17:32.000Z"
+    },
     {
       "title": "매직캔 호환 반값 리필봉투 250 20개",
       "mall": "오늘의집",
@@ -24,7 +90,7 @@
       "date": "2026-08-15T04:57:15.000Z"
     },
     {
-      "title": "레고 스피드 챔피언 77251 외 4종 (30,300/3000)",
+      "title": "레고 스피드 챔피언 77251 외 4종 (30,300/3,000)",
       "mall": "G마켓",
       "price": null,
       "cat": "기타",
@@ -112,39 +178,6 @@
       "date": "2026-08-15T04:01:07.000Z"
     },
     {
-      "title": "펩타이드 토너 150ml",
-      "mall": "네이버",
-      "price": 6990,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727150",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T03:31:41.000Z"
-    },
-    {
-      "title": "바디랩 검은콩두유 순수두유 무가당 고단백 1+1박스 (총 40포)",
-      "mall": "네이버",
-      "price": 20900,
-      "cat": "식품",
-      "link": "https://shopping.naver.com/",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T03:27:43.000Z"
-    },
-    {
-      "title": "국산 미단 전라도 포기김치 10kg",
-      "mall": "네이버",
-      "price": 25800,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727148",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T03:02:42.000Z"
-    },
-    {
       "title": "케이준 감자튀김1kg+1kg 7,900원",
       "mall": "네이버",
       "price": 7900,
@@ -156,17 +189,6 @@
       "date": "2026-08-15T03:01:28.000Z"
     },
     {
-      "title": "비비고 왕교자3봉+김치왕교자2봉 총5봉",
-      "mall": "CJ더마켓",
-      "price": 35256,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727147",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:55:38.000Z"
-    },
-    {
       "title": "세진 통통 김말이 튀김1kg 5,500원",
       "mall": "네이버",
       "price": 5500,
@@ -176,17 +198,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-15T02:54:13.000Z"
-    },
-    {
-      "title": "루치펠로 미스틱포레스트 치약 100g 5개 + 칫솔 1p(증정)",
-      "mall": "롯데온",
-      "price": 25940,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727146",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T02:54:07.000Z"
     },
     {
       "title": "맥반석 구운계란 구운란 훈제계란 30구 한판 8,800원",
@@ -671,17 +682,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-13T15:23:25.000Z"
-    },
-    {
-      "title": "PS5 콜오브듀티 모던 워페어 4 예약 판매 / 88,900원",
-      "mall": "겜우리",
-      "price": 88900,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106364",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-13T15:15:00.000Z"
     },
     {
       "title": "옥천칡냉면 2Kg + 어가네육수 10봉 물냉면10인분세트 12,900원",
