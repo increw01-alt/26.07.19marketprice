@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-16T05:12:11+09:00",
+  "updatedAt": "2026-08-16T06:09:47+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,18 @@
     ],
     "stock": [
       {
+        "title": "[마켓인사이트] 한주 내내 바닥다진 코스피, 상승흐름 이어가나",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NTjNJN0Nub3Q4bEpoLVhiVEdZcE9nekNLTzhUTjFJT2lDUW5PWVlleVZrYWRIMkFPb3U4VjZJa3h0Wi1jZ0JpNjByMHVlUVB5TXc?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-15T21:00:16.000Z"
+      },
+      {
+        "title": "(주간증시전망)회복 국면 코스피…7000선 ‘재도전’",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9EdHlRX2dzc1R3b3d1X0pLRElqTXZIMnV5MUNDb2VNUHZXWUlDVTRtSHZRRzIxZUZsVUthNHQ1SXZfV1VMMjU4MmtQQmZ5cHFUUzBwTlZ1UXBpZUhwd1Nn?oc=5",
+        "source": "뉴스토마토",
+        "date": "2026-08-15T21:00:00.000Z"
+      },
+      {
         "title": "코스피 2.42% 급등 마감…美 증시는 혼조, 어떤 영향권?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCSUR4RWp6R25pWjNLbWZPclduaURNTl9rR3Q3Szg1dE1naEVRWFpPQ01GdU16SHhDS2ZXcnl4TEFvSGdBUVZSRHNKUUxaUFRKOEZNZ0FWbDdtMVlkYzdER29XZGVlR0JL?oc=5",
         "source": "CBC뉴스",
@@ -63,12 +75,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3cUZEczlfWmF2dThDZXJKN3RYSmNUdXdBLWwwa3hDZDhWaDktUlhqMDYtMmx2U2llRTVKNUN6bnRFcG5vTnExcXg5UnQ4d3dNSFZoZUxkM1BuWTZmbEl1WmRWWENKZVpF?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-08-15T09:24:46.000Z"
-      },
-      {
-        "title": "코스피, 6,977.94로 마감, 종가 기준 7,000선 재돌파 눈앞에",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5Q0k0QWtOSjhBbXJvaVk1V0Q2TnBGd2wwUzZVQUZXUERWQjN3bHBYMTRzMDJZUWVyUUVkQ3U2VVJpSXVtTElOU2VsU3R3eTIyU3VmUDBsRjNMYUx6NmhHc01Qb2pndVhG?oc=5",
-        "source": "정경시사 FOCUS",
-        "date": "2026-08-15T05:38:23.000Z"
       },
       {
         "title": "\"신혼집 마련할 돈 날렸다\"...해외서도 놀란 코스피 개미 잔혹사 - 머니투데이",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBySlZoVWFnUklKZldJZU9rMlNRaDJNbU9yR1BEVG0tdkJ4cEFtdWRUSFRNRk9SMmhQNU5GT1h2ajBBbXNVaXF1a003UVU4MGhDUl84aC1DYUdrVUE2cG9Hd9IBeEFVX3lxTE5fNE5aaHBUOURWV21FaFA1LWNlNHltUWJEaFFTd3kyNFBGd09OVS1kVkJYYXRYSF9EbDBkRXFVQk1PVHpfX1dwTU9DU1dtbzNpUkVGdTl2NFRrWGtFd3ptSHQ0UThpLTVxLTZBZXpnVkNtX1VmbmNCRQ?oc=5",
         "source": "뉴시스",
         "date": "2026-08-14T23:00:00.000Z"
-      },
-      {
-        "title": "[주간증시전망] 닷새 연속 상승한 코스피, 상승세 이어갈까",
-        "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRR18ySGN2eFhLYjZLQkVhMENUeUc3cHpSLVBHdDRKdVhQYU9KamN1UVM4RWRPSm5lWDcySWhhSHdLQXhDektncGZaMjJkRm5EeU8tWW1kRQ?oc=5",
-        "source": "세계비즈",
-        "date": "2026-08-14T22:00:00.000Z"
       }
     ],
     "kosdaq": [
@@ -189,16 +189,16 @@
         "date": "2026-08-14T07:51:28.000Z"
       },
       {
-        "title": "미국 인플레 우려 완화에 달러 약세…환율 6거래일째 1410원대",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Wd3prUE1USzhkb1hSc3VrMndzTlJ0ZnBsM1BkZEU0Z25leEt5QjVabGVNck1zRzB1bndqbXZSc2xJMlJlN0k4SHM1VThkM2FBeGJsYWJ5ZG_SAVRBVV95cUxOT0Ztcndrem8wTFZxZWVqN2xxdUZlZUtKY0VlbEZIVzkwT0pyM18xSjZYWjkwWHo2ck9NYUVTVW9Bdmw1d0lsVTllRzV1dy1JenVOMGU?oc=5",
-        "source": "세계일보",
-        "date": "2026-08-14T07:07:53.000Z"
-      },
-      {
         "title": "[환율마감] 원·달러 하락, 수출업체 네고+외인 코스피 3조 순매수",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1YVVNpZm83NEJqdUJjZUFYZnFlN05CRWJZSzR3ZHJyZy1LeFE2enpzZ0o1ZWJjcHNwRlc0S0dJaHJWX0hab0F2ZnZ6ZmJDLTBzenRlTA?oc=5",
         "source": "이투데이",
         "date": "2026-08-14T07:07:00.000Z"
+      },
+      {
+        "title": "美 물가 둔화에 달러 약세…원·달러 환율 1,418.3원으로 하락",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKTUMxd0NnRnhfNjdEV0RqQnR3VktGUFRqVHNsU0hLdFJnanoxSFVTNWRzczBpbl9NTkJrVjJaQmRWRG5xbTV2VlVQNnBNT3B0V1BFMU9zb2E4NjhqUWNRT2NJbF84X0hkUTRSMDJta3HSAXRBVV95cUxOTHBPc0txd0J0TjlrY0ZRWDVNNUpuVS04ZUkzdTBrUkt2TzRGamt6S0JLUEU5OHNKcC1UeEFrdEJXeW1nc0RSNGlfLVg5VjVmeHFHNndueHZYSEx4S2J1QkZpVklmVTk1Z2stSkhtWjhCMWQxcQ?oc=5",
+        "source": "산경투데이",
+        "date": "2026-08-14T07:03:15.000Z"
       }
     ],
     "metal": [
