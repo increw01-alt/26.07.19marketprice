@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-15T08:10:29+09:00",
+  "updatedAt": "2026-08-15T09:27:04+09:00",
   "deals": [
+    {
+      "title": "에어프라이어 오븐형 18L 대용량 에어프라이기",
+      "mall": "오늘의집",
+      "price": 56610,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727113",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T00:23:44.000Z"
+    },
+    {
+      "title": "파워에이드 900ml 12입",
+      "mall": "롯데온",
+      "price": 11510,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727112",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T00:09:08.000Z"
+    },
+    {
+      "title": "난각번호1번 유정란 자연방목 계란 대란 20구",
+      "mall": "네이버",
+      "price": 6960,
+      "cat": "기타",
+      "link": "https://naver.me/FfsQPo12",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-14T23:58:31.000Z"
+    },
     {
       "title": "오프라이스 한촌설렁탕 정통설렁탕, 500g, 5개",
       "mall": "토스쇼핑",
@@ -176,39 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-14T15:15:01.000Z"
-    },
-    {
-      "title": "메밀소바 10인분(생메밀면 10팩+소스 10개)",
-      "mall": "gs샵",
-      "price": 9900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727096",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T15:08:33.000Z"
-    },
-    {
-      "title": "구룡포 생물 성게알 보라성게 우니 100g",
-      "mall": "롯데온",
-      "price": 12850,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727095",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T15:05:37.000Z"
-    },
-    {
-      "title": "바베큐 쪽갈비 숯불/핫 500g 3팩",
-      "mall": "오늘의집",
-      "price": 19837,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727094",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-14T15:02:02.000Z"
     },
     {
       "title": "닌텐도 스위치2 본체 + 포켓몬스터 Z-A 717,800원",
