@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-15T21:11:11+09:00",
+  "updatedAt": "2026-08-15T22:24:42+09:00",
   "deals": [
+    {
+      "title": "아임에코 가벼운샘 생수 2L 18병",
+      "mall": "11번가",
+      "price": 7730,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727219",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T13:05:38.000Z"
+    },
+    {
+      "title": "햅푸드 17곡물쫀디기, 110g, 20개",
+      "mall": "토스쇼핑",
+      "price": 12600,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727218",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T12:55:00.000Z"
+    },
+    {
+      "title": "트라이 프리미엄 에어로쿨 런닝 5장 세트",
+      "mall": "롯데온",
+      "price": 11980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727217",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T12:49:12.000Z"
+    },
+    {
+      "title": "켈로그 감자칩 프링글스 110g 6개 (10,220원)",
+      "mall": "롯데온",
+      "price": 10220,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727216",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T12:26:39.000Z"
+    },
+    {
+      "title": "리복 남여공용 하이페리엄 슬라이드 샌들",
+      "mall": "롯데온",
+      "price": 39850,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727215",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-15T12:16:38.000Z"
+    },
     {
       "title": "좋은느낌 입는오버나이트 8매x6팩",
       "mall": "무신사",
@@ -110,61 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-15T11:09:03.000Z"
-    },
-    {
-      "title": "에디션 센서빌리티 2026 신상 프리미엄 쿨소재 반팔 티셔츠 14종 택1",
-      "mall": "지마켓",
-      "price": 11140,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727204",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:02:35.000Z"
-    },
-    {
-      "title": "애슐리 케이준 컬리 프라이즈 740g 2팩",
-      "mall": "네이버",
-      "price": 14900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727203",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T11:02:30.000Z"
-    },
-    {
-      "title": "k2시그니처 투르팬츠",
-      "mall": "옥션",
-      "price": 40630,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727202",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T10:48:33.000Z"
-    },
-    {
-      "title": "스파클 생수, 무라벨, 500ml, 80개",
-      "mall": "TOSS",
-      "price": null,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727201",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T10:18:40.000Z"
-    },
-    {
-      "title": "뉴발란스 509 블랙 U509355",
-      "mall": "롯데온",
-      "price": 106540,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727200",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-15T10:13:51.000Z"
     },
     {
       "title": "투끼 C to C 케이블 1M * 5ea",
@@ -321,7 +321,7 @@
       "date": "2026-08-14T17:56:28.000Z"
     },
     {
-      "title": "Lavazza Classico Ground Coffee Blend, Medium Roast, Value Pack, 20 Ounce [$8.54/배송비 별도]",
+      "title": "Lavazza Classico Ground Coffee Blend, Medium Roast, Value Pack, 20 Ounce [$8.99/배송비 별도]",
       "mall": "Amazon",
       "price": null,
       "cat": "기타",
