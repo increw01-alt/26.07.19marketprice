@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T07:06:37+09:00",
+  "updatedAt": "2026-08-17T08:07:52+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "[한국 증시] 8월 17일 코스피·코스닥 국내 주식시장 휴장한다, 이유는?…재개 일정은 언제",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43UGx2Q0MtdGlLR1BsTmlNeEVOVXhibk1Hd1M5Ynhxby1jejdYbU9vUC1UaWZVLTQ5S3NlZDRtQTBjNVZVbFRvUjN3Qmd1ZjU0SDd0YnJzWHY5QktkQlhiX1I4enBvQS0w?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-08-16T22:55:00.000Z"
+      },
+      {
         "title": "AI 수요 회복 기대감에… 반도체 추가상승 전망 [주간증시전망]",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5GUEdsY3k1XzA5MXczN3JBMmpzZjRrUzlNcDMwQ1l0WDlzc1NJZjNDcmhOSTdadGFieHQzOC1tSGd1d3pLNi1lUDBpWXFPSUZ3T2tBQUhoRW9QRWN2ZVIzOTlPbkNzWHppOFYyV1o0aWfSAXRBVV95cUxNOHI3ZFRmV3ZnR3p3bTQ2TkdpVEFaSXd2Z2dPOXlXdG5vMzZwTFMwdHNFVUd0eWN0ZVkyT1BnWE9tbEptSG9LeEI1Sm5kZzJaN2MwVDlVWHNQWXoxY05xOF82Ty00NTVnNlQwbmlabFdnVTJmdg?oc=5",
         "source": "IT조선",
@@ -93,15 +99,21 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oalJ3cDIxN2xNcU01eDlOdFg5OTZRYVVNY3ZLV1pyTUhVemRiM2VNT2JzcjZkZTdNTUotVlNFZENPSzdDWWpjcTB1ZnZmaTNfU2NmRm9CUG9pX3BjR1JQbHJ4VUFFTXd5?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-08-16T08:05:00.000Z"
-      },
-      {
-        "title": "악재 걷힌 삼전닉스...코스피 8500선 회복 가능성도 [주간 증시 전망]",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1HQ2RWMTBqeXhpUzlJYXpHaTRRSUZfXzUyazJsekdKZzdWdGpoaVJwbG90Y0x1SEk0b3FBWTZTaVFwOE9ISGlMMFd0RVgxaGRoaG9yMVFLZ29ndw?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-08-16T07:48:31.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "코스닥 승강제, 낙인인가 도약의 발판인가 [세상읽기]",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDWXNpOGpzLWhKb0pWWTFROFRtSE5TX3NGSmpFb1ZnLWRsTHNJdHBhR1U1cGNISTd2WkhoNm5oZVNjWFMyOS1UMXdvOW9wSVg5OVlmWkV6SHpZV3FUUFNicVcxcGw5Zw?oc=5",
+        "source": "한겨레",
+        "date": "2026-08-16T22:58:00.000Z"
+      },
+      {
+        "title": "[한국 증시] 8월 17일 코스피·코스닥 국내 주식시장 휴장한다, 이유는?…재개 일정은 언제",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE43UGx2Q0MtdGlLR1BsTmlNeEVOVXhibk1Hd1M5Ynhxby1jejdYbU9vUC1UaWZVLTQ5S3NlZDRtQTBjNVZVbFRvUjN3Qmd1ZjU0SDd0YnJzWHY5QktkQlhiX1I4enBvQS0w?oc=5",
+        "source": "CBC뉴스",
+        "date": "2026-08-16T22:55:00.000Z"
+      },
       {
         "title": "코스닥 급등에도 쉽지 않았던 동전주 자력생존, 다음 관문 시총 벽은 더 높다",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5KYWhXbzlOSzNCMkI5aXN4YUFYWlp4SmJKQXBfZWZQVXhRMmxFS2x4WldVdlJDMW5JZVRland3ZGd4WDFNaFFKMWJBN2FweHhfbVhXZ19BOHpoM1Z1UWJFSUtnaWFURU5MT0tHZjAwNWkwNzA?oc=5",
@@ -115,21 +127,15 @@
         "date": "2026-08-16T21:00:00.000Z"
       },
       {
-        "title": "코스닥 승강제, 낙인인가 도약의 발판인가 [세상읽기]",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBDWXNpOGpzLWhKb0pWWTFROFRtSE5TX3NGSmpFb1ZnLWRsTHNJdHBhR1U1cGNISTd2WkhoNm5oZVNjWFMyOS1UMXdvOW9wSVg5OVlmWkV6SHpZV3FUUFNicVcxcGw5Zw?oc=5",
-        "source": "한겨레",
-        "date": "2026-08-16T20:00:00.000Z"
-      },
-      {
         "title": "[IPO 워치] 인제니아·기도산업 코스닥 입성…스카이랩스 수요예측",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2TGVrUmtja2xZYUIzQk9Bb3RVMFY5MF95OWx3MnpFMnRFM2tKZXNqYWtUMjVZZkNldk9aTVoxcldyaFd2d0hJSDRZbjQxSEdkQVNoTkFodnFCQ0I0bGc?oc=5",
-        "source": "news2day.co.kr",
+        "source": "뉴스투데이",
         "date": "2026-08-16T19:49:11.000Z"
       },
       {
         "title": "바로팜, 코스닥 상장예심 통과…사업영역 확장 '첫 단추' : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQam1JV0kwWjZ6NE9USTRzRDFxdDM5WnhZRDhLQ3lKYTF3WDhCTDg5eThvb2MzamJYa2IxbEpKbzR1OU1QZ01WXzlXclhnUVF1b19ORzlWSjFFQXZmOEJwcmJPTXRSR204aDVRX2JRdFFYeHVhWFJab1RyOVRwSnJDOVgwRVNSczM3bzVXZmlrQQ?oc=5",
-        "source": "Naver Blog",
+        "source": "blog.naver.com",
         "date": "2026-08-16T18:20:42.000Z"
       },
       {
@@ -143,15 +149,15 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tU09RbW1CQVdrV3hxUk5BY1RXcnVxOWZGd2dSQ3NEQ1dOaDQtVVNWLWxqVHhmcnlvOUpuTzhzb3lRUkRTeDZBR08yZ29zeEtMaDZ1QThLcnRZZnF4RHQxcmZfUlRXUVU?oc=5",
         "source": "자본시장뉴스",
         "date": "2026-08-16T08:30:00.000Z"
-      },
-      {
-        "title": "이달 수익률 ‘주요국 1위’인데도 불안한 코스닥···삼전닉스 반등하면 상승세 꺾일라",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NaTIydUFMRFE2SGxMOTJXbTNqTGdkOVlkVC1BNk40RFJJOVR4UWE0bU05VGt3YWU2T3lzam9YTGRYQnJMV3JtWkZXaThXa0RmcXR5bVJnU3BUd9IBX0FVX3lxTE9GOWFtWkE5TjNEczFZdmN2ZVpITThIS2xIQVRmT3JadF8xQXpNR2VXVlJqWXpuc3poaTY3TzU0Z1ZNMUZIaGkyRG84S3VQem5iVUVJZVhBVUdtdFgxYzV3?oc=5",
-        "source": "경향신문",
-        "date": "2026-08-16T07:39:00.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[환율] 원-달러 1,418.50원 … 0.12%↓",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vZldIS3N5clRwbGlXcjZQQjBtMG5lX0ZOMnUxY3V4SHpLRmlGbGVYTndobGRINnFJdE1Fak9nTnFhdU40UUxWanZreGpUSk5BenplTzF0S1p0eFdYazVNRktR?oc=5",
+        "source": "버핏연구소",
+        "date": "2026-08-16T23:00:01.000Z"
+      },
       {
         "title": "올해 중 최저치 찍은 원·달러 환율…더 떨어질까",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFByMjNGcEJNMzlsZXdNQ3E4Sm83S3doWFh0MWRpUUN5NzNUN0RveXBXUHJmamtieGtCOEJJd0dzZUJxanRZaTVkOGdNdFlsVjV0a0dGZFJkU01nREVja2NDOdIBeEFVX3lxTFBaNHg2ejY1MVNyZHJwMEF5aUY3Y3Vyd2doYkNfQXhseGlNZ3ZUVDZJNWhYRHFYUkpRMVhCRXRZMzJuVWhyNndkNHJFMlpnWlZOaVJoN1h6b0ZsRjVUZzhGT0NBR19SR2V1enZnNGdzVWdHX3cwM3U5Mg?oc=5",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNNV9VbU9lMzJXSmVoWVNMbGk1UVZoMl9UVk9zTVpFeDJ4TTJHcVM2Ml9LV1pTVy14TnpobHhIckxvS0M5NUJ6dkZBQ2NLdGtUa081bUdKR2VCRV8xdlQ4WkgtTFlhRDB0Y3ZIbw?oc=5",
         "source": "굿모닝경제",
         "date": "2026-08-15T22:00:00.000Z"
-      },
-      {
-        "title": "1600원 넘보던 환율, 150원 급락… 對美투자 늘면 다시 뛸 수도",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SZFZkS2tQSmVWb2t0MEtRaF8wSlJwV0t1SHhIMWN1cTVhYUN6ZEczcmhCX1I5SldmcDBteENma0pCUjJaRFZtamprUV9HZFlvZWZJaFBOdGdEdkNRZ0kyNjdnN2hKY2p3TGx2VmdKMk9iazhXLWfSAWZBVV95cUxONDhBc1dLeXVpakMwT2VUTmJ2WkRhTlNGSG1JTHEwM0gyMDRwcVRKbjVwSjhNQWU4WVlsaUM1WGo0MUJVVk45YW1udnE4bVctMlBweWw1NGJEMm5YU1V5MUZidEVVTHc?oc=5",
-        "source": "동아일보",
-        "date": "2026-08-14T16:40:00.000Z"
       }
     ],
     "metal": [
@@ -284,8 +284,8 @@
       },
       {
         "title": "[원자재 시황] WTI 80달러선 붕괴 '눈앞'…금·암호화폐 상승",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9BaldOaDhMZ0dTX0kySi0xMGNSWFFiVjBuN3g3SzdYY3ViQVdVM2YybUdHRVhjWmFQNG5pNGliZjhlY1RRTVg0YTJGQWF2QnJvOUxRLTIzQkhCaWVSSjJUWFh0TWdYUVhrTjRTRlRzMGhaZTYxMVNLaw?oc=5",
-        "source": "네이트",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3M3pnYU10NTVqdGVwNlFIYzZucno0a25uTlNGc01aUXRNQzk2X0Q3aXZ4ODBiMVVSd1pxOHpxOG0zQXoyVWI2OXd3X1Bhd2tMSTN4VEtndlFIazdsZjJjdGM2VFEtdm8w?oc=5",
+        "source": "ebn.co.kr",
         "date": "2026-06-16T07:00:00.000Z"
       },
       {
@@ -309,9 +309,15 @@
         "date": "2026-08-15T01:07:37.000Z"
       },
       {
+        "title": "[원자재 시황] 호르무즈에 발목 잡힌 시장, 경제지표 '주목'",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYeDdyTHdzRzRIUlFpRTdNVEpTRjZYMW1LZDhwbXZERDRDenp2U1NCVm5BbTludl9kTmhhUERjQVpXbUVELWNZQUNnelVwLUlFejBvU0pNcFNqMGNaMHpZZlFqWVN4OWhN?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-08-11T23:52:42.000Z"
+      },
+      {
         "title": "'반도체주' 뜻밖의 악재…한국 개미들 '초긴장' 하는 이유",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
-        "source": "한국경제",
+        "source": "hankyung.com",
         "date": "2026-08-11T16:27:50.000Z"
       },
       {
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
         "source": "굿모닝경제",
         "date": "2026-07-04T07:00:00.000Z"
-      },
-      {
-        "title": "[증시 프리즘] ‘금리·환율 변동성’에 발목 잡힌 코스피, 장중 급락세로 반전",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIcDZYM0ZDMTgyMHFNS1VWMWpqcmhiTnFzVXdMdHBobGRxTFI5OXlIU2ZoTTlEMERKUjJydzR4bWd2dU5Pd3doTlRVZHlHVC15RHJjckJ6SlR4am5fMVFYUWJjT2lMVG5JMGxMS0tXQjfSAXRBVV95cUxQV3RUZGl6RnZKNGR2b2Z2eGVZSHNVVkZKbElWN3Z0T19ENWxWUEtzcl9HYkFLeDhHV0g3YmVHaGMyS3M3ZFZ6RjhxeHZQUkdjT3V2bXN5b2l1QmdmUzJhUUxKR0NzUmVlV25Cb1FqaDduRzJCTA?oc=5",
-        "source": "thefairnews.co.kr",
-        "date": "2026-07-02T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -395,13 +395,19 @@
         "date": "2026-06-15T07:00:00.000Z"
       },
       {
-        "title": "삼성전자 디지털 온누리상품권 20%받는 방법",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mNFJ5cHY1NEJOdnp3dlRXYWRkMjIwT1o1UWNTRzFGSTJWd2VQMzE2MVZfOTRJanM0SmE1RWFnQmVsU05FZVEtdEUxZTd2NTBLcUE?oc=5",
-        "source": "브런치",
+        "title": "'사실상 20% 할인' 삼성전자, 4주간 파격 세일…\"5조원 규모 사회 기여\"",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE15TVNXZFhWdzlveWFLYkFRdHlyN2pDTWtiYkNnR0IxamFJUmV0THNKRmpaRzBGeXN1NWoxRXJwVXBGUEIxOENUUG1oQ0ZpOGY4eXprTzJTYl9FZUJnMmJSdTNn?oc=5",
+        "source": "economist.co.kr",
         "date": "2026-06-08T07:00:00.000Z"
       }
     ],
     "realestate": [
+      {
+        "title": "실거래 8.5억 송도 45평이 6.1억부터…인천 아파트 추천 경매",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1QRlBpQmZTQ2ZaT0tLRHowRXRFTHlDR090WXhfMkl6QTdvOU5IX1ZuZVpKNXRkYW4wd1lfY0p6YmkyU0VEaHczTi1YQjgzZlZJQThvX0l3QjFSRGpWekRsRkZDY2NXSF84RWFLTGNwWV9KTHFkeHlfWlpnUmZmSE3SAXNBVV95cUxPOUtqN0FwdkdVeEVpLXZqQV9PVmgwWE13aUVjT29kcXRKMGxTZnhTbldHeVJXZUluVXN0YUp1VFl0am5Qa29GUHZ2T2FKSktzWk5UN3c1ZFhSYnZ6N3QyOXhIaWNuWWlBeEhjRkxUdTBQTFpJ?oc=5",
+        "source": "땅집고",
+        "date": "2026-08-16T21:00:00.000Z"
+      },
       {
         "title": "4억 이하 비아파트 지원 논란… 서울 빌라 가격도 이미 4억 넘었다",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1NQmQ0VnlVNWxXT0EwT01BQlZMaEU4eW8xVFAzdGczQzRNRHlWTnhHSGNmS3BCQnE4MENJNFZuUV9EQnlLVmZfY0N2OGRtbEk?oc=5",
@@ -441,14 +447,8 @@
       {
         "title": "전주 실거래가 평당 2300만원 돌파… 1400만원대 '라온프라이빗 퍼스티브'",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0YVFHN3VQUTdJbm5WSFNsTDd3U3k0VnpmZTY5ZF9yZk9FTVNlZTMzZnUzTjRxak96VXMzMVhCU0dyUERhVTJYY2RQbFMwYXgyVTV2Z1Y0RFJJMW9nQWZ4SkdrU1g5R3c3X0HSAW5BVV95cUxNMUhfQkE0ZEhSU2thS3MxV0FKcEUxaV9WYS1zUWNqXy1BelpCSjA4Ql9HX2xhWTV1djlPSTZzenQtWEZ6Z3ZfVU40UlVuSmx2MHd2eGdtZ1AwMWhONUI0ZUNheFdZS1ZvMS0xRnRCUQ?oc=5",
-        "source": "gpkorea.com",
+        "source": "지피코리아",
         "date": "2026-08-14T04:42:17.000Z"
-      },
-      {
-        "title": "병점·오산 아파트 거래 증가…GTX-C 연장 추진 주목",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOUHY0SFdsSW92UXVTQXhwWVQ2M25kbWVNVDU4Y2ctSWdsUjdhUERhbzlfM3pJMlNfLUE4RVUzVHJ0Y094V0NqT1laVkY4cXNlc004NGloMkFYVWJtUURwYlJzVVh2QQ?oc=5",
-        "source": "비건뉴스",
-        "date": "2026-08-14T01:00:23.000Z"
       }
     ],
     "lotto": [

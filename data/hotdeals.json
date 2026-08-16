@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-17T07:06:28+09:00",
+  "updatedAt": "2026-08-17T08:07:43+09:00",
   "deals": [
+    {
+      "title": "애플워치 울트라 2세대",
+      "mall": "이마트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106418",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-16T22:24:00.000Z"
+    },
+    {
+      "title": "애플워치 울트라 2세대",
+      "mall": "이마트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727381",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T22:22:44.000Z"
+    },
     {
       "title": "풀무원샘물 무라벨, 2L, 30개",
       "mall": "토스",
@@ -242,17 +264,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-16T15:10:19.000Z"
-    },
-    {
-      "title": "비타랩스 마그네슘 420 맥스 90정 2통 6개월분 눈떨림 영양제",
-      "mall": "G마켓",
-      "price": 9200,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727364",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T15:09:42.000Z"
     },
     {
       "title": "일일적립, 클릭 79원, 라이브예고 2원",
@@ -561,17 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-15T01:21:13.000Z"
-    },
-    {
-      "title": "라방 5원",
-      "mall": "네이버페이",
-      "price": 5,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106389",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-15T00:48:52.000Z"
     },
     {
       "title": "Lavazza Classico Ground Coffee Blend, Medium Roast, Value Pack, 20 Ounce [$8.99/배송비 별도]",
