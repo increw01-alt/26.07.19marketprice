@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T01:09:27+09:00",
+  "updatedAt": "2026-08-17T02:09:36+09:00",
   "topics": {
     "coin": [
       {
@@ -19,12 +19,6 @@
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUlJRkhkWWQ4bEdYaFFVU244QlIyRk5aaTdjd0FBUEZWSDVRQmd1ejN6b3RLTnNIVnRuTlFFUGxuRERJS1h2S3pZNE0xZHVJdWY2VUhhb3hYUDdHUVJSTzhZZGNDZS1NbnpXbExnMFdubUk4YzdYNU1WQ1ZwOTlacE5nOHpzUFlpT2FZVA?oc=5",
         "source": "네이버 프리미엄콘텐츠",
         "date": "2026-08-15T03:35:00.000Z"
-      },
-      {
-        "title": "1백만 달러 비트코인 가격 전망은 과도하게 낙관적일 가능성 높아, 주요 지표 시사",
-        "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVnJIWjVXdzRlZG01NHViWnZObkhjc29tZkg5ZF91cXdYbjdJTVlJZXhEM0VLTmtlQml6VHlwYXNFYlRvRW9qWUVibGhmT0RpOU5JQ0M0YzVuNEhXUm52eFJmZERraHVZVElLaEdrTWxySld1WS1JdU5KTHlzNWR1TW5PWG9vS0p2TjFRNzF3MGMzNDNJODBXYW1SWWg3M204REdkU2hVSjBWcHlRakJBWVZCMWdnOENjb3ZmRGp2c0dwdjJYVmY3WnpUOGE?oc=5",
-        "source": "CoinDesk",
-        "date": "2026-08-13T17:43:25.000Z"
       },
       {
         "title": "2026년 8월 13일 오늘의 비트코인 ​​가격: 소규모 채굴자들이 시장에 압력을 가하고 있습니다.",
@@ -49,6 +43,12 @@
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBNbC1uWmRjZ0d6Y3V6WExjU3ktbkZSbEhFX3hkTlhaSDhkTngtQkJwakREUElocWZlcDM2elVWcWFTRUJOYUdUb2VFeFoyMTFrVW9jdW5YR3VKLTlLOTJvZy1XNE5jT2pTV0E5UHJQdjRGdnM?oc=5",
         "source": "비즈니스포스트",
         "date": "2026-08-09T04:47:38.000Z"
+      },
+      {
+        "title": "마라, 2분기 6억1130만달러 순손실…비트코인 가격 하락에 발목",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1ka3JYQkhyYzVUSW9aTFgxakFYRU13OXVUejBldjF4bFdJc0VPa1RxbGJXajFoSkRVZDlrbW1mTlBKVEZLb1N2RGppLUctdFl2TW1VMy1uUWZrUWttUFVPcDlGN1dqLTRRR0doNTdqbE1qZ28?oc=5",
+        "source": "디지털투데이",
+        "date": "2026-08-07T07:00:00.000Z"
       }
     ],
     "stock": [
@@ -91,7 +91,7 @@
       {
         "title": "[주간 증시 전망] 돌아온 외국인·깨어난 반도체…코스피 '반등 본색'",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lbFc4b2RSS0V3S29BeXNOak9oTkFPODRLbmtEdlJLdDVINnFERmQ1Z0FqVG1yZFJOMUhESk1pcHN0LXJGSXdpY3FjRUdpanBUampLUUxFRWlzZTQ2ckN2cEplb0JYaVhIYzF1SVNpMNIBc0FVX3lxTE83WENPaHNMcmRrY1BvendwNTJnNnJLY0otMkJYSXYxWEpMNV94VVcwcmRSRVJuTXQ0NE83Rk0xWUtqV0Y3bUw0QzN6cFlRS0FFLXIxemVyZnVIN0xMcm44SW9XM2t5MWF4V1cySmlOVWpnaG8?oc=5",
-        "source": "newsworks.co.kr",
+        "source": "뉴스웍스",
         "date": "2026-08-16T05:00:00.000Z"
       },
       {
@@ -123,7 +123,7 @@
       {
         "title": "코스닥 자사주 취득 208곳…신고 건수 261건으로 68.4% 증가",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tU09RbW1CQVdrV3hxUk5BY1RXcnVxOWZGd2dSQ3NEQ1dOaDQtVVNWLWxqVHhmcnlvOUpuTzhzb3lRUkRTeDZBR08yZ29zeEtMaDZ1QThLcnRZZnF4RHQxcmZfUlRXUVU?oc=5",
-        "source": "jabon.co.kr",
+        "source": "자본시장뉴스",
         "date": "2026-08-16T08:30:00.000Z"
       },
       {
@@ -185,7 +185,7 @@
       {
         "title": "1600원 넘보던 환율, 150원 급락… 對美투자 늘면 다시 뛸 수도",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SZFZkS2tQSmVWb2t0MEtRaF8wSlJwV0t1SHhIMWN1cTVhYUN6ZEczcmhCX1I5SldmcDBteENma0pCUjJaRFZtamprUV9HZFlvZWZJaFBOdGdEdkNRZ0kyNjdnN2hKY2p3TGx2VmdKMk9iazhXLWfSAWZBVV95cUxONDhBc1dLeXVpakMwT2VUTmJ2WkRhTlNGSG1JTHEwM0gyMDRwcVRKbjVwSjhNQWU4WVlsaUM1WGo0MUJVVk45YW1udnE4bVctMlBweWw1NGJEMm5YU1V5MUZidEVVTHc?oc=5",
-        "source": "동아일보",
+        "source": "donga.com",
         "date": "2026-08-14T16:40:00.000Z"
       },
       {
@@ -205,7 +205,7 @@
       {
         "title": "금시세(금값) 얼마?…새주장 추이는, '남은 경제지표 향방 살펴야'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uS2RrdmNzN1pxcEhOdzExREZDWkNqclRueDctcXJtNFVnV2VRdWRRUnNNQ3hZUnh4S3ZQbW81d0wweVd0WFRNS3E1SkRiQVk2TTRJMGQ1MlBPNi0zRTRfQTJEOXNqTl9j?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-16T15:01:00.000Z"
       },
       {
@@ -235,19 +235,19 @@
       {
         "title": "금시세(금값)…美 GDP·PCE 발표 앞두고 금리·달러 향방도 ‘주목’",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE81bTA2TDJGaGtzY0xhVGFjU2FidWJ0OUgyRU9NZkJsT0lSSndBMWNMM0dBaFNYUkg2dlkyV05vMEdzN014MmcxYnprcWxrcDBGaVcwU0ppNFBOOTJjSGtranhJVjF6akhq?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-15T15:10:00.000Z"
       },
       {
         "title": "금시세(금값)는?…美 물가·금리 전망에 쏠린 시선, 달러·중앙은행 수요도 변수",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mdENLZ092RWpaRldfNGhodm9pcUxiOW9OQ0pyUE50djRoVHQwVG5iYWdHQl9QOVpGWGRfR0htN3FsbGFHUWI2d1ZVYURtblZRc1U2M0FBaFhZU1dHSS1UNmhXRU96Y3NB?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-15T00:56:29.000Z"
       },
       {
         "title": "오늘 금시세(금값)는?",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBrSlZRRV9tOWtIc2ZVVkstTUNtWjJ4aXYwY1pnRVJFZjNrcTZ2TkFsbTVDOGxLOWVqWTVBVWlhbEpYWkE3NkdzT3RSSFlTbU5qbmpyV1owOWVfbEV3eFNsd1lnMjlrM05L?oc=5",
-        "source": "키즈맘",
+        "source": "kizmom.com",
         "date": "2026-08-15T00:32:54.000Z"
       }
     ],
@@ -311,7 +311,7 @@
       {
         "title": "'반도체주' 뜻밖의 악재…한국 개미들 '초긴장' 하는 이유",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
-        "source": "hankyung.com",
+        "source": "한국경제",
         "date": "2026-08-11T16:27:50.000Z"
       },
       {
