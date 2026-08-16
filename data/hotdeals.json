@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-16T19:10:04+09:00",
+  "updatedAt": "2026-08-16T20:09:17+09:00",
   "deals": [
+    {
+      "title": "부산 금강 육개장630g 5팩",
+      "mall": "네이버",
+      "price": 16900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727340",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T11:04:33.000Z"
+    },
+    {
+      "title": "3초 떡볶이 보통맛 7팩",
+      "mall": "11번가",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727339",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T11:01:34.000Z"
+    },
+    {
+      "title": "프로야구 키링굿즈",
+      "mall": "네이버",
+      "price": 4700,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727338",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T10:55:27.000Z"
+    },
+    {
+      "title": "카스 레몬 스퀴즈 0.00 330ml 24캔+쿨러백",
+      "mall": "11번가",
+      "price": 19000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727337",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T10:53:50.000Z"
+    },
+    {
+      "title": "비첸향 미니이지포크 450g",
+      "mall": "롯데온",
+      "price": 45800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727336",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T10:46:24.000Z"
+    },
+    {
+      "title": "폴딩던전",
+      "mall": "스토브",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727335",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T10:45:18.000Z"
+    },
     {
       "title": "끝돼 캐나다산 돼지 삼겹살 100g당",
       "mall": "롯데마트제타",
@@ -110,72 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-16T08:49:24.000Z"
-    },
-    {
-      "title": "배홍동 8개 + 안성탕면 5개 + 짜파게티 5개",
-      "mall": "지마켓",
-      "price": 12270,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727325",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:45:34.000Z"
-    },
-    {
-      "title": "오리온 찍먹 나쵸 치폴레마요 84g 14개",
-      "mall": "오늘의집",
-      "price": 16065,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727324",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:43:48.000Z"
-    },
-    {
-      "title": "질레트 프로글라이드 센서티브 젤 170g 6개",
-      "mall": "카카오쇼핑",
-      "price": 22900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727323",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:32:54.000Z"
-    },
-    {
-      "title": "에브리워터 무라벨, 500ml, 40개",
-      "mall": "토스쇼핑",
-      "price": 4400,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727322",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:25:02.000Z"
-    },
-    {
-      "title": "무선 에어롤링 손목 마사지기",
-      "mall": "카카오",
-      "price": 22500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727321",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:20:12.000Z"
-    },
-    {
-      "title": "코코에르 룩쿡 글라스 에어프라이어",
-      "mall": "카카오톡",
-      "price": 32900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727320",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T08:13:54.000Z"
     },
     {
       "title": "페이코 쿠폰 적용시 - 두유 23% 할인 등",
