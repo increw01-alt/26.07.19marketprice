@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-16T23:10:28+09:00",
+  "updatedAt": "2026-08-17T00:09:17+09:00",
   "deals": [
+    {
+      "title": "메가커피 메뉴 20% &amp; 금액권 10% 할인 (8/17~23)",
+      "mall": "지마켓",
+      "price": null,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106410",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-16T15:05:24.000Z"
+    },
+    {
+      "title": "카페 2천원 이상 결제시 500원 적립 (8/17~23)",
+      "mall": "네이버페이",
+      "price": 500,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106409",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-16T15:01:09.000Z"
+    },
+    {
+      "title": "플레이보이드로즈 10매세트",
+      "mall": "롯데온",
+      "price": 20570,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727361",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T14:56:56.000Z"
+    },
+    {
+      "title": "카이로소프트 여름 방학 번들 Vol.15-16",
+      "mall": "스팀",
+      "price": 9120,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106408",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-16T14:53:08.000Z"
+    },
     {
       "title": "매일 아몬드브리즈 6종 48팩 (23,610원~)",
       "mall": "롯데온",
@@ -11,17 +55,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-16T13:35:57.000Z"
-    },
-    {
-      "title": "찐보리굴비(대) 29cm내외 5팩",
-      "mall": "롯데온",
-      "price": 32460,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727359",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T13:20:50.000Z"
     },
     {
       "title": "속옷 세탁망 3중 메쉬, 2세트, 11,400원",
@@ -156,17 +189,6 @@
       "date": "2026-08-16T11:46:04.000Z"
     },
     {
-      "title": "남양 경기미 10kg 상등급 쌀",
-      "mall": "11번가",
-      "price": 26640,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727345",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T11:43:32.000Z"
-    },
-    {
       "title": "리고 100% 땅콩버터 땅콩잼 대용량 1kg 2종 총 2kg",
       "mall": "지마켓",
       "price": 21900,
@@ -187,6 +209,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-16T11:23:57.000Z"
+    },
+    {
+      "title": "아우라 섬유유연제 5.5L",
+      "mall": "카카오",
+      "price": 13857,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727342",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T11:18:32.000Z"
     },
     {
       "title": "폴딩 던전 / 무료",
@@ -552,17 +585,6 @@
       "date": "2026-08-14T08:53:34.000Z"
     },
     {
-      "title": "질레트 프로쉴드 옐로우 면도날 총 28입+증정",
-      "mall": "롯데온",
-      "price": 82310,
-      "cat": "생활",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106381",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-14T08:18:04.000Z"
-    },
-    {
       "title": "노무현평전 예약판매 (교보문고)",
       "mall": null,
       "price": null,
@@ -572,28 +594,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-14T07:21:34.000Z"
-    },
-    {
-      "title": "일 2회 N배송 멤버십 선착순 쿠폰 (09시/18시)",
-      "mall": "네이버",
-      "price": null,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106380",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-14T07:18:45.000Z"
-    },
-    {
-      "title": "켈로그 첵스초코 570g 2개",
-      "mall": "쿠팡",
-      "price": 7760,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106379",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-14T07:00:53.000Z"
     },
     {
       "title": "Nothing Headphone ((a): $117.59~/ (1): $165.71 / 직배 무료)",
