@@ -1,12 +1,18 @@
 {
-  "updatedAt": "2026-08-16T20:09:26+09:00",
+  "updatedAt": "2026-08-16T21:12:21+09:00",
   "topics": {
     "coin": [
       {
         "title": "2026년 8월 최고의 암호화폐: 다섯 종목과 방금 가격이 재조정된 프리세일 하나",
         "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1YRUJEc3hpUDUtSEkxTWVKd0N0aWt3OUV1UUQ2SHo1VWVPVElDV2lYVG4yYUdfODJ3bzNOWmhJdDZqVVhjNTZDQlR4aUlIZ0hLRzk3ZkcwRzdRaFlvMk02MmdIeTZYSFl2V0JtcjdiYUp0WWY0Q0EwUg?oc=5",
-        "source": "FinanceFeeds",
+        "source": "financefeeds.com",
         "date": "2026-08-15T21:25:07.000Z"
+      },
+      {
+        "title": "2026년 8월 15일 오늘 비트코인 ​​가격: 트럼프가 지지하는 암호화폐 은행 승인.",
+        "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMG1UdlNXUndPYXhiVWxBdk1UaGxxV2V1TEJCSXdHZ08xMmRUTGZob2xfcVp3UG1ub0tkS0RwVmh0azY5Z0ZyMS1TN2pMVEpkSmdhakVjMEFVTG9VTGM0MWVWRDAyYVFHZTI5Z3Z5bGZFT2xYeUJzNWc2aWVrWURZYXlvNXR3R2dybDRrV0MtWUxPZU9nX3doSjM3VXh4Y09qUEdXaVVoQWpjdm5zYXgxVA?oc=5",
+        "source": "vietnam.vn",
+        "date": "2026-08-15T15:52:41.000Z"
       },
       {
         "title": "애플이 4조 달러 규모로 iOS 제한 완화, 인앱 비트코인 및 암호화폐 결제 금지 해제",
@@ -43,12 +49,6 @@
         "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPVHpMNzg5TUNXa1NfajFld0ZGRHliQUYtdHFMTWVSZmhSYTNKMjNiQXpBT2FCLWdubUo1dU5iQ2dpbUg3VnRGSmJ0MFQwM0VrR3hCeG1EaHg3bThJd2tuNW04a09neXBxRGZmYWxLTnBITWI0ckFLVDJSVVg5RGtaN3h1T1UzVnZZWS01aVNmLUFQRVRRSW9Ja05tTWNoZXZvelJUdkt2YmV5dTU2SG1Mb1JEeFR5a0hGb21MZG1iQU12SVZfNkY3cWNUY0xCUQ?oc=5",
         "source": "Gwara Media",
         "date": "2026-08-11T17:43:26.000Z"
-      },
-      {
-        "title": "[D-BIZ 암호화폐 뉴스] 트럼프 미디어, 비트코인 가격 하락·보유 축소…상반기 암호화폐 손실 3억6천만 달러",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBiMkpDTjJ4RVQ1UjcxZ2doY1kydDVUTHNrQjE1ZDZPQ0Q1emlHMUU4LVhQalE5TGRzVXNxNWJxZUYydlJ6TjRtYnpFeTcyTFB6VmQwUHNySktINFFjODJ3T3gzemZOZW83ODFRZQ?oc=5",
-        "source": "데일리비즈온",
-        "date": "2026-08-11T00:34:27.000Z"
       }
     ],
     "stock": [
@@ -79,7 +79,7 @@
       {
         "title": "[주간 증시 전망] 돌아온 외국인·깨어난 반도체…코스피 '반등 본색'",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1lbFc4b2RSS0V3S29BeXNOak9oTkFPODRLbmtEdlJLdDVINnFERmQ1Z0FqVG1yZFJOMUhESk1pcHN0LXJGSXdpY3FjRUdpanBUampLUUxFRWlzZTQ2ckN2cEplb0JYaVhIYzF1SVNpMNIBc0FVX3lxTE83WENPaHNMcmRrY1BvendwNTJnNnJLY0otMkJYSXYxWEpMNV94VVcwcmRSRVJuTXQ0NE83Rk0xWUtqV0Y3bUw0QzN6cFlRS0FFLXIxemVyZnVIN0xMcm44SW9XM2t5MWF4V1cySmlOVWpnaG8?oc=5",
-        "source": "뉴스웍스",
+        "source": "newsworks.co.kr",
         "date": "2026-08-16T05:00:00.000Z"
       },
       {
@@ -102,6 +102,12 @@
       }
     ],
     "kosdaq": [
+      {
+        "title": "보름 만에 34% 반등한 코스닥, 수익률 ‘세계 주요 증시 1위’",
+        "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaGwxU1liclpldnRCX2hQcEI3RnVTd005SktDQ1haTjhCLTA1VXl0c0FmbjBBdnBFVTltU0lzaWtqbm9QWnhPNTIzRlRmTE80dHZlelFBeUNWSHRyUjN5a2dySjVlUXNFNHFTR0JaQzlsNmJ0ZlBseGhxN0c3a2JlZWlTMTFFWnBrQnJlMzVEaEkzSUlJdUZFel9PN3pKSDNsRUkyYm5RZjRKQdIBX0FVX3lxTE9yU056cURZUlhVbkljZVVpSm9RdW5qaWVyRWlkekJNWUV3Zk5zdW5WQzVtc1VXN3hLOVZYTldvOTluYlJKQ1dDT25tOUE3WUY3c0RYTm5jSnhrblRuOFk0?oc=5",
+        "source": "경향신문",
+        "date": "2026-08-16T11:13:00.000Z"
+      },
       {
         "title": "코스닥 자사주 취득 208곳…신고 건수 261건으로 68.4% 증가",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tU09RbW1CQVdrV3hxUk5BY1RXcnVxOWZGd2dSQ3NEQ1dOaDQtVVNWLWxqVHhmcnlvOUpuTzhzb3lRUkRTeDZBR08yZ29zeEtMaDZ1QThLcnRZZnF4RHQxcmZfUlRXUVU?oc=5",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwNDJSejQ4a3ZGYWgxNWZ3dGpHcThNQUo3Qi1GMmd0TkhjV3FZcl9fa05tTllzekJBdnIyYld0WXkxWVlxeGVrajlHdEhkOVJmaTBDV1MzaUFLb1A1Rzl2SnFsWEc5LVBfbGNuaFJJQ2E?oc=5",
         "source": "연합인포맥스",
         "date": "2026-08-16T04:00:13.000Z"
-      },
-      {
-        "title": "코스닥에 부는 자사주 매입 바람···가치제고·주주환원 '두 토끼 몰이'",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41a1k2LUN2SkpYZWJnblA5UWoxQVpyaXJkQVRUWVBleXF0V2huSmNDUlN6UWJvUWRTa0dFTGFnUzIwNGs1ejBfM1c1ZTFkc2EyWmpkbjJrU2Z3SmhkN0FaSm9iQVhjMlVpcVE?oc=5",
-        "source": "서울파이낸스",
-        "date": "2026-08-16T03:00:00.000Z"
       }
     ],
     "fx": [
@@ -173,7 +173,7 @@
       {
         "title": "1600원 넘보던 환율, 150원 급락… 對美투자 늘면 다시 뛸 수도",
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SZFZkS2tQSmVWb2t0MEtRaF8wSlJwV0t1SHhIMWN1cTVhYUN6ZEczcmhCX1I5SldmcDBteENma0pCUjJaRFZtamprUV9HZFlvZWZJaFBOdGdEdkNRZ0kyNjdnN2hKY2p3TGx2VmdKMk9iazhXLWfSAWZBVV95cUxONDhBc1dLeXVpakMwT2VUTmJ2WkRhTlNGSG1JTHEwM0gyMDRwcVRKbjVwSjhNQWU4WVlsaUM1WGo0MUJVVk45YW1udnE4bVctMlBweWw1NGJEMm5YU1V5MUZidEVVTHc?oc=5",
-        "source": "donga.com",
+        "source": "동아일보",
         "date": "2026-08-14T16:40:00.000Z"
       },
       {
@@ -410,9 +410,9 @@
       },
       {
         "title": "‘4년2개월만 최대’광주 아파트매매···반등까진 ‘아직’",
-        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE03dG84R0gtMnpucTdPX3RRbFRwR2FmSWgtYW5YTm5lUHJpODhBVF9KdWRHUW8tTElkSWpzYVowZWl3emdKUFM4TVpWaFA?oc=5",
-        "source": "mdilbo.com",
-        "date": "2026-08-16T04:30:00.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFB4Rnp3d1JOU1VlZk9laWNINlZSSnY2SzN6dmpyMlgzT0Q5ajVaV2hqYXgybXMtSzJFUlpuVkl6NkEyTmZHWDV5LUZtd1NUUWs?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-16T04:30:55.000Z"
       },
       {
         "title": "서울 아파트 계약해지 속출…대출규제에 매도자 배짱",
@@ -435,7 +435,7 @@
       {
         "title": "부동산 실거래가 조회: 2026년 최신 확인 방법 완벽 가이드 : 부동산",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE41OHpObWZVTWREeHRsVWRRVW5DNWJ5bmpMMjY1M3hCQmZpVExBc09hWHUxRzhpRnlDR2tzLVJtTTFkbFI5SElrcnJB?oc=5",
-        "source": "재경일보",
+        "source": "news.jkn.co.kr",
         "date": "2026-08-15T06:01:00.000Z"
       },
       {
@@ -456,7 +456,7 @@
         "title": "1237회 로또판매·추첨시간, 1236회 1등당첨지역 공개",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2dG8xYW5xUVZac2xjYnJfb3BINDVLdmdqdm1vTmc1WHRGTWFpQ1JVUjlBMS1WeWRXeVV5emREdEdfTlZtcFQyS0taMEJpZG9sLUNPOEIxRFVYSzZEeGlPY3RvMFVlcHhUaVhQTU53?oc=5",
         "source": "gukjenews.com",
-        "date": "2026-08-16T08:42:49.000Z"
+        "date": "2026-08-16T11:43:48.000Z"
       },
       {
         "title": "로또1등당첨지역 \"12억 서울어디\" 1237회 로또당첨번호조회",
