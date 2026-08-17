@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T07:10:22+09:00",
+  "updatedAt": "2026-08-18T08:10:34+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,10 +36,10 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96100,
-      "buyRate": 3.9,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 96600,
+      "buyRate": 3.4,
+      "sell": 96900,
+      "sellRate": 3.1
     },
     {
       "shopId": "citypay",
@@ -48,10 +48,10 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95900,
-      "buyRate": 4.1,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 96400,
+      "buyRate": 3.6,
+      "sell": 96900,
+      "sellRate": 3.1
     },
     {
       "shopId": "citypay",
