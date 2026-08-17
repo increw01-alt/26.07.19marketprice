@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-08-17T22:30:46+09:00",
+  "updatedAt": "2026-08-17T23:15:29+09:00",
   "topics": {
     "coin": [
       {
         "title": "스트래티지(MSTR)와 메타플래닛(3350)은 BTC 가격이 아닌 수학에 베팅하고 있다: 크립토 데일리",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUVBvb1ktekxVX0xtSVFiMWNOQmdWSTBqcUI5eW01ZkdmVGFTdWUzc0N4dVA5cUJxWVR0Z3pELXJGR1d5OTMwV0ZJMlp1UlBuTDVZWE9IVFFFYi1PVm1oSS16alVUYmEzdG5EbzJWSE0yRVJkX2l2M3NIcjcyU0JxQ2JFUmtzTXVLUjFkaWFLWFQzYmlnTXJRZDNVQ2ZwQjdsUUhkWDFMTTVkQVJ1a0d0dTBPUy1jUm41b1k2TmtRWFJRT0JwM3g1bw?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-08-17T11:36:43.000Z"
       },
       {
@@ -67,7 +67,7 @@
       {
         "title": "코스피, 7,000선 다시 넘을까…중동 정세에 촉각",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE01cTItdUdYNGZzS3Yza3lvb0Njc1NOY2x5TmNXcTFlcWw4amxoa2t4R2JBRjhpYXFwd1ZJTTF1NzM4TVZoU3NObEpfZ2gwcGQ0VlNNRHZzY0puMExndmkwOEVVV1dUZzB5cGdnT9IBcEFVX3lxTE00WmFDMF9zb2lNSjk0Y2RDZWtRVWpyeDlHSGVpS0huMlZSSDlmZnlJWTlDTGhwaGRBUmZoSUxpLUlZRTVjNHd3UnpzbzViLUdRNXVDZzF2WGRhekhJalpWV3BsZG5hbENsSGJaTDJ3RFg?oc=5",
-        "source": "namdonews.com",
+        "source": "남도일보",
         "date": "2026-08-17T07:09:00.000Z"
       },
       {
@@ -172,15 +172,9 @@
       },
       {
         "title": "“달러 쌀 때 바꿔두자”…환율 하락에 환전·예금 수요 ‘꿈틀’",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLXlVZi1pTkxFWVNzaUhiSHZvLVJEMTR3NTlGek0zSFZkWDlWWWRxaW1keWRWYW1fczZnVVl1RlhId1ZodU9GdDlrRWRoaUoxZ0poUDZ2ZjUyN1FnTFZZS0p3QjVfTjJxRVBFVmpHN2pFREhORW9XeWhtWlJFczlKaQ?oc=5",
-        "source": "edaily.co.kr",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1xbXg3eFBhZWhWWHZ2UHJpLUJEekd0dDlSeTJJRjlsY0dwWkFpQjdCN2RaVTRQVWlGNFBkTE9WUTZwMDZWUDhkeG55VzkxUlU5SlFZemlDeXRHbFV3dTRISzB2V2UtMTJMbkNuXzU1QjJyVEE?oc=5",
+        "source": "마켓인",
         "date": "2026-08-17T05:53:34.000Z"
-      },
-      {
-        "title": "“달러 쌀 때 바꿔두자”…달러 환전·예금 러시",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oM0tTcGFZQ3B6T0NYeklOV3JVblRKU251UkozejFUOXFaVzlfbWFKV25Fam4zTi1oN3N6Uld1N01TOEdHZnFTYW5fWTUzQkpJblVMWmtjR3JJZHZ6Q2xlZ0MxZnhXLVFzY3NockVEXzJ5TWtyNWZYbmdiOA?oc=5",
-        "source": "이데일리TV",
-        "date": "2026-08-17T05:53:00.000Z"
       },
       {
         "title": "[주간환율] 원·달러 환율 1410원대... 하향 마감",
@@ -199,6 +193,12 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qOVl0QkcxaGlFMkFOdkhVOUVIUS1HUkdITjNWVThTQmpONk1jT3ZwMGY5U0ZtSjVIYUJZYmRad2JBRjZFVEJuOE5pWXR6NzlENllEenFuMFJPaEptZDdsLW05Z0M0MmdUNGVTVUF2ZlBMQQ?oc=5",
         "source": "오피니언뉴스",
         "date": "2026-08-17T00:00:00.000Z"
+      },
+      {
+        "title": "[환율] 원-달러 1,418.50원 … 0.12%↓",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1vZldIS3N5clRwbGlXcjZQQjBtMG5lX0ZOMnUxY3V4SHpLRmlGbGVYTndobGRINnFJdE1Fak9nTnFhdU40UUxWanZreGpUSk5BenplTzF0S1p0eFdYazVNRktR?oc=5",
+        "source": "버핏연구소",
+        "date": "2026-08-16T23:00:01.000Z"
       }
     ],
     "metal": [
@@ -339,16 +339,16 @@
         "date": "2026-07-13T07:00:00.000Z"
       },
       {
+        "title": "미·이란 충돌·미국 물가·한은 금리 결정…글로벌 금융시장 '변곡점' 맞는다",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9oWTdqY1VrSkJhbUY4WkF6b2hCaVpLRndmbFc3WV92a2RGczhNMlhmQUhTQWVTeDVzQXlVNGtVSGJwaFVNcnRTNHp6QUFBeWdMVnY1MDAzbDNwZ3dNUjhhSTA5Q2UwUW43MGlJ0gFvQVVfeXFMTVYtODRTVElzQU1sRVZmMUNSUjZ1czhYai0tUklDSlVHb2pjcm9UZ0kyeEJmSV9jS1h6UGdUUks5MFplVmo1RUF5cHVkSVMzNjFLYWk4V19aamFkWUpuc3g5X205Ul92TGFsXzZCM2dJ?oc=5",
+        "source": "the-news.co.kr",
+        "date": "2026-07-13T07:00:00.000Z"
+      },
+      {
         "title": "[7월 둘째 주 세계경제동향 브리핑] 코스피 7%대 급락…미 기술주는 상승세 유지",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6b3owUVVtOXJLOFFmTzEzYmRmMGRsTU4xQTRRSGV2MXRtUUlndFdSNkhqMi0tbmU5cHZBSkxrck4zRnhkVDRlSkVrdEQ4SldWT0lBMzc4bk45d25lSTBubjZVT0ZMdTV1NElfNFV5MA?oc=5",
         "source": "기호일보",
         "date": "2026-07-11T07:00:00.000Z"
-      },
-      {
-        "title": "[다음주 환율전망] 1500원대 고환율 지속 전망…美 금리·외국인 수급이 분수령",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWER5bC1YTTNFdkJLT3E5YTdCSDQzdFV2LWszbHJ1S3B1cllQc190UVFnaU9tZUVXQTVLMXJrd2pXNkFQakJVY2s0VzNQbnV0U3RSSlVUOGNiMk9YSk1jcVFuTHhpR0Q3RDRtdQ?oc=5",
-        "source": "굿모닝경제",
-        "date": "2026-07-04T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -356,7 +356,7 @@
         "title": "번개장터, 매입 견적 비교 서비스 ‘번개견적’ 출시",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNW5lTnRZdDFmajM0dTJCWmhRRGdDUjIzUmVSQUxCbW5ZSW5PellYZ2RneW9xZzJLMk5vVWxidFloekFQWXE4R1AxOTVKbkV5ejdvQ0YyamE2dG05SEx6MmtUNGs?oc=5",
         "source": "서울경제TV",
-        "date": "2026-08-06T02:01:21.000Z"
+        "date": "2026-08-06T07:00:00.000Z"
       },
       {
         "title": "[비즈인사이트]“비단에서 거래하는 RWA는 실물과 현금 모두 교환 가능합니다”",
@@ -385,7 +385,7 @@
       {
         "title": "“갤럭시S26 ‘125만원→50만원’” 실화냐…삼성 ‘역대급 페이백’에 이통사도 웃었다",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE8tcU8wS1drLVhEUElfLVNDYmxnUXA1Sjhmakh1X2NPbzBWbnNRc1M1OC1zd0N3d0EySjhqNnhVci1pUXdtdlRiMS1LMFJJYThWSHc?oc=5",
-        "source": "sedaily.com",
+        "source": "서울경제",
         "date": "2026-06-16T07:00:00.000Z"
       },
       {
@@ -453,10 +453,22 @@
     ],
     "lotto": [
       {
-        "title": "토요일 로또 판매마감시간 한눈에 보는 정리 정리",
-        "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQNm9JamgtZmxUS0NEbDlNVVVVdnM5MkRHRGZQRUJGVVp4WXFwTGdWbGhibF9tZmdpWUdFVnNXUTA1eTFBWmFsUVhvQTM2ZDZYWU1nTS1tbkZwVy03SktqLU4wRzVhX1VETzNiMmtMTHpaYlVGTVZQVTVGR3pZSHFueVQwaERxeW0wOE0tcUVhem1neEtzQUZEYzJjNUpLNWRmaG1UT0FyUWxVbmM4ZnhDOWRZeHZBa0luVmtZS01JUXFwNDJ6RHJPZ0V2SmsyZGtTaDRDS2xmZHpFTjUtNGx6a3RaN3dfZjIwM1FWR3Vhc1l4am1iQ3ZBY1UxaHAyREt5VmtfM3NtdkFkWFY1cFR5clFxTUk3TlRCeVh4TjVLNTRsUWNUQkVSWjlydEFZOW9XLVR1QTlzYXdrT3FHXzhhcl9EQ2lhb0lFU1MzSVdQN3FKTGRXVVE?oc=5",
+        "title": "로또 토요일 몇시까지 요즘 분위기 리뷰",
+        "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOWlAzRE9JZmNndEo0MWVpMXh5M0tDU2lVXzU4elA4SnlYdHdMa3habnJDRGtJOWFnYjdxTy1vTTN5VHF0T2NvN2tkZV9uU1EydjhaVEl3bzRjbHpsR011WWNVYng5NjE4RERMX3JEdi1wUmpGM2FDNTZ1VEQzeVd2cFVoaG5sRXc1SkdOSUIwb1M5RzZVbFdBQnN4M1BlWFRpMUl6S0pFMkotNVZFbVZ0RkFVbEI1Z19GV2lHUjJFUDEtWFNPd0paV3FyRE11SjA4aTdkY1c5Vy1XMnkxenRqb1JPRlZIXzZtNFlrU3JRaXBHREhCenJyRFpHeTJSdlRxOTVkVTljS0FzUUNZNHVNWWJoN0hpdXpON2JBckV3czc2MzY5Z3dhM0tiUzk0OGwwWnRCQTgzejU5QjBGUDhj?oc=5",
         "source": "ilmondodegliarchivi.org",
-        "date": "2026-08-17T03:02:24.000Z"
+        "date": "2026-08-17T02:52:25.000Z"
+      },
+      {
+        "title": "토요일 로또 판매마감시간 생각보다 달랐던 이유 모음",
+        "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxPZDh0SWYxX2pXN1NMZDVLajdpeDNGUDFvbkJSb3V4TWk3UU15UnFsWnRtUGRrU1Frbjk2aHRXbndjZFR2eF9URGJvVjNDc3hpcVB1VEktRnRLODY5Ukw3bUJYQUFMYlBNdUJTaHFRQ3hKSlJYRm01VXNvQjZmSW9pYU9ocjVuTHo2Y0NhYWhISWxad3lUWmlMVm5NaTgyNVpmUEgwcG5Vci1femItN2I5RDhlUi03d3RWOF9XVmh2TU5LZERCRGFBYzZTVzVBb3ZORndhdnBXNzhEVEItZlh6MXN0U2owMzhEdXM5czJzbkltckNXNGxpODJDNHd0SVRYREJSUlRLNlA3MlhNMlZGSGo5T3p6M3ZpaURPT2RZQnJLVmxIUWJOTGozek9IWXNVWW1sZFZvWmNzVnJMaDc0aWt2UTZlZjVUaXg0NXVySGxJdw?oc=5",
+        "source": "ilmondodegliarchivi.org",
+        "date": "2026-08-16T21:57:47.000Z"
+      },
+      {
+        "title": "로또 온라인 구매 시간 아는 사람만 보는 정보 팁",
+        "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPYXo1VzBlTkFhWmF4VTRpM2tTY1ZUQ0RfYkE5Wno2Q1NWMXIwTWVQUWtYWnhqT0hhR2JwVG9Lc2tkNFlQWUxBTnNVajZkVW45bW5iazJ6Z0dENlpQQWVvQjJRWElyNzcxYUJ6VlVValZKSnFoYXpzUUVRWVJwcjBOZF9EZ2VUc1c2N2t5ck52QnNpc3F6MWJpOG5LRUdtcXpGSVZpbHlTU2IxRnpyWEVtcGV3N3RPc1A0dktLSmxpdm1RemFpMlhDa3l6dmZocGtDeWdjRG4tODROOGJLSng2cWVielBSTTBtZ0NiWmJfeDBLWDVEVlpvY1N5c1RxbGtfSVRjUGx3?oc=5",
+        "source": "ilmondodegliarchivi.org",
+        "date": "2026-08-16T21:03:46.000Z"
       },
       {
         "title": "1237회 로또판매·추첨시간, 1236회 1등당첨지역 공개",
@@ -487,18 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBdElLeE53YnpBU3dHOU5QZldSaGZxa1NIdTRrVmJlY01HaWpiZEMyQlhGX0R1ZjZQUEFnVHY1enFOLVlzVlc2ZlZhTWhyN2diSDBVVF9fMVRFWjlOenFhUlk5SmhDaDdIalQzUFFTR0sxZw?oc=5",
         "source": "톱스타뉴스",
         "date": "2026-08-15T12:44:46.000Z"
-      },
-      {
-        "title": "로또 당첨번호 조회 1237회",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBYaENrR0NEcWVTNDJmNDVYVUdCLVpPUG5wYldIbWt2MVU1MkoyUWNhWmViYWV2d054NXVhaVBIQ3NfSjhXeFhUR0FhbHZhSEw1eURscnVvdWtCdDExQ2ZuUlN1alA?oc=5",
-        "source": "bntnews.co.kr",
-        "date": "2026-08-15T12:11:36.000Z"
-      },
-      {
-        "title": "제1237회 로또 1등 쏟아졌다…23명, 각 12억1천만원씩",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NY3I4TGE1Mm4zM2tTbHpVYjV0cTBXOFprWVJKTW5aQ3ExQ2dwcE9keUlGMTE2cDNNRXdjekZCRlJOZFpRZGF6WFJocnlhVkRGbnBfeVlkMTVZdWc?oc=5",
-        "source": "kyeonggi.com",
-        "date": "2026-08-15T12:00:22.000Z"
       }
     ]
   }
