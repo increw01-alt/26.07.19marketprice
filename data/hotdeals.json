@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-17T08:07:43+09:00",
+  "updatedAt": "2026-08-17T09:26:52+09:00",
   "deals": [
+    {
+      "title": "생유산균 프로바이오틱스 100 4개월분",
+      "mall": "토스",
+      "price": 21140,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727386",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T00:19:31.000Z"
+    },
+    {
+      "title": "테이퍼드핏 치노 팬츠",
+      "mall": "지오다노",
+      "price": 19000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727385",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T00:07:34.000Z"
+    },
+    {
+      "title": "넛츠피아 텐믹스 플러스업 60봉 낱봉+건망고 80g 증정",
+      "mall": "지마켓",
+      "price": 18300,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727384",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T00:02:10.000Z"
+    },
+    {
+      "title": "제주 삼다수 500ml 무라벨 40병",
+      "mall": "롯데온",
+      "price": 14620,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727383",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-16T23:50:15.000Z"
+    },
+    {
+      "title": "스파클 생수 2LX24병 (8990원/무료배송) (8/17~)",
+      "mall": "토스",
+      "price": 8990,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106419",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-16T23:25:40.000Z"
+    },
     {
       "title": "애플워치 울트라 2세대",
       "mall": "이마트",
@@ -55,17 +110,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-16T21:26:05.000Z"
-    },
-    {
-      "title": "안동 홍로사과 2kg",
-      "mall": "톡딜",
-      "price": 13790,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727379",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T17:37:23.000Z"
     },
     {
       "title": "에텐울프 Air3 초경량 휴대용 에어펌프 2600mah",
@@ -222,28 +266,6 @@
       "date": "2026-08-16T15:15:11.000Z"
     },
     {
-      "title": "도가니탕 500g 10팩",
-      "mall": "G마켓",
-      "price": 26270,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727367",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T15:13:41.000Z"
-    },
-    {
-      "title": "베이직 긴팔티 3팩",
-      "mall": "지오다노주니어",
-      "price": 14800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727366",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T15:11:34.000Z"
-    },
-    {
       "title": "브랜드위크, 도미노피자 포장 50% 할인 (8/17~21)",
       "mall": "T멤버십",
       "price": null,
@@ -253,17 +275,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-16T15:11:22.000Z"
-    },
-    {
-      "title": "스너글 오리지널 섬유유연제 6.6L",
-      "mall": "오늘의집",
-      "price": 22968,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727365",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-16T15:10:19.000Z"
     },
     {
       "title": "일일적립, 클릭 79원, 라이브예고 2원",
@@ -561,17 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-15T01:30:52.000Z"
-    },
-    {
-      "title": "래빗 인 던전",
-      "mall": "스토브",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106390",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-15T01:21:13.000Z"
     },
     {
       "title": "Lavazza Classico Ground Coffee Blend, Medium Roast, Value Pack, 20 Ounce [$8.99/배송비 별도]",
