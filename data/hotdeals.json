@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-18T06:13:45+09:00",
+  "updatedAt": "2026-08-18T07:10:30+09:00",
   "deals": [
+    {
+      "title": "펩시제로 라임 210ml 60캔+캔쿨러",
+      "mall": "지마켓",
+      "price": 24850,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106437",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-17T21:59:14.000Z"
+    },
     {
       "title": "lossless scaling",
       "mall": "스팀",
@@ -484,17 +495,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-16T14:53:08.000Z"
-    },
-    {
-      "title": "기가바이트 RX 9070 XT [1,120,000/무료]",
-      "mall": "지마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106407",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T11:48:35.000Z"
     },
     {
       "title": "페이코 쿠폰 적용시 - 두유 23% 할인 등",
