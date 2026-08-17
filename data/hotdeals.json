@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-18T03:19:05+09:00",
+  "updatedAt": "2026-08-18T04:18:58+09:00",
   "deals": [
+    {
+      "title": "lossless scaling",
+      "mall": "스팀",
+      "price": 3900,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106436",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-17T19:17:16.000Z"
+    },
+    {
+      "title": "온누리QR 결제 PB 1+1 행사",
+      "mall": "GS25",
+      "price": 5900,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106435",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-17T18:19:41.000Z"
+    },
     {
       "title": "칠성사이다 350ml 24캔",
       "mall": "G마켓",
@@ -473,28 +495,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-16T11:48:35.000Z"
-    },
-    {
-      "title": "도루코 페이스 쿨 크러쉬 쉐이빙폼 250ml 3개",
-      "mall": "롯데온",
-      "price": 9930,
-      "cat": "생활",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106406",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T11:23:57.000Z"
-    },
-    {
-      "title": "폴딩 던전 / 무료",
-      "mall": "스토브",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106405",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T08:59:06.000Z"
     },
     {
       "title": "페이코 쿠폰 적용시 - 두유 23% 할인 등",
