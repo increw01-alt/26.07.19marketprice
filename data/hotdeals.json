@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-17T16:40:59+09:00",
+  "updatedAt": "2026-08-17T17:27:48+09:00",
   "deals": [
+    {
+      "title": "제주 흑돼지 맑은곰탕 560g 4팩",
+      "mall": "카카오",
+      "price": 17900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727469",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T08:13:42.000Z"
+    },
+    {
+      "title": "오향담은 순살족발 300g 4팩",
+      "mall": "지마켓",
+      "price": 19890,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727468",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T08:06:35.000Z"
+    },
+    {
+      "title": "1+ 냉장 한우 국거리 600g",
+      "mall": "네이버",
+      "price": 18620,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727467",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T08:05:08.000Z"
+    },
+    {
+      "title": "서울우유 고칼슘 무가당 블랙9곡두유 190ml 64팩",
+      "mall": "G마켓",
+      "price": 25420,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727466",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T08:03:29.000Z"
+    },
+    {
+      "title": "33떡볶이 춘천 국물 닭갈비 떡볶이 950g 1팩 임박할인",
+      "mall": "네이버",
+      "price": 4000,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727465",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T07:59:26.000Z"
+    },
+    {
+      "title": "오리온 다이제샌드 93g + 다이제샌드 초코스프레드 98g 각5개",
+      "mall": "11번가",
+      "price": 9710,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727464",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T07:57:12.000Z"
+    },
+    {
+      "title": "한돈 뼈없는 감자탕 600g 3팩",
+      "mall": "롯데온",
+      "price": 12850,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727463",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-17T07:51:16.000Z"
+    },
     {
       "title": "햇사과 5kg 중대과 (10-24과)",
       "mall": "SK스토아",
@@ -88,83 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-17T06:24:59.000Z"
-    },
-    {
-      "title": "켈로그 그래놀라 시리얼 900g",
-      "mall": "쿠팡",
-      "price": 8720,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727453",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T06:04:11.000Z"
-    },
-    {
-      "title": "인테로 멀티비타민앤미네랄 6개월치",
-      "mall": "네이버",
-      "price": 25570,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727452",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T06:02:06.000Z"
-    },
-    {
-      "title": "국내산 밤 100% 알토리 맛밤 50g 10봉",
-      "mall": "G마켓",
-      "price": 15080,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727451",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T06:00:45.000Z"
-    },
-    {
-      "title": "가시제거 99.9% 가시 없는 노르웨이 순살 고등어 1kg",
-      "mall": "롯데온",
-      "price": 22860,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727450",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T05:50:16.000Z"
-    },
-    {
-      "title": "빕스 오리지널 폭립 1개 + 피자2종",
-      "mall": "롯데온",
-      "price": 23520,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727449",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T05:45:25.000Z"
-    },
-    {
-      "title": "리퍼 돌체구스토 지니오 S 베이직 캡슐 커피머신",
-      "mall": "토스",
-      "price": 34500,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727448",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T05:30:15.000Z"
-    },
-    {
-      "title": "지오다노 장우산",
-      "mall": "신세계",
-      "price": 14858,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727447",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-17T05:27:54.000Z"
     },
     {
       "title": "알리)jorn p20 pro 로봇청소기 183,000",
