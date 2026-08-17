@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-17T18:27:14+09:00",
+  "updatedAt": "2026-08-17T19:18:45+09:00",
   "topics": {
     "coin": [
       {
@@ -23,7 +23,7 @@
       {
         "title": "3% 주간 하락 이후 비트코인 가격 전망, 그리고 스테이지 2 토큰의 시작점",
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10LW9rTEJ3UlBYSU9ncE9UR3NHX1NpLTVFeTIwanBqX1Q4c3dkU1JFa1ZROFlOb1RZMThUekVUd0VxQW5MLUxfVXp4bXJlMV9ud1JURTJyV2VTQlhvb1h6Ym5LeGoza2FxZnRmb2o1bGY2Tnc4VV91Wk5ZR08zcDA?oc=5",
-        "source": "financefeeds.com",
+        "source": "FinanceFeeds",
         "date": "2026-08-16T17:05:15.000Z"
       },
       {
@@ -103,6 +103,12 @@
     ],
     "kosdaq": [
       {
+        "title": "벤처 발굴해 상장까지 지원사격... IBK투증 '육성형 IPO' 통했다",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XdGczNUhVZDNiM3hPbFRia1d4R2lIVnY1N3M2Rl9UcGx5bDNMU1ZlSy1fMDhaLTJ5VXAzQWlmSEIxXzB1YVV3ZzlKOXRyWkJFZ1A0R1RMdXByZw?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-17T09:29:54.000Z"
+      },
+      {
         "title": "라온시큐어, '2026 코스닥 라이징스타' 신규 선정 : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQm5QbURVNjg1ZHVpY3l6dm9HLWpHcU9NNEZsck1zUFhWdFFuU0VUdER5WVdmM3pXalp1ZkZPdWdXMWt0bEc5TnFKWkhrYlZFaldrNmkzTW1yWTNTLXB6azB0YWloTnl1UWhsMkwyU0sxYnRqQ1o2ZlJMOVBiRXBVTVViWXRaUVk0SWNYLUJaSQ?oc=5",
         "source": "Naver Blog",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5wZDRMMDlYWkVpSEpjcy1FRFFzTUs2cFZJRWFibExUTjhPWWR6akloUjd1STh0V2QwSS1HS0tMSXBPWUROemFhMEtqeGZXdw?oc=5",
         "source": "전자신문",
         "date": "2026-08-17T01:24:28.000Z"
-      },
-      {
-        "title": "외국인 나흘새 8조 ‘컴백’…삼전닉스 사고 코스닥은 팔았다",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zeDZEODl2bWZOWWZHaDZHb3hxVnZYZmpRejg0VDFlSWFYcE85Y3NQWTVHQldyN29VTV90QlNmUUM1dmtjLWo4UzRpOHB3Q0tialZESld4NXBlYjhFSG9WY3lwS3FpQUVH?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-08-17T01:00:17.000Z"
       }
     ],
     "fx": [
@@ -185,7 +185,7 @@
       {
         "title": "[이번주 환율] 1400원선 가까워진 달러·원…수출·FOMC 회의록 주목",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1qOVl0QkcxaGlFMkFOdkhVOUVIUS1HUkdITjNWVThTQmpONk1jT3ZwMGY5U0ZtSjVIYUJZYmRad2JBRjZFVEJuOE5pWXR6NzlENllEenFuMFJPaEptZDdsLW05Z0M0MmdUNGVTVUF2ZlBMQQ?oc=5",
-        "source": "오피니언뉴스",
+        "source": "opinionnews.co.kr",
         "date": "2026-08-17T00:00:00.000Z"
       },
       {
@@ -223,7 +223,7 @@
       {
         "title": "금시세(금값)는?…'방향성 탐색 구간' 향후 흐름 '이목'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGdTBXV3RGUUZYRUZsWWZZYzZxeU1zaWhOQ2otYmRzVklUcU5Gc25nMDYyeXJ2T1ZmbVhTNW8zbUVmMndscUZiR2NoV1F1cjJZQ0lfeDRwUEdpclFSTkhENHdvOHBFODE3?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-17T00:52:20.000Z"
       },
       {
@@ -241,7 +241,7 @@
       {
         "title": "금시세(금값) 얼마?…새주장 추이는, '남은 경제지표 향방 살펴야'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uS2RrdmNzN1pxcEhOdzExREZDWkNqclRueDctcXJtNFVnV2VRdWRRUnNNQ3hZUnh4S3ZQbW81d0wweVd0WFRNS3E1SkRiQVk2TTRJMGQ1MlBPNi0zRTRfQTJEOXNqTl9j?oc=5",
-        "source": "CBC뉴스",
+        "source": "cbci.co.kr",
         "date": "2026-08-16T15:01:00.000Z"
       },
       {
@@ -305,7 +305,7 @@
       {
         "title": "[숏폼뉴스] 2026년 8월 둘째 주, 주요 경제지표",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15VElsU2Y5LVpoVm5WUHAxbVE5Q3FxbHlCeXhTYXB0WFBvRWlPZlA4T2tEaFplTFRGakszdEJOb2JKN3I2ZERjbGlvUHJZV2FhdmxKZ25YcUNaSUo4TENQYjZ0MFZsalJzYnVPRUlLVQ?oc=5",
-        "source": "kihoilbo.co.kr",
+        "source": "기호일보",
         "date": "2026-08-15T01:07:37.000Z"
       },
       {
@@ -317,13 +317,13 @@
       {
         "title": "[숏폼뉴스] 2026년 8월 첫째 주, 주요 경제지표",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ta0dGZm94cl9XREJ1eklKd21KblRoVVNVbEFCLTZ3MUV4c25mSWE0Nk0wQXI1N1c0MXVPMWlNV01MQ1M2VlAyeF9CWDNvNHM3YzdMN0FDdFpHSXJmYUpqTk43SFMzbkt0Q0oyaUJHRQ?oc=5",
-        "source": "kihoilbo.co.kr",
+        "source": "기호일보",
         "date": "2026-08-08T07:00:00.000Z"
       },
       {
         "title": "[2026년 7월 월간 주요 경제지표 변화] 7월 코스피 22% 급락…美 금리 상승에 국내 증시 직격탄",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lRTV5cEZPNVFTU2tYUFk1T1R1WTB0RDgxQ2RvNGRLdjZvdjJDekZTSDZTWG9VSzloNk9TRDk0bzl2MU5tNHlUWFYwOGxMd0tENVlRWWh2c1RBSTl4ejE5TlJIS21jSzEtLURiVWxiOA?oc=5",
-        "source": "kihoilbo.co.kr",
+        "source": "기호일보",
         "date": "2026-08-01T07:00:00.000Z"
       },
       {
@@ -347,7 +347,7 @@
       {
         "title": "[7월 둘째 주 세계경제동향 브리핑] 코스피 7%대 급락…미 기술주는 상승세 유지",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB6b3owUVVtOXJLOFFmTzEzYmRmMGRsTU4xQTRRSGV2MXRtUUlndFdSNkhqMi0tbmU5cHZBSkxrck4zRnhkVDRlSkVrdEQ4SldWT0lBMzc4bk45d25lSTBubjZVT0ZMdTV1NElfNFV5MA?oc=5",
-        "source": "kihoilbo.co.kr",
+        "source": "기호일보",
         "date": "2026-07-11T07:00:00.000Z"
       }
     ],
@@ -453,6 +453,12 @@
     ],
     "lotto": [
       {
+        "title": "토요일 로또 판매마감시간 한눈에 보는 정리 정리",
+        "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxQNm9JamgtZmxUS0NEbDlNVVVVdnM5MkRHRGZQRUJGVVp4WXFwTGdWbGhibF9tZmdpWUdFVnNXUTA1eTFBWmFsUVhvQTM2ZDZYWU1nTS1tbkZwVy03SktqLU4wRzVhX1VETzNiMmtMTHpaYlVGTVZQVTVGR3pZSHFueVQwaERxeW0wOE0tcUVhem1neEtzQUZEYzJjNUpLNWRmaG1UT0FyUWxVbmM4ZnhDOWRZeHZBa0luVmtZS01JUXFwNDJ6RHJPZ0V2SmsyZGtTaDRDS2xmZHpFTjUtNGx6a3RaN3dfZjIwM1FWR3Vhc1l4am1iQ3ZBY1UxaHAyREt5VmtfM3NtdkFkWFY1cFR5clFxTUk3TlRCeVh4TjVLNTRsUWNUQkVSWjlydEFZOW9XLVR1QTlzYXdrT3FHXzhhcl9EQ2lhb0lFU1MzSVdQN3FKTGRXVVE?oc=5",
+        "source": "ilmondodegliarchivi.org",
+        "date": "2026-08-17T03:02:24.000Z"
+      },
+      {
         "title": "1237회 로또판매·추첨시간, 1236회 1등당첨지역 공개",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA2dG8xYW5xUVZac2xjYnJfb3BINDVLdmdqdm1vTmc1WHRGTWFpQ1JVUjlBMS1WeWRXeVV5emREdEdfTlZtcFQyS0taMEJpZG9sLUNPOEIxRFVYSzZEeGlPY3RvMFVlcHhUaVhQTU53?oc=5",
         "source": "gukjenews.com",
@@ -479,7 +485,7 @@
       {
         "title": "1237회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBdElLeE53YnpBU3dHOU5QZldSaGZxa1NIdTRrVmJlY01HaWpiZEMyQlhGX0R1ZjZQUEFnVHY1enFOLVlzVlc2ZlZhTWhyN2diSDBVVF9fMVRFWjlOenFhUlk5SmhDaDdIalQzUFFTR0sxZw?oc=5",
-        "source": "topstarnews.net",
+        "source": "톱스타뉴스",
         "date": "2026-08-15T12:44:46.000Z"
       },
       {
@@ -491,14 +497,8 @@
       {
         "title": "제1237회 로또 1등 쏟아졌다…23명, 각 12억1천만원씩",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9NY3I4TGE1Mm4zM2tTbHpVYjV0cTBXOFprWVJKTW5aQ3ExQ2dwcE9keUlGMTE2cDNNRXdjekZCRlJOZFpRZGF6WFJocnlhVkRGbnBfeVlkMTVZdWc?oc=5",
-        "source": "kyeonggi.com",
+        "source": "경기일보",
         "date": "2026-08-15T12:00:22.000Z"
-      },
-      {
-        "title": "[로또당첨번호조회] 1237회 로또 1등 당첨지역·판매점·당첨금 조회...로또 판매·추첨시간?",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5URjlLN1p3enQ3RXJVa0ZzVm85Zkx1dGN4RVJqWTk4bDN1MFFtT040R1hsdDR5TTQtRnUzVjFoZUNybTFjWGkzY21CdHo4NGtxR25KbzRmeko3TUFOeGxkZlIwa1V5S0NNRERTT0tKM2M?oc=5",
-        "source": "lecturernews.com",
-        "date": "2026-08-15T11:41:39.000Z"
       }
     ]
   }
