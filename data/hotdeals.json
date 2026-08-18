@@ -1,6 +1,182 @@
 {
-  "updatedAt": "2026-08-18T23:20:25+09:00",
+  "updatedAt": "2026-08-19T00:18:55+09:00",
   "deals": [
+    {
+      "title": "일일적립, 클릭 28원, 라이브예고 12원",
+      "mall": "네이버페이",
+      "price": 12,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106463",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T15:14:21.000Z"
+    },
+    {
+      "title": "국내산 모듬쌈채소 4~5종 랜덤 1kg 보냉포장",
+      "mall": "11번가",
+      "price": 10090,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727763",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:13:41.000Z"
+    },
+    {
+      "title": "린넨 밴딩 데님 반바지",
+      "mall": "컨셉원",
+      "price": 23000,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727762",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:11:47.000Z"
+    },
+    {
+      "title": "인문도서, 추리와 스릴러 도서 등 다양",
+      "mall": "옥션",
+      "price": 3900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727761",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:10:59.000Z"
+    },
+    {
+      "title": "아이피타임 AX3000Q 유무선 공유기(46,768/무배)",
+      "mall": "오늘의집",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727760",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:10:56.000Z"
+    },
+    {
+      "title": "칠성사이다 제로 유자 355ml 24개 x 2박스 총 48개",
+      "mall": "오늘의집",
+      "price": 33372,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727759",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:10:18.000Z"
+    },
+    {
+      "title": "시그니앙75 선셋 70매X20팩 캡형물티슈",
+      "mall": "오늘의집",
+      "price": 15930,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727758",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:08:06.000Z"
+    },
+    {
+      "title": "노르웨이 항공직송 슈페리어급 딥스킨 생연어 1kg",
+      "mall": "오늘의집",
+      "price": 34425,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727757",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T15:02:40.000Z"
+    },
+    {
+      "title": "핫식스 더킹 제로 24캔 + 퍼플 24캔 + 증정 6캔 27000원",
+      "mall": "G마켓",
+      "price": 27000,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106462",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T14:28:20.000Z"
+    },
+    {
+      "title": "레쓰비 마일드 175ml 60캔",
+      "mall": "지마켓",
+      "price": 15000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727756",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T14:01:24.000Z"
+    },
+    {
+      "title": "자연별곡 갈비탕 대용량 1kg 2팩",
+      "mall": "지마켓",
+      "price": 19850,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727755",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T14:01:17.000Z"
+    },
+    {
+      "title": "노랑 곱빼기 뼈없는 감자탕 600g 5개",
+      "mall": "네이버",
+      "price": 20400,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727754",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T14:01:16.000Z"
+    },
+    {
+      "title": "익스트림 4중 기능성 올인원 포맨 1개월분",
+      "mall": "공홈",
+      "price": 29500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727753",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T13:44:28.000Z"
+    },
+    {
+      "title": "핫식스 오리지널 250ml 30캔+핫식스 제로 250ml 30캔",
+      "mall": "지마켓",
+      "price": 23200,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727752",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T13:39:21.000Z"
+    },
+    {
+      "title": "정원 대용량 메추리알 장조림 1.7kg",
+      "mall": "네이버",
+      "price": 8920,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727751",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T13:12:12.000Z"
+    },
+    {
+      "title": "자연산 해풍에 말린 구룡포 반건조 오징어 10미",
+      "mall": "롯데온",
+      "price": 18910,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727749",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T13:11:21.000Z"
+    },
     {
       "title": "클라우드 논알콜릭 350ml 24캔 2박스",
       "mall": "지마켓",
@@ -22,6 +198,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-18T12:46:39.000Z"
+    },
+    {
+      "title": "남자 심리스 팬티 세트 3장",
+      "mall": "지마켓",
+      "price": 9110,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727748",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T12:31:09.000Z"
     },
     {
       "title": "펩시제로 페트병 500ml 40병 24400원 무배",
@@ -341,28 +528,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-17T18:19:41.000Z"
-    },
-    {
-      "title": "칠성사이다 350ml 24캔",
-      "mall": "G마켓",
-      "price": 13200,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106434",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-17T17:57:51.000Z"
-    },
-    {
-      "title": "펩시제로 라임 1.5L 12펫 / (최종가 13,760￦) 그 외 다양",
-      "mall": "G마켓",
-      "price": null,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106433",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-17T16:08:43.000Z"
     },
     {
       "title": "8월 18일 네이버페이 99원 + 랜덤 포인트",
