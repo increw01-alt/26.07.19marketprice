@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-18T14:17:50+09:00",
+  "updatedAt": "2026-08-18T15:19:54+09:00",
   "deals": [
+    {
+      "title": "그노시아 30% 할인",
+      "mall": "스팀 외",
+      "price": 18200,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106449",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T06:19:12.000Z"
+    },
+    {
+      "title": "유한양행 유산균 모음딜 패밀리세일",
+      "mall": "카카오",
+      "price": 27000,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727654",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T06:07:04.000Z"
+    },
+    {
+      "title": "EG ν 건담 &amp;핀 판넬 네온 그린 페이퍼 리스 / 34,800원",
+      "mall": "반다이몰",
+      "price": 34800,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106448",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T06:05:30.000Z"
+    },
+    {
+      "title": "SONY 휴대용 블루투스 스피커 ULR FIELD 1",
+      "mall": "하이마트몰",
+      "price": 105650,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727653",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T06:03:57.000Z"
+    },
+    {
+      "title": "필터 샤워기 본품 1개 + 필터 6개",
+      "mall": "토스",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727652",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T06:01:15.000Z"
+    },
+    {
+      "title": "매트로시티 호보백 미디움 외 할인",
+      "mall": "자사몰",
+      "price": null,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727651",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T05:55:22.000Z"
+    },
+    {
+      "title": "켈로그 시리얼 대용량 10,900원/무료배송",
+      "mall": "GSSHOP",
+      "price": 10900,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/79020",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-18T05:30:11.000Z"
+    },
+    {
+      "title": "올반 왕교자 만두 10봉",
+      "mall": "롯데온",
+      "price": 13990,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106447",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T05:27:49.000Z"
+    },
     {
       "title": "이츠웰 냉동 골드망고 1Kg 2개",
       "mall": "컬리N마트",
@@ -121,50 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-18T04:44:53.000Z"
-    },
-    {
-      "title": "1+1 QCY C50I 무선 블루투스 이어폰 노이즈캔슬링",
-      "mall": "G마켓",
-      "price": 54320,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727639",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-18T04:42:58.000Z"
-    },
-    {
-      "title": "펩시제로 48캔 핫딜 놓친 분들에게. 20,700원에 구매하는 방법.",
-      "mall": "G마켓",
-      "price": 20700,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727638",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-18T04:26:22.000Z"
-    },
-    {
-      "title": "LG전자 디오스 오브제컬렉션 광파 오븐 방문설치 역대가",
-      "mall": "쿠팡",
-      "price": 593470,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727637",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-18T04:24:44.000Z"
-    },
-    {
-      "title": "핫식스 더킹 제로 355ml 24캔+핫식스 퍼플 355ml 24캔+핫식스 오리지널 6캔",
-      "mall": "지마켓",
-      "price": 34900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727636",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-18T04:18:01.000Z"
     },
     {
       "title": "오리코 맥세이프거치형 SSD 128GB (20.9달러)",
@@ -497,39 +541,6 @@
       "date": "2026-08-17T00:40:40.000Z"
     },
     {
-      "title": "스파클 생수 2LX24병 (8990원/무료배송) (8/17~)",
-      "mall": "토스",
-      "price": 8990,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106419",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T23:25:40.000Z"
-    },
-    {
-      "title": "애플워치 울트라 2세대",
-      "mall": "이마트",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106418",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T22:24:00.000Z"
-    },
-    {
-      "title": "도라에몽 진구의 목장이야기 대자연의 왕국과 모두의 집.11800원",
-      "mall": "한국닌텐도",
-      "price": 11800,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106417",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-16T21:52:00.000Z"
-    },
-    {
       "title": "BIWIN UD150 USB 3.0 플래시 드라이브 128GB 최종가 5.24불",
       "mall": "ALIEXPRESS",
       "price": null,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-14T05:11:37.000Z"
-    },
-    {
-      "title": "광동 비타500 아연 180ml x 40병, 광동 비타500 제로 100ml x 100병",
-      "mall": "네이버",
-      "price": null,
-      "cat": "건강",
-      "link": "https://naver.me/GUTNembs",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-14T01:36:29.000Z"
     }
   ]
 }
