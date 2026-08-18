@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-19T01:15:59+09:00",
+  "updatedAt": "2026-08-19T02:15:14+09:00",
   "deals": [
+    {
+      "title": "네이버페이 현장 결제시 50% 페이백 (8/18~31)",
+      "mall": "매머드커피",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106466",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T17:03:17.000Z"
+    },
+    {
+      "title": "이번주 T데이 혜택 (8/19)",
+      "mall": "T멤버십",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106465",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-18T16:59:42.000Z"
+    },
+    {
+      "title": "머드솔트 시어서커 트러커 자켓 블랙, 베이지 2종 택1",
+      "mall": "무신사",
+      "price": 35900,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727778",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-18T16:16:10.000Z"
+    },
     {
       "title": "지이크 F/W 이태리 까노니코 수트 2종 택 1",
       "mall": "롯데온",
@@ -187,17 +220,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-18T15:14:21.000Z"
-    },
-    {
-      "title": "국내산 모듬쌈채소 4~5종 랜덤 1kg 보냉포장",
-      "mall": "11번가",
-      "price": 10090,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=727763",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-18T15:13:41.000Z"
     },
     {
       "title": "핫식스 더킹 제로 24캔 + 퍼플 24캔 + 증정 6캔 27000원",
@@ -517,28 +539,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-17T23:20:11.000Z"
-    },
-    {
-      "title": "펩시제로 라임 210ml 60캔+캔쿨러",
-      "mall": "지마켓",
-      "price": 24850,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106437",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-17T21:59:14.000Z"
-    },
-    {
-      "title": "lossless scaling",
-      "mall": "스팀",
-      "price": 3900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106436",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-17T19:17:16.000Z"
     },
     {
       "title": "8월 18일 네이버페이 99원 + 랜덤 포인트",
