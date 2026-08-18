@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:15:25+09:00",
+  "updatedAt": "2026-08-18T20:13:29+09:00",
   "topics": {
     "coin": [
       {
@@ -47,11 +47,17 @@
       {
         "title": "애플이 4조 달러 규모로 iOS 제한 완화, 인앱 비트코인 및 암호화폐 결제 금지 해제",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeUlJRkhkWWQ4bEdYaFFVU244QlIyRk5aaTdjd0FBUEZWSDVRQmd1ejN6b3RLTnNIVnRuTlFFUGxuRERJS1h2S3pZNE0xZHVJdWY2VUhhb3hYUDdHUVJSTzhZZGNDZS1NbnpXbExnMFdubUk4YzdYNU1WQ1ZwOTlacE5nOHpzUFlpT2FZVA?oc=5",
-        "source": "contents.premium.naver.com",
+        "source": "네이버 프리미엄콘텐츠",
         "date": "2026-08-15T03:35:00.000Z"
       }
     ],
     "stock": [
+      {
+        "title": "‘이젠 진짜 국장 떠날 판’ 오전엔 급등·오후엔 급락…정신없는 코스피, 결국 6800까지 [투자360]",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9NQ3RTSDczeFZGb1RmNlByRlpQTnRReFdNWlpoYjVFUzdWNXdXbmdKOWtVNUQxQmZrbWZaVC0tV3NhU0JKMDdDZDBXcUtLTGlwV1FLMG9R?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-08-18T09:40:00.000Z"
+      },
       {
         "title": "반등 이어가던 코스피, 美금리 불안에 털썩 … 장중 5% 널뛰기",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE96ZXg3RFhEdjV4X1B4NVN5X25DNlpyM2l3eTBvSnFMSTdkTkMxZHNWZDJwZGE2Si10dVNXM01YalpTMmJ1RGVhcklXdnQ0bld5VFE?oc=5",
@@ -59,15 +65,9 @@
         "date": "2026-08-18T08:46:09.000Z"
       },
       {
-        "title": "'장중 7,200 돌파' 코스피, 기관 매도 폭탄에 6,860선 후퇴… 5일 연속 상승 마감",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0MUMtVjJySS0xYzNWSnZpakxCUzV1dlJVNlIyTUMzTjJPUTh2RjVQYUFnYWluZmlPYUxKbERodUNEbFF1UExXbE51RWlxU21kd1hHT2V1d3JzMURNRlhuNQ?oc=5",
-        "source": "theconnectmoney.com",
-        "date": "2026-08-18T08:39:00.000Z"
-      },
-      {
         "title": "코스피, 장중 7200 돌파 후 급락…6800대로 후퇴",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LVVNNNlR5bUo5cENXbV9fYjVVLTVDaXBUbndGVGZGbGtudUVlS0psdEo2WWthTHgwY1ZpWFlSdjBicEROSnJxNm5aTkJwQUNQVXZGU3V1T21MUFRlME9JeURqTzJlYlZsOGVXLTFCc0w?oc=5",
-        "source": "koreareport.co.kr",
+        "source": "코리아리포트",
         "date": "2026-08-18T08:24:57.000Z"
       },
       {
@@ -105,7 +105,7 @@
       {
         "title": "코스피·코스닥, 엿새 만에 하락 전환...\"미 국채금리 영향\"",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5UODc4NDhOWDlQbEFDLUNLOVVvQWlNSzlZVzBsLURKNzJoT0FOX3l3WkNTRTRfNTZyMVZjUmc3Q3c4N01HUU1sS3o2NExndmdkSnRuMXh0NE5jX2JHTFE?oc=5",
-        "source": "ytn.co.kr",
+        "source": "YTN",
         "date": "2026-08-18T09:33:00.000Z"
       },
       {
@@ -127,6 +127,12 @@
         "date": "2026-08-18T08:53:47.000Z"
       },
       {
+        "title": "[취재수첩] 높아진 코스닥 문턱의 부작용",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAtRWUzV1QxakpubV9pOUZOWlc5aGRlODhteW00Tm14LTZnWlJ0bFhWcVJ1dFVvZ0kwOG4waWZlbVBqREIyOTRCUFVWd0hlRjNTbDJoUWk1RF81dw?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-18T08:46:38.000Z"
+      },
+      {
         "title": "[마감시황] 유가·국채금리 상승에 꺾인 코스피...코스닥도 3.52% 급락",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5naG9aYkJKRTczRjNkSWpaeWRITXVTR0l1ZmlmcE9JOUxmX0xmMHNaMmdZVTJPUEtjX1F4MlhVV0tuX3JPWlktT19nWGpBQmlyTWhPcDhqMGYtRFZlWjIxX3ZXOXhJMWpTaHpJaVJR0gFyQVVfeXFMUGstWEJJd2pVYUdsRG1IN2ljeTRNTDdjRVYweEFQZUw2N2ZSVlV4WTE5OVBKdnFkLXA4NW5TU0FQY2poYXFaN1FmM01UZ3dWQ2ZRWGhsTnBKT0dRbjdpMTB5b1BLUkRZbThZQ041VF9EMlFn?oc=5",
         "source": "폴리뉴스 Polinews",
@@ -143,15 +149,21 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vaTNocml1NnFwUmJZUy1oYlZCTHNPbWlvRUx0S1NOVkx6bmdEWEpjcnBxR2RYZDQ5Y1hTVFBqUVBPZnk3TlA4azhSVGFPWUE?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-18T08:35:00.000Z"
-      },
-      {
-        "title": "코스피 6,869.83 코스닥 834.20",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5HSVVzTWtLNWpKc0lTeFI0N00xVy1NRlkycll1aHE2dWd1MkE5aUdBQ1NmTjVZc3BwQmwtSUxMNWdyTXpadm1Bbm5CUy1EcFU?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-18T08:33:14.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "美 경기 둔화에 금리 인상 기대감 후퇴...원·달러 환율, 10개월 만에 '최저치'",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90Q2JQNkh3aEY2NjNpeUdkVnVSTzZXR0MwYWNDdm9wNEVRMm93V1BxdTRTQUNtUnpOSVQ0VGs5b3N1amxrMUEzRVVsVU54LUkwTm1jcUxTTXhrb0hIdXVfck1oTEc?oc=5",
+        "source": "베타뉴스",
+        "date": "2026-08-18T10:49:00.000Z"
+      },
+      {
+        "title": "연준 금리인상 기대 후퇴…환율 10개월 만에 최저",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPQm4xa0V6eXdEcV82UW5CUktzSWhxWWRnVExyNXRlcUlEWUp6akxEenBfcTMxaHA2WDZUSmRjRTQ0VWVRZzBYYmtpVkVnWjRzU3lyUFl1U0tfbzNJWkdFT29iNkRRVVJFUWlSRnU1MHk3RDR3aFNHUmsyQ2tjWGdsY0tOcC13bTNwZUVSMS1n?oc=5",
+        "source": "국제신문",
+        "date": "2026-08-18T10:33:00.000Z"
+      },
       {
         "title": "美 금리 동결 기대에 원·달러 환율 1410원대...10개월 만에 최저",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxZDNSZmtKekxKSmhxOGg2NjVUaG5VYlJpaTU0NDFHMkpPaHh6VkUxY2E4Yjhlek05aVBxeTBqQ3YxUnlLc21yM1BFTGtnQnhETktaNk9JaFhpVXJ2QVlFRldUcy1qVUI5Zzdz0gFvQVVfeXFMTlVUSDdZcGlhU2szQmdoaEhWRF8yXzIwWlZIUnRTOXhkNzhsNXhpemNzcks2cmFxTkZmOEw3MktKTG5JT2FUaF9zQ21kdUVmRmlkeVVDVDRHOTFnMHV3YXl5RHMxcy1waTZGR2NBVWtR?oc=5",
@@ -167,7 +179,7 @@
       {
         "title": "9월 미국 금리 동결 기대감에…원·달러 환율, 10개월 만에 최저",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4VUNhdHFub053R1BsOWRGalhQN2c0c2V4VHV5cnNEUEZobDAtUjdqU0ZVYzcxS3JlNWNZNmZ4b0ozWWpOZVpGcUU2MnFzcFBGQmdV?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-18T08:34:00.000Z"
       },
       {
@@ -179,29 +191,23 @@
       {
         "title": "원화 강세에 한은 셈법 복잡…원·달러 환율 하락 마감 [김혜란의 FX]",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE13ZF80TzVKSE1lNFhfV2x5TEF5UU8zNjRWRFl0QzBPREdnWnlyUXExdElzX0hUNFRHYUUxbk9KWmJSalN3dHFnZFNfTXk2UzBRZ3NV?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-18T08:14:00.000Z"
       },
       {
         "title": "원·달러 환율 10개월 만 '최저'…'美 금리 동결' 기대감 커져",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lVXp0MUJaa0h5b3VRTUF1ekZ3R1ZFb0d3Z2FsSV90VkFMWnRhTlNlU3l0MHc0WHJXSGR4c0d5cWJxMjRWckpLaGF4UXlzbm9SVnRB?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-18T07:44:00.000Z"
-      },
-      {
-        "title": "원/달러 환율 10개월 만에 최저…1300원대 열리나",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBYaU5GXzNwQ2FNSndKSEdCQkMyN2JLajdJaVJrcFlselZBOWdTOFZjLVJIVzlJRWRZME8zV1ZkTXpuS2RZZGJRVnN3TnpacDlxMXVR?oc=5",
-        "source": "네이트",
-        "date": "2026-08-18T07:38:00.000Z"
-      },
-      {
-        "title": "원·달러 환율, 1.2원 내린 1411.8원",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9GQ1BhX01walU0T1B4dEZYUU5abTU2ZjhoTEhYQ2ktUzlRSmViaTNFd3NKcXQtYWxlSzZxLVNYTnZDMGd0UlVrc1pXTlJlWjZJY1NR?oc=5",
-        "source": "네이트",
-        "date": "2026-08-18T07:23:00.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "오늘 금 시세(8월 18일 오후): 국내 금값 급등, 세계 금값 하락.",
+        "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2NWaUV5X0dwcDRFQ1R5R2hVMGJmd1AwRC16MWFKVHkwejlZeEN3SGwtRjBqNW9jdlZkaEE4YTFkMzYyQXVoaEw5NlVELXlvZTJnMkowZ1pDMk1Wc2oxdlAzbUFXOGhtdDNxM3BqejNsZHJ6MHVRVXVFOGk0WmNJV2ZTUXFVS1BfLUN6WTlxdWxFSGZWeUsxOHdjVGRfdw?oc=5",
+        "source": "vietnam.vn",
+        "date": "2026-08-18T10:15:53.000Z"
+      },
       {
         "title": "다시 고개 드는 금값 [포토]",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1US3pHdGlIWk44SlJzWjdIRkZLdDcwZGFrRmhvZkRBc0o2aGdjaWNNUy1YQ3Q1LTVrVVZMT3pWYzFhaVNZTEpENVdSRmo5aTBrZ0E0VA?oc=5",
@@ -223,8 +229,14 @@
       {
         "title": "[금 시세] 국제금 하락 흐름… 중동 긴장·장기금리 급등이 변수",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ZLUE5NUo1eDltN2MwQU5DQUxFMHNLOUN6RGV5ZlhDNjF6WVVfN1g2a2xVS0Q0eExJUjVNSnVMcDE0YXFTRUFka083SGUwX0tVZ1hndjRrbXREY0xLV09wMXgtbURZRm9idE5wNQ?oc=5",
-        "source": "센머니",
+        "source": "senmoney.co.kr",
         "date": "2026-08-18T03:00:41.000Z"
+      },
+      {
+        "title": "[오늘의 금값시세] 8월 18일 금시세(순금·24k)는?",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5KQ29YOHh0YktwQkdjVVkwZjVrVUU4b2c2eE1KSjdEV21sUU52dkhtOTdQTUJ3b0NTcHpkMXJJY1NNRmlhbU1WcFNYdEo3RkhEcE55S1B6Um9hVHVqY2xlSmpQSnRsMUJ2eFE?oc=5",
+        "source": "금강일보",
+        "date": "2026-08-18T02:06:52.000Z"
       },
       {
         "title": "[오늘의 금시세] 순금 한 돈 88만1000원…국제 금값도 3거래일째 상승",
@@ -237,18 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE95YzVLYTcyd3NYWnZIdjRYV1lPUzVadl96MTJaTk1kNXBsMjVmSUpUai1HNVRnUVRFOV9pcGNlXzlUMGV6NTVBdC1KTkxpRFpoV3FNbHJLNlJxRGxQeTFSbVAxWUo?oc=5",
         "source": "ppss.kr",
         "date": "2026-08-18T01:00:00.000Z"
-      },
-      {
-        "title": "금시세(금값) 8월 18일 얼마",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iZXBDU2MxSUFRd3FtVWdyRHNISnBtZ3dURHNpYkczQmVtUXFFLXFyYzFCYTBiMmVZQkNjbUZRVFJVdDJCRkdIdUxxX01JRU0tN2N2SzRvc2djOE9CbTR5MkVyVnZROFVH?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-08-18T00:59:54.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값)는?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE85SklHOEJic0ZRUklMeDM2cUJxWjA4NEkyZGNGS01LcmF2TGJETmNGQWJUX1diTjlUc1Zvbmx0VlFxSlRuRDlEaGpJQ09ZYko4WlN1dG9BZzJ6RWJ6QTZGSkkzczFiQVp2?oc=5",
-        "source": "키즈맘",
-        "date": "2026-08-18T00:56:48.000Z"
       }
     ],
     "energy": [
@@ -268,7 +268,7 @@
         "title": "[원자재 시황] 미국·이란 충돌에 WTI 70달러선 회복",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBFWEMwcVJnX2VFSFJIVGlfeVhhLVhiREJxaTBvcFI4MlVjRm4xMDBfeHZraXhZTnpWNVlYT3dNTFRWU0hscDlHblhWbEpyZXU1eVhGUUpkZ0xENktrb1paeU5rYVNjeDEx?oc=5",
         "source": "ebn.co.kr",
-        "date": "2026-06-29T23:22:04.000Z"
+        "date": "2026-06-30T07:00:00.000Z"
       },
       {
         "title": "국제유가 3~4% 급락...이란 프리미엄 사라져",
@@ -409,16 +409,16 @@
         "date": "2026-08-18T10:02:12.000Z"
       },
       {
-        "title": "\"아파트는 꿈도 못 꿔\"…5조원 뭉칫돈 쏟아진 '이곳', 강북이 심상치 않다",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mV0ZCRExGdzBXeGJLVndoUXhTWmRSamZiZ09YZHBWYUQzcG95cXEyYTFWdGlXWGROVXhNdWdMMWhFWmVZM29sb2xjSGFHZmg4M1Nj?oc=5",
-        "source": "네이트",
-        "date": "2026-08-18T10:01:00.000Z"
-      },
-      {
         "title": "부동산 불장에 서울 빌라도 한몫…올해 매매가 상승률 18년 만에 최고",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjd1pjNV81MDBoT1JjbXU0eG45bUhtbjBTSVdOc1BrYUtOYUFmb3FocHhSa3NwTG8xZUlEVUJ6b2FaZVA2U1lLRHpPMVNrZU5zdHI1czcxWFRhck5mdTFqM252Z1cwY2VO?oc=5",
         "source": "한겨레",
-        "date": "2026-08-18T08:57:00.000Z"
+        "date": "2026-08-18T10:02:00.000Z"
+      },
+      {
+        "title": "\"아파트는 꿈도 못 꿔\"…5조원 뭉칫돈 쏟아진 '이곳', 강북이 심상치 않다",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5mV0ZCRExGdzBXeGJLVndoUXhTWmRSamZiZ09YZHBWYUQzcG95cXEyYTFWdGlXWGROVXhNdWdMMWhFWmVZM29sb2xjSGFHZmg4M1Nj?oc=5",
+        "source": "news.nate.com",
+        "date": "2026-08-18T10:01:00.000Z"
       },
       {
         "title": "‘아무리 올라도 그렇지’…방1·욕실1, 20년된 초소형APT ‘11.5억’",
@@ -433,6 +433,12 @@
         "date": "2026-08-18T07:17:15.000Z"
       },
       {
+        "title": "강남 흔들, 강북 들썩…\"20억 이하 ‘덜 똘똘’ 한 채로\"",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFByWk9TRElCY2xiYTY5S2xSbWNZSnFaZFZDRlYybHZESFNvY1pTSGpvaTRVdVFuZ1dsSlQ1a0M2bU9WdmZhN0RCVFZXRE5TeEE?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-18T06:55:07.000Z"
+      },
+      {
         "title": "“아파트 막으니 어쩔수 있나” 서울 빌라 거래금액 5조원…5년만 최대",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Nbll2M2tsemU0ZFhrN256STY2V3AwQU5lNjZoSEhhNVhxa25XVWtMT2ZKNDlQb0JqNEtXbHRObTNsMVp2NTlJSXotWWxxdUU?oc=5",
         "source": "v.daum.net",
@@ -441,14 +447,8 @@
       {
         "title": "\"반년 만에 6억 뛰었다\"…동탄, 집값 상승률 전국 최고치",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uQTBYa2p2MTh2QjFtdmdGb3VHV3pNZUR5LWs5elJIWnJyTVlkNTJ3QzBCaVJkbDkySTFyc3ZLd1U0azJnRXNlMTdJWUQ5ck1KUU1J?oc=5",
-        "source": "네이트",
+        "source": "news.nate.com",
         "date": "2026-08-18T04:36:00.000Z"
-      },
-      {
-        "title": "서울 아파트 못사니 빌라로…5년 만에 최고 수준",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5sVnlsamlRZ1FPUzhHQmpRYk9UVk1Ua3hmU0FrSHJDaFNaVlREc0x2SnBwYmFyWnQ2am5nYkR4MTNJc2ZaN0FKSnBKNEFycXM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-18T02:17:38.000Z"
       }
     ],
     "lotto": [
@@ -473,7 +473,7 @@
       {
         "title": "로또 1237회 당첨지역 어디길래…1등 23명 배출, 같은 판매점서 2명도 나왔다",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MdVJodldEV1JrekozRHJMamYxZzg3cDA4MXUtckdTdWR2RXMzclRyektvOEotM0JXZGhDOGtBSUdzQ29GakhXNVZiMDFTT1FMOERmMVA2TERlVldncFF3OF91U2ItdE5CZWVsLW05c0V5MjA?oc=5",
-        "source": "스페셜타임스",
+        "source": "specialtimes.co.kr",
         "date": "2026-08-17T15:00:00.000Z"
       },
       {
