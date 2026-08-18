@@ -1,35 +1,35 @@
 {
-  "updatedAt": "2026-08-19T00:19:05+09:00",
+  "updatedAt": "2026-08-19T01:16:09+09:00",
   "topics": {
     "coin": [
       {
         "title": "BTC, ETH, SOL 가격 뉴스: 비트코인 $64,000 돌파, 주요 암호화폐 대부분 하락",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHlDRWFJRGFzbkNkSzA4ZXpWWmJIaEhxeDdoQThnenhydTdQUE93eGJrbGlqaWdqcHUzUzFNaXg1VXhhSjkzSUZHS1JnY1FaTHd0MDBWcTlTMlBkZmZhN3VCdk1wSWhIZkRjOGxJcEdQY0p3ZWgxTHBkeEF3OUtFb3E3a3Y2azBsRzN6UE5MZ1RSZHJULTh6cDJVT2N4WWdxSmc?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-08-18T04:32:38.000Z"
       },
       {
         "title": "2026년 8월 18일 오늘 비트코인 ​​가격: 금값 상승과 유가 하락에 힘입어 64,000달러까지 급등했습니다.",
         "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPR2xnREZscTVzUDduR2FxQ2tJVVFrMlEtWmlTNVdoalJlY0FveDhMdVRTSU0xLUxIWVZzUnJaaGh6TENDQXRta1BocWZYQUQ1N1M5U3VxdUtSRzJ1X05Xb0otbzBJRVAyeE5nTHVxLTRTS2lsQXZvMVhzcWY2SFRXUVdWLWNfZkVGdnVvN01EYnBNQjNodFJHTDkzZVdNRHpCNTQ4Q2JBZ3k?oc=5",
-        "source": "Vietnam.vn",
+        "source": "vietnam.vn",
         "date": "2026-08-18T01:16:31.000Z"
       },
       {
         "title": "비트코인의 최대 보유자들인 스트래티지와 메타플래닛은 가격이 아닌 수학에 베팅하고 있다",
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUVBvb1ktekxVX0xtSVFiMWNOQmdWSTBqcUI5eW01ZkdmVGFTdWUzc0N4dVA5cUJxWVR0Z3pELXJGR1d5OTMwV0ZJMlp1UlBuTDVZWE9IVFFFYi1PVm1oSS16alVUYmEzdG5EbzJWSE0yRVJkX2l2M3NIcjcyU0JxQ2JFUmtzTXVLUjFkaWFLWFQzYmlnTXJRZDNVQ2ZwQjdsUUhkWDFMTTVkQVJ1a0d0dTBPUy1jUm41b1k2TmtRWFJRT0JwM3g1bw?oc=5",
-        "source": "coindesk.com",
+        "source": "CoinDesk",
         "date": "2026-08-17T11:36:43.000Z"
       },
       {
         "title": "2026년 8월 17일 오늘 비트코인 ​​가격: 비트코인이 63,000달러 아래로 떨어졌습니다.",
         "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVFGa1hGczZBTHIwZzQ5T1ljWXQ0WlJVcFhZNmNtaUx5SGhOUzdyQXFwelRmNmZ2RERyaDJFeE5Md3lyOURrV0dJbFF5dUl0c3lyMjBMRW9zV1FteDBtSkpHcC1Vc05VMHpOTGpfXzVsRDl6T3ZQVU5YemdJcUx6UkpCWF9jOUhkc2JHdw?oc=5",
-        "source": "Vietnam.vn",
+        "source": "vietnam.vn",
         "date": "2026-08-17T05:52:23.000Z"
       },
       {
         "title": "2026년 8월 16일 오늘 비트코인 ​​가격: 알트코인은 '거의 죽었고', 비트코인은 바닥을 칠 것 같다.",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOEptVHRQekphMll6eHZIMWM2czdUdzVhVTRMdjJtekZ1d181LXBfS1AxSzkyUGdqZnNHWTZEeHh5d3JIWFdiNGlmSmdoNDRZNEdIM3ZfYkdFb2Jpb2RTT2o0elI2b0lESF84X2g1c3lrZl9leGtXaDhiZmRQWHlkbjJVemFSQ210aUF5N0JscnBsY3p3WU1kNGNIWkZpMkgzU0E?oc=5",
-        "source": "Vietnam.vn",
+        "source": "vietnam.vn",
         "date": "2026-08-17T03:21:10.000Z"
       },
       {
@@ -57,6 +57,18 @@
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9WODRtSWkwWHZyVlVPM2lQU3Jla1Z5cFEwS1Nvenk0aXJkQVlKVFVLUWVWd1UyNERESmE5dnd0c0lKX19nY0p6VUNQM3JKTHI0RlM4WWdvakVlOHJRY3JZOG04bXIzeTVRc2NRSjVrS0g5bDTSAXdBVV95cUxQS1NKNzdFV0lrdXRsVEx1bElwdTdONkFjU1N1X0c2YTJxTGhCU3RiZUc5ZDNQVTA5TUhtX3pPSmh1WlF2bkxsVkNFUDNUWmFXYU15T2pGQWJtQ2VlZEZsbU9XaGNTUHNSQlBtbjNkVFFRZFVDUFFmaw?oc=5",
         "source": "핀포인트뉴스",
         "date": "2026-08-18T11:22:35.000Z"
+      },
+      {
+        "title": "코스피 장중 7200 돌파후 상승분 반납 '6800대선 마감'",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE12NTMyLUowYzVTMGdPZEFkMWRYRTV4Tkx3WG55YmNCSzRyamZ0U3EyQ3hhRHhGMjJhbkYzNG9PRXFuamFidk9sZDg4RnJILWhxZjREUEdIcS1kcnJENjV6WkhZbkNkeVh4NVNTSQ?oc=5",
+        "source": "ER 이코노믹리뷰",
+        "date": "2026-08-18T09:49:06.000Z"
+      },
+      {
+        "title": "'19년 만의 최고' 美 30년물 금리 부담에 코스피 6800선 흔들",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5oclphZjcxQ3BHS2pLN2tYMFdzaUhhTmV6OXVLdVBMN0tsbXk1WkVWSVM2WlY4dnRwSUVEc0lJaWI0Yk1EamlWQzdYWXZyV3RiLTBORzdIeDRRMm9p?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-18T09:46:00.000Z"
       },
       {
         "title": "‘이젠 진짜 국장 떠날 판’ 오전엔 급등·오후엔 급락…정신없는 코스피, 결국 6800까지 [투자360]",
@@ -87,18 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB0MUMtVjJySS0xYzNWSnZpakxCUzV1dlJVNlIyTUMzTjJPUTh2RjVQYUFnYWluZmlPYUxKbERodUNEbFF1UExXbE51RWlxU21kd1hHT2V1d3JzMURNRlhuNQ?oc=5",
         "source": "theconnectmoney.com",
         "date": "2026-08-18T08:39:00.000Z"
-      },
-      {
-        "title": "‘롤러코스피’에 투자전략 바꾼 개미…美 대표지수 ETF·커버드콜 담았다",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1RS3Rrb2NfT21OejJLYi1RNjNNWVhvWFNIZEdtN3R5Ny1sbF9OTm5BRFhYWDNKek9tT2pyd1lyMThwSzdWZUpWLXZQa3B3SkN6VzMxVHVuVGRtc1VTQmdEWUFkUWdEZWxBQUNMcTQ0MA?oc=5",
-        "source": "데일리e뉴스",
-        "date": "2026-08-18T08:30:28.000Z"
-      },
-      {
-        "title": "코스피, 장중 7200 돌파 후 급락…6800대로 후퇴",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LVVNNNlR5bUo5cENXbV9fYjVVLTVDaXBUbndGVGZGbGtudUVlS0psdEo2WWthTHgwY1ZpWFlSdjBicEROSnJxNm5aTkJwQUNQVXZGU3V1T21MUFRlME9JeURqTzJlYlZsOGVXLTFCc0w?oc=5",
-        "source": "코리아리포트",
-        "date": "2026-08-18T08:24:57.000Z"
       }
     ],
     "kosdaq": [
@@ -173,7 +173,7 @@
       {
         "title": "美 금리 동결 기대에 원·달러 환율 1410원대...10개월 만에 최저",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxZDNSZmtKekxKSmhxOGg2NjVUaG5VYlJpaTU0NDFHMkpPaHh6VkUxY2E4Yjhlek05aVBxeTBqQ3YxUnlLc21yM1BFTGtnQnhETktaNk9JaFhpVXJ2QVlFRldUcy1qVUI5Zzdz0gFvQVVfeXFMTlVUSDdZcGlhU2szQmdoaEhWRF8yXzIwWlZIUnRTOXhkNzhsNXhpemNzcks2cmFxTkZmOEw3MktKTG5JT2FUaF9zQ21kdUVmRmlkeVVDVDRHOTFnMHV3YXl5RHMxcy1waTZGR2NBVWtR?oc=5",
-        "source": "더퍼블릭",
+        "source": "thepublic.kr",
         "date": "2026-08-18T09:37:54.000Z"
       },
       {
@@ -203,6 +203,12 @@
     ],
     "metal": [
       {
+        "title": "금값 하락, 4,400달러 선 새로운 도전에 직면",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPV3p6Mm15S3FncUJBLTYyS09nQ2R2Ykx6Q2JwVTBpNUlrVTZqNmpYQ1ZDWjRXRV9xRkxWNnl4M3M5anBKSE1KRm05cmFQeTVEUlV1S0RxOW5mSGlVdk1wOVVCZmthSXAtMzc0UFFfS19pVGpBM3ZXM2RfcjAtTm5NU0JSeWZLSVJsc1RxZGRGdEtMRkpJVHdZcS1SZkxocF8tdzVVN3hvRQ?oc=5",
+        "source": "Laodong.vn",
+        "date": "2026-08-18T15:31:45.000Z"
+      },
+      {
         "title": "금시세(금값)는?…'중동 긴장 고조가 변수로'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9sWktOSklLMTdSLWdzbk5WY1FQTEVKckNfQ3RRYXlWQUNkeUVxZjVPOFRVUmJsSERBSEt4MjBrQUY5cHBjQXF5eG4zRmJzREE5VTBEaEdQc0QxMnRUdnF4cWcwZ2YtUVkw?oc=5",
         "source": "CBC뉴스",
@@ -211,7 +217,7 @@
       {
         "title": "8월 18일 오후: 세계 금값 하락세 지속, 국내 금값 \"진정\".",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOZ0FDMVRSNjE4c090Z2diclFVeWVwUkVDU0JXYnRGbVZKQ2dGLUMtSThaRGVwenV2SHgteHE3ckxQbVFlclBYQ3U2S0t1WDVpSXhJZzhzdThZV0U4S1NiZVU4aWVoV2dXN19laV9RZ1hRWUJ2NG5TUGY3SmxkVWRqVzY4M3R5WTZqYkxKRUhUZVRnbzBJUnNXcTh3SmFJdw?oc=5",
-        "source": "Vietnam.vn",
+        "source": "vietnam.vn",
         "date": "2026-08-18T12:13:06.000Z"
       },
       {
@@ -223,7 +229,7 @@
       {
         "title": "오늘 금 시세(8월 18일 오후): 국내 금값 급등, 세계 금값 하락.",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2NWaUV5X0dwcDRFQ1R5R2hVMGJmd1AwRC16MWFKVHkwejlZeEN3SGwtRjBqNW9jdlZkaEE4YTFkMzYyQXVoaEw5NlVELXlvZTJnMkowZ1pDMk1Wc2oxdlAzbUFXOGhtdDNxM3BqejNsZHJ6MHVRVXVFOGk0WmNJV2ZTUXFVS1BfLUN6WTlxdWxFSGZWeUsxOHdjVGRfdw?oc=5",
-        "source": "Vietnam.vn",
+        "source": "vietnam.vn",
         "date": "2026-08-18T10:15:53.000Z"
       },
       {
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UaGFoS05GekxmQ0tKNGN0SEd0SktIek5QWWxUOXdBV0ZGcWNiUF9aTmREYkZ0a3V0eXZ5TXJySkN0N09jT0lCb3kwX2Y0VmxXcHhfRmNR?oc=5",
         "source": "위키트리",
         "date": "2026-08-18T05:19:00.000Z"
-      },
-      {
-        "title": "[투데이’s 금 시세] 국내 금값, 상승세 이어지나···개인 투자자 순매수 전환 By 투데이코리아",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9VaGJNeU5hQ29pSjhHc0diMGM4WG9zVkxmc3ZLalE4Z1dpSzJITnZ4eTdHTnlUTFVmcHFnYksydVhiRXphaXgwVWFoZmR1Zm1WdlV6MUs5MnNPM3d1M1c4Smp4Qk1qNmQ2czJ4WVQydkg?oc=5",
-        "source": "Investing.com 한국어",
-        "date": "2026-08-18T03:19:00.000Z"
       }
     ],
     "energy": [
@@ -403,9 +403,15 @@
     ],
     "realestate": [
       {
+        "title": "서울 아파트값 오르자, 연립-다세대주택 거래금액 5조 육박",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tN0NvbVBPR25oLWk2OFRQS0pQNEVMcGU0TkQ2THRyVU1fQms4a09wYnAtRUViMTdsXy1TTmJxdU82V0toMzVlcDNvbm0zY2s?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-18T15:31:44.000Z"
+      },
+      {
         "title": "'10억 시세차익' 송파 아파트 줍줍에 9만명 몰려",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1QZTZRbnBDeGV3aVdOUjN6cGVFU0t2eVlKejNhajYteGFveU5fZ3p6MUxneF8ybEpSR05IZ0xtN0I0SU83c1NfYkN5Ry1vYldkQkJ6c3RPdXRjYm1Za3JyQ9IBeEFVX3lxTE1xYXZiZl9uNkdHOGpJQUJ2ZkxTN3dVT1Q0N2prdnVOdDFiRHpjV2FSMjA0eDVjQll6NWNKU0pLVms0YnV1cGtIV1pocmZucDg1WFJWNVN2by1YejgwNHdqWkZVWldJYW5sM2hXX2VHVzBrZVk0YkR1Mg?oc=5",
-        "source": "newsis.com",
+        "source": "뉴시스",
         "date": "2026-08-18T10:35:38.000Z"
       },
       {
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9Nbll2M2tsemU0ZFhrN256STY2V3AwQU5lNjZoSEhhNVhxa25XVWtMT2ZKNDlQb0JqNEtXbHRObTNsMVp2NTlJSXotWWxxdUU?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-18T05:09:07.000Z"
-      },
-      {
-        "title": "\"반년 만에 6억 뛰었다\"…동탄, 집값 상승률 전국 최고치",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uQTBYa2p2MTh2QjFtdmdGb3VHV3pNZUR5LWs5elJIWnJyTVlkNTJ3QzBCaVJkbDkySTFyc3ZLd1U0azJnRXNlMTdJWUQ5ck1KUU1J?oc=5",
-        "source": "네이트",
-        "date": "2026-08-18T04:36:00.000Z"
       }
     ],
     "lotto": [
