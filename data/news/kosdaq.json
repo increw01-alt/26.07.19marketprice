@@ -1,17 +1,41 @@
 {
-  "updatedAt": "2026-08-19T13:23:59+09:00",
+  "updatedAt": "2026-08-19T14:19:05+09:00",
   "topic": "kosdaq",
   "items": [
     {
+      "title": "[코스피‧코스닥지수] 코스피 상장사 상반기 ‘역대급 실적’…반도체 쌍두마차에 비반도체도 개선",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE81d1ZOcHlETDNVNkxsNm85Y0Nka3FZNWp0aGFfVDRmaWtzbWUyRnZrUUR3SXBhWUxPeF9HSk1fYVdsTXNCOEd2WHJ0OWxLQjRqSm1LVkRpOGprbW45TnZJMUFTLTVMQ1ZjSkxYUF9IWEg?oc=5",
+      "source": "한국강사신문",
+      "date": "2026-08-19T04:54:43.000Z"
+    },
+    {
+      "title": "[그래픽] 코스닥 상장사 영업익 62%↑…10곳 중 6곳 흑자",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5ySFBBVHFlME5helBaeEI1OUtsSjlleGdvTngzc3BqcEUxWEw5Y1Q2dXNYRmIyWkNwckZVaWN4a0VrZVpJbGFSeDcyNl9RMXV3NlRNR0t1c3VQMnBKOHYzOG1zc3pZZw?oc=5",
+      "source": "뉴시스",
+      "date": "2026-08-19T04:30:35.000Z"
+    },
+    {
+      "title": "[상반기 결산] 코스닥 상장사 순익 3.9배 '껑충'...10곳 중 6곳 흑자",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1pM2htR2M4YnBHTTZCREZvdWM3OVBmb3F4T0ZJc2pfcHNyYVdtOFJsaW9IUkhlUUxDQ3ZrNWFra1JxeDF2RVFzSWdBeHBISXdGeHR0UlF3V0tUazN2dXJJdw?oc=5",
+      "source": "메트로신문",
+      "date": "2026-08-19T04:19:46.000Z"
+    },
+    {
+      "title": "코스피, 6% 급락 후 횡보…코스닥은 회복",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1tdzU2ZlhYV0RHS2xhRFpWZ19semlvRHdsQmR5VTNJdFM3N0pYNktaVS1STy1EUXgydEpBRkRaRmMyZzYyMldWTmE5eEVTN1dyVDkwVV9HM2RZa1lhQWtsNQ?oc=5",
+      "source": "아시아경제",
+      "date": "2026-08-19T04:00:06.000Z"
+    },
+    {
       "title": "[서울데이터랩]코스닥 거래상위 종목 혼조…화신정공 상한가·아난티 22%대 급등",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA3R2h0cFVmTHFOcVNsdTJqeFlSQW04X1VXTGxKNUtoY1AzZkRQUHN6WkNqSkM3WVB2dzUwTWUtQjl6WFRUZzMzdWxGOWx3T2w5bnpLZjJvMzM0Q29TMVdkWTNTcDRXQ2l3eTY4X0VDTmg5UHVNUGZXbVEtQXNHdw?oc=5",
-      "source": "서울신문",
+      "source": "seoul.co.kr",
       "date": "2026-08-19T03:56:00.000Z"
     },
     {
       "title": "[서울데이터랩]코스닥 시총 상위주 혼조…ISC·HPSP 급등, 알테오젠 강세",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5sWnlfcl9Wenptd2Y0ZmNfMF9seF9MV2xmQTZBNlUwTU1YNG1maDhyLTVoZExwUzF0NHctQjV2dFJDOEROSG1tSll6bm5RSS1zanBheXBUX1NYUTFiV1dTVTB6Q3lSQ3VyMDR6UkdEVnJxWlpGcFU2MUM5MHpTdw?oc=5",
-      "source": "서울신문",
+      "source": "seoul.co.kr",
       "date": "2026-08-19T03:51:20.000Z"
     },
     {
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1taDR0VHVOOHFmWWw2TW1NeVFHOGJQZW05QmRKQWxUbFprVFl1MEdsVHhQRVJhc0V4empCNEpxX3BXdkF2R2U3bmw0VHlkVTlYRHFhNQ?oc=5",
       "source": "이투데이",
       "date": "2026-08-18T00:18:00.000Z"
-    },
-    {
-      "title": "스톤브릿지캐피탈·LS증권, 리파인 지분 30% 공개매수…주당 1만7600원 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTGt3TW9aTGZOaURkYi1rOVV0aGVXTTV1MEhTaXJjWkx0a2dlaERreU9rOHlVNVRJci1mRG1lejF4azlKV0RIWUZkU042V0stbWV1VGJOdTk3RkhoQm0tVjZBVzBfNzN6Y1FGWlR4QWVrRmJKSEZFbzh2LTBWcjZBbzdFTy13QnYt0gGcAUFVX3lxTE1kTTNiTHVLNk9UdFRVOFFpMWNnWVNQWlYyM0xUUGhWQXR6cFZlakVnU25XeFVyTEk5czJCZTZxbDZ3cGhESldkeXFnNzJUOVN1TEN2N3RvVjZVMFZKeHBoQnZKVHpONWZ6RENwVl95aHRuRm5IQjBPa3hvTGxoZTRIMEc1V2Q4dzMxMTdNZ3lBMDlJYXRreWo0Rl95dQ?oc=5",
-      "source": "Chosunbiz",
-      "date": "2026-08-18T00:16:00.000Z"
-    },
-    {
-      "title": "코스닥 상승 개장… 이오테크닉스·주성엔지니어링 강세",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9RQXQ2NDlUNENjS1JCOUFteVIwSnZoekR6U3M5SHJKUWtUb0ZGNXhINGVVbnViM2I4Y2FqdG9SWTF4a0NaeEFMcHpiNGdQRTM2SWpKV29pRWRaS0hIYnZ5Rk9BbXJJN0x4UzMtNU9B?oc=5",
-      "source": "gukjenews.com",
-      "date": "2026-08-18T00:15:35.000Z"
-    },
-    {
-      "title": "코스피, 상승출발 `7천피` 회복… 코스닥은↓",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQY0tIT3kzcm5GWG5ELXc5VFlhdjMxenBEZExCZThWNTNyb3FqQ2xhQUxGRjdCWEVBZUQ0N0ZSbWd0dFBDNE1GUDYwclczSl9zRE80akdEdTFDeW54VFBCZEJDQ05DRHFaZGV1Q1VDbXBQbk1IZUxPQWk1a1NaQldDUmdndHJKcjRKdHdmRnZ3?oc=5",
-      "source": "국제신문",
-      "date": "2026-08-18T00:13:00.000Z"
-    },
-    {
-      "title": "[속보] 코스닥, 0.22% 오른 866.59 출발",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5qWW5IaDBRZ0tjTzQ1cDVYRkF3S1RoOGVPc29uanpNZmFYd3RHMVRDRnkzYjFWT1NVQ1FfUElxQi15bHotNHRVRzREU1NxVzlwM29yR3U2Z01KVUlXOUhvNUVwU1RtN201ejFF0gFvQVVfeXFMTXYybDJxbFpUb0MyUXR5ODdaLUgybk53aXBJcjgxYkp5X1lCa2NlVFc2SzF6b01JREdVT21hN19yV3BMMncxSEJvMVdiYkJ3X3U4UEsyTE9CSnk1bzVaUzVRNWFsaDk0TWthLW1Qa2RF?oc=5",
-      "source": "한스경제",
-      "date": "2026-08-18T00:09:18.000Z"
     }
   ]
 }
