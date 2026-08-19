@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-08-20T03:14:42+09:00",
+  "updatedAt": "2026-08-20T04:20:11+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "코인 가격 급등…강세장 재개?",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE94dUVZWktmTTlwY1VUeU9uem5mZVh6alhxZTduQXBxY1J1RDNhdnBvVTN0Zk5fdTRMNFE5TlRZcXFXaU03N3dWRzZybFd3WkstbDdVZUtYc05MSW9Uc3NRcjc4RllpclFOQXg5ZHRqeTRObU04MkE?oc=5",
+        "source": "BeInCrypto",
+        "date": "2026-08-19T18:34:09.000Z"
+      },
       {
         "title": "암호화폐 시장 업데이트 8월 18일: 비트코인 ​​가격 상승, 하지만 투자자들은 왜 너무 일찍 기뻐해서는 안 될까요?",
         "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPamZsekQtYzJsM3otcHg5bmpSd253WUZ4aFpZLUVTanUtV3d5QTFBYmI2M2pEaFdUN2JSd0pfV2xZdE9zT1Uteml1Z2txalJtcHlBeUl5aTA0OThUNjlCMWc0bm9rTFY1dlhYaFI2RURyODZYX1F2M2VYaVBuZ2w5NTlOXzUtQkgzTDQ4ZlJpd3RqalJuMXdnRFNGeTB1UQ?oc=5",
@@ -43,12 +49,6 @@
         "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUVBvb1ktekxVX0xtSVFiMWNOQmdWSTBqcUI5eW01ZkdmVGFTdWUzc0N4dVA5cUJxWVR0Z3pELXJGR1d5OTMwV0ZJMlp1UlBuTDVZWE9IVFFFYi1PVm1oSS16alVUYmEzdG5EbzJWSE0yRVJkX2l2M3NIcjcyU0JxQ2JFUmtzTXVLUjFkaWFLWFQzYmlnTXJRZDNVQ2ZwQjdsUUhkWDFMTTVkQVJ1a0d0dTBPUy1jUm41b1k2TmtRWFJRT0JwM3g1bw?oc=5",
         "source": "CoinDesk",
         "date": "2026-08-17T11:36:43.000Z"
-      },
-      {
-        "title": "2026년 8월 17일 오늘 비트코인 ​​가격: 비트코인이 63,000달러 아래로 떨어졌습니다.",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVFGa1hGczZBTHIwZzQ5T1ljWXQ0WlJVcFhZNmNtaUx5SGhOUzdyQXFwelRmNmZ2RERyaDJFeE5Md3lyOURrV0dJbFF5dUl0c3lyMjBMRW9zV1FteDBtSkpHcC1Vc05VMHpOTGpfXzVsRDl6T3ZQVU5YemdJcUx6UkpCWF9jOUhkc2JHdw?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-17T05:52:23.000Z"
       }
     ],
     "stock": [
@@ -95,10 +95,10 @@
         "date": "2026-08-19T08:31:12.000Z"
       },
       {
-        "title": "AI 투자 청구서가 증시 덮쳤다… 국채 쇼크에 코스피 5.8% 급락",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB6ZzI1Vlg1dFg3cVJsUkdUMV9TbWpFZ0hIN0FjM3Q2cHRNMFJyNEFreGMyX1RPSWxZNTJLQzF5NHJGalFlUjF1TlZZS3c4VkZHdXhLMjVNYTk2VGlsd2w0eUx3WENRT2hvNVVLRjRn?oc=5",
-        "source": "한국일보",
-        "date": "2026-08-19T08:30:00.000Z"
+        "title": "코스피 5.8% 급락해 6471선 마감…외국인·기관 ‘매물 폭탄’",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1CT3puMVpBLWRQbGFZUTR3TGRrQngyUDNSNEtwRnU1WjNmenJhVko5OGVpWHFVLWI0cjdGUGtmM05Ea0NnSkcyWk5IbEVUT0QyWWFzMFdXMHVPQk5vTTJoeTZyeEpoQW5hOTZPMQ?oc=5",
+        "source": "굿모닝경제",
+        "date": "2026-08-19T08:26:52.000Z"
       }
     ],
     "kosdaq": [
@@ -117,7 +117,7 @@
       {
         "title": "‘다산다사’ 논란 됐다, 법정 간 코스닥",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EOHFxQnBVUUVSWGtUS2tfYjY4ZkJ4VG1Uelg4V0xJa3N0YkpOaGNFVkhzLVpROHZ5RGFDZWNYc0piZVVIUVFwNlpQdjFiZ0laaUFMazVR?oc=5",
-        "source": "joongang.co.kr",
+        "source": "중앙일보",
         "date": "2026-08-19T15:02:00.000Z"
       },
       {
@@ -179,7 +179,7 @@
       {
         "title": "환율 1,300원대로…美 금리 동결 전망 등 영향",
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4zVGhHYlZycTlSNWtMckdaMGVSRDE0QVg4TDZvNjhBUDM4T1hGaTJmMzY1OTF4MzNkOTV6SThMZUxRRFVCaEJMYldIRUpkSTVyN1ctdDNiUTdodjVJRzg0RGFCZEM4TzA?oc=5",
-        "source": "yonhapnewstv.co.kr",
+        "source": "연합뉴스TV",
         "date": "2026-08-19T12:07:00.000Z"
       },
       {
@@ -189,16 +189,16 @@
         "date": "2026-08-19T11:33:12.000Z"
       },
       {
+        "title": "원·달러 환율 10개월 반 만에 1300원대로 하락",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBiRDRwc05raHJtR1hRZExwVHRiemFxU0RUTUlFZ2hVbmM5eW1DLWl2eUxqbmR3V2UzX1VwUVhmLXU1cG5TOC1BWGdnYmNZMjQ?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-19T11:12:46.000Z"
+      },
+      {
         "title": "원·달러 환율, 한달 반만에 160원 급락",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE85djFITmpUWDZWek45MzJRaWxLdkNvUENMN2lGTlA3bEdNOFJIMHE5YnVVaWU1NkVPY19qalRkOGlhVnh3ZndEbzNiSzBDekF4?oc=5",
         "source": "블루밍비트",
         "date": "2026-08-19T11:00:09.000Z"
-      },
-      {
-        "title": "달러-원, 런던장서 1,390원선도 붕괴…작년 9월 18일 이후 최저(상보)",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE82b2VQbUpyRFVSeFRXSld4UHNrMDFNeEVTUWlMb3RrbkhXWTYyMGFPSGxydUFoaGttVHhfUjQ3QUJ0R2huWVc2VktSc21meHprcU1LQXpxT1Y0TDFzMFkxTEM5bERKSlI1V3MzbS1SMXl6Zw?oc=5",
-        "source": "KB Think",
-        "date": "2026-08-19T10:43:02.000Z"
       }
     ],
     "metal": [
@@ -229,7 +229,7 @@
       {
         "title": "[투데이’s 금 시세] 상승세 꺾인 국내 금값···인플레 우려 재고조에 투자심리 악화 By 투데이코리아",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA2X1ZLMUhzWG42MjgwNmNqblUtR3lxNFJyUmhMLTU2RUJEbzZoT3lzdll0N1JxWjBJWGE5VGE5NElxYXpKNlRBeE9FNzJYTExiakhRZWlTZTlOSUlRbVRXV3IyNnQtQm14cC16eUE2VV8?oc=5",
-        "source": "kr.investing.com",
+        "source": "Investing.com 한국어",
         "date": "2026-08-19T02:11:00.000Z"
       },
       {
