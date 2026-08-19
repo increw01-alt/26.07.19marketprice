@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-20T04:20:01+09:00",
+  "updatedAt": "2026-08-20T05:12:09+09:00",
   "deals": [
+    {
+      "title": "네이버페이 결제시 50% 할인 (1만원 한도) (8/21 금요일)",
+      "mall": "파리바게뜨",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106492",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-19T19:44:39.000Z"
+    },
+    {
+      "title": "네이버페이 25000원 결제시 12500원 페이백 (8/20~21)",
+      "mall": "7번가피자",
+      "price": 12500,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106491",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-19T19:41:35.000Z"
+    },
+    {
+      "title": "파파존스 배달 11000원 할인 (8/20)",
+      "mall": "땡겨요",
+      "price": 11000,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106490",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-19T19:38:21.000Z"
+    },
+    {
+      "title": "(옥션)닌텐도 스위치 월희 리메이크 한글판 2차분 [76000원]",
+      "mall": null,
+      "price": 76000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106489",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-19T19:38:05.000Z"
+    },
     {
       "title": "닌텐도 스위치2 프로컨트롤러 ￦87,840/픽업",
       "mall": "이마트",
@@ -539,50 +583,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-18T15:14:21.000Z"
-    },
-    {
-      "title": "핫식스 더킹 제로 24캔 + 퍼플 24캔 + 증정 6캔 27000원",
-      "mall": "G마켓",
-      "price": 27000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106462",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-18T14:28:20.000Z"
-    },
-    {
-      "title": "클라우드 논알콜릭 350ml 24캔 2박스",
-      "mall": "지마켓",
-      "price": 23400,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106460",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-18T12:56:04.000Z"
-    },
-    {
-      "title": "토탈 워: 워해머 3 엔드타임의 군주들 DLC/28,600",
-      "mall": "다이렉트게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106459",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-18T12:46:39.000Z"
-    },
-    {
-      "title": "펩시제로 페트병 500ml 40병 24400원 무배",
-      "mall": "지마켓",
-      "price": 24400,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106458",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-18T12:11:08.000Z"
     },
     {
       "title": "켈로그 시리얼 대용량 10,900원/무료배송",
