@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-19T11:09:31+09:00",
+  "updatedAt": "2026-08-19T12:35:44+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -60,10 +60,10 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96800,
-      "buyRate": 3.2,
-      "sell": 97000,
-      "sellRate": 3
+      "buy": 96700,
+      "buyRate": 3.3,
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "citypay",
@@ -74,8 +74,8 @@
       "method": "현금",
       "buy": 96600,
       "buyRate": 3.4,
-      "sell": 97000,
-      "sellRate": 3
+      "sell": 96800,
+      "sellRate": 3.2
     },
     {
       "shopId": "citypay",
@@ -134,8 +134,8 @@
       "method": null,
       "buy": 483000,
       "buyRate": 3.4,
-      "sell": 484500,
-      "sellRate": 3.1
+      "sell": 483500,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
@@ -146,8 +146,8 @@
       "method": null,
       "buy": 96600,
       "buyRate": 3.4,
-      "sell": 96900,
-      "sellRate": 3.1
+      "sell": 96700,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
@@ -158,8 +158,8 @@
       "method": null,
       "buy": 48300,
       "buyRate": 3.4,
-      "sell": 48450,
-      "sellRate": 3.1
+      "sell": 48350,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
