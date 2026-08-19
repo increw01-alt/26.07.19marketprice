@@ -1,12 +1,24 @@
 {
-  "updatedAt": "2026-08-20T05:12:20+09:00",
+  "updatedAt": "2026-08-20T06:17:36+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "‘코스피 언제 오르나’ 이번엔 글로벌 장기채 역습… 증시·실물경제 압박 우려",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5VTEdITG4tSVQtNURZUkd0QkhXeGNDelc4Tk9EeUlZNGh1UU5GYlNhSmpTdXBxWTlLVUVMQ0hZQkMySFlaRWU2RExabzZMNnc?oc=5",
+      "source": "v.daum.net",
+      "date": "2026-08-19T20:04:36.000Z"
+    },
     {
       "title": "SK스퀘어(402340)",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZXFWRHVMdHJQV3BubmhxdGV4elRVcWRGaDRJSFpBNGMyTjVVbl9fZlp5cTBhVkRZU3lmYm1adXp1VUhlVWZ0NG5hYkVXWGtkdlQ2SWEzT2FIWUgwYld0blk2TFBGSTRveGZSbWlaSFhwOXpHSHpFb3hZY1Zfdy1FUlNRTFR3VzE2YkppZWFuRlZ3MTZwbWVN?oc=5",
       "source": "매일경제 마켓",
       "date": "2026-08-19T15:55:26.000Z"
+    },
+    {
+      "title": "두산에너빌리티 주가 흔들, 장중 낙폭은 줄여…코스피도 급락장",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1md2tZU1dVNmo3TDRzaTBjZnd2QUNuNW1xY3dWMTQ5OW9pOU9BOWlZLVd5Nmw4ZGEwRndxT1gyczNiTUhxTEFJYXVQY19pajlXRU1CVmctMDVSYUxzLXlhazdYRFhwNkst?oc=5",
+      "source": "CBC뉴스",
+      "date": "2026-08-19T15:03:00.000Z"
     },
     {
       "title": "반도체 수출 179%에 원화 1400선 뚫은 날…코스피 5% 폭락",
@@ -61,6 +73,12 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ZdWVOeGM0WUlOT29yUWNqT1pqU0h0TEZ2VkV2eUNzaGpVMDhGNTZVU29QRnp2TzZvUklLMHlEMG41dkpWc3ZMbUdIVnpTRWdMS0FQR2tGZFJkMWs?oc=5",
       "source": "강원일보",
       "date": "2026-08-19T08:31:12.000Z"
+    },
+    {
+      "title": "AI 투자 청구서가 증시 덮쳤다…국채 쇼크에 코스피 5.8% 급락",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1zdTZQWjA3NWZDOEw3MjgwY2pybVlvYjFudl9BdkNaNTBTRlp3NFpYUzFnNl9pbzJPS3BZRVdHb01nbFJDZDM0RHNsWU1TQWxCNVk4?oc=5",
+      "source": "네이트",
+      "date": "2026-08-19T08:31:00.000Z"
     },
     {
       "title": "AI 투자 청구서가 증시 덮쳤다… 국채 쇼크에 코스피 5.8% 급락",
@@ -583,24 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9KMmo2UkZ3bE1oa3ZvbmJGQjBuYThPRjN2aXJYZ21TQjlyblRUaFZEdWRYZTJZZy10Xy1Ydm1aQU9oRW5yOWxfY21Idm53WmEzT1pwQlVZSWJLQ0FZRFE?oc=5",
       "source": "포커스온경제",
       "date": "2026-08-18T06:49:20.000Z"
-    },
-    {
-      "title": "[증시-마감] 7,200 넘봤던 코스피, 日 국채금리 급등에 반락",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6aTZFcTQ1bUVEYkVyRnNtOU9wWWRmc2p4dElwYmcxcUhfOUVZZjNFOFNhaEJUYzFqUlBrT1JkYVJUdWNqb3RzbzBHbmVraGdCNm5ma1IxR2ZRb2p2TjBXMEpZYU9NbEJMaFk0NkZpU2E?oc=5",
-      "source": "연합인포맥스",
-      "date": "2026-08-18T06:48:39.000Z"
-    },
-    {
-      "title": "[마감시황]‘천당과 지옥’ 오간 증시…코스피 7,216 찍고 6,869로 추락",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1sRHNUaWZvaGI4TlZmNFhla3JQRGtuSWZLM04yUGd5MmRRUFpIeUQzcG5MSFhpR3lKZE9iYnpoTURYemdjazQ1ZDRiOU1vX3JkWk5Ha1lBNWFXTkw0RHZpTmF4cThEOFd3UDFONNIBcEFVX3lxTFBjOFNBZHZQeWhoeXpPTXFwSW9RQUpkTFdHbjVzaFBPNGRvREpjQ0pJYTZscENDWUpLSENQdmhfUDJ5WjNIaU1yWXhfN095Uy1RMlJrNnV3cUxORUhOcFFzZmNJVWhnSXQyVTZJV1RyTUQ?oc=5",
-      "source": "남도일보",
-      "date": "2026-08-18T06:47:00.000Z"
-    },
-    {
-      "title": "[위클리 재테크 레터] 코스피 5거래일 연속 질주, 700P 올랐다",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE85MHFxSV9SbEVfVWd0SHpPclZfcHpLQzdUTmVrMjFUU2ZZMk8xaXVObHlHQ2JCYUh6aEdnWFZzZTNFWU1wSmk1MjRIS2djOFdwM0pWT0l6Vzh5YlhvYllZWA?oc=5",
-      "source": "theconnectmoney.com",
-      "date": "2026-08-18T05:32:00.000Z"
     }
   ]
 }
