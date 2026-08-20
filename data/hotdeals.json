@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-21T06:15:29+09:00",
+  "updatedAt": "2026-08-21T07:13:46+09:00",
   "deals": [
+    {
+      "title": "에픽 메이지 번들",
+      "mall": "에픽게임즈",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/79144",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-20T22:09:31.000Z"
+    },
+    {
+      "title": "노인대학생을 위한 google ai pro 월 7,300원 혜택 (최대 4년)",
+      "mall": null,
+      "price": 7300,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/79141",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-20T22:01:52.000Z"
+    },
+    {
+      "title": "햇반 210g 36개 + 24개 총 60개 페이코",
+      "mall": "CJ더마켓",
+      "price": 45946,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728314",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-20T21:23:23.000Z"
+    },
     {
       "title": "거반도 납작 복숭아 500g",
       "mall": "톡딜",
@@ -198,17 +231,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-20T15:20:32.000Z"
-    },
-    {
-      "title": "삼성전자 갤럭시 버즈4 프로 무선블루투스 이어폰 R640",
-      "mall": "지마켓",
-      "price": 213110,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728299",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T15:18:13.000Z"
     },
     {
       "title": "(무료) Game VFX - Buff Collection(URP)",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-19T01:32:19.000Z"
-    },
-    {
-      "title": "8월 19일 네이버페이 83원 + 랜덤 포인트",
-      "mall": null,
-      "price": 83,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/79023",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-18T15:32:32.000Z"
-    },
-    {
-      "title": "켈로그 시리얼 대용량 10,900원/무료배송",
-      "mall": "GSSHOP",
-      "price": 10900,
-      "cat": "식품",
-      "link": "https://damoang.net/economy/79020",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-18T05:30:11.000Z"
     }
   ]
 }
