@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T04:21:57+09:00",
+  "updatedAt": "2026-08-21T05:15:07+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "[더페어 돋보기] 6850선 안착한 코스피…외국인·기관 수급 지속성에 갈리는 향후 증시 시나리오",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9TYXV5N1dUdmpwNzBMU1Ytd0E4aGk1NW0yMjQ1ejFvaE90QmZDcmNuLTdYS05Kc3RnZmV1dWdZcmM2UF8xSThOYVZQZXBUNGt3V2xiMlNQUUVkcHR3YkdXNk5uZXFfaU5GWExYZ0ZmTHXSAXRBVV95cUxOVG9aUjdERG9JS1VPMkN6UnpSYVA0NEtwakJQZFV1aWROMDNBbXdKOTcxeTJ5U3ViMWI5QmpBX1lGS01RZzdJY3Z3QVpnNTFBN3NiSkxoQXB3Z2hSVVJZbkNFZjNNZThWRXR6dUhHdWhpMXN0QQ?oc=5",
+        "source": "thefairnews.co.kr",
+        "date": "2026-08-20T15:00:00.000Z"
+      },
+      {
         "title": "반도체만 보면 더 오를 것 같지만…“코스피 6000에 사고 7000에 팔아라” [머니닥터 시장진단]",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1vc3Z0Q1BUYXRxVFlzRDRNbmJBNXFHSXdUTWREQ0Z0cHNhNGVteENLaXNlcnVKNVpyTTZzRHBTVFhGVm9mMG5UNkFEOXBHNllPZVE?oc=5",
         "source": "매일경제 마켓",
@@ -83,22 +89,16 @@
         "date": "2026-08-20T08:10:17.000Z"
       },
       {
+        "title": "SK하이닉스 40조 자사주 소각 발표에 코스피 5.89% 급등(2026.08.20)",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaFJpb3dramo4ZTZ5MzEzbUNIb05ZV1ZrOFJDcWNyUGpiQ1FhbG01NTJCSHpjMlRCbzc1T25iMG8tcGxWQXpXZGozSEQ3cVV2Sk9WNWVmZnVGTGxGdkI2dG0wY1RrMlZhSXkyOGFXZkMzSkw1MEc4djZDbUh5ek9HeHpBSE1YbTg2TkE?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-20T08:04:00.000Z"
+      },
+      {
         "title": "[증시 인사이트] 하이닉스 주주환원이 이끈 반등…코스피 곧 7천선 도달?",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82T0hqRm1IdXIwUlRyUG92MnR5UldJUUxORFI1YWx2Q3k1MHRXeU1PNU1jNEJGSEF1T19YdVp1V0F5bjRBRkxLd0t5bkJwVGM?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-20T07:49:18.000Z"
-      },
-      {
-        "title": "코스피 5.9% 급등…SK하이닉스 40조 주주환원에 반등",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WRDJyQWdwN1ZlSFZrcjdYV0JZWkhib044cUlzUXNPdVl0MldLbHlaMlQtbTRMYXpqOHg1UFBLYkVwR2EyWDB5WUhCUUY1cWRyOFZna29uRDd0ZUt1eDZSZXE3ZnpKdzhPXzRBUlRYTzQ?oc=5",
-        "source": "코리아리포트",
-        "date": "2026-08-20T07:48:17.000Z"
-      },
-      {
-        "title": "SK하이닉스 주주환원 기대, 삼성전자까지 번졌다…코스피 5.89% 급등",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XOFFWMVFqNE1ZcThZQjdWU1VaNnFGYWlmQWVJazRTcm1VUk5QeWotX2pQYzgtWHJCUTNhNmZ3bXNJXzdSb0psTE1ESmlVakJrMDdhV2NfYmdzQ0JiWUhQdVlXM2Fpc1Rxc1NqSw?oc=5",
-        "source": "굿모닝경제",
-        "date": "2026-08-20T07:46:32.000Z"
       }
     ],
     "kosdaq": [
@@ -133,12 +133,6 @@
         "date": "2026-08-20T10:16:55.000Z"
       },
       {
-        "title": "[단독] 나스닥 ‘시총 기준 상폐’ 급제동… 코스닥 영향 주나",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBHNzJFS1MyRi12b1BPRnB1OWZ3cW1oNHdrenVmSWF1Rnlsb0xXTVhZWlIzWk1NWWxLZ0ctcWx4bk9SWjdpWEVmcl8xcWxLT2M?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-20T09:20:43.000Z"
-      },
-      {
         "title": "파라택시스코리아 상장 폐지…경영권 변경 1년 2개월 만에 코스닥 퇴출",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5X0pPb0tuaTIxQ1lrLTJYZldtQjNnMEhhdGVLSlZva0tEQU8xczVlelhBREVrVWc2MUFmWENKYTE1Ql9XcXVJdUlJeXdncGdkaHZ0NC03bkJob2ZMSkhqbVNualFPUFhZNktHOdIBcEFVX3lxTE9LLVFySG1mOWVDaUx3d2o3YW1vNFJYSVVRQ09rWV9RUnBOWk01eEh1bkxtX2NiQ1k5Q2ktbEVWeUw0VDZILUt2N1ZNUHV6U1VaVEFLVmhucE15eWlGQTFEemxEVWswdXBXLXpsR3BaLXE?oc=5",
         "source": "더바이오",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMlUxX1BOa09PUi1JZXp0UWlWS21WWksySVdwajdzakdDamlKZDlKOG9FOVZrQWJpTFRFWGFTRm93WEVIcjFackFrT2lFQm96NzdOZ3JZMEpwejlpVG8tQVVMYXhBSUh2OFFPcXJyV3Q0S0ctRjNUblZYdEVDcWdqUG45ek02aXl30gGcAUFVX3lxTFA3ei1nT3hQQWdEZGlMTG1IY1Z0SG5yNkJ4Q01qemdNZ1UwcGZrWDlibXFqdk5YRFllSmpFRG41d09xX2hsZHJILVZuSTkweE10NzI4R1J6OXYxSHE3R3NqOXduNWFoUEgwOHJwakVmVkUybmtSRHpxYnRvdDlSTzlEdWJGd0g4RzFFR1lxMm51SUJFSUVGbEItc29Bbg?oc=5",
         "source": "Chosunbiz",
         "date": "2026-08-20T08:16:00.000Z"
+      },
+      {
+        "title": "반도체 '불기둥'에 코스피 6800선 회복…코스닥도 2%넘게 올라",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4Z1dxemJEUEwxVWRGa2ZLT19SbHNMeFAzMmtxRFA2VWxwMEJiUkdrbHNTWEZxVTZWdmVWSUJWTmtRS2JkcUc5dHYyVUt5VWdKNjNNd01ZZkV5SFJJRVlHTg?oc=5",
+        "source": "증권일보",
+        "date": "2026-08-20T07:51:00.000Z"
       }
     ],
     "fx": [
@@ -221,6 +221,12 @@
         "date": "2026-08-20T07:38:01.000Z"
       },
       {
+        "title": "오늘(20일) 금시세 급등세...미 국채 매입 확대 영향",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE96MHJrcEZNVWZuSmRYX0xkOThLZjMwM2xnYnkxUWxYVUtHdnhrOFZvZ3U2ZnFWbDljZlVhR0pEdGxyd04ycDJDVUhDOHlkQTRMSzVmSU0tdEhTS0JFcWlTN2VKamQ5YnZPNkkzU3pGSkjSAXRBVV95cUxPbHB0YkdDckE2LTVUQmRpZktjUmdDNXpoUnpwcEdHb1RmakxPVlhlVHhWbVljaHJEdDV2QmU4Y1Fmell3ZmhTVkFHNDNpR29YNG8td0p4Y2U3cnREZzlhb0lyR0xJalBhNldudVlnYlBnRFZlNA?oc=5",
+        "source": "thefairnews.co.kr",
+        "date": "2026-08-20T05:23:32.000Z"
+      },
+      {
         "title": "[금 시세] 국제정세 불안에 강세… 중동·환율 변수 부각",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tbDZCY2Mta2FCVmhCdUpxR21tUWI4WHBNZTQ4SU9USjBlVG1Ua285UFo0eWJmOUlyOUhfMVBWMm1ob1dTV3pfXzV1NFhyX1J1NW5GNndzUzhjMUFZN19iaGR1SnBKaFc4NDBoTg?oc=5",
         "source": "센머니",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUjNsZTNmdm9zaFBZMnRpYmZHQll1VGxKZjR2dTVQZkhWM0NBWW9xRG9UaHlvdXd0NFR1VXhlcmZjc3BfRmJ4WGRQREo5Q2wwalFpX2dGMlhlZUZlYjdwZTJxakVfSzBUSnhreTllVkFUalFBaEEwQlg2Z3RyeUliZnpvY2pVZVRVaFR3MVBfd2JrMEtuNFB0emE1STlrWnM?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-20T02:22:20.000Z"
-      },
-      {
-        "title": "[금값시세] 금시세 상승",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ENkJDRlE4WjJnSmRKMmdhRWwwLU5KWV9TSjRVb1pFbW1sQ3h3aDhYV2gyajA2WkJONDFMeU1GRG5lcEk2eUVWYWhVc0Y3RUpBQkw3R055aExxWDFJZ0JZRk9BT3ZKbWVVWXhXTw?oc=5",
-        "source": "게임톡",
-        "date": "2026-08-20T01:30:25.000Z"
       }
     ],
     "energy": [
@@ -422,7 +422,7 @@
       },
       {
         "title": "초고가 주택 다 어디에?…올해 서울 아파트 실거래가 대부분 10억 미만",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5wa1RnQUtpOF9iam1EOXlaZ2Nud19wcTE5WUpoYm5MVkNZZjJDaXFXcFNHYUNUdU5SNWNhTHozTzdwWnk2a1E?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JOUhwS0YxUjNWRnBjbVFyRU1CZEh5WEZSWUFRX2JUSmV3MXkxbS16TGNIUjN3NTNQdzBLX3JZNEF2M0dxa1VHVWg1NDNnNk1wOG55dS1R?oc=5",
         "source": "매일경제",
         "date": "2026-08-20T06:18:30.000Z"
       },
@@ -434,7 +434,7 @@
       },
       {
         "title": "서울 아파트 평균 13억 시대?…실제 거래 절반 이상은 10억 미만",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDZ2R4U0YxVVNqN3h2RG5zNHVkTkpyeGJvZ0luWmhBLWVSNlMzTGdlTlJWeHgzMFNhSUM0di1zOEYzcENqWUdXbHJWSWJwSVYxUFFjWXFadTNfZ9IBVEFVX3lxTFBHNkN5VXVvdjFXaTRnVFIyS3owZmVmRUtqMzVFZ3dhVmg1WjdLdGczNFlha0hrV0VLM0gwTHAzYzhvMDVUWmxwcUpHLWp3aGRoN1ZZMQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHNkN5VXVvdjFXaTRnVFIyS3owZmVmRUtqMzVFZ3dhVmg1WjdLdGczNFlha0hrV0VLM0gwTHAzYzhvMDVUWmxwcUpHLWp3aGRoN1ZZMdIBVEFVX3lxTFBHNkN5VXVvdjFXaTRnVFIyS3owZmVmRUtqMzVFZ3dhVmg1WjdLdGczNFlha0hrV0VLM0gwTHAzYzhvMDVUWmxwcUpHLWp3aGRoN1ZZMQ?oc=5",
         "source": "segyenews.com",
         "date": "2026-08-20T05:29:27.000Z"
       },
