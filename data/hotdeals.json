@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-21T05:14:57+09:00",
+  "updatedAt": "2026-08-21T06:15:29+09:00",
   "deals": [
+    {
+      "title": "거반도 납작 복숭아 500g",
+      "mall": "톡딜",
+      "price": 11190,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728313",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-20T20:35:28.000Z"
+    },
     {
       "title": "라운지이벤트",
       "mall": "네이버페이",
@@ -198,17 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-20T15:18:13.000Z"
-    },
-    {
-      "title": "안동소주 일품 40도 350ml 8병",
-      "mall": "롯데온",
-      "price": 48290,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728298",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T15:15:20.000Z"
     },
     {
       "title": "(무료) Game VFX - Buff Collection(URP)",
