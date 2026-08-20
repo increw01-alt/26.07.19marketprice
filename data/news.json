@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-08-21T07:13:55+09:00",
+  "updatedAt": "2026-08-21T08:17:28+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "비트코인 가격이 오늘 상승한 이유는?...9월 15일 클래러티법 표결 주목",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5kdEd4dDNFak5vWGpyZTEzUndDNGlHMnFHcktaXzZTM092WnpMVG1vTFJRLU9KXzJ0TXBma3BvN3FNaFFWUEU1V3Nn?oc=5",
+        "source": "코인리더스",
+        "date": "2026-08-20T22:40:00.000Z"
+      },
       {
         "title": "비트코인 랠리, 클라리티 법안이 이미 가격에 반영됐는지 논쟁 촉발",
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2FwbVc1NXVjYUlCNUMwNUd5UlBKa0E4c1FVMk1GRFlRRHpkZzJiUG9UT2FNMFFIOF9TX0JvLUFwY2hIZ2x6ODNZZlk5bmw0cTJONTlkR1kxb0lvMkhjcm1sNXdUblltVlhjT1NUWWR5Y05SVDRrQjFRd2tiRkZ2bjQxcEwxNzNDekRVMG5NYjRCbmp1OHFRSDgtNFVSSzJEcDhTOTZLOE5ZVkU?oc=5",
@@ -43,12 +49,6 @@
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHlDRWFJRGFzbkNkSzA4ZXpWWmJIaEhxeDdoQThnenhydTdQUE93eGJrbGlqaWdqcHUzUzFNaXg1VXhhSjkzSUZHS1JnY1FaTHd0MDBWcTlTMlBkZmZhN3VCdk1wSWhIZkRjOGxJcEdQY0p3ZWgxTHBkeEF3OUtFb3E3a3Y2azBsRzN6UE5MZ1RSZHJULTh6cDJVT2N4WWdxSmc?oc=5",
         "source": "CoinDesk",
         "date": "2026-08-18T04:32:38.000Z"
-      },
-      {
-        "title": "스트래티지(MSTR)와 메타플래닛(3350)은 BTC 가격이 아닌 수학에 베팅하고 있다: 크립토 데일리",
-        "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNUVBvb1ktekxVX0xtSVFiMWNOQmdWSTBqcUI5eW01ZkdmVGFTdWUzc0N4dVA5cUJxWVR0Z3pELXJGR1d5OTMwV0ZJMlp1UlBuTDVZWE9IVFFFYi1PVm1oSS16alVUYmEzdG5EbzJWSE0yRVJkX2l2M3NIcjcyU0JxQ2JFUmtzTXVLUjFkaWFLWFQzYmlnTXJRZDNVQ2ZwQjdsUUhkWDFMTTVkQVJ1a0d0dTBPUy1jUm41b1k2TmtRWFJRT0JwM3g1bw?oc=5",
-        "source": "CoinDesk",
-        "date": "2026-08-17T11:36:43.000Z"
       }
     ],
     "stock": [
@@ -77,12 +77,6 @@
         "date": "2026-08-20T09:45:29.000Z"
       },
       {
-        "title": "땡큐 SK하이닉스…코스피, 381p 뛰어 6800선 단숨에 탈환",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XWmJPSWNKWEJyNHFCQUVFYWdacFgyd1FoVzdRVW9JMU5CNGZZQTNXeXFMSGR4VlplRTJ3Mmd1VXRURGNoZjI5QnBjN0lfR2J1SDlBOW01VkhMZ9IBWEFVX3lxTE9Pa0VLSG91eWxXSlczdFMtZFhiMjBjYXNLNThOZmE3MEtJdWIyeEM4bFNHeENJN200V3VsclpHbkpERHlpam1vQUJCZmptbXVZODU5US03cTI?oc=5",
-        "source": "아주경제",
-        "date": "2026-08-20T09:41:16.000Z"
-      },
-      {
         "title": "'하이닉스 자사주·美재무부 국채' 매입에…코스피 급반등",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBMbmVRRDdLX280eDJGd0gxc1dpampVX19vSmNDR1ZiSGFNTGkzME5IZlptR0MyRmtWQ1lVNG5OVy1SWkZyMHFPV25ZU2NTMi1zcFE?oc=5",
         "source": "매일경제 마켓",
@@ -99,9 +93,27 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5ZM3NGUG5jb3ZyV2Nma21YUXlRdmkxdzI0WjU1Slg4eVdFVl93SzVqOFNqX2RfN1JveWFMUHFWUGMxeDFFdHVVWWo5Sl83Z2tLTXlfYzBaWmplMmtsb2tLOVp2akNreEw0WGIxN2gyUdIBc0FVX3lxTE1KcXdVcjhoN2ZyckFmOG5UQjZPaGkweEVzWm9MRUJ5M3J0M184ZGYyTk5HR1dsUlpkME05TmZNNTBMVkNKV2RDd2ZEUkNzdWZVS1RzLWlJWHpZdjFEOEJzeERFQU5yYkxROGFIWkVlQ2J2RzQ?oc=5",
         "source": "시사저널",
         "date": "2026-08-20T08:10:17.000Z"
+      },
+      {
+        "title": "SK하이닉스 40조 자사주 소각 발표에 코스피 5.89% 급등(2026.08.20)",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaFJpb3dramo4ZTZ5MzEzbUNIb05ZV1ZrOFJDcWNyUGpiQ1FhbG01NTJCSHpjMlRCbzc1T25iMG8tcGxWQXpXZGozSEQ3cVV2Sk9WNWVmZnVGTGxGdkI2dG0wY1RrMlZhSXkyOGFXZkMzSkw1MEc4djZDbUh5ek9HeHpBSE1YbTg2TkE?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-20T08:04:00.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "트래블월렛, 2027년 코스닥 상장 추진…IPO 준비 본격화",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE44aWtxaGoxeG5DNUhSYmFaeVA5cGZwbWlEcUtuU093WGJMVUtJMk4wUGVQOU03clJzNUpHRkpDTGNnWWdlekZJYXhFRU5tbHFm?oc=5",
+        "source": "블루밍비트",
+        "date": "2026-08-20T23:05:56.000Z"
+      },
+      {
+        "title": "[코스닥 상폐 딜레마㊦] 부실은 퇴출·옥석은 보호…'단일 잣대' 넘어라",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9PTVFCREpUeGNJR0o0bzhLYVdESE5mQndvWV96LUJRV0Q2VGxBMlBsc1ZnbWhzLVNKRFBkN3R1VWtnMlZaU05LV0RTSlc3ZWVFT1BZcGNCQnl5bXh5RG9fMWVGS1poTVk2aU9yOExNQdIBc0FVX3lxTE5DWWZRUXhGYkxzNDRMaTlURW5LMlkxRDIxWG5sb1ZrcUJLeEZ6ZkZNamFMZTRaRE91UjJFblNXYkh4bWRRV0NYVnZwaER6cXFLYnB4MW95YWxjN0dMUWlQbXY1Zl84VXJzZVBrd3dab01PeTg?oc=5",
+        "source": "뉴스웍스",
+        "date": "2026-08-20T23:00:00.000Z"
+      },
       {
         "title": "[IPO 돋보기] 코스닥 도전하는 '바로팜'...적자 딛고 플랫폼 경쟁력 입증할까",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFYTByaFY5UEVzQndVZ2hLWGJjSE1hNHdZWUFUbmROQVFxUXJnMC1abENNdVAxMmxrUlMwOWU2N3JZdjdibGEtWGRuZy16S0N0a1VjbFBrclQ0Y1BTQXc?oc=5",
@@ -113,6 +125,12 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pVEJTcjlvS1EwTHRKdzk2UXowU2xxa1VWaEJ3bWdRdG1NTEVtMW1oenVWVklKQXlpcFVSU1NUUkd6SzVYdDBsR1hCNDgxb0lva3llY3ktcVJ1MWFna2c1RTlEeDEzXzNPUnRfUTNWWVo?oc=5",
         "source": "한국강사신문",
         "date": "2026-08-20T21:09:50.000Z"
+      },
+      {
+        "title": "[코스피·코스닥 전 거래일(20일) 주요공시]",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84ZXVyMzJJNVh5MXVBbzNZeDM5c0dPdkY5MU1FcFdSbng4Q2hrYzBUU3ptNkd4UjdxQlZhUk9EcUMxbXdnaE5CVUNoQjRsTGswOUE?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-20T21:05:01.000Z"
       },
       {
         "title": "알테오젠(196170)",
@@ -131,27 +149,39 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YWW5zVkI0VEtjUWFtRHI4NmxhUkEtUTkyMVdNel9WYVVMVGFGZ1NBNGxLNjVvYWxITFFfS2lNZjY4cFJqYnBlSUR1UGgzeTNKcFBZazVFSzBYR1Nm?oc=5",
         "source": "뉴스핌",
         "date": "2026-08-20T11:31:00.000Z"
-      },
-      {
-        "title": "유캐스트 등 3사 코스닥 상장예심 통과…니어스랩은 신규상장",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4yQVN1enJ1QVZTZ2h4MlVfa3ZnSWV6YUdLOGd5bUJab3FqdVVXMXBsTkhxMlhHYkpVeUtWSlhoUXROTTVnbWdFV1BHNDNoNU1meVlNcl9kZXdjU0HSAWBBVV95cUxNMldRVkxFbFBKQlgydVBVMFh5czZTLTVWT09CTmJwUG9BWGxzc0ZxY2tTVjVXT3ZzaXRsR2RROTNsTGExN1VsZ0lOb0diWjJrU1NlenA5WVJaT0h5SXlwMVI?oc=5",
-        "source": "연합뉴스",
-        "date": "2026-08-20T10:43:47.000Z"
-      },
-      {
-        "title": "\"스타 키우면 코스피로\" …코스닥의 잔인한 성공 공식",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82alNNc3VuRGd3VjIxYklKVXB0TVA4MEFWWEdLY3JrOUhoRDBOb2NOYlcwNWtxWW1kdmNIRlFlNXhOZGZNUUlHa3BVdnFoYjA?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-20T10:18:42.000Z"
-      },
-      {
-        "title": "\"스타 키우면 코스피로\"…코스닥의 잔인한 성공 공식",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZU2NKVzlLcDFydnJwVDdrT0h3aGNocFdlV1VYVDd4ekUyVHotXy15M2pmU1FIbGtzTWM4c3VnNFpFbldLelRybm9lR3d4Q3VHaFFBUmUzclVMdw?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-08-20T10:16:55.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "원·달러 환율, 1394.15원…강보합권 등락 전망",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE16b1NvZUFUanUyZGxrQlotWkoySG9Td2hpRkZVMUEyZVplb1gzQTM5QWNqaHdxa0RDVklyLWFhWFdlN2tjUEVRRHBRamVFOUJvWVhURnBBV1UtZVVJZko1RXp1ZDQ1cG03V0c0blJYMFhSTGlp?oc=5",
+        "source": "조세일보",
+        "date": "2026-08-20T23:08:49.000Z"
+      },
+      {
+        "title": "美 금리발 상승 압력·실수요 매수세⋯\"1390원 안팎서 등락\" [환율전망]",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBSNXExdlhIaUFYeEQ3V1BLMmZjSG42Tkp4UXBDbDBob3I4bWdHLVkzTVVuamZKRmdQbFNrcGJlWWYyN1V1c0J5RHhZSnFOdnR1aXNJeA?oc=5",
+        "source": "이투데이",
+        "date": "2026-08-20T23:04:00.000Z"
+      },
+      {
+        "title": "[환율] 원-달러 1,394.80원 … 0.35%↑",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBQVndEWDVQX2NqWTVNcFo3THZhbXpndFQ5Snh1bVVkbHlvOEViZ1YtdVBjQjNoczRrbGRGSGJJUzBYMVFYVEJ0RXJjdzlXOW5weXBkTm9LYWdJdjFVMmJDcFVR?oc=5",
+        "source": "버핏연구소",
+        "date": "2026-08-20T23:00:01.000Z"
+      },
+      {
+        "title": "대신증권 \"원·달러 환율, 수급 개선 속 연내 연내 1350원까지 하락 가능\"",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5mejhrTVpzYUM4WHpkci1oNFlfaHd5NTFFcGZwUGhQYWJScnMtZGVTMXltS2JCVXk5Y2FId1Q2M1VDUkUtZlF5QTFqMXpFVkV0NFlOYg?oc=5",
+        "source": "이투데이",
+        "date": "2026-08-20T22:20:00.000Z"
+      },
+      {
+        "title": "원달러환율, 11개월만 1300원대…달러예금 700억달러 돌파",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9rODJaMEltRUtTUHVpTE1JRjFMTU1uMkYzNWNESFp3NjJVZ0hlamwxb2F5aElidjZBb0djcnN4dnBMNjdpNE1ZUXlfVlZpZEk?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-20T21:54:09.000Z"
+      },
       {
         "title": "원달러환율, 11개월만 1300원대…달러예금 700억달러 돌파",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42Z1ZQdEY1LTdzZXlYalhKTm9kRk9LNTlqUGpIUU5RVHRocUFpU3p2cVY3SHRGQTRoM04wdzdqRDR3RV9BczQtQjNjMHh4U0NtRHBfeVJ6N0s5Zmo4RV9YRG5WYWg?oc=5",
@@ -169,39 +199,15 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9mS0xXMHR0NFJLVXAwSmdjMlpUXy1Xa1VWMEJqYWM3ZWNYcVFNbjc1V1JpWVZleDN3dDlBTUJRWm5RamdfZjdBNnY2TXkwUG5zTTlsbnlTZy0tWXZ1QWJUMW9CaTE?oc=5",
         "source": "베타뉴스",
         "date": "2026-08-20T13:30:33.000Z"
-      },
-      {
-        "title": "“미장했는데 1300원대 환율이 웬말” 속타는 서학개미 달러 더 사는 까닭은 [머니뭐니]",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pR1NMam5MYnhkMXFTUUhhbWtQRnJMdm1vaE05bTIyQkRpYnhJQmRBM0E3VnBsMEZXcGZ3VVk4Mk1US2RKUVdYU3RsdGRYc1g0SFVUbTdn?oc=5",
-        "source": "헤럴드경제",
-        "date": "2026-08-20T12:54:36.000Z"
-      },
-      {
-        "title": "달러-원, 뉴욕장서 1,390원 중반대 거래",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBBNFpoN2hybWp4Vl90WkZaeUx4MXVSZVBIVldOZFJBeVpSQTgteXdzUFRkbkRqdlprc2w4ZXVuTFJ6WXdiR19iR0YwMXE1eTlHRElmdFNsZlp5bDFlbE1KWXVvZlFvMkpGc0c4aDJ6MTJ0UQ?oc=5",
-        "source": "KB Think",
-        "date": "2026-08-20T12:20:25.000Z"
-      },
-      {
-        "title": "11개월 만에 1300원대…한 달 반 만에 160원 떨어진 환율",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2bmhQRkxrWGlaVzNxdUJ5dWwwM1psNi1LcV9qMnB4ak5sYUVpWlR5ekJNbFlYVkZhc3kxa0c2RkRYU294Q01oalBOS241ZHhJYTZuRVA4ZW5hQzJtekZlS29reHI0dWpYRlZJ0gFvQVVfeXFMTlZjeHZKdmlrRjJndHZSR05XcTI1VEJRV0pNTG9DM1o3b1c4UGFoUjZZeGgyMzU1XzRPaUhUbnNzbHQyRnJHMXV1b1lmUVV2cTVtRXpwRk93ZDdaNUlkMzNUZTQ5ekFJWHN4M1ZYRGM4?oc=5",
-        "source": "서울일보",
-        "date": "2026-08-20T10:05:00.000Z"
-      },
-      {
-        "title": "한달 새 160원이나 뚝... 원화 환율 1392원대로",
-        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdE9VNkNJRXBSVHY0Z1FXYlBMb1VpaEtnZEhQQ0p6V2tMd05aMzd3UHhMb0tQc2hRV09WdU9TNlRGTkxLb3pJQTMzX2oxTTZfeTIyWHRKVm5sbGpxZmZfTEhMRnlCckNZR0tMZk9rQm1uYWNoTjV0M1AyOFBjZzk2OVM1TXhoekc0bks4MHpB?oc=5",
-        "source": "조선일보",
-        "date": "2026-08-20T08:44:57.000Z"
-      },
-      {
-        "title": "오늘은 1392원, ‘하락 사이클’ 탄 원·달러 환율···어디까지 내릴까",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tOTFFYllBNFRtWlZId2w1S1R4RXVDOTVTOVVUaFpNc0lpQWxZSElYRFhDQWxPNHFEYmg1TEhRQU5FLXdGSVdCVTZGZTBoTm1SbTBDdGw5aUFZQdIBX0FVX3lxTFB5MnJxTTNnSUVCbnhSd01wYkozOHczTzdJZV9nbjIxemM4QlNjTlIyd2lBaFpFV0p4bllOa0Fwc005ejJndG9VWmNWaWprdXQ4ak5qeEFsVWx3THBGeXNj?oc=5",
-        "source": "경향신문",
-        "date": "2026-08-20T08:27:00.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "뉴욕금값, 베선트 '미 국채 바이백' 발언에 상승…0.6%↑",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HTTh2VmNkTHRfWXdqTndpMkpuUks3eEZ2RnhsNlM5blVpQXoyUXIyOXNpbVNVNUV2emR0Y3JYNW9vU3ZKTF9JZEZpRlRRdEJ6bkNF?oc=5",
+        "source": "네이트",
+        "date": "2026-08-20T22:58:00.000Z"
+      },
       {
         "title": "오늘의 금값시세(8월 21일자) 금값 \"2026년 하반기 전망은\"",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnOFZyY0Rsd3RzLUhBRUZwOWxIMVY0TW9zS1E5SGZNVFlrdy01RWRpWVRfR2F0WllVdVV6X2MteV9UcDZ3V3RMeWM1bHVpUm8xV19sQ0FpcDVtWUNwZDJRdjRCZjBvOUZyaUstd2J3?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBnUWZlVEp2SWVocmF6WTB1VHZWeHNyUjIwT0VaMjFzNFJ0ZC1uY1IweEFsY3RWbVY4ZkpMa2dSTW9yd0ZDbjY4VElRSC1wSDJ6T0t3Nm1ZRVZ1Tl9uOTJ3YUxOWk5NSWdn?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-08-20T02:33:31.000Z"
-      },
-      {
-        "title": "2026년 8월 20일 오늘 금 가격: SJC 금 가격이 급등하여 온스당 거의 400만 VND 상승했습니다.",
-        "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUjNsZTNmdm9zaFBZMnRpYmZHQll1VGxKZjR2dTVQZkhWM0NBWW9xRG9UaHlvdXd0NFR1VXhlcmZjc3BfRmJ4WGRQREo5Q2wwalFpX2dGMlhlZUZlYjdwZTJxakVfSzBUSnhreTllVkFUalFBaEEwQlg2Z3RyeUliZnpvY2pVZVRVaFR3MVBfd2JrMEtuNFB0emE1STlrWnM?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-20T02:22:20.000Z"
       }
     ],
     "energy": [
@@ -333,12 +333,6 @@
         "date": "2026-08-12T07:00:00.000Z"
       },
       {
-        "title": "[숏폼뉴스] 2026년 8월 첫째 주, 주요 경제지표",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9ta0dGZm94cl9XREJ1eklKd21KblRoVVNVbEFCLTZ3MUV4c25mSWE0Nk0wQXI1N1c0MXVPMWlNV01MQ1M2VlAyeF9CWDNvNHM3YzdMN0FDdFpHSXJmYUpqTk43SFMzbkt0Q0oyaUJHRQ?oc=5",
-        "source": "기호일보",
-        "date": "2026-08-08T07:00:00.000Z"
-      },
-      {
         "title": "[2026년 7월 월간 주요 경제지표 변화] 7월 코스피 22% 급락…美 금리 상승에 국내 증시 직격탄",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lRTV5cEZPNVFTU2tYUFk1T1R1WTB0RDgxQ2RvNGRLdjZvdjJDekZTSDZTWG9VSzloNk9TRDk0bzl2MU5tNHlUWFYwOGxMd0tENVlRWWh2c1RBSTl4ejE5TlJIS21jSzEtLURiVWxiOA?oc=5",
         "source": "기호일보",
@@ -348,6 +342,12 @@
         "title": "“美 금리 인상 여력 커져… 韓, 환율·증시 충격 대비해야”",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE03eDZqZXZtOEM0NFpYZzZic1pRVUVoSXUyY0dDMGtsZDFHTWNtZnYzQ1lFaldNcWdFSkVYVzBGdXZzbmFuLXBSdkU5dEZZZlVlclMtcl9GbVdLNFVvQUxudk50VDFxV2Y2THdxZFYwNktlSnc?oc=5",
         "source": "마켓인",
+        "date": "2026-07-13T07:00:00.000Z"
+      },
+      {
+        "title": "[하반기 증시 전망] 코스피 최고 1만2600 전망…금리·환율·중동 ‘변수’",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5xRWl1SzlwdHA5UVRTcUpBUUZwSmg4aWlaMThzSVNoMVlBMDZMd3pheXZJRVNIb2ZnQjlrMVJpM2FzLWR5Q1YxN3NmNDdHU0g0bEJHSmFZVEpYT2s2Z1Raajlra19DMEdSMlBzaXNZSFRPS1E?oc=5",
+        "source": "대한경제",
         "date": "2026-07-13T07:00:00.000Z"
       }
     ],
@@ -403,10 +403,28 @@
     ],
     "realestate": [
       {
+        "title": "5년 만에 최대폭 뛴 서울 아파트값…대출 규제에 '15억 이하' 거래 80% 돌파",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9mWlZBc3l5TEFTNjZoNktkcnhNUmJweHFIQnl2cDZzRXVCVF9kOVo0Njc5N1RwN3VKS25vallDbVpZYVdoQktmTDV3WE5yV250ZFVWdXhyb3VYWi1tYVJyZG5SQ2czdFI2cHc?oc=5",
+        "source": "네이트",
+        "date": "2026-08-20T22:44:00.000Z"
+      },
+      {
+        "title": "6월 서울 아파트값 전월比 2.5% 올라, 5년만 '최고' ... 전셋값도 1.28% 상승",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBWUkZHMjdhZ29udE5ydHJmVVpfVEp1UUh5SVRVQTV1M1JqTnFuQ2REZEpYSDF0eHM3RnM5TVIza1NYSHhfMHFYZDJFVU9lVVJLR1l4REFNWXVaSjk0SUtOSTE2T3hsU1cy?oc=5",
+        "source": "Queen 이코노미퀸",
+        "date": "2026-08-20T22:16:00.000Z"
+      },
+      {
+        "title": "6월 서울 아파트값, 5년만에 최대폭 올라...동북권과 중대형평형 가장 많이 올라",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMakotQUNmdFpza2Q4dGVjRlZMWUZVa0thVE5MVFBmZTNFeHJKejVhUU9XY0NJWkNCWXpySDJCeDFRdndiRWw4UTZNRnRmRWd3SGJHbkFScUx1bDdXSEYtUzRRUU1qeV9fN3k2VlZHYWRJVEd0cF9DMVdid1k?oc=5",
+        "source": "비욘드포스트",
+        "date": "2026-08-20T22:15:42.000Z"
+      },
+      {
         "title": "서울 아파트값 5년 만에 최대 상승…6월 실거래가 2.5% ‘쑥’",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxTl9vbWFiRm1mR055ODgzR0kzTkkxUmxBZUlHRTVjYkRaY1ROZGctSXJXcDFKWnJSOTE0UVo2NFV5ZUFhQ2VqbGZYMGtKVE0?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-20T21:52:10.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5qRXA1emR3aWoxalk4NGo0dlFqQ0UzbGJaSUZEWXhsOXlkWkJhcmpocTZUcVlKX20tNURNQlFqS2FVWVVaTzBzQUU0Vmpyb0Q2TnVpRlVYdlJuMUU?oc=5",
+        "source": "경기일보",
+        "date": "2026-08-20T21:52:05.000Z"
       },
       {
         "title": "6월 서울 아파트 실거래가 치솟아…5년 만 월간 상승률 최고치",
@@ -431,24 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JOUhwS0YxUjNWRnBjbVFyRU1CZEh5WEZSWUFRX2JUSmV3MXkxbS16TGNIUjN3NTNQdzBLX3JZNEF2M0dxa1VHVWg1NDNnNk1wOG55dS1R?oc=5",
         "source": "매일경제",
         "date": "2026-08-20T06:18:30.000Z"
-      },
-      {
-        "title": "서울 아파트 거래, 절반 ‘10억 미만’…실거래 중위가 9억선 형성",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qcVNzYjdnRHZMaW9rU3pXUWFQMTZVb2hvZGtLZGlaLWk5d1l0QXlKQkVDcUh5TTNFS0ZIMVFHbnhyYmRUelFycG4xUjZObVpMUjl5d2dYN1JoX3dfN1pqYUt6Sm41UW0yTHc?oc=5",
-        "source": "금융소비자뉴스",
-        "date": "2026-08-20T05:46:06.000Z"
-      },
-      {
-        "title": "서울 아파트 평균 13억 시대?…실제 거래 절반 이상은 10억 미만",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHNkN5VXVvdjFXaTRnVFIyS3owZmVmRUtqMzVFZ3dhVmg1WjdLdGczNFlha0hrV0VLM0gwTHAzYzhvMDVUWmxwcUpHLWp3aGRoN1ZZMdIBVEFVX3lxTFBHNkN5VXVvdjFXaTRnVFIyS3owZmVmRUtqMzVFZ3dhVmg1WjdLdGczNFlha0hrV0VLM0gwTHAzYzhvMDVUWmxwcUpHLWp3aGRoN1ZZMQ?oc=5",
-        "source": "segyenews.com",
-        "date": "2026-08-20T05:29:27.000Z"
-      },
-      {
-        "title": "“평균은 11억 넘지만”…서울 아파트 절반 ‘9억원대’서 거래됐다",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5hT3ZUaS1GQUtBLUtaNEJHS1BIM3VhaXp4SGJpLW83YlJFWE1qYVV6djJHZWhieF9lRTgzbUh4VkJfdXFYZDNUdEhfbmI0dWdUUkE?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-20T02:08:34.000Z"
       }
     ],
     "lotto": [
