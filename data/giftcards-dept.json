@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T00:21:46+09:00",
+  "updatedAt": "2026-08-21T01:18:51+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -15,8 +15,9 @@
       "name": "최고상품권",
       "site": "https://www.choigoticket.com/",
       "url": "https://www.choigoticket.com/html/sub0101.php",
-      "ok": true,
-      "count": 11
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403 https://www.choigoticket.com/html/sub0101.php"
     },
     {
       "id": "mingren",
@@ -124,138 +125,6 @@
       "buyRate": 3.6,
       "sell": 96800,
       "sellRate": 3.2
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "롯데",
-      "label": "롯데 상품권 (50만원)",
-      "face": 500000,
-      "method": null,
-      "buy": 482750,
-      "buyRate": 3.45,
-      "sell": 483250,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "롯데",
-      "label": "롯데 상품권 (10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96550,
-      "buyRate": 3.45,
-      "sell": 96650,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "롯데",
-      "label": "롯데 상품권 (5만원)",
-      "face": 50000,
-      "method": null,
-      "buy": 48275,
-      "buyRate": 3.45,
-      "sell": 48325,
-      "sellRate": 3.35
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "신세계",
-      "label": "신세계 상품권 (50만원)",
-      "face": 500000,
-      "method": null,
-      "buy": 483750,
-      "buyRate": 3.25,
-      "sell": 484500,
-      "sellRate": 3.1
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "신세계",
-      "label": "신세계 상품권 (10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96750,
-      "buyRate": 3.25,
-      "sell": 96900,
-      "sellRate": 3.1
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "신세계",
-      "label": "신세계 상품권 (5만원)",
-      "face": 50000,
-      "method": null,
-      "buy": 48375,
-      "buyRate": 3.25,
-      "sell": 48450,
-      "sellRate": 3.1
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "현대",
-      "label": "현대 상품권 (50만원)",
-      "face": 500000,
-      "method": null,
-      "buy": 483000,
-      "buyRate": 3.4,
-      "sell": 484000,
-      "sellRate": 3.2
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "현대",
-      "label": "현대 상품권 (10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96600,
-      "buyRate": 3.4,
-      "sell": 96800,
-      "sellRate": 3.2
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "현대",
-      "label": "현대 상품권 (5만원)",
-      "face": 50000,
-      "method": null,
-      "buy": 48300,
-      "buyRate": 3.4,
-      "sell": 48400,
-      "sellRate": 3.2
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "국민관광",
-      "label": "국민관광 상품권 (10만원)",
-      "face": 100000,
-      "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96800,
-      "sellRate": 3.2
-    },
-    {
-      "shopId": "choigo",
-      "shop": "최고상품권",
-      "card": "백화점 공통",
-      "label": "백화점 1만원권(롯데,신세계,현대) (1만원)",
-      "face": 10000,
-      "method": null,
-      "buy": 9500,
-      "buyRate": 5,
-      "sell": 9700,
-      "sellRate": 3
     }
   ]
 }
