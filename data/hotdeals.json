@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-21T03:18:57+09:00",
+  "updatedAt": "2026-08-21T04:21:48+09:00",
   "deals": [
+    {
+      "title": "라운지이벤트",
+      "mall": "네이버페이",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106529",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-20T19:17:32.000Z"
+    },
     {
       "title": "무표 물티슈 82평량 *20팩",
       "mall": "오늘의집",
@@ -561,17 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-20T00:48:33.000Z"
-    },
-    {
-      "title": "NS2 포켓몬 포코피아 익스팬션 패스 예약 판매 / 39,900원",
-      "mall": "겜우리",
-      "price": 39900,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106498",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T00:00:01.000Z"
     },
     {
       "title": "8월 20일 네이버페이 73원 + 랜덤 포인트",
