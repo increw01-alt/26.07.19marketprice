@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-20T16:30:47+09:00",
+  "updatedAt": "2026-08-20T17:21:52+09:00",
   "topics": {
     "coin": [
       {
@@ -41,7 +41,7 @@
       {
         "title": "BTC, ETH, SOL 가격 뉴스: 비트코인 $64,000 돌파, 주요 암호화폐 대부분 하락",
         "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZHlDRWFJRGFzbkNkSzA4ZXpWWmJIaEhxeDdoQThnenhydTdQUE93eGJrbGlqaWdqcHUzUzFNaXg1VXhhSjkzSUZHS1JnY1FaTHd0MDBWcTlTMlBkZmZhN3VCdk1wSWhIZkRjOGxJcEdQY0p3ZWgxTHBkeEF3OUtFb3E3a3Y2azBsRzN6UE5MZ1RSZHJULTh6cDJVT2N4WWdxSmc?oc=5",
-        "source": "CoinDesk",
+        "source": "coindesk.com",
         "date": "2026-08-18T04:32:38.000Z"
       },
       {
@@ -53,55 +53,91 @@
     ],
     "stock": [
       {
-        "title": "코스피, 반도체 주주환원에 6850선 마감",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0cWdIRWlYNmFDdnFRbDZnNE5tMEV6elpxLWc3ZWNSbndKSjZ3RjQtZnh2bmFiQTVYVWhZRHUySVE1bFRUbFdpQi1WQllIM1NCMnhHakVXNTNURTVzZWZFbGRqZWhmdlFIeG5kOdIBcEFVX3lxTE5KYUJSWDBkNTNQeVdhVEJjcjNCZXlTY2YzcUl0Z2lmWF9DbE1wd2ZpLVRtWHQ4WHhfVVFVUVgxbkVxUVpBZXh0YzB6TDV5WEhFekdTOURyYnRQSE5qV0N6dHZSVmVGRXdldDBJSzI1T0s?oc=5",
-        "source": "소년한국일보",
-        "date": "2026-08-20T07:15:56.000Z"
+        "title": "SK하이닉스 40조 자사주 소각 발표에 코스피 5.89% 급등(2026.08.20)",
+        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaFJpb3dramo4ZTZ5MzEzbUNIb05ZV1ZrOFJDcWNyUGpiQ1FhbG01NTJCSHpjMlRCbzc1T25iMG8tcGxWQXpXZGozSEQ3cVV2Sk9WNWVmZnVGTGxGdkI2dG0wY1RrMlZhSXkyOGFXZkMzSkw1MEc4djZDbUh5ek9HeHpBSE1YbTg2TkE?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-20T08:04:00.000Z"
       },
       {
-        "title": "코스피, 외국인 매수에 6800선 회복···삼성전자 8%대 급등",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3Ynk5ZExnRDR1WjU3MUVmcmZpcjNuQWt3dGdBS0tKWlJFUDdZUVRCSUVmaGx2ZHZEcG1lTzM2ZDhrZjFyU2RKU3pHa3diM19QTGxRSUdVTWpDaVh5dFAtS2xMbkxKcWh3TVlJYQ?oc=5",
-        "source": "스마트비즈",
-        "date": "2026-08-20T07:10:18.000Z"
-      },
-      {
-        "title": "하닉 주주환원 시동에 증시 '환호'…코스피 5.89% 급등(종합)",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sb0NWSFQ3aTF4M2dwVW5mSVl1SkJmSDVrcl93V3FXc09PTllXY1NrZTJwTmJZRER5TmJzVDEtZVZ1bFFlLVNodVJ2emVXOFU?oc=5",
+        "title": "[증시 인사이트] 하이닉스 주주환원이 이끈 반등…코스피 곧 7천선 도달?",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE82T0hqRm1IdXIwUlRyUG92MnR5UldJUUxORFI1YWx2Q3k1MHRXeU1PNU1jNEJGSEF1T19YdVp1V0F5bjRBRkxLd0t5bkJwVGM?oc=5",
         "source": "v.daum.net",
-        "date": "2026-08-20T07:08:57.000Z"
+        "date": "2026-08-20T07:49:18.000Z"
       },
       {
-        "title": "[마켓뷰] SK하이닉스 주주환원·美 국채 바이백 효과… 코스피 5.89% 폭등 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVS1OSXRvcGlwOURac1VDVEI1SktGSGRHOWg2WDFXOUpuZlFrYkg0eklTdVVGX0l6VzBCMkRVRmkyTkVxam9RcEticVBfMWJHbTV2Z0dyeDV2MmFrT28ybG8wZy05d0hFLXVOTkdzN0RhSnlmRkJpdzdJMGN5N3lnY2gyVFpIRUVk0gGcAUFVX3lxTE9xbXoxVElxdDBLcnFOZEs2UVVPdVVKb3lucjdvZ21aendYZkxubk9fZmtXand6WFBYOE1HalIzNEZuVnR1cER3QUpCY0pnN0FlSC1DVHcyVkhtSjE2WmFzZVZpOFhLaG9VV2dMSnJKaFEta0pSc1laTV9hWi03YjIzdmZ2WFA5UGIya2lsak9nUWEyZDNTQk93WnFCdg?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-08-20T07:08:00.000Z"
+        "title": "코스피 5.9% 급등…SK하이닉스 40조 주주환원에 반등",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WRDJyQWdwN1ZlSFZrcjdYV0JZWkhib044cUlzUXNPdVl0MldLbHlaMlQtbTRMYXpqOHg1UFBLYkVwR2EyWDB5WUhCUUY1cWRyOFZna29uRDd0ZUt1eDZSZXE3ZnpKdzhPXzRBUlRYTzQ?oc=5",
+        "source": "코리아리포트",
+        "date": "2026-08-20T07:48:17.000Z"
       },
       {
-        "title": "반도체 '불기둥'에 코스피 6800선 회복…SK하이닉스 12% 폭등",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBTc2dLazQtZ3ZzYUV0NHJ6em40Vml5dC1qU0lHSWJmanJQNFhWRGVDeFBMSWRKR3hOSExMU0Y4WWsyYW0wQ3h6ekc5YTVnY0ZFM3Nmd3hIVjFPVDlLb09fNtIBeEFVX3lxTE54elMxOXJDb1phdWtGOC1CUVdmcXZJeXRCRmxBTnR4amV5Z1ltSzVkS25CR2htU3RjOXdzLUFUbTh3US1tWmJyNEVDcm8xcjBfQWtqOHJSYV9GRXlTdFBDT2JKOUpnMy1uZmlEaE5zZFRIUnN2VkZqYg?oc=5",
-        "source": "뉴시스",
-        "date": "2026-08-20T07:05:13.000Z"
+        "title": "SK하이닉스 주주환원 기대, 삼성전자까지 번졌다…코스피 5.89% 급등",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1XOFFWMVFqNE1ZcThZQjdWU1VaNnFGYWlmQWVJazRTcm1VUk5QeWotX2pQYzgtWHJCUTNhNmZ3bXNJXzdSb0psTE1ESmlVakJrMDdhV2NfYmdzQ0JiWUhQdVlXM2Fpc1Rxc1NqSw?oc=5",
+        "source": "굿모닝경제",
+        "date": "2026-08-20T07:46:32.000Z"
       },
       {
-        "title": "[ETF 시황] 코스피 급반등에 반도체 레버리지 ETF 강세",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBKU2E3WVhZM3JWb3RBNzVDX0s2dDlhMWpuSGoteGFNVGplWl9YTXVVSTdOdmU5UEhydGU0S3VNZnJPLUFfOU5MYWdoMnRqMHg0MmZxakNNU0Q4UEth?oc=5",
-        "source": "뉴스핌",
-        "date": "2026-08-20T06:57:00.000Z"
+        "title": "하닉 주주환원 시동에 증시 `환호`…코스피 5.89% 급등",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCMEFFWHdOLXdLcEhUVURFUlJyTFFyVEZOV1FoQTEwMEVkSnN6Qk5rRjNSZi1OUnI4QUNfdTdhZTVGVTQxMGlrS0d5cmpXZHBmQ0M3SENoVUNPVXNfcVFKQm13?oc=5",
+        "source": "매일신문",
+        "date": "2026-08-20T07:42:30.000Z"
       },
       {
-        "title": "하닉 40조·삼전 100조 주주환원 '서프라이즈'...코스피 6800선 ‘껑충’",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBXRGRSOXpZSzAybGtnNUNkcVhTRzhPM295cG5PZ1lyajJuZTJrOC1fRW8wR3Z2ZzhpbkNGaF9hNHdCMUZ1Rlh3eU1qNFBRaXhTUTQ0eVJjWW1mOHBvd24tVE5lUEpsVEtTSFAwN3JsRdIBc0FVX3lxTE9mX1pmd3Q2aTdLZjZhejV3ZTFWNkw0Ykc4SHNXaUY2SGFhZ2Iybzc2bXJzWURXZlpVWUg0ZDJwamM1WE5sWFZxSi0tQmE1cEd2TndFclVsSWVPTHEyU01jS0hhbFJ1cGlCTnZHeW0wTVUxUDg?oc=5",
-        "source": "daily.hankooki.com",
-        "date": "2026-08-20T06:56:03.000Z"
+        "title": "[오늘증시] SK하이닉스 자사주 소각 호재에 코스피 6800선 회복",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE44MkFWdVdNeGVyYVgweE1lSVJGbUZMOGJEd1dYUzF2bUFqTndSY1dtME5kUElZVDZBb2FVQjZhRHRiVzVuTDlWZDNkMU1GSldvMkpkVzRvM3RfdWZZUERObzc1LURfM0Rj?oc=5",
+        "source": "Queen 이코노미퀸",
+        "date": "2026-08-20T07:38:37.000Z"
       },
       {
-        "title": "주주환원 약발 먹혔나… 반도체 강세에 코스피 5% 껑충",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BY3g2UjRpY3VIX21mRWxMUjVMUzYtVG9kUDloeWs2bjB1QXVfd3FMMDQ1bzUtYUpMcEh3ZjZtTWlVcGRoMkVlUFRRRkxRcVlZTEtWTkVLa1VHejRhbHRrSU1VZ1lEN3BUcnJFWTNCR3jSAXRBVV95cUxQWldGRzhiNXZMbzgzZHV6VzdZd05hRlM0OFhfMXZLOWI0LWtkUnFPaHFhYUdKMGhUZ0UzWVhHQjZWazNFQ21oV2lrLVhWNmtEdUZNUGo5bndGRzdLdE4wTFNCQS1GUW1OQk1ISERlYzJGa0dVZA?oc=5",
-        "source": "IT조선",
-        "date": "2026-08-20T06:52:54.000Z"
+        "title": "코스피 5.89% 급등···외국인 전기·전자 대량 매수",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9GZ0NHSGs4WlI1MVlpMm5KSXJ1VUJQOXplc1hZcGFVVE8yeDZUZkNzVGVDd3NFUWpVV0hFUXhXUER4V0pvWGpJYVNiWVdlZ2Zfb3FSN3ZWT1hrUjc3Mmc5bFEtdXFqOV9Fa3pIY0ZB?oc=5",
+        "source": "더리포트",
+        "date": "2026-08-20T07:37:31.000Z"
+      },
+      {
+        "title": "코스피, 5.89% 급등하며 6,852선 탈환… 미 국채금리 진정·SK하이닉스 호재 연타",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9mVDZ4NjgwczNobFh4MVF1YlNNRVZuaDFIc08xdHRBeThxLWYzdzJzUlBRTXRfblcwcWdiSDFTSm02Uzg2dzlidGVKNnE1SEh3TGpmek9nOWdlOXB3U2hOeA?oc=5",
+        "source": "theconnectmoney.com",
+        "date": "2026-08-20T07:35:00.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "‘인도 대안금융 강자’ 어피닛, 코스닥 상장 도전…예심 청구 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMlUxX1BOa09PUi1JZXp0UWlWS21WWksySVdwajdzakdDamlKZDlKOG9FOVZrQWJpTFRFWGFTRm93WEVIcjFackFrT2lFQm96NzdOZ3JZMEpwejlpVG8tQVVMYXhBSUh2OFFPcXJyV3Q0S0ctRjNUblZYdEVDcWdqUG45ek02aXl30gGcAUFVX3lxTFA3ei1nT3hQQWdEZGlMTG1IY1Z0SG5yNkJ4Q01qemdNZ1UwcGZrWDlibXFqdk5YRFllSmpFRG41d09xX2hsZHJILVZuSTkweE10NzI4R1J6OXYxSHE3R3NqOXduNWFoUEgwOHJwakVmVkUybmtSRHpxYnRvdDlSTzlEdWJGd0g4RzFFR1lxMm51SUJFSUVGbEItc29Bbg?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-08-20T08:16:00.000Z"
+      },
+      {
+        "title": "반도체 '불기둥'에 코스피 6800선 회복…코스닥도 2%넘게 올라",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4Z1dxemJEUEwxVWRGa2ZLT19SbHNMeFAzMmtxRFA2VWxwMEJiUkdrbHNTWEZxVTZWdmVWSUJWTmtRS2JkcUc5dHYyVUt5VWdKNjNNd01ZZkV5SFJJRVlHTg?oc=5",
+        "source": "증권일보",
+        "date": "2026-08-20T07:51:27.000Z"
+      },
+      {
+        "title": "기도산업, 21일 코스닥 입성…기관 흥행에도 확약 ‘0%대’",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBuVXhvNFd0S2EtV1VKQ3ZTakdFZ0x5MUI4Q3B2bjUwUVQ1OGNvdS1xc1RwTDlUZ0IxNW5LSm9kN3RiN0xGa0tFNWtOZ1JWdUJFYkl6Y1J3QkdrY2RkNG9nRXc2bnU?oc=5",
+        "source": "매일일보",
+        "date": "2026-08-20T07:44:03.000Z"
+      },
+      {
+        "title": "코스피 5.9% 급등해 6,852에 마감…코스닥도 2% 상승",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9OX2FiYTgxYlZCVFNaWjhNMW5YbWJnSDNwWGJEeTc3bUd2OU4tMmZXaV95cFJ4N2JBY2Z2dGtxa051a1QxOUp5aktKMFItS1hqRnc?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-20T07:39:05.000Z"
+      },
+      {
+        "title": "주주환원發 반도체 '불기둥' 소부장으로…바이오도 뛰며 코스닥 2%↑",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE50ZDVxa05tMWxYYVZ3R1g3VGdXU1EzcVpJRGFBVlBHVC1xTkVVU2hEcG5NZlJmZFc0MjA2cUVqWjFYYTJBNTJWTjA2dkdrb1k?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-20T07:26:51.000Z"
+      },
+      {
+        "title": "코스피, 美 국채금리 진정·반도체 강세에 '6800선 회복'…코스닥 1.99%↑",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HT0F6U2U2N3RkdmNhdFlqVjJDcFZuYmhwTi1lU2lVRjNxenVrMXJoQjBMdHI2WGhVMWpUZU13d0d3emxSeWJlWXBRbHM4cDJwd1g2d1VVa2NSTGV6bm5BYg?oc=5",
+        "source": "프라임경제",
+        "date": "2026-08-20T07:20:04.000Z"
+      },
       {
         "title": "[장마감] 코스피 5.89%↑(6852.58), 코스닥 1.99%↑(840.89)",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMNFJxWkU4R25LalBNRmhwNkFGaHFGc0ZHNlZoNE5ka3BiUFBoMEdST0pOQnZsMlZtRXlLd040QkNaVE1UOHNjdUpRRzB0clJkR1NyRnBDS0Y5S0FYSVcteEFn?oc=5",
@@ -109,99 +145,69 @@
         "date": "2026-08-20T07:14:27.000Z"
       },
       {
-        "title": "코스닥 시총 상위 바이오헬스 절반은 적자…R&D 노력의 그늘",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE13X0NOOXVRUVEtMWdrY2FkNnVOVWVUd3FYbXY2YUpIV3hhQzZ1TFl3YmNfOEwzSDFZaUVSY3RVcmN0SXVlSlhSaUhYZ2c2blRf?oc=5",
-        "source": "데일리팜",
-        "date": "2026-08-20T07:14:03.000Z"
-      },
-      {
-        "title": "[속보]코스피 5.89%↑6852.58 마감…코스닥 1.99%↑",
-        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5QNFAtc2FTeFo5TUtSbkluQThFcEpHZm1FNm5Wek9ibDQ0TUNvMlNXc3oxa2lGRk00MkY3amdqeE5EeHVDc2ktYlFPWFowM012am5BV3Iwbk9zai1QOERVMkNDdjgzTGp0UjU1LVU3aW1jR3NMVmhKemtzQQ?oc=5",
-        "source": "이데일리TV",
-        "date": "2026-08-20T07:07:49.000Z"
-      },
-      {
-        "title": "코스닥 바이오株 잇단 급락…대장주 악재에 투자심리도 ‘휘청’",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8wcGU4dmU4WjE0MUQwb21lVkc1dGVmZHhDVEZlOVF0dExsOEJkZXdNR2Rtd2RIeEp0RVExVnA1Q2ZtQlJoYUhBNVNUVWhtWl9iR19fZFl3?oc=5",
-        "source": "르데스크",
-        "date": "2026-08-20T07:07:00.000Z"
-      },
-      {
-        "title": "코스피 6,852.58 마감…코스닥도 1.99% 상승",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5QczlGS25uRkpIRm9TVE5JS1dSdG83ZFA4MlVrQ3IxYlNvS0NYcDl0eTJCYXEyTVVPckV2YlU4ZW5nZTBvM3k5dUN0Si1DR25tMW9WU3Y0WXo5V3Y3cnpqWWhUUV9KRlptT2xyYTZpdw?oc=5",
-        "source": "마켓잉크",
-        "date": "2026-08-20T07:06:30.000Z"
-      },
-      {
-        "title": "코스피 5.9% 급등해 6,850대 회복…코스닥 1.99% 올라",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5PaHF0cFNPOVQzeVBjakRfUFliRkwxSHJwbXAyMk83Qy1ZQkxGTkF3ekdTQWJWLWJVZFRyakhWVU45V25DVThHNGxFSFZPZFluUjR5aHBfdlRUXzRENHJHZDUxN3hUb1RSVHgw?oc=5",
-        "source": "BBS불교방송",
-        "date": "2026-08-20T07:02:49.000Z"
-      },
-      {
-        "title": "코스피 5.9% 급등해 6,852…코스닥 1.99% 올라",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoU0dDT1JSNnR3ZjZaaTFlNWdza2tHckxIRThhOGo0SEtZVk5GQ20yLVZ1a3FVS0FCX01vRlBxd3Rla2lWLTFIV0pobzNPVmlpNzVSdlhTd3phTHZWVnJsMVZSQm9QekZ3WUNBaFpYVdIBc0FVX3lxTE1TUHdUQkVIajhQQVlRakMxSHNIM2VfY1hZcmZycDRMYmNTT1J1REMta2ZrODlYOFktWnlabXg2SEdNTHBqcnFYMDZyWXo3ZXNHWGJVQ0x0OVIzUVY3SUVWMUdubkJXVDVpTTUxSE9Nam5zc1E?oc=5",
-        "source": "daily.hankooki.com",
-        "date": "2026-08-20T07:02:05.000Z"
-      },
-      {
-        "title": "코스피, 코스닥 동반 상승",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9WMl9TSklCVmpTS3JScFAzNndBM29xMFJ5bW5BS0ZOdGJBZ21iSm5BWkVIMkNQeEotTGlFUUdhOWlqM2c2bXNfQ1RLaDJkbm9aY1BsSE44LXNiN1NMdWtjdnYtRFYwdw?oc=5",
-        "source": "뉴시스",
-        "date": "2026-08-20T06:55:18.000Z"
+        "title": "자율비행 드론기업 니어스랩, 24일 코스닥 상장 [위클리 마켓]",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91RkQ0bWxScW5vNzhDYTdmZU1qUTFzR2IyOENwQS14U2JCYldaUXlIb2MwdkJwYXBLeWpkRW1EQjcxdVZjZVFfR2NfNGNsQUdBMmVpWA?oc=5",
+        "source": "매일경제",
+        "date": "2026-08-20T07:14:19.000Z"
       }
     ],
     "fx": [
       {
-        "title": "환율 1300원대인데 수익률 지지부진…‘원화 강세 수혜주’ 언제 웃나",
-        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1UaE8wRHBuT2c0c3ZsMDVpVEtaemRnSGN2Q0ZoRGI1dzM1WlZfR2R3cWNwMGFOUWF6S2hNUDJ0Wjh6SlVGR09YSDZfeG1BNFJKYTFCNTBxb1BGc2MxS0JzeEp3?oc=5",
-        "source": "에너지경제신문",
-        "date": "2026-08-20T07:23:18.000Z"
+        "title": "[외환] 원·달러 1392.6원 마감···반도체 환전 기대에 5.1원 하락",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yellfTDZFRHhWbHpJc0JQQzBrR0ljaVVuSFA3clk3MklndXlxU3V5OFQ3OFhRdHRMQXFiWVBYM3VaaklSUFBNMlBleW1Tc3VlcWJvTUdTUHEwMDVCLTNnSGhNYXM0Wk0?oc=5",
+        "source": "자본시장뉴스",
+        "date": "2026-08-20T08:05:31.000Z"
       },
       {
-        "title": "원·달러 환율, 이틀 연속 1300원대…수출업체 달러 매도·弱달러 지속",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyVmk0UFpoV1ZqSlhSamx4MXhaMFAxVmpfMk82TUZ1bncwUHNySXZRenc0eloydHlIQ1F0RHhxZXFBS2VJbWQ0MjFfQW9ibHJ5NU9HdzZPMGcyZ0F4RnlXZg?oc=5",
-        "source": "아시아경제",
-        "date": "2026-08-20T07:12:40.000Z"
+        "title": "지난달에 달러 샀다면 현 수익률 -10%…환율 급락에 떠는 달러 투자자",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JRlNvWldhM2NoT1oyWmFjeU1rU1FxcGJIVjM3TjR3U1M2Wko2dVBoMGR3MUtLUXc3djRzZkc2WDFhN1FFcFNBbFpTYnJBX1Jvanc?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-20T08:04:51.000Z"
       },
       {
-        "title": "수출업체 달러 매도에 달러 약세까지…환율 1390원대 초반",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBaWjRTZ1VIR295R0J2LU8wbFhaX2ZlUWYxNU5pUzN2RnpDM2d4UjAydG9KdEhKdHhidE9FTHlkaXZ1NkdKWFQwakQxODg5Nm8?oc=5",
+        "title": "원·달러 환율 11개월만에 1400원 밑으로… 지역 수출입기업 '희비'",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE10V1ZPRnVtS3hLLUFTUFl6T0JqRldsTW83b0dhR0pSb3ZhYzYzR0xRZS1qR25GcnNHbWxoRDVVQUt2NVkxcGRFMUkwOHh6M0U?oc=5",
         "source": "v.daum.net",
-        "date": "2026-08-20T07:10:11.000Z"
-      },
-      {
-        "title": "환율 1300원대 안착…한은 ‘백투백 인상’ 명분 약해지나",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1CbVNMbGRsZHczUkpFbWxQVThBN0J6VGJ0a0RGM0EwbmRzS3ZhRlFYRG9ET1dzMW40aG1TaG1ucTZfYVl1ZWxtN3Bxd2JHQXc?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-20T07:07:07.000Z"
-      },
-      {
-        "title": "원·달러 환율, 5.1원 내린 1392.6원",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9tajc1dlpOcGJWWFB4Tmt1ODFGdmw4eXFPcHpOUUtFWUZ1dUtpamNBTWUwQldsNXBuS3RjUC1nMlJKemd3QUpxNmFiaVpvR1pvZWh1QUtGYVd6WFc2XzhtUk5LOWdGajNpRzhEay10UEZvRThv?oc=5",
-        "source": "조세일보",
-        "date": "2026-08-20T07:01:14.000Z"
-      },
-      {
-        "title": "[마켓+] 11개월 만에 1400원 하회한 환율···1300원 중반 안착 시험대",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1nMzUwbGQzVWhZTTBkZ2tEU195RFhLdUQ3cU5BVGFWck1JTW1zQmluSDdGMmdNQUcwOEdWN0ZvRm9zZTRuR0dLNFJEUF9nZEE0Y2VMVUo2UDJSOG1XYTBvdk1PWFVtMk5SYWc?oc=5",
-        "source": "서울파이낸스",
-        "date": "2026-08-20T06:57:07.000Z"
+        "date": "2026-08-20T07:52:40.000Z"
       },
       {
         "title": "수출업체 달러 매도·약달러…환율 1,390원대 초반",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBJZ2hQMC1ZbHJkNUU5b1dyOFo1VFJJYjlZeUowUHJpcXZLVWJCZENnV1RMMi1tSkcxWUh1dk9JZWx6UVpGcy1EbXdZZkNsY3loUWVoVE9aWmhNU0tvZ0VIQTllbDlUa2hzS0Q5YW5UOHllSFRE?oc=5",
-        "source": "연합뉴스 한민족센터",
-        "date": "2026-08-20T06:52:36.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5oM0ZuNE12M19mUWowRTJkYW5QTV9VdFJfWjdSQWs4MG5PRzQxNjlScTNxbUp4V3lWVUFqdE9WSWJlY2FMekRsd0hhNmZzRHBzTVFUTWJCR3p5cmk3SDRrXzhR?oc=5",
+        "source": "매일신문",
+        "date": "2026-08-20T07:51:47.000Z"
       },
       {
-        "title": "원/달러 환율 추이",
-        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9QMXBhMGVyNnY3b0dBNlZyUDZtd2NkS2hzWEhEVkUwaUtqcEdVeEN3MmpnYWwySjVNN2dfbHA1YlIyX0Z5RmsxaUdEMVJuQQ?oc=5",
-        "source": "Haninpost",
-        "date": "2026-08-20T06:45:19.000Z"
+        "title": "[외환] 환율 1392.6원 마감…SK하이닉스 환전이 129원 끌어내렸다",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1VdWp1YkoySWhDaDJWWHFuamlqT3hkSi1JTzJtbkFqWUdVc0ZTVGJBVzVOSjhjWExvZjFXUU5hUHJFN1Rlcy1tSFcxb0N2V0tRTlJxMl9YWXNUTU80S1VOb1FzT2VWWVU?oc=5",
+        "source": "자본시장뉴스",
+        "date": "2026-08-20T07:41:05.000Z"
+      },
+      {
+        "title": "[외환-마감] 하락 관성에 1,390원대서 낙폭 확대…5.10원↓",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9KZ1paa0NwN1FHbzV0dXJNOXJYSEMtQnZkLVNvRGxWMUdmNkZkYmlhWld0U1I0ODB1OEVHNGszeW9qOWVkQ2R2MjgwdGVkMzM0MWdmUmstQVZETUVZVkhYb0ZrVGpqb3ZqaUw1UWxwYVhhZw?oc=5",
+        "source": "KB Think",
+        "date": "2026-08-20T07:39:44.000Z"
+      },
+      {
+        "title": "[이슈] 원·달러 환율 1300원대 진입에 달러예금 급증…이달 들어 9조원 가까이 늘어",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBZTGxyRkhORzBqU0VrU0d5ZFUwRGNqNkJsbEJBZE9PN2c5ZE1TQU16WTM4Zmc2RHk0NkdYTVQ1R2NpNVNuTy1LOW5UN25LX0NYZXYtMElkVW9lM0pYRW42VFYtREROZm1aWDJfcnh30gFyQVVfeXFMTU1EcE5oaE04YXQtWHYwcGVsM2M5aUczQmlxLVNkRzBxaXJTRWktRUZEY0NHdTIzWjRmck4zZDQ2S0l4V1UxQkxkaTFDOExqa0Q1Z29aMEs5R3pSeWNNZlAwQXM4a3dOZlk5bWFrNXotdVRn?oc=5",
+        "source": "폴리뉴스 Polinews",
+        "date": "2026-08-20T07:28:37.000Z"
+      },
+      {
+        "title": "환율 1300원대인데 수익률 지지부진…‘원화 강세 수혜주’ 언제 웃나",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1MclEycU83bXFfVVhQRHBhWFFBZTlKbGVsdmwxaTNVeFVkdmlpMUpOQzVEaHZpNDZSajE5YVZveExCbTF3WGsxY0kzQ0VWaFVuOXlnamk3ckhNLTg?oc=5",
+        "source": "에너지경제신문",
+        "date": "2026-08-20T07:23:18.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "금 한돈 시세, 8월 20일 국내 금값 전반 강한 상승 흐름",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFAycmpDOE80X3p3LUE0cXhxMVhkLUxUNHpRNlFHV09YdzZjLXNfdFJFd1ExZ212RlZJU3NPcnBHVDZERmRlWVowSG5rSVZEU3ZWSWJtV2RhM1dIMW1lWHlWRVlCemQ4T1N1c2VycXpjTENmUQ?oc=5",
+        "source": "톱스타뉴스",
+        "date": "2026-08-20T07:38:01.000Z"
+      },
       {
         "title": "[금 시세] 국제정세 불안에 강세… 중동·환율 변수 부각",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0tbDZCY2Mta2FCVmhCdUpxR21tUWI4WHBNZTQ4SU9USjBlVG1Ua285UFo0eWJmOUlyOUhfMVBWMm1ob1dTV3pfXzV1NFhyX1J1NW5GNndzUzhjMUFZN19iaGR1SnBKaFc4NDBoTg?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZVlUWkFsWm8zUnBINVMxaXlrN21tMHpweDNDdWgzSlpaZUEyVXZRWnYzbmcxN3VxOEMxTnZoanR4WHZOaWEzYnVXU1FqczFmMFJGVTlSQVdndnNuM0E5OHdJWFVVLTQ0V0dfcjZWWVp2X1JsTnpwVkdsSDdLVVZtSEtrUHNHdTBHTk5mSVZZeTRCbG1FY2ZhUXF0MDQ?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-20T01:02:22.000Z"
-      },
-      {
-        "title": "[오늘의 금값시세] 순금 한돈 88만 2천원...하락세 딛고 상승세 이어가",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tSXFpOW5oUmItMkNSVkh2RFhtVWxvb0dsVklMRkJtaS1BaDFyb19pWDFUU3ZQVjRRMkdlSjNjT2tzckpRRG5ncmMwTFU2bG5XNFdPQnY4Z2twSkF3ekFnN3M1UXg?oc=5",
-        "source": "ppss.kr",
-        "date": "2026-08-20T01:00:00.000Z"
       }
     ],
     "energy": [
@@ -373,7 +373,7 @@
       {
         "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
-        "source": "etoday.co.kr",
+        "source": "이투데이",
         "date": "2026-07-02T07:00:00.000Z"
       },
       {
@@ -403,10 +403,10 @@
     ],
     "realestate": [
       {
-        "title": "동대문 아파트값 실제로 11% 올랐다…호가 보다 더 뛴 실거래가",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1OZGNzRkdCNTR4akQ0dUxZaFZGbGtqUzBwLW5lX1h0QkRVOUJJOXZOVXhHVGFRNXBVeFFNS3F2Z1FFM2lleTMtV2dfa2cxbWxvOGRMenJPRTBBNmxhMlZHeA?oc=5",
-        "source": "네이트",
-        "date": "2026-08-20T06:50:00.000Z"
+        "title": "동대문 아파트값 실제로 11% 올랐다...호가 보다 더 뛴 실거래가",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RcVQyY2VVdHVRVEFqVllIVFBhd1VLVXJMMWRkM0VsYVYzOExEeEZUeU9IS3VwWC16VnlCWDVrWThNeHlOc3d2TDZJLS1rSXZxdm5vVWNob0xtUQ?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-20T06:49:45.000Z"
       },
       {
         "title": "초고가 주택 다 어디에?…올해 서울 아파트 실거래가 대부분 10억 미만",
@@ -419,12 +419,6 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5qcVNzYjdnRHZMaW9rU3pXUWFQMTZVb2hvZGtLZGlaLWk5d1l0QXlKQkVDcUh5TTNFS0ZIMVFHbnhyYmRUelFycG4xUjZObVpMUjl5d2dYN1JoX3dfN1pqYUt6Sm41UW0yTHc?oc=5",
         "source": "금융소비자뉴스",
         "date": "2026-08-20T05:46:06.000Z"
-      },
-      {
-        "title": "서울서 거래된 아파트 절반이 10억 미만…중위값은 9억 초반",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1JaGZodFlCMzBDSG9manE2TWxsVnpUTnVLNXJkVlRJQkFiY3NqWGEzd19JdDViM1dJN09odTFibDJZaHAzMmRLT1k0Z1N3d0NxOUx2RDB6MGJuSHJWOVUzSA?oc=5",
-        "source": "네이트",
-        "date": "2026-08-20T02:36:00.000Z"
       },
       {
         "title": "“평균은 11억 넘지만”…서울 아파트 절반 ‘9억원대’서 거래됐다",
@@ -446,9 +440,15 @@
       },
       {
         "title": "최근 6개월 서울 아파트 거래 55.5％가 10억원 미만",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRG9rdTBMRm9ldkhlTFR1MDFRUFJXRC1wWU54SFhERk02Q3kyRWF4cmJiVV9ZU0ZpNHhHUjBYU1VaVENkeE9ic29KN2UtVHNmTWlzZHpKN3RhUXdZSU93R3QtdDRXOEUyV2pqRVhsVnhIaThqR282dmRNYmJzRk1OakJxVnNxMWg3?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX0twcFdMSlpOMGloTldjTFY1aVNTTWhFY1pjemxRclc5aXBIQ2JFSGNZSVBYMnlEWFluaFV6RzVUZ25jcE50T2lBNXdhc3ZLZkJ6V05YeG1TLXQ5QjFYaG1VM29BejRjUHpGWmMtenVReEdoTDR4UWRjR013TnF0bm1SMlE0Zw?oc=5",
         "source": "TBS 서울",
         "date": "2026-08-20T01:54:00.000Z"
+      },
+      {
+        "title": "서울 아파트 절반 이상 10억 미만 거래 … 대출 한도 6억 ‘심리적 저항선’",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1rY3JReDZEY0dCS29WbGNGSDFSaWRVYUM5eEtpd1JZYzlxM0s3eGxKdk15LXFzTEo2M3c5Q0k0TDNjS3N5bTIzVzFqMjU4V0FaQnNhTU5VS1NvVVV3ZDVqX2RTdFJlZEF5cnc?oc=5",
+        "source": "Queen 이코노미퀸",
+        "date": "2026-08-20T01:44:51.000Z"
       }
     ],
     "lotto": [
@@ -473,7 +473,7 @@
       {
         "title": "로또 1237회 당첨지역 어디길래…1등 23명 배출, 같은 판매점서 2명도 나왔다",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MdVJodldEV1JrekozRHJMamYxZzg3cDA4MXUtckdTdWR2RXMzclRyektvOEotM0JXZGhDOGtBSUdzQ29GakhXNVZiMDFTT1FMOERmMVA2TERlVldncFF3OF91U2ItdE5CZWVsLW05c0V5MjA?oc=5",
-        "source": "specialtimes.co.kr",
+        "source": "스페셜타임스",
         "date": "2026-08-17T15:00:00.000Z"
       },
       {
