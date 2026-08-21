@@ -1,27 +1,258 @@
 {
-  "updatedAt": "2026-08-21T09:29:22+09:00",
+  "updatedAt": "2026-08-21T11:19:18+09:00",
   "deals": [
     {
-      "title": "물라웨어 반팔티+레깅스 2PACK",
-      "mall": "롯데온",
-      "price": 17330,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728325",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:18:24.000Z"
+      "title": "국내산 삼겹살 구이용 1kg 냉장, 목심 구이용 1kg 외 골라담기",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://naver.me/IgMQ95Ae",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-21T02:19:10.000Z"
     },
     {
-      "title": "에블린 코지 스트라이프 긴팔 파자마",
-      "mall": "이랜드몰",
-      "price": 15950,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728324",
+      "title": "화이트미용티슈 180매 6팩 (7,900/무료) 쿠폰적용시 3,900원",
+      "mall": "GS샵",
+      "price": 3900,
+      "cat": "쿠폰·상품권",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728363",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-08-21T00:16:02.000Z"
+      "date": "2026-08-21T02:14:15.000Z"
+    },
+    {
+      "title": "매일두유 고단백 12g 190ml 48팩",
+      "mall": "오늘의집",
+      "price": 25726,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728362",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:13:44.000Z"
+    },
+    {
+      "title": "바세린 딥 폼클렌징 220ml 3개",
+      "mall": "옥션",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728361",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:13:25.000Z"
+    },
+    {
+      "title": "26년 햅쌀 흥양농협 수호천사 10kg 온누리 체감 3.6만",
+      "mall": "롯데온",
+      "price": 38800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728360",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:12:32.000Z"
+    },
+    {
+      "title": "다우니 섬유유연제 1리터 6개+200ml 3개",
+      "mall": "롯데온",
+      "price": 29660,
+      "cat": "생활",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106534",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-21T02:09:40.000Z"
+    },
+    {
+      "title": "랜덤 주식 이벤트",
+      "mall": "모니모",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106533",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-21T02:08:49.000Z"
+    },
+    {
+      "title": "텐가 플립제로 시리즈 1+1 증정 행사",
+      "mall": "허니미",
+      "price": 110000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728359",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:06:00.000Z"
+    },
+    {
+      "title": "ORGA 올가 산지직송 함평 유기농 무화과 1.2kg(600gx2팩)",
+      "mall": "네이버",
+      "price": 25410,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728358",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:02:51.000Z"
+    },
+    {
+      "title": "왕타 베이직 스톤 파우치 10개입",
+      "mall": "네이버",
+      "price": 12500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728357",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:02:51.000Z"
+    },
+    {
+      "title": "1++등급 한우부채살 300g+300g",
+      "mall": "롯데온",
+      "price": 57860,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728356",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:02:33.000Z"
+    },
+    {
+      "title": "오징어젓갈 500g x 2통 1kg",
+      "mall": "지마켓",
+      "price": 11380,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728355",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:01:55.000Z"
+    },
+    {
+      "title": "해남 고구마 꿀고구마 3kg 5kg 베니하루카 황금 호박고구마 9,800원",
+      "mall": "네이버",
+      "price": 9800,
+      "cat": "기타",
+      "link": "https://naver.me/5AgNNaOb",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-21T02:01:02.000Z"
+    },
+    {
+      "title": "나뚜루 3+3",
+      "mall": "오늘의집",
+      "price": 31425,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728354",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T02:00:31.000Z"
+    },
+    {
+      "title": "3+1 벤앤제리스 파인트 3종(8종 골라담기)",
+      "mall": "29CM",
+      "price": 26400,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728352",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T01:59:53.000Z"
+    },
+    {
+      "title": "트루리빙 네모 6L 에어프라이어 TL-AF6023",
+      "mall": "떠리몰",
+      "price": 35500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728353",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T01:59:49.000Z"
+    },
+    {
+      "title": "고깃집 된장찌개 450g x 5팩",
+      "mall": "지마켓",
+      "price": 12820,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728351",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T01:59:42.000Z"
+    },
+    {
+      "title": "빨아쓰는 경추베개 30x50 사이즈",
+      "mall": "네이버",
+      "price": 19900,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728350",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T01:59:40.000Z"
+    },
+    {
+      "title": "실크테라피 인리치드 액션 수프림 에센스 60ml 2개+15ml 증정",
+      "mall": "롯데홈쇼핑",
+      "price": 22900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728349",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T01:56:27.000Z"
+    },
+    {
+      "title": "극소수 순살 뼈해장국 우거지 뼈없는 감자탕 1인분 국밥 간편 냉동 레토르트 시레기 캠핑 3,990원",
+      "mall": "네이버",
+      "price": 3990,
+      "cat": "기타",
+      "link": "https://naver.me/5r3Sl2cL",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-21T01:53:41.000Z"
+    },
+    {
+      "title": "햄킷 마라탕 밀키트 1인분 즉석조리 300g 매콤 냉동 훠궈 간편조리 야식 캠핑 안주 3,990원",
+      "mall": "네이버",
+      "price": 3990,
+      "cat": "식품",
+      "link": "https://naver.me/FDcAwHWq",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-21T01:46:49.000Z"
+    },
+    {
+      "title": "락앤락 신선보관용기 스마트킵 프레쉬 10종 실속 세트 39,800원",
+      "mall": "네이버",
+      "price": 39800,
+      "cat": "기타",
+      "link": "https://naver.me/GahFRl2W",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-21T01:39:00.000Z"
+    },
+    {
+      "title": "농심 삼계탕 사발면 85g 6개 / 8,980원(와우무배)",
+      "mall": "쿠팡",
+      "price": 8980,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106532",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-21T01:33:05.000Z"
     },
     {
       "title": "갈아만든 배 저칼로리 340 x 24개",
@@ -35,50 +266,6 @@
       "date": "2026-08-21T00:15:54.000Z"
     },
     {
-      "title": "로봇청소기 올인원맥스 물걸레",
-      "mall": "지마켓",
-      "price": 399000,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728323",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:09:36.000Z"
-    },
-    {
-      "title": "국내산 머스크메론 4kg내외(2-3수)",
-      "mall": "G마켓",
-      "price": 14730,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728322",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:08:27.000Z"
-    },
-    {
-      "title": "애슐리 원팩 갈릭 감바스 2팩+바게트빵",
-      "mall": "네이버",
-      "price": 17810,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728321",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:08:03.000Z"
-    },
-    {
-      "title": "피꼬막 3kg",
-      "mall": "옥션",
-      "price": 11920,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728320",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:04:52.000Z"
-    },
-    {
       "title": "차오차이 짜장&마파두부/ 티아시아 커리 4+4 골라담기 +짜장소스 1개 증정 - 11,825원/무료배송",
       "mall": "오늘의집",
       "price": 11825,
@@ -90,28 +277,6 @@
       "date": "2026-08-21T00:04:33.000Z"
     },
     {
-      "title": "10분러시 완도 오리지널 전장김 25g x 10봉",
-      "mall": "11번가",
-      "price": 11250,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728319",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T00:01:09.000Z"
-    },
-    {
-      "title": "ZIC 탑 FS 0W-30 4L",
-      "mall": "네이버",
-      "price": 41900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728318",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T23:59:54.000Z"
-    },
-    {
       "title": "라방 5원",
       "mall": "네이버페이",
       "price": 5,
@@ -121,28 +286,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-20T23:59:23.000Z"
-    },
-    {
-      "title": "김가네 본사배송 감자탕5kg(9-10인분)",
-      "mall": "지마켓",
-      "price": 15270,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728316",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T23:32:03.000Z"
-    },
-    {
-      "title": "멀티비타민 이뮨128 10개입 2박스 20개 외",
-      "mall": "동국제약건강몰",
-      "price": 25830,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728315",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T23:25:46.000Z"
     },
     {
       "title": "에픽 메이지 번들",
@@ -167,17 +310,6 @@
       "date": "2026-08-20T22:01:52.000Z"
     },
     {
-      "title": "햇반 210g 36개 + 24개 총 60개 페이코",
-      "mall": "CJ더마켓",
-      "price": 45946,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728314",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T21:23:23.000Z"
-    },
-    {
       "title": "라운지이벤트",
       "mall": "네이버페이",
       "price": null,
@@ -189,39 +321,6 @@
       "date": "2026-08-20T19:17:32.000Z"
     },
     {
-      "title": "무표 물티슈 82평량 *20팩",
-      "mall": "오늘의집",
-      "price": 15948,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728312",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T17:03:04.000Z"
-    },
-    {
-      "title": "몬스터크랩 72g 20개, 휴지, 감자탕 외 [타깃] 동원 참치, 리챔, 김",
-      "mall": "지마켓",
-      "price": 13630,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728311",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T16:44:50.000Z"
-    },
-    {
-      "title": "갈아만든 배 저칼로리 340ml 24캔",
-      "mall": "롯데온",
-      "price": 10270,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728310",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T16:32:52.000Z"
-    },
-    {
       "title": "닌텐도 스위치 2 본체 + 포코피아",
       "mall": "예판런",
       "price": 736000,
@@ -231,17 +330,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-20T16:08:18.000Z"
-    },
-    {
-      "title": "골드키위, 허니듀멜론, 울트라클린",
-      "mall": "G마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728307",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-20T15:53:54.000Z"
     },
     {
       "title": "헤드폰 이어폰 엠프등등 가격다양",
@@ -530,17 +618,6 @@
       "date": "2026-08-20T01:34:51.000Z"
     },
     {
-      "title": "LG 게이밍모니터 G6 32G620B 카할333,900원",
-      "mall": "네이버",
-      "price": 333900,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106503",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T01:33:43.000Z"
-    },
-    {
       "title": "LG생활건강 피지 모락셀라 빨래쉰내 땀냄새제거 세탁세제 2.6L 코튼향 특별 대용량",
       "mall": "네이버",
       "price": null,
@@ -552,17 +629,6 @@
       "date": "2026-08-20T01:18:12.000Z"
     },
     {
-      "title": "리아데이, 새우버거 2개 7800원 (8/20~21)",
-      "mall": "롯데리아",
-      "price": 7800,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106502",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T01:03:01.000Z"
-    },
-    {
       "title": "운림가 55년전통 국산 전라도 '썰은 배추' 맛김치 2kg 16,500원",
       "mall": "네이버",
       "price": 16500,
@@ -572,17 +638,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-20T00:54:39.000Z"
-    },
-    {
-      "title": "켈로그 레드베리 6개+크런치넛 6개+8개증정",
-      "mall": "롯데온",
-      "price": 10620,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106501",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T00:53:27.000Z"
     },
     {
       "title": "JONR P20 Pro 올인원 로봇청소기",
@@ -638,61 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-19T02:27:47.000Z"
-    },
-    {
-      "title": "방수 욕실 휴지걸이 화장실 접착식 무타공 화장지걸이 케이스 12,250원",
-      "mall": "네이버",
-      "price": 12250,
-      "cat": "생활",
-      "link": "https://naver.me/xy7BIsTD",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-19T02:20:34.000Z"
-    },
-    {
-      "title": "온더바디 코튼풋 발을씻자 풋샴푸 510ml 쿨링 3개 19,900원",
-      "mall": "네이버",
-      "price": 19900,
-      "cat": "생활",
-      "link": "https://naver.me/59l9tT0h",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-19T02:13:39.000Z"
-    },
-    {
-      "title": "세진 통통 고추튀김 1kg 업소용 식당 분식 바삭한 튀김 술안주 10,400원",
-      "mall": "네이버",
-      "price": 10400,
-      "cat": "기타",
-      "link": "https://naver.me/xHEZU4KQ",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-19T02:05:56.000Z"
-    },
-    {
-      "title": "한성 명란 떡갈비 500g+500g 12,900원",
-      "mall": "네이버",
-      "price": 12900,
-      "cat": "기타",
-      "link": "https://naver.me/G7NsGYLR",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-19T01:56:19.000Z"
-    },
-    {
-      "title": "삼형제고기 편육 돼지 머리고기 머릿고기 1팩 300g 4,900원",
-      "mall": "네이버",
-      "price": 4900,
-      "cat": "식품",
-      "link": "https://naver.me/FHO75SQo",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-19T01:48:56.000Z"
     }
   ]
 }
