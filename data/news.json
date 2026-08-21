@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T00:20:55+09:00",
+  "updatedAt": "2026-08-22T01:18:06+09:00",
   "topics": {
     "coin": [
       {
@@ -71,6 +71,12 @@
         "date": "2026-08-21T09:46:04.000Z"
       },
       {
+        "title": "'140조 환원' 점화…삼전·하이닉스가 살린 코스피",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03clNobUxlakQxNGFDWFNlbWxlT2tXUXVjbjc3dlJHSnZONUJiX2ZadU93aFd5V1FWNGJZa2FBSzRhNXp0SFBQUXlQWmk3Qy04cU1v?oc=5",
+        "source": "경제타임스",
+        "date": "2026-08-21T09:37:18.000Z"
+      },
+      {
         "title": "‘오늘은 매수, 내일은 매도’ 툭하면 사이드카 “이게 맞나”…코스피 올 들어 50번째 발동 눈앞",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBSMXQ5RFZ1ZXA3SndHdG5QOVJQWmJMeGE3XzBkTzBSVUlzY3I3MFprVTRrakNoTl9DcXhVLTNDNFNuSTNDdDFCMTFzR20wT1VycmJYZ2t3?oc=5",
         "source": "헤럴드경제",
@@ -93,12 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNNWl1d0MteFY2b2pXVUtBZkUtZkZldVAxVFpZVDNmMm1uY3dfaGhhdkh5bFE2THRpMVVpYXhCTTB6WEV0Zk5SWlJjX2EwcUQwZEp0X2M0SFVEcXVvS2pGRkt0dEV5WWRPckNMR09B?oc=5",
         "source": "더리포트",
         "date": "2026-08-21T08:22:58.000Z"
-      },
-      {
-        "title": "‘삼전·닉스’가 상승 이끈 코스피, 대척점 선 코스닥은 하락",
-        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9PTlJxRUNEaXRJZUd2QXVMSjB6Q1pERE8ycHc2c05uU3B6OWlWSEU4X3lCR2NkRnhqTE1PZHQ3YmUtay1CX0E0LVlGbDBpSXVGZjNIZEwwbmFqMnE2alRFaXg4M3JmT2NTOUE?oc=5",
-        "source": "비즈워치",
-        "date": "2026-08-21T08:17:03.000Z"
       }
     ],
     "kosdaq": [
@@ -133,12 +133,6 @@
         "date": "2026-08-21T09:02:00.000Z"
       },
       {
-        "title": "천스닥 믿었던 개미들, 영혼까지 털렸다…반도체 뛰자 코스닥 급락",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE13U0lSUU84RzdFNW5acTJiWkZCQ3pFMnd2SjA1YmNuYWlYR3Q5NWo5RWFjbE9EVkIzaVhtX2h4WnlETUczWTJBNVc5bTV4TmM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-21T08:57:02.000Z"
-      },
-      {
         "title": "삼성 100조 환원 기대에 코스피 6900 회복…코스닥은 4.6% 급락",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hTjJOMFJPODF1Xy1qdmVhTGp3V2VCdkhOeWdrV1JpUFlxZFB1VkEyYzhwRlNJNE9QbFhhZVVyZUJYWm5qR25nTUVMLW1LWkh3dlV6UE9iejZnZw?oc=5",
         "source": "경북매일",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwXzVlaFlLQlNVX2FUSHRzb2tqWS1CZERNS2QxLVV0SmJUWk9acDNoSzdfUExwUDhqRmFWbzYtTXZ6VmQ0UnFVOE5KSHJqTkNZQmlYcHQ1SkxaeUpOcmpuM0RJOEg?oc=5",
         "source": "MTN 머니투데이방송",
         "date": "2026-08-21T08:34:54.000Z"
+      },
+      {
+        "title": "[포토] 기도산업, 코스닥시장 상장…글로벌 고기능성 의류 시장 공략",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wRzgwaDZBXzBUUTZZOGVjcDR2cW5PeEFHZnM1OFpRcGlXelpDMHVycl9qSXA3QkxyRGh5MzFtTHY4SW9BVUxoeXF2TVBCVTcwSG12bGowMFpSUQ?oc=5",
+        "source": "브릿지경제",
+        "date": "2026-08-21T08:32:00.000Z"
       }
     ],
     "fx": [
@@ -186,7 +186,7 @@
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
         "source": "Naver Blog",
-        "date": "2026-08-21T09:22:15.000Z"
+        "date": "2026-08-21T09:25:15.000Z"
       },
       {
         "title": "'수출업체 네고 물량에 원화 강세' 원·달러 환율, 사흘째 1300원대...11개월 만에 최저",
@@ -202,6 +202,12 @@
       }
     ],
     "metal": [
+      {
+        "title": "오늘, 2026년 8월 22일, 국내 금값이 세계 금값보다 낮습니다. 그 이유는 무엇일까요? 전문가들이 '충격적인 전망'을 발표했습니다.",
+        "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNNmdjbThlanpQYUMtaWx4S2dTNXJ1N0FVYmFlOHNzLS1lY2lYZ1ZmVkdfbktiVW1nUGdTR3NzVDB5cXBLckhLaS15VVU0NzJBWjR4U0hxamY1YUFUZ04tRVdmQXhoX2E0SWVOOGJIcWFhcVU0cGZ1bDdQYXBJMGNZOEpFWDR2V1BWUVVBMDVrT1hOZDQzdEp2S3pEeGJoc1BHV2JtYnY4SklVMXotcElkX3J2Z3prYTFpY0xodlpwT1pXYVBBdUdHVGtn?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-21T16:11:54.000Z"
+      },
       {
         "title": "금값시세 '관망'",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5RTBDT3Ric3lhNkRRTW1EeGxZeE84RDVudnZZcXF6SUVrd19wTmdzUnhKT3B5ejVkVGZjMFVISlFpUndaUXltVkd4czZiMk9zQzYtUUZJdVoyRXR6SHhLdDZTQmFLZlFV?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB3UUEycDFpSnFYR3lhWnhUdHhXWWRqcUFSNG5SR3RvRkNiRFBZOTROVktiV0JIWVFPVHdWQWFCV0M5cnNkRS1XOWJHQ2lxeUh6Z3BJZXdUU0dtOGI5WnBKdnhfRkd4SXI5Q0lSaA?oc=5",
         "source": "센머니",
         "date": "2026-08-21T03:00:22.000Z"
-      },
-      {
-        "title": "금값 한 달 새 11% 뛰었다…美 국채 '바이백'에 3주 연속 상승",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKUHVBRnMybWxrUWRJNTYydF8yMUQtb2lLS2tKV3JPMEtmRWtNOFJCZGNoRTZ5cUllNXBPXzFSUV9zdWtaaURsalJJbGlBNFRnc0FZ?oc=5",
-        "source": "네이트",
-        "date": "2026-08-21T02:03:00.000Z"
       }
     ],
     "energy": [
@@ -306,7 +306,7 @@
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
         "source": "Naver Blog",
-        "date": "2026-08-21T09:22:15.000Z"
+        "date": "2026-08-21T09:25:15.000Z"
       },
       {
         "title": "(08/21) 초보 투자자를 위한 오늘의 경제 브리핑",
