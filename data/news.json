@@ -1,13 +1,7 @@
 {
-  "updatedAt": "2026-08-22T03:22:06+09:00",
+  "updatedAt": "2026-08-22T04:18:04+09:00",
   "topics": {
     "coin": [
-      {
-        "title": "비트코인 가격이 단 이틀 만에 20% 이상 급등했습니다.",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QLUY3N1NRMXNyN3pvUEdmcDFUTzhTc1A3S3YyVTBMaGlob0VhY2hlZTRsaUZ5UEtYRDhrWXQtdFV2eWlRdVl6QWdKYjR1cU1mb3hfVjFGRUFTMF9fOHpSU0xBVmJMUTdYaDU0UnFnbUJTSHAycTVj?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-21T15:48:34.000Z"
-      },
       {
         "title": "비트코인 가격이 7만 5천 달러를 돌파했습니다.",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE83MnQtdFI1cGY4X0tqVUJoVlliNkEwRDVRQXdUX2Iwb2FIQVlsUEd2LXZZUVRpOHVfeHo3NGJNaEhsSUsteHlVTDlHMnRmaFhaUEhzY2lCelRDUzVhbVJfQy1wZw?oc=5",
@@ -49,6 +43,12 @@
         "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPU2FwbVc1NXVjYUlCNUMwNUd5UlBKa0E4c1FVMk1GRFlRRHpkZzJiUG9UT2FNMFFIOF9TX0JvLUFwY2hIZ2x6ODNZZlk5bmw0cTJONTlkR1kxb0lvMkhjcm1sNXdUblltVlhjT1NUWWR5Y05SVDRrQjFRd2tiRkZ2bjQxcEwxNzNDekRVMG5NYjRCbmp1OHFRSDgtNFVSSzJEcDhTOTZLOE5ZVkU?oc=5",
         "source": "CoinDesk",
         "date": "2026-08-20T10:47:35.000Z"
+      },
+      {
+        "title": "2026년 8월 20일 오늘 비트코인 ​​가격: 트럼프의 노력 덕분에 7만 달러까지 급등했습니다.",
+        "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbmxaZVhaN3R0TGM5Uzg0VXc2MlYwUHBmdndRM3N3NllmSVpRUlNEOEZqMXlFcUdTd1MyLU45blNBZWtGOVhsWW9fT2FOWkhYWnB0NWNGcVRsNENodktVWHpEcmNKcUxyUmJyRjVfa2I5dS1ZQUp0SVpvWDhLOXFVa3pTZWtzVzI5RTkxU2Rha2pPam1OSTNOVFdzYk1Ha1doTWZjM1JpOA?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-20T00:56:15.000Z"
       }
     ],
     "stock": [
@@ -103,6 +103,18 @@
     ],
     "kosdaq": [
       {
+        "title": "510% 수익낸 고수 … “반도체 다음은 코스닥에서 나온다”",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QQXk5WUF1S08xMjZ2bEFqVnROZTVnR2NxLUpMckxDNm14a3NrMEloaW90MGdyMUY5VFU3X2lsMHRHT2ZCMzBHdkUydm1tVkR1c3c?oc=5",
+        "source": "매일경제",
+        "date": "2026-08-21T19:07:00.000Z"
+      },
+      {
+        "title": "코스닥 5%대 급락…‘매도 사이드카’ 발동",
+        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5SSzRTeFlrV0lrNGxObS0wa2pEbExrYzZOV0lmRldWMmpNUzhlOVk2MEROVUdYeWMtLUxXaFZpNXpZN18yWHpnWVlTUzlTMU1Ba2N4bmFJTi10Y3daVmwwMEVhNjBzeFNOSmI1QnQzRm1LUQ?oc=5",
+        "source": "한겨레",
+        "date": "2026-08-21T18:08:39.000Z"
+      },
+      {
         "title": "코스피, 삼전닉스 상승에 6,900선 회복...코스닥은 급락",
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5mNHlELWxxLVhsTTBMRlNYcFFQVFhkamlDdWNvSmFHWW01c2l0a2NXUkRYM09CSnBCQkN0d3hicmpwdWZWVFBRM1phQldPeGlrZmQ1WkFYVTd3a1pnamc?oc=5",
         "source": "YTN",
@@ -137,18 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VTjlHU0t6blRObEp6NW5IbkNibTJwMjJjcFVyWnZPS3ozNFE4bDB5N200aWFjbGQyUkxUMWcxODRhOFlXRGN2WGRWN1l6U0FrNy1zakdXd0I2NzdS?oc=5",
         "source": "뉴스핌",
         "date": "2026-08-21T09:02:00.000Z"
-      },
-      {
-        "title": "삼성 100조 환원 기대에 코스피 6900 회복…코스닥은 4.6% 급락",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9hTjJOMFJPODF1Xy1qdmVhTGp3V2VCdkhOeWdrV1JpUFlxZFB1VkEyYzhwRlNJNE9QbFhhZVVyZUJYWm5qR25nTUVMLW1LWkh3dlV6UE9iejZnZw?oc=5",
-        "source": "경북매일",
-        "date": "2026-08-21T08:52:00.000Z"
-      },
-      {
-        "title": "반도체에 돈 몰리자 … 코스닥은 급락",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLRXpiRGJOdFJObGpvbTFCSnB1cV9BVU5PalVfZUdCTWttMDNZVHE1bFJ5cjIwLWFRTFdlSDZtdTBYVndVTE1aY0R6Y3ZXWkFyVUE?oc=5",
-        "source": "매일경제 마켓",
-        "date": "2026-08-21T08:41:06.000Z"
       }
     ],
     "fx": [
@@ -253,12 +253,6 @@
     ],
     "energy": [
       {
-        "title": "“전쟁 끝나는 줄 알았는데, 눈앞이 깜깜”…유가 100달러에 원유 곱버스 -83% [원자재로 살아남기]",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fcXUtZXQ5UzRYWDB2NkUtTjhvMzRiWmxzbEl5MjB0aG1FNkpKVjkzQ0hxUUI5bW52Ti0tMzd6SmJCYnd1UkZTdDRMMUJxWjFqdFE?oc=5",
-        "source": "매일경제 마켓",
-        "date": "2026-07-25T07:00:00.000Z"
-      },
-      {
         "title": "美·이란 확전 우려에 국제유가 4%대 올라...브렌트유 88달러대",
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9SWkpNUm5xaU9jeXNNNko3VTFDaXlEZVBzVFRIa3BZaWZScmlxTjluYXg2NFU4c3RETHExSndMUEYxdkRkeTVhOE9kMjMwc21MbElXczFzT1U1N1ptTkxrQ0Q1NEJYOGl4T2dCaENvX0pyQjUtWnYw?oc=5",
         "source": "thecommoditiesnews.com",
@@ -299,6 +293,12 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
         "source": "thecommoditiesnews.com",
         "date": "2026-06-13T07:00:00.000Z"
+      },
+      {
+        "title": "[원자재 시황] 유가만 다시 뛰었다…금값 4000달러선 위태",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5TE5GNUxva3J0QlhCSlJlYk1lNmh0NnNQTnJvRXNRY054Qk5OUTA5d3E1eFN5TVoxOUdXcGpjQ0stc3pLX3JUN1F5aUdseDFhNFhsYW0yV2Q3eXVxaU14MFl1a2pFWEww?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-06-11T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -310,7 +310,7 @@
       },
       {
         "title": "(08/21) 초보 투자자를 위한 오늘의 경제 브리핑",
-        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE16aTVCQVliWld0TXo0cUFDVGtlVVNCcXl1YTJ0Y0JYNDBORUVDMEVCckRoTVU3V3liQWotSDRubmlyRE52?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1mckM1d1lDQ3c1S2hCdTFkQjVWcEoxZngzbldhajRkcjRSU3FHNVJrbUtPTUxzaE9iX2NrVjhRY2E0UVBKeGc?oc=5",
         "source": "브런치",
         "date": "2026-08-20T17:24:10.000Z"
       },
