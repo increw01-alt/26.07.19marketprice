@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-08-22T02:17:21+09:00",
+  "updatedAt": "2026-08-22T03:21:56+09:00",
   "deals": [
+    {
+      "title": "100gb 5mbps 4개월 통문무(1100/0)",
+      "mall": "핀다이렉트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728533",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T17:56:05.000Z"
+    },
     {
       "title": "개옷",
       "mall": "네이버",
@@ -187,17 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-21T15:05:59.000Z"
-    },
-    {
-      "title": "국내산 나주배 햇배 3kg",
-      "mall": "토스",
-      "price": 11900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728516",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:05:25.000Z"
     },
     {
       "title": "삼성SDS 유튜브 구독 180원 적립",
