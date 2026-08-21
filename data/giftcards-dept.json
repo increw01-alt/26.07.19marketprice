@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T14:20:53+09:00",
+  "updatedAt": "2026-08-21T15:21:27+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -84,8 +84,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96600,
-      "buyRate": 3.4,
+      "buy": 96550,
+      "buyRate": 3.45,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -96,8 +96,8 @@
       "label": "현대백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96800,
       "sellRate": 3.2
     },
@@ -206,8 +206,8 @@
       "method": null,
       "buy": 482750,
       "buyRate": 3.45,
-      "sell": 484000,
-      "sellRate": 3.2
+      "sell": 483500,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
@@ -218,8 +218,8 @@
       "method": null,
       "buy": 96550,
       "buyRate": 3.45,
-      "sell": 96800,
-      "sellRate": 3.2
+      "sell": 96700,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
@@ -230,8 +230,8 @@
       "method": null,
       "buy": 48275,
       "buyRate": 3.45,
-      "sell": 48400,
-      "sellRate": 3.2
+      "sell": 48350,
+      "sellRate": 3.3
     },
     {
       "shopId": "choigo",
