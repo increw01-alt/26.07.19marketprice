@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-22T01:17:57+09:00",
+  "updatedAt": "2026-08-22T02:17:21+09:00",
   "deals": [
+    {
+      "title": "개옷",
+      "mall": "네이버",
+      "price": 3000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728532",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T16:52:48.000Z"
+    },
+    {
+      "title": "끌올 햇반 210g 36개 + 사골곰탕 18개",
+      "mall": "CJ더마켓",
+      "price": 40340,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728531",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T16:28:10.000Z"
+    },
     {
       "title": "통화 무제한, 데이터 5GB+1Mbps",
       "mall": "핀다이렉트",
@@ -176,28 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-21T15:05:25.000Z"
-    },
-    {
-      "title": "아이러브베베 시그니앙 블루라벨 85평량 물티슈 20팩",
-      "mall": "오늘의집",
-      "price": 17910,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728515",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:05:04.000Z"
-    },
-    {
-      "title": "펩시콜라 제로슈거 라임향 355ml 48캔",
-      "mall": "롯데온",
-      "price": 26840,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728514",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:01:53.000Z"
     },
     {
       "title": "삼성SDS 유튜브 구독 180원 적립",
