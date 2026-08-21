@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-21T12:39:31+09:00",
+  "updatedAt": "2026-08-21T13:26:14+09:00",
   "topics": {
     "coin": [
       {
@@ -83,6 +83,12 @@
         "date": "2026-08-21T02:29:30.000Z"
       },
       {
+        "title": "[오늘증시] 반도체가 코스피 살렸다…코스닥은 800선마저 '와르르'",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ERHNqc3dUb3V4SWxzeUxFNHpFaGM0dHpIc3hUOUpTOTFxVlRqXzQ5NVB0bTBmZVY1aTZhcENPMkJlcmpOcFBETlJIV29HQnBsaHNGdXJiX1hxZWJFXy1pUWhfbXpmTzZ5dkZ6VjItTlYwMmc?oc=5",
+        "source": "오늘경제",
+        "date": "2026-08-21T02:07:17.000Z"
+      },
+      {
         "title": "코스피,또 美국채금리에 발목 6,800선 하락...코스닥 매도사이드카 발동",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBGMjZCX05kWkg5VHhZM1RRMU9PN2pIX1dGdDNOZ2wtbUN2Q1ZOVU53NjNkU1A5ZnJiMldQdjRPNklaWEVsX29XcEdTek44dWlncXRUc2lVbGtGQkJZNmZpVDEzQks1b0haS1VIMS1B?oc=5",
         "source": "서울이코노미뉴스",
@@ -93,15 +99,15 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE92YzRSMWhMSm0tSzIxLVJlQ3VEMGtaQzFuRzhCczV4RmZwcXk1VllaNGQzTEdNT1RYeGY5YmlVVk5EbUg4QlNqNkFjRVlmd1htYjRZ?oc=5",
         "source": "경제타임스",
         "date": "2026-08-21T01:30:50.000Z"
-      },
-      {
-        "title": "美국채 금리 재상승 여파 코스피 1% 하락 출발…코스닥 5% 가까이 급락 급락, 매도 사이드카 발동",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TdXAwT2NHbVVjUFVKVzdKbE1WQzRXRTdjUGJjVnZSRkl0MThzYi1XM1FqaWthcUZlY1MzSVJrUGRfMHFiSVBMN3l6QmdKWUFXdmZQdWpmOFJjOXM?oc=5",
-        "source": "강원일보",
-        "date": "2026-08-21T01:22:07.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "[스카이랩스] 9월 코스닥 상장…커프리스 혈압계로 글로벌 공략",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5xUFpKTUZvZXRLWmJYOXF4RzN5ZldRUlFDUFZQX0ZPWFIxV2dpTUlHM3dkZS1VNUd6Z1FEdGJxOEtxT1pxa2t1RWpXUmtCUDJmMU9IX05zZ3RkeS1NbmRZQXV0dkdtVUt6alhCdXZ3?oc=5",
+        "source": "뉴스더보이스헬스케어",
+        "date": "2026-08-21T04:06:01.000Z"
+      },
       {
         "title": "코스닥 장중 5% 급락…매도 사이드카 발동",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5LazU2TFVBV3k2WkJFNUdiVUFkYW50Z28wUGN3bUNNMkxidi1PanJtYWg1bE9ibDB2SXNWdlQ4SWhwaHZOR1dfaDBlRjVnaFkzdU00NlN3?oc=5",
@@ -133,12 +139,6 @@
         "date": "2026-08-21T02:34:00.000Z"
       },
       {
-        "title": "[속보]코스닥 4~5% 급락, 매도 사이드카…코스피 보합권",
-        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsY21aRjNGSjJRdW5oLWMyOWZVSHhGZVJTQ0Jmci1IdUlkSm5WWmQ1OUlEUXA5clJaeDYwT1l4WnFnMjJPYVpNWVQ2R2x2VlV0?oc=5",
-        "source": "문화일보",
-        "date": "2026-08-21T02:27:52.000Z"
-      },
-      {
         "title": "코스피, 삼전·닉스 상승에 6900선 턱밑…코스닥은 ‘매도 사이드카’",
         "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOcmVtQ0xieFl4ZUt6a1lKRXRrS2lHV2xXTUE5ZlBXbTNDT3phS0YtTHB1NFNPUEpHdElGNEtRRjd6d1Y2SXFjeWIwVW5GZ0dtWjk3Tk5nYWJsM2g4SVpXcmtKcWxvQlFmeDA5eWV5X3FSdGZLSFV1MnE1WWx6Ykt6QXRHRDUtdw?oc=5",
         "source": "글로벌이코노믹",
@@ -153,28 +153,22 @@
     ],
     "fx": [
       {
+        "title": "원·달러 환율 이틀째 1300원대…美 장기금리 하락·수출업체 달러 매도 영향",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBRRWtBUHVSTk41Y1VMVUNLM2Z4cGtZZHlURXdHMlc1UDRReXBkR2tXVTd0bmdxTUcwZm9Pek8zS2o0WnRmdUR1YS1pYlUxNC11UlJFNEFhc2NSZEJBYmZWMG9iUk4yY2syNWQ4NGtR0gFyQVVfeXFMUGxCOFIzUjd4REU2eVdKbmtKQzNXMkxvMnFNcjdHQjdRYU03WjhVYWp1V2NKU00yUVUtWGgyVkNlVHRlNHNaYnJlUzdmYkRPZVNqbzc1dGlPb2Robjc2Z2FEalJtLUxJX0QyV2p3RFNEeEdB?oc=5",
+        "source": "폴리뉴스 Polinews",
+        "date": "2026-08-21T04:00:00.000Z"
+      },
+      {
+        "title": "대신證 \"달러-원 연내 1,350원까지 하락…달러 매도 우위\"",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TYV9TaU92cGNCQ2N6V21QXzVQRHJBWE9jQzBlZGlndjlVTnVFUHRsMmdnUTdGTXY5M0tjOGstNjZiOTFFNnJrdTVIOGQxY0NIN3RmZWZ2OGxjc29oSDQyaDJmRzlzeEg2bGlIU2hIOVA?oc=5",
+        "source": "연합인포맥스",
+        "date": "2026-08-21T03:39:28.000Z"
+      },
+      {
         "title": "환율 1559→1380원대…달러 더 사는 서학개미",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vc1dnbkVubTgtV1RxMnktR0pjbWZkdm1rbUdXSWJtcjA3SXRBVTlpb0tUUkJzdGVzbWphTW5ZMXFZcWs3LVNLWXVGX2FVdW5DRTNfZ25vLU1lZkg4Y0lwS25ETFdLbVdHVmhYOQ?oc=5",
         "source": "mstoday.co.kr",
         "date": "2026-08-21T03:11:43.000Z"
-      },
-      {
-        "title": "[안영운 칼럼] 미국 영주권, 환율 안정 국면에서 놓치지 말아야 할 부분",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1uNXJ3Z1BBZTM0eGNLOWFLWHZERGtHYVpHcnpDSmZRZHZQTEdjTlNldklsRU1aVVBabFVieGQ2YzRHT3ZRZktJd0g4NDFaa2Q5UzhKQjEwSzctNEpRQmNBVTBQXzdwUm80Yk02WU9CS3dVamR5?oc=5",
-        "source": "파이낸셜리뷰",
-        "date": "2026-08-21T02:50:29.000Z"
-      },
-      {
-        "title": "[CEONEWS 뉴스팝콘 111] 환율 1300시대 열리나?",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1iYV9CZ2EtcmgxOFdvZ3k2TzMySm92WFFfbFFoWEZOdFA2allQTGFNVlRtUlZPWFZOcV94Mm5LWFZGZHk4MHlCMGREQVBrSVVtN2poREg3c2loYjlodGhJ?oc=5",
-        "source": "CEONEWS",
-        "date": "2026-08-21T02:20:00.000Z"
-      },
-      {
-        "title": "대신證 \"달러-원 연내 1,350원까지 하락…달러 매도 우위\"",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1vMkkyNktFNHJfUklfV2RKMzNuaElVYjBRQnU2eGZDaXpDRkNhY2xFWUlkT3FWemVleTFIcFpCRkIxaTlTN3d0cEtSV0s4d2dULUxOLWxnaU1tMVdUMTJ0eV8xZnNBM2ZYN0g2MUk4UGRNQQ?oc=5",
-        "source": "KB Think",
-        "date": "2026-08-21T01:39:27.000Z"
       },
       {
         "title": "원·달러 환율, 1380원대 공방…강달러 속 하락 기대도",
@@ -199,6 +193,12 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yeVYxZnI3Q1hveGpiNEZMOTdQMHpsanVKOF9Xbm1Lc0pMSjY2bk03aDYtbWREMkY3ckVSQnVaVDU4bks1d0xxeFRDSEo1S1NFWmZRTEpjRVVUYWhhNWltdtIBeEFVX3lxTFBKWExQVlo3aUZ6c2pSSXQxdnhaVkk0d0prS1JWZXEtbThtd1ZWZ244ZVBxalZUX2JYMmxzOTNFZzlMU2o1YW1MbWZtSVFWYlVrMDFYVk0waUNKbm5ZVmFPeDNRUG0zU3NyUnZiYVhjV25rbWRiWDBXVw?oc=5",
         "source": "뉴시스",
         "date": "2026-08-21T01:01:21.000Z"
+      },
+      {
+        "title": "[영상] 11개월 만에 원·달러 1390원대 붕괴…국민연금이 변수",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tR1NVNUotVVpKVHBZV2txU1Vic0hqTUNuc2VhV19ST0JscXpQQ3l4UmVrZ2xSbzAyalVueDI3ZXlUV0RLMDl3LTdsdmQtMHhXOFE?oc=5",
+        "source": "서울경제",
+        "date": "2026-08-21T01:00:00.000Z"
       }
     ],
     "metal": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "서울 아파트 실거래가 2.5% 뛰었다…5년 만에 최대 상승",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBBckstQi1vZ2s4MHVUVlYyeXdSY3liMFJRcmVYd1RkNWUzQXFUZ1FxOHgwR2UxdzhTV2VOVkpLYThnTHVScHlzSWlfem93SUJqYWpzQkVWZTVhR0xDMExVRWNTOExvTUdS?oc=5",
+        "source": "디벨로퍼뉴스",
+        "date": "2026-08-21T03:46:46.000Z"
+      },
+      {
         "title": "서울 아파트 실거래가 6월 2.5% 급등..5년여 만에 최대",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4walhwUUlsak5TREF2Sld2aHAwSFBPY2hpbmp4WVo0N0pUMkljX1FYaUNVVTJqb0JhVGxMVXpjUTdRUnMxZXUwTXdsN1h5Qm43OTVSM1FHcG14VEY0RXVRcktfUzE?oc=5",
         "source": "포쓰저널",
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51dzl0cGJsa2hFOTdNTUllSkZ3c3FiMzBjZXNRWHQ1NzYwNjlPUjhMa2J6TTY3RXhBUU53dGdjbUFNbnBUM29zR3JWY3hNdDB5YlE?oc=5",
         "source": "서울경제",
         "date": "2026-08-21T02:04:40.000Z"
-      },
-      {
-        "title": "6월 서울 아파트값 한달새 2.5%↑…5년 만에 최대폭 상승",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE01RWRoWHFuV3hrbVR6d2piY1dJNEN4NmRaNzFYQWFXR1h6UW1ZYkUxYldBcy1jZjdzXzJUcGkzeUxJNU11cXZfRXYxb0pSci10ekNLREktak4?oc=5",
-        "source": "매일경제",
-        "date": "2026-08-21T01:58:33.000Z"
       }
     ],
     "lotto": [
