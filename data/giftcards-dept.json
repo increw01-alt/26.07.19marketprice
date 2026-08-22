@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T14:15:59+09:00",
+  "updatedAt": "2026-08-22T15:16:43+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -132,10 +132,10 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482500,
-      "buyRate": 3.5,
-      "sell": 482900,
-      "sellRate": 3.42
+      "buy": 482350,
+      "buyRate": 3.53,
+      "sell": 482750,
+      "sellRate": 3.45
     },
     {
       "shopId": "choigo",
@@ -144,10 +144,10 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 96580,
-      "sellRate": 3.42
+      "buy": 96470,
+      "buyRate": 3.53,
+      "sell": 96550,
+      "sellRate": 3.45
     },
     {
       "shopId": "choigo",
@@ -156,10 +156,10 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48250,
-      "buyRate": 3.5,
-      "sell": 48290,
-      "sellRate": 3.42
+      "buy": 48235,
+      "buyRate": 3.53,
+      "sell": 48275,
+      "sellRate": 3.45
     },
     {
       "shopId": "choigo",

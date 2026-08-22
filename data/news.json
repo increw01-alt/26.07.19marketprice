@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T14:19:23+09:00",
+  "updatedAt": "2026-08-22T15:17:01+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,12 @@
     ],
     "stock": [
       {
+        "title": "[Q2 분석] “역대급 장세를 완벽 흡수” 대신증권…영업익 165%·순익 243%, 재무상태표는",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5fcElxelZwelZHbTdnVW1IX3NiYnFsemYyMDZpRmZSSUZRVjlmR3hmMEJodTVfWHRna05Uc3FXNUVTRnlQU19WMU5pbGhFekU0NHBJeWRfZkNzcFZXNTFoVjBmaXFLV2JCcUMtRg?oc=5",
+        "source": "이코노미톡뉴스",
+        "date": "2026-08-22T05:43:17.000Z"
+      },
+      {
         "title": "[롤러코스피 대책] 올해 48번째 사이드카…무용지물 증안펀드 : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPY2dUVWpYYkhkbzlScklmTkpDU2dwaDZpTkpRd0h0aFFuak1WSXQxQW9kNi1ISWhiME9GanRSRWFpSzFsbGZ0dlVNVm9GVmc1eDBKME1oWUNCQ1NGVU9FVDNteERCWkhVcVB2ZmRmT1JJc1RnV29MUFJuV2YzVDkyaGdwYVpBYUJvdXFhRlBkUQ?oc=5",
         "source": "Naver Blog",
@@ -93,15 +99,15 @@
         "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qckJlRXBqWl95d0o4SnVKRmhnb042LXJCTjJ2eUxERWpfc3c3YlNsRkwzMUhoR2hWLURsaHkxM0NUMlRtVV9iZDFudW1ERURMUzA1djQyS0tSOTMySmtGdFNqcTY2ektSZTh6bnREX1hJenlJc3c?oc=5",
         "source": "주달",
         "date": "2026-08-21T20:30:28.000Z"
-      },
-      {
-        "title": "코스피 회복세에 '빚투' 재점화",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1reERETUJlaHB6WW5nSXpmcUVQV1hsTnRCdkotV1JMUktlX2UwY3p2Qm11QkpSdnVoVGQ1aWhhal9WazNlUjhMWmVsYjJoZ0dsZlQ5REtxTXFKSEwyUzI2N2l0Wk5scFhmc1NldlFB?oc=5",
-        "source": "세이프머니",
-        "date": "2026-08-21T10:46:22.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "[IPO챗] 니어스랩·해치텍 코스닥 입성…엇갈린 공모 성적표에 주가 향방 촉각",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tSkVBZVJWeFRtb0F4RkU2a3RlNlY1bkVDb2ljd3ZMdndkM3BoT01aYl8tbHgxb0lOV19lcTlLbldja2daTnc5cFkyNVgxeWNSaFhraGxDTE1uWVNfcUgxWjBFMDVUODBEVzVXRk5ITXTSAXRBVV95cUxQTGpSVkRrOXZPbnRHMjNUbnJEekN6MjUxaVBkdmx4RFpsbDlsU2JLeHRNYk1LM1VtcFdvMHpXSmRETjJzWGtNZWo2Nl80RUhOT0ZwWUZZQXdvbnhxNWpWdG9wa1I3VVF5V3BJeHRWaU5YSDd4aA?oc=5",
+        "source": "산경투데이",
+        "date": "2026-08-22T05:27:10.000Z"
+      },
       {
         "title": "[코스피·코스닥지수] 서학개미, 삼성전자·SK하이닉스 담은 메모리 ETF에 1천억원 넘게 베팅",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nLWF2aGdTa2FZbE1xVXd1czZQTzVQMDFEVlBhanJlRTNJdzhWM3d6aVZoSTU3cWZMd1lWWFI1cHNnMVRhYzFBMjJ5alUxUi1tYm9La29NOElYTkZnME03N0dsZThIcWkzczFTLXNSQmE?oc=5",
@@ -113,12 +119,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbFN6T0tmRWNjMUdyZWxrYVBnUG5KYkdvemZiNzJjUTNZM0hiWXNYakROLTh5MVBaZkd1NEpJUEIybk8yM3lST2lFWmVSNHVBWWhYaA?oc=5",
         "source": "이투데이",
         "date": "2026-08-22T00:00:00.000Z"
-      },
-      {
-        "title": "엘리스그룹 코스닥 공모 본격화…몸값 1兆 조준 [시그널]",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXZmVrNjdidTZfaEpPaFFFTGdzclF5dkZkeFVISExzTGJNaU5HLXpBTlNXdGszQkFFeThTNHUtdGowOFdpREhUMGdYc1pWUnhpVmc?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-21T22:30:00.000Z"
       },
       {
         "title": "510% 수익낸 고수 … “반도체 다음은 코스닥에서 나온다”",
@@ -203,6 +203,18 @@
     ],
     "metal": [
       {
+        "title": "금값 상승, 주말에 비를 두려워하지 않고 금을 사러 가는 사람들",
+        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDcwcGlQZUdJcUdqRWVBTFk4eDV1MU5yNUtfT3Y0NHc4M3hDeFZNTl9oZGhYWXNSYm9MWXJEbG1ibkY5UTVFTWozbE1Rc2xNNnJBM0pHTUR2Z0F0RE1MSmRtcWRQbVZwMmZMenNhT1BCWHozMEdqcDNobWtycDRLVmU3aGplblhscHlvZEZVbGhHSkVjWllyZ3BxVjZTUXNxYjY5eVlrdFY5enBtWWREdnNYSno?oc=5",
+        "source": "Laodong.vn",
+        "date": "2026-08-22T05:46:20.000Z"
+      },
+      {
+        "title": "롤러코스터 금 값 …다시 뛰는 금 살까? 말까?",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Ja090XzItV1A5Wkh6QkRvU1RYSlMtNHV4VUVlN1A1S1RLaU9BeGhlTmdVQmkzQm5KSVhlVXByeHUxMXZ1eFpicFpWdFVnS3BNbFNWRHB4aDlFSWdMZGhfYVlpS3dncXhBS1pYMg?oc=5",
+        "source": "센머니",
+        "date": "2026-08-22T05:42:00.000Z"
+      },
+      {
         "title": "[금값시세] 금시세 상승",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qemZ5LTVpbndEelVQc2dkNDI5M2NpRkpiUFBzRHFxZmVEM0J5ZF9mYW1tM01KOTYxU0piSXJBV3Q3dExTSlB2VmxYN0NwRmE2MTh1ZjVUbm5PeTdxM1pTM2NWeG1iMUFfUTlHag?oc=5",
         "source": "게임톡",
@@ -237,18 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Oc00zdjVmY1dmOVdObGZLT1Z4Uk9ncEdoU0I3c0dGcEJ2dTdwYWhEeGdVYmIwMUFkRldrM3liVE1Uc2IzTl9EZGlsRXZ1UWdLU2xUYWUzdFhmTWtBVUVxWUZkM0NRM2wwaFJMd3lwZULSAXRBVV95cUxPY3RMSU9vWmhFcVRzNVdjek52cTl2ZnFTWEtDaEhldm9NMHRXcTBfNTltZEFGc1M4RTh1WWNxaVlvYVpSaXhVRG1NTmFmMHBHU2hjTlBvMVJUZzJCb1RONW1mLWZMYWxxS3ZjMnh3VDEycHRTTg?oc=5",
         "source": "thefairnews.co.kr",
         "date": "2026-08-22T00:10:13.000Z"
-      },
-      {
-        "title": "세계 금값이 급등했는데, 왜 SJC의 금 가격은 국제 가격보다 낮은 걸까요?",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPV0d2WE5pTVhkMjhCZnpma2h4cTg4cGtiNzVxNjl0ODRxOUlrdm15Y0VBY0VsbzdTVmtYVDFLekcta0Y4QVZBTTZ5NGZCdHNDUnBucmRPTTBkeUtraHJaeTBlSGNCSDJfWFRBazhzalpyQUptekdfOGRBWkRfc0xVeWVueHVCWXh2c1ZaWg?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-21T22:59:26.000Z"
-      },
-      {
-        "title": "세계 금값이 계속 상승하여 온스당 4,600달러를 넘어섰습니다.",
-        "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYm93SzIxNWlNWERtR21OX01uMUlMc0R5NXZSRE9LM19SbFozaVBCd2NmR3l0ZGhEQkVBb0VpS3dyZHVVWW9DcFh1M0p0VWdNWXZnM0RTTzJyVUJFSlBkQWtzTkxQMVRlWGowX3QyOWtBSnBsUkhLTkZ2OFdSdXVOM09NaUlydlNQR2VORA?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-21T20:16:53.000Z"
       }
     ],
     "energy": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "“100억 압구정 아파트, 이젠 85억이라는데 찾아보니 신고가?”강남 집값 무슨 일이 [부동산360]",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ROGZXTlVBX2ZsTGI1RVV5Y09sOWF2R1N2elR3Um9xd0hmVmx2RnVDZHlYMEM5Nm1RVTBiVW9pNUZSSklqUDk4Ry1NdHM3bzhVVE1qcmJB?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-08-22T06:00:00.000Z"
+      },
+      {
         "title": "서울 아파트값 다시 가파른 상승…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EQ25yOG9tQWNaWkZVTlFYSjNlQmlNRkFqa1p6WThiUmRHQVBUc3FuTXFrZ2pIVFlabU5NSk5QNkxDUGpuN2NaOEZtY0VGNW9EelE?oc=5",
         "source": "유스연합",
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14TU11RlZsc09UWGgyT0FZNlFDU3ZPUGkwc19nUi1ScDAyYldERnlsdGFXSnBGbVhWN01LVzZ4SkNpRnFuODdwRDk4dmo0enFXbHg3eC14a1E3dnRvNzdCdG5FSDRPSXdaSlBIY2JXY9IBb0FVX3lxTE14TU11RlZsc09UWGgyT0FZNlFDU3ZPUGkwc19nUi1ScDAyYldERnlsdGFXSnBGbVhWN01LVzZ4SkNpRnFuODdwRDk4dmo0enFXbHg3eC14a1E3dnRvNzdCdG5FSDRPSXdaSlBIY2JXYw?oc=5",
         "source": "the-news.co.kr",
         "date": "2026-08-21T08:25:08.000Z"
-      },
-      {
-        "title": "서울 아파트 실거래가 5년 만에 최대폭 상승…6월 2.50%↑",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OU2F3LUNZVUs4WlFQSDZrd1dYRzFWZm1xcjZjWTVxQkxDaGlud3JsbTBkOGpacmtrQ1c5azFoVC1MaHVJRkJzaTJ3dmdyOVZIT1U5Y1E3UnNnbmgycThtaTZxdmYyRzctRW9PSA?oc=5",
-        "source": "센머니",
-        "date": "2026-08-21T07:46:24.000Z"
       }
     ],
     "lotto": [
