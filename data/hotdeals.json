@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-22T08:11:37+09:00",
+  "updatedAt": "2026-08-22T09:26:20+09:00",
   "deals": [
+    {
+      "title": "라방 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106553",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-22T00:23:10.000Z"
+    },
+    {
+      "title": "액막이 명태",
+      "mall": "쿠팡",
+      "price": 6900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728539",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T00:03:52.000Z"
+    },
+    {
+      "title": "이지앤프리 깍둑설기 네모수박 프루트 보관용기 3.7L 2P",
+      "mall": "GS샵",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728538",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T00:02:53.000Z"
+    },
+    {
+      "title": "글라스 에어프라이어 4.5L 유리 바스켓",
+      "mall": "오늘의집",
+      "price": 64710,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728537",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T23:53:40.000Z"
+    },
+    {
+      "title": "펩시콜라 제로슈거 라임 310ml 24캔",
+      "mall": "롯데온",
+      "price": 11910,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728536",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-21T23:46:53.000Z"
+    },
     {
       "title": "단하루특가 광천김 곱창김 도시락김5gX27",
       "mall": "토스",
@@ -145,17 +200,6 @@
       "date": "2026-08-21T15:28:48.000Z"
     },
     {
-      "title": "밥이보약 DOG 3.4kg 사료 모음",
-      "mall": "오늘의집",
-      "price": 30816,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728521",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:20:49.000Z"
-    },
-    {
       "title": "일일적립, 클릭 19원, 라이브예고 1원",
       "mall": "네이버페이",
       "price": 1,
@@ -176,39 +220,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-21T15:18:36.000Z"
-    },
-    {
-      "title": "한돈뒷고기 갈비양념육 250g 뒷고기",
-      "mall": "네이버",
-      "price": 990,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728520",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:18:07.000Z"
-    },
-    {
-      "title": "올바소 아이스쇼크 탈모샴푸 1000ml",
-      "mall": "지마켓",
-      "price": 19780,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728519",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:16:36.000Z"
-    },
-    {
-      "title": "농협 특품 샤인머스캣 2kg 3~4수",
-      "mall": "오늘의집",
-      "price": 17825,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728518",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-21T15:09:31.000Z"
     },
     {
       "title": "삼성SDS 유튜브 구독 180원 적립",
@@ -594,17 +605,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-20T15:00:03.000Z"
-    },
-    {
-      "title": "더 합체 세븐체인저 2차 재판",
-      "mall": "네이버",
-      "price": 275400,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106522",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T13:46:46.000Z"
     },
     {
       "title": "나뚜루 파인트 6종 3+3 31,425원/무료배송",
