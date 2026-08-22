@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-08-22T23:08:43+09:00",
+  "updatedAt": "2026-08-23T00:08:12+09:00",
   "deals": [
+    {
+      "title": "제이숲 BEST 헤어&바디 케어 모음전",
+      "mall": "오늘의집",
+      "price": 15595,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728656",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T15:04:12.000Z"
+    },
+    {
+      "title": "떡편 초코 쌀케익, 35g, 18개",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728655",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T15:03:11.000Z"
+    },
+    {
+      "title": "보조배터리 10,000mAh 초고속 충전",
+      "mall": "네이버",
+      "price": 12900,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728654",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T15:02:03.000Z"
+    },
+    {
+      "title": "지오다노 주니어 테리 그래픽 맨투맨",
+      "mall": "공홈",
+      "price": 17600,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728653",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T15:01:08.000Z"
+    },
+    {
+      "title": "마켓오 리얼브라우니 20g 2개+크림치즈 2개",
+      "mall": "11번가",
+      "price": 14300,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728652",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T14:54:30.000Z"
+    },
+    {
+      "title": "스파클 생수 2L 24개",
+      "mall": "토스",
+      "price": 8990,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728651",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T14:41:24.000Z"
+    },
+    {
+      "title": "홈스타 락스와세제 스프레이 후로랄 900ml x 4개",
+      "mall": "지마켓",
+      "price": 12930,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728650",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T14:37:35.000Z"
+    },
+    {
+      "title": "홈스타 락스와세제 스프레이 후로랄 900ml x 4개 12,930원/무배",
+      "mall": "G마켓",
+      "price": 12930,
+      "cat": "생활",
+      "link": "https://damoang.net/economy/79234",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-22T14:36:12.000Z"
+    },
+    {
+      "title": "고기중독 소고기 모듬 한판 200g 5개",
+      "mall": "토스",
+      "price": 23490,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728649",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T14:20:03.000Z"
+    },
+    {
+      "title": "컨셉원 워셔블 스트라이프 폴로 반팔니트",
+      "mall": "공식홈페이지",
+      "price": 24700,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728648",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T14:13:25.000Z"
+    },
     {
       "title": "수입 대패삼겹, 1kg, 2팩",
       "mall": "토스",
@@ -79,17 +189,6 @@
       "date": "2026-08-22T12:29:42.000Z"
     },
     {
-      "title": "국산 활숫꽃게 1kg 3~5미",
-      "mall": "네이버",
-      "price": 8800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728641",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:22:21.000Z"
-    },
-    {
       "title": "(NS)젤다의전설 지혜의 투영 37800원 배송비 2500원",
       "mall": "네이버",
       "price": 2500,
@@ -99,94 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-22T12:19:10.000Z"
-    },
-    {
-      "title": "초정탄산수 그린애플 190ml x 30캔 외",
-      "mall": "카카오톡",
-      "price": 10900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728640",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:18:55.000Z"
-    },
-    {
-      "title": "그레인바운더리 수제 쿠키 여러종",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728639",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:14:59.000Z"
-    },
-    {
-      "title": "소비임박 오쏘몰 바이탈F, 10정, 1개",
-      "mall": "토스쇼핑",
-      "price": 9010,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728638",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:12:05.000Z"
-    },
-    {
-      "title": "안국약품 코큐텐 코엔자임 Q10 30캡슐, 1개",
-      "mall": "네이버",
-      "price": 11000,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728637",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:02:19.000Z"
-    },
-    {
-      "title": "맥심모카골드190T 1봉당 약 125.3원",
-      "mall": "옥션",
-      "price": 23800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728636",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T12:01:17.000Z"
-    },
-    {
-      "title": "내장제거 찐보리굴비(대) 29cm내외 5팩",
-      "mall": "롯데온",
-      "price": 35260,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728635",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:45:50.000Z"
-    },
-    {
-      "title": "안동 홍로사과 2kg 중과",
-      "mall": "카카오",
-      "price": 12825,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728634",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:33:35.000Z"
-    },
-    {
-      "title": "파스텔 야돔 오리지널 1세트(6개입)",
-      "mall": "카카오",
-      "price": 9600,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728633",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:31:44.000Z"
     },
     {
       "title": "파워에이드900ml 12입",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-20T00:54:39.000Z"
-    },
-    {
-      "title": "JONR P20 Pro 올인원 로봇청소기",
-      "mall": "알리",
-      "price": null,
-      "cat": "디지털·가전",
-      "link": "https://damoang.net/economy/79096",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-20T00:53:25.000Z"
     }
   ]
 }
