@@ -1,18 +1,18 @@
 {
-  "updatedAt": "2026-08-22T15:17:01+09:00",
+  "updatedAt": "2026-08-22T16:21:55+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "비트코인 가격이 8만 달러에 근접하면서 3년 만에 가장 큰 주간 상승폭을 기록할 전망입니다.",
+        "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOM2NabDBVellHS0JqNEwybnVlMlZ6ejc2bzJnbGkzeG5nTnB1NGpETURzYXpFNVVJY01OMHFQdTU0LU82b3Q2V0NDWUZUclFDR254cVJGQllTWGRKWE9SX2Q2REpFTURGTUJ6RFJSWDRTZ0pvTkMyTWdVUWIxeExTcHpKNWxqNmxkTmVzcHhfekJ1NFVwQWNrZFFfQXFRWkN3?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-22T06:42:20.000Z"
+      },
       {
         "title": "비트코인 8만 달러 육박…스트래티지 주가 6% 상승",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KXzN5UlJqQU1qWU5QM2cwdVp6SUQ0ZXg0eU1GZEs1R1VHQTRpNzlFNGpkYWJzQVpoYl9aajlSeElNdExtcW9zLUR5TFZ4VENiekR0ZFZ3?oc=5",
         "source": "지디넷코리아",
         "date": "2026-08-22T01:55:23.000Z"
-      },
-      {
-        "title": "비트코인 가격이 단 이틀 만에 20% 이상 급등했습니다.",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QLUY3N1NRMXNyN3pvUEdmcDFUTzhTc1A3S3YyVTBMaGlob0VhY2hlZTRsaUZ5UEtYRDhrWXQtdFV2eWlRdVl6QWdKYjR1cU1mb3hfVjFGRUFTMF9fOHpSU0xBVmJMUTdYaDU0UnFnbUJTSHAycTVj?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-21T15:48:34.000Z"
       },
       {
         "title": "전략의 비트코인 보유 포지션이 14억 달러의 미실현 이익으로 전환",
@@ -103,16 +103,22 @@
     ],
     "kosdaq": [
       {
+        "title": "니어스랩·해치텍 코스닥 출격…엇갈린 공모 성적표",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pLVpnNVdDUktxVjB0NTQzUDBuOFMxRVlFMjNlV3BSbUxTeWRSYUdQbGxySGowN002YXRKOHlDVXlubnFmYlM0Wlh3Y1liQ1RRLTNuTG8zMXhuOXl2d3Z1S1NDZWtyb2Ri?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-08-22T05:45:55.000Z"
+      },
+      {
         "title": "[IPO챗] 니어스랩·해치텍 코스닥 입성…엇갈린 공모 성적표에 주가 향방 촉각",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9tSkVBZVJWeFRtb0F4RkU2a3RlNlY1bkVDb2ljd3ZMdndkM3BoT01aYl8tbHgxb0lOV19lcTlLbldja2daTnc5cFkyNVgxeWNSaFhraGxDTE1uWVNfcUgxWjBFMDVUODBEVzVXRk5ITXTSAXRBVV95cUxQTGpSVkRrOXZPbnRHMjNUbnJEekN6MjUxaVBkdmx4RFpsbDlsU2JLeHRNYk1LM1VtcFdvMHpXSmRETjJzWGtNZWo2Nl80RUhOT0ZwWUZZQXdvbnhxNWpWdG9wa1I3VVF5V3BJeHRWaU5YSDd4aA?oc=5",
         "source": "산경투데이",
         "date": "2026-08-22T05:27:10.000Z"
       },
       {
-        "title": "[코스피·코스닥지수] 서학개미, 삼성전자·SK하이닉스 담은 메모리 ETF에 1천억원 넘게 베팅",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nLWF2aGdTa2FZbE1xVXd1czZQTzVQMDFEVlBhanJlRTNJdzhWM3d6aVZoSTU3cWZMd1lWWFI1cHNnMVRhYzFBMjJ5alUxUi1tYm9La29NOElYTkZnME03N0dsZThIcWkzczFTLXNSQmE?oc=5",
-        "source": "한국강사신문",
-        "date": "2026-08-22T00:32:39.000Z"
+        "title": "[IPO챗] 공모가 희비 갈린 니어스랩·해치텍, 코스닥 입성",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rbDdKR2pMazNoSVF0X2t6MmYxSmVpOUZOSW8zZ1V0a3RveEFyUFJEYk9NVUdHMVRRa0Z5cHctUmlmQVpUcHdnVEFmZFM2ZDlhcVE?oc=5",
+        "source": "매일경제 마켓",
+        "date": "2026-08-22T00:00:04.000Z"
       },
       {
         "title": "[주간 IPO] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약",
@@ -143,12 +149,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5DUm5Dbkd2UXdXUUdGdlFEalVPQkt4UGlQaWpoMzUwQkVNV3MxeDVmQ0hETkZfMzlUMnNxWjl6T3ZLTmdab1Z5Sjg2NWRhTGpjX3ZXN2xmTlQ4T1p4Vk1pX9IBYEFVX3lxTE5DUm5Dbkd2UXdXUUdGdlFEalVPQkt4UGlQaWpoMzUwQkVNV3MxeDVmQ0hETkZfMzlUMnNxWjl6T3ZLTmdab1Z5Sjg2NWRhTGpjX3ZXN2xmTlQ4T1p4Vk1pXw?oc=5",
         "source": "연합뉴스",
         "date": "2026-08-21T12:14:52.000Z"
-      },
-      {
-        "title": "AI 의료데이터 생산 플랫폼 '스카이랩스', 코스닥 상장 본격 돌입",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vNkhKaWJsMTljZEp0RGpvWXRyV25sd25VR1pYN0hzVnZFcE1Ca3Y3WjJQLThEdWIwTVQtUTRNTHlEOGgyQ2tEYnRrS0Z2S0YzZkVnR0tHZ3ZBS1dTVW5UcDdmMHNmeUE?oc=5",
-        "source": "인공지능신문",
-        "date": "2026-08-21T11:55:40.000Z"
       }
     ],
     "fx": [
@@ -203,6 +203,12 @@
     ],
     "metal": [
       {
+        "title": "놀라운 금값",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1VN2NleGtVQjhuaVBhSW00bjQyTHBYeFJJTGhmYWlyUld3VXB2eTBrdjRKejdGZ0xhczlKR2JaUzBzTmpDRFBzbTQxbWI0ZkVINGp0eXgwcjU?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-22T06:00:51.000Z"
+      },
+      {
         "title": "금값 상승, 주말에 비를 두려워하지 않고 금을 사러 가는 사람들",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDcwcGlQZUdJcUdqRWVBTFk4eDV1MU5yNUtfT3Y0NHc4M3hDeFZNTl9oZGhYWXNSYm9MWXJEbG1ibkY5UTVFTWozbE1Rc2xNNnJBM0pHTUR2Z0F0RE1MSmRtcWRQbVZwMmZMenNhT1BCWHozMEdqcDNobWtycDRLVmU3aGplblhscHlvZEZVbGhHSkVjWllyZ3BxVjZTUXNxYjY5eVlrdFY5enBtWWREdnNYSno?oc=5",
         "source": "Laodong.vn",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaUMwd0dRLUp6cGRWekllQm9Mcmt0RlR1VDkyVUQ1MXNDUl9yaF9tcTNwSFRHX2JXUml2cUJfbndET3NYOGtnYnFzU0Jtak00NDBUY3FhSnZjSktEOV9jTDV6V1AtdmlSY3B0Z1o3WTV6UWFvVHNaN3k5WDFBZmxRNVVVRTk0czRtRTI1MkY5MmwtMlgtMHgzMTRDeXd0bUc3WU5lbA?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-22T00:17:53.000Z"
-      },
-      {
-        "title": "오늘(22일) 금시세 상승세...국채 금리 상승 달러 약세",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Oc00zdjVmY1dmOVdObGZLT1Z4Uk9ncEdoU0I3c0dGcEJ2dTdwYWhEeGdVYmIwMUFkRldrM3liVE1Uc2IzTl9EZGlsRXZ1UWdLU2xUYWUzdFhmTWtBVUVxWUZkM0NRM2wwaFJMd3lwZULSAXRBVV95cUxPY3RMSU9vWmhFcVRzNVdjek52cTl2ZnFTWEtDaEhldm9NMHRXcTBfNTltZEFGc1M4RTh1WWNxaVlvYVpSaXhVRG1NTmFmMHBHU2hjTlBvMVJUZzJCb1RONW1mLWZMYWxxS3ZjMnh3VDEycHRTTg?oc=5",
-        "source": "thefairnews.co.kr",
-        "date": "2026-08-22T00:10:13.000Z"
       }
     ],
     "energy": [
@@ -303,6 +303,12 @@
     ],
     "macro": [
       {
+        "title": "[김이코의 시장분석]환율·금리 '복합 변수' 앞에 선 코스피…박스권 돌파 트리거는?",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8ySnhscFh5WkhsNGdVQ0RhdW1uc21BY2NTUjFkbjZFX1Q5bzg5RjhKcldWN2lKM29NOXdoTzljSjd2bl80Rk9XanlhUDE4Wk0ySVgwRFF3a2bSAVhBVV95cUxPMkp4bHBYeVpIbDRnVUNEYXVtbnNtQWNjU1IxZG42RV9UOW84OUY4SnJXVjdpSjNvTTl3aE85Y0o3dm5fNEZPV2p5YVAxOFpNMklYMERRd2tm?oc=5",
+        "source": "미디어펜",
+        "date": "2026-08-22T00:58:25.000Z"
+      },
+      {
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
         "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
         "source": "Naver Blog",
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBoMlJaUE44MHE4YzF2NHdUZk02LTd2N1N5em5qT0s5eGtpNWdxVFQwODEtYjkxUDM5N3NOaG1OWnQ4cmx4dE9OQjI1YUJ3MHZqdW02ZzlQREZFczNXYnZfSA?oc=5",
         "source": "KB Think",
         "date": "2026-07-29T07:00:00.000Z"
-      },
-      {
-        "title": "[7월 넷째 주 세계경제동향 브리핑] 코스피 6,600선 후퇴…한미 증시 동반 약세",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kMjQ3NGVKd0VXR2FqSXI3LWdJNmdSTTlhQ2pUV3FZdWlPdlpuRXJTcTNaN2lBUkNRNE85X2gtMXNWTURvZmh1aGlSeDJiVGZMVWhncHYtdFpObk5QcUdHUzktRE4xWVpnVWVHZkZXbw?oc=5",
-        "source": "기호일보",
-        "date": "2026-07-25T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "5년 만에 최대 폭등…서울 아파트값 한달새 2.5%↑",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwYTlHM2Z3aGNtNnpQU2xxQTdqbWVNSjVqWjV6YnJzeVJrMkNBUmVMUGdqV0JFXzA0eGdsZ213YjlibFJGenVUU2Y0SWZoQzVuRU8w?oc=5",
+        "source": "경제타임스",
+        "date": "2026-08-22T07:03:27.000Z"
+      },
+      {
         "title": "“100억 압구정 아파트, 이젠 85억이라는데 찾아보니 신고가?”강남 집값 무슨 일이 [부동산360]",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ROGZXTlVBX2ZsTGI1RVV5Y09sOWF2R1N2elR3Um9xd0hmVmx2RnVDZHlYMEM5Nm1RVTBiVW9pNUZSSklqUDk4Ry1NdHM3bzhVVE1qcmJB?oc=5",
         "source": "헤럴드경제",
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB4QWZyYmhMenpDOFFpdHZTbWlmeUJUZzRHdHBtRGZiNXZ0bU85eWE0RE44M2FRZnVoWkE0aVVCS25Hcy1MaUg3RE9KemhDU3puTXA2THpybVduZHRQT19VeWptTENpUXJtUFh3?oc=5",
         "source": "한국건설신문",
         "date": "2026-08-21T08:52:58.000Z"
-      },
-      {
-        "title": "서울 아파트 실거래가 6월 2.50% 급등…2021년 집값 급등기 넘어 5년 만에 최고 상승폭",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE14TU11RlZsc09UWGgyT0FZNlFDU3ZPUGkwc19nUi1ScDAyYldERnlsdGFXSnBGbVhWN01LVzZ4SkNpRnFuODdwRDk4dmo0enFXbHg3eC14a1E3dnRvNzdCdG5FSDRPSXdaSlBIY2JXY9IBb0FVX3lxTE14TU11RlZsc09UWGgyT0FZNlFDU3ZPUGkwc19nUi1ScDAyYldERnlsdGFXSnBGbVhWN01LVzZ4SkNpRnFuODdwRDk4dmo0enFXbHg3eC14a1E3dnRvNzdCdG5FSDRPSXdaSlBIY2JXYw?oc=5",
-        "source": "the-news.co.kr",
-        "date": "2026-08-21T08:25:08.000Z"
       }
     ],
     "lotto": [
