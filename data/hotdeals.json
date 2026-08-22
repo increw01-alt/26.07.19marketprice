@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-23T07:08:17+09:00",
+  "updatedAt": "2026-08-23T08:08:28+09:00",
   "deals": [
+    {
+      "title": "단하루특가 광동 V라인 옥수수수염차500ml X 20병 1병당 695원",
+      "mall": "토스",
+      "price": 13900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728674",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T22:49:57.000Z"
+    },
+    {
+      "title": "iOS 무료 Secret Diary",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/79244",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-22T22:48:48.000Z"
+    },
     {
       "title": "산과들에 맛밤 윤서의달밤 30g x30봉",
       "mall": "지마켓",
@@ -176,17 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-22T15:17:58.000Z"
-    },
-    {
-      "title": "내츄럴 블루베리퓨레 100 15포 x 3개",
-      "mall": "지마켓",
-      "price": 18900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728659",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T15:16:14.000Z"
     },
     {
       "title": "일일적립, 클릭 3원, 라이브예고 2원",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-20T01:54:28.000Z"
-    },
-    {
-      "title": "LG생활건강 피지 모락셀라 빨래쉰내 땀냄새제거 세탁세제 2.6L 코튼향 특별 대용량",
-      "mall": "네이버",
-      "price": null,
-      "cat": "생활",
-      "link": "https://naver.me/xaTla4Ok",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-20T01:18:12.000Z"
     }
   ]
 }
