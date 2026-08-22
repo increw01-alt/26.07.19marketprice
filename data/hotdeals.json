@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-22T19:10:04+09:00",
+  "updatedAt": "2026-08-22T20:09:30+09:00",
   "deals": [
+    {
+      "title": "부산 당면만두 40개입",
+      "mall": "네이버",
+      "price": 5800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728627",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T11:00:53.000Z"
+    },
+    {
+      "title": "삼육두유 베지밀 두유 모음전",
+      "mall": "네이버",
+      "price": 28900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728626",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T10:17:36.000Z"
+    },
+    {
+      "title": "타임딜 프로베스트 캣 14.5kg",
+      "mall": "네이버",
+      "price": 22650,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728624",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T10:15:49.000Z"
+    },
+    {
+      "title": "휴대용 냉각 선풍기",
+      "mall": "네이버",
+      "price": 19400,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728625",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T10:15:45.000Z"
+    },
+    {
+      "title": "멘소래담 스프래이 파스 3종",
+      "mall": "11번가",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728623",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T10:07:05.000Z"
+    },
+    {
+      "title": "아이스 타올 10매입 쿨 타월 특대형 사이즈",
+      "mall": "네이버",
+      "price": 9900,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728622",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T10:06:37.000Z"
+    },
     {
       "title": "디즈니 키즈 아쿠아슈즈",
       "mall": "11번가",
@@ -99,72 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-22T08:57:49.000Z"
-    },
-    {
-      "title": "동쑥이 동부로 만든 대왕 쑥굴레떡 춘천 이삭떡방",
-      "mall": "29cm",
-      "price": 17000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728611",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:52:27.000Z"
-    },
-    {
-      "title": "팔도 왕뚜껑 오리지널+김치 20개",
-      "mall": "지마켓",
-      "price": 17720,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728610",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:49:27.000Z"
-    },
-    {
-      "title": "맘스럽 베이킹소다 파우치5Kg",
-      "mall": "토스",
-      "price": 3990,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728609",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:44:27.000Z"
-    },
-    {
-      "title": "더미식 당찬진미 백미밥 200g 24개",
-      "mall": "네이버",
-      "price": 18810,
-      "cat": "기타",
-      "link": "https://shopping.naver.com/festa/onsale/6a83a264d46b8c55fcdb882f",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:44:06.000Z"
-    },
-    {
-      "title": "고평량 아기물티슈 썸머 에디션 네이비 캡형 70매X20팩",
-      "mall": "앙블랑",
-      "price": 38750,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728607",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:26:34.000Z"
-    },
-    {
-      "title": "블랙야크 1+1+1 라운드 트리플 반팔세트 (36,460/무배)",
-      "mall": "지마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728606",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T08:05:27.000Z"
     },
     {
       "title": "파워에이드900ml 12입",
