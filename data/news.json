@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T21:12:35+09:00",
+  "updatedAt": "2026-08-22T22:22:41+09:00",
   "topics": {
     "coin": [
       {
@@ -103,12 +103,6 @@
     ],
     "kosdaq": [
       {
-        "title": "[8월 셋째 주 세계경제동향 브리핑] 코스피 6,900선 약보합…코스닥 7%대 하락",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jZlBVN1dZb1gwUkxLNlhYcXdZVnNEcFhCYV9iTFV4UHFMMVIxcmRHQmI1SHEzM3JQemoxMUZhRG1YZHUxczQ2ZGtmeGF6TlU?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-22T09:25:22.000Z"
-      },
-      {
         "title": "스카이랩스, 9월 코스닥 상장…글로벌 의료데이터 생산 플랫폼 기업으로 도약",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBvdWlmSXhkV05jbC1saFJSenRKRUNOT0RVN1EydUk0LWhIa0hvQzM0RkJDOFB1SmlPTEI2WklNWm1qUTUtS3FzczBQZnIwNmM?oc=5",
         "source": "와우테일",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbFN6T0tmRWNjMUdyZWxrYVBnUG5KYkdvemZiNzJjUTNZM0hiWXNYakROLTh5MVBaZkd1NEpJUEIybk8yM3lST2lFWmVSNHVBWWhYaA?oc=5",
         "source": "이투데이",
         "date": "2026-08-22T00:00:00.000Z"
+      },
+      {
+        "title": "엘리스그룹 코스닥 공모 본격화…몸값 1兆 조준 [시그널]",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXZmVrNjdidTZfaEpPaFFFTGdzclF5dkZkeFVISExzTGJNaU5HLXpBTlNXdGszQkFFeThTNHUtdGowOFdpREhUMGdYc1pWUnhpVmc?oc=5",
+        "source": "서울경제",
+        "date": "2026-08-21T22:30:00.000Z"
       }
     ],
     "fx": [
@@ -209,12 +209,6 @@
         "date": "2026-08-22T06:00:51.000Z"
       },
       {
-        "title": "금값 상승, 주말에 비를 두려워하지 않고 금을 사러 가는 사람들",
-        "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUDcwcGlQZUdJcUdqRWVBTFk4eDV1MU5yNUtfT3Y0NHc4M3hDeFZNTl9oZGhYWXNSYm9MWXJEbG1ibkY5UTVFTWozbE1Rc2xNNnJBM0pHTUR2Z0F0RE1MSmRtcWRQbVZwMmZMenNhT1BCWHozMEdqcDNobWtycDRLVmU3aGplblhscHlvZEZVbGhHSkVjWllyZ3BxVjZTUXNxYjY5eVlrdFY5enBtWWREdnNYSno?oc=5",
-        "source": "Laodong.vn",
-        "date": "2026-08-22T05:46:20.000Z"
-      },
-      {
         "title": "롤러코스터 금 값 …다시 뛰는 금 살까? 말까?",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Ja090XzItV1A5Wkh6QkRvU1RYSlMtNHV4VUVlN1A1S1RLaU9BeGhlTmdVQmkzQm5KSVhlVXByeHUxMXZ1eFpicFpWdFVnS3BNbFNWRHB4aDlFSWdMZGhfYVlpS3dncXhBS1pYMg?oc=5",
         "source": "센머니",
@@ -249,6 +243,12 @@
         "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaUMwd0dRLUp6cGRWekllQm9Mcmt0RlR1VDkyVUQ1MXNDUl9yaF9tcTNwSFRHX2JXUml2cUJfbndET3NYOGtnYnFzU0Jtak00NDBUY3FhSnZjSktEOV9jTDV6V1AtdmlSY3B0Z1o3WTV6UWFvVHNaN3k5WDFBZmxRNVVVRTk0czRtRTI1MkY5MmwtMlgtMHgzMTRDeXd0bUc3WU5lbA?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-22T00:17:53.000Z"
+      },
+      {
+        "title": "오늘(22일) 금시세 상승세...국채 금리 상승 달러 약세",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9Oc00zdjVmY1dmOVdObGZLT1Z4Uk9ncEdoU0I3c0dGcEJ2dTdwYWhEeGdVYmIwMUFkRldrM3liVE1Uc2IzTl9EZGlsRXZ1UWdLU2xUYWUzdFhmTWtBVUVxWUZkM0NRM2wwaFJMd3lwZULSAXRBVV95cUxPY3RMSU9vWmhFcVRzNVdjek52cTl2ZnFTWEtDaEhldm9NMHRXcTBfNTltZEFGc1M4RTh1WWNxaVlvYVpSaXhVRG1NTmFmMHBHU2hjTlBvMVJUZzJCb1RONW1mLWZMYWxxS3ZjMnh3VDEycHRTTg?oc=5",
+        "source": "thefairnews.co.kr",
+        "date": "2026-08-22T00:10:13.000Z"
       }
     ],
     "energy": [
@@ -367,7 +367,7 @@
       {
         "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU1IwVEwtZ3dORVBEd3ZldGRsaW1NanlVOXUxdGU5NUZkNG9tNjdkSzk0UkZWNG9GLXdXWi1ORFo1VEx0anJqeWtObzM3VVdwdHo0MndEN1pRUUY2Q0lxTU1ncWhXRHFUNUZz0gFvQVVfeXFMTUZzcmRaM3RvWkkzX0xVeERtSWZrdkl1ejV2ZnhSOEpBZ0UwQ2Q5V1hocnVpLW00Y3V6UDc5NnhILTlKbi1FdGhyeWpGN2lfcVYxVDNBQ1FNalBnZ0s3d1F1OElGOHA5WHk4THR4bFBZ?oc=5",
-        "source": "msnews.co.kr",
+        "source": "서울시정일보",
         "date": "2026-08-17T22:30:00.000Z"
       },
       {
@@ -453,10 +453,22 @@
     ],
     "lotto": [
       {
+        "title": "로또 1등 12억씩 23명…경기 광주 한 판매점서 수동 4건 '잭팟'",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IOWJ5WTZ3UDBYZlRWSEF2ZkFZLUtOaWc3bGZjX243c2w4SzRkLUM0WEw5b00zWHNTRUY5bUhjZEVjV2xmNjhseTZYTlg4Z291N001M29nOXBlWjVoWnBHZVl30gFnQVVfeXFMTU01ajl0cUxFQU9EeExVNjA3amhfc29GZEtvd1Y1am85ZXpBQk9vcFpzaTlkMzhONnh6M0dIcEYzSENqYk12a1BVS3hsTW1NMzROc1hGZkZlZEFLNklDaXpTaEVjVnRMbw?oc=5",
+        "source": "뉴스1",
+        "date": "2026-08-22T12:17:44.000Z"
+      },
+      {
         "title": "1238회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ITGF6dG1ld3c1MGpzX1BTTFFGN1RpQUU3U0ZNa1IzMVBSREl5c25QbjZqMGVpSHF1M1lxejBuVHY5a2k2bnIzZWh5UmJ6V0UxMElMWkx3WlBKUHpQRGQ5ODVyR0dfVHhEYkZ2a3p3eFY4dw?oc=5",
         "source": "톱스타뉴스",
         "date": "2026-08-22T12:04:44.000Z"
+      },
+      {
+        "title": "로또 1238회 1등 ‘2·13·18·32·38·42’ 보너스 ‘22’…당첨자 23명 11억9726만원씩",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaV0dQZnVxbGNtUlZkZnMwcHgwYzVjeVV1MURNaFd5V1FJREprSlVZQlYtMGd0X3FWXzdJYmFEUFNjNTNXU1d2djAzWDkzWTlKbHRGdDJHTGIyZ9IBX0FVX3lxTE1WZnAxT09zamdHbHNYRnBWVXBBSFBTWWVWZ2xWZVRJTC1nZ21zX3lRWXNCdnR4Tkppajd0MHhQbEtYWWU4M0tta2d3RXJQcURRanpDVldGR25VRWVwOUpn?oc=5",
+        "source": "경향신문",
+        "date": "2026-08-22T11:50:00.000Z"
       },
       {
         "title": "1238회 로또당첨번호조회 및 통계(2보)",
@@ -487,18 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zeGpYRk5rOGhkaDlkZ25za0t3bHZnakZJMWkzeG9WcHBTbFRXMG91VU5iSE5BU2ZveEo5VzdnSmZSYWIwOWUyTV80UGkyRzRacjl4bWYwYy1ucHpGdTFBSkpjTkVGOWozQXJxMUVB?oc=5",
         "source": "gukjenews.com",
         "date": "2026-08-21T15:04:00.000Z"
-      },
-      {
-        "title": "이번 주 로또 몇 번 찍을까…가장 많이 나온 번호는 34, 27…[뉴스뷰]",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6cndDLTlmWWRfQnpOcjRha1B6cDhlbHpLZzcwUVYzOGo2bHVUSEFYNTlnRjU1TktJbUFYTE5WRzVzQ1hBTEJjWlZYb01tMWRNRnh1NDh3cmQzaHJfWERJ0gFfQVVfeXFMUHpyd0MtOWZZZF9Cek5yNGFrUHpwOGVsektnNzBRVjM4ajZsdVRIQVg1OWdGNTVOS0ltQVhMTlZHNXNDWEFMQmNaVlhvTW0xZE1GeHU0OHdyZDNocl9YREk?oc=5",
-        "source": "경향신문",
-        "date": "2026-08-21T01:00:00.000Z"
-      },
-      {
-        "title": "토요일 로또 판매마감시간 하루 만에 느낀 변화 체험",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfN2RZMGdEdG1hWlhrZmRZZFdoRC1GZnE5S2p5RWFqYmlQM1BFNmxVRjBFYjdSNTVJaVZ1MHo3Zm1KZ3RrT2Z2Q0xIUFozclFWTkRaejNoXzdXT1R0S2syeUNSdlo?oc=5",
-        "source": "pekergyo.com",
-        "date": "2026-08-20T23:42:31.000Z"
       }
     ]
   }

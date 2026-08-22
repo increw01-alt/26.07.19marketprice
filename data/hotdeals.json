@@ -1,6 +1,116 @@
 {
-  "updatedAt": "2026-08-22T21:12:26+09:00",
+  "updatedAt": "2026-08-22T22:22:32+09:00",
   "deals": [
+    {
+      "title": "스파클 500미리 생수 80병",
+      "mall": "토스",
+      "price": 8700,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728645",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T13:02:04.000Z"
+    },
+    {
+      "title": "곱창김 1톳 100매 430g내외",
+      "mall": "남도장터",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728644",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:53:09.000Z"
+    },
+    {
+      "title": "트라이 데일리 컴포터블 드로즈 5매",
+      "mall": "롯데온",
+      "price": 7480,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728643",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:49:30.000Z"
+    },
+    {
+      "title": "(NS)엘 샤다이 13800원 배송비 2500원",
+      "mall": "네이버",
+      "price": 2500,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106561",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-22T12:31:50.000Z"
+    },
+    {
+      "title": "아이더 기능성 냉감 쿨 캐주얼 폴로 카라 티셔츠",
+      "mall": "지마켓",
+      "price": 29760,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728642",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:29:42.000Z"
+    },
+    {
+      "title": "국산 활숫꽃게 1kg 3~5미",
+      "mall": "네이버",
+      "price": 8800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728641",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:22:21.000Z"
+    },
+    {
+      "title": "(NS)젤다의전설 지혜의 투영 37800원 배송비 2500원",
+      "mall": "네이버",
+      "price": 2500,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106560",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-22T12:19:10.000Z"
+    },
+    {
+      "title": "초정탄산수 그린애플 190ml x 30캔 외",
+      "mall": "카카오톡",
+      "price": 10900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728640",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:18:55.000Z"
+    },
+    {
+      "title": "그레인바운더리 수제 쿠키 여러종",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728639",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:14:59.000Z"
+    },
+    {
+      "title": "소비임박 오쏘몰 바이탈F, 10정, 1개",
+      "mall": "토스쇼핑",
+      "price": 9010,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728638",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T12:12:05.000Z"
+    },
     {
       "title": "안국약품 코큐텐 코엔자임 Q10 30캡슐, 1개",
       "mall": "네이버",
@@ -77,94 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-22T11:23:36.000Z"
-    },
-    {
-      "title": "듀이셀 프라이빗케어 마스크팩 1+1",
-      "mall": "듀이셀",
-      "price": 25900,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728630",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:23:03.000Z"
-    },
-    {
-      "title": "푸마 남성 러닝화 트레이닝화 데일리 운동화 밀레니오",
-      "mall": "지마켓",
-      "price": 29970,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728629",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:20:55.000Z"
-    },
-    {
-      "title": "바비온 슬림에어핏 알루미늄 코털 제거기",
-      "mall": "토스쇼핑",
-      "price": 3810,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728628",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:06:05.000Z"
-    },
-    {
-      "title": "부산 당면만두 40개입",
-      "mall": "네이버",
-      "price": 5800,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728627",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T11:00:53.000Z"
-    },
-    {
-      "title": "삼육두유 베지밀 두유 모음전",
-      "mall": "네이버",
-      "price": 28900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728626",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T10:17:36.000Z"
-    },
-    {
-      "title": "타임딜 프로베스트 캣 14.5kg",
-      "mall": "네이버",
-      "price": 22650,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728624",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T10:15:49.000Z"
-    },
-    {
-      "title": "휴대용 냉각 선풍기",
-      "mall": "네이버",
-      "price": 19400,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728625",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T10:15:45.000Z"
-    },
-    {
-      "title": "멘소래담 스프래이 파스 3종",
-      "mall": "11번가",
-      "price": 8900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728623",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T10:07:05.000Z"
     },
     {
       "title": "파워에이드900ml 12입",
@@ -563,17 +585,6 @@
       "date": "2026-08-21T00:04:33.000Z"
     },
     {
-      "title": "라방 5원",
-      "mall": "네이버페이",
-      "price": 5,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106530",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T23:59:23.000Z"
-    },
-    {
       "title": "에픽 메이지 번들",
       "mall": "에픽게임즈",
       "price": null,
@@ -594,17 +605,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-20T22:01:52.000Z"
-    },
-    {
-      "title": "라운지이벤트",
-      "mall": "네이버페이",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106529",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-20T19:17:32.000Z"
     },
     {
       "title": "8월 21일 네이버페이 40원 + 랜덤 포인트",
