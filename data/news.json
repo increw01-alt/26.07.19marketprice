@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T12:31:35+09:00",
+  "updatedAt": "2026-08-22T13:19:42+09:00",
   "topics": {
     "coin": [
       {
@@ -110,12 +110,6 @@
       },
       {
         "title": "[주간 IPO] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBmcFhvR0VoYUpXc2VJaEJObUhidzN0QlVEUW9Yek0wUGxQbUFiSUIyYm5wQVNrNG0yQlNUUlhqWnpWa2JCQ09mNFpiNkJuUU0?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-22T00:01:07.000Z"
-      },
-      {
-        "title": "[주간 IPO] 니어스랩·해치텍 코스닥 입성…스카이랩스 청약",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbFN6T0tmRWNjMUdyZWxrYVBnUG5KYkdvemZiNzJjUTNZM0hiWXNYakROLTh5MVBaZkd1NEpJUEIybk8yM3lST2lFWmVSNHVBWWhYaA?oc=5",
         "source": "이투데이",
         "date": "2026-08-22T00:00:00.000Z"
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1vNkhKaWJsMTljZEp0RGpvWXRyV25sd25VR1pYN0hzVnZFcE1Ca3Y3WjJQLThEdWIwTVQtUTRNTHlEOGgyQ2tEYnRrS0Z2S0YzZkVnR0tHZ3ZBS1dTVW5UcDdmMHNmeUE?oc=5",
         "source": "인공지능신문",
         "date": "2026-08-21T11:55:40.000Z"
+      },
+      {
+        "title": "엘리스그룹, 코스닥 상장 착수…공모 최대 2011억",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9VTjlHU0t6blRObEp6NW5IbkNibTJwMjJjcFVyWnZPS3ozNFE4bDB5N200aWFjbGQyUkxUMWcxODRhOFlXRGN2WGRWN1l6U0FrNy1zakdXd0I2NzdS?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-21T09:02:00.000Z"
       }
     ],
     "fx": [
@@ -354,6 +354,12 @@
     "giftcard": [
       {
         "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQnh1c0dBcnEtbzVHeHlaeTlOUVBaV0RWaDJ3UDJDb1ZITU5idUVIM19NREg2OHpLUzJkUzczTkF6cUZ4cjhBVmdpa3M1cFVnN3FRVlRwQnVNUk5rMlBTcGtqeW9wOXVtU2JLYw?oc=5",
+        "source": "한국미디어뉴스통신",
+        "date": "2026-08-17T23:36:30.000Z"
+      },
+      {
+        "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
         "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9OMllFdDA1RWlzQmxnZ1lvX0VFYU9HOER6N09qbVNFZGx2a2k4VEQ3OUNqUWpIQV95VlJMZXF1ZkpFeWhu?oc=5",
         "source": "newszoom.kr",
         "date": "2026-08-17T23:36:00.000Z"
@@ -393,15 +399,21 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
         "source": "이투데이",
         "date": "2026-07-02T07:00:00.000Z"
-      },
-      {
-        "title": "서울 자치구 15곳 배달상품권 15% 할인판매…109억원 규모",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBvLVdma0VnRFdfR2FyR2gxalVTS1lhU2plQzFoRkF0R0tfZ3c1T2UwZzJaVTR3cExLT0lkS0pPUDBaM0stcEtXVEJOc0d3dGxxblE?oc=5",
-        "source": "매일경제 마켓",
-        "date": "2026-06-23T07:00:00.000Z"
       }
     ],
     "realestate": [
+      {
+        "title": "서울 아파트값 다시 가파른 상승…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9EQ25yOG9tQWNaWkZVTlFYSjNlQmlNRkFqa1p6WThiUmRHQVBUc3FuTXFrZ2pIVFlabU5NSk5QNkxDUGpuN2NaOEZtY0VGNW9EelE?oc=5",
+        "source": "유스연합",
+        "date": "2026-08-22T04:12:40.000Z"
+      },
+      {
+        "title": "강남구 래미안대치팰리스 114㎡ 63.8억·압구정동 현대13차 61억… 서울 아파트 실거래가",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBReF9kSWNOeW5oN0NoYVZESkgyZDdFT3VLQTVCUmEzN2YwRUstZXlSbk9YQXU0Qm9JYzdxUTN1TkNpdDA5RUxkZTFlVTEzMERVaU9mcG4yeVE?oc=5",
+        "source": "매일경제",
+        "date": "2026-08-22T04:04:41.000Z"
+      },
       {
         "title": "동탄 아파트값 연초 대비 16%대 상승…전국 시군구 중 최고",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OMXBJQUxUTnBDb3VfM1laS0dieEtyMy1IVVlYaHNqeXBrMTJlY3lYMVhpdE9ZLXB6SmZjU3VHVHRvTlBDYUo5czA4Nlg3QVJDb3hzRmJ4ZFRyQ29odzRhRnpZcUVLb0NzRm9KZ2dsdw?oc=5",
@@ -437,18 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OU2F3LUNZVUs4WlFQSDZrd1dYRzFWZm1xcjZjWTVxQkxDaGlud3JsbTBkOGpacmtrQ1c5azFoVC1MaHVJRkJzaTJ3dmdyOVZIT1U5Y1E3UnNnbmgycThtaTZxdmYyRzctRW9PSA?oc=5",
         "source": "센머니",
         "date": "2026-08-21T07:46:24.000Z"
-      },
-      {
-        "title": "6월 서울 아파트값 5년 만에 최대폭 상승…한달새 2.5% 올랐다",
-        "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE9xSnRXbUlZa05Ob0FpRmExM19nV2V3SThvMnVabUFyaERld0NBeXJvX1VwWEdXNzJ6YXM5ZmZncDAxYVBnYU9qQ05sVQ?oc=5",
-        "source": "아이뉴스24",
-        "date": "2026-08-21T06:23:22.000Z"
-      },
-      {
-        "title": "6월 서울 아파트값 2.5% 올라…5년만에 최대 상승폭",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8wR3lXUzhITGlaQm5oZkoyem9pbDA0YzRsQmNxSmhqbW1MaGlTQ3BWREJ1Tk5uQTFPTHF4eVN2QXUtRHhiRDQ0cnJENFZjZ0VGVThjbm85d3FRUnBORDR4WXhOMkx6QdIBZkFVX3lxTE8wR3lXUzhITGlaQm5oZkoyem9pbDA0YzRsQmNxSmhqbW1MaGlTQ3BWREJ1Tk5uQTFPTHF4eVN2QXUtRHhiRDQ0cnJENFZjZ0VGVThjbm85d3FRUnBORDR4WXhOMkx6QQ?oc=5",
-        "source": "동아일보",
-        "date": "2026-08-21T06:16:02.000Z"
       }
     ],
     "lotto": [

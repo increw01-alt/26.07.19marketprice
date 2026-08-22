@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-22T12:31:26+09:00",
+  "updatedAt": "2026-08-22T13:19:33+09:00",
   "deals": [
+    {
+      "title": "더미식 밥알이 살아있는 백미밥 200g 24개",
+      "mall": "지마켓",
+      "price": 19780,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728585",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T04:13:08.000Z"
+    },
+    {
+      "title": "메디힐 마데카 세럼 2개 + 랩핑 세럼 마스크 2매",
+      "mall": "카카오톡",
+      "price": 22900,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728584",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T04:01:04.000Z"
+    },
+    {
+      "title": "국내산 돌산갓김치 1.5kg",
+      "mall": "옥션",
+      "price": 8640,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728583",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T03:59:25.000Z"
+    },
+    {
+      "title": "26년햅쌀 흥양농협 수호천사 건강미 쌀 10kg 상등급",
+      "mall": "롯데온",
+      "price": 38800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728582",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T03:57:30.000Z"
+    },
+    {
+      "title": "1++등급 한우 갈비살 400g 구이용 냉장",
+      "mall": "11번가",
+      "price": 32130,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728581",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T03:56:21.000Z"
+    },
+    {
+      "title": "곰팡이 제거제 500ml",
+      "mall": "토스",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728580",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T03:56:19.000Z"
+    },
+    {
+      "title": "두부 어묵바 150g 30개",
+      "mall": "SK스토아",
+      "price": 9520,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728579",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T03:55:04.000Z"
+    },
     {
       "title": "목우촌 살코기햄 2kg",
       "mall": "오늘의집",
@@ -99,83 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-22T02:30:33.000Z"
-    },
-    {
-      "title": "아워홈 치킨 가라아게 1kg 3팩",
-      "mall": "롯데온",
-      "price": null,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728569",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:19:41.000Z"
-    },
-    {
-      "title": "26년 햇 원항배 5kg",
-      "mall": "네이버",
-      "price": 13110,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728568",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:17:49.000Z"
-    },
-    {
-      "title": "남여 공용 초경량 솔리드 바람막이 자켓",
-      "mall": "굿웨어몰",
-      "price": 13182,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728567",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:16:52.000Z"
-    },
-    {
-      "title": "에비앙 생수 500ml 24펫+200주년 한정판 가방 증정",
-      "mall": "롯데온",
-      "price": 27930,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728566",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:16:22.000Z"
-    },
-    {
-      "title": "용가리치킨 1kg 1봉 + 치킨너겟2 1kg 1봉",
-      "mall": "하림몰",
-      "price": null,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728565",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:14:19.000Z"
-    },
-    {
-      "title": "캐논 Canon MF643CDW 자동양면인쇄 컬러레이저복합기 레이저복합기 복합기 프린터 토너포함",
-      "mall": "하이마트몰",
-      "price": 429900,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728564",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:12:35.000Z"
-    },
-    {
-      "title": "[소비기한 임박 특가] 위글위글 어니언링 도넛 / 에그롤",
-      "mall": "딜릭",
-      "price": 5500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728563",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T02:09:32.000Z"
     },
     {
       "title": "제주 삼다수 500ml 무라벨 40병 생수",
