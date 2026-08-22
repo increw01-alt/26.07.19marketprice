@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-08-23T02:10:11+09:00",
+  "updatedAt": "2026-08-23T03:10:07+09:00",
   "deals": [
+    {
+      "title": "사계절 아삭 김치 10kg 외",
+      "mall": "풀무원",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728672",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T17:59:24.000Z"
+    },
+    {
+      "title": "스마트폰 맥세이프 투명 케이스 1+1",
+      "mall": "지마켓",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728671",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-22T17:44:42.000Z"
+    },
     {
       "title": "끌올 햇반 210g 36개 + 사골곰탕 18개",
       "mall": "CJ더마켓",
@@ -176,28 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-22T15:15:03.000Z"
-    },
-    {
-      "title": "POLO 폴로 민트 오리지날 캔디 대용량 500개입",
-      "mall": "토스",
-      "price": 10900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728657",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T15:05:15.000Z"
-    },
-    {
-      "title": "제이숲 BEST 헤어&바디 케어 모음전",
-      "mall": "오늘의집",
-      "price": 12595,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728656",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-22T15:04:12.000Z"
     },
     {
       "title": "홈스타 락스와세제 스프레이 후로랄 900ml x 4개 12,930원/무배",
