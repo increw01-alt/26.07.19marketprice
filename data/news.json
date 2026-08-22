@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-22T22:22:41+09:00",
+  "updatedAt": "2026-08-22T23:08:51+09:00",
   "topics": {
     "coin": [
       {
@@ -133,6 +133,12 @@
         "date": "2026-08-22T05:27:10.000Z"
       },
       {
+        "title": "엔캐리 청산 공포 다시 고개…코스피·코스닥 폭락 재현될까",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVkRObnAzOW8zZ0VLWjgyTmNhNENEUkxLZ240aEhEa1dXcXlQeFEtUGM3OVBfUFZfTXgtVjNkSWZyWUN5YUF1d1h4NkdCQ201RGphbzlhTDJaUHBBX19GNzJSTUZwbkFJYTA4V1plMWp4VUFhc1BQSWV1bWtUUG0xSA?oc=5",
+        "source": "edaily.co.kr",
+        "date": "2026-08-22T05:04:02.000Z"
+      },
+      {
         "title": "[IPO챗] 공모가 희비 갈린 니어스랩·해치텍, 코스닥 입성",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5rbDdKR2pMazNoSVF0X2t6MmYxSmVpOUZOSW8zZ1V0a3RveEFyUFJEYk9NVUdHMVRRa0Z5cHctUmlmQVpUcHdnVEFmZFM2ZDlhcVE?oc=5",
         "source": "매일경제 마켓",
@@ -143,15 +149,15 @@
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzbFN6T0tmRWNjMUdyZWxrYVBnUG5KYkdvemZiNzJjUTNZM0hiWXNYakROLTh5MVBaZkd1NEpJUEIybk8yM3lST2lFWmVSNHVBWWhYaA?oc=5",
         "source": "이투데이",
         "date": "2026-08-22T00:00:00.000Z"
-      },
-      {
-        "title": "엘리스그룹 코스닥 공모 본격화…몸값 1兆 조준 [시그널]",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBXZmVrNjdidTZfaEpPaFFFTGdzclF5dkZkeFVISExzTGJNaU5HLXpBTlNXdGszQkFFeThTNHUtdGowOFdpREhUMGdYc1pWUnhpVmc?oc=5",
-        "source": "서울경제",
-        "date": "2026-08-21T22:30:00.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[8월 3주 화장품 주가] 2분기 실적 호조로 ODM 3사 52주 신고가... 하반기도 수주 잔고 증가로 수출 33 증가 전망",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HOHV1WWNpLVNqWi1oVnhtN1lVbHhzZWlvbHhKTVdoODBBa3BZSHktdkEwMkppNGs2QlFHYm80SE42aW43MnhHaW16eXY2X0ZQVV9HV2FYdDdKZm5MSk9ZbUV4SDlKZw?oc=5",
+        "source": "코스인코리아닷컴",
+        "date": "2026-08-22T14:00:19.000Z"
+      },
       {
         "title": "“1400원 깨지자 달러 쟁였다”...5대 은행 달러예금 ‘급증’",
         "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9makdDYzNHdmxSZWo0TjhCTzRVSmhKdk5iWnpSUVJ6aGsyN1lZQ19mMjhVajNxWC05ZW1vVTNpeDhpNlc3aTRxUDRDMkdwRjV5enpndEJrQnRVOEc4cFY4OWQzaw?oc=5",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mUjdIYnRWWjNBV1ZjSFVfeHNHRUpEYWc1LTFIMWF5QUVjYjZnOVM4Y3UyVU04bjZsNWtiaTZYOUNuS1RhSy03NzJlVFFlUlE?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-21T12:17:30.000Z"
-      },
-      {
-        "title": "원·달러 11개월 만에 최저…원·엔도 급락",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBIaC1TUjhXN1hQUFczQ3FWMlJ3WlV1S1BTY3RpV1JQdmhqR0ZIUXV2a2FYa01lOU13VGtFcG1FOWdCTWc0S2VOTWdDTUw0WlplcHloX1VBZDg5Y0otVjFQOTRkUU4xSk0?oc=5",
-        "source": "연합뉴스TV",
-        "date": "2026-08-21T12:15:00.000Z"
       }
     ],
     "metal": [
@@ -367,7 +367,7 @@
       {
         "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU1IwVEwtZ3dORVBEd3ZldGRsaW1NanlVOXUxdGU5NUZkNG9tNjdkSzk0UkZWNG9GLXdXWi1ORFo1VEx0anJqeWtObzM3VVdwdHo0MndEN1pRUUY2Q0lxTU1ncWhXRHFUNUZz0gFvQVVfeXFMTUZzcmRaM3RvWkkzX0xVeERtSWZrdkl1ejV2ZnhSOEpBZ0UwQ2Q5V1hocnVpLW00Y3V6UDc5NnhILTlKbi1FdGhyeWpGN2lfcVYxVDNBQ1FNalBnZ0s3d1F1OElGOHA5WHk4THR4bFBZ?oc=5",
-        "source": "서울시정일보",
+        "source": "msnews.co.kr",
         "date": "2026-08-17T22:30:00.000Z"
       },
       {
@@ -453,6 +453,12 @@
     ],
     "lotto": [
       {
+        "title": "로또 1238회 1등당첨번호조회 공식발표",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wdlB6bnpJTjNNbW94cGdyMW5DV1J1RDdobUZEblo2cTlwYWJPOHdWc1dNWEVmUmk0TXd0YWhVemhYNGNyWEhQQU5XT0R5U2UxU2ZIajNYWmtWZHJPdlBXNWhPQlVDMVdBRU54YkdR?oc=5",
+        "source": "gukjenews.com",
+        "date": "2026-08-22T13:17:45.000Z"
+      },
+      {
         "title": "로또 1등 12억씩 23명…경기 광주 한 판매점서 수동 4건 '잭팟'",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1IOWJ5WTZ3UDBYZlRWSEF2ZkFZLUtOaWc3bGZjX243c2w4SzRkLUM0WEw5b00zWHNTRUY5bUhjZEVjV2xmNjhseTZYTlg4Z291N001M29nOXBlWjVoWnBHZVl30gFnQVVfeXFMTU01ajl0cUxFQU9EeExVNjA3amhfc29GZEtvd1Y1am85ZXpBQk9vcFpzaTlkMzhONnh6M0dIcEYzSENqYk12a1BVS3hsTW1NMzROc1hGZkZlZEFLNklDaXpTaEVjVnRMbw?oc=5",
         "source": "뉴스1",
@@ -465,8 +471,8 @@
         "date": "2026-08-22T12:04:44.000Z"
       },
       {
-        "title": "로또 1238회 1등 ‘2·13·18·32·38·42’ 보너스 ‘22’…당첨자 23명 11억9726만원씩",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBaV0dQZnVxbGNtUlZkZnMwcHgwYzVjeVV1MURNaFd5V1FJREprSlVZQlYtMGd0X3FWXzdJYmFEUFNjNTNXU1d2djAzWDkzWTlKbHRGdDJHTGIyZ9IBX0FVX3lxTE1WZnAxT09zamdHbHNYRnBWVXBBSFBTWWVWZ2xWZVRJTC1nZ21zX3lRWXNCdnR4Tkppajd0MHhQbEtYWWU4M0tta2d3RXJQcURRanpDVldGR25VRWVwOUpn?oc=5",
+        "title": "로또 1238회 1등 ‘2·13·18·32·38·42’ 보너스 ‘22’",
+        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WZnAxT09zamdHbHNYRnBWVXBBSFBTWWVWZ2xWZVRJTC1nZ21zX3lRWXNCdnR4Tkppajd0MHhQbEtYWWU4M0tta2d3RXJQcURRanpDVldGR25VRWVwOUpn0gFfQVVfeXFMTVZmcDFPT3NqZ0dsc1hGcFZVcEFIUFNZZVZnbFZlVElMLWdnbXNfeVFZc0J2dHhOSmlqN3QweFBsS1hZZTgzS21rZ3dFclBxRFFqekNWV0ZHblVFZXA5Smc?oc=5",
         "source": "경향신문",
         "date": "2026-08-22T11:50:00.000Z"
       },
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zaVpBUWJEUjFGa0dTcjd4VDA4MFA4aklVRkJrMjFCUlk3RTlobFRBWm15Zm9JaWNoVWJ3ZW5EV21XaEwzMjlQOUlMTnMyRGFzSHA5VkV6ZjhnMXBtckRJX1hmWkU?oc=5",
         "source": "포쓰저널",
         "date": "2026-08-22T11:39:14.000Z"
-      },
-      {
-        "title": "1238회 로또판매·추첨시간, 1237회 1등당첨지역 공개",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8zeGpYRk5rOGhkaDlkZ25za0t3bHZnakZJMWkzeG9WcHBTbFRXMG91VU5iSE5BU2ZveEo5VzdnSmZSYWIwOWUyTV80UGkyRzRacjl4bWYwYy1ucHpGdTFBSkpjTkVGOWozQXJxMUVB?oc=5",
-        "source": "gukjenews.com",
-        "date": "2026-08-21T15:04:00.000Z"
       }
     ]
   }
