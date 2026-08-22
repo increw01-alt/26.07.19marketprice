@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T04:13:44+09:00",
+  "updatedAt": "2026-08-23T05:08:24+09:00",
   "topics": {
     "coin": [
       {
@@ -159,8 +159,8 @@
         "date": "2026-08-22T15:22:48.000Z"
       },
       {
-        "title": "[8월 3주 화장품 주가] 2분기 실적 호조로 ODM 3사 52주 신고가... 하반기도 수주 잔고 증가로 수출 33 증가 전망",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9HOHV1WWNpLVNqWi1oVnhtN1lVbHhzZWlvbHhKTVdoODBBa3BZSHktdkEwMkppNGs2QlFHYm80SE42aW43MnhHaW16eXY2X0ZQVV9HV2FYdDdKZm5MSk9ZbUV4SDlKZw?oc=5",
+        "title": "[8월 3주 화장품 주가] ODM 3사 52주 신고가... 하반기도 수주 잔고 증가로 수출 견인",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9pSFU1TV9na3UzbUsxalJ4SEQyZ1VCQzV0MHQzVGR3VU9FNzJDcnJHcENOV09TUUN6WEhTaDdXS09WTkxWY3kzaHA5M1c0Ri00VEc2WF9yTkdudV9LMloyc3NuSQ?oc=5",
         "source": "코스인코리아닷컴",
         "date": "2026-08-22T14:00:19.000Z"
       },
@@ -189,16 +189,16 @@
         "date": "2026-08-21T21:56:36.000Z"
       },
       {
-        "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
-        "source": "Naver Blog",
-        "date": "2026-08-21T21:22:15.000Z"
-      },
-      {
         "title": "달러-원, 뉴욕장서 1,380원 중반대 거래",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE0zTDFvVDVxWHY3WFI2YzFiMWp4U3hwZzEyVk9sYVljUnlNQjQyQ0lBaWJrdUhRODZwbDFTYUZYVFJrNUlBTG1hejB6blZlQU9PemQ2Q0hZMVg0bW8yR0NCemw5WTBkTjJnTVpIZG9RS1RsZw?oc=5",
         "source": "KB Think",
         "date": "2026-08-21T12:30:46.000Z"
+      },
+      {
+        "title": "원·달러 11개월 만에 최저…원·엔도 급락",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9mUjdIYnRWWjNBV1ZjSFVfeHNHRUpEYWc1LTFIMWF5QUVjYjZnOVM4Y3UyVU04bjZsNWtiaTZYOUNuS1RhSy03NzJlVFFlUlE?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-21T12:17:30.000Z"
       }
     ],
     "metal": [
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "서울 아파트는 다 20억이라더니, 실제 거래 절반은 10억 아래서 팔렸다",
+        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4tNHIxRmxNVUlKaEFDTkVSUE1OQ3JNSmNka2EzSHh0ZDV6UVFkTktuN2JJNXNGOU1JU1B3UWRCazkzeGNaU1VCNEo2NS0xQnN5UGpEdENXQkxjWlNrUGFKUDAwTlpqRjlFdUl4NG54TlM1VTMwOXBnOXAwWUI?oc=5",
+        "source": "네이버 프리미엄콘텐츠",
+        "date": "2026-08-22T13:45:00.000Z"
+      },
+      {
         "title": "“수억씩 ‘뚝뚝’”강남권 아파트 실거래가·호가 급락",
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yTWt0WE1TTUlPMjIwUFRLMDlrSjE1WXhlZDk0NjZEaG5zMW1hWG5TZi00OEplSGx3WG1CUHJaVUF4dXNVYi1EaTdSazJTekcw?oc=5",
         "source": "문화일보",
@@ -433,22 +439,16 @@
         "date": "2026-08-22T06:00:00.000Z"
       },
       {
-        "title": "[실거래가 월간보도] 6월 아파트 매매 실거래가격 상승폭 확대... 5년 만에 최고치",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NF96YnJyUy0tNkVTekJjbXFfc25lYUZyeE5RVzZiYUEtbmhSTGV0WVVZazNOcDRoNEJ2SEk5Slc5VXJkQktDNDNINEpXTndlZTdTb2xBa2N4bGxPY1pMT1hkSmtRUWvSAWdBVV95cUxOdzRfemJyclMtLTZFU3pCY21xX3NuZWFGcnhOUVc2YmFBLW5oUkxldFlVWWszTnA0aDRCdkhJOUpXOVVyZEJLQzQzSDRKV053ZWU3U29sQWtjeGxsT2NaTE9YZEprUVFr?oc=5",
-        "source": "국민기자뉴스",
-        "date": "2026-08-22T05:06:55.000Z"
-      },
-      {
-        "title": "서울 아파트값 다시 가파른 상승…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
-        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1CNWFpWWhpVThUNkU3bDB0TElYM3B4TGFhdzFjR1U3bW1JMkl1ZG5qR0lMbVpWYmJwc0JfZVNKUVV4ejA?oc=5",
-        "source": "한국공공정책신문",
-        "date": "2026-08-22T04:12:38.000Z"
-      },
-      {
         "title": "강남구 래미안대치팰리스 114㎡ 63.8억·압구정동 현대13차 61억… 서울 아파트 실거래가",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBReF9kSWNOeW5oN0NoYVZESkgyZDdFT3VLQTVCUmEzN2YwRUstZXlSbk9YQXU0Qm9JYzdxUTN1TkNpdDA5RUxkZTFlVTEzMERVaU9mcG4yeVE?oc=5",
         "source": "매일경제",
         "date": "2026-08-22T04:04:41.000Z"
+      },
+      {
+        "title": "동탄 아파트값 연초 대비 16%대 상승…전국 시군구 중 최고",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5OMXBJQUxUTnBDb3VfM1laS0dieEtyMy1IVVlYaHNqeXBrMTJlY3lYMVhpdE9ZLXB6SmZjU3VHVHRvTlBDYUo5czA4Nlg3QVJDb3hzRmJ4ZFRyQ29odzRhRnpZcUVLb0NzRm9KZ2dsdw?oc=5",
+        "source": "피플투데이",
+        "date": "2026-08-22T01:22:36.000Z"
       }
     ],
     "lotto": [
