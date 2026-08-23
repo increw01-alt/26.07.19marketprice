@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-23T22:23:17+09:00",
+  "updatedAt": "2026-08-23T23:11:17+09:00",
   "deals": [
+    {
+      "title": "아임에코 가벼운샘 생수 2L x 18병",
+      "mall": "11번가",
+      "price": 7800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728794",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T13:34:18.000Z"
+    },
+    {
+      "title": "DataDefense 외",
+      "mall": "구글플레이",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106574",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T13:24:37.000Z"
+    },
+    {
+      "title": "끌올 햇반 210g 36개 + 사골곰탕 18개",
+      "mall": "CJ더마켓",
+      "price": 40340,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728793",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T13:24:28.000Z"
+    },
     {
       "title": "풀무원샘물, 라벨랜덤, 500ml, 100개",
       "mall": "토스",
@@ -165,28 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T11:53:39.000Z"
-    },
-    {
-      "title": "국내산 햇 꿀밤고구마 특상 3kg",
-      "mall": "네이버",
-      "price": 9840,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728779",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T11:44:49.000Z"
-    },
-    {
-      "title": "국내산 100% 냉장 한돈 삼겹살 구이용 1KG",
-      "mall": "11번가",
-      "price": 17800,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728778",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T11:44:11.000Z"
     },
     {
       "title": "라방 5원",
@@ -517,17 +528,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-21T09:03:14.000Z"
-    },
-    {
-      "title": "연간 이용권 50% 할인 23,400원 + 추가적립(조건있음)",
-      "mall": "네이버페이",
-      "price": 23400,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106544",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T07:04:27.000Z"
     },
     {
       "title": "레드미 와치 6 REDMI WATCH 6 최종가 56불~65불",
