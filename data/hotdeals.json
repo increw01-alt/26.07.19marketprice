@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-24T01:09:59+09:00",
+  "updatedAt": "2026-08-24T02:10:09+09:00",
   "deals": [
+    {
+      "title": "네이버멤버십_ 오뚜기 프레스코 파스타소스, 청정원 스파게티소스, 오뚜기 피자, 청정원 순창100%국산 고추장, 통그릴비엔나, 몬스터크랩 등",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://naver.me/F4WqreWl",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T17:03:41.000Z"
+    },
+    {
+      "title": "12개월 5gb 1mbps 통화100분 문자100건 네페5천지급",
+      "mall": "KG모바일",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728824",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T16:56:52.000Z"
+    },
+    {
+      "title": "멤버십 신라면 20개/너구리 20개",
+      "mall": "네이버",
+      "price": 11950,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106579",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T16:23:30.000Z"
+    },
+    {
+      "title": "구구 크러스터, 아이스크림바, 일품 팥빙수, 나랑드사이다 제로",
+      "mall": "오늘의집",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728823",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T16:20:56.000Z"
+    },
+    {
+      "title": "샤오미 미지아 스마트 체중계",
+      "mall": "네이버",
+      "price": 17890,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728822",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T16:08:05.000Z"
+    },
+    {
+      "title": "아이더 냉감 폴로 카라 티셔츠",
+      "mall": "G마켓",
+      "price": 29760,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728821",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T16:06:57.000Z"
+    },
     {
       "title": "무때ZERO 스프레이세정제 4종 혼합 500ml 4+2개",
       "mall": "오늘의집",
@@ -79,17 +145,6 @@
       "date": "2026-08-23T15:33:52.000Z"
     },
     {
-      "title": "네이버멤버십_ 신라면, 너구리, 안성탕면, 짜파게티, 짜왕, 사천짜파게티, 신라면 더 레드 등",
-      "mall": "네이버",
-      "price": null,
-      "cat": "식품",
-      "link": "https://naver.me/F4WqreWl",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:31:18.000Z"
-    },
-    {
       "title": "배추겉절이 2kg 국내산",
       "mall": "옥션",
       "price": 9890,
@@ -132,61 +187,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T15:24:52.000Z"
-    },
-    {
-      "title": "마지막 남은 생수특가 스파클 무라벨 생수500ml X 20입 X 4박스 80병",
-      "mall": "토스",
-      "price": 8700,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728810",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:24:02.000Z"
-    },
-    {
-      "title": "날씬이 탄수화물컷 60정 4박스 4개월분",
-      "mall": "토스",
-      "price": 17650,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728808",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:22:11.000Z"
-    },
-    {
-      "title": "피그먼트 와이드 버뮤다 리벳하프 팬츠(5색상)",
-      "mall": "롯데온",
-      "price": 19090,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728809",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:21:46.000Z"
-    },
-    {
-      "title": "초록매실 제로 1.5L 6개",
-      "mall": "오늘의집",
-      "price": 8938,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728807",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:21:13.000Z"
-    },
-    {
-      "title": "트렉스타외 패딩/팬츠/티셔츠",
-      "mall": "지마켓",
-      "price": 9680,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728806",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:20:42.000Z"
     },
     {
       "title": "일일적립, 클릭 106원, 라이브예고 25원",
@@ -517,17 +517,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-21T22:02:33.000Z"
-    },
-    {
-      "title": "자연은 더말린 제로 자몽 500ml 20개",
-      "mall": "네이버",
-      "price": 11950,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106551",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T15:49:28.000Z"
     },
     {
       "title": "8월 22일 네이버페이 53원 + 랜덤 포인트",

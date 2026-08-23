@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T01:10:08+09:00",
+  "updatedAt": "2026-08-24T02:10:18+09:00",
   "topics": {
     "coin": [
       {
@@ -33,12 +33,6 @@
         "date": "2026-08-22T06:42:20.000Z"
       },
       {
-        "title": "2026년 8월 22일 오늘 비트코인 ​​가격: 비트코인 ​​가격이 급등하는 이유는 무엇일까요?",
-        "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPQ2xfb3hEMkJxd3Ytd2dmelQ5aHdocEhSM2lOcHVaTGJBTTVZdnpJZkNJbmV5MjdDWFNndHc1b0oyb09yUF9NeS1BU0F6WU5HX3lHSHRIVGVFNFl5SEs2M0FTRUVQOW80TmxVanMwRDB6Tkx3SGRHWkg0TThySWNsVy01TUJOZWNkNlE?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-22T04:55:38.000Z"
-      },
-      {
         "title": "비트코인 8만 달러 육박…스트래티지 주가 6% 상승",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KXzN5UlJqQU1qWU5QM2cwdVp6SUQ0ZXg0eU1GZEs1R1VHQTRpNzlFNGpkYWJzQVpoYl9aajlSeElNdExtcW9zLUR5TFZ4VENiekR0ZFZ3?oc=5",
         "source": "지디넷코리아",
@@ -49,6 +43,12 @@
         "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QLUY3N1NRMXNyN3pvUEdmcDFUTzhTc1A3S3YyVTBMaGlob0VhY2hlZTRsaUZ5UEtYRDhrWXQtdFV2eWlRdVl6QWdKYjR1cU1mb3hfVjFGRUFTMF9fOHpSU0xBVmJMUTdYaDU0UnFnbUJTSHAycTVj?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-21T15:48:34.000Z"
+      },
+      {
+        "title": "전략의 비트코인 보유 포지션이 14억 달러의 미실현 이익으로 전환",
+        "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEIzTTVxY252ZnhGNERaVDU1amkzeU5BWkJ5YjhkYXRPVHBjaXJpX0RkSkZrR2RFMzZJT2xZcGdpNDViMDdTanNaX2VWTTRDb2R0X2pDUTI1RVRpODdIM0hfMzg2cVJZQWFPLTExNDJfNnpYcEduOWFITklhdzFJbjhKYVZxaURVMUtNbXdrcHBPX3VyUjlYclR0Q3JMeUVPckd5QzJWY2pVU0l3dGRSV3hfMl9xU25iOGdwTDZB?oc=5",
+        "source": "CoinDesk",
+        "date": "2026-08-21T08:29:51.000Z"
       }
     ],
     "stock": [
@@ -171,12 +171,6 @@
         "date": "2026-08-23T14:36:42.000Z"
       },
       {
-        "title": "달러예금·골드 구매 증가… 주식 매매는 연중 최저",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94RXR4UzM0VG45dW1UNHVtYXRad1NWYzBZMjZENVFld05VSFM1U3lFMWZsb2c0ak8wdm95VF82TnRsXzVQNUdoc1FUQXdraG03Y0R2dENYZGzSAVRBVV95cUxNcl9DNkg5MnVUQlZrRk8zQzdIVVpWOEVSTE9ZXzNsUmg0aXFtUms1MVNQR1pRaE1yMVgydHBNRngtNmhtZlROaU84eUtkVW9kT2I3ME8?oc=5",
-        "source": "세계일보",
-        "date": "2026-08-23T11:00:00.000Z"
-      },
-      {
         "title": "원화 실질가치는 여전히 금융위기 수준",
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4tWWpyaDgwTDhqNUV1bDVZZlMwOGxsdklJczZqYzJzek9tbXc3WkNjTGVRaUVZUXBqdENma1F5UnBCUWpya2hpdHo3RGZvU1U?oc=5",
         "source": "v.daum.net",
@@ -189,16 +183,22 @@
         "date": "2026-08-23T08:00:00.000Z"
       },
       {
-        "title": "예금·달러·금 쌓고 주식투자는 ‘신중’…안전자산으로 자금 흘러",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kR014c2N1YnlwWWVHamtSZUJPb21OZFkwbFRIWFVsMktnbk9NRS1MLU1QWDNVVWdURHhoWVpXWWdjb3BhVWhxUC1yYU5iSWFUcTZlZjFVTy1LSmJKSmlXaG81WW9YVERCNkZJ0gFvQVVfeXFMT3NvNnJkZFdvdjRCRi1HTDZRcm0zaVF2MWhqUlpXVHJUUGlVVy1ZR2N4bkoyX1lpeGZWMExia3lqY1pUa0h5NmZjdTQxcGNtblpzeVk2by1XYXk3MzkxSXJIU1NhZVdMeTU4ZzlDYUc4?oc=5",
-        "source": "자유일보",
-        "date": "2026-08-23T07:10:00.000Z"
-      },
-      {
         "title": "환율 하락에 은행 자금 흐름도 변화…예금·달러·금 쌓는다",
         "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUVhVSVZENGdpb256Z01fVGNaS2d0bHFNUkhaeXpQOGNqU0lVX3c1UXcyRTNaTWdycjI3eVBPelhXQXMzX21GbVNVc0FYaWEwR1E?oc=5",
         "source": "노컷뉴스",
         "date": "2026-08-23T04:38:00.000Z"
+      },
+      {
+        "title": "원/달러 환율 1,300원대 계속",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zNFo4bTFTUFZQbEVHWVJlRnFvS2JES2tOMW1ZMHJPODNWVzRKejM4aEg3WVhEUTk2ZFRxOExLNGtfTzRRTHZ1TGRJSXk2NVMxaFgyQ25VNmhBR0NhdGtMMNIBYEFVX3lxTE8zNFo4bTFTUFZQbEVHWVJlRnFvS2JES2tOMW1ZMHJPODNWVzRKejM4aEg3WVhEUTk2ZFRxOExLNGtfTzRRTHZ1TGRJSXk2NVMxaFgyQ25VNmhBR0NhdGtMMA?oc=5",
+        "source": "연합뉴스",
+        "date": "2026-08-23T04:06:51.000Z"
+      },
+      {
+        "title": "정부 환율 관리 압박에 수출기업 달러 쏟아냈다…상반기 달러 순매도 1869억달러, 작년의 3배",
+        "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPclpGTjkzbkpOM3RFSDJYMno3dWx6LW1vR25IYTlKaVFXaTg1SklzWVlpOER3LWJhcmlKaFdvQ3JoazRRUDBoWVpaX0dsdUZzeWxTcUxlUk5fSnN6RkVua0pzLVVoaTRvRUt3M0NhV0ctczFESXN2SUgtRHJ5SVgzcVhWT29tZ29PNnNIWlZB?oc=5",
+        "source": "조선일보",
+        "date": "2026-08-23T03:15:04.000Z"
       }
     ],
     "metal": [
@@ -439,16 +439,16 @@
         "date": "2026-08-22T09:28:15.000Z"
       },
       {
-        "title": "\"100억 압구정 아파트, 이젠 85억이라는데 찾아보니 신고가?\"강남 집값 무슨 일이 [부동산360]",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jR3FvN3g3TW00aHBzRU9xMlRtR21zWW9YcG5MdkQ1dmdLRlM0ZXBleEF5UWthZnhWMUlsWlRKMWNhQ2pFYUlPOS1xRDk4NlhyOFlF?oc=5",
-        "source": "네이트",
-        "date": "2026-08-22T06:01:00.000Z"
+        "title": "5년 만에 최대 폭등…서울 아파트값 한달새 2.5%↑",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwYTlHM2Z3aGNtNnpQU2xxQTdqbWVNSjVqWjV6YnJzeVJrMkNBUmVMUGdqV0JFXzA0eGdsZ213YjlibFJGenVUU2Y0SWZoQzVuRU8w?oc=5",
+        "source": "경제타임스",
+        "date": "2026-08-22T07:03:27.000Z"
       },
       {
-        "title": "[실거래가 월간보도] 6월 아파트 매매 실거래가격 상승폭 확대... 5년 만에 최고치",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53NF96YnJyUy0tNkVTekJjbXFfc25lYUZyeE5RVzZiYUEtbmhSTGV0WVVZazNOcDRoNEJ2SEk5Slc5VXJkQktDNDNINEpXTndlZTdTb2xBa2N4bGxPY1pMT1hkSmtRUWvSAWdBVV95cUxOdzRfemJyclMtLTZFU3pCY21xX3NuZWFGcnhOUVc2YmFBLW5oUkxldFlVWWszTnA0aDRCdkhJOUpXOVVyZEJLQzQzSDRKV053ZWU3U29sQWtjeGxsT2NaTE9YZEprUVFr?oc=5",
-        "source": "국민기자뉴스",
-        "date": "2026-08-22T05:06:55.000Z"
+        "title": "“100억 압구정 아파트, 이젠 85억이라는데 찾아보니 신고가?”강남 집값 무슨 일이 [부동산360]",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9fTzdsSElEd3IybC1CSkxpODFuaHRaOXotcmVHbjRqbXUxQ3hYbHNHWXA5eVMyYnV0Zl9oWHhmYnVqT3c1NHNWMHF5Vng4X28?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-22T06:02:12.000Z"
       }
     ],
     "lotto": [
