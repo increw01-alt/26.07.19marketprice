@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-23T14:18:07+09:00",
+  "updatedAt": "2026-08-23T15:18:29+09:00",
   "topics": {
     "coin": [
       {
@@ -53,16 +53,22 @@
     ],
     "stock": [
       {
+        "title": "코스피 6900선 되찾았지만…투자자 손은 멈췄다",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hWkpGLUZXMm00SC13bHpjM042a3QyMFlMd1Qta0tRVWtnV0lHb29zb21fUWVjV2RVN29JMzdvNW1NMGtrWEE5Ulo3WDR1LXI4UjhfTkNGUmtIRUVaV0t0OQ?oc=5",
+        "source": "네이트",
+        "date": "2026-08-23T06:05:00.000Z"
+      },
+      {
         "title": "\"코스피에 놀란 가슴, 나스닥에도 놀란다\"...서학개미 거래도 뚝",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55V3BPblNKUXIxb3RGM3NmNko0aVVmMm9SMlNob2N2MG5PUnlMeGtVOFE1VDhTX3R4Y1UyTl8zcmV4emF0cURaajFrN0Vwa0p5bDFpbzA4NllPQQ?oc=5",
         "source": "파이낸셜뉴스",
         "date": "2026-08-23T05:11:11.000Z"
       },
       {
-        "title": "코스피 향방, 엔비디아·잭슨홀에 달렸다…\"2차 반등 가능성 주목\"",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82b1lNbVdCdkRneWdiYV9NNW1uUk9lM3ptejUzQjBuSzlTNzNCTlhhWWJ3clpJenVHcnVzRFQzcWh6TmVYRTU0a3RLbTFQbGlaWmFZ?oc=5",
-        "source": "네이트",
-        "date": "2026-08-23T05:01:00.000Z"
+        "title": "코스피 향방, 엔비디아·잭슨홀에 달렸다…“2차 반등 가능성 주목”",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mVENlaTNCUTRnd05vdE9GYjhQeU9jbzdEZzUtZzhuLVZwN2hiM1dyeGFxZUR2WkpaV0lmYVUyaGJfbGNGaEc4NzJKbENCa1V2QmNHalVwc0paZzIwd1JnTEYxb2xKcVdnaS1LQ0hYY9IBc0FVX3lxTE9rVzZpWmRLNFZ5cXRBZ1pGaU9qYXJMTTl1SWpzbUpWMFRsZklXYUhwRjFCZnE3N2R4Y1FKNVFXM2U3VkljWERyRzlqdjYzamtGb1BzT290c2JVdHhSN3dKTWhfSlNERjJpa2M5bXNCUkNFVlk?oc=5",
+        "source": "데일리한국",
+        "date": "2026-08-23T05:00:00.000Z"
       },
       {
         "title": "엔비디아·잭슨홀에 쏠린 눈…코스피 7000 안착 시험대 [주간 증시 전망]",
@@ -93,15 +99,15 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4yeFItUjIzM0RCX3BqRFFORXFldHkzWExXb0trVGp1X0NWbldsLVRlMG5ReExLdHRfVEdJQnRXaDZhQWpVS1FlVTBtUi1maUtJa01vMnRMbjlXb1dkQmItODdIU29LcXM?oc=5",
         "source": "자본시장뉴스",
         "date": "2026-08-23T01:30:00.000Z"
-      },
-      {
-        "title": "코스피 회전율 연중 최저…삼전닉스 자사주 매입이 증시 활력 반전 이끌까",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9obFU1WUd6OTJCWGlFOU94RmtwNVBwal9kX0l0eEt2RzYzdnBRVHlwUWRfaXFmNXQ2MEo5ZExleXBDMFZSaktYQkZnc1I3TmItMHhHTm5ha01hVFZHYWF0VNIBeEFVX3lxTE81MjJ6LW4xQWl1aERSeFlIMndNSzNpUmd3YlE5MV83SXpJUFpnOUIzbUVNVEF1VFlfeS1xbC1HeXZCZGw5NmhoalJlQTk0em9FTjVpbmZ4a1FiaXhaMUtqdVRxdjFjaVFDSGRtX0V0YkR4aUN6Tk00VA?oc=5",
-        "source": "뉴시스",
-        "date": "2026-08-23T01:29:30.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "엔캐리 청산 경계론 재점화…2024년 코스닥 11.3% 급락",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE84RXlHN0F0QWgtZGMxU2ZCc0RPLXpFZmR6UHdQdU5ManBmUFNmT2F4eElGQXRqWmxSWTNWUVN5T2pia3RHa3FoTnliSk1wenBFbFpXYlV5X2lVZjRzelBYQnBzV3dBRHc?oc=5",
+        "source": "자본시장뉴스",
+        "date": "2026-08-23T04:30:00.000Z"
+      },
       {
         "title": "이번 주 니어스랩·해치텍 코스닥 상장…스카이랩스는 청약 나서",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10REdSWV96ZUZORHVQME1ZQUk3TmxsMjBueDBqd0dfaHU2SGJGaFVQczZzTi1IcDE0c19MOF9zUnB6c0g3WVBWMjZKS1R1NUF1RWVSeEhHanRva3gwZEhfek00NS1HWG5ka2dJQVRjdVk?oc=5",
@@ -113,12 +119,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBsLWtuRWFxdzRBLW5FZGw2TC15YzMzV3hHZTZvczNmVlZhMkJCWlFoMXVyZDBCSE9ENzhWdHcxRlBOMTZOalZtZTBxZVBieW9FVzFzZmMxaldHRnAzZVpXNkxFZU43Nkc4OXFFMA?oc=5",
         "source": "중소기업신문",
         "date": "2026-08-23T02:01:54.000Z"
-      },
-      {
-        "title": "주성엔지니어링, 코스닥 급락 속 4%대↓…새주 반등 여부는?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tZHQtSVUtdm83dEhKSVdEbmotRFVWdWdNVEZFNTJWUHpiSkt5bEtjTUJqVnVJbDFlN0tWWmRGd3VkLTJuY240aDBNcERYLWpTQmRJdU9TLUVpcVlyMjZIWlBCQnVLaW5N?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-08-23T01:02:14.000Z"
       },
       {
         "title": "美 ETF 자금, 코스닥 반도체 소부장까지 들어올까",
@@ -204,9 +204,9 @@
     "metal": [
       {
         "title": "금값 다시 반등, 국제 금시세 온스당 4600달러 선 넘어",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Eek9XN0MzUEd5azVhVDBlYWlGM1NaYUF0cnUtb0t2OEFna2c3cXY3aGpBTlU1ei11bGFicG9JOElUUjVXRXBYdUtQREMwY3VuMUs3TkQwTmJZRi1mcVNIeg?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAzWEpIMWRUTXJheS1zM2FVRTZRbUxPMy1lWS1Kcnc5STJVMDZTWHNrb3RJMlRHcFVGVDYwNkRMakx2dTRVWERKX3hxYkVJckg4Y1Jn?oc=5",
         "source": "네이트",
-        "date": "2026-08-23T05:07:00.000Z"
+        "date": "2026-08-23T05:07:10.000Z"
       },
       {
         "title": "금값이 오늘(2026년 8월 23일) 급등하여 SJC 금 선물 가격이 온스당 360만 VND 상승했습니다.",
@@ -403,6 +403,12 @@
     ],
     "realestate": [
       {
+        "title": "서울 아파트 실거래가, 6월 2.5% 상승… 5년 만에 최대 상승폭",
+        "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMWndRVzl2SmRjWnZsVUxmSUNhcERZanFwbEVrWHZWcWlhUEUwWTJZYzA4ZXlfcGNqRGNGZHBvLXNiQWsxajVhTEdn?oc=5",
+        "source": "뉴스N연합",
+        "date": "2026-08-23T05:42:16.000Z"
+      },
+      {
         "title": "아파트값 뜀박질에…서울 빌라 거래 1위 동네도 '매물 가뭄'[부동산AtoZ]",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vMWJNc1NmcDdGLVRJa3JRNXVxa1ZnQ3hZZXFXSDFnVnBKTV81c2Q3Mzh4OTZXMWhJOHo0NlM2OXh1Z3ZxT081bXNUNHdJMlg1eHd0WVhNZUNXcXZoaWNvRWl6R2tYWjBPa0E?oc=5",
         "source": "네이트",
@@ -443,12 +449,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ROGZXTlVBX2ZsTGI1RVV5Y09sOWF2R1N2elR3Um9xd0hmVmx2RnVDZHlYMEM5Nm1RVTBiVW9pNUZSSklqUDk4Ry1NdHM3bzhVVE1qcmJB?oc=5",
         "source": "헤럴드경제",
         "date": "2026-08-22T06:00:00.000Z"
-      },
-      {
-        "title": "서울 아파트값 다시 가파른 상승…6월 실거래가 2.50%↑ ‘5년 만에 최대’",
-        "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFA0Sk1ZR3k1QmQtdVczLU5hM0YxSWU0SHNSbENCd0gtVkUzSXZvRmFvTGgtRE1FdDJoVWRVR0UySnRUNGM?oc=5",
-        "source": "얼리어답터뉴스",
-        "date": "2026-08-22T04:12:38.000Z"
       }
     ],
     "lotto": [

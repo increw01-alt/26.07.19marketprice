@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-23T14:17:58+09:00",
+  "updatedAt": "2026-08-23T15:18:20+09:00",
   "deals": [
+    {
+      "title": "수박 4kg 내외",
+      "mall": "옥션",
+      "price": 14900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728724",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T06:07:50.000Z"
+    },
+    {
+      "title": "10원 * 2개 체크",
+      "mall": "네이버페이",
+      "price": 10,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106569",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T06:04:49.000Z"
+    },
+    {
+      "title": "국내산 1++ 한우 등심 400g",
+      "mall": "인더마켓",
+      "price": 35990,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728723",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:46:48.000Z"
+    },
+    {
+      "title": "질레트 프로쉴드 옐로우 면도날 8입+미니젤",
+      "mall": "롯데온",
+      "price": 27820,
+      "cat": "생활",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106568",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T05:46:30.000Z"
+    },
+    {
+      "title": "널담 수제 마카롱 솔티드플라워 8구",
+      "mall": "롯데온",
+      "price": 10450,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728722",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:41:32.000Z"
+    },
+    {
+      "title": "자포니카 민물장어 손질 후 700g (1-3미)",
+      "mall": "남도장터",
+      "price": 14820,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728721",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:17:50.000Z"
+    },
     {
       "title": "쌀눈 코인육수 120알 360g 멸치맛",
       "mall": "네이버",
@@ -132,50 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T03:08:46.000Z"
-    },
-    {
-      "title": "타미 헤리티지 옥스포드 솔리드 셔츠",
-      "mall": "H패션",
-      "price": 68731,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728708",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:02:08.000Z"
-    },
-    {
-      "title": "테리 반바지",
-      "mall": "지오다노공식몰",
-      "price": 15000,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728707",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:58:35.000Z"
-    },
-    {
-      "title": "동원 개성 왕만두 2.24kg 2봉",
-      "mall": "토스",
-      "price": 26200,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728706",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:57:16.000Z"
-    },
-    {
-      "title": "국내산 반건조 오징어 10미 500g",
-      "mall": "롯데온",
-      "price": 19790,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728705",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:50:15.000Z"
     },
     {
       "title": "비락식혜 제로 238ml 24개",
@@ -528,28 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-21T05:07:25.000Z"
-    },
-    {
-      "title": "오리온 초코파이 48P",
-      "mall": "지마켓",
-      "price": 11360,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106539",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T04:15:07.000Z"
-    },
-    {
-      "title": "PS5 디스크 드라이브 99,000원",
-      "mall": "쿠팡",
-      "price": 99000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106538",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T03:48:36.000Z"
     },
     {
       "title": "국내산 삼겹살 구이용 1kg 냉장, 목심 구이용 1kg 외 골라담기",
