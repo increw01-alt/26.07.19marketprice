@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-24T07:08:14+09:00",
+  "updatedAt": "2026-08-24T08:09:17+09:00",
   "deals": [
+    {
+      "title": "라인프렌즈 콜라보 세트 9100원 (8/24~)",
+      "mall": "이삭토스트",
+      "price": 9100,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106584",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T23:00:25.000Z"
+    },
+    {
+      "title": "상스치 3600원, 맥플러리 1800원 외 (8/24~30)",
+      "mall": "맥도날드앱",
+      "price": 1800,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106583",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T22:50:07.000Z"
+    },
+    {
+      "title": "바삭 찹쌀누룽지, 달콤한맛, 384g, 16입, 2봉",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728831",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T22:43:37.000Z"
+    },
+    {
+      "title": "오레오 100g 12개 골라담기",
+      "mall": "옥션",
+      "price": 11310,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728830",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T22:40:44.000Z"
+    },
+    {
+      "title": "신라면+너구리+짜파게티+배홍동 총19봉",
+      "mall": "지마켓",
+      "price": 13990,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106582",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T22:37:34.000Z"
+    },
+    {
+      "title": "선착순 쿠폰 4종세트",
+      "mall": "네이버",
+      "price": null,
+      "cat": "쿠폰·상품권",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728829",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T22:23:43.000Z"
+    },
     {
       "title": "PS5 디스크 드라이브 99,000원/배송비2,500원",
       "mall": "게임몰",
@@ -176,28 +242,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T15:38:56.000Z"
-    },
-    {
-      "title": "부르르 제로사이다 오리지널, 1.5L, 12개",
-      "mall": "네이버",
-      "price": 11660,
-      "cat": "식품",
-      "link": "https://shopping.naver.com/festa/onsale/699ceb9398f153",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:35:32.000Z"
-    },
-    {
-      "title": "밥알이 살아있는 백미밥 200g 24개",
-      "mall": "11번가",
-      "price": 21210,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728815",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T15:33:52.000Z"
     },
     {
       "title": "8월 24일 네이버페이 149원 + 랜덤 포인트",
@@ -475,28 +519,6 @@
       "date": "2026-08-22T05:42:29.000Z"
     },
     {
-      "title": "First-Person Data Explorer",
-      "mall": "스팀",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106556",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-22T04:38:57.000Z"
-    },
-    {
-      "title": "오예스 콜드브루 363g 1개",
-      "mall": "쿠팡",
-      "price": 4100,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106555",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-22T04:19:42.000Z"
-    },
-    {
       "title": "TANGZU FUDU II & Tang Sancai Noble Eartips 1DD+2BA 하이브리드 인이어 이어폰 [$43.32/무베]",
       "mall": "알리",
       "price": null,
@@ -506,17 +528,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-22T03:10:26.000Z"
-    },
-    {
-      "title": "제주 삼다수 500ml 무라벨 40병 생수",
-      "mall": "롯데온",
-      "price": 14040,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106554",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-22T00:46:56.000Z"
     },
     {
       "title": "8월 22일 네이버페이 53원 + 랜덤 포인트",
