@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-08-23T13:25:05+09:00",
+  "updatedAt": "2026-08-23T14:17:58+09:00",
   "deals": [
+    {
+      "title": "쌀눈 코인육수 120알 360g 멸치맛",
+      "mall": "네이버",
+      "price": 2500,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728720",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:09:18.000Z"
+    },
+    {
+      "title": "애슐리 시그니처 살치 스테이크, 소스포함, 200g, 4팩",
+      "mall": "토스",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728719",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:04:27.000Z"
+    },
+    {
+      "title": "하림 양푼김치찌개 8입+훌라면 4입+닭칼국수 4입",
+      "mall": "지마켓",
+      "price": 11960,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728718",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:03:30.000Z"
+    },
+    {
+      "title": "아르기닌 6200 스피드액 14포",
+      "mall": "네이버",
+      "price": 8490,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728717",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T05:00:39.000Z"
+    },
+    {
+      "title": "에센셜 세미 와이드 스웨트팬츠 2장 3컬러",
+      "mall": "굿웨어몰",
+      "price": 31122,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728716",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T04:58:20.000Z"
+    },
+    {
+      "title": "바디랩 서리태 순수두유 99.9 190ml 24팩 x 2박스(총 48팩)",
+      "mall": "29cm",
+      "price": 22330,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728715",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T04:53:29.000Z"
+    },
+    {
+      "title": "인블룸 대용량 접이식 옷정리함 리빙박스 5size",
+      "mall": "오늘의집",
+      "price": 3000,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728714",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T04:26:59.000Z"
+    },
     {
       "title": "동국제약 파워맥스 쏘팔메토 골드 30캡슐 2박스",
       "mall": "롯데온",
@@ -22,17 +99,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-23T03:43:57.000Z"
-    },
-    {
-      "title": "소울너츠 땅콩버터 크런치 500g + 스무스 500g 2개",
-      "mall": "토스",
-      "price": 7080,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728712",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:35:58.000Z"
     },
     {
       "title": "제주 삼다수 500ml 무라벨 40병",
@@ -110,72 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T02:50:15.000Z"
-    },
-    {
-      "title": "지넷 한블-U2 4K UHD 2채널 블랙박스",
-      "mall": "지마켓",
-      "price": 269000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728704",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:39:27.000Z"
-    },
-    {
-      "title": "폴햄키즈 공용 퓨어코튼 베이직 반팔티",
-      "mall": "네이버",
-      "price": 5010,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728703",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:30:13.000Z"
-    },
-    {
-      "title": "활 숫꽃게 1kg + 1kg 총 2kg(6~10미)",
-      "mall": "지마켓",
-      "price": 21900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728702",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:25:26.000Z"
-    },
-    {
-      "title": "삼립 주종발효 단팥크림빵 10봉 외 (카스타드/슈크림/소보로)",
-      "mall": "11번가",
-      "price": 10040,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728701",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:19:17.000Z"
-    },
-    {
-      "title": "푸마 발목양말 10족",
-      "mall": "네이버",
-      "price": 12900,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728700",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:17:46.000Z"
-    },
-    {
-      "title": "용대리식 황태 해장국 600g 4팩",
-      "mall": "네이버",
-      "price": 11900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728699",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:12:00.000Z"
     },
     {
       "title": "비락식혜 제로 238ml 24개",
