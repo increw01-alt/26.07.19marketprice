@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-08-23T23:11:17+09:00",
+  "updatedAt": "2026-08-24T00:09:20+09:00",
   "deals": [
+    {
+      "title": "와퍼주니어 2900원 (8/24~9/6)",
+      "mall": "버거킹",
+      "price": 2900,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106576",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T15:07:54.000Z"
+    },
+    {
+      "title": "특등급 새청무쌀 10kg 농협 27,864원",
+      "mall": "오늘의집",
+      "price": 27864,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728798",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T15:05:05.000Z"
+    },
+    {
+      "title": "카페 2천원 이상 결제시 500원 적립 (8/24~30)",
+      "mall": "네이버페이",
+      "price": 500,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106575",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T15:04:57.000Z"
+    },
+    {
+      "title": "라이트 이지케어 링클프리셔츠",
+      "mall": "컨셉원 공식",
+      "price": 19900,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728797",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T15:02:57.000Z"
+    },
+    {
+      "title": "비너스 면100% 밴딩 트렁크 4종세트",
+      "mall": "롯데온",
+      "price": 12720,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728796",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T15:02:43.000Z"
+    },
+    {
+      "title": "제스프리 썬골드키위 점보 3kg",
+      "mall": "G마켓",
+      "price": 24350,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728795",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T15:02:31.000Z"
+    },
     {
       "title": "아임에코 가벼운샘 생수 2L x 18병",
       "mall": "11번가",
@@ -154,50 +220,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-23T12:05:28.000Z"
-    },
-    {
-      "title": "유가네 닭갈비 볶음밥 210g x 9팩 + 치즈27g 2팩",
-      "mall": "지마켓",
-      "price": 17040,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728783",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T12:03:44.000Z"
-    },
-    {
-      "title": "강원 감자떡 1kg x 2봉",
-      "mall": "네이버",
-      "price": 7900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728782",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T12:01:11.000Z"
-    },
-    {
-      "title": "피데기 반건조오징어 10미 1.1kg ~1.3kg 중옵",
-      "mall": "네이버",
-      "price": 3500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728781",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T11:58:34.000Z"
-    },
-    {
-      "title": "행복 약단밤 2kg",
-      "mall": "오늘의집",
-      "price": 15984,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728780",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T11:53:39.000Z"
     },
     {
       "title": "라방 5원",
@@ -506,28 +528,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-21T11:59:27.000Z"
-    },
-    {
-      "title": "월희 리메이크 스위치판 77000원",
-      "mall": "네이버 h2몰 플레이 스위치",
-      "price": 77000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106547",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T10:42:30.000Z"
-    },
-    {
-      "title": "앤커 파워스테이션 60,000mAh 87W 68.28달러",
-      "mall": "알리",
-      "price": null,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106546",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T09:03:14.000Z"
     },
     {
       "title": "레드미 와치 6 REDMI WATCH 6 최종가 56불~65불",
