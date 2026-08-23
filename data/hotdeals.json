@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-08-23T12:39:24+09:00",
+  "updatedAt": "2026-08-23T13:25:05+09:00",
   "deals": [
+    {
+      "title": "동국제약 파워맥스 쏘팔메토 골드 30캡슐 2박스",
+      "mall": "롯데온",
+      "price": 12900,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728713",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T03:51:29.000Z"
+    },
+    {
+      "title": "미국산 신선란 30입 1+1 ￦4,980",
+      "mall": "이마트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106567",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-23T03:43:57.000Z"
+    },
+    {
+      "title": "소울너츠 땅콩버터 크런치 500g + 스무스 500g 2개",
+      "mall": "토스",
+      "price": 7080,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728712",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T03:35:58.000Z"
+    },
     {
       "title": "제주 삼다수 500ml 무라벨 40병",
       "mall": "롯데온",
@@ -154,28 +187,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-23T02:11:29.000Z"
-    },
-    {
-      "title": "마이밀 마시는 뉴프로틴 190mlx16팩",
-      "mall": "롯데온",
-      "price": 18530,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728698",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:06:29.000Z"
-    },
-    {
-      "title": "국내생산 한일 포근 콧물흡입기",
-      "mall": "오늘의집",
-      "price": 189000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728697",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T02:05:51.000Z"
     },
     {
       "title": "스타샌드 아일랜드 20% 33600원",
@@ -539,17 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-21T03:48:36.000Z"
-    },
-    {
-      "title": "Euro Truck Simulator 2 할인",
-      "mall": "스팀",
-      "price": 6200,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106537",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-21T03:38:08.000Z"
     },
     {
       "title": "국내산 삼겹살 구이용 1kg 냉장, 목심 구이용 1kg 외 골라담기",
