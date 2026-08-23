@@ -1,10 +1,76 @@
 {
-  "updatedAt": "2026-08-23T15:18:20+09:00",
+  "updatedAt": "2026-08-23T16:26:44+09:00",
   "deals": [
+    {
+      "title": "한돈 돼지 고추장주물럭 1kg",
+      "mall": "네이버",
+      "price": 9900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728730",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T07:07:52.000Z"
+    },
+    {
+      "title": "삼색꿀떡 2박스",
+      "mall": "롯데온",
+      "price": 9770,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728729",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T07:02:57.000Z"
+    },
+    {
+      "title": "온플러그 전상품 KC인증",
+      "mall": "옥션",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728728",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T07:02:19.000Z"
+    },
+    {
+      "title": "롯데 칠성 펩시 제로슈거 라임 제로카페인등 교차o 3,740원 추가적립",
+      "mall": "카카오",
+      "price": 29920,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728727",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T06:59:41.000Z"
+    },
+    {
+      "title": "동국제약 마데카 크림 에이징포커스 대용량 20개+멜라에센스 특대용량 6개+체험분",
+      "mall": "CJ온스타일",
+      "price": 179100,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728726",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T06:49:47.000Z"
+    },
+    {
+      "title": "남양 경기미 10kg 상등급",
+      "mall": "11번가",
+      "price": 26640,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728725",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-23T06:28:41.000Z"
+    },
     {
       "title": "수박 4kg 내외",
       "mall": "옥션",
-      "price": 14900,
+      "price": 11920,
       "cat": "기타",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728724",
       "direct": false,
@@ -123,39 +189,6 @@
       "date": "2026-08-23T04:58:20.000Z"
     },
     {
-      "title": "바디랩 서리태 순수두유 99.9 190ml 24팩 x 2박스(총 48팩)",
-      "mall": "29cm",
-      "price": 22330,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728715",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T04:53:29.000Z"
-    },
-    {
-      "title": "인블룸 대용량 접이식 옷정리함 리빙박스 5size",
-      "mall": "오늘의집",
-      "price": 3000,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728714",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T04:26:59.000Z"
-    },
-    {
-      "title": "동국제약 파워맥스 쏘팔메토 골드 30캡슐 2박스",
-      "mall": "롯데온",
-      "price": 12900,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728713",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:51:29.000Z"
-    },
-    {
       "title": "미국산 신선란 30입 1+1 ￦4,980",
       "mall": "이마트",
       "price": null,
@@ -165,39 +198,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-23T03:43:57.000Z"
-    },
-    {
-      "title": "제주 삼다수 500ml 무라벨 40병",
-      "mall": "롯데온",
-      "price": 13890,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728711",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:14:12.000Z"
-    },
-    {
-      "title": "케라시스 닥터루티어 비듬 쿨샷 샴푸 800ml 2개",
-      "mall": "무신사",
-      "price": 8250,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728710",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:12:58.000Z"
-    },
-    {
-      "title": "웅진본사출고 더 빅토리아, 플레인, 탄산수, 500mlX20개",
-      "mall": "토스",
-      "price": 7200,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=728709",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-23T03:08:46.000Z"
     },
     {
       "title": "비락식혜 제로 238ml 24개",
