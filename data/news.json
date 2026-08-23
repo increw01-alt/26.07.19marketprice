@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T03:10:39+09:00",
+  "updatedAt": "2026-08-24T04:16:13+09:00",
   "topics": {
     "coin": [
       {
@@ -121,12 +121,6 @@
         "date": "2026-08-23T09:21:04.000Z"
       },
       {
-        "title": "트래블월렛, IPO 준비 본궤도…\"2027년 코스닥 상장\"",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Eb0ZKRWNBSDlxQThkNjVMNFdpbnk3NmdicG03UTdrSk0xaWF3X3pvMHBTWE9IVmZ3YzkyVVVaVlpxRUplNDhRMGlYdGwwcTNsaUtIY29MSEVicHJwaXlkZA?oc=5",
-        "source": "네이트",
-        "date": "2026-08-23T08:30:00.000Z"
-      },
-      {
         "title": "'성장 사다리' 유명무실…코넥스→코스닥 이전상장 '0건'",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBETWthbTdxRkpld3FBZFRPUHFPdFZfMjFWZXRVYkNDdVJMVlFpb2NZdVNDUXJ4YVgwUl9KRnNTeTB6djNTUHJNTnlfOEFSTUlxUWp2QTVoMnBsUQ?oc=5",
         "source": "파이낸셜뉴스",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5EQzlEX1hnSUkyUEFoX2dTNGJVMzNLMDVQcnoyWDlreGR4OTVQNFdKTU5Hb21Ia0U2UE00RjBSSUNINnVRTENGV3UxeE5jcWMyYzh0NERXcWF6Y1ozN0NQT2REaVNNRWVyeS11Q2VBVDF6bzlr?oc=5",
         "source": "연합인포맥스",
         "date": "2026-08-23T04:04:57.000Z"
+      },
+      {
+        "title": "이번 주 니어스랩·해치텍 코스닥 상장…스카이랩스는 청약 나서",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10REdSWV96ZUZORHVQME1ZQUk3TmxsMjBueDBqd0dfaHU2SGJGaFVQczZzTi1IcDE0c19MOF9zUnB6c0g3WVBWMjZKS1R1NUF1RWVSeEhHanRva3gwZEhfek00NS1HWG5ka2dJQVRjdVk?oc=5",
+        "source": "연합인포맥스",
+        "date": "2026-08-23T04:00:11.000Z"
       }
     ],
     "fx": [
@@ -254,8 +254,8 @@
     "energy": [
       {
         "title": "“전쟁 끝나는 줄 알았는데, 눈앞이 깜깜”…유가 100달러에 원유 곱버스 -83% [원자재로 살아남기]",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA0WlpreHo0dVFCYzdiLTNnTEVVZlRNRldrcEs1NkRZdUFpOGMwdGdkT19QRTZta0RlNWg5REJNNW0tQmZGdHpta1kwOW9jSVYtb3hBZm5YMTBFMUJhUW1SelJHLUtESWZm?oc=5",
-        "source": "매일경제TV",
+        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1fcXUtZXQ5UzRYWDB2NkUtTjhvMzRiWmxzbEl5MjB0aG1FNkpKVjkzQ0hxUUI5bW52Ti0tMzd6SmJCYnd1UkZTdDRMMUJxWjFqdFE?oc=5",
+        "source": "매일경제 마켓",
         "date": "2026-07-25T07:00:00.000Z"
       },
       {
@@ -283,22 +283,22 @@
         "date": "2026-06-27T07:00:00.000Z"
       },
       {
+        "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8ySEd3R0c5bmJvM3k1aEMyaXBOY3g0UVBucS1mNHhYalU1blVUclZOdFVjQnprMkZLckVvdGstTjJFNnBhd0F4eU9wUWVyYy1XRXcw?oc=5",
+        "source": "네이트",
+        "date": "2026-06-19T07:00:00.000Z"
+      },
+      {
+        "title": "[원자재 시황] 금·유가·코인 동반 하락…뉴욕증시 반등",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0xOVFQSkd0QXE4ejNRTlZpcTAwemJOOTktejNqSERhOTRlbFRnN2toTzNGLUVRUFFhcXJPODFKMlg1ZHlCeXJSMjh0NVhGYTlNNE9iX3lhSmFZa1hoN1YwY096QnRnQzNG?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-06-19T07:00:00.000Z"
+      },
+      {
         "title": "[원자재 시황] WTI 80달러선 붕괴 '눈앞'…금·암호화폐 상승",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA3M3pnYU10NTVqdGVwNlFIYzZucno0a25uTlNGc01aUXRNQzk2X0Q3aXZ4ODBiMVVSd1pxOHpxOG0zQXoyVWI2OXd3X1Bhd2tMSTN4VEtndlFIazdsZjJjdGM2VFEtdm8w?oc=5",
         "source": "ebn.co.kr",
         "date": "2026-06-16T07:00:00.000Z"
-      },
-      {
-        "title": "골드만삭스 \"내년 국제유가 배럴당 80달러\"...현재보다 10% ↓",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1Bb3dBWnNVZWQyYmtySk1sMUhPOTZnTFFwUjFoNGZjeFJhNnZfN3lGMC1zX2hnb2lIUjVJZTdzQ1BYU3QzbHFHR3RidjBxc2VuQ0EyeFJnWENqY3hVREpfSEFycTNHbmUzMnpNNW5qUmx0Mjc5SmJF?oc=5",
-        "source": "thecommoditiesnews.com",
-        "date": "2026-06-13T07:00:00.000Z"
-      },
-      {
-        "title": "[원자재 시황] 금값 4300달러·WTI 90달러선 붕괴",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jZWEtb1RJRHlGRllKWEY3cDg0OWhBdkp5c0NtOXZhRFhMLXFGaXlLTFREZXc1TW43bzlER2tpVFhsSW5CWGswMTg4OWYtR2Z0d2plZDFRd0piNWxmTldTNjZoMUF4OXRr?oc=5",
-        "source": "ebn.co.kr",
-        "date": "2026-06-10T07:00:00.000Z"
       }
     ],
     "macro": [
@@ -471,6 +471,12 @@
         "date": "2026-08-22T15:12:00.000Z"
       },
       {
+        "title": "로또 당첨번호 조회 1238회",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QRTBrOU1pV3l1SzRTQnRsbDFEYWdxTmFVeUt6Wlh3WDgtUzZaVUZJQ01tVU93NmdIY2xaTldKMXVRV1RFengtUWUtdDQ2UG1CRnViSmdCTlpfWVNwQjJ1LWZKSDQ?oc=5",
+        "source": "bntnews.co.kr",
+        "date": "2026-08-22T15:00:02.000Z"
+      },
+      {
         "title": "로또 1238회 1등당첨번호조회 공식발표",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wdlB6bnpJTjNNbW94cGdyMW5DV1J1RDdobUZEblo2cTlwYWJPOHdWc1dNWEVmUmk0TXd0YWhVemhYNGNyWEhQQU5XT0R5U2UxU2ZIajNYWmtWZHJPdlBXNWhPQlVDMVdBRU54YkdR?oc=5",
         "source": "gukjenews.com",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ITGF6dG1ld3c1MGpzX1BTTFFGN1RpQUU3U0ZNa1IzMVBSREl5c25QbjZqMGVpSHF1M1lxejBuVHY5a2k2bnIzZWh5UmJ6V0UxMElMWkx3WlBKUHpQRGQ5ODVyR0dfVHhEYkZ2a3p3eFY4dw?oc=5",
         "source": "톱스타뉴스",
         "date": "2026-08-22T12:04:44.000Z"
-      },
-      {
-        "title": "로또 1238회 1등 ‘2·13·18·32·38·42’ 보너스 ‘22’",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1WZnAxT09zamdHbHNYRnBWVXBBSFBTWWVWZ2xWZVRJTC1nZ21zX3lRWXNCdnR4Tkppajd0MHhQbEtYWWU4M0tta2d3RXJQcURRanpDVldGR25VRWVwOUpn0gFfQVVfeXFMTVZmcDFPT3NqZ0dsc1hGcFZVcEFIUFNZZVZnbFZlVElMLWdnbXNfeVFZc0J2dHhOSmlqN3QweFBsS1hZZTgzS21rZ3dFclBxRFFqekNWV0ZHblVFZXA5Smc?oc=5",
-        "source": "경향신문",
-        "date": "2026-08-22T11:50:00.000Z"
       }
     ]
   }
