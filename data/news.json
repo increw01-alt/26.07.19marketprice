@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T06:09:21+09:00",
+  "updatedAt": "2026-08-24T07:08:23+09:00",
   "topics": {
     "coin": [
       {
@@ -53,10 +53,16 @@
     ],
     "stock": [
       {
-        "title": "[미리보는 증시재료] 美 엔비디아·韓 금통위 '촉각'…코스피 향방 좌우",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5MOHZLSkNqN2RlWVBOYnZYNy1LQ0g2R3RYN3E0dU8zRWpZZlhvNjhUMHMyLXd1TV9UMHlZOXBsSUE5cXFUUVYxU2ZJRjZGYkRMbjd6bTlFUXFJRVJZRF9CVTM5VHZ5bkNRT3JzeGRzQ3VmTnRZcE5BVg?oc=5",
+        "title": "금리부터 잡혀야 간다…PCE·잭슨홀에 달린 3분기 코스피",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE0xNGxzcmgzcXVjWS1OUktEeU1PV0VCc0I3Q3BHNElTbGRRNDYyV0VacmZYLUxBLWZQWWlmNEVhdUpDb3VLSHVGX0JkVXZzVFRJNVFFa2ROdUoyX1B4WWk3dA?oc=5",
         "source": "네이트",
-        "date": "2026-08-23T21:03:00.000Z"
+        "date": "2026-08-23T22:02:00.000Z"
+      },
+      {
+        "title": "[미리보는 증시재료] 美 엔비디아·韓 금통위 '촉각'…코스피 향방 좌우",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBMekhqcHFMZmF6NHlGaDZoemxWUW9DTmFGREQ4MDU0Z1YyQ3ZiVi1SbWs0UFpkZFBTblpPX2RMUVpBUXZ5bHV2VWZzUUU5MUhMN2YxMWo1RUtJUThU?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-23T21:00:00.000Z"
       },
       {
         "title": "반도체 반등에도 개미들 '관망'…코스피 주식 회전율 연중 '최저'",
@@ -93,19 +99,25 @@
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE55V3BPblNKUXIxb3RGM3NmNko0aVVmMm9SMlNob2N2MG5PUnlMeGtVOFE1VDhTX3R4Y1UyTl8zcmV4emF0cURaajFrN0Vwa0p5bDFpbzA4NllPQQ?oc=5",
         "source": "파이낸셜뉴스",
         "date": "2026-08-23T05:11:11.000Z"
-      },
-      {
-        "title": "코스피 향방, 엔비디아·잭슨홀에 달렸다…“2차 반등 가능성 주목”",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9mVENlaTNCUTRnd05vdE9GYjhQeU9jbzdEZzUtZzhuLVZwN2hiM1dyeGFxZUR2WkpaV0lmYVUyaGJfbGNGaEc4NzJKbENCa1V2QmNHalVwc0paZzIwd1JnTEYxb2xKcVdnaS1LQ0hYY9IBc0FVX3lxTE9rVzZpWmRLNFZ5cXRBZ1pGaU9qYXJMTTl1SWpzbUpWMFRsZklXYUhwRjFCZnE3N2R4Y1FKNVFXM2U3VkljWERyRzlqdjYzamtGb1BzT290c2JVdHhSN3dKTWhfSlNERjJpa2M5bXNCUkNFVlk?oc=5",
-        "source": "데일리한국",
-        "date": "2026-08-23T05:00:00.000Z"
       }
     ],
     "kosdaq": [
       {
+        "title": "[ETF 매치업] 박스 등락장엔 코스닥 커버드콜…키움 11% vs KB 14%",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5taWpqOVlnMFM0OUF4bUh3NFVfc0VQTkxyYVpMdjlyOXp2VUlPaEdDYTh4T1dGUEpYcHFueGlvTzl1YU5hRW1Xb3NoSTFFMWc?oc=5",
+        "source": "딜사이트",
+        "date": "2026-08-23T21:20:00.000Z"
+      },
+      {
         "title": "[주간IPO] 니어스랩·해치텍 코스닥 상장…한화M&S 코스피 상장",
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9PeTd5Zndjc19wSW5SV3JVUGlVU3MyWF92bkFVTkVPYkxTb0NpaHlWalJnWFNKYjFMZkFhdzhZb0dXWmhUSmZWWjRBTGpST1AtcUI1b2tSUUx1Rm5Q?oc=5",
         "source": "뉴스핌",
+        "date": "2026-08-23T21:00:00.000Z"
+      },
+      {
+        "title": "[코스피·코스닥지수] 삼성SDI 지분 매각·넷마블 지분 인수 등 잇따라",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIa3Z4Si1PazctZVlZa1hyUjZ3QXM5T0huUFRGTUQySHNVTDZERDgzT2dsekxuWE0yeWwwaHFCSk1yRVFXSGNmWHJLWnRsaHYwNGNvemE5dTlZUGNwaFBfSXpBN2ttcFBiUXk2LUE0MDI?oc=5",
+        "source": "한국강사신문",
         "date": "2026-08-23T21:00:00.000Z"
       },
       {
@@ -137,21 +149,21 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Eb0ZKRWNBSDlxQThkNjVMNFdpbnk3NmdicG03UTdrSk0xaWF3X3pvMHBTWE9IVmZ3YzkyVVVaVlpxRUplNDhRMGlYdGwwcTNsaUtIY29MSEVicHJwaXlkZA?oc=5",
         "source": "네이트",
         "date": "2026-08-23T08:30:00.000Z"
-      },
-      {
-        "title": "'성장 사다리' 유명무실…코넥스→코스닥 이전상장 '0건'",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBETWthbTdxRkpld3FBZFRPUHFPdFZfMjFWZXRVYkNDdVJMVlFpb2NZdVNDUXJ4YVgwUl9KRnNTeTB6djNTUHJNTnlfOEFSTUlxUWp2QTVoMnBsUQ?oc=5",
-        "source": "파이낸셜뉴스",
-        "date": "2026-08-23T07:43:38.000Z"
-      },
-      {
-        "title": "스카이랩스, 코스닥 상장 추진…커프리스 혈압계 기반 의료데이터 플랫폼",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9MU3dDT2VLNGduTWE1eExoM19RSDQ0T3hsSGNaSkZMRWt4U3dBQnNDSkNyal9nNGpvOF9LcU9KRm8wbkpNQUYxd0NhS1YyTjhuZ3JPRTZB?oc=5",
-        "source": "MEDI:GATE NEWS",
-        "date": "2026-08-23T05:12:00.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "환율 1300원대, 외국인 특수 누린 백화점에 변수?…업계 \"아직 영향 없어\"",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA4MndKTmJ4ZS1LYVpnYmFoZnBobGxJVlB6Y1ZEdE9TZHZHaS1YSUlIT3dUZWlta3A5cjlaTWZBN3lXcjZqNUtQZzdQdExQcGpSVk9B?oc=5",
+        "source": "네이트",
+        "date": "2026-08-23T21:10:00.000Z"
+      },
+      {
+        "title": "1400원 깨진 환율 어디까지…삼전닉스 주주환원에 1350원 전망도",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9odUZSelhpTGxUaHEwcHh0eHZCNFdiZWcwaDliTmZTT1R0cFJ0T0hqNW1aWnV3X043Qm81T3paamw4eHZKNi1iTWtxUmdxWFR5NzIwU9IBWkFVX3lxTE9YcHhLdHRjZGtHUHhxaUc0OEk2ZExja2cwR2JvdE5ITW5kM0Vkbmp4dmk3bUdMMjNRODZiYVl4RG5RdjY5LUN3VTJIb3B2aDdXenZmMWtIc0tsQQ?oc=5",
+        "source": "뉴스1",
+        "date": "2026-08-23T21:00:00.000Z"
+      },
       {
         "title": "원달러 환율 3일째 1300원대",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBOU1N1eGJoVjYzZVlWendHNjZzRG9VOUNyRnJyaFNaODZ6U2FXNHd3aVhxOW5nSVhOUEVoaHo2UklpTkd3eUVUQmtFOVVSSDhPR0t3?oc=5",
@@ -187,18 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Ja0ZKakZxOXRla2ZhN3owNDZ0WUZUdFNZdmc2UGZwX05EaUZSWXZMREpmWm9LUUFHWi1xVzhqUDVOb1JnT2dpNjB5MlZxeDJkQUNCZ1NaZUZUcHNsWTBnS2thZmZrNTlTaVE?oc=5",
         "source": "서울파이낸스",
         "date": "2026-08-23T08:00:00.000Z"
-      },
-      {
-        "title": "환율 하락에 은행 자금 흐름도 변화…예금·달러·금 쌓는다",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1rUVhVSVZENGdpb256Z01fVGNaS2d0bHFNUkhaeXpQOGNqU0lVX3c1UXcyRTNaTWdycjI3eVBPelhXQXMzX21GbVNVc0FYaWEwR1E?oc=5",
-        "source": "노컷뉴스",
-        "date": "2026-08-23T04:38:00.000Z"
-      },
-      {
-        "title": "원/달러 환율 1,300원대 계속",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zNFo4bTFTUFZQbEVHWVJlRnFvS2JES2tOMW1ZMHJPODNWVzRKejM4aEg3WVhEUTk2ZFRxOExLNGtfTzRRTHZ1TGRJSXk2NVMxaFgyQ25VNmhBR0NhdGtMMNIBYEFVX3lxTE8zNFo4bTFTUFZQbEVHWVJlRnFvS2JES2tOMW1ZMHJPODNWVzRKejM4aEg3WVhEUTk2ZFRxOExLNGtfTzRRTHZ1TGRJSXk2NVMxaFgyQ25VNmhBR0NhdGtMMA?oc=5",
-        "source": "연합뉴스",
-        "date": "2026-08-23T04:06:51.000Z"
       }
     ],
     "metal": [
@@ -367,7 +367,7 @@
       {
         "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU1IwVEwtZ3dORVBEd3ZldGRsaW1NanlVOXUxdGU5NUZkNG9tNjdkSzk0UkZWNG9GLXdXWi1ORFo1VEx0anJqeWtObzM3VVdwdHo0MndEN1pRUUY2Q0lxTU1ncWhXRHFUNUZz0gFvQVVfeXFMTUZzcmRaM3RvWkkzX0xVeERtSWZrdkl1ejV2ZnhSOEpBZ0UwQ2Q5V1hocnVpLW00Y3V6UDc5NnhILTlKbi1FdGhyeWpGN2lfcVYxVDNBQ1FNalBnZ0s3d1F1OElGOHA5WHk4THR4bFBZ?oc=5",
-        "source": "msnews.co.kr",
+        "source": "서울시정일보",
         "date": "2026-08-17T22:30:00.000Z"
       },
       {
@@ -415,12 +415,6 @@
         "date": "2026-08-23T09:25:21.000Z"
       },
       {
-        "title": "서울 아파트값 5년 만에 최대폭 상승… ‘15억 이하’ 매수에 몰렸다",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1CWDZBODRCd1A2a3JzYTljZHExdWxyb2Z1LWlRLVlobm5DR1FTWlNoencwTjFTU09CVXRXdzNKVXdCRTNaazNxZGg2bk9kZGV3dWhvM2FOR2FSLUlIeWRKX3JXcEgxNzJ1U0tFb21XU2RqeTA?oc=5",
-        "source": "비즈한국",
-        "date": "2026-08-23T07:15:35.000Z"
-      },
-      {
         "title": "서울 아파트 실거래가, 6월 2.5% 상승… 5년 만에 최대 상승폭",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBMWndRVzl2SmRjWnZsVUxmSUNhcERZanFwbEVrWHZWcWlhUEUwWTJZYzA4ZXlfcGNqRGNGZHBvLXNiQWsxajVhTEdn?oc=5",
         "source": "뉴스N연합",
@@ -449,6 +443,12 @@
         "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5yTWt0WE1TTUlPMjIwUFRLMDlrSjE1WXhlZDk0NjZEaG5zMW1hWG5TZi00OEplSGx3WG1CUHJaVUF4dXNVYi1EaTdSazJTekcw?oc=5",
         "source": "문화일보",
         "date": "2026-08-22T09:28:15.000Z"
+      },
+      {
+        "title": "5년 만에 최대 폭등…서울 아파트값 한달새 2.5%↑",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5haXVBWEI0akhhTm1VeGZ1NWh0dlo4ZW1qRVZ5a2FjS1lib2tqVkliSkt2RFVCRVIxZk9IYm9neHRpLUtPUjg0WU53bjVWYXFTRUVCYzdVdGI?oc=5",
+        "source": "경제타임스",
+        "date": "2026-08-22T07:03:27.000Z"
       }
     ],
     "lotto": [
