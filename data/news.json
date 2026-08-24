@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-08-25T03:20:33+09:00",
+  "updatedAt": "2026-08-25T04:20:36+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "30억 달러 규모의 쇼트 스퀴즈 이후, 비트코인 78,000달러 부근에서 숨 고르기: 오늘의 암호화폐 시장",
+        "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQUmRrRHR3T3BpMnFtRFdHZnpXRm15TmFiQ0pYa3g5RXJrOTBtbzhjYWsteVB2UXNtYk13TU05aGFDRERrdHZkaUllM0pzdkt6VG5qLUtpMk5UQlRIYzZTd1h5Y3JvSk9BcVk5cm5vdENHak1sbUhCaUlLTWNEY3hweFBUZ0dIRUxmckY3amRkVkxOajFmTVEyU0NWUTVqU19tRTVURU80aWJ1TGc0ZGdfem42djZuVjJLcE81c2lOY0tqaUsxZ21wMFZ3X0xhVWZNZUR6ZHZKUnYxZw?oc=5",
+        "source": "CoinDesk",
+        "date": "2026-08-24T11:21:40.000Z"
+      },
       {
         "title": "시세 베팅 펀드 34% 추락...비트와이즈, 약세장 뚫고 18억 달러 유입",
         "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1tODI1d0tGWG5oY2RTVzNWMEQtOFQwempnbUVobnUzVnl1Y2dUMjhyU3Nnc0o2eVBObzBJNWxGYm9acmRILU40MVR3?oc=5",
@@ -43,12 +49,6 @@
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1KXzN5UlJqQU1qWU5QM2cwdVp6SUQ0ZXg0eU1GZEs1R1VHQTRpNzlFNGpkYWJzQVpoYl9aajlSeElNdExtcW9zLUR5TFZ4VENiekR0ZFZ3?oc=5",
         "source": "지디넷코리아",
         "date": "2026-08-22T01:55:23.000Z"
-      },
-      {
-        "title": "비트코인 가격이 단 이틀 만에 20% 이상 급등했습니다.",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9QLUY3N1NRMXNyN3pvUEdmcDFUTzhTc1A3S3YyVTBMaGlob0VhY2hlZTRsaUZ5UEtYRDhrWXQtdFV2eWlRdVl6QWdKYjR1cU1mb3hfVjFGRUFTMF9fOHpSU0xBVmJMUTdYaDU0UnFnbUJTSHAycTVj?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-08-21T15:48:34.000Z"
       }
     ],
     "stock": [
@@ -77,7 +77,7 @@
         "date": "2026-08-24T10:27:15.000Z"
       },
       {
-        "title": "삼전 역대급 주주환원에도 `실망 매물` 출회…`대형주 쏠림 심화에 한국 증시 변동성↑`",
+        "title": "[널뛰는 한국 증시] 3거래일에 한 번꼴 5% 이상 등락…코스피 변동성 4배↑",
         "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9oNlBsNHhfenI5NzZFMnlXblVjRkdGUTNMU1ZqUXRnTmNqUF96VDdIZVZyUnNJaUNPa2hfNTE5dWJMc0NycGlSVnctX3AyM0dyNzZKUHBXLWRjSDFHRkRXUU53?oc=5",
         "source": "매일신문",
         "date": "2026-08-24T09:04:56.000Z"
@@ -165,6 +165,12 @@
         "date": "2026-08-24T14:47:10.000Z"
       },
       {
+        "title": "원·달러 환율 1,382.4원…13개월 만에 최저",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55MW5RSHhaU2pRQ1h1RVItZU9xSU8yc2VqUnA0LU1fVmJqc0RhY0t1QVl3bnQ4ZGxQNjhJLXJBSHk5RE1BeE9XLXkzalJRWkFkT3JVNUEzTnExc2xicjFydWRxNmppOFk?oc=5",
+        "source": "연합뉴스TV",
+        "date": "2026-08-24T13:03:00.000Z"
+      },
+      {
         "title": "달러-원, 뉴욕장서 1,380원 중반대 거래",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE53TWJ0TlpxTjhzb0F3ZldOQlpfSVZ2N2Z4RGl0T0JXMFdiT1lkY3didWtJRzYwV0JWSjU2aTRJcHVTZl93Vnd1aVR5cmFCTXFWcFZ0WlE2UmN3OFFBMVl6U19rTVpjZndCckQ1bmZNTmJjUQ?oc=5",
         "source": "KB Think",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45SjR0b3lQUGNUZ3dMSWFuRU1obkI2MHZYV19kNW5Oc3N0UkhvSlpJYnFtalVVcUM3MUM3Y2tqV1hVZE1td3ZKdTBmUlhsenU2UUhWT2pydHF1Nk9SZTdsQmlnYjdqUEU?oc=5",
         "source": "강원도민일보",
         "date": "2026-08-24T08:26:07.000Z"
-      },
-      {
-        "title": "원·달러 환율 1382.4원 마감…13개월 만에 최저",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9VcXpheTd3NDl6dUdvUm5kb1RFd1NwZnhCbjZxWkZYYld0ZU5aSlhPOXVVLUcyQ25YZnhCWEVmcll1U1FfVGt3WWVnaGRuN2V0b1pFOHpyTzNUdw?oc=5",
-        "source": "브릿지경제",
-        "date": "2026-08-24T08:14:00.000Z"
       }
     ],
     "metal": [
@@ -433,12 +433,6 @@
         "date": "2026-08-24T01:17:17.000Z"
       },
       {
-        "title": "[AI 비즈부동산] 26년 8월 3주차 서울 부동산 실거래 동향",
-        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13Z0FhcGhQQmJyN2pzcUt6SkxBTC1uVm5mdUp6Y2Z5VGJMWEZoYnVab1NJclVqdHBfcG5QY1NKNzBELXVHVTNlQmxicmpIVFh3cHFvWXVMYWZ5dEMzT0E0RUJSdkdyUS1pTWZPelVoMDNsM2tCdGdF?oc=5",
-        "source": "비즈한국",
-        "date": "2026-08-24T01:15:07.000Z"
-      },
-      {
         "title": "[실거래가 월간보도] 서울 아파트 실거래가 6월 2.50% 급등 - 5년 만에 최대 상승폭",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNi1pWmNBWk0wQlhUN3dqM0J3N0xiUmViQ0lQVDZuSWRKQ29TTzVxTEFfTXBWc0ZMdE9nVTV2U2xiZVY5YWpMNVJkZTRaU3VFSGdrN2ZoU0U4NDNlNXQzVjJyejFfNjdUdGFwb3A3S0HSAXBBVV95cUxOTzYtaVpjQVpNMEJYVDd3ajNCdzdMYlJlYkNJUFQ2bklkSkNvU081cUxBX01wVnNGTHRPZ1U1dlNsYmVWOWFqTDVSZGU0WlN1RUhnazdmaFNFODQzZTV0M1YycnoxXzY3VHRhcG9wN0tB?oc=5",
         "source": "한국도시환경헤럴드",
@@ -449,9 +443,21 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HM2pKUVc2SFN4ZUl5Q0lSYXJGRnl4cGJyVi1FcUdadmVhclM2SGdoeE8yTTBIczF0NnkxSjBPTjJYOHNoeGs2OGVLM3BoaDVEMDlpVTRHMFpVU05Ic1FZRmRGOUQ4U0UyTzRGUUhEYXpYeWcyc1pfbVlPZWZvQjTSAXNBVV95cUxOWEFmbF9FVUlYdnBUckpqdUlZalU1V2dCd2NjajZPM2RMZ2ViTHgyNDNSemdwRGNxUFF2NzVLaGtOa3VrMFliRnpoMlpubmlvNm1LWDc0YmRWVGhSM2dTaGl1WFFLaGNTTGN1UkVYR09vYXpv?oc=5",
         "source": "땅집고",
         "date": "2026-08-24T00:11:27.000Z"
+      },
+      {
+        "title": "서울 빌라 거래량 28% 폭증… 아파트값·대출규제 콤보가 부른 ‘풍선효과’",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BR01xdDE1ZUVuS0xHeTlLWEhjeEZrS09iT0JqQUI3MTJ5LWR3b2VaeXlUd0hhMENDVEVnQWZRQ3NaSVBRa0hRa1lRUWJJendZdTFEM0FCZWdST3ZvRnNIY3NLWXlxckpYY1YzbUt0QVU?oc=5",
+        "source": "미디어써치",
+        "date": "2026-08-24T00:10:51.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "토요일 로또 판매마감시간 직접 정리한 정보 정리",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiUXFuYjFrUy1teFdISllBMEdSQjRRUEl4dlRGajRpVjFTa25tVk5pZTgwb1ZtMzhRYTJfYmtWZUZTV0tzTC1YdV9MMHQ5SGdCLWhxN2JIUG9qTGVBRGU4T3J3Y3RpZw?oc=5",
+        "source": "centrserdce.ru",
+        "date": "2026-08-24T14:07:39.000Z"
+      },
       {
         "title": "한곳서만 로또 1등 4장 나왔다…한사람이면 48억 ‘대박’",
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE04RHkxTjhiMXBWbXRvY1RWVUpTUFJBN09KYWhWSHJadkQ4RUgtbm5jS2tXX1MzeEFKQmF0aURhaWtHNG5fc2c?oc=5",
@@ -493,12 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9URFN3SE9qdlpOY0QzQkdIYXBhN2pZSHhpUlVXd25sTEZsYzNWYkpSUzNIQ2R6bHVlMnU5YS14cmw0OGdEUlp0YVpSMzhFVjN5VGttNUVoLVhoWnlLSDdiZXU5VG9QbjczYUlpdg?oc=5",
         "source": "ER 이코노믹리뷰",
         "date": "2026-08-22T15:17:00.000Z"
-      },
-      {
-        "title": "로또1등당첨지역 \"경기도 광주1곳→수동4장\" 1238회 로또당첨번호조회",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80VXpLRS14Ujc4cTNSdFI3OWtCZE9XYmoySndTOXB6all6S05oZklfT3JUZXI0djlZdEt3R20zRFFXVnVoNkIxSjZTRkl5NWY0VTRIRlM4SE5qVjJhQmx2cGRfenVwc1lqVTI1WWtR?oc=5",
-        "source": "gukjenews.com",
-        "date": "2026-08-22T15:12:00.000Z"
       }
     ]
   }
