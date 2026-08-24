@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-08-25T01:21:07+09:00",
+  "updatedAt": "2026-08-25T02:20:03+09:00",
   "deals": [
+    {
+      "title": "Dokimon Quest",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106617",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-24T17:00:53.000Z"
+    },
+    {
+      "title": "삼양 불닭볶음면 큰컵 16입 1박스",
+      "mall": "옥션",
+      "price": 15980,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729107",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T17:00:29.000Z"
+    },
+    {
+      "title": "LG전자 스마트모니터 스윙 U8s 4K 32U889SAW",
+      "mall": "네이버",
+      "price": 837310,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729106",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T17:00:26.000Z"
+    },
+    {
+      "title": "Dokimon Quest",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729105",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T17:00:09.000Z"
+    },
+    {
+      "title": "코카콜라 오리지날 350ml 24캔",
+      "mall": "11번가",
+      "price": 14900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729104",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T16:46:38.000Z"
+    },
     {
       "title": "블랙야크 공용 이지워크 워킹화",
       "mall": "더현대",
@@ -11,17 +66,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-24T16:17:57.000Z"
-    },
-    {
-      "title": "지금 전부다주는 3만원 다들 받으세요",
-      "mall": "coinone",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729101",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T16:15:42.000Z"
     },
     {
       "title": "홍로햇사과 가정용 2kg",
@@ -156,17 +200,6 @@
       "date": "2026-08-24T15:22:41.000Z"
     },
     {
-      "title": "보디가드 남여 쿨 언더웨어 드로즈/트렁크 외",
-      "mall": "11번가",
-      "price": 4000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729091",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T15:20:11.000Z"
-    },
-    {
       "title": "일일적립, 클릭 18원, 라이브예고 18원",
       "mall": "네이버페이",
       "price": 18,
@@ -176,28 +209,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-24T15:19:24.000Z"
-    },
-    {
-      "title": "(끌올)(네멤) 청정원 스파게티소스 4병+면 11,930원, 국산고추장1kg+쌈장 9,920원",
-      "mall": "네이버",
-      "price": 9920,
-      "cat": "식품",
-      "link": "https://naver.me/xG095H8n",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T15:19:20.000Z"
-    },
-    {
-      "title": "쟈니베어 일회용 수세미, 그레이, 80매, 2개",
-      "mall": "토스쇼핑",
-      "price": 4490,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729089",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T15:17:31.000Z"
     },
     {
       "title": "붉은사막 DL판 첫 할인 20%",
@@ -528,17 +539,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-24T00:45:11.000Z"
-    },
-    {
-      "title": "롯데 칠성 펩시 제로/제로카페인 355ml 48캔",
-      "mall": "카카오",
-      "price": 25800,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106588",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-24T00:27:25.000Z"
     },
     {
       "title": "통통 야채튀김1.5kg 분식집 튀김 에어프라이어가능 10,000원",
