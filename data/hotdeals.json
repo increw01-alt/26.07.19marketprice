@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-08-25T07:15:38+09:00",
+  "updatedAt": "2026-08-25T08:15:02+09:00",
   "deals": [
+    {
+      "title": "돼지 고기 포함 순대국밥 국밥 순대국 순댓국 캠핑음식 2,900원",
+      "mall": "네이버",
+      "price": 2900,
+      "cat": "식품",
+      "link": "https://naver.me/xfbGgYWh",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-24T23:05:17.000Z"
+    },
+    {
+      "title": "웅진식품 하늘보리 무라벨 에코, 1.5L, 12개",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729112",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T22:55:47.000Z"
+    },
+    {
+      "title": "삼양 사또밥 67g 20개",
+      "mall": "지마켓",
+      "price": 13970,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106619",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-24T22:34:44.000Z"
+    },
+    {
+      "title": "EZVIZ H7C Dual 4MP 듀얼렌즈 홈캠",
+      "mall": "컴퓨존",
+      "price": 2500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729111",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-24T22:19:51.000Z"
+    },
     {
       "title": "싱하 소다워터 325ml 24병",
       "mall": "오늘의집",
@@ -178,17 +222,6 @@
       "date": "2026-08-24T15:31:21.000Z"
     },
     {
-      "title": "도국 순대국밥 400g 3세트",
-      "mall": "네이버",
-      "price": 7890,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729094",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T15:31:10.000Z"
-    },
-    {
       "title": "8월 25일 네이버페이 67원 + 랜덤 포인트",
       "mall": null,
       "price": 67,
@@ -198,17 +231,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-24T15:30:13.000Z"
-    },
-    {
-      "title": "강화 순무김치 1kg",
-      "mall": "옥션",
-      "price": 9290,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729093",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-24T15:29:15.000Z"
     },
     {
       "title": "일일적립, 클릭 18원, 라이브예고 18원",
@@ -519,17 +541,6 @@
       "date": "2026-08-24T01:18:45.000Z"
     },
     {
-      "title": "맥심 모카골드 커피믹스 400T",
-      "mall": "네이버",
-      "price": 48600,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106590",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-24T01:13:17.000Z"
-    },
-    {
       "title": "짚불에 구운 불향 가득 국내산 직화닭발 무뼈 튤립 통뼈 국물 5,900원",
       "mall": "네이버",
       "price": 5900,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-21T02:19:10.000Z"
-    },
-    {
-      "title": "해남 고구마 꿀고구마 3kg 5kg 베니하루카 황금 호박고구마 9,800원",
-      "mall": "네이버",
-      "price": 9800,
-      "cat": "기타",
-      "link": "https://naver.me/5AgNNaOb",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-21T02:01:02.000Z"
     }
   ]
 }
