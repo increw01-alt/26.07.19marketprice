@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T04:20:36+09:00",
+  "updatedAt": "2026-08-25T05:15:25+09:00",
   "topics": {
     "coin": [
       {
@@ -53,12 +53,6 @@
     ],
     "stock": [
       {
-        "title": "[심층분석] 코스피 대형주 이탈 수급, 코스닥 2차전지·소부장으로 이동…순환매 장세 본격화",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB0LXhvaEZvM3pkZk9NeVd0Q2h6cUpwOC01TE1KMm5hczFTS3diOWg4Njk2ZmY3YjZiNXFjLUZDVjZQejZUWjdpQlpXNk1HaXRZZll4bXhTaUlQUy1QNG5aT2YyVEZCTERfMjVvOTE0T1LSAXRBVV95cUxPRnJMQjRNQW0tUXFtblY5cHBpejhNUVVrcEQyNGZCajZOemJ2NHE0Xy16X0FYYTFlcDNkTXZpM0xpOHpqUGUyeEZ6THBfcmVCeUNKT3Fudnp1WURTLXQxcFJrU0pzWUlPa2RVQW85X0ZtcTRSZA?oc=5",
-        "source": "thefairnews.co.kr",
-        "date": "2026-08-24T15:00:00.000Z"
-      },
-      {
         "title": "코스피 흔들 세 가지 변수…엔비디아·금통위·잭슨홀[투자360]",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBra3YzYXN6VFpPWEdVa2h5RkRNemZEc0YzX0ctc19TdERLZG9XOUNmTWlmMGtpd3ZtUExBTk9DVGUzbW04aHZnTlpkSVJ3QVJaWGZTUDB3?oc=5",
         "source": "헤럴드경제",
@@ -99,6 +93,12 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE15OHkyb2IwaHFnaHZldU9TN2tIRU1HWUNKajRfeGVmZ1BSQ0FudDhaeUpOVGJWLWRLdzVxOUlaQm5USjJ4U3FWSzZyYmRnandkQUpoaGJSdGRIMUxoakx6TTdLZ1RfV0lSbHc?oc=5",
         "source": "Queen 이코노미퀸",
         "date": "2026-08-24T08:08:30.000Z"
+      },
+      {
+        "title": "'주주환원 쇼크' 삼전 결국 8.7% 급락…코스피도 3%대 내려 6700선 붕괴",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE40ZjFuMHVCcDczUHh4a0R1TnA5N1J2cUlzNmVoNnJlSTN1RGFubzd0UzhnVDZjNVBMU2N0VmNtX1dLd0N3ckV1S3ozd1lJMjlUaTM2MnFvYzB5QV9jMUZ1Q3d0Y1owcVEwaFE?oc=5",
+        "source": "hidomin.com",
+        "date": "2026-08-24T08:05:44.000Z"
       }
     ],
     "kosdaq": [
@@ -153,6 +153,12 @@
     ],
     "fx": [
       {
+        "title": "환율 11개월만에 1300원대로…\"원화 약세 요인, 상당 부분 해소\"",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wOGJEUmsyWW1jQjYtbk5VQUVnWUdNSTFPbFZMWUlvdVQ2SmdJQXFVcWxDZGI3UzRmS0VDelFLeFNZR3R0Z1RTa0V5ZFNSSFFCUURz?oc=5",
+        "source": "네이트",
+        "date": "2026-08-24T20:02:00.000Z"
+      },
+      {
         "title": "“S&P 올랐는데 나는 왜”…서학개미, 이번엔 환율의 역습",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RS1ppWUpPOWI0b3JIdHVSQkxnRmNGUUVfR19EOFd3NlVqbXpydE90LU1TMWNxbmdibzkxTjFmZXBxMkFOZTFfQU5UN01DV0pMZ2V2ZkV3?oc=5",
         "source": "중앙일보",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaajZEM3ZRS1ZwOUVUMU94NU5BcFpmaEZ1d0ZETWpMQ3YzVXVVWEF1Rk1NRjhfdDEtQzFLc3VGYWpCb3FRSDBIZXBTTzhGbHRaNld5MW5HelNiX0FCX2tMZ0xyZE43UE0?oc=5",
         "source": "연합뉴스TV",
         "date": "2026-08-24T08:43:00.000Z"
-      },
-      {
-        "title": "원/달러 환율 장중 1376.50원…13개월 만에 최저",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE45SjR0b3lQUGNUZ3dMSWFuRU1obkI2MHZYV19kNW5Oc3N0UkhvSlpJYnFtalVVcUM3MUM3Y2tqV1hVZE1td3ZKdTBmUlhsenU2UUhWT2pydHF1Nk9SZTdsQmlnYjdqUEU?oc=5",
-        "source": "강원도민일보",
-        "date": "2026-08-24T08:26:07.000Z"
       }
     ],
     "metal": [
@@ -353,52 +353,52 @@
     ],
     "giftcard": [
       {
-        "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
-        "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9OMllFdDA1RWlzQmxnZ1lvX0VFYU9HOER6N09qbVNFZGx2a2k4VEQ3OUNqUWpIQV95VlJMZXF1ZkpFeWhu?oc=5",
-        "source": "newszoom.kr",
-        "date": "2026-08-17T23:36:00.000Z"
+        "title": "웨딩 특수에…상품권 '편법 거래' 활개",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ybVZKcEMtZG91WWQtQ1dHSTI2MlFkal9NY01lMnI4bnhXVXNuTjlFazNEVHdWNWVqS3dMX2I0cGNZcFdTbUFCdmx1LTJ2VHBxbWxEUTlGd3ppUQ?oc=5",
+        "source": "한국경제",
+        "date": "2026-07-12T07:00:00.000Z"
       },
       {
-        "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
-        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU1IwVEwtZ3dORVBEd3ZldGRsaW1NanlVOXUxdGU5NUZkNG9tNjdkSzk0UkZWNG9GLXdXWi1ORFo1VEx0anJqeWtObzM3VVdwdHo0MndEN1pRUUY2Q0lxTU1ncWhXRHFUNUZz0gFvQVVfeXFMTUZzcmRaM3RvWkkzX0xVeERtSWZrdkl1ejV2ZnhSOEpBZ0UwQ2Q5V1hocnVpLW00Y3V6UDc5NnhILTlKbi1FdGhyeWpGN2lfcVYxVDNBQ1FNalBnZ0s3d1F1OElGOHA5WHk4THR4bFBZ?oc=5",
-        "source": "서울시정일보",
-        "date": "2026-08-17T22:30:00.000Z"
-      },
-      {
-        "title": "송파구-롯데백화점 ‘서머마켓’ 발길 골목 상권 유도",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE80by1zZHVJdjlsRmZQQWFPNVRqdWtDaW9iM1FtSlU1dTRpbjAyWllyN3RSQ1NBRlJrUVNXcDdWVTdzRWdYbE15TEk5VHhRZ1JFbnBuRm1B?oc=5",
+        "title": "연1500% 금리 뜯어낸 불법사금융 조직 검거…경찰청 특별포상 [세상&]",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52eElXZnhOUnJscGltelBOQ0dyT0cwdFdTblp0eUp0ZlF4Q3ZEMGd0NGpFSWtmRXNlbGNFZHUtdkxFNjVxYUFwVEVpRE8xcjVhUE80VTJ3?oc=5",
         "source": "헤럴드경제",
-        "date": "2026-08-17T22:29:28.000Z"
+        "date": "2026-06-11T07:00:00.000Z"
       },
       {
-        "title": "번개장터, 매입 견적 비교 서비스 ‘번개견적’ 출시",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WNW5lTnRZdDFmajM0dTJCWmhRRGdDUjIzUmVSQUxCbW5ZSW5PellYZ2RneW9xZzJLMk5vVWxidFloekFQWXE4R1AxOTVKbkV5ejdvQ0YyamE2dG05SEx6MmtUNGs?oc=5",
-        "source": "서울경제TV",
-        "date": "2026-08-06T07:00:00.000Z"
+        "title": "석 달 만에 70만원대…갤럭시 S26 덮친 ‘체감가 전쟁’ [유통노믹스]",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE56SUk4cWhLQUhUT0R5ZTRDWmxxYUY0RlFhRmxrMkhPSFRiWWhiZFlmd2R4RjJ3akxfMjRCMUlPR2dUZXBUZDJYdTc4WE1ObkZETll1QW94N3FYdDNCUVBGTE14WQ?oc=5",
+        "source": "조세금융신문",
+        "date": "2026-06-09T07:00:00.000Z"
       },
       {
-        "title": "[비즈인사이트]“비단에서 거래하는 RWA는 실물과 현금 모두 교환 가능합니다”",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xS3Fpd1pXclFUTDUyT21zSUJHdGlLd0s1WUI0R0tZUmR2M1FJMWR2Ty1aUXFleUVRODZ3ck9TOHZqZnNoZzcxLXFITWRwMVdWMmFFbU11eU53aV9rR2R2RFdtNHdjdjZ6N1Y5bUxCc1lsaWdh?oc=5",
-        "source": "대한경제",
-        "date": "2026-08-06T07:00:00.000Z"
+        "title": "\"코인 보내면 상품권 결제\"…'불법 코인 대리 결제' 성행",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5tOUFoZGU5SzV2RHNOWDdKQ3ppVHNHM2ZwbS1scVVoQ3M0N29TRW8zRGVhb3pKTFgwWmtxRFBfRDJLNVFBVi1iRjFUR21KTGZRX2NnZlNIcmwxdw?oc=5",
+        "source": "한국경제",
+        "date": "2026-05-21T07:00:00.000Z"
       },
       {
-        "title": "요금은 그대로, 포인트로 ‘0원’… 통신 3사 자회사 알뜰폰 ‘도매대가 우회’ 논란 - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjJKeERfb2VtRWtEdWJsUDAweUIzZjdYRjZIQXozM0NuemVucTNNYXpiTW1zV2JXUGs2YlJMN3Jld0xZMW9lWjZnM0xyYVozU0JrYklhNmZhWkhkdUtVZk1DQ01FLU5FMkR1ZUtYN0tmamozcGl5N2NocVlQSVVVR01R0gGWAUFVX3lxTFBCYUppUVpsQTBObXJneTltaC0tM2xoWURfcWhvRk80Ui1iXzBjSU5IOF8tRXJqR25QemR2VjVVVk1sTTNEOFQxcnF4aXFhR3BKbkZZZFM0dnJ5dFIxcUVHa2dLWnlrY3FGNE9QN0QyeGVtbG1STGNNYWxveGk1bVl5ZlR4Y29nNW1reGZQNmVQTlFERHAzdw?oc=5",
+        "title": "'이렇게 팔아도 남아요' 상품권 판매업체의 수익구조",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBEQmNRd0EtQ0NOcnRLWHV4SVYwQ1dDa2gzUFNxN1hKN1B6Q1JVWk9kS0RmTVh4ODJldnlnTDBPWW5fU2w5UmNZOWxoZFJYU2x3?oc=5",
+        "source": "브런치",
+        "date": "2026-04-29T07:00:00.000Z"
+      },
+      {
+        "title": "“이거 때문이였어?”…온누리 상품권으로 '금테크' 2배",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBzRHNaTTNUWWszY0FUQTJ1WWNYeG9DdlpkUEMwTHRIYlRSblE2OGpmdDlOMV9fREVUcEFaQk15Tm9wdzdLak5hbk5sZlNORWNWZFk1SQ?oc=5",
+        "source": "브런치",
+        "date": "2026-01-02T08:00:00.000Z"
+      },
+      {
+        "title": "국내 금값 오른 게 상품권 때문?… ‘온누리 금테크’가 뭐길래 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY0Jpbl96RjZ6VHh2enJ4VFZ6bnItVHBzbS1IdF9UZUxjRVFzUXN4QzhWdWZtS2FlQ2tncEFrRHdaZ1g3ejJzTllCQ0JpeEcyeXZZSTZkamdlVmRqRDFCeC0zTW9MWXJzdTU1d2N2bkdOdTB6WWdOUXlVa0owbi1BamswQnkwQ0NW0gGcAUFVX3lxTE9RWjBQNXBRWjQ0c01RSmgySFpQYTdLbHlkQjB3ZzMyeFNfaXhaaW8zVERlN1FTb1o0eThSd0FReUJrUTVqVWhkeUpMcmhmSGVfRUV4OVN4a3RNUktubmY0cGpzNG4yc0h6N2V0clJCSnRRb0JUWWpucUc5OWJzcUhlWVpNWm9GRXVHWnhtc2JHVVBPT2ItRHJOS0JCQg?oc=5",
         "source": "Chosunbiz",
-        "date": "2026-07-13T07:00:00.000Z"
+        "date": "2025-12-25T08:00:00.000Z"
       },
       {
-        "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
-        "source": "이투데이",
-        "date": "2026-07-02T07:00:00.000Z"
-      },
-      {
-        "title": "갤럭시 S26 살까, S27 기다릴까…가격 인상 우려 속 셈법 복잡해진 소비자들",
-        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sQ21GTkZLZjZhYTMzSEpORjM3TzBCSjFWM19FRHF1V3owa2hINW52M1BEeUdyNk80SXpHSHF0N2F2ODFKSjNaRnJKTmIzZFNDd1J4WDNB?oc=5",
-        "source": "매일경제",
-        "date": "2026-06-22T07:00:00.000Z"
+        "title": "온누리상품권 ‘깡’, 이제는 형사처벌… 관건은 현장 단속",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBhMXAtaXkwSkExaWFxYjRqVVRKUzE2X01QLURMM05kNWtnZXpiQnpQSmdXOUZoNlJDVTVacUNzdFc0RUVfYTFxTVZRTDdCVW1ObzktNE1n?oc=5",
+        "source": "헤럴드경제",
+        "date": "2025-12-09T08:00:00.000Z"
       }
     ],
     "realestate": [
@@ -433,6 +433,12 @@
         "date": "2026-08-24T01:17:17.000Z"
       },
       {
+        "title": "[AI 비즈부동산] 26년 8월 3주차 서울 부동산 실거래 동향",
+        "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE13Z0FhcGhQQmJyN2pzcUt6SkxBTC1uVm5mdUp6Y2Z5VGJMWEZoYnVab1NJclVqdHBfcG5QY1NKNzBELXVHVTNlQmxicmpIVFh3cHFvWXVMYWZ5dEMzT0E0RUJSdkdyUS1pTWZPelVoMDNsM2tCdGdF?oc=5",
+        "source": "비즈한국",
+        "date": "2026-08-24T01:15:07.000Z"
+      },
+      {
         "title": "[실거래가 월간보도] 서울 아파트 실거래가 6월 2.50% 급등 - 5년 만에 최대 상승폭",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PNi1pWmNBWk0wQlhUN3dqM0J3N0xiUmViQ0lQVDZuSWRKQ29TTzVxTEFfTXBWc0ZMdE9nVTV2U2xiZVY5YWpMNVJkZTRaU3VFSGdrN2ZoU0U4NDNlNXQzVjJyejFfNjdUdGFwb3A3S0HSAXBBVV95cUxOTzYtaVpjQVpNMEJYVDd3ajNCdzdMYlJlYkNJUFQ2bklkSkNvU081cUxBX01wVnNGTHRPZ1U1dlNsYmVWOWFqTDVSZGU0WlN1RUhnazdmaFNFODQzZTV0M1YycnoxXzY3VHRhcG9wN0tB?oc=5",
         "source": "한국도시환경헤럴드",
@@ -443,21 +449,9 @@
         "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HM2pKUVc2SFN4ZUl5Q0lSYXJGRnl4cGJyVi1FcUdadmVhclM2SGdoeE8yTTBIczF0NnkxSjBPTjJYOHNoeGs2OGVLM3BoaDVEMDlpVTRHMFpVU05Ic1FZRmRGOUQ4U0UyTzRGUUhEYXpYeWcyc1pfbVlPZWZvQjTSAXNBVV95cUxOWEFmbF9FVUlYdnBUckpqdUlZalU1V2dCd2NjajZPM2RMZ2ViTHgyNDNSemdwRGNxUFF2NzVLaGtOa3VrMFliRnpoMlpubmlvNm1LWDc0YmRWVGhSM2dTaGl1WFFLaGNTTGN1UkVYR09vYXpv?oc=5",
         "source": "땅집고",
         "date": "2026-08-24T00:11:27.000Z"
-      },
-      {
-        "title": "서울 빌라 거래량 28% 폭증… 아파트값·대출규제 콤보가 부른 ‘풍선효과’",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BR01xdDE1ZUVuS0xHeTlLWEhjeEZrS09iT0JqQUI3MTJ5LWR3b2VaeXlUd0hhMENDVEVnQWZRQ3NaSVBRa0hRa1lRUWJJendZdTFEM0FCZWdST3ZvRnNIY3NLWXlxckpYY1YzbUt0QVU?oc=5",
-        "source": "미디어써치",
-        "date": "2026-08-24T00:10:51.000Z"
       }
     ],
     "lotto": [
-      {
-        "title": "토요일 로또 판매마감시간 직접 정리한 정보 정리",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiUXFuYjFrUy1teFdISllBMEdSQjRRUEl4dlRGajRpVjFTa25tVk5pZTgwb1ZtMzhRYTJfYmtWZUZTV0tzTC1YdV9MMHQ5SGdCLWhxN2JIUG9qTGVBRGU4T3J3Y3RpZw?oc=5",
-        "source": "centrserdce.ru",
-        "date": "2026-08-24T14:07:39.000Z"
-      },
       {
         "title": "한곳서만 로또 1등 4장 나왔다…한사람이면 48억 ‘대박’",
         "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE04RHkxTjhiMXBWbXRvY1RWVUpTUFJBN09KYWhWSHJadkQ4RUgtbm5jS2tXX1MzeEFKQmF0aURhaWtHNG5fc2c?oc=5",
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9URFN3SE9qdlpOY0QzQkdIYXBhN2pZSHhpUlVXd25sTEZsYzNWYkpSUzNIQ2R6bHVlMnU5YS14cmw0OGdEUlp0YVpSMzhFVjN5VGttNUVoLVhoWnlLSDdiZXU5VG9QbjczYUlpdg?oc=5",
         "source": "ER 이코노믹리뷰",
         "date": "2026-08-22T15:17:00.000Z"
+      },
+      {
+        "title": "로또1등당첨지역 \"경기도 광주1곳→수동4장\" 1238회 로또당첨번호조회",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80VXpLRS14Ujc4cTNSdFI3OWtCZE9XYmoySndTOXB6all6S05oZklfT3JUZXI0djlZdEt3R20zRFFXVnVoNkIxSjZTRkl5NWY0VTRIRlM4SE5qVjJhQmx2cGRfenVwc1lqVTI1WWtR?oc=5",
+        "source": "gukjenews.com",
+        "date": "2026-08-22T15:12:00.000Z"
       }
     ]
   }
