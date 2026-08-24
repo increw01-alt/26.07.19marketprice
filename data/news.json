@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-24T23:29:48+09:00",
+  "updatedAt": "2026-08-25T00:26:53+09:00",
   "topics": {
     "coin": [
       {
@@ -153,10 +153,16 @@
     ],
     "fx": [
       {
-        "title": "원·달러 환율 1,382.4원…13개월 만에 최저",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9JZ1dzbTNUVktUTGZfaWVVbDNoTThJdkpsNG9LVUFWRUFOVTVxdllsR2p0SURiVWNpOEt0Mi16WWcyTFlubFdfbFJ2RzlPV3k4S1hF?oc=5",
-        "source": "네이트",
-        "date": "2026-08-24T13:05:00.000Z"
+        "title": "“S&P 올랐는데 나는 왜”…서학개미, 이번엔 환율의 역습",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5RS1ppWUpPOWI0b3JIdHVSQkxnRmNGUUVfR19EOFd3NlVqbXpydE90LU1TMWNxbmdibzkxTjFmZXBxMkFOZTFfQU5UN01DV0pMZ2V2ZkV3?oc=5",
+        "source": "중앙일보",
+        "date": "2026-08-24T15:02:00.000Z"
+      },
+      {
+        "title": "원달러 환율 1370원대까지 하락… 11개월 만에 최저 수준",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04OFBaQ0dCeWMyRjR4VW41bG1wdTI2RXkwVm1PZEFhWkRRMFdodU1uOUN3OEVwZ3ozcUNkMDQxQWRVMTdieWMyZjQyUThhNE51VmJRaE80VE9nbFU4VGgwM0dmelFKdHBheGwxOUtKNDVKSEg0VW90YXJn?oc=5",
+        "source": "서울신문",
+        "date": "2026-08-24T14:47:10.000Z"
       },
       {
         "title": "달러-원, 뉴욕장서 1,380원 중반대 거래",
@@ -183,22 +189,16 @@
         "date": "2026-08-24T08:59:00.000Z"
       },
       {
-        "title": "원달러 환율 1370원대까지 하락… 11개월 만에 최저 수준",
-        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5mVU1XdmlrdWhnQkdVWGlPcGdhWmN0RjNxemlkTmdhWkIzbFNqSFVSVzFDc3hmdEloMGpRQXdNU3ZwNGkyYWRfV0JjeFlsd0ZoZG1faU1wRG5CZEJab0tXTTc5dUZKUS1CSF9QS3h0NHVBVHRHems5R2hn?oc=5",
-        "source": "서울신문",
-        "date": "2026-08-24T08:55:14.000Z"
-      },
-      {
         "title": "원·달러 환율, 장중 1370원대까지 하락...'수출 기업 달러 매도'에 13개월 만에 최저",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UTjB4TlJOLVNyQlBibl92Q0hUYTRyOExDWUVHU19FRTJXNjJDcDBfc3BMYU03VzQ1dmVSR0xpcXljUW1zR2VXUDlTVlRGZ0EtM1hzUzlxN2ZXMVNINl9MazlMNk8?oc=5",
         "source": "베타뉴스",
         "date": "2026-08-24T08:51:11.000Z"
       },
       {
-        "title": "원/달러 환율 장중 1376.50원…13개월 만에 최저",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9rZnNXMlVjSnlNQk1rekNTQ2ppdWZMWXdmS3hGUFpkSzRGMWMyajVvNlFzSUdERXRvQkozMzBONFlybmRsLW9ndWQwUHQwdUZjNEpEcUE3dmY4QXFieDBmdWs4ZFdya29E?oc=5",
-        "source": "강원도민일보",
-        "date": "2026-08-24T08:26:07.000Z"
+        "title": "원·달러 환율 13개월 만에 최저…장중 1,370원대 기록도",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaajZEM3ZRS1ZwOUVUMU94NU5BcFpmaEZ1d0ZETWpMQ3YzVXVVWEF1Rk1NRjhfdDEtQzFLc3VGYWpCb3FRSDBIZXBTTzhGbHRaNld5MW5HelNiX0FCX2tMZ0xyZE43UE0?oc=5",
+        "source": "연합뉴스TV",
+        "date": "2026-08-24T08:43:00.000Z"
       }
     ],
     "metal": [
@@ -303,16 +303,16 @@
     ],
     "macro": [
       {
+        "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
+        "source": "Naver Blog",
+        "date": "2026-08-24T05:28:52.000Z"
+      },
+      {
         "title": "[김이코의 시장분석]환율·금리 '복합 변수' 앞에 선 코스피…박스권 돌파 트리거는?",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XN1BEOFhBQ3FEUnpYNHQ3LW5IbzFsVmpDVTZWT1NIeTU0LTFKR2hRbW93X18wU0ZwMTFnSzY1enY4SVoyYTQtN2dmcVlMUEFlTmpPSdIBWEFVX3lxTE8ySnhscFh5WkhsNGdVQ0RhdW1uc21BY2NTUjFkbjZFX1Q5bzg5RjhKcldWN2lKM29NOXdoTzljSjd2bl80Rk9XanlhUDE4Wk0ySVgwRFF3a2Y?oc=5",
         "source": "미디어펜",
         "date": "2026-08-22T00:58:25.000Z"
-      },
-      {
-        "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
-        "source": "Naver Blog",
-        "date": "2026-08-21T09:25:15.000Z"
       },
       {
         "title": "(08/21) 초보 투자자를 위한 오늘의 경제 브리핑",
@@ -373,7 +373,7 @@
       {
         "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAzU1IwVEwtZ3dORVBEd3ZldGRsaW1NanlVOXUxdGU5NUZkNG9tNjdkSzk0UkZWNG9GLXdXWi1ORFo1VEx0anJqeWtObzM3VVdwdHo0MndEN1pRUUY2Q0lxTU1ncWhXRHFUNUZz0gFvQVVfeXFMTUZzcmRaM3RvWkkzX0xVeERtSWZrdkl1ejV2ZnhSOEpBZ0UwQ2Q5V1hocnVpLW00Y3V6UDc5NnhILTlKbi1FdGhyeWpGN2lfcVYxVDNBQ1FNalBnZ0s3d1F1OElGOHA5WHk4THR4bFBZ?oc=5",
-        "source": "서울시정일보",
+        "source": "msnews.co.kr",
         "date": "2026-08-17T22:30:00.000Z"
       },
       {
@@ -439,16 +439,16 @@
         "date": "2026-08-24T00:30:47.000Z"
       },
       {
+        "title": "'시세차익 6억' 로또 줍줍 구리에 뜬다…청약일은 언제?",
+        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HM2pKUVc2SFN4ZUl5Q0lSYXJGRnl4cGJyVi1FcUdadmVhclM2SGdoeE8yTTBIczF0NnkxSjBPTjJYOHNoeGs2OGVLM3BoaDVEMDlpVTRHMFpVU05Ic1FZRmRGOUQ4U0UyTzRGUUhEYXpYeWcyc1pfbVlPZWZvQjTSAXNBVV95cUxOWEFmbF9FVUlYdnBUckpqdUlZalU1V2dCd2NjajZPM2RMZ2ViTHgyNDNSemdwRGNxUFF2NzVLaGtOa3VrMFliRnpoMlpubmlvNm1LWDc0YmRWVGhSM2dTaGl1WFFLaGNTTGN1UkVYR09vYXpv?oc=5",
+        "source": "땅집고",
+        "date": "2026-08-24T00:11:27.000Z"
+      },
+      {
         "title": "서울 빌라 거래량 28% 폭증… 아파트값·대출규제 콤보가 부른 ‘풍선효과’",
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5BR01xdDE1ZUVuS0xHeTlLWEhjeEZrS09iT0JqQUI3MTJ5LWR3b2VaeXlUd0hhMENDVEVnQWZRQ3NaSVBRa0hRa1lRUWJJendZdTFEM0FCZWdST3ZvRnNIY3NLWXlxckpYY1YzbUt0QVU?oc=5",
         "source": "미디어써치",
         "date": "2026-08-24T00:10:51.000Z"
-      },
-      {
-        "title": "7월 아파트 매매 실거래가",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBPbXp1S1hHNi1QUFd1RkVvZi0yUHduUkYxTDZBMkdzWkJ0VVZsckFpcy13TWdMX21Pc042djNKaFVpb3pPelN4T2tNazNyOHVYZHZ2dHlnSThIMElvZG9WTzlMbVo3VFg0MmVnOXptRGk?oc=5",
-        "source": "원주투데이",
-        "date": "2026-08-23T23:41:36.000Z"
       }
     ],
     "lotto": [
