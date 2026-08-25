@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-08-25T22:38:51+09:00",
+  "updatedAt": "2026-08-25T23:32:29+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "비트코인 가격이 8만 달러를 돌파했습니다.",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBULUpvaVQ1UEpiMU9FQzJUMF96MlpwN1pyZkNHWE14Tld6TjJmcHQ3RkVvRXU0czBLR3FnZ3pUeHlCQ01VZy0yTk9CbTYweTJ4TkhtM0Nsd2E0dUluUUJBMkJhd3BNel9E?oc=5",
+        "source": "Vietnam.vn",
+        "date": "2026-08-25T12:46:53.000Z"
+      },
       {
         "title": "비트코인 가격이 5월 중순 이후 처음으로 8만 달러를 돌파했습니다.",
         "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQklCbVVEV2d2SDJvb1F4NUN4RzNHR0lrZ25tU05KaV9ESmZXc3czeXN2ZUlvclZFMU40OFlhNlkta2drd09WOXVZTWpNTC1ncV9qLUZHaEM1Z1U3bGxDZ2lmV0xOYks1bmotZUl2eDBaclVhcThoSld6VEFSY2h2VmpocExpQW9kY3ptUEkwT1ZPTm1G?oc=5",
@@ -43,12 +49,6 @@
         "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPWUktMFdUbE0tb0pkdVNhbTFKOHNBQ0I0YThoSEZQcG4zU3Bja2hIdHJsRk9wMFloeGJmc0J5V2JGYUUtNVRjUjRnMElhMTdEcjhaT2pQZllSMEpLSUc2SHBPZDdDMlhiVkZYazJMSUdLVGRFTkQxN0h6b25EWjJCenZIZDhlTWoyZG5GQ1pXQUVKUQ?oc=5",
         "source": "Vietnam.vn",
         "date": "2026-08-24T02:33:05.000Z"
-      },
-      {
-        "title": "비트코인 가격 전망: BTC 8만 달러 돌파, 어떤 의미인가?",
-        "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQck41dDNuYS1laGxfYUVqX1hDc05QRkVaLVdaVGZ3cXBpd1pLSWpacm5ic0RpNTVmME9LaTM5Q2RVVXppVkpxOF9FVTlmMUdaT0paMG5vczN6dWZkQkNxUEJ5YUV2bkZLOE1rSnI0VkZPdXdqdlRKaTdRaFcyaU1ycmx5cWZzU3ZCenB3a3pzc0JoNTk4SHlpUUYtYm1zSlNiWVhSWXo5c01HWnNRcUVPcklhdmMzVk1DTWlNVW1oVkxQSldKeGYyUGZSTQ?oc=5",
-        "source": "TradingKey",
-        "date": "2026-08-23T15:28:00.000Z"
       }
     ],
     "stock": [
@@ -103,6 +103,12 @@
     ],
     "kosdaq": [
       {
+        "title": "[ETF 매치업] 박스 등락장엔 코스닥 커버드콜…키움 11% vs KB 14% : 네이버 블로그",
+        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVkw5SzUwZUNOVngtR0ZoOC1hNDBsSGYyQXZXZ2FuX3dYR184eTdfeVE5ZmQtNXZER3J4bW9sYmxhUjJkRm9DYmlOMUpaS09PT3N2c3hwNmMxZE9IZGQ5WWxkb0QzdHVjTXVoQ3lTUmo3cEk5QU1kT0t0eHVydG9Kb1pfN1VEa3pzWjc5eWZHOA?oc=5",
+        "source": "Naver Blog",
+        "date": "2026-08-25T14:20:17.000Z"
+      },
+      {
         "title": "800선 공방 코스닥…이달 10개 중 7개 종목 상승",
         "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EQUVfRjVfMG5WUDBINTNIc0daTjZBQWtSXzFHN1ZRbTlROXhTc0RmSC1GNUhJblBXNGg4a2E4d3hGYjl2VnRZQ2hscWpvbUNkMFlOSA?oc=5",
         "source": "이투데이",
@@ -137,12 +143,6 @@
         "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zcHVFdXJsZGNrRGQxU0pXSnQzWXAzMEJMVWtjM04xSktURUhvcW9vcml4ZnlCTmg5a2c2OGlpUHh1V1ZDNG5qSEVOMUNZUXc?oc=5",
         "source": "v.daum.net",
         "date": "2026-08-25T08:32:13.000Z"
-      },
-      {
-        "title": "[ETF 매치업] 박스 등락장엔 코스닥 커버드콜…키움 11% vs KB 14%",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPVkw5SzUwZUNOVngtR0ZoOC1hNDBsSGYyQXZXZ2FuX3dYR184eTdfeVE5ZmQtNXZER3J4bW9sYmxhUjJkRm9DYmlOMUpaS09PT3N2c3hwNmMxZE9IZGQ5WWxkb0QzdHVjTXVoQ3lTUmo3cEk5QU1kT0t0eHVydG9Kb1pfN1VEa3pzWjc5eWZHOA?oc=5",
-        "source": "Naver Blog",
-        "date": "2026-08-25T08:20:17.000Z"
       },
       {
         "title": "'전약후강' 코스피, 상승전환해 0.68%↑…코스닥도 1%대 상승",
@@ -189,16 +189,16 @@
         "date": "2026-08-25T07:07:10.000Z"
       },
       {
-        "title": "[속보] 코스피 6742.74(▲45.78p, 0.68%) 마감, 원·달러 환율 1386.1원",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ta0RPMUxYcXk5RDliWERGYVZ3YXBQWnRadlNTci1MSV80ZWtvbHpTQWZ5QTd5dms3T3QyMGdpZ1NrOWUtVkpZOUlIZ3g0VlR6TEpR?oc=5",
-        "source": "네이트",
-        "date": "2026-08-25T06:43:00.000Z"
+        "title": "원·달러 환율, 상승 마감···1300원대는 5거래일째",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBrLUE2dkNzOE9oeGYxSHZzemNHVkRYOENNako0OXlZY2pJSVVrUDdyWTEzQTZjaVFBRWJCWDhGWWxwT2NOcTV1SlZfNmkwbFNaMFdaQ3ZHaGpvUQ?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-25T06:42:20.000Z"
       },
       {
-        "title": "원·달러 환율, 상승 마감···1300원대는 5거래일째",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BMndWc1VZaExlQ0s1U0xQRlFkSnVBbjZNcVVFcG1QamllMTIzUXBIWi0waHdCbkxUTllQY1paZVhrWWF3QU1Rc2t6R1JPc1puOGdj?oc=5",
-        "source": "네이트",
-        "date": "2026-08-25T06:43:00.000Z"
+        "title": "원·달러 환율, 3.7원 오른 1386.1원 마감",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB4TkxlZjdpQ203MHhhM2RBcDdnVV9KWkY1T2gzS2d0YWdQSVpQMDRaTmpMRkljdDBxb0ZfMk82Q3BIaHk1NUd2QmFDRWNDYldjdjJxNXBPZDJ6M3RMUlUyStIBeEFVX3lxTE1LUkx1d0ZLM0dzQlpRSWR6bmsxZUV2aUFBSnFCaWJjc1dDb1hKZ0NZR2hWOExRT29VeWVxZ21HRUdCTjdXQ1hRQlV0MGRIQTJlS1hpaHp4SXNkZ0JFWGo5TXhEdVh4S1NYSlJrbk52a2w3bEYweGpFdQ?oc=5",
+        "source": "뉴시스",
+        "date": "2026-08-25T06:38:10.000Z"
       }
     ],
     "metal": [
@@ -339,16 +339,16 @@
         "date": "2026-08-19T01:07:00.000Z"
       },
       {
-        "title": "환율, 1410원대 초반…美 금리 인상 우려 낮아지며 달러 약세",
-        "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NdzZFUG9HNzktNVBsVlFkS0FaME5tbkhOZFNDY0MtTXBKaTlyX1ZiT0hHRzNNTzY0dGJZcFFGeXI5dTEyanhST21SZ0NQTUtwcnZpOHFTN0Rhc3lDc1E?oc=5",
-        "source": "뉴스투데이",
-        "date": "2026-08-18T01:07:00.000Z"
-      },
-      {
         "title": "[숏폼뉴스] 2026년 8월 둘째 주, 주요 경제지표",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15VElsU2Y5LVpoVm5WUHAxbVE5Q3FxbHlCeXhTYXB0WFBvRWlPZlA4T2tEaFplTFRGakszdEJOb2JKN3I2ZERjbGlvUHJZV2FhdmxKZ25YcUNaSUo4TENQYjZ0MFZsalJzYnVPRUlLVQ?oc=5",
         "source": "기호일보",
         "date": "2026-08-15T01:07:37.000Z"
+      },
+      {
+        "title": "반도체 의존도 높은 韓…\"美국채 10년물 年5% 뚫리면 직격탄\"",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xSmtIdV9iY3hVZldicXdiQ3NnUHhlUGtWS0VzMEJCSG12ejRJQ1NyZEVsZVdOM2R2WFpyMDBIREhpcnptOHlsZUwtdS1rOHhvTWhMLXRZLVM2Zw?oc=5",
+        "source": "한국경제",
+        "date": "2026-08-12T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -453,18 +453,6 @@
     ],
     "lotto": [
       {
-        "title": "토요일 로또 판매마감시간 직접 정리한 정보 정리",
-        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiUXFuYjFrUy1teFdISllBMEdSQjRRUEl4dlRGajRpVjFTa25tVk5pZTgwb1ZtMzhRYTJfYmtWZUZTV0tzTC1YdV9MMHQ5SGdCLWhxN2JIUG9qTGVBRGU4T3J3Y3RpZw?oc=5",
-        "source": "centrserdce.ru",
-        "date": "2026-08-24T14:07:39.000Z"
-      },
-      {
-        "title": "한곳서만 로또 1등 4장 나왔다…한사람이면 48억 ‘대박’",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE04RHkxTjhiMXBWbXRvY1RWVUpTUFJBN09KYWhWSHJadkQ4RUgtbm5jS2tXX1MzeEFKQmF0aURhaWtHNG5fc2c?oc=5",
-        "source": "매일경제",
-        "date": "2026-08-24T09:55:22.000Z"
-      },
-      {
         "title": "한 판매점서 로또 1등 ‘수동 4장’ 나왔다…동일인이면 당첨금 ‘48억’ 대박",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0tRUdaM3NTZ2R6SllqNnBZQ2gzVDRCempmSFU1X2RLb2pxdVN4SFB0TnIyVVk5SkFyWWFxX1ZNcy1sZXBOZFRZRF96R3ZMcFR5YmNaSzRR?oc=5",
         "source": "헤럴드경제",
@@ -499,6 +487,18 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80VXpLRS14Ujc4cTNSdFI3OWtCZE9XYmoySndTOXB6all6S05oZklfT3JUZXI0djlZdEt3R20zRFFXVnVoNkIxSjZTRkl5NWY0VTRIRlM4SE5qVjJhQmx2cGRfenVwc1lqVTI1WWtR?oc=5",
         "source": "gukjenews.com",
         "date": "2026-08-22T15:12:00.000Z"
+      },
+      {
+        "title": "로또 당첨번호 조회 1238회",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QRTBrOU1pV3l1SzRTQnRsbDFEYWdxTmFVeUt6Wlh3WDgtUzZaVUZJQ01tVU93NmdIY2xaTldKMXVRV1RFengtUWUtdDQ2UG1CRnViSmdCTlpfWVNwQjJ1LWZKSDQ?oc=5",
+        "source": "bntnews.co.kr",
+        "date": "2026-08-22T15:00:02.000Z"
+      },
+      {
+        "title": "로또 1238회 1등당첨번호조회 공식발표",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wdlB6bnpJTjNNbW94cGdyMW5DV1J1RDdobUZEblo2cTlwYWJPOHdWc1dNWEVmUmk0TXd0YWhVemhYNGNyWEhQQU5XT0R5U2UxU2ZIajNYWmtWZHJPdlBXNWhPQlVDMVdBRU54YkdR?oc=5",
+        "source": "gukjenews.com",
+        "date": "2026-08-22T13:17:45.000Z"
       }
     ]
   }
