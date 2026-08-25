@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-25T12:37:14+09:00",
+  "updatedAt": "2026-08-25T13:26:06+09:00",
   "deals": [
+    {
+      "title": "락앤락 마일드 IH 28cm 후라이팬",
+      "mall": "지마켓",
+      "price": 17760,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729207",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T04:19:57.000Z"
+    },
+    {
+      "title": "대한농산 맞춤 혼합곡 21곡 2Kg X 2개",
+      "mall": "토스",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729206",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T04:08:56.000Z"
+    },
+    {
+      "title": "와이드핏 코튼 블레이저 그레이 79,000원 / 무료배송",
+      "mall": "무신사",
+      "price": 79000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729205",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T04:08:40.000Z"
+    },
+    {
+      "title": "하림 신제품 중화 닭요리 4종 2팩+용가리치킨 300g",
+      "mall": "네이버",
+      "price": 16900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729204",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T04:01:35.000Z"
+    },
+    {
+      "title": "산지직송 고당도 샤인머스켓 2kg 3~4수",
+      "mall": "G마켓",
+      "price": 12980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729202",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T03:58:57.000Z"
+    },
+    {
+      "title": "날씬이 탄수화물컷 가르시니아 60정 4박스",
+      "mall": "토스쇼핑",
+      "price": 17650,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729203",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T03:58:15.000Z"
+    },
+    {
+      "title": "ROKA 기능성 냉감 반팔티 3장 세트",
+      "mall": "g마켓",
+      "price": 13520,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729201",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T03:54:32.000Z"
+    },
+    {
+      "title": "비트 딥클린파워 액체세탁세제 일반/드럼 겸용 용기 4L 3개",
+      "mall": "G마켓",
+      "price": 22430,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729200",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T03:40:58.000Z"
+    },
     {
       "title": "목장이야기 Let&#039;s! ￦45,360/유료회원 무료플레이",
       "mall": "한국닌텐도",
@@ -90,28 +178,6 @@
       "date": "2026-08-25T03:01:26.000Z"
     },
     {
-      "title": "에투알 통 5중 스텐316 무연마 3t 프라이팬",
-      "mall": "오늘의집",
-      "price": 35910,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729192",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T03:00:36.000Z"
-    },
-    {
-      "title": "한국삼 프리미엄 데일리 흑염소진 50ml x 30포",
-      "mall": "롯데온",
-      "price": 9900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729191",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T03:00:10.000Z"
-    },
-    {
       "title": "PS5 스트레인저 댄 헤븐 컬렉터즈 에디션 예판 / 174,800원",
       "mall": "겜우리",
       "price": 174800,
@@ -123,74 +189,8 @@
       "date": "2026-08-25T03:00:00.000Z"
     },
     {
-      "title": "세척 해남 베니하루카 꿀고구마 3kg 한입 (카카페 5,900/무배)",
-      "mall": "11번가",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729190",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:59:53.000Z"
-    },
-    {
-      "title": "닭가슴살&튀김 올인원 선물세트",
-      "mall": "하림몰",
-      "price": 21080,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729189",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:56:28.000Z"
-    },
-    {
-      "title": "침대 모달패드",
+      "title": "닌텐도 스위치2 본체+피트니스 복싱3 실물 게임칩(712800/3000)",
       "mall": "네이버",
-      "price": 32900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729188",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:56:08.000Z"
-    },
-    {
-      "title": "삼립 잼쿠키 75g 20입 2종 1박스 택(사과맛/딸기맛)",
-      "mall": "ssg",
-      "price": 10429,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729187",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:54:52.000Z"
-    },
-    {
-      "title": "비세척 햇꿀고구마 특상 3kg",
-      "mall": "롯데온",
-      "price": 8500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729186",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:47:57.000Z"
-    },
-    {
-      "title": "닭터 닭가슴살 스테이크 4종 20봉",
-      "mall": "네이버",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729185",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T02:46:27.000Z"
-    },
-    {
-      "title": "닌텐도 스위치2 본체 + 피트니스 복싱3 실물 게임칩(712800/3000)",
-      "mall": null,
       "price": null,
       "cat": "디지털·가전",
       "link": "https://bbs.ruliweb.com/market/board/1020/read/106626",
