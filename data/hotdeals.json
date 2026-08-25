@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-08-25T14:21:38+09:00",
+  "updatedAt": "2026-08-25T15:21:53+09:00",
   "deals": [
+    {
+      "title": "삼계탕/두쫀쿠/선풍기/알부민/케이블 등",
+      "mall": "자사몰",
+      "price": 3500,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729234",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T06:19:22.000Z"
+    },
+    {
+      "title": "LG 트롬 오브제컬렉션 FX23GNR-ENE 1등급 23kg + 20kg 세탁기건조기 세트",
+      "mall": "네이버",
+      "price": 2269920,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729233",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T06:17:56.000Z"
+    },
+    {
+      "title": "에이투 본네온 골전도 블루투스 이어폰",
+      "mall": "토스",
+      "price": 49900,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729232",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T06:10:15.000Z"
+    },
+    {
+      "title": "제주 신엄 수박 4kg 내외",
+      "mall": "옥션",
+      "price": 11920,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729231",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T06:02:43.000Z"
+    },
+    {
+      "title": "SAMSUNG 갤럭시 A57 5G 글로벌판 듀얼심 관부가세포함 자급제 8+128GB",
+      "mall": "롯데홈쇼핑",
+      "price": 465900,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729230",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T06:01:15.000Z"
+    },
+    {
+      "title": "생생복숭아즙 110mlX30팩",
+      "mall": "톡딜",
+      "price": 23070,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729228",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T05:48:05.000Z"
+    },
+    {
+      "title": "종근당건강 알티지오메가3 비타민D 16박스 + 천관보정 2개월분",
+      "mall": "sk스토아",
+      "price": 135090,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729227",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T05:43:58.000Z"
+    },
+    {
+      "title": "구론산 오리지날액 150ml 30입+스파클링 150ml 30입",
+      "mall": "SSG",
+      "price": 27956,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729226",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T05:26:44.000Z"
+    },
+    {
+      "title": "QCY Heroad GT2 무선 게이밍 헤드셋 헤드폰",
+      "mall": "네이버",
+      "price": 33940,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729224",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T05:22:17.000Z"
+    },
     {
       "title": "당일조업 생물 활새우 1kg",
       "mall": "sk스토아",
@@ -35,7 +134,7 @@
       "date": "2026-08-25T05:11:30.000Z"
     },
     {
-      "title": "국내산 오리불고기(주물럭) 600g 2팩",
+      "title": "사조 국내산 오리불고기(주물럭) 600g 2팩",
       "mall": "지마켓",
       "price": 13750,
       "cat": "식품",
@@ -68,17 +167,6 @@
       "date": "2026-08-25T05:07:10.000Z"
     },
     {
-      "title": "하림 칼집닭가슴살 100g 6종 혼합 12팩",
-      "mall": "자사몰",
-      "price": 20128,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729216",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T05:06:51.000Z"
-    },
-    {
       "title": "삼성 125.7cm(50인치) UHD 4K 1등급 비즈니스TV LH50BEFHLGFXKR 스탠드형",
       "mall": "네이버",
       "price": 507770,
@@ -88,94 +176,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-25T05:06:47.000Z"
-    },
-    {
-      "title": "맥스봉 오리지널 455g x 3개",
-      "mall": "지마켓",
-      "price": 10900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729215",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T05:05:05.000Z"
-    },
-    {
-      "title": "변기세정제 클리너 300g 4개",
-      "mall": "토스",
-      "price": 5990,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729214",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:57:19.000Z"
-    },
-    {
-      "title": "닥스 라이트네이비 코튼 멀티스트라이프 긴팔셔츠",
-      "mall": "하프클럽",
-      "price": 59900,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729213",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:56:15.000Z"
-    },
-    {
-      "title": "삼성전자 갤럭시탭 S10 FE WIFI 128GB",
-      "mall": "네이버",
-      "price": 649000,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729212",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:40:11.000Z"
-    },
-    {
-      "title": "레노버 Thinkvision 24인치 IPS 모니터",
-      "mall": "G9인샵",
-      "price": 119900,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729211",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:39:37.000Z"
-    },
-    {
-      "title": "비타 토닝 캡슐 크림 55g+55g+비타 토너 2.4ml 증정",
-      "mall": "지마켓",
-      "price": 57900,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729210",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:35:08.000Z"
-    },
-    {
-      "title": "남가네 설악추어탕 얼큰이추어탕 450g 12팩",
-      "mall": "G마켓",
-      "price": 34070,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729209",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:31:43.000Z"
-    },
-    {
-      "title": "농협안심 한돈 국내산 돼지고기 돼지갈비 1kg 찜용",
-      "mall": "11번가",
-      "price": 18620,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729208",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T04:26:03.000Z"
     },
     {
       "title": "목장이야기 Let&#039;s! ￦45,360/유료회원 무료플레이",
