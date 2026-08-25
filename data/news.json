@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T18:23:00+09:00",
+  "updatedAt": "2026-08-25T19:18:46+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,24 @@
     ],
     "stock": [
       {
+        "title": "프로그램 순매도 16조… 코스피 낙폭 키웠다 [증시 덮친 프로그램 매물]",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJZzlrSVl2R0t1R0FfWm5WSk9pb2trQjV0cVM0MFIxdUpjNHhfOGNGZmV4c2RVWFRGeGVuVWxlODJoZFVxYTZzNVBxT3VyRURfc0lHUlpPcXRPUQ?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-25T09:36:42.000Z"
+      },
+      {
+        "title": "WSJ “코스피, 세계에서 가장 미친 주식시장…공포의 놀이기구”",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9jUHlfY0hxS3lpY3VJRWNBaDR1Y2lUOFVENXdRangwUGhYSkNtcjJ2ekZyM0lsN1FaTVB2d3E4VlNLdnFHT05lQnN1REFGdms?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-25T09:27:52.000Z"
+      },
+      {
+        "title": "코스피 장중 4% 하락 딛고 반등…“안심하긴 일러”",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBYU2ZpZHJnRzZvcUkzNVhwX3lnaGJvdzF0RWlCWUpqS2lwN0N0Z05sVVNSR2I3QVk5OFE3OFJ1d3hFVHRXbE9BNmhydVBjRWJTRGZuMkYyelVaMjA4Wk0xcnln?oc=5",
+        "source": "이코노미스트",
+        "date": "2026-08-25T09:02:00.000Z"
+      },
+      {
         "title": "WSJ “한국, 세계에서 가장 미친 주식시장”…공포의 놀이기구 '롤러코스피'",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB6YXdhNHRKcFdYT3pUa3REWWZLQ29CVi1ELXc3cmZPamxDb1BkQWJjU2lnMzRwWkdDbEVScTQzRm90cm5SRTJoQWV4eTlCaUxPaEp0azRnRHQtZ0RSX3pkZg?oc=5",
         "source": "경기신문",
@@ -81,38 +99,26 @@
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaVZBVDFpSDZmSGxwTmMwQWtOMUtjamQ3Njg2UDh0U3JkRmFxWTZlZnlBcjhXWTFLLUZZLXZHUFpjbFRGUVUxbkhVM2lKWTd0MUdKaGo2WUJpTXlqc3ZRQV9GblRrU0tFVndFaVk0VU9UeUJUWGN6dV9RY3AwYlpqcQ?oc=5",
         "source": "조선일보",
         "date": "2026-08-25T08:18:00.000Z"
-      },
-      {
-        "title": "[0825마감체크] 코스피, 장중 4%대 하락 딛고 상승 전환… 6700선 회복",
-        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zRXJBbjRKUHZ3SWRTTlphaVRVNDZCNzdGM1o3NjY1bWxpY3FYbkdpOHNTQnZEcUpqN0Fyd3hVS2xna1V4Y3RhbGxKWnpSRDI3MXpMY3Z5MmlFVjNBdTZjeUZzaWM4emZxMHRMUkpRR2VRSGExYnc?oc=5",
-        "source": "인포스탁데일리",
-        "date": "2026-08-25T08:14:59.000Z"
-      },
-      {
-        "title": "장기투자자 사라지자…'롤러코스피' 더 거칠어졌다",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByRFZnaGJQYjBaMHJNaW9fMWxxTVhJa1lUUzEtNVIzdEloMFI1cUNMcnkyODhEbFZlelBXTzNmMXVCb1M1Q1FRYWxBamNIZFRmZXQtRnBsN2R3Zw?oc=5",
-        "source": "한국경제",
-        "date": "2026-08-25T08:10:00.000Z"
-      },
-      {
-        "title": "“세계에서 가장 미친 주식시장” WSJ…한국 개미들 ‘롤러코스피’에 쓴맛",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9BNmpMT0djTFNUY2Z0T1I3NEU2Wk10TVphX2s5X3NIdFBXVmFTa2x1M3I2ZXZJdmExTmt3YnZsSkdsZFFBV3IxMVoxZGtTeWM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-25T07:49:50.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "800선 공방 코스닥…이달 10개 중 7개 종목 상승",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1EQUVfRjVfMG5WUDBINTNIc0daTjZBQWtSXzFHN1ZRbTlROXhTc0RmSC1GNUhJblBXNGg4a2E4d3hGYjl2VnRZQ2hscWpvbUNkMFlOSA?oc=5",
+        "source": "이투데이",
+        "date": "2026-08-25T09:30:00.000Z"
+      },
+      {
+        "title": "스팩합병 기업, 코스닥 안착 어렵네… 3곳중 1곳 상폐 위기",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE00YUpsRWgwYklldExKZzBnTE4ycU1JbFl3Si14b1NibmU5cTR4XzZGN3hvZFVXREtvcmVyeEctaWprYWhjQUE1eVlYa0I0NVZFbW5TZ2EwNTIyZw?oc=5",
+        "source": "파이낸셜뉴스",
+        "date": "2026-08-25T09:20:08.000Z"
+      },
       {
         "title": "래블업, 증권신고서 제출…코스닥 상장 본격화",
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1jdm5rRzJRX3ZINW9iYmZJZE04SEk4RFNvTnB4RVl0WHlYdkRxQ0FLMjU4dWZSaVB5bC0tQkd0VkVDMnlkX3hJRlU0dHkyc2s1TTg4bDU4MEpscmdkal9MYWoyOW5wOHlDYVVZcnBFVQ?oc=5",
         "source": "뉴스톱",
         "date": "2026-08-25T09:15:23.000Z"
-      },
-      {
-        "title": "코스피·코스닥, 하락 출발…방향 틀어 상승 마감",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1GV3JSMU5zeGVHTElZcGU4MkRFMF9WNkFpWU5JRzcwOUNrSEx4QXlmOF9LOVVxNnFsWGpTWEJzaVFGdDBpMm1PNjRoNGczbE1xaFBxUEFuQmFfM2R0RU1UNUhjVjR4UDA?oc=5",
-        "source": "연합뉴스TV",
-        "date": "2026-08-25T09:15:00.000Z"
       },
       {
         "title": "코스피·코스닥 동반 상승…LS에코에너지 4.31% 강세",
@@ -131,12 +137,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBxaUdPVjNwTDFZTExJQ0RMTUdpNEM0anNpT3JpOWhqQnE5c1hYUkIwNVhILU9HUHA4UWNyM3Ewb2pfeHhkdm9qd2Vvb0x4djhfdlkxOGVQd2dqcEFDZlNxUzloby0?oc=5",
         "source": "MTN 머니투데이방송",
         "date": "2026-08-25T08:35:50.000Z"
-      },
-      {
-        "title": "코스피 6,742.74 코스닥 827.15",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4zcHVFdXJsZGNrRGQxU0pXSnQzWXAzMEJMVWtjM04xSktURUhvcW9vcml4ZnlCTmg5a2c2OGlpUHh1V1ZDNG5qSEVOMUNZUXc?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-25T08:32:13.000Z"
       },
       {
         "title": "[ETF 매치업] 박스 등락장엔 코스닥 커버드콜…키움 11% vs KB 14%",
@@ -322,7 +322,7 @@
       },
       {
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝'",
-        "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9OVDdacmRfeW5mX3JfUVd3ZkJiY1VSZnhaQ3VGdmltRDA4OW1zblplZEg5akszbHY4aWNWYXVLRXZjZVhRbl9QandjNGZySGNnOTFKa3hxY2c4REFKNGt5cWpaekgtbFhvdlF3T3B4RDlVLTlCazJTRXl2dV90X1U?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9BbjdhaUhYdGo2QTRhdVVpM1ZrRDJtUWJRWFB2TmVNMUdyYXNOV3pZVmZ2U0xxOHhIVk91QS1VVFFvX1BHaFYzOE14NG1RQWprY0NCRE5xRko5UQ?oc=5",
         "source": "Naver Blog",
         "date": "2026-08-21T09:21:00.000Z"
       },
@@ -354,21 +354,9 @@
     "giftcard": [
       {
         "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQnh1c0dBcnEtbzVHeHlaeTlOUVBaV0RWaDJ3UDJDb1ZITU5idUVIM19NREg2OHpLUzJkUzczTkF6cUZ4cjhBVmdpa3M1cFVnN3FRVlRwQnVNUk5rMlBTcGtqeW9wOXVtU2JLYw?oc=5",
-        "source": "한국미디어뉴스통신",
-        "date": "2026-08-17T23:36:30.000Z"
-      },
-      {
-        "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
         "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE9OMllFdDA1RWlzQmxnZ1lvX0VFYU9HOER6N09qbVNFZGx2a2k4VEQ3OUNqUWpIQV95VlJMZXF1ZkpFeWhu?oc=5",
         "source": "newszoom.kr",
         "date": "2026-08-17T23:36:00.000Z"
-      },
-      {
-        "title": "송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사를",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lQVRLQUMyMFlBWDQ1WjcwRGJCZ0ZkQUlmVmRvYXlzYWZfUVpEN1hWRUcxcnNyMkYtczl4WTlhMV9idUlZWUhHRVVXQ1dVU1RnTmx2VGktS0syMk4ySmxReHFuR1RPRG1NYjl1eHc1RQ?oc=5",
-        "source": "서프라이즈뉴스",
-        "date": "2026-08-17T22:30:56.000Z"
       },
       {
         "title": "[구정포커스] 송파구가 롯데백화점과 함께 포켓몬 30주년 기념 이벤트와 연계한 행사",
@@ -399,6 +387,18 @@
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjJKeERfb2VtRWtEdWJsUDAweUIzZjdYRjZIQXozM0NuemVucTNNYXpiTW1zV2JXUGs2YlJMN3Jld0xZMW9lWjZnM0xyYVozU0JrYklhNmZhWkhkdUtVZk1DQ01FLU5FMkR1ZUtYN0tmamozcGl5N2NocVlQSVVVR01R0gGWAUFVX3lxTFBCYUppUVpsQTBObXJneTltaC0tM2xoWURfcWhvRk80Ui1iXzBjSU5IOF8tRXJqR25QemR2VjVVVk1sTTNEOFQxcnF4aXFhR3BKbkZZZFM0dnJ5dFIxcUVHa2dLWnlrY3FGNE9QN0QyeGVtbG1STGNNYWxveGk1bVl5ZlR4Y29nNW1reGZQNmVQTlFERHAzdw?oc=5",
         "source": "Chosunbiz",
         "date": "2026-07-13T07:00:00.000Z"
+      },
+      {
+        "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
+        "source": "이투데이",
+        "date": "2026-07-02T07:00:00.000Z"
+      },
+      {
+        "title": "갤럭시 S26 살까, S27 기다릴까…가격 인상 우려 속 셈법 복잡해진 소비자들",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sQ21GTkZLZjZhYTMzSEpORjM3TzBCSjFWM19FRHF1V3owa2hINW52M1BEeUdyNk80SXpHSHF0N2F2ODFKSjNaRnJKTmIzZFNDd1J4WDNB?oc=5",
+        "source": "매일경제",
+        "date": "2026-06-22T07:00:00.000Z"
       }
     ],
     "realestate": [
@@ -454,7 +454,7 @@
     "lotto": [
       {
         "title": "토요일 로또 판매마감시간 직접 정리한 정보 정리",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xS2xfQWY4RjhXSGVYdlhabGlicUtUNmlJNnJfbWJNVWx2TDBnNms5d2lkdFkwQlZUYTZkVWhQX0czTG9TX214b0lRZUJLWEY3d2FFTnd5OHhXMzBzcTc5SWdsTGk?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBiUXFuYjFrUy1teFdISllBMEdSQjRRUEl4dlRGajRpVjFTa25tVk5pZTgwb1ZtMzhRYTJfYmtWZUZTV0tzTC1YdV9MMHQ5SGdCLWhxN2JIUG9qTGVBRGU4T3J3Y3RpZw?oc=5",
         "source": "centrserdce.ru",
         "date": "2026-08-24T14:07:39.000Z"
       },
