@@ -1,8 +1,41 @@
 {
-  "updatedAt": "2026-08-26T01:21:56+09:00",
+  "updatedAt": "2026-08-26T02:20:44+09:00",
   "deals": [
     {
-      "title": "공식몰 단독 락토핏 코어 360일분 외 쇼핑지원금 적용시 역대가",
+      "title": "육개장12개 김치12개 1.75만",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106640",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-25T17:00:04.000Z"
+    },
+    {
+      "title": "(네멤) 풀무원 워터루틴 생수 2L 24개",
+      "mall": "네이버",
+      "price": 7930,
+      "cat": "식품",
+      "link": "https://naver.me/GdTx1z6V",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T16:37:08.000Z"
+    },
+    {
+      "title": "유플망 알뜰폰 9gb 통화 300분 + 네이버페이 24만",
+      "mall": "헬로모바일",
+      "price": 16900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729393",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-25T16:29:35.000Z"
+    },
+    {
+      "title": "공식몰 단독 역대가 락토핏 코어 360일분",
       "mall": "종근당건강몰",
       "price": 40816,
       "cat": "기타",
@@ -165,28 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-25T15:09:08.000Z"
-    },
-    {
-      "title": "비타도스C 1000 고용량 50정, 1개",
-      "mall": "네이버",
-      "price": 3000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729377",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T15:08:52.000Z"
-    },
-    {
-      "title": "호주산 못난이 오렌지 7kg",
-      "mall": "G마켓",
-      "price": 19720,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729378",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-25T15:08:11.000Z"
     },
     {
       "title": "PS5 메타포 리판타지오",
@@ -572,17 +583,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-08-24T12:52:46.000Z"
-    },
-    {
-      "title": "스위치 에이스컴뱃7 34800원",
-      "mall": "네이버",
-      "price": 34800,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106610",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-24T11:07:08.000Z"
     },
     {
       "title": "에디파이어 QR30 [89,000/무배]",
