@@ -1,7 +1,43 @@
 {
-  "updatedAt": "2026-08-26T06:15:08+09:00",
+  "updatedAt": "2026-08-26T07:12:50+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "주식 줄일 때 아니다…탄력 잃은 코스피 ‘매도’보다 ‘선별’",
+      "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQOVdIYmpVZkdUcXVSaG5TZ3pHSEVhNEpyTUNtRjYzYzNxNjVvM3NqdTRuMUE0Z2lNY2xpSmNzR1Y5MHdHSWlyRFk4VlRvUnQ5eHBZTEtvVUtVWVNpV29HamdJZ3RTSm4wZlI1VEVEbDNyaGhMT3dIUm5QUmtiSlFOc0xUeS16bGZCVGdYX252VllNak5QOHFfUGhHSVl2b3R6NlRuNV9tV05hbE53YlZMbzRNSTNyUDkwVFRDTGNpRlNhZHQ5a3Z6SmRrb1NuaG1FczFad2JFN2pKRzJNYkVWNk5Od1hlLUdUdU9pWVJvalUzUUdSejJzV19QaHlQMl9BLWZjRmxzQUpSeldxT1FkY0g3a0pnMHZR?oc=5",
+      "source": "데일리안",
+      "date": "2026-08-25T22:04:00.000Z"
+    },
+    {
+      "title": "'금'으로 피신하는 투자자들…코스피 회전율은 0.55%로 뚝",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAxdEEySElKQmstVnBsQ3ZjbDJiRVVjSUJFVTJuYlgtMUtDUGJfTGZpNFIxcF8xNHlQRjIzVU1kUnR3QWpzS1drWnNTUHNXeXFPd1doeVI3X1RDaU1p?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-08-25T22:00:00.000Z"
+    },
+    {
+      "title": "美 금리·유가 동반 진정…코스피, 7000선 다시 노린다",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE11MzNGeEpiRV9LRmlGbHhUQmlBMC1udmc4VGNheDZLMkRfZ1pKSTYyYkpHVDRYblQyX3l4aGFxZnJVQW5rQ1JEQVFBX0hHSUlBaGwwcUVtb1JsZEdsMmV6dnRoRU5sWUtPaHc?oc=5",
+      "source": "네이트",
+      "date": "2026-08-25T21:45:00.000Z"
+    },
+    {
+      "title": "[코스피 1만의 조건] 인위적 증시부양 아닌…AI 3강 투자로 李코노믹스 실현",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFAtallXWk5yUnNMcTd6MmpMU0JaVFFOVjVjMUUyV1pNVWtMSkRUWTdtVXVDS3Nhb3Jna09tekxKUGdrSC1uWk9DbkNnNmlnX0k?oc=5",
+      "source": "딜사이트",
+      "date": "2026-08-25T21:40:00.000Z"
+    },
+    {
+      "title": "\"아내가 알면 큰일\" 순식간에 1000만원 잃었다…개미들 '패닉'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBuUEoydWwzSlBPdF81cDE1cnBPM0dwSWxWNzBqeTdWWVJySUlsQjhjdkdtY1hKTDlRbjRGdHBWWVcyX3hucGFZdnVWVy1vejlWRzByT2JPZTJPdw?oc=5",
+      "source": "한국경제",
+      "date": "2026-08-25T21:30:02.000Z"
+    },
+    {
+      "title": "450조원 '몰빵' 후폭풍…'롤러코스피' 더 심해진 이유 있었다",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1jaUpOMjlxOHdYWE9ZZ05xSmpJMGhvRm9naXJobUZqN1RxVHZsWHA1VHhBZ00xeTZrdktMMElOZnZnd3BmcXo0cjNTMmFVMmw5QmQzcE9rSTQyQQ?oc=5",
+      "source": "한국경제",
+      "date": "2026-08-25T21:00:09.000Z"
+    },
     {
       "title": "ETF가 공모펀드 밀어내자…'롤러코스피' 더 거칠어졌다",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE42Z192YXNOU2xaUHdvT2lqMVRleTNNdEU0WUwzc2cxNmVtRENGaXg5blZxNFJWRnVfdzhJYlVuN2FfOUJwUUNLci04eUp0eTdpTW9CYlR3eWpxUQ?oc=5",
@@ -565,42 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1KLVUyNThBTGstRDdfWF93VUZ3Z3l2WnJsby1fcUgyckVWV3NEYmg5SFNBdXFQM3NfaU5TT3FsN2dxT0NOU0JjYkpfSWV2UkxpaHBSX2VTTFgycmJja0xTSHdzaV84cldacWtZU2t30gFyQVVfeXFMUHM0V3VTYW9ibFFzUmFEcmF3NXIxaXNfNkg4YUFYUVpUNkRPd2ttMGxqUk41WDBicDh2MWFEamY3T05UdFVJSnduRXVWcEFPOVBoYnRUQnl4dkxoUHFyNERVcHJLM3NqcnBRQmE2eDQwYzlR?oc=5",
       "source": "폴리뉴스 Polinews",
       "date": "2026-08-24T06:00:00.000Z"
-    },
-    {
-      "title": "코스피, 외국인·기관 동반 매도에 3%대 급락…6,690선 후퇴",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFX09VVU5aVEhudGpXcVI4YkZET3NicnFoUW9ndDV0a3ZPX0pBOExxSHR0ZXZ0VzZBaVNYTHl0OW1JaG9McEpBMXRpTkthWjlCSF85Z1pLdUg3dmlhZGpfRU5scHo0al9Sb25rbw?oc=5",
-      "source": "프리진경제",
-      "date": "2026-08-24T04:24:38.000Z"
-    },
-    {
-      "title": "코스피 장 초반 1.94% 급락…삼성전자 7% 가까이 하락",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pYlVXM2N2dUs3WkR1ankydmZVQ1BsTjVGSkgzT3ZzalAwWFpXWElGWHdJNDZDOENGeGp5c2RvOXAzOFlfWkFNV2VodXJGa3A3Q3dHdE1Ta2VkT0lrYVJYUjFOcUJ3d0E?oc=5",
-      "source": "강원도민일보",
-      "date": "2026-08-24T03:30:20.000Z"
-    },
-    {
-      "title": "[오늘증시] 삼성전자 7% 급락에 코스피 휘청…외인 1.6조 '매물 폭탄'",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SbFpfTmE5OWcyYkZrRGFfM1VRcVpvYUxnSkdjek15M1JWMEdYTE51TjRYUHhYemF3MUVDQ0trTUFrUnlSUHpNZnVzUldkMDZmT2M0Ulc0TnBIOWZrRWJXc05qWDdSdHhOYTZZdkp2cWdEZ0U?oc=5",
-      "source": "오늘경제",
-      "date": "2026-08-24T02:19:07.000Z"
-    },
-    {
-      "title": "삼성 약세에 코스피 하락… 장중 6775.23까지 내려",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1Hb1hEcGtjVExHODFRWnZ4aVF3bTlJQnlEWEpWMlNIQUh5OC00dVdIamxnVVVIUHI1ekVrTGtMdklvbFNjdEQ3YXdGYXlFVUJ5NW1UUUI5TmljSTZKY0xqcUhyQVBIRWFCWGc?oc=5",
-      "source": "천지일보",
-      "date": "2026-08-24T02:00:00.000Z"
-    },
-    {
-      "title": "\"삼전·닉스 환원, 코스피 하단 지지..상단은 美 금리\"",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBOXzJ5ckw1OWtTVDV1MTdENVRkQ19udzlkek9MNHFmNk90MUdQUzM5a2pybk1sQlBYc2RQejRVOHNBNkdBWU5TRG1QWFBYaC1fakpjQ29BWEdKMWhxa28zZ0RZakU?oc=5",
-      "source": "포쓰저널",
-      "date": "2026-08-24T01:56:11.000Z"
-    },
-    {
-      "title": "삼성전자 급락에 코스피 6800선 후퇴",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1NUdHU0o1dzVHY200blU2WWx3WEU4U0g2RkRiZ3pnN05RMlpibWVPY3Jzb0VUa1N6OVNjb1h6Sm9oOTV2eERCU04wZEk0MTFrbFYxQXlCYWgxdG0zVXg4UXRfOWtFX1UybjlDVA?oc=5",
-      "source": "mstoday.co.kr",
-      "date": "2026-08-24T01:37:19.000Z"
     }
   ]
 }
