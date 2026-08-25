@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T15:21:43+09:00",
+  "updatedAt": "2026-08-25T16:33:32+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -72,8 +72,8 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 96500,
-      "buyRate": 3.5,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96900,
       "sellRate": 3.1
     },
@@ -132,8 +132,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482350,
-      "buyRate": 3.53,
+      "buy": 482250,
+      "buyRate": 3.55,
       "sell": 483000,
       "sellRate": 3.4
     },
@@ -144,8 +144,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96470,
-      "buyRate": 3.53,
+      "buy": 96450,
+      "buyRate": 3.55,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -156,8 +156,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48235,
-      "buyRate": 3.53,
+      "buy": 48225,
+      "buyRate": 3.55,
       "sell": 48300,
       "sellRate": 3.4
     },
@@ -168,10 +168,10 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 483500,
-      "buyRate": 3.3,
-      "sell": 484500,
-      "sellRate": 3.1
+      "buy": 483250,
+      "buyRate": 3.35,
+      "sell": 484250,
+      "sellRate": 3.15
     },
     {
       "shopId": "choigo",
@@ -180,10 +180,10 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96700,
-      "buyRate": 3.3,
-      "sell": 96900,
-      "sellRate": 3.1
+      "buy": 96650,
+      "buyRate": 3.35,
+      "sell": 96850,
+      "sellRate": 3.15
     },
     {
       "shopId": "choigo",
@@ -192,10 +192,10 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48350,
-      "buyRate": 3.3,
-      "sell": 48450,
-      "sellRate": 3.1
+      "buy": 48325,
+      "buyRate": 3.35,
+      "sell": 48425,
+      "sellRate": 3.15
     },
     {
       "shopId": "choigo",
