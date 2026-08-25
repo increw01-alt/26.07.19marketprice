@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T21:20:25+09:00",
+  "updatedAt": "2026-08-25T22:38:51+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,24 @@
     ],
     "stock": [
       {
+        "title": "금융위, WSJ '韓, 세계에서 가장 미친 증시' 평가 반박…\"최근 안정화 추세\"",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA3QVdwYWxjN0VjYmVkWlphZlFFdDNRaU15eE5tUGZyazJiRFVvYUdncVBxMG1LdEdQVmppeXp2LUplRkFCWDFacXE5Q3g0cTFIQnlSTnJHYVd5RjBlVEUxVtIBeEFVX3lxTE5IV09pamhLeWpMcXFiU2NwOFFEbjJId3dSODhTQTVsc294RzVaWWF5aExIeFQxa2NDdXRHdmdZeFpUcHNiMk93bEViRTUwYmcwN1I0cVNxX3lhRjZDN0JLd2gwNjE0OTM1V3dTeVhnc2tJMHhHN3A1ZQ?oc=5",
+        "source": "뉴시스",
+        "date": "2026-08-25T13:25:40.000Z"
+      },
+      {
+        "title": "WSJ \"韓 코스피, 변동성 심한 '공포의 놀이기구'…손실은 개인 몫\"",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9yNC1VaE9KUDZfeWZWOUtmVGFoek1yNTd0czhkN0VYaEROWUxzY0JvT2FnXy1xLXYtOUlxQkFKZHJSYS11VDg2cm5LX0dRSFU?oc=5",
+        "source": "v.daum.net",
+        "date": "2026-08-25T12:33:28.000Z"
+      },
+      {
+        "title": "WSJ \"韓 코스피, 변동성 심한 '공포의 놀이기구'…손실은 개인 몫\"",
+        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1fSWE1djlfcjdCY3lUQ3lrM2JGT2Y2V19kOFVUTk0xdFhwN3kxREI5TEIyT3JybW1GQUl5amFOMkhwM1IwTnF1d0ZFS1k4a2FIcUFVUEdSWG1ncUlxTXNxUklmVW1Pdjh4ODJMSk9yREppVC02NHY5WQ?oc=5",
+        "source": "네이트",
+        "date": "2026-08-25T12:32:00.000Z"
+      },
+      {
         "title": "프로그램 순매도 16조… 코스피 낙폭 키웠다 [증시 덮친 프로그램 매물]",
         "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJZzlrSVl2R0t1R0FfWm5WSk9pb2trQjV0cVM0MFIxdUpjNHhfOGNGZmV4c2RVWFRGeGVuVWxlODJoZFVxYTZzNVBxT3VyRURfc0lHUlpPcXRPUQ?oc=5",
         "source": "파이낸셜뉴스",
@@ -81,24 +99,6 @@
         "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoZ1JVcjVFczR2elBzVktQVWZkbzdWaF9PbDN6Rm5WQU1uTU5NZTJHaTFZWlpMNEhfVGJKRUZwNlE0OC1EZk5vMXFpNjExM1NNRFYzU05BOTljdEF0OUFTeTlFV0lYSkk?oc=5",
         "source": "강원도민일보",
         "date": "2026-08-25T08:45:44.000Z"
-      },
-      {
-        "title": "\"3% 급락이 0.7% 상승으로\"···코스피, 외국인 3.8조 매도에도 6740선 회복",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBQcFdKNEhNNW1ldnJMRmRacFUyQTM0MnU3c3kwZ01UMEdFek9ROEdINHVvWF9UMzlORWlGUVBEYzdpMU9WZzBSQzJ5eXNxbzZISjVrTmM1b3hJR3MxZ0Nmd2txQ05EaXppVDA2Qg?oc=5",
-        "source": "스마트비즈",
-        "date": "2026-08-25T08:43:32.000Z"
-      },
-      {
-        "title": "4% 급락 딛고 상승 마감한 코스피…개인·기관 ‘쌍끌이’에 6740선 탈환",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBVSURhRFVySVRsVlNWS0ZNaHc3bDB1LUdGLXNQdlUzSmg1bHBUQUEwZjRhSER3RzdQUXJ1cjRwUVJyZVdVMkhKc3BYd0phcWJ5NDV5eUNzMVU1cGtKYWZ6RDRFaFIyTkRKbU9nWg?oc=5",
-        "source": "굿모닝경제",
-        "date": "2026-08-25T08:21:13.000Z"
-      },
-      {
-        "title": "코스피 6700선 회복... 개미가 이끈 반전",
-        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOaVZBVDFpSDZmSGxwTmMwQWtOMUtjamQ3Njg2UDh0U3JkRmFxWTZlZnlBcjhXWTFLLUZZLXZHUFpjbFRGUVUxbkhVM2lKWTd0MUdKaGo2WUJpTXlqc3ZRQV9GblRrU0tFVndFaVk0VU9UeUJUWGN6dV9RY3AwYlpqcQ?oc=5",
-        "source": "조선일보",
-        "date": "2026-08-25T08:18:00.000Z"
       }
     ],
     "kosdaq": [
@@ -183,20 +183,20 @@
         "date": "2026-08-25T07:10:01.000Z"
       },
       {
-        "title": "1년만에 마주한 1380원대 원/달러 환율…수혜주 기준도 바뀌었다",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBsdEswNHEtWUQ5VjNhTm9NendRWk9FNlBhcjN6ai11NEYxb0NvQm4tck5PVkY2YWtEWHpwWllSY19QUWdpTVFzMEhWNXJIRG1BSllr?oc=5",
-        "source": "네이트",
-        "date": "2026-08-25T07:08:00.000Z"
-      },
-      {
-        "title": "[환율마감] 원·달러 8거래일만 상승, 외인 코스피 대량매도+달러화 강세",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8wX243MDBtbnpXdWRSODlhVXVJTUp6aXhaN3ROamJqM1plSFJzOW91Q0NzRldnd1owT1lNVWNxVnRIZTFBTkVIckxYbXI4T0haek8w?oc=5",
-        "source": "네이트",
-        "date": "2026-08-25T07:04:00.000Z"
+        "title": "1년만에 마주한 1380원대 원/달러 환율…수혜주 기준도 바뀌었다 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5VEJkMXNtRnZ5NlpMbEE5MzMzamRvb0gtOG5UT1ZGenAwTHRXR0oxYWxXZjlzZWlya2plaFNvcGhTZ0hMaC1lVzZ1eW9RWjlDRFhvMHZLeFBpMFNCcGk5UFBIMENDLUM50gFuQVVfeXFMTjU5bm81QkxIVUlyTV9ZWUFwUXlwODQtRHUxVzVJbVlGLTJjTnlpNllucWRvT3k2TUFKNlhFUEc4TjZXUkdBOGMwQkV6QXhMR3VJUHlRZHVjQlhCQkJnMzk5R1VWOEc4c3pBc2J0a2c?oc=5",
+        "source": "머니투데이",
+        "date": "2026-08-25T07:07:10.000Z"
       },
       {
         "title": "[속보] 코스피 6742.74(▲45.78p, 0.68%) 마감, 원·달러 환율 1386.1원",
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1ta0RPMUxYcXk5RDliWERGYVZ3YXBQWnRadlNTci1MSV80ZWtvbHpTQWZ5QTd5dms3T3QyMGdpZ1NrOWUtVkpZOUlIZ3g0VlR6TEpR?oc=5",
+        "source": "네이트",
+        "date": "2026-08-25T06:43:00.000Z"
+      },
+      {
+        "title": "원·달러 환율, 상승 마감···1300원대는 5거래일째",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BMndWc1VZaExlQ0s1U0xQRlFkSnVBbjZNcVVFcG1QamllMTIzUXBIWi0waHdCbkxUTllQY1paZVhrWWF3QU1Rc2t6R1JPc1puOGdj?oc=5",
         "source": "네이트",
         "date": "2026-08-25T06:43:00.000Z"
       }
@@ -439,16 +439,16 @@
         "date": "2026-08-25T00:09:58.000Z"
       },
       {
-        "title": "아파트 규제 속 도심 인프라 누리는 주거형 오피스텔 관심…마곡 '롯데캐슬 르웨스트' 준공 후 분양",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE42akZxVjdKUEVWYW84ZUhCVjBMQ0dpb2VQVUhqUEJnQ2JoaW1hdVdrWUlRSUtCTTl5NHNpRlRpTlgwQ0RSNE9tUDMtQ1I4bTBCbjRF?oc=5",
-        "source": "네이트",
-        "date": "2026-08-25T00:00:00.000Z"
-      },
-      {
         "title": "인천시 7월 주택 매매·전세는 하락…월세는 상승폭 확대",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAwNVFSdW00bENXR29wczlWVk1NUjB0TVFYQVV5Mm45LVRzVGl4UlIwS2RSZmZmRXdKaHotUVhZc3dDNDBFZDJGYTg0THZBeEt6cWpCYWtZN041UTJSUDZXWdIBeEFVX3lxTE5MTWVtaWtIZUFOci1tN0FaeDNFd3ZYRXNka3ZzSUZnRGUwZmNuTjZPR19VZ1J2bk1PMG9JSHFaMlNHY3RnY0NPXzg5QW5hMGtQYmRlWDA5djBXOElza3l4X1dsbzlvckZUOGlwa1E3VHdQRlY3WW9Rbg?oc=5",
         "source": "뉴시스",
         "date": "2026-08-24T23:41:24.000Z"
+      },
+      {
+        "title": "[아파트값 상승 톱10] 서울 서초구 ‘힐스테이트서초젠트리스’ 등",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBwUFNveENqWmJiZmI2NXV6dGhWSExZakRpY1E0UzdwN2N6S3NuczYzUGR0VmF0U3Mzb2lZZndOYU5RVGl2dHo3SkxMcGRVb2NHa21EVw?oc=5",
+        "source": "이투데이",
+        "date": "2026-08-24T23:30:00.000Z"
       }
     ],
     "lotto": [
