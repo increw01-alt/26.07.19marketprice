@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-25T13:26:15+09:00",
+  "updatedAt": "2026-08-25T14:21:47+09:00",
   "topics": {
     "coin": [
       {
@@ -53,6 +53,24 @@
     ],
     "stock": [
       {
+        "title": "WSJ \"韓 '롤러코스피'에 투자자들 막대한 손실\"",
+        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkTUJvcmloMnJkOFp4ZW9YWmVnNDVLZGRMMElSUG12TmZYTE51LTFReUN4aldZTmpfNFVtc2pwY3lMeER0N2hnZUxhSGFGa1RTcy1r?oc=5",
+        "source": "네이트",
+        "date": "2026-08-25T05:12:00.000Z"
+      },
+      {
+        "title": "WSJ \"韓 '롤러코스피'에 투자자들 막대한 손실\"",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOR1pMYTloVGFtRjA1YXFXUkZhX19DUUM1RldpbVVNNEtNRVlzUEppTHNidnFoZktlZ1cyWHFwdGlwcXNIYWZQdzdVemYyZ1Zhb0MxVVFYRHRPa2hBczFyNzBtRjI2NjFpdWlMRU1Qa1JkYll0M1M3MzZyVnV2SG5YdA?oc=5",
+        "source": "edaily.co.kr",
+        "date": "2026-08-25T05:10:45.000Z"
+      },
+      {
+        "title": "코스피, 외국인 매도에 6,670선 약보합…코스닥은 810선 회복",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYdDYtMVgyWW5pYXNBeEpjbVItU3owc3ZGZzZiTElwQTRwZmpERFZxZFR0emZmOXQ4UmUwYndfM1FZeVJ4SWdreFZxZXhJNFdETDZhNEE1dTllY014dW9pNkY0TV9CQXhWT1VYa0haYw?oc=5",
+        "source": "프리진뉴스",
+        "date": "2026-08-25T04:42:00.000Z"
+      },
+      {
         "title": "코스피, 반도체주 급락에 장 초반 4%대 급락…6,400선 위협",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBfOFhRWlU0ZFl2d0duOUVtR3hROWVxQzh3NnBBQ29la3gtWlpjZWVKVExLeF9FclQzSkV1bDJSazZJLUdWcWFvTXk3TVc2bTE2c21kQ3N5ZUR5UjZib25aNlhtemQ?oc=5",
         "source": "ppss.kr",
@@ -81,27 +99,33 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBEeUFOdUEyOTVDUGRQU0tpM29mOWlMWDBQRHVFQlhiR1RnQ1kyaFNybVdiWl9PMUFaWlFac3NsMF9fWmhuYUZXdkEtZ3dTdnNCVzRMdERTZ3dGZ0lOTTJxa1ozenlxZ3Fw0gFuQVVfeXFMTUJSb1hTZmpBbzNuYVlSVlJjUEpTclJQZUNSOHM0VXdkSVpXRzFINE5id2RERFlLMU1aWEp3TG5uQ19tWlhka25xQkc2LThKWDhPMWVTYnBrRUxLT1hiRU9Fdkg5eHZqSlNRbTN4MUE?oc=5",
         "source": "머니투데이",
         "date": "2026-08-25T02:34:31.000Z"
-      },
-      {
-        "title": "코스피, 1∼2%대 하락세…장중 낙폭은 다소 줄여",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ES1NGVHFnTG9mbmo3c0sxc2k2OHhlenZuQkQtbS1zZU54QmhUN21Pc3Y5TS1mSmNsMlhaLUJyN0tOaUxCVENweTdOWHA5RVZsdWtiYzNzRGw5NDTSAWBBVV95cUxQbUZLeE85dlNDa3lULU9LOWc2VG51WDZQWDh2NmNYZlI5QkpTRFdDZzlHdG5WWU9oRVh3b1VpTFJDWU5NRDBHWTdGUnloTVhlcmYzU09sbXRRSXNCZ3B1S1k?oc=5",
-        "source": "연합뉴스",
-        "date": "2026-08-25T02:09:56.000Z"
-      },
-      {
-        "title": "금리 내려도 반도체 급락…코스피 6500선",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1neEpaaFZvTF83STVJSFhIZk9LWVZqWGVqLTgxS1VNTXd4M3QtRlhtd1pyUGZISkMtLTJKM3ZxR2ZrcUViLUVhSG14S01vX3FSVXRkRTBaWG1fUV9uQUNvc1NsbzdIQks0M1hrTw?oc=5",
-        "source": "mstoday.co.kr",
-        "date": "2026-08-25T02:06:33.000Z"
-      },
-      {
-        "title": "[오늘증시] 엔비디아 실적 앞 '살얼음판'…코스피 6500선·코스닥 800선↓",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE13c1BJY2QwczJ1bm9tS2FxUTYyOGEyRms2YXB3eGNlS1R2ZXBrQVZQcktZVGdpYUpyeks1STN6RGp3bDF6OGJrcENiU0ZYOHJWOC1taHpuaXk4YVplRHYxbjgwdkVYMC1kM29tb3dMQmpZVnM?oc=5",
-        "source": "오늘경제",
-        "date": "2026-08-25T01:43:36.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "코스피, 개인·기관 매수세에 낙폭 축소...코스닥은 상승 전환 - 조선비즈",
+        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHUzbjQ2bFY2ZG85aHV5b0hNQS1IR0ZWdFNtSC1tRWlCVU9aX1hlRGQtbG02VWZOUEJ2ZTlPZFBEdV8tUEtVUHczemFHTGtBOWxBWTBRUWY3NGE1bjl5VW9fUGxRb2tfLU1ORzA0bE81Zlp3TUFobGZVQW55X0Z0bV9EZGJRVXRM0gGcAUFVX3lxTE4zaHRnOUR2N1FVaVAyVmRDSzhiNXg1MTNMTmVHNmRNTlMyMmR2NjJySzhDZlk5a280SFdhTFJ0RG1kYlRWVk9yZ1llZ1hUOGVaWHZqT00zeUpJbjU4dW82Nk1jb2NSNEgwVGxGZnJYT3VSdWZrRU8yWWxrTWVBN0NjYUtjaEU1Mmx0bFBEd1dTY1NZNjgxUGRZUE5GUQ?oc=5",
+        "source": "Chosunbiz",
+        "date": "2026-08-25T05:15:00.000Z"
+      },
+      {
+        "title": "코스피 낙폭 줄이며 6600선 회복…코스닥 상승 전환",
+        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpVDFNODUzLU9Cc0tLYTlhQVRsV1BILTVxSi1ETnhMT1NsaFk5R1VfZFI1N3ZTZmVmVHM5Q1UwbUZqTFNTNmtSRjRhaHBVZU95Z2JZUHJYMzA3UTVJ?oc=5",
+        "source": "뉴스핌",
+        "date": "2026-08-25T04:58:00.000Z"
+      },
+      {
+        "title": "[食전食후] 코스피, 낙폭 축소에 6600선 회복…코스닥 상승 전환",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1Rkx3YTQtU0IxX1ZES0NwS0VCYjlmMFFCRHBzSHFSVjZ6czdza1drcG1MWEJGVUE5blIxUDJVOGc5dmtSTzRua3daMkg0ajJzaGs2VHJOTDNod9IBWEFVX3lxTFBsSXozaFJjeTlucS1sMUliQTBMRUo3Ml9UZkZnUEhJSlFBTzJqbF95MWwwOFVKSThiYkJyVDFWUjcteWNvVFk0Q3I3bDY5ckFROEJLa2Z0MHg?oc=5",
+        "source": "아주경제",
+        "date": "2026-08-25T04:45:48.000Z"
+      },
+      {
+        "title": "코스피, 외국인 매도에 6,670선 약보합…코스닥은 810선 회복",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYdDYtMVgyWW5pYXNBeEpjbVItU3owc3ZGZzZiTElwQTRwZmpERFZxZFR0emZmOXQ4UmUwYndfM1FZeVJ4SWdreFZxZXhJNFdETDZhNEE1dTllY014dW9pNkY0TV9CQXhWT1VYa0haYw?oc=5",
+        "source": "프리진뉴스",
+        "date": "2026-08-25T04:42:00.000Z"
+      },
       {
         "title": "반도체 센서 IC기업 해치텍 코스닥 상장 첫날 장중 주가 공모가보다 23%대 하락",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1sc2FwOVUzc05LZlJEUnRwSDZkVV9iaVhYVVZacHQzTmVnWGN3T2VtWUd5aGp2cHUyTXM2OXlxSHJxSnVhWEEwSENjOUVvNlRzNEx5RjQ1Y0ZPbEhGVTRTTE4ta0xOQjdacVJkMmVuclgwYkE?oc=5",
@@ -125,33 +149,21 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE41ZUg2MGVJZms5OFdtc0k4eFoxMWFxZmxBeHk0OW8zLVRreWJMaXlXRGJuNUN2eXVlNzJ2ZTJWajNZclpkR0NKekZpNHhlNWJxQ01fbnBrRkdjelhwaHYxZg?oc=5",
         "source": "메트로신문",
         "date": "2026-08-25T01:35:27.000Z"
-      },
-      {
-        "title": "코스피 '미국 반도체주 약세'에 장중 2%대 내린 6540선, 코스닥도 1%대 하락",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwLVZpUEFmTk5IMHp2Mng5QWx3dm1LWGs5NTNyWXB5WnktYzU0eE9HT3VQdU85NEtNaDgxU0IwQUJ5TE1yeWNCZ3dySFpmZnp4M0wwV2NiMVZCelJIU1FHckZDOHViU3d6dG5LTnNhd3dxM0U?oc=5",
-        "source": "비즈니스포스트",
-        "date": "2026-08-25T01:27:49.000Z"
-      },
-      {
-        "title": "해치텍, 코스닥 상장 첫날 21% 급락…공모가 하회[핫종목]",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBacFJ6X1hKNExEd19EdEMzOUhCVXJWOFc5QkJmTWMwSS11N1B0M1pEU1BIX2ZZZFU3YWlSbjlPa3NPZXd2QWdMUEYzLVJSd0g1NzR1NVJyVEN1RVpYZ2RR0gFkQVVfeXFMUG0tdWVBMlFBZ0dLMnlVaWQ5MHBMLXNqRHZBMmppUG1wQ2FnbXp0OXVFeEhwTlktODFsbzhIU2FDdmJLb19qVzJ6a2hNVXJUVHIxOWozV1FkanVXWUpRalU0b3NxUQ?oc=5",
-        "source": "뉴스1",
-        "date": "2026-08-25T01:26:22.000Z"
-      },
-      {
-        "title": "[특징주] 해치텍, 코스닥 상장 첫날 -22% 급락",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9CeE9BaU1jYXhvSFpmU3Q5R0h6a00tOHhheEliUHd1SkR1U1hvcTF1QWNxZndGczRsLTd4c2pGVkxGdFdRcDBDTDlNZFVkTnprVG44cmZSTGMzQkpSZHdYbk9WcTJsS1lyc0RPMUFn?oc=5",
-        "source": "전국매일신문",
-        "date": "2026-08-25T01:18:31.000Z"
-      },
-      {
-        "title": "[특징주] 해치텍, 코스닥 상장 첫날 공모가 대비 20%대 하락",
-        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBfNzFuRWxBcFozcWJrSTg1X09RN2E2VEJJNlptcUxva05XTmswbk13dmc2dm9nb2wtMFdRUm1BUjY0blJQZTdEVzZmZnZoeTU1MFBlbjRYbWp1UdIBWEFVX3lxTFBnS2NteDdXN0tUUUNCVG5xM0hxcUFIMWY4eWtkRS1SODc3U0VwNmdOcGhBanhFZ0hVRTR1SFFyZ3pkY1BNRW9OLTZBRTlwNFlwTnBKUWNNT3U?oc=5",
-        "source": "아주경제",
-        "date": "2026-08-25T00:54:44.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "환율 하락에 LCC 숨통 트이나…고유가가 변수",
+        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5iOUp3VzFYOFpQWE5nU3FQRDMtTHByOTFYcFJnUEZDd01UVmc3cC1KS0FLZlVRVm9ub2dpRGJqbDFTcG9LZG8tVnFTZXdIRG1VcUw3Sk1mZFE2bDBwZjZWVmZ2OW4?oc=5",
+        "source": "매일일보",
+        "date": "2026-08-25T04:55:32.000Z"
+      },
+      {
+        "title": "월말 달러 매도에 원·달러 환율 1380원대",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBTUTlqeF9pbWZtdHRKM3Y4R3pIdlE4dzFrY3hKUTdCQ2k3M1RSU0xCM3VnNVJtd2R2Ml8yWGxpYXNHT1NyZUZrZ25xRlA3eURDRHpDQVc3UGRoSzZZUWFEem9SMmFjZjJ2M0RTVjRnY1XSAXRBVV95cUxOUF9FcHN2ZHJrN2lUamNDWVFCVlE0Z1I5MGZBckxjZkJCOWVoX3JQSWUyb1o5eWRSNVBGOG9PVzBjbFhBQTRDaUZDVXlNZHlCck5CWUpxQU1vcloxYnJZTlBoVTZ1NFBXUWFVTFhEaUY1MVRlSg?oc=5",
+        "source": "뉴스클레임",
+        "date": "2026-08-25T04:46:26.000Z"
+      },
       {
         "title": "원화 절상 효과에 수익성 개선 기대",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4telJSWXBIMW5VUWRXNlFOME53YlVmVkpsT25SMGRDb1cwVkZJRkZ4UmZNMU0yaHJ6STFDbmZxVWRkN3RtUUZwT0ZyYlBIQ19yOEM0Y01RRWJDQTFHS1hjZ2JFbklWVkFYNmc?oc=5",
@@ -171,12 +183,6 @@
         "date": "2026-08-25T01:28:00.000Z"
       },
       {
-        "title": "1370원대 숨고른 환율… 재상승 압력 키울 3대 변수",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5Wcnd1U3hFSWMzVUg1RVdSOEs0TXBOVUFFQlNmNGpBalBhLVJyeWJXX0Y3V2xZZFUwNlEzck80dm1BVjF2WWJack5kc1VKTkxtTWZKYkdNbWdKaTJFaGhSV204aHpsSVNu?oc=5",
-        "source": "더쎈뉴스",
-        "date": "2026-08-25T01:16:36.000Z"
-      },
-      {
         "title": "가상자산·금 동반 급등…비트코인 반등, 환율 11개월 최저",
         "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBTVTR1Q2NjRjExZEVKQ3lnUkNZMEs3dm9mTndzVDUtUTQ4WnRWOXdfVmtzMTYzWHlOWFBXRWh3bXlwNWE4dHZaNGxYTC1VMGd5YUVtYkY2dTMxZW8?oc=5",
         "source": "에너지경제신문",
@@ -193,12 +199,6 @@
         "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1lNzhtOGdyV0x5TjBhcDhvMFdGQmw4R3Nzdnp2c2ZTRW9hbzRoYm1HbU5vMkRSVXVBN1lIVHVFUXlRdzZRaFBvOU1uTlpKbzZxTEVR?oc=5",
         "source": "네이트",
         "date": "2026-08-25T01:01:00.000Z"
-      },
-      {
-        "title": "달러·원 환율, 반도체 수출업체 매도세에 1380원 밑으로 하락",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oUzJqZDAwOVZvUmY2TWFYYWxXNlN2TUV1SllQM1ZYU1BqeGg2clowU2pZZnVaNm5zbHNBd1dTRFIxd3pLZmdSd3VIUV8zd0NsSXdFbHZIaXVPVElITHdLWWdDRGtUa29V?oc=5",
-        "source": "2news.co.kr",
-        "date": "2026-08-25T00:54:00.000Z"
       }
     ],
     "metal": [
@@ -210,7 +210,7 @@
       },
       {
         "title": "[오늘의 금값시세] 8월 25일 금시세(순금·24k)는?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9xZlFyaDRRMXUxM0JHYWk1TFI4YktZdUI2bXE4TjJUS2M5RmljeE9saGotaTYtMVRoSWJhcWwwZjBlLUw4ZmFIUGpCTGVaZUVzZU54VmpMeEJCRmhteEFGMjBybkVuQXpn?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtTDJJTEszeUluSzFCSm9OQllQdWtlaVE2clJsYlpYclNlRzN5UFhicndZU2p2WDBORF9BV3FJX3FEOWRDUzByRjFwNXVjVFJLVG1KRWRaZkstSGdIdkhVUTRmUG1Wd053NVE?oc=5",
         "source": "금강일보",
         "date": "2026-08-25T01:44:24.000Z"
       },
@@ -403,16 +403,22 @@
     ],
     "realestate": [
       {
+        "title": "서울에서 혼자 살려면 월 187만원 필요…용산구 가장 부담↑ [2026년 7월 1인가구 주거부담지수]",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KcEwwUUZGNnJyVmszZ1dhREtlOWVUYmFzUi10ZUh2RlFWRXJ5RW9ZV2s1YjBCb3VKYnBMellsOUxyZ3ZDM0UzNVItZ3l2eWUyVGd2Vk10RUhTUTdRN2dib2pMUWFxTFl6?oc=5",
+        "source": "데일리팝",
+        "date": "2026-08-25T05:01:00.000Z"
+      },
+      {
+        "title": "내 집 마련? 길에 물어봐!",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9iaVd3anBlS3F5VEZvWTNXcVRSb2JXdnRoRGRHbzVPajh4Mi1INnBtMkRTT3NZWU8zYVpfZEZfYTVQT2lDdWJVYjl3bk5OZEpGNWdNR0dxRlduLVR1YXhmODJB?oc=5",
+        "source": "일요시사",
+        "date": "2026-08-25T04:39:19.000Z"
+      },
+      {
         "title": "\"10년 전엔 강남 24평이 6억\"…'부동산 15% 폭등' 2030 청년층 격분",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5wM2JwVWxndzNocVdDelRnMS0xYXZLREQ5SG0wS1R4bm5WVDZWTFlWVGpXM2JzV1lhRE5IclBUZEhZWXlodWczZlR3UG1ITWdOeWx0RE8xSlJQTVl3a0p1THRtVGpMaU90dmJPVV93?oc=5",
         "source": "네이트",
         "date": "2026-08-25T00:57:00.000Z"
-      },
-      {
-        "title": "인천시 주택 매매·전세 상승폭 둔화…월세는 0.37% 올라",
-        "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CMzN4eFZ1NWM2SEc0NFJrbHY2RGZXaXVTOVd2bGU5NXBoVUE3NGg0Zy1ZSzd2U0Z6ekpHbERWMmQ2ZWY5VElUbnVnQW4zZVVUdlR3dVZBTGd0TzJ0T2tZaTMwbk92bWNHeVhNRkprZW1jS2NpX2tTVTFXM1I?oc=5",
-        "source": "비욘드포스트",
-        "date": "2026-08-25T00:09:58.000Z"
       },
       {
         "title": "아파트 규제 속 도심 인프라 누리는 주거형 오피스텔 관심…마곡 '롯데캐슬 르웨스트' 준공 후 분양",
@@ -437,12 +443,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjZVVqdmpsanNKZk11NzJESXg5UWh2NlZMa0xxNmo0MjE3eXE0bVNMSVJBSHNOSDFVVDFKWWxIamhJRDRUb2tJRDZfamhEeFNlb3pVN3ljRVBlNTRSWGl0UWZHcHJ1eXVvZzFnUg?oc=5",
         "source": "센머니",
         "date": "2026-08-24T07:10:43.000Z"
-      },
-      {
-        "title": "신혼부부 살 투룸 찾자 4억 훌쩍… 청년보금자리론 ‘가격의 벽’ - 조선비즈",
-        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSEE1R2VTRUxBOE53VEJSZE82UF9ZWHdJd0lPNExzT1FROVNQQlB1dUdOeC13UXZBSXgwQW44VEl2VXlZMEpfUy1jUTZQVU1tdThHSzhBZy1PZHVEdzR5TWpjdHplZjRrWU5mcmsxeXpCSDlXc1pRcTJnUzJob2s5R0E3RTYtY2NuTGwtNDVlTm1xY0l3SGVVb9IBrAFBVV95cUxNNUREeFpNWjd6eHNja2pPXzluaXM1M2NFNld6UUQ4QW1ESjM1SWd4OV9VNGIxV01HN2lobnh2TGpna2RNUnRmYXZ2QXBpRDFnQ2xCNmJ0TW5aSVdOeUhlbEJmNWlWbV9xNndhNkVQRExuMi1pc24wT0xDWXRqS1U5TUZ2LXR3ZnU2S2x5TFh2TE12ZUNOU21EMi0yN0tDMkxPbU5uWmJ4eVhCZDhD?oc=5",
-        "source": "Chosunbiz",
-        "date": "2026-08-24T05:08:00.000Z"
       },
       {
         "title": "반포동 래미안원베일리 47평 85억 거래… 서울 아파트 실거래가",
