@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-08-26T12:42:07+09:00",
+  "updatedAt": "2026-08-26T13:27:24+09:00",
   "deals": [
+    {
+      "title": "영천 딱딱이 복숭아 2kg",
+      "mall": "농협몰",
+      "price": 9920,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729489",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T04:24:31.000Z"
+    },
+    {
+      "title": "폼클렌징 220ml 4개",
+      "mall": "옥션",
+      "price": 10800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729488",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T04:12:31.000Z"
+    },
+    {
+      "title": "씨위드 허브 두피 클리닉 다시마 헤어 트리트먼트 500ml",
+      "mall": "네이버",
+      "price": 5990,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729487",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T04:11:40.000Z"
+    },
+    {
+      "title": "뷰카 아쿠아민트 치약 8개입 + 오브제칫솔 18개입 + 잇몸치약 2개",
+      "mall": "카카오",
+      "price": 25180,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729486",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T04:07:41.000Z"
+    },
+    {
+      "title": "크로도 이탈리아 프리미엄 과즙 탄산음료 3종 330ml x 12입",
+      "mall": "29cm",
+      "price": 14900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729485",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T03:55:49.000Z"
+    },
+    {
+      "title": "비와이씨 에어로쉬 반팔 런닝5매세트",
+      "mall": "롯데온",
+      "price": 13960,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729484",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T03:51:45.000Z"
+    },
+    {
+      "title": "옆동네(더*)에 한달내내 핫한 베트남 냉동 무가당 망고 1kg (250g*4)",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/79394",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-08-26T03:45:09.000Z"
+    },
+    {
+      "title": "비비고 왕교자, 베이컨 외 다양",
+      "mall": "롯데마트제타",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729483",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-26T03:41:10.000Z"
+    },
     {
       "title": "닌텐도 스위치 친구모아 아일랜드 두근두근라이프",
       "mall": "SSG",
@@ -11,17 +99,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-26T03:36:39.000Z"
-    },
-    {
-      "title": "질레트 프로쉴드 옐로우 면도날 12입",
-      "mall": "오늘의집",
-      "price": 33978,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729481",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T03:33:38.000Z"
     },
     {
       "title": "셀렉스 프로핏 스포츠 WPI 드링크 초콜릿 3박스 330ml 36팩",
@@ -121,72 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-26T02:51:25.000Z"
-    },
-    {
-      "title": "나이키 조던 스포츠 에센셜 남성 드라이 핏 반팔 탑",
-      "mall": "롯데온",
-      "price": 33430,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729472",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:51:20.000Z"
-    },
-    {
-      "title": "로보락 Qrevo Curv 2 Flow 로봇청소기",
-      "mall": "G9인샵",
-      "price": 799000,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729471",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:51:14.000Z"
-    },
-    {
-      "title": "조이락 트라이탄 밀폐용기 사이즈 다양",
-      "mall": "GS샵",
-      "price": 9900,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729470",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:46:28.000Z"
-    },
-    {
-      "title": "롯데 의성마늘 프랑크 오리지널 45개",
-      "mall": "카카오선물하기",
-      "price": 27000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729469",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:45:04.000Z"
-    },
-    {
-      "title": "광동 썬키스트 피스타치오 언스위트, 190ml, 24개",
-      "mall": "토스",
-      "price": 7700,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729468",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:39:06.000Z"
-    },
-    {
-      "title": "냉동 26년수확 대학찰옥수수 9개",
-      "mall": "팔도감",
-      "price": 14952,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=729467",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-26T02:30:34.000Z"
     },
     {
       "title": "얼큰 병천식 순대국, 210g, 1개 2,900원",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-24T00:46:25.000Z"
-    },
-    {
-      "title": "통통 야채튀김1.5kg 분식집 튀김 에어프라이어가능 10,000원",
-      "mall": "네이버",
-      "price": 10000,
-      "cat": "기타",
-      "link": "https://naver.me/GvWMP6IL",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-24T00:25:14.000Z"
     }
   ]
 }
