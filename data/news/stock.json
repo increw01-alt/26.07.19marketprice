@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-08-26T15:24:05+09:00",
+  "updatedAt": "2026-08-26T16:35:47+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "기대반 우려반 엔비디아 실적…코스피 강보합 마감 [시황]",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOeGRiUkVfXy1qUTc0UGh5NkJwM1pBN3prS0p3NldHZlhGLXIzZmxOTG9JWTYwd3RjOE02OHlUVkwzTnRoSXhzSHIxY3VCaUp4YUJoS3R1QUwzbGJoQWdEXzdBQnM4TzNHN1BXbTlfWVN3dXdoUkJNMVprNndCM1pldUZOOWxOVE1Wa1VsQnE4aVVhS25kblM1SG5VUU1kNjB0cXczY2ZRSFZjbE45WHJTUDFPRHBPd21OQms3dXYyTWxtbUlfbGJZOTdKQ0xTMTRBbk5OMnZ1OUt3bFJOTGJFckdQYVdzMktVNElZVGlXcUhBZ1RvS2E1QnF2TGJrakxhVXBOM3BIWUM3d2FXZTBnSzdRZmpaZ2dDRHdVV19kNXFZNFE?oc=5",
+      "source": "데일리안",
+      "date": "2026-08-26T07:20:00.000Z"
+    },
+    {
+      "title": "기관 '사자' 코스피 6800대로…삼성전자 1.75%↑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1LNjJ4N0wwbkQ1bncyVGt4UmItbkh3YTFiYThlOEVibWVSTUJFX2lTekhVQkt2bUhKZXA1WS0xYklab3Btd1VCUFdDeWp0Z3A0QjVkRHRPazZPWlIwZEc5MnlMQXktU2xFcFpoTA?oc=5",
+      "source": "중소기업신문",
+      "date": "2026-08-26T07:10:20.000Z"
+    },
+    {
+      "title": "[장마감] 코스피 0.97%↑(6808.21), 코스닥 0.03%↓(826.87)",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5WNTV3UE40UjgzQTJfdFNEUUpoMFJVdnR6R055dTFPQ21KQ3A5cExmMFJWSFlCXzFzN3A2a3BSVzdDWHp3YWotdk5kSEc0TTA3ekFTeU1fQXE0WHdvaVpNemp3?oc=5",
+      "source": "버핏연구소",
+      "date": "2026-08-26T07:10:08.000Z"
+    },
+    {
+      "title": "[증시-마감] 코스피, 기관 매수 속 6,800선 회복",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zemZCeldzbzNibDQ3em1mSnl1eGJrUk5CZnlBOElTNzYyT2Iydk1FUURQcEltcjlyUVpRcUk0RTRYZVNHNy1PanNZbWNpcUFQdFE5NnM3S1ZTMk8yXzdSV1RGUDNJem9lWnpvZlZiTznSAXRBVV95cUxPVmN0Mm5qbkd6a0lZRXZVR3FtOTNEQjJ1UjJrQW1zWUZraXhSa29RZ090TkpfY1g2QTJ3ckxJVUhpRk1LT041UmEtVkZnSmF6UjlrV0dQQnFBVjJwUnk4YUduaDIzZjBFdHZaOTAycS1WVUtxMw?oc=5",
+      "source": "연합인포맥스",
+      "date": "2026-08-26T07:05:00.000Z"
+    },
+    {
+      "title": "또 '전약후강' 코스피 0.97%↑…거래량, 올해평균의 절반 밑으로(종합)",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90ejVvMDRZTWFrdWdPOUlFSjNNS2pHYWJBYTJ2QlBsLUY4eUp4MG5NemNCSjhpX0xienRsQWpLMFRtNEF6Z3czSDBocC1FLTR0Mk13?oc=5",
+      "source": "네이트",
+      "date": "2026-08-26T07:04:00.000Z"
+    },
+    {
+      "title": "‘엔비디아 실적·한은 기준금리’ 경계감에 몸사린 코스피 0.97% 상승 마감",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12ZE5fenBFaE9zek43al9Ubk9pZXZYOE0yc3l4U0l0dmluYVhDSXpQZ2hsOHdqdmRmTmtmOVBxajl5YnhqbG5NUXZBMDNIZzhMek03U19saExDUmFMcElpb2VR?oc=5",
+      "source": "이코노미스트",
+      "date": "2026-08-26T06:59:00.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피, 엔비디아 실적 발표 대기 속 강보합권",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YQmNCYXB5QXM1X3JqTkJqajhaVUgtQmdFdnNDTldMYndiRVlxSkxEdEp0WTJSbVBrV0tyb3lNY01pc202OW5TZ09BMmtFV2h6VDJKV0NtZFgtaVhBdnZ6TlhyeXh1djRoSTZ5b0xlMlo?oc=5",
+      "source": "신아일보",
+      "date": "2026-08-26T06:57:23.000Z"
+    },
+    {
+      "title": "[증시 레이더] 코스피 0.97% 상승⋯반도체 반등에 6,800선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpMVBxcFIwV2lnYUhsa1o0NGdscjlaZmdNdkx6eXRfM2Zxc0hwM3dPOENDdUdQMVB6emIzZ3VrWDFHUjBqTnUza1RxSUwtcW1pRk9faDgwRnhmR3A5d1E?oc=5",
+      "source": "포커스온경제",
+      "date": "2026-08-26T06:54:39.000Z"
+    },
     {
       "title": "대신증권, \"美 슈퍼위크, 코스피 8000선 회복 분수령\"...엔비디아·PCE·잭슨홀에 쏠린 눈",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBvVnpWR0I0ZU95SkVlbFBHQnJaV1RxMlZRanE0TDdlNF96X0JHUjFObDFreTJoOHdVa1dCM0VxR0tBWkFGdHMwR1o0OG1GVlprb1phbTQ5U0l3ZUR5dTNNeUZUVVJDbUxp?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBreFJmcExObGRwdmV1Wlp5Ul9JNExqRFFFYXdlVXZBNkVwdTI1RkdZQmhvRlphLTNzOUhTSkhJMS1aYXIxTVNKX0ZTOUMzOG9KYlZRZGF0NUtQN0Fjb1E0cA?oc=5",
       "source": "아시아경제",
       "date": "2026-08-25T01:32:37.000Z"
-    },
-    {
-      "title": "코스피 '미국 반도체주 약세'에 장중 2%대 내린 6540선, 코스닥도 1%대 하락",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwLVZpUEFmTk5IMHp2Mng5QWx3dm1LWGs5NTNyWXB5WnktYzU0eE9HT3VQdU85NEtNaDgxU0IwQUJ5TE1yeWNCZ3dySFpmZnp4M0wwV2NiMVZCelJIU1FHckZDOHViU3d6dG5LTnNhd3dxM0U?oc=5",
-      "source": "비즈니스포스트",
-      "date": "2026-08-25T01:27:49.000Z"
-    },
-    {
-      "title": "코스피, 반도체 투톱 급락에 6500선 흔들",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5wOWh1WHhvMHRxWUNaaG45TVZPZWhlS0Q4UWx0c3NLdXJ2TTYxeVA1WkctdjZqWHFxNUltWFRBMXZfLUprQlR6LUZERzRxU0NFcE1XV1M3UHgtWXNidklpVXYwWFFCUzFEOTlBNGdUYngzUknSAXdBVV95cUxQX2E4M2t1TDVWUGo2bm9uNDVkTFFiNGpmM1ZQd0xCNHpJVXF6azQ5Rnk1WkJFTDBvUFIxbXpGOUVsSXJxak8wNXpSV2FoX1hKa0V0T2dNM2FGc3BRV2NNd0I2aW0wMnhkN0ZaaTg1U1dqdTBjMzhKbw?oc=5",
-      "source": "스트레이트뉴스",
-      "date": "2026-08-25T01:18:56.000Z"
-    },
-    {
-      "title": "코스피, 개장 직후 6400선 급락…삼전 주주환원 여파 이어지나",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1NcC1rZ0NsQUt1eWpZUUh3Z1htd1NFVzAycE85Z09lZmdfYlVJako1RUZQaWd6ZmlCYTRGaENTTEZDTENwNFNwbnllekJUM1J0LWhqZlloa1BrcjFzNVFPOElCSFBxMW8?oc=5",
-      "source": "한겨레",
-      "date": "2026-08-25T01:07:00.000Z"
-    },
-    {
-      "title": "코스피 장중 4%대 급락…반도체 '투톱' 흔들리자 6400선 위협 [투자360]",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90Q0haWkNxalVtWmNiTlh0cUtDTmdiRzgyYVctV2tBTm9lTWxLb3k0Qm11QlNaZUxHbjRIVUtidFRCUmdmYlhlVjdkNXdMMlhqOHRJ?oc=5",
-      "source": "네이트",
-      "date": "2026-08-25T01:05:00.000Z"
-    },
-    {
-      "title": "코스피 장중 4%대 급락…외국인 매도에 6,400선까지 밀려",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1adEVWZWtnYXpOSHlDVnBUUHd3cnFUY2w5MTFlcW8xMkJCSU9INnl0M1Z2NXoxNkdpdFM5SkxGS2dJZ3hIcW0tWjJPSDBsc0VxSFNBNDRfc3hrX0ZpaXk3dHNyZlJDUTFYRXZyajd2YWTSAXRBVV95cUxOZHlBQUNmUUxWWHM1M0FzSUhJRFZXX25telZYR19RRHFLMzlKc2FvTFJFM2pGM1hlVEQ5OS0wcGZ6TE55UjVRRkQ0M0hlZzk4RmhhRWM4VDFZX3VvLW9QLVo1SUdCc2lqaWpqR2E1TzFod08tYw?oc=5",
-      "source": "산경투데이",
-      "date": "2026-08-25T01:01:23.000Z"
-    },
-    {
-      "title": "美 반도체 한파에 코스피 2∼3%대 급락…한때 6400선 위협",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9JWFlZUDZ2X2FqUTF6X3JvN3QzWThEcU5FNUtTNk5qTFNfMlAtVXpwb2NSTVU5a3VQeVdoXzJUQnl0M0JEbTJDcG01WUFUMzM1V1prYzBxRks0VzVrT2lRTEo0VEo5YnZtN1lGTGJFWQ?oc=5",
-      "source": "진일보",
-      "date": "2026-08-25T00:48:00.000Z"
-    },
-    {
-      "title": "美 반도체주 급락에 삼성전자·SK하이닉스 3~4%↓…코스피 3%대 하락 [이런국장 저런주식]",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5uOVFDSWN6cjJ5MVlfZ09jSDFZY09nNHUyeXRHTnpqQ2lORVd4UWkzcWNBSmxibE94emZZWXltc3Q2OUNwUmlTNkJnOVFyaVpqNEE?oc=5",
-      "source": "서울경제",
-      "date": "2026-08-25T00:16:44.000Z"
-    },
-    {
-      "title": "[개장시황]코스피, 美 반도체주 급락에 장초반 3%대↓…6,500선도 붕괴",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9adGJ6Tml6ZXY4M2hEMjBwdWwxM0RPY3BxYTJRZkdqYUl4aHF0VkxGS3FHdWo3cm5TRVA1YmJELVpIYmsxeVBoWnJSR25LZDJKNGFMeGdGbkVuMEh4VmNVZzV5RzZ1cHg1ZnQyV9IBcEFVX3lxTE5PVXF1Ri00OE13OGVvWTRlcDRHdWFNX3p1aGR3M25TN3FXVkNmaWxseXFuR3N0eFFnSXdhcUx5VFNPcEpjMHByNjFKMklYOS16YnBOc1JzWGZQVTdWRS03SERVNHhydXk4TVFHaWpVanE?oc=5",
-      "source": "남도일보",
-      "date": "2026-08-25T00:16:00.000Z"
     }
   ]
 }
