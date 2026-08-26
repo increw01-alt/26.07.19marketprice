@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-27T01:07:49+09:00",
+  "updatedAt": "2026-08-27T03:35:21+09:00",
   "topics": {
     "coin": [
       {
@@ -53,16 +53,16 @@
     ],
     "stock": [
       {
+        "title": "[증시 프리즘] 반도체로 쏠린 자금…코스피·코스닥 거래대금 양극화 심화",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ob0FuenJZRXBhWG9xMFBkZlk0X1I1MTd6WF93MU01dW5fUnVMdUpzbEY1X2E2N2dJZmdIbk5ERFo0dmhkQXZVaHVjSC14U1lNZE9vSDFRUnlEdWdKbVVXc0ZURkFrNElSd0ZEV2ptS1PSAXRBVV95cUxOUHNacTJOY1REU0xMTjVNRDhTSW5nRUw4M1RYS2NMVW5udzF0QTBKNldDblBZd3ZnZEx5UHlyY2ZrNDNieVBkVmt0eDMyVHF2T2ZPOXNnb1I4UEN3WGRlQ2VxNGtMSTA1cjdXSjdub1NVb0ZLUQ?oc=5",
+        "source": "thefairnews.co.kr",
+        "date": "2026-08-26T15:00:00.000Z"
+      },
+      {
         "title": "2주째 6500~7000 갇힌 코스피...이번주 대내외 주요 일정 '분수령'",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4wUUZRaXU2cllpaVJtazJkci1JcG1PRmJFdV9sWDR6S1lQZ0xRNTR4M3FNVnlXYXlvb2RwOWgxTHIwM2xteExsVGV5ejNaUzFyRW1YSURqQjBJVHNxWndIdmlEelcxZnNQMnc?oc=5",
         "source": "월요신문",
         "date": "2026-08-26T10:55:03.000Z"
-      },
-      {
-        "title": "코스피 3배 올랐다 40% 급락…외신 \"공포의 놀이기구\"",
-        "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvV1U4cjlnR1JSeGtlZkZQelZQNnBqYmVlVm9zZ0U3QzNQQlJSa2F4Z2pubE5WYzNGOVFkREZsMXh6WFhSVmtPakV3akZWclA0SURGcmZDaUhzRjREWFladEFCRHQ1Y2lVTFJ0MzJhQ1lkNmdvRVRxSA?oc=5",
-        "source": "네이트",
-        "date": "2026-08-26T10:49:00.000Z"
       },
       {
         "title": "코스피 3배 올랐다 40% 급락…외신 \"공포의 놀이기구\"",
@@ -109,12 +109,6 @@
         "date": "2026-08-26T12:40:00.000Z"
       },
       {
-        "title": "상장할 땐 ‘미래 가치’, 퇴출할 땐 ‘현재 주가’라니 [왜냐면]",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85LVhyc1cyTnpQeF93Q09tVmQ1RU03RkJIZWFfd2NKTXZSVGUyeHRBeE1ldVVrZ1AwVUZSODZKXzMxTjB0bWVvTzBXOU1EdW5OS2Jla3l5S01IalFtY3lUeU9yNnkxZm8?oc=5",
-        "source": "한겨레",
-        "date": "2026-08-26T10:52:00.000Z"
-      },
-      {
         "title": "특정 종목 쏠림에 유동성·자금조달 약화…“코스닥 키워야 산다”",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yNzJCaUx6TEQyTjMyS191RVozajNvbEplUXFRRTVaX2tjNkRNa0pZdlJSb3dnQXhlOUlZUldtTUlzTGgtX2hyZ1piUXRQZ3NuY1pfamFkdnZWSkg1QzVRRE9IczZhcnFlaXlfWE1n?oc=5",
         "source": "아시아투데이",
@@ -149,6 +143,12 @@
         "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5MNEFoWWFIWW9md1ViX21jTzZYeWpoMGVjLUgySk5Vc1B4N1I3NGhUbUUybHg5VUNLQW1qSVdUbFZpQzBwQ2JucnBSemhYQlMwWmdrLXNPcU9LRENCTndaQ3UxNDUtTHBnN1NGRWR2Zw?oc=5",
         "source": "YTN",
         "date": "2026-08-26T07:30:00.000Z"
+      },
+      {
+        "title": "[마감시황]코스닥, 826.87로 약보합 마감…개인 순매수에도 외국인·기관 동반 매도",
+        "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WdWgyT1U5OUsyX05qd3BfMDR4M082YjZtY3JYVzM3WmtjUk5ZTndXel9oNTVLd1k3MlFIcG9yQllJMG5iTVdnUWNBODNocDRLbVlRSzdkV2ZYNGx2amQ4WTVQZ2hJTl93cTdtYXB0VXhBTUZtMl8zZnlnd3hzUQ?oc=5",
+        "source": "서울신문",
+        "date": "2026-08-26T07:29:41.000Z"
       }
     ],
     "fx": [
@@ -157,12 +157,6 @@
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10SmxvbmNCNGZibTBKU3YtaXR4NjV6azVRM2R5RzF5Y2VKbEdXRXZfQlFLZHNxejh3cmJTeEtGMUJvMlBTX0IyYl85bWtCalM0RE5scnJFZ3NWX2FLSk5KRHpYcXF1WGQtZUdjNFM5Q0R3Zw?oc=5",
         "source": "여행신문",
         "date": "2026-08-26T15:10:00.000Z"
-      },
-      {
-        "title": "금리 올랐는데 은행주 0.55%…코스피 4.20% 오를 때 제자리",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtaVRQNGRKV18ycTJnQVBJSHdEdTA0NklGUW5jbGFrTWdXVy1KSTUxWjMxSVBEVEh2anNaaEFYMmNPM0NIUENZcFBDUU8tRTNoNTdId1ZwM21Hd3E5RHQ1a3hMNGdyNDA?oc=5",
-        "source": "자본시장뉴스",
-        "date": "2026-08-26T12:11:45.000Z"
       },
       {
         "title": "달러-원, 뉴욕장서 1,380원 중반대 거래",
@@ -199,9 +193,21 @@
         "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa0VxNnY2Z2djbDNHYVMyeVJCdG9hWVV3RlZQaW5raE1YMzNWRU10eVVHSTJfeGdUenhOOGpGZnNwaENOTTNReDZvazhXT1NSTkE3N28xYmhSTGNhLUhGeVBKOXZDdlFrYnp3cVc4NDRwWC1GQmVyeGNjeEg0VlRodHJ5MWN1cU1z?oc=5",
         "source": "news.sbs.co.kr",
         "date": "2026-08-26T08:37:00.000Z"
+      },
+      {
+        "title": "금리 올랐는데 은행주 0.55%…코스피 4.20% 오를 때 제자리",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBtaVRQNGRKV18ycTJnQVBJSHdEdTA0NklGUW5jbGFrTWdXVy1KSTUxWjMxSVBEVEh2anNaaEFYMmNPM0NIUENZcFBDUU8tRTNoNTdId1ZwM21Hd3E5RHQ1a3hMNGdyNDA?oc=5",
+        "source": "자본시장뉴스",
+        "date": "2026-08-26T08:00:00.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "국제 금값 1.3% 하락…美 PCE 발표 금리 인상 경계 확대",
+        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBsREYwTWhuVUhQOGxqYVhHZW83MHlLTTlUWXZINGhad1dPd3RRUVc1dks4YVJOTHlQNGJaZEdnMjd1cWlNRzdYQWxjV3oyQ19FVnNMOWV3UUFvbWtUUXVISjNYSjBRenNiVkVZbWx1Vy3SAXRBVV95cUxOLXNNSWtqek83M1RqVU1TSEx3a0FCbVZfc3RHODhGbFNIdGx5ci1KclhOYmZIQlUyUFNjeFVOdTMxa0ZENWp1S2hwUV9KN2loQ21wNmt1aFhBd2FrRTVKdXlIUTVaMEh5RXp4ZTd1aGhyRm9jWQ?oc=5",
+        "source": "thefairnews.co.kr",
+        "date": "2026-08-26T16:01:08.000Z"
+      },
       {
         "title": "오늘의 금값시세(8월 27일자) \"금값 주춤하는 이유\"",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9lQkttTW9mN3ptNUFNN2Z5VzJDYXhLWUVSeXpMTUE2R3hRWUg5ZWVJSWlSVWpDTVVCNElzbTAwNTEzelBNWUppVjZsY09YS0RuVTg4Qzk5SndjaWdWT2RLaDFhVEY5QTFmekFObGpn?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FUExpNDF4bHVfcFRaN0VwcEJMcWJVTlFsUlpKQlFnSklSNkNVN2ducWt4bnRPbXp5b3M1OWJCLWJSMllDOWpmVjRYbVA3ZjV2VHBwSjZ3ZEZHdGt6RkxCQmROR1VkaEVTYU5JZw?oc=5",
         "source": "gametoc.co.kr",
         "date": "2026-08-26T00:12:24.000Z"
-      },
-      {
-        "title": "금값시세 4700달러선 공방 향방은?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04LWh2dGw4bTRjeWVsSmRpVm1tSnNVMEx6UlRhRU83VzZzR0ZPaThiZi15TENDSGpWdEdOUlZSeTdUOVUzMFA5VFpQN24xTlFtS3lGZzZMNFl1NlpZenNZOXh4NjFKU1Ns?oc=5",
-        "source": "CBC뉴스",
-        "date": "2026-08-25T15:05:00.000Z"
       }
     ],
     "energy": [
@@ -415,6 +415,12 @@
         "date": "2026-08-26T07:27:04.000Z"
       },
       {
+        "title": "‘20억 이하 매물’ 쏠림 조짐…비거주1주택 세 부담 완화 영향",
+        "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBrNVhFLVNublpuVW1YZU1TQzJBUHhqalNRczNMeGF4TnpEUGJxVGdMUDNmajkzNEVWSlNzMk0wQVJiTURKMzFoZFpQb0FXNXdT?oc=5",
+        "source": "문화일보",
+        "date": "2026-08-26T03:05:08.000Z"
+      },
+      {
         "title": "[서울아파트거래] 메이플자이 전용면적 135.14㎡ 78억으로 신고가",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1DQ1lxYk8xWmlpUEdVRXBHYmxuNWxrT2RncjlNNUVlN1F5czc5TEVaamhwcmNjN0tGaWVOejdycGVLQnRSZFNsMnZLZmNtQ2lNbTd3Y1A1NEliWDNyVlNvT2ZJOTRWVzhrMlpmNWJLWGpYMXM?oc=5",
         "source": "비즈니스포스트",
@@ -443,20 +449,32 @@
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5oYVJMTHlJYTh3UHUyRTI0NUU4WUJqOGRJX2x0bjVrLVJSOE1hZjg4Z04wLWhVYTZWOVFxTm9iWm0zYUJfdnplQl9kLWdha0ZtUUJnb1NicjNDU2hyWGwzSWtHZjJnTWs0cnBWZnI4QmNKWnPSAXdBVV95cUxQQUg0MWpWMnd1OHp2QnprNlVpbi1LZTJzdnA1STdVcUZMTlM0VGRDQWpKLWRBWm03cVRnM3hhSno2Vlp4bUlLUU5yWjRPZWxWRW9hM2VxM2x4WlNBUEdjZjhUdUlpWXdVV21fOGtTLVNNRG1vMkNJVQ?oc=5",
         "source": "핀포인트뉴스",
         "date": "2026-08-26T00:40:28.000Z"
-      },
-      {
-        "title": "성동구 행당동 신동아 59.97㎡, 14억 9,700만 원 최근 3년 신고가",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5fTVhCVENEQnFxVGlkbHc3MkZ4NjJmUklXN3FSMWh1RS11UlY1dm1HdFRrSDNWOEowandBWEpycjgwbzYyNnRxYXNlaXd4UXFRVjAwUWJWY00?oc=5",
-        "source": "매일경제",
-        "date": "2026-08-26T00:05:08.000Z"
       }
     ],
     "lotto": [
+      {
+        "title": "충주 토토 인식 디자인 패턴 상세 설명",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8xak5UcjNGYVlFR0hRWFlYTENlWUo2ZjJFQ2ZQOFYzQTRBNU5jY2lMZzZiUFkzWVRrRHMzT2tUdEZNTzBTeHVXLXBYZ3FwemJWR1lXRGsweTV5UQ?oc=5",
+        "source": "Platea Magazine",
+        "date": "2026-08-26T17:19:55.000Z"
+      },
+      {
+        "title": "일요일 로또 판매시간 처음엔 몰랐던 부분 인사이트",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1Zc2pyTURmZGtQcFdqc3AxSEZTYTUxSUdlRUdZbnI0NlhheDNNRzRuRHJGXzRzNG1WMnRaQzU2dzlLY2VHa1h6azlkNTAycTB4MEFXaTY3akV6UjhVMERTZQ?oc=5",
+        "source": "mkpsm.ru",
+        "date": "2026-08-26T04:19:34.000Z"
+      },
       {
         "title": "토요일 로또 판매마감시간 직접 정리한 정보 정리",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xS2xfQWY4RjhXSGVYdlhabGlicUtUNmlJNnJfbWJNVWx2TDBnNms5d2lkdFkwQlZUYTZkVWhQX0czTG9TX214b0lRZUJLWEY3d2FFTnd5OHhXMzBzcTc5SWdsTGk?oc=5",
         "source": "centrserdce.ru",
         "date": "2026-08-24T14:07:39.000Z"
+      },
+      {
+        "title": "한곳서만 로또 1등 4장 나왔다…한사람이면 48억 ‘대박’",
+        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE04RHkxTjhiMXBWbXRvY1RWVUpTUFJBN09KYWhWSHJadkQ4RUgtbm5jS2tXX1MzeEFKQmF0aURhaWtHNG5fc2c?oc=5",
+        "source": "매일경제",
+        "date": "2026-08-24T09:55:22.000Z"
       },
       {
         "title": "한 판매점서 로또 1등 ‘수동 4장’ 나왔다…동일인이면 당첨금 ‘48억’ 대박",
@@ -481,24 +499,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBlVlJNelBfNl9Eam9XR01GLUhRMnJNdVdXSDczM2tabzczNmxOcVlUZmQxOFNUTThqZmFvdC1rOWFncURFdlNJaXJzaG5DeXU5Z0xlOHhUS3dtc3ctX2NFX2JMZklTWU0yRVFURQ?oc=5",
         "source": "뉴스엔톡",
         "date": "2026-08-23T01:54:37.000Z"
-      },
-      {
-        "title": "1238회 로또 4매 동시 배출점 등 명당 주소 총정리…1등 18곳·2등 76곳",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9URFN3SE9qdlpOY0QzQkdIYXBhN2pZSHhpUlVXd25sTEZsYzNWYkpSUzNIQ2R6bHVlMnU5YS14cmw0OGdEUlp0YVpSMzhFVjN5VGttNUVoLVhoWnlLSDdiZXU5VG9QbjczYUlpdg?oc=5",
-        "source": "ER 이코노믹리뷰",
-        "date": "2026-08-22T15:17:00.000Z"
-      },
-      {
-        "title": "로또1등당첨지역 \"경기도 광주1곳→수동4장\" 1238회 로또당첨번호조회",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE80VXpLRS14Ujc4cTNSdFI3OWtCZE9XYmoySndTOXB6all6S05oZklfT3JUZXI0djlZdEt3R20zRFFXVnVoNkIxSjZTRkl5NWY0VTRIRlM4SE5qVjJhQmx2cGRfenVwc1lqVTI1WWtR?oc=5",
-        "source": "gukjenews.com",
-        "date": "2026-08-22T15:12:00.000Z"
-      },
-      {
-        "title": "로또 당첨번호 조회 1238회",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5QRTBrOU1pV3l1SzRTQnRsbDFEYWdxTmFVeUt6Wlh3WDgtUzZaVUZJQ01tVU93NmdIY2xaTldKMXVRV1RFengtUWUtdDQ2UG1CRnViSmdCTlpfWVNwQjJ1LWZKSDQ?oc=5",
-        "source": "bntnews.co.kr",
-        "date": "2026-08-22T15:00:02.000Z"
       }
     ]
   }
