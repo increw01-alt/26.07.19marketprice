@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T22:43:44+09:00",
+  "updatedAt": "2026-08-26T23:32:23+09:00",
   "topics": {
     "coin": [
       {
@@ -104,15 +104,15 @@
     "kosdaq": [
       {
         "title": "“코스닥 달라졌어요” 개미 줄고 외국인·기관 늘고 [투자360]",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1leHVCTEI0U2wzUFhYeThmczl4RzR5eWF1UW10Rkg1UVc3bHg4VENtUXJnY0tYZFVxdks2RTN6TEFmY0UzTDNJN3AwM19paWM?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-08-26T12:42:17.000Z"
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9PbXdpM2xBUHFyNnE3SGpDYlZoYl9DalBZbE9QaVlXTWh5NjFzd1NwT290Tjd3UGxFTmE0dmhmNm9NeHp4UWNMLUg5T0o1bVlsUTBUY2ZR?oc=5",
+        "source": "헤럴드경제",
+        "date": "2026-08-26T12:40:00.000Z"
       },
       {
-        "title": "\"코스닥 달라졌어요\" 개미 줄고 외국인·기관 늘고 [투자360]",
-        "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YWjNxdUV6alE5bjc0V0FrQzEzMUk1RWpQcW9YV1Jua20wRVZhdjZpamRONlpvNlhXMkMwRTBuckl3U3poeUpoeW80VW1VS1dxaGpr?oc=5",
-        "source": "네이트",
-        "date": "2026-08-26T12:41:00.000Z"
+        "title": "상장할 땐 ‘미래 가치’, 퇴출할 땐 ‘현재 주가’라니 [왜냐면]",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85LVhyc1cyTnpQeF93Q09tVmQ1RU03RkJIZWFfd2NKTXZSVGUyeHRBeE1ldVVrZ1AwVUZSODZKXzMxTjB0bWVvTzBXOU1EdW5OS2Jla3l5S01IalFtY3lUeU9yNnkxZm8?oc=5",
+        "source": "한겨레",
+        "date": "2026-08-26T10:52:00.000Z"
       },
       {
         "title": "특정 종목 쏠림에 유동성·자금조달 약화…“코스닥 키워야 산다”",
@@ -203,6 +203,12 @@
     ],
     "metal": [
       {
+        "title": "금값, 2026년에도 오를까? 2027 ~ 2030년 금 시세 전망 총정리",
+        "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQVHc4S0RjaUJUZkd3X3EzdnFiODFjanN1emVNUnhaUDRmTVdjNlVBM1UxQWFxOU9rTlN3SEhOR1ZRaEtRYlJYQ21Tc1REbEJMOTNEcWlJOG5zenRDdDg5MEx6Ynl2a1pmaElRNG14MGJGRjMwR19Pbk5VMGxiTHlvdHcwN1ZvMVhLakNj?oc=5",
+        "source": "Mitrade",
+        "date": "2026-08-26T10:34:57.000Z"
+      },
+      {
         "title": "[오늘의 금값시세] 8월 26일 금시세(순금·24k)는?",
         "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE93a2V2UkVyNENCSk1NVGtHbnhMXzNrLWdkNWExR2hOZVFBOUk3SzA0RUVEQ1dGRjNnc2NXcnR6QmQ2S3VOWmFKOA?oc=5",
         "source": "얼리어답터뉴스",
@@ -231,12 +237,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FUExpNDF4bHVfcFRaN0VwcEJMcWJVTlFsUlpKQlFnSklSNkNVN2ducWt4bnRPbXp5b3M1OWJCLWJSMllDOWpmVjRYbVA3ZjV2VHBwSjZ3ZEZHdGt6RkxCQmROR1VkaEVTYU5JZw?oc=5",
         "source": "gametoc.co.kr",
         "date": "2026-08-26T00:12:24.000Z"
-      },
-      {
-        "title": "주춤한 국제 금값…국내 금시세는?",
-        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9GQXc0OEFaR05pX0RGYm1mT0tNVmMwbjVGa0RvM1F6VW9qQnViaTQ2OENKS1E2ZzM0WjJkc2JzLTdYY3pmWkNPcTRLWS1zWGRiMENKdQ?oc=5",
-        "source": "이투데이",
-        "date": "2026-08-25T23:00:00.000Z"
       },
       {
         "title": "금값시세 4700달러선 공방 향방은?",
@@ -322,9 +322,15 @@
       },
       {
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝' : 네이버 블로그",
-        "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPakFJSzBBU0lQVW41cXNMRlVyS3NpNE5YM2hoLWZxUWk4WUcxbmlWSVhtcmFvV2JjOTNCNmVKaFlCQ0wzRzh6X1FJZ1VmYi1WV3NPVFd1OEQ3dUV4b0ZnMGZQS2l3ZVEtV1NVZl9JTGVaSVdvSVBLN0tsczNpZkk1Wmo4NEFxcmFnOG5TZWkzRQ?oc=5",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5yRDdxSVZnSVM5R0YwdXpOUVlUOFY1dG53d1RxWlVzMGpzNFFvYlpLRXlCT21WbGd1YzhxRjZhMGhxTWVoVzZHNTM0T2RZdDdTNXNQbncwLTk4QkpueVNVVjAydnU4eFk?oc=5",
         "source": "Naver Blog",
-        "date": "2026-08-24T05:28:52.000Z"
+        "date": "2026-08-24T01:41:49.000Z"
+      },
+      {
+        "title": "[김이코의 시장분석]환율·금리 '복합 변수' 앞에 선 코스피…박스권 돌파 트리거는?",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9XN1BEOFhBQ3FEUnpYNHQ3LW5IbzFsVmpDVTZWT1NIeTU0LTFKR2hRbW93X18wU0ZwMTFnSzY1enY4SVoyYTQtN2dmcVlMUEFlTmpPSdIBWEFVX3lxTE8ySnhscFh5WkhsNGdVQ0RhdW1uc21BY2NTUjFkbjZFX1Q5bzg5RjhKcldWN2lKM29NOXdoTzljSjd2bl80Rk9XanlhUDE4Wk0ySVgwRFF3a2Y?oc=5",
+        "source": "미디어펜",
+        "date": "2026-08-22T00:58:25.000Z"
       },
       {
         "title": "환율 10개월 반 만에 1300원대…두 달 새 160원 '뚝'",
@@ -343,12 +349,6 @@
         "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB2NE42RzNwNlJDemp1Y2xTeFVYTHlTTTJQUjczYkswUlBORmVOODkzMEFRQlR1Q21RdVpkYUw5WmZTLUtNVlhMTDVGMUJmUlpKYTRsTXNsMmctZ0JTTEE?oc=5",
         "source": "뉴스투데이",
         "date": "2026-08-19T01:07:00.000Z"
-      },
-      {
-        "title": "[숏폼뉴스] 2026년 8월 둘째 주, 주요 경제지표",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE15VElsU2Y5LVpoVm5WUHAxbVE5Q3FxbHlCeXhTYXB0WFBvRWlPZlA4T2tEaFplTFRGakszdEJOb2JKN3I2ZERjbGlvUHJZV2FhdmxKZ25YcUNaSUo4TENQYjZ0MFZsalJzYnVPRUlLVQ?oc=5",
-        "source": "기호일보",
-        "date": "2026-08-15T01:07:37.000Z"
       }
     ],
     "giftcard": [
@@ -357,12 +357,6 @@
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBvOXpOQ29pQ19XLTdtTnlnZm8zXy1GZDJTQndRWW5Nd3FmWFpVeWR6VzVLVXhtTWNzUUhidzVUdFZrcDBnLWlwdmVBMjlHNzFIT1hJOHVfWjZTRDhyVGlHMg?oc=5",
         "source": "아시아경제",
         "date": "2026-08-26T03:16:08.000Z"
-      },
-      {
-        "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQnh1c0dBcnEtbzVHeHlaeTlOUVBaV0RWaDJ3UDJDb1ZITU5idUVIM19NREg2OHpLUzJkUzczTkF6cUZ4cjhBVmdpa3M1cFVnN3FRVlRwQnVNUk5rMlBTcGtqeW9wOXVtU2JLYw?oc=5",
-        "source": "한국미디어뉴스통신",
-        "date": "2026-08-17T23:36:30.000Z"
       },
       {
         "title": "송파구-롯데백화점, '서머마켓' 발길을 골목 상권으로!",
@@ -389,16 +383,22 @@
         "date": "2026-08-06T07:00:00.000Z"
       },
       {
-        "title": "[비즈인사이트]“비단에서 거래하는 RWA는 실물과 현금 모두 교환 가능합니다”",
-        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xS3Fpd1pXclFUTDUyT21zSUJHdGlLd0s1WUI0R0tZUmR2M1FJMWR2Ty1aUXFleUVRODZ3ck9TOHZqZnNoZzcxLXFITWRwMVdWMmFFbU11eU53aV9rR2R2RFdtNHdjdjZ6N1Y5bUxCc1lsaWdh?oc=5",
-        "source": "대한경제",
-        "date": "2026-08-06T07:00:00.000Z"
-      },
-      {
         "title": "요금은 그대로, 포인트로 ‘0원’… 통신 3사 자회사 알뜰폰 ‘도매대가 우회’ 논란 - 조선비즈",
         "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWjJKeERfb2VtRWtEdWJsUDAweUIzZjdYRjZIQXozM0NuemVucTNNYXpiTW1zV2JXUGs2YlJMN3Jld0xZMW9lWjZnM0xyYVozU0JrYklhNmZhWkhkdUtVZk1DQ01FLU5FMkR1ZUtYN0tmamozcGl5N2NocVlQSVVVR01R0gGWAUFVX3lxTFBCYUppUVpsQTBObXJneTltaC0tM2xoWURfcWhvRk80Ui1iXzBjSU5IOF8tRXJqR25QemR2VjVVVk1sTTNEOFQxcnF4aXFhR3BKbkZZZFM0dnJ5dFIxcUVHa2dLWnlrY3FGNE9QN0QyeGVtbG1STGNNYWxveGk1bVl5ZlR4Y29nNW1reGZQNmVQTlFERHAzdw?oc=5",
         "source": "Chosunbiz",
         "date": "2026-07-13T07:00:00.000Z"
+      },
+      {
+        "title": "“온누리 상품권 20% 환급” 삼성전자 감사 페스티벌 5일 종료",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0wVFVKeURNY2dhZDhVbTBqclg3UGF4OXZVRGhXVHgxcnNqUGlfNXZlaGxPQ21raTM4cGdOQ21WV1N5c1ZyWEZOYTd3cnpXOTBXTXJmbg?oc=5",
+        "source": "이투데이",
+        "date": "2026-07-02T07:00:00.000Z"
+      },
+      {
+        "title": "갤럭시 S26 살까, S27 기다릴까…가격 인상 우려 속 셈법 복잡해진 소비자들",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9sQ21GTkZLZjZhYTMzSEpORjM3TzBCSjFWM19FRHF1V3owa2hINW52M1BEeUdyNk80SXpHSHF0N2F2ODFKSjNaRnJKTmIzZFNDd1J4WDNB?oc=5",
+        "source": "매일경제",
+        "date": "2026-06-22T07:00:00.000Z"
       }
     ],
     "realestate": [
