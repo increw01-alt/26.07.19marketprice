@@ -158,7 +158,11 @@ const rateRequest = new Request('https://modoosise.com/api/lotto/pick', {
     'user-agent': 'lotto-security-test',
   },
 });
-const now = Date.UTC(2026, 7, 7, 0, 0, 0);
+// 실제 현재 시각을 씁니다. 과거 고정 시각(예: 2026-08-07)을 쓰면 API 경로가
+// 내부적으로 Date.now() 로 도는 cleanupOldPicks 의 보존기간(21일)이 지난 순간
+// 시드 데이터가 삭제되어 테스트가 시한폭탄처럼 깨집니다 — 실제로 2026-08-28부터
+// 매시간 워크플로가 이 테스트에서 실패해 시세 갱신이 멈춘 원인이었습니다.
+const now = Date.now();
 const rotatedAgentRequest = new Request('https://modoosise.com/api/lotto/pick', {
   method: 'POST',
   headers: {
