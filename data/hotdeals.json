@@ -1,8 +1,63 @@
 {
-  "updatedAt": "2026-09-01T01:31:24+09:00",
+  "updatedAt": "2026-09-01T06:40:48+09:00",
   "deals": [
     {
-      "title": "네이버멤버십_ 신라면, 안성탕면+짜파게티, 삼양라면, 프링글스, 뚝심, 더말린, 어메이징 오트, 오트몬드 프로틴, 오레오 등",
+      "title": "랜덤포인트",
+      "mall": "네이버페이",
+      "price": null,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106823",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-31T20:19:58.000Z"
+    },
+    {
+      "title": "9월 주요 할인 행사 정리 (9/1~30)",
+      "mall": "이마트24,세븐일레븐",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106822",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-31T18:43:29.000Z"
+    },
+    {
+      "title": "9월 슈퍼세일 &amp; 주요 할인 행사 (9/1~30)",
+      "mall": "CU편의점",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106821",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-31T18:34:16.000Z"
+    },
+    {
+      "title": "9월 갓세일 &amp; 주요 할인 행사 정리 (9/1~30)",
+      "mall": "GS25",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106820",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-08-31T18:16:52.000Z"
+    },
+    {
+      "title": "해남 꿀고구마, 3kg",
+      "mall": "쿠팡",
+      "price": 15300,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=730632",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-08-31T17:37:27.000Z"
+    },
+    {
+      "title": "네이버멤버십_ 신라면, 안성탕면+짜파게티, 삼양라면, 프링글스, 뚝심, 더말린, 어메이징 오트, 오트몬드 프로틴, 오레오, 매일두유 고단백 등",
       "mall": "네이버",
       "price": null,
       "cat": "건강",
@@ -90,7 +145,7 @@
       "date": "2026-08-31T15:46:53.000Z"
     },
     {
-      "title": "통화 500분, 데이터 15GB",
+      "title": "SKT망 통화 500분, 데이터 15GB",
       "mall": "프리티",
       "price": 4960,
       "cat": "기타",
@@ -220,17 +275,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-08-31T15:19:53.000Z"
-    },
-    {
-      "title": "브라더 무한잉크 복합기 빅세일",
-      "mall": "G마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=730617",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-08-31T15:19:40.000Z"
     },
     {
       "title": "일일적립, 클릭 115원, 라이브예고 19원",
@@ -453,28 +497,6 @@
       "date": "2026-08-31T02:42:05.000Z"
     },
     {
-      "title": "(PC)하궤2 우로보로스 박스 133,300원 배송비 3000원",
-      "mall": "소프라노몰",
-      "price": 3000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106793",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-31T02:28:34.000Z"
-    },
-    {
-      "title": "대천김 들기름 캔김 30g x 5캔",
-      "mall": "롯데온",
-      "price": 18660,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106792",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-31T02:08:02.000Z"
-    },
-    {
       "title": "간편 구운 순살 고등어 렌지고등어 전자렌지 고등어구이 필렛 25,910원",
       "mall": "네이버",
       "price": 25910,
@@ -484,28 +506,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-31T01:55:00.000Z"
-    },
-    {
-      "title": "코크제로+닥터페퍼제로 350ml 48캔",
-      "mall": "지마켓",
-      "price": 32430,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106791",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-31T01:47:32.000Z"
-    },
-    {
-      "title": "맥도날드 포인트 네이버 쿠키로 교환 (2000p- 10쿠키)",
-      "mall": "맥도날드앱",
-      "price": null,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106790",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-08-31T01:35:10.000Z"
     },
     {
       "title": "독일산 밀크씨슬 유기농 올리브오일함유 실리마린 간에좋은 영양제 30캡슐, 1개 3,000원",
