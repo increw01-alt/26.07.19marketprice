@@ -47,10 +47,21 @@
     return kst.slice(0, 10);
   };
 
+  // 업비트는 초당 요청 한도를 넘으면 429 를 주는데, 이때 CORS 헤더가 빠져
+  // 브라우저에선 fetch 자체가 실패로 보입니다. 잠시 후 1회 재시도로 흡수합니다.
   async function getJSON(url) {
-    const res = await fetch(url);
-    if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
-    return res.json();
+    let lastErr;
+    for (let attempt = 0; attempt < 2; attempt += 1) {
+      if (attempt) await new Promise((r) => setTimeout(r, 800));
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(`${url}: HTTP ${res.status}`);
+        return await res.json();
+      } catch (err) {
+        lastErr = err;
+      }
+    }
+    throw lastErr;
   }
 
   const candleCache = new Map();
