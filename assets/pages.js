@@ -1028,7 +1028,9 @@ async function renderFeed() {
         .map((result) => ({
           round: finite(result.round),
           best: finite(result.best),
-          at: String(result.at ?? ''),
+          // at 은 밀리초 epoch 숫자입니다. String() 으로 감싸면
+          // new Date("1787…") 가 날짜 문자열 파싱을 시도해 Invalid Date(NaN)가 됩니다.
+          at: finite(result.at),
           sample: validBalls(result.sample),
         }))
         .filter((result) => result.round > 0 && result.best >= 1 && result.best <= 5 && result.sample.length === 6)
@@ -1043,11 +1045,15 @@ async function renderFeed() {
   $('#feed-list').innerHTML = list
     .map((r) => {
       const d = new Date(r.at);
-      const when = `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}. ${d.getHours()}시 ${String(d.getMinutes()).padStart(2, '0')}분`;
+      // 시각이 없거나 깨진 레코드는 시간 문구 없이 표시합니다.
+      const whenText =
+        r.at > 0 && !Number.isNaN(d.valueOf())
+          ? `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}. ${d.getHours()}시 ${String(d.getMinutes()).padStart(2, '0')}분에 뽑은 번호`
+          : '뽑은 번호';
       const hi = r.best >= 1 && r.best <= 3;
       return `<div class="feed-row${hi ? ' hi' : ''}">
         <span class="feed-rank ${hi ? 'rank-hi' : 'rank-lo'}">${hi ? '당첨 · ' : ''}${RANK_LABEL[r.best]}</span>
-        <span class="feed-when">${when}에 뽑은 번호</span>
+        <span class="feed-when">${whenText}</span>
         <span class="balls balls-sm">${ballsHtml(r.sample)}</span>
         <span class="feed-round">${r.round}회</span>
       </div>`;
