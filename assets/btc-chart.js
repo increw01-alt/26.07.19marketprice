@@ -4,8 +4,7 @@
 (function initBtcChart(root) {
   'use strict';
 
-  const MARKET = 'KRW-BTC';
-  const API = 'https://api.upbit.com/v1';
+  const API = '/api/btc'; // 자체 프록시 — 업비트 origin 레이트리밋(분당 ~10회) 우회 + 엣지 캐시
   const FAV_KEY = 'modoo-btc-fav';
 
   const fmt0 = (n) => Math.round(Number(n)).toLocaleString('ko-KR');
@@ -47,8 +46,7 @@
     return kst.slice(0, 10);
   };
 
-  // 업비트는 초당 요청 한도를 넘으면 429 를 주는데, 이때 CORS 헤더가 빠져
-  // 브라우저에선 fetch 자체가 실패로 보입니다. 잠시 후 1회 재시도로 흡수합니다.
+  // 일시적 실패(업스트림 오류·네트워크 순단)를 잠시 후 1회 재시도로 흡수합니다.
   async function getJSON(url) {
     let lastErr;
     for (let attempt = 0; attempt < 2; attempt += 1) {
@@ -69,7 +67,7 @@
     const r = RANGES[rangeKey];
     const cached = candleCache.get(rangeKey);
     if (cached && Date.now() - cached.at < r.ttl) return cached.list;
-    const rows = await getJSON(`${API}/candles/${r.path}?market=${MARKET}&count=${r.count}`);
+    const rows = await getJSON(`${API}?kind=candles&path=${r.path}&count=${r.count}`);
     // 업비트는 최신순으로 주므로 과거→현재로 뒤집습니다.
     const list = (Array.isArray(rows) ? rows : [])
       .slice()
@@ -220,7 +218,7 @@
    */
   async function applyTicker(container, dayCandles) {
     try {
-      const [t] = await getJSON(`${API}/ticker?markets=${MARKET}`);
+      const [t] = await getJSON(`${API}?kind=ticker`);
       if (!t) return;
       const now = container.querySelector('.btc-now');
       if (now && Number.isFinite(t.trade_price)) now.textContent = `${fmt0(t.trade_price)}원`;
