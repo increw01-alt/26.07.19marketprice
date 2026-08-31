@@ -60,6 +60,8 @@ async function pageHome() {
     put('#gift-rows', R.giftRows(home));
     // #quick-grid 는 데이터와 무관한 정적 링크라 프리렌더 그대로 둡니다.
   }
+  // 업비트 인터랙티브 차트로 점진 향상 (스크립트/API 실패 시 정적 차트 유지)
+  globalThis.MODOO_BTC_CHART?.enhance();
   setStatus(home.updatedAt);
 }
 

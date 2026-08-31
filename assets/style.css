@@ -2291,3 +2291,140 @@ output {
 @media (prefers-reduced-motion: reduce) {
   .hero-float, .hero-float .hero-card, .hero-float-pill, .hero-dot { animation: none !important; }
 }
+
+/* ============================================================
+   B단계 — BTC 인터랙티브 차트 (업비트 캔들)
+   ============================================================ */
+.btc-fav {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+}
+.btc-fav svg { width: 17px; height: 17px; }
+
+.btc-tabs {
+  display: flex;
+  gap: 2px;
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 3px;
+  width: max-content;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin-top: 14px;
+}
+.btc-tabs::-webkit-scrollbar { display: none; }
+.btc-tabs button {
+  padding: 6px 12px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 700;
+  background: transparent;
+  color: var(--color-muted-fg);
+  white-space: nowrap;
+  transition: color 0.15s ease, background 0.15s ease;
+}
+.btc-tabs button[aria-pressed="true"] {
+  background: #ffffff;
+  color: #1d4ed8;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.14);
+}
+:root[data-theme="dark"] .btc-tabs { background: var(--color-surface-2); }
+:root[data-theme="dark"] .btc-tabs button { color: var(--color-muted-fg); }
+:root[data-theme="dark"] .btc-tabs button[aria-pressed="true"] {
+  background: var(--color-surface);
+  color: var(--color-primary);
+}
+
+.btcx { margin-top: 18px; }
+.btcx-plot {
+  position: relative;
+  height: 236px;
+  margin-left: 74px;
+}
+.btcx-ygrid { position: absolute; inset: 0; pointer-events: none; }
+.btcx-yline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed var(--color-border);
+}
+.btcx-yline span {
+  position: absolute;
+  right: 100%;
+  margin-right: 10px;
+  top: -7px;
+  font-size: 11px;
+  color: var(--color-muted-fg);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.btcx-svg { position: absolute; inset: 0; width: 100%; height: 100%; }
+.btcx-hit { position: absolute; inset: 0; cursor: crosshair; }
+.btcx-hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  border-left: 1px solid #b6c4da;
+  pointer-events: none;
+}
+.btcx-dot {
+  position: absolute;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #2563eb;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 4px rgba(15, 23, 42, 0.35);
+}
+.btcx-tip {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  background: #0f172a;
+  color: #fff;
+  font-size: 11.5px;
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 6px 9px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+.btcx-xrow {
+  display: flex;
+  justify-content: space-between;
+  margin: 7px 0 0 74px;
+  font-size: 11px;
+  color: var(--color-muted-fg);
+}
+.btcx-volhead {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0 4px 74px;
+  font-size: 11px;
+  color: var(--color-muted-fg);
+  font-variant-numeric: tabular-nums;
+}
+.btcx-vol {
+  width: calc(100% - 74px);
+  height: 46px;
+  display: block;
+  margin-left: 74px;
+}
+.btcx-vol path { fill: #6d9bd8; }
+:root[data-theme="dark"] .btcx-vol path { fill: #4a5d85; }
+.btcx-cap { margin-top: 8px; }
+
+@media (max-width: 640px) {
+  .btcx-plot, .btcx-xrow, .btcx-volhead { margin-left: 58px; }
+  .btcx-vol { width: calc(100% - 58px); margin-left: 58px; }
+}
