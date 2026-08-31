@@ -438,21 +438,24 @@
       "color": "#c8102e",
       "href": "/giftcard/shinsegae",
       "name": "신세계상품권 10만원권",
-      "value": 96550
+      "value": 96550,
+      "changePct": -0.10346611484738748
     },
     {
       "chip": "롯데",
       "color": "#da291c",
       "href": "/giftcard/lotte",
       "name": "롯데상품권 10만원권",
-      "value": 96550
+      "value": 96550,
+      "changePct": 0.05181347150259067
     },
     {
       "chip": "현대",
       "color": "#00805a",
       "href": "/giftcard/hyundai",
       "name": "현대상품권 10만원권",
-      "value": 96400
+      "value": 96400,
+      "changePct": -0.10362694300518134
     }
   ],
   "seoul": {

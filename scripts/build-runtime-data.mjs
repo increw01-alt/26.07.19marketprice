@@ -23,9 +23,27 @@ if (!markets?.items?.length) throw new Error('data/markets.json is missing or em
 if (!dept?.items?.length) throw new Error('data/giftcards-dept.json is missing or empty');
 if (!lotto?.rounds?.length) throw new Error('data/lotto.json is missing or empty');
 
+// 상품권 일별 이력 — 전일대비 계산용. 같은 날은 최신 값으로 덮고 60일만 유지합니다.
+// (updatedAt 을 dept 스냅샷에서 파생시켜 같은 입력이면 같은 출력 — build-deploy --check 안전)
+const HISTORY_KEEP_DAYS = 60;
+const giftHistory = (await readJSON('data/giftcards-history.json', null)) || { days: {} };
+{
+  const day = String(dept.updatedAt || '').slice(0, 10);
+  const snap = HOME_RENDER.giftSnapshot(dept, manual);
+  if (day.length === 10 && Object.keys(snap).length) {
+    giftHistory.days[day] = snap;
+    const keys = Object.keys(giftHistory.days).sort();
+    for (const k of keys.slice(0, Math.max(0, keys.length - HISTORY_KEEP_DAYS))) {
+      delete giftHistory.days[k];
+    }
+    giftHistory.updatedAt = dept.updatedAt;
+    await writeJSON('data/giftcards-history.json', giftHistory);
+  }
+}
+
 await writeJSON(
   'data/home.json',
-  HOME_RENDER.composeHome({ markets, rates, dept, manual, realestate, lotto })
+  HOME_RENDER.composeHome({ markets, rates, dept, manual, realestate, lotto, giftHistory })
 );
 
 const rounds = lotto.rounds

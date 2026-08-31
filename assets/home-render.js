@@ -76,11 +76,40 @@
     `<span class="hicon${size === 'lg' ? ' hicon-lg' : ''}" style="background:${bg}"><span class="hicon-img" style="background-image:url('${ICONS[key]}')"></span></span>`;
 
   /**
+   * 상품권 하루 스냅샷 — 이력 축적과 홈 데이터가 같은 추출 규칙을 씁니다.
+   * 백화점 3종은 10만원권 최고 매입가, 수동 상품권은 rate 입력분만.
+   */
+  function giftSnapshot(dept, manual) {
+    const snap = {};
+    for (const card of ['신세계', '롯데', '현대']) {
+      const best = (dept?.items || [])
+        .filter((i) => i.card === card && Number(i.face) === 100000 && Number.isFinite(i.buy))
+        .sort((a, b) => b.buy - a.buy)[0];
+      if (best) snap[card] = best.buy;
+    }
+    for (const m of manual?.items || []) {
+      if (typeof m.rate !== 'number') continue;
+      if (!['culture', 'happymoney'].includes(m.id)) continue;
+      snap[m.id] = Math.round((m.face * m.rate) / 100);
+    }
+    return snap;
+  }
+
+  /** "YYYY-MM-DD" 하루 전 날짜 (로케일 무관) */
+  function prevDay(day) {
+    if (typeof day !== 'string' || day.length < 10) return null;
+    const t = Date.UTC(Number(day.slice(0, 4)), Number(day.slice(5, 7)) - 1, Number(day.slice(8, 10))) - 86400000;
+    const d = new Date(t);
+    return `${d.getUTCFullYear()}-${String(d.getUTCMonth() + 1).padStart(2, '0')}-${String(d.getUTCDate()).padStart(2, '0')}`;
+  }
+
+  /**
    * 원본 JSON 묶음 → 홈 데이터. build-runtime-data(→ home.json)와
    * build-static(프리렌더) 이 같은 함수를 써서 어긋남을 원천 차단합니다.
+   * giftHistory(data/giftcards-history.json)가 있으면 상품권 전일대비를 계산합니다.
    */
   function composeHome(src) {
-    const { markets, rates, dept, manual, realestate, lotto } = src;
+    const { markets, rates, dept, manual, realestate, lotto, giftHistory } = src;
     const byId = new Map((markets?.items || []).map((i) => [i.id, i]));
     const pick = (id) => {
       const it = byId.get(id);
@@ -114,22 +143,49 @@
       롯데: { chip: '롯데', color: '#da291c', href: '/giftcard/lotte' },
       현대: { chip: '현대', color: '#00805a', href: '/giftcard/hyundai' },
     };
+    // 등락 — 최근 3일 이내의 직전 기록과 비교합니다. 수집이 하루 이틀 멈춰도
+    // 표시가 유지되고, 기준은 패널 하단에 '직전 기록 대비'로 명시합니다.
+    // 3일보다 오래된 기록만 있으면 낡은 기준으로 화살표를 그리지 않습니다.
+    const today = String(dept?.updatedAt || '').slice(0, 10);
+    let cutoff = today;
+    for (let i = 0; i < 3; i += 1) cutoff = prevDay(cutoff) || cutoff;
+    const prevDays = Object.keys(giftHistory?.days || {})
+      .filter((d) => d >= cutoff && d < today)
+      .sort();
+    const deltaFor = (key, value) => {
+      for (let i = prevDays.length - 1; i >= 0; i -= 1) {
+        const prev = Number(giftHistory.days[prevDays[i]]?.[key]);
+        if (Number.isFinite(prev) && prev > 0 && Number.isFinite(value)) {
+          return ((value - prev) / prev) * 100;
+        }
+      }
+      return null;
+    };
+
     const gifts = [];
     for (const card of ['신세계', '롯데', '현대']) {
       const best = (dept?.items || [])
         .filter((i) => i.card === card && Number(i.face) === 100000 && Number.isFinite(i.buy))
         .sort((a, b) => b.buy - a.buy)[0];
-      if (best) gifts.push({ ...CHIPS[card], name: `${card}상품권 10만원권`, value: best.buy });
+      if (best)
+        gifts.push({
+          ...CHIPS[card],
+          name: `${card}상품권 10만원권`,
+          value: best.buy,
+          changePct: deltaFor(card, best.buy),
+        });
     }
     for (const m of manual?.items || []) {
       if (typeof m.rate !== 'number') continue;
       if (!['culture', 'happymoney'].includes(m.id)) continue;
+      const value = Math.round((m.face * m.rate) / 100);
       gifts.push({
         chip: m.id === 'culture' ? '컬쳐랜드' : '해피머니',
         color: m.id === 'culture' ? '#2d3f8f' : '#b45309',
         href: '/giftcard',
         name: `${m.name} ${m.face >= 10000 ? `${m.face / 10000}만원권` : ''}`.trim(),
-        value: Math.round((m.face * m.rate) / 100),
+        value,
+        changePct: deltaFor(m.id, value),
       });
     }
 
@@ -202,8 +258,19 @@
     if (kosdaq) card('/kosdaq', 'kosdaq', '#ede9fe', '코스닥', '코스닥 지수', fmt2(kosdaq.price), deltaEl(kosdaq.changePct), 2);
     if (usd) card('/fx', 'fx', '#d1fae5', '환율', 'USD/KRW', `${fmt0(usd.price)}원`, deltaEl(usd.changePct), 3);
     if (gold) card('/metal', 'metal', '#fef9c3', '금·은', '금 1돈 (국내)', `${fmt0(gold.price)}원`, deltaEl(gold.changePct), 4);
-    if (home.gifts?.length)
-      card('/giftcard', 'gift', '#ccfbf1', '상품권', `${home.gifts[0].chip} 10만원권`, `${fmt0(home.gifts[0].value)}원`, flatEl('최고 매입가'), 5);
+    if (home.gifts?.length) {
+      const g0 = home.gifts[0];
+      card(
+        '/giftcard',
+        'gift',
+        '#ccfbf1',
+        '상품권',
+        `${g0.chip} 10만원권`,
+        `${fmt0(g0.value)}원`,
+        g0.changePct != null ? deltaEl(g0.changePct) : flatEl('최고 매입가'),
+        5
+      );
+    }
     if (home.seoul)
       card('/realestate', 'estate', '#dbeafe', '부동산', '서울 아파트 ㎡당', `${fmt0(home.seoul.pm2)}만원`, flatEl('전월 기준'), 6);
     if (home.lotto?.firstPrize)
@@ -329,16 +396,20 @@
 </aside>`;
   }
 
-  /** 4) 상품권 패널 행 (실데이터 있는 항목만) */
+  /** 4) 상품권 패널 행 (실데이터 있는 항목만, 전일대비는 이력이 있을 때만) */
   function giftRows(home) {
     return (home.gifts || [])
-      .map(
-        (g) => `<a class="gift-row" href="${g.href}">
+      .map((g) => {
+        const delta =
+          g.changePct != null
+            ? `<span class="gift-d ${dirOf(g.changePct)}">${deltaText(g.changePct)}</span>`
+            : '';
+        return `<a class="gift-row" href="${g.href}">
   <span class="gift-chip" style="background:${g.color}">${esc(g.chip)}</span>
   <span class="gift-name">${esc(g.name)}</span>
-  <span class="gift-val">${fmt0(g.value)}원</span>
-</a>`
-      )
+  <span class="gift-col"><span class="gift-val">${fmt0(g.value)}원</span>${delta}</span>
+</a>`;
+      })
       .join('\n');
   }
 
@@ -394,6 +465,7 @@
 
   const api = {
     composeHome,
+    giftSnapshot,
     catCards,
     kpiCards,
     btcBlock,

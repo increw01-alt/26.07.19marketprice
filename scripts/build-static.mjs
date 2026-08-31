@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260831-btc3';
+const ASSET_VERSION = '20260831-gift1';
 
 const esc = (value) =>
   String(value ?? '')
@@ -829,6 +829,13 @@ const pickGroup = (group) => markets.items.filter((item) => item.group === group
 const marketGrid = (items) => items.map((item, index) => marketCard(item, index)).join('\n');
 
 // 홈 데이터·마크업 — home-render.js 가 단일 소스입니다 (런타임 home.json 과 동일 함수).
+// 상품권 이력은 첫 실행 전엔 없을 수 있으므로 없으면 전일대비 없이 렌더합니다.
+let giftHistory = null;
+try {
+  giftHistory = await readJson('data/giftcards-history.json');
+} catch {
+  giftHistory = null;
+}
 const homeData = HOME_RENDER.composeHome({
   markets,
   rates,
@@ -836,6 +843,7 @@ const homeData = HOME_RENDER.composeHome({
   manual: manualGift,
   realestate,
   lotto,
+  giftHistory,
 });
 if (!homeData.markets.length) throw new Error('홈 프리렌더에 필요한 시세 데이터가 없습니다.');
 

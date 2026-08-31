@@ -2191,7 +2191,12 @@ output {
   flex: none;
 }
 .gift-name { flex: 1; min-width: 0; font-size: 12.3px; font-weight: 600; color: var(--color-muted-fg); line-height: 1.35; word-break: keep-all; }
-.gift-val { flex: none; font-size: 14px; font-weight: 800; letter-spacing: -0.3px; font-variant-numeric: tabular-nums; }
+.gift-col { flex: none; display: flex; flex-direction: column; align-items: flex-end; gap: 1px; }
+.gift-val { font-size: 14px; font-weight: 800; letter-spacing: -0.3px; font-variant-numeric: tabular-nums; }
+.gift-d { font-size: 11.5px; font-weight: 700; }
+.gift-d.up { color: var(--color-up); }
+.gift-d.down { color: var(--color-down); }
+.gift-d.flat { color: var(--color-muted-fg); }
 .gift-note { padding-top: 12px; margin: 0; font-size: 11px; color: #6e5f3d; }
 :root[data-theme="dark"] .gift-note { color: var(--color-muted-fg); }
 
