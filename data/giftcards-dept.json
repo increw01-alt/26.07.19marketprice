@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-01T09:49:59+09:00",
+  "updatedAt": "2026-09-01T14:46:44+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -36,8 +36,8 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96550,
-      "buyRate": 3.45,
+      "buy": 96500,
+      "buyRate": 3.5,
       "sell": 96700,
       "sellRate": 3.3
     },
@@ -48,6 +48,18 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
+      "buy": 96300,
+      "buyRate": 3.7,
+      "sell": 96700,
+      "sellRate": 3.3
+    },
+    {
+      "shopId": "citypay",
+      "shop": "씨티페이",
+      "card": "신세계",
+      "label": "신세계백화점 10만원권",
+      "face": 100000,
+      "method": "이체",
       "buy": 96400,
       "buyRate": 3.6,
       "sell": 96700,
@@ -59,23 +71,11 @@
       "card": "신세계",
       "label": "신세계백화점 10만원권",
       "face": 100000,
-      "method": "이체",
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 96900,
-      "sellRate": 3.1
-    },
-    {
-      "shopId": "citypay",
-      "shop": "씨티페이",
-      "card": "신세계",
-      "label": "신세계백화점 10만원권",
-      "face": 100000,
       "method": "현금",
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96900,
-      "sellRate": 3.1
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96700,
+      "sellRate": 3.3
     },
     {
       "shopId": "citypay",
@@ -132,8 +132,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482500,
-      "buyRate": 3.5,
+      "buy": 482250,
+      "buyRate": 3.55,
       "sell": 483250,
       "sellRate": 3.35
     },
@@ -144,8 +144,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
+      "buy": 96450,
+      "buyRate": 3.55,
       "sell": 96650,
       "sellRate": 3.35
     },
@@ -156,8 +156,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48250,
-      "buyRate": 3.5,
+      "buy": 48225,
+      "buyRate": 3.55,
       "sell": 48325,
       "sellRate": 3.35
     },
@@ -168,8 +168,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482500,
-      "buyRate": 3.5,
+      "buy": 482000,
+      "buyRate": 3.6,
       "sell": 483250,
       "sellRate": 3.35
     },
@@ -180,8 +180,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96650,
       "sellRate": 3.35
     },
@@ -192,8 +192,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48250,
-      "buyRate": 3.5,
+      "buy": 48200,
+      "buyRate": 3.6,
       "sell": 48325,
       "sellRate": 3.35
     },
@@ -206,8 +206,8 @@
       "method": null,
       "buy": 481750,
       "buyRate": 3.65,
-      "sell": 482500,
-      "sellRate": 3.5
+      "sell": 483000,
+      "sellRate": 3.4
     },
     {
       "shopId": "choigo",
@@ -218,8 +218,8 @@
       "method": null,
       "buy": 96350,
       "buyRate": 3.65,
-      "sell": 96500,
-      "sellRate": 3.5
+      "sell": 96600,
+      "sellRate": 3.4
     },
     {
       "shopId": "choigo",
@@ -230,8 +230,8 @@
       "method": null,
       "buy": 48175,
       "buyRate": 3.65,
-      "sell": 48250,
-      "sellRate": 3.5
+      "sell": 48300,
+      "sellRate": 3.4
     },
     {
       "shopId": "choigo",
