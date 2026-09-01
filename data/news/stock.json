@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-09-01T19:34:59+09:00",
+  "updatedAt": "2026-09-02T00:15:31+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "삼성전자·SK하이닉스 자사주 매입, 코스피 반등 이끌며 투자자 관심 집중",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByVDNuUmpTWU5JdmpFd09ldVI1aFBpOXJGcUkxb0w4aUota3dkVWt1U005aXpQMTc1Nm9EZVp2aEl6Sm00ZTdkSVI4dC1NYlBXeERqR3M0T083NE0xekNRZjVjUEs2MkRf?oc=5",
+      "source": "공감신문",
+      "date": "2026-09-01T11:44:36.000Z"
+    },
+    {
+      "title": "코스피, 중동 긴장·美 증시 약세 딛고 반등…코스닥은 하락",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BVXJaSzUtbDRYZElNMXltdGJ4blRUZFhZT3hCYzNUajNTSFZucFhNVUVrVmttVFhsV2t1SEtqU3E1YjhDelhiV0kteno3QVZWRVk4dktkVWgyYmtwZVFEV1hvMS1BdzV0Zm5UUzFxYw?oc=5",
+      "source": "프리진뉴스",
+      "date": "2026-09-01T11:43:04.000Z"
+    },
     {
       "title": "중동 악재에도 코스피 뒷심…반도체주 반등에 6836 마감",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9DWndqeGpSemtBeFNiM2U4YXg3T0pnUld2SkZCMDF5VU9uNDFLRDNhTXJzYk1qZEJnTE5td0o3bERmX1luYVJnbV9UUUZ4LXRVci1QNHBzVG9PUTc5cHhyY3FjTVRoei05UGFSUkY3S04?oc=5",
@@ -15,10 +27,22 @@
       "date": "2026-09-01T09:01:00.000Z"
     },
     {
+      "title": "“구리는 AI 투자, 은은 코스피 수급을 가리켰다”⋯원자재로 보는 증시 전망",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51Q01PS1Y0YnVWdkVoNW5ySjhsdlZYNFFrSzkxMVRvdUlvYWRKcWpROTY0ekdxckVHVDZPanZIdmUtU0FicWxrTi1yOElIZ0RyQjRVYw?oc=5",
+      "source": "이투데이",
+      "date": "2026-09-01T09:00:00.000Z"
+    },
+    {
       "title": "유가·금리 충격 딛은 코스피…‘삼전닉스’가 받쳤다",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1Xb1cybllVZTJ1anVFTUZoNHZtX0x1bXpxSmtfYUplWktfbnUtOE1aUHV2c2ZnSm92RHZLRnpYclF6OWRXX2lRQXNKdmd6NzZ5NGpYZ3F1dmdQUXRZZzNDRFRDYVJVQ2Q3WC0ySg?oc=5",
       "source": "mstoday.co.kr",
       "date": "2026-09-01T08:31:44.000Z"
+    },
+    {
+      "title": "8월 반도체 수출 호조..코스피 전약후강 마감",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1IU3R0S0w1ei1tM2xiMW5HaWNmZmtWQ0hrdDhrSHRmWFNKQXYzT0d0di1uLV9uekJIbG4tb1Y4ZC1uNEV2dmdqZW8xaW5QNjdscWpYQ01CaHJlNG1HNVExRQ?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-09-01T08:03:44.000Z"
     },
     {
       "title": "8월 반도체 수출 호조..코스피 전약후강 마감",
@@ -29,7 +53,7 @@
     {
       "title": "코스피, 반도체 강세에 2거래일 연속↑",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAtMnhUU3pKTUxzbGJDQVFoUlZvdEtsVWxKNzAyZldDdWxTeXc0N2NiWDg0YnFxcWZjMkdzcVlKc3FLOWlTTUZ6aG41MGNHanJndFdJbTdCeXh1MUhCS21ZT3JfS0NiTTBTNE55dy1R?oc=5",
-      "source": "thereport.co.kr",
+      "source": "더리포트",
       "date": "2026-09-01T07:42:28.000Z"
     },
     {
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0zemZCeldzbzNibDQ3em1mSnl1eGJrUk5CZnlBOElTNzYyT2Iydk1FUURQcEltcjlyUVpRcUk0RTRYZVNHNy1PanNZbWNpcUFQdFE5NnM3S1ZTMk8yXzdSV1RGUDNJem9lWnpvZlZiTznSAXRBVV95cUxPVmN0Mm5qbkd6a0lZRXZVR3FtOTNEQjJ1UjJrQW1zWUZraXhSa29RZ090TkpfY1g2QTJ3ckxJVUhpRk1LT041UmEtVkZnSmF6UjlrV0dQQnFBVjJwUnk4YUduaDIzZjBFdHZaOTAycS1WVUtxMw?oc=5",
       "source": "연합인포맥스",
       "date": "2026-08-26T07:05:00.000Z"
-    },
-    {
-      "title": "또 '전약후강' 코스피 0.97%↑…거래량, 올해평균의 절반 밑으로(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE90ejVvMDRZTWFrdWdPOUlFSjNNS2pHYWJBYTJ2QlBsLUY4eUp4MG5NemNCSjhpX0xienRsQWpLMFRtNEF6Z3czSDBocC1FLTR0Mk13?oc=5",
-      "source": "네이트",
-      "date": "2026-08-26T07:04:00.000Z"
-    },
-    {
-      "title": "‘엔비디아 실적·한은 기준금리’ 경계감에 몸사린 코스피 0.97% 상승 마감",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE12ZE5fenBFaE9zek43al9Ubk9pZXZYOE0yc3l4U0l0dmluYVhDSXpQZ2hsOHdqdmRmTmtmOVBxajl5YnhqbG5NUXZBMDNIZzhMek03U19saExDUmFMcElpb2VR?oc=5",
-      "source": "이코노미스트",
-      "date": "2026-08-26T06:59:00.000Z"
-    },
-    {
-      "title": "[마감시황] 코스피, 엔비디아 실적 발표 대기 속 강보합권",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YQmNCYXB5QXM1X3JqTkJqajhaVUgtQmdFdnNDTldMYndiRVlxSkxEdEp0WTJSbVBrV0tyb3lNY01pc202OW5TZ09BMmtFV2h6VDJKV0NtZFgtaVhBdnZ6TlhyeXh1djRoSTZ5b0xlMlo?oc=5",
-      "source": "신아일보",
-      "date": "2026-08-26T06:57:23.000Z"
-    },
-    {
-      "title": "[증시 레이더] 코스피 0.97% 상승⋯반도체 반등에 6,800선 회복",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBpMVBxcFIwV2lnYUhsa1o0NGdscjlaZmdNdkx6eXRfM2Zxc0hwM3dPOENDdUdQMVB6emIzZ3VrWDFHUjBqTnUza1RxSUwtcW1pRk9faDgwRnhmR3A5d1E?oc=5",
-      "source": "포커스온경제",
-      "date": "2026-08-26T06:54:39.000Z"
     }
   ]
 }
