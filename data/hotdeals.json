@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-09-03T06:36:32+09:00",
+  "updatedAt": "2026-09-03T08:37:59+09:00",
   "deals": [
+    {
+      "title": "Keep on Mining! 할인",
+      "mall": "스팀",
+      "price": 3640,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106902",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-02T23:37:21.000Z"
+    },
+    {
+      "title": "차량용소변기 일회용 휴대용 소변봉투 캠핑 이동식 소변기 간이변기 소변팩1P",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://naver.me/5NejiSgo",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-02T23:32:29.000Z"
+    },
+    {
+      "title": "한예지 가든 플라워 3겹 천연펄프 화장지, 30m, 30롤, 2팩",
+      "mall": "토스",
+      "price": null,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731266",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-02T23:16:03.000Z"
+    },
+    {
+      "title": "몽베스트 블랜딩 티 홍자,녹차 4종 외 40포",
+      "mall": "11번가",
+      "price": 4840,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731265",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-02T22:54:11.000Z"
+    },
+    {
+      "title": "이지앤프리 헬시올라인 핸들형 A세트 2종3p",
+      "mall": "GSSHOP",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731264",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-02T22:53:42.000Z"
+    },
+    {
+      "title": "iOS 일시무료 두번알림",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/79862",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-02T22:48:15.000Z"
+    },
+    {
+      "title": "프리메라 맨 오가니언스 2종 세트",
+      "mall": "쿠팡",
+      "price": 29830,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731263",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-02T22:44:19.000Z"
+    },
+    {
+      "title": "컬러풀 RTX5080 화이트 + 컨트롤 레조넌트 / 2,170,000원",
+      "mall": "지마켓",
+      "price": 2170000,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106901",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-02T22:40:46.000Z"
+    },
+    {
+      "title": "PS5 듀얼센스 + 메타포 리판타지오 / 85,940원",
+      "mall": "지마켓",
+      "price": 85940,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106900",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-02T22:26:15.000Z"
+    },
+    {
+      "title": "레드 데드 리뎀션 2 / 18,250원",
+      "mall": "스팀",
+      "price": 18250,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106899",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-02T22:12:18.000Z"
+    },
+    {
+      "title": "제주 삼다수, 라벨랜덤, 500ml, 40개13,900원 무배",
+      "mall": "토스",
+      "price": 13900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731262",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-02T22:07:38.000Z"
+    },
+    {
+      "title": "포르자 프렌차이즈 세일 / 가격 다양",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106898",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-02T22:03:17.000Z"
+    },
     {
       "title": "용의 나라 룬 팩토리 36,190원",
       "mall": "스팀",
@@ -176,61 +308,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-02T15:25:58.000Z"
-    },
-    {
-      "title": "롯데 월드콘 설레임 구구콘 돼지콘 12개+12개 골라담기",
-      "mall": "오늘의집",
-      "price": 21595,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731251",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-02T15:21:17.000Z"
-    },
-    {
-      "title": "광천김 3대째 달인 재래도시락김 선물세트 27봉",
-      "mall": "네이버",
-      "price": 12920,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731249",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-02T15:20:12.000Z"
-    },
-    {
-      "title": "칭따오 0.0 논알콜 맥주 330ml 24캔",
-      "mall": "옥션",
-      "price": 16800,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731250",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-02T15:20:10.000Z"
-    },
-    {
-      "title": "선주발송 구룡포 자숙 홍게 A급 3kg 8~12미",
-      "mall": "지마켓",
-      "price": 24900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731248",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-02T15:19:57.000Z"
-    },
-    {
-      "title": "미소 돼지불고기 간장맛,고추장맛 200g 5팩",
-      "mall": "지마켓",
-      "price": 13990,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731247",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-02T15:19:13.000Z"
     },
     {
       "title": "일일적립, 클릭 58원, 라이브예고 7원",
@@ -475,17 +552,6 @@
       "date": "2026-09-02T01:00:58.000Z"
     },
     {
-      "title": "마인크래프트 던전스2사전예약",
-      "mall": "이마트앱",
-      "price": 34800,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106870",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-02T01:00:00.000Z"
-    },
-    {
       "title": "미니 애플크라운 냉동생지 42g 120개 박스출고 아이스박스 무료포장 [원산지:덴마크]",
       "mall": "임박특가",
       "price": null,
@@ -495,50 +561,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-09-02T00:55:49.000Z"
-    },
-    {
-      "title": "펩시 제로슈거 라임/제로카페인 210ml 60캔",
-      "mall": "롯데온",
-      "price": 22870,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106869",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-02T00:18:56.000Z"
-    },
-    {
-      "title": "The Forest 할인",
-      "mall": "스팀",
-      "price": 4510,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106868",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-01T23:45:26.000Z"
-    },
-    {
-      "title": "나랑드 제로 그린애플, 245ml, 30개",
-      "mall": "쿠팡와우",
-      "price": 10980,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106867",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-01T23:29:18.000Z"
-    },
-    {
-      "title": "닌텐도 스위치2 703,000원 Npay 카드혜택가",
-      "mall": "컴퓨존",
-      "price": 703000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106866",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-01T21:37:32.000Z"
     },
     {
       "title": "9월 2일 네이버페이 163원 + 랜덤 포인트",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-08-31T15:46:53.000Z"
-    },
-    {
-      "title": "iOS 일시무료 Mood Note",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/79694",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-31T13:51:28.000Z"
-    },
-    {
-      "title": "간편 구운 순살 고등어 렌지고등어 전자렌지 고등어구이 필렛 25,910원",
-      "mall": "네이버",
-      "price": 25910,
-      "cat": "식품",
-      "link": "https://naver.me/xbjUUpEX",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-08-31T01:55:00.000Z"
     }
   ]
 }
