@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-09-03T20:46:29+09:00",
+  "updatedAt": "2026-09-04T03:55:33+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "에코프로비엠(247540)",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa1JJeVRfekdveGhrRnlncHdZdUZybzItUDgxaHk3VGZEMWR2NE9FdDdaS0xUSVVFNHVrWF85dVVkZGdta1kyTk9HNUY0SG15dkQyZW1mQmFRVHg2bHpFYmRKN0l4bktVOFhKZERfblB4cVQ1R1lOaC1pNHZhVUk4QlRPNjZFQWV0enZvdDc3U2huZlJZMnNN?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-09-03T15:28:25.000Z"
+    },
     {
       "title": "인텔리빅스·에이엔에이치스트럭쳐, 코스닥 상장예심 통과",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5aQ1Vibl9SUU1mbEl3TERFVGRXT1R4YUhoM2t0eVFkbG56VGVKakx2QlFMbjd0dWQ0SGctSjVNTUt0MkhXOVN0Q3RMbm9MS0RsdXc?oc=5",
@@ -9,10 +15,22 @@
       "date": "2026-09-03T10:52:05.000Z"
     },
     {
+      "title": "인텔리빅스·에이엔에이치스트럭쳐, 코스닥 상장예심 통과",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE50OVRrbVM3RnVyRV9UZkdJNzU2b2V0dTh3Q05XYWVFd2hkdzhfUzlsUnppeU5ZQUNvU1E0YU50STZTOHVFMkV5d0NKQnJDZDFEVC1iQVFyazNpZWvSAWBBVV95cUxONTVBdmhYVWg1MWRXY1RMdVhoVm9xYW1vNVAyMm8ydFBtSmNWV3M1V0dGQ2dkYjhDejM0RU1ZNTRXV01hTGhOWWZvOHNSZDdiSVNYSHhoMENtdFRUUU1UdXc?oc=5",
+      "source": "연합뉴스",
+      "date": "2026-09-03T10:52:05.000Z"
+    },
+    {
       "title": "[심층분석] 미 증시 반등에도 엇갈린 코스피-코스닥, 구조적 셈법과 한국 경제의 시험대",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LZm5lWmRYVFl5ZkN3YUFPY29EZll4Q3BBY0tUREJiYllLblVRSm9zTDduQlpOS3BiZFZaeGVuTDJWbDQzbVBSb2RBalNOUHBQWVpSUFFBVUxKVlk?oc=5",
       "source": "데일리연합",
       "date": "2026-09-03T08:40:04.000Z"
+    },
+    {
+      "title": "[0903마감체크] 코스피, 변동성 끝 강보합 마감…코스닥은 하락 By 인포스탁데일리",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhSENUOGJocnhld1JfbXNjcFZDR28xT1dfT0Rsd3pwejJTaTdETTIwWFJ4bUFnVlpXellaWHpjTDQxSlNLb3psSTVOazFmOGNCOC1XR3hRMV9BNDF4ZV84U2RNMWkxNV9aNVNrRGthQWE?oc=5",
+      "source": "kr.investing.com",
+      "date": "2026-09-03T08:38:00.000Z"
     },
     {
       "title": "코스피 6,579.48 코스닥 790.21",
@@ -25,6 +43,12 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HTzVSdUQ0RXRZRkV4aFp5OF9hTkhNOWFqSENsQ0swRnJKQ0hYdHJ0bGpTOGtpdzJZVVpzeHVaTE8yUDRYSGwySHpuSW5TaFhLMnBxRmVMaHlycm8?oc=5",
       "source": "KBS 뉴스",
       "date": "2026-09-03T08:27:00.000Z"
+    },
+    {
+      "title": "[ETF 시황] 조선주 반등에 관련 ETF '강세'…코스닥 레버리지는 4%대 ↓",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51Qk05bjktNHVPYU5MMlNEUk01bDVGNXZIOVJISktBNWNrelRsQ0ctcjJxUUM4WHFqTkFMQUpvTDNBbkVCZVhSeXcwMHFhUVZUSlJ5TnNhUU9seFA3?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-09-03T08:02:00.000Z"
     },
     {
       "title": "[마감시황]코스닥 790.21로 4거래일 연속 하락…외국인·기관 동반 매도",
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JZnhITzM5eUxuU1prXzdQOEhZVU84NW1ELXN0Z0lGVHFtSHFvSGpVQXBrYTk0WHFLVUptajMybGxjcG1ZdndOLS1jOE1NSFN0d0N4bUFSU3I0SEtRTHR6UXZ1LV9nSTk0cVE?oc=5",
       "source": "AI타임스",
       "date": "2026-09-01T04:27:41.000Z"
-    },
-    {
-      "title": "[기획] 흑자 코스닥社 10여곳 퇴출 '경고등'…미세조정 가능할까",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBCUTNWMVlHMjB6dV9KeHhiWXkxV2t6UTIwcmpyeExaZXVBOEk4Q282MkJBUUgtV0h1bk5HOGNyWWV5eXF0aEd5UWRHY21TbkNHZ3R0TFREcXd5QnliRTBpSTVBbUM?oc=5",
-      "source": "서울경제TV",
-      "date": "2026-09-01T04:18:49.000Z"
-    },
-    {
-      "title": "[食전食후] 코스피, 외인·기관 매도에도 반도체 반등에 강보합…코스닥 1%대↓",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RUFBSWFI0RGRwTDlXSUU3N0NjYVl2TzFrRkR0eU93NGFYU2VnWXEwb1JQSHBTcktxMERVMWR3eXQ5djU1a3VjWjJTS2VpNkUzVURKUVk5QzJjQdIBWEFVX3lxTE96NWVQakZWZDV2ZGF3bzVwUkVqdWhJMXZLWktwaXVoU3hiRUQ3UFRXaW45UV9reDEtbDNXLVhMaE9WRDZlNnpDVjB6R2RQWGRXakxNNGVmdHY?oc=5",
-      "source": "아주경제",
-      "date": "2026-09-01T04:16:17.000Z"
-    },
-    {
-      "title": "코스피 6,817.26 코스닥 821.27",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NUU9tTTl4NGNaZG5PNEF1Mjl0R18ySjlNUEQtNHdPRldZX0Fwc2pldmxEUFhoTjN3QlF0MjIySG5GRExza1MzUG00RVpkM19xWG93R0dDYWZzMkE?oc=5",
-      "source": "KBS 뉴스",
-      "date": "2026-09-01T03:55:00.000Z"
-    },
-    {
-      "title": "코스닥 거래대금 상반기 13조→7~8월 6조 ‘반토막’… “자금 유인책을”",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAzLVJDSzVHSVlONGU4V1M4ei1xcnB3QTFkbWFkOWExTThTM1R1VE5uUTBJWUFoRVRZZmkwRlphTWE1YWp4VF9Pc2h3WG15MmdP?oc=5",
-      "source": "문화일보",
-      "date": "2026-09-01T03:02:40.000Z"
     }
   ]
 }
