@@ -15,7 +15,8 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260831-gift1';
+const ASSET_VERSION = '20260903-nav2';
+const USED_CAR_ASSET_VERSION = '20260903-car7';
 
 const esc = (value) =>
   String(value ?? '')
@@ -339,7 +340,13 @@ function staticNavigation(page) {
 }
 
 function staticTopNav(page) {
-  const links = SITE_CONFIG.pages.map((item) => {
+  const topPages = SITE_CONFIG.pages.filter((item) => item.topNav !== false);
+  const home = topPages.find((item) => item.id === 'home');
+  const giftcard = topPages.find((item) => item.id === 'giftcard');
+  const orderedPages = home && giftcard
+    ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
+    : topPages;
+  const links = orderedPages.map((item) => {
     const current = item.id === page ? ' aria-current="page"' : '';
     return `<a class="top-link" href="${esc(item.href)}"${current}>${esc(item.nav || item.label)}</a>`;
   }).join('');
@@ -383,11 +390,11 @@ const staticFooter = `<footer class="site-footer">
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <span class="brand-mark">모두의 시세</span>
-      <p>대한민국 모든 시세를 한눈에 제공하는 시장 정보 서비스입니다. 코인·주식·환율·금·상품권·부동산·로또까지 매시간 갱신합니다.</p>
+      <p>대한민국의 금융·생활·자동차 지표를 한눈에 제공하는 시장 정보 서비스입니다.</p>
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -396,7 +403,7 @@ const staticFooter = `<footer class="site-footer">
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`;
@@ -801,7 +808,7 @@ ${rows.join('\n')}
 `;
 }
 
-const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate] = await Promise.all([
+const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate, carSales, usedCarSales] = await Promise.all([
   readJson('data/markets.json'),
   readJson('data/giftcards-dept.json'),
   readJson('data/giftcards.json'),
@@ -810,6 +817,8 @@ const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate] = awa
   readJson('data/rates.json'),
   readJson('data/hotdeals.json'),
   readJson('data/realestate.json'),
+  readJson('data/car-sales.json'),
+  readJson('data/used-car-sales.json'),
 ]);
 
 for (const [label, value, key] of [
@@ -819,6 +828,8 @@ for (const [label, value, key] of [
   ['lotto', lotto, 'rounds'],
   ['oil', oil, 'items'],
   ['rates', rates, 'items'],
+  ['car-sales', carSales, 'months'],
+  ['used-car-sales', usedCarSales, 'months'],
 ]) {
   if (!Array.isArray(value[key])) throw new Error(`data/${label}.json: ${key} 배열이 없습니다.`);
 }
@@ -925,6 +936,12 @@ const shellPlan = {
   'giftcard.html': { page: 'giftcard', stamp: dept.updatedAt },
   'hotdeal.html': { page: 'hotdeal', stamp: hotdeals.updatedAt },
   'realestate.html': { page: 'realestate', stamp: realestate.updatedAt },
+  'car.html': { page: 'car', stamp: carSales.updatedAt },
+  'car/domestic.html': { page: 'car-domestic', stamp: carSales.updatedAt },
+  'car/imported.html': { page: 'car-imported', stamp: carSales.updatedAt },
+  'used-car.html': { page: 'used-car', stamp: usedCarSales.updatedAt },
+  'used-car/domestic.html': { page: 'used-car-domestic', stamp: usedCarSales.updatedAt },
+  'used-car/imported.html': { page: 'used-car-imported', stamp: usedCarSales.updatedAt },
   'lotto.html': { page: 'lotto', stamp: lotto.updatedAt },
   'shopping.html': { page: 'shopping-retired', hideStatus: true },
   'about.html': { page: 'about', hideStatus: true },
@@ -954,6 +971,9 @@ for (const [file, regions] of Object.entries(renderPlan)) {
 
 for (const [file, shell] of Object.entries(shellPlan)) {
   const document = await getDocument(file);
+  const assetVersion = file === 'used-car.html' || file.startsWith('used-car/')
+    ? USED_CAR_ASSET_VERSION
+    : ASSET_VERSION;
   document.next = upsertStaticShell(
     document.next,
     file,
@@ -962,8 +982,8 @@ for (const [file, shell] of Object.entries(shellPlan)) {
     shell.hideStatus,
   );
   document.next = document.next.replace(
-    /((?:\/)?assets\/(?:style\.css|site-config\.js|app\.js|pages\.js))\?v=[^"']+/g,
-    `$1?v=${ASSET_VERSION}`,
+    /((?:\/)?assets\/(?:style\.css|site-config\.js|app\.js|pages\.js|car-sales\.js|used-car-sales\.js))\?v=[^"']+/g,
+    `$1?v=${assetVersion}`,
   );
 }
 
@@ -1008,6 +1028,12 @@ const sitemapPages = [
     priority: '0.8',
   },
   { pathname: '/giftcard', lastmod: dept.updatedAt, changefreq: 'hourly', priority: '0.8' },
+  { pathname: '/car', lastmod: carSales.updatedAt, changefreq: 'monthly', priority: '0.8' },
+  { pathname: '/car/domestic', lastmod: carSales.updatedAt, changefreq: 'monthly', priority: '0.7' },
+  { pathname: '/car/imported', lastmod: carSales.updatedAt, changefreq: 'monthly', priority: '0.7' },
+  { pathname: '/used-car', lastmod: usedCarSales.updatedAt, changefreq: 'monthly', priority: '0.8' },
+  { pathname: '/used-car/domestic', lastmod: usedCarSales.updatedAt, changefreq: 'monthly', priority: '0.7' },
+  { pathname: '/used-car/imported', lastmod: usedCarSales.updatedAt, changefreq: 'monthly', priority: '0.7' },
   ...BRAND_PAGES.map(({ key, pathname }) => ({
     pathname,
     lastmod: brandLastmods.get(key),

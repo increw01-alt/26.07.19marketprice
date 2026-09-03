@@ -93,6 +93,7 @@ const SPRITE = `
   <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
   <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5Z"/><path d="m3 13 9 5 9-5"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="m3 10 9-7 9 7v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><path d="M9 22V12h6v10"/></symbol>
+  <symbol id="i-car" viewBox="0 0 24 24"><path d="M5 17h14l-1.5-7.2A2.3 2.3 0 0 0 15.3 8H8.7a2.3 2.3 0 0 0-2.2 1.8Z"/><path d="M3 13h18v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"/><circle cx="7" cy="16" r="1"/><circle cx="17" cy="16" r="1"/><path d="M5 20v1M19 20v1"/></symbol>
   <symbol id="i-oil" viewBox="0 0 24 24"><path d="M7 21h10M8 21V9a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v12"/><path d="M12 7V4M9 4h6"/><path d="M18 11h1a2 2 0 0 1 2 2v3a1 1 0 0 1-2 0v-2"/></symbol>
   <symbol id="i-gauge" viewBox="0 0 24 24"><path d="M12 14a2 2 0 1 0 2-2"/><path d="M13.4 12.6 16 10"/><path d="M4 20a9 9 0 1 1 16 0"/></symbol>
   <symbol id="i-up" viewBox="0 0 24 24"><path d="m6 15 6-7 6 7"/></symbol>
@@ -117,7 +118,13 @@ function currentNavigation(page) {
 }
 
 function topNavMarkup(page) {
-  const links = SITE_CONFIG.pages.map((item) => {
+  const topPages = SITE_CONFIG.pages.filter((item) => item.topNav !== false);
+  const home = topPages.find((item) => item.id === 'home');
+  const giftcard = topPages.find((item) => item.id === 'giftcard');
+  const orderedPages = home && giftcard
+    ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
+    : topPages;
+  const links = orderedPages.map((item) => {
     const current = item.id === page ? ' aria-current="page"' : '';
     return `<a class="top-link" href="${escapeHTML(item.href)}"${current}>${escapeHTML(item.nav || item.label)}</a>`;
   }).join('');
@@ -307,11 +314,11 @@ ${navigationMarkup(page)}`);
   <div class="wrap foot-grid">
     <div class="foot-brand">
       <span class="brand-mark">모두의 <b>시세</b></span>
-      <p>대한민국 모든 시세를 한눈에 제공하는 시장 정보 서비스입니다. 코인·주식·환율·금·상품권·부동산·로또까지 매시간 갱신합니다.</p>
+      <p>대한민국의 금융·생활·자동차 지표를 한눈에 제공하는 시장 정보 서비스입니다.</p>
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -320,7 +327,7 @@ ${navigationMarkup(page)}`);
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷</p>
+    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`,

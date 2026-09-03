@@ -39,6 +39,26 @@
       ],
     },
     {
+      id: 'cars',
+      label: '자동차',
+      icon: 'car',
+      pages: [
+        { id: 'car', href: '/car', label: '전체 판매량', nav: '자동차', icon: 'car' },
+        { id: 'car-domestic', href: '/car/domestic', label: '국산차 판매량', icon: 'car', topNav: false },
+        { id: 'car-imported', href: '/car/imported', label: '수입차 판매량', icon: 'car', topNav: false },
+      ],
+    },
+    {
+      id: 'used-cars',
+      label: '중고차',
+      icon: 'car',
+      pages: [
+        { id: 'used-car', href: '/used-car', label: '전체 판매량', nav: '중고차', icon: 'car' },
+        { id: 'used-car-domestic', href: '/used-car/domestic', label: '국산차 판매량', icon: 'car', topNav: false },
+        { id: 'used-car-imported', href: '/used-car/imported', label: '수입차 판매량', icon: 'car', topNav: false },
+      ],
+    },
+    {
       id: 'tools',
       label: '혜택·도구',
       icon: 'target',

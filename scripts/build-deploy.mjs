@@ -19,6 +19,8 @@ const PUBLIC_FILES = [
   'index.html',
   'about.html',
   'coin.html',
+  'car.html',
+  'used-car.html',
   'energy.html',
   'fx.html',
   'giftcard.html',
@@ -42,6 +44,9 @@ const PUBLIC_FILES = [
 // public data directory. Build-only state such as rss.json and sgg-codes.json
 // deliberately stays outside dist.
 const PUBLIC_DATA_FILES = [
+  'car-rankings.json',
+  'car-sales.json',
+  'used-car-sales.json',
   'giftcards-dept.json',
   'giftcards.json',
   'home.json',
@@ -62,6 +67,8 @@ const PUBLIC_DIRECTORIES = [
     extensions: new Set(['.css', '.js', '.png', '.jpg', '.jpeg', '.webp', '.svg', '.ico', '.woff', '.woff2']),
   },
   { directory: 'giftcard', extensions: new Set(['.html']) },
+  { directory: 'car', extensions: new Set(['.html']) },
+  { directory: 'used-car', extensions: new Set(['.html']) },
 ];
 
 const FORBIDDEN_OUTPUT_PREFIXES = [

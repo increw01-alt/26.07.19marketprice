@@ -1,0 +1,245 @@
+{
+  "version": 1,
+  "status": "provisional",
+  "updatedAt": "2026-09-03T01:08:09.679Z",
+  "latestMonth": "2026-07",
+  "displayMonths": 24,
+  "basis": {
+    "domestic": "KAMA 국내 완성차 내수 출고량",
+    "imported": "KAIDA 회원사 수입 승용차 신규등록량",
+    "total": "국산차 내수 출고량과 수입차 신규등록량의 참고 합계",
+    "notice": "현재 시안은 KAIDA 공개 시장점유율 통계를 사용합니다. 한국교통안전공단 신규등록정보 API 연결 후 국산·수입 모두 동일한 신규등록 기준으로 전환할 예정입니다."
+  },
+  "sources": [
+    {
+      "name": "한국수입자동차협회(KAIDA) 시장점유율",
+      "url": "https://www.kaida.co.kr/ko/statistics/kaidaShareList.do",
+      "checkedAt": "2026-09-03T01:08:09.679Z"
+    },
+    {
+      "name": "한국교통안전공단 자동차종합정보 신규등록정보 서비스",
+      "url": "https://www.data.go.kr/data/15059401/openapi.do",
+      "checkedAt": "2026-09-03T10:00:00+09:00",
+      "state": "connection-pending"
+    }
+  ],
+  "months": [
+    {
+      "month": "2024-01",
+      "domestic": 90015,
+      "imported": 13083,
+      "total": 103098,
+      "importShare": 12.7
+    },
+    {
+      "month": "2024-02",
+      "domestic": 84858,
+      "imported": 16237,
+      "total": 101095,
+      "importShare": 16.1
+    },
+    {
+      "month": "2024-03",
+      "domestic": 102057,
+      "imported": 25263,
+      "total": 127320,
+      "importShare": 19.8
+    },
+    {
+      "month": "2024-04",
+      "domestic": 100724,
+      "imported": 21560,
+      "total": 122284,
+      "importShare": 17.6
+    },
+    {
+      "month": "2024-05",
+      "domestic": 99834,
+      "imported": 24209,
+      "total": 124043,
+      "importShare": 19.5
+    },
+    {
+      "month": "2024-06",
+      "domestic": 95928,
+      "imported": 25300,
+      "total": 121228,
+      "importShare": 20.9
+    },
+    {
+      "month": "2024-07",
+      "domestic": 94811,
+      "imported": 21977,
+      "total": 116788,
+      "importShare": 18.8
+    },
+    {
+      "month": "2024-08",
+      "domestic": 91506,
+      "imported": 22263,
+      "total": 113769,
+      "importShare": 19.6
+    },
+    {
+      "month": "2024-09",
+      "domestic": 92591,
+      "imported": 24839,
+      "total": 117430,
+      "importShare": 21.2
+    },
+    {
+      "month": "2024-10",
+      "domestic": 108210,
+      "imported": 21249,
+      "total": 129459,
+      "importShare": 16.4
+    },
+    {
+      "month": "2024-11",
+      "domestic": 108918,
+      "imported": 23784,
+      "total": 132702,
+      "importShare": 17.9
+    },
+    {
+      "month": "2024-12",
+      "domestic": 105108,
+      "imported": 23524,
+      "total": 128632,
+      "importShare": 18.3
+    },
+    {
+      "month": "2025-01",
+      "domestic": 80396,
+      "imported": 15229,
+      "total": 95625,
+      "importShare": 15.9
+    },
+    {
+      "month": "2025-02",
+      "domestic": 98261,
+      "imported": 20199,
+      "total": 118460,
+      "importShare": 17.1
+    },
+    {
+      "month": "2025-03",
+      "domestic": 108322,
+      "imported": 25229,
+      "total": 133551,
+      "importShare": 18.9
+    },
+    {
+      "month": "2025-04",
+      "domestic": 113356,
+      "imported": 21495,
+      "total": 134851,
+      "importShare": 15.9
+    },
+    {
+      "month": "2025-05",
+      "domestic": 100035,
+      "imported": 28189,
+      "total": 128224,
+      "importShare": 22
+    },
+    {
+      "month": "2025-06",
+      "domestic": 103659,
+      "imported": 27779,
+      "total": 131438,
+      "importShare": 21.1
+    },
+    {
+      "month": "2025-07",
+      "domestic": 96959,
+      "imported": 27090,
+      "total": 124049,
+      "importShare": 21.8
+    },
+    {
+      "month": "2025-08",
+      "domestic": 96420,
+      "imported": 27304,
+      "total": 123724,
+      "importShare": 22.1
+    },
+    {
+      "month": "2025-09",
+      "domestic": 109519,
+      "imported": 32834,
+      "total": 142353,
+      "importShare": 23.1
+    },
+    {
+      "month": "2025-10",
+      "domestic": 90674,
+      "imported": 24064,
+      "total": 114738,
+      "importShare": 21
+    },
+    {
+      "month": "2025-11",
+      "domestic": 104177,
+      "imported": 29357,
+      "total": 133534,
+      "importShare": 22
+    },
+    {
+      "month": "2025-12",
+      "domestic": 104358,
+      "imported": 28608,
+      "total": 132966,
+      "importShare": 21.5
+    },
+    {
+      "month": "2026-01",
+      "domestic": 89489,
+      "imported": 20960,
+      "total": 110449,
+      "importShare": 19
+    },
+    {
+      "month": "2026-02",
+      "domestic": 85186,
+      "imported": 27190,
+      "total": 112376,
+      "importShare": 24.2
+    },
+    {
+      "month": "2026-03",
+      "domestic": 116962,
+      "imported": 33970,
+      "total": 150932,
+      "importShare": 22.5
+    },
+    {
+      "month": "2026-04",
+      "domestic": 104246,
+      "imported": 33993,
+      "total": 138239,
+      "importShare": 24.6
+    },
+    {
+      "month": "2026-05",
+      "domestic": 85803,
+      "imported": 29860,
+      "total": 115663,
+      "importShare": 25.8
+    },
+    {
+      "month": "2026-06",
+      "domestic": 108809,
+      "imported": 38059,
+      "total": 146868,
+      "importShare": 25.9
+    },
+    {
+      "month": "2026-07",
+      "domestic": 95224,
+      "imported": 30976,
+      "total": 126200,
+      "importShare": 24.6
+    }
+  ]
+}

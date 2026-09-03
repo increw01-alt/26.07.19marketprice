@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 96" role="img" aria-label="차량 이미지 준비 중">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eef4ff"/><stop offset="1" stop-color="#f8fafc"/></linearGradient>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#93b4ed"/><stop offset="1" stop-color="#5c83c7"/></linearGradient>
+  </defs>
+  <rect width="160" height="96" rx="14" fill="url(#bg)"/>
+  <path d="M31 59h98l-7-19c-2-5-7-8-12-8H58c-6 0-11 3-14 8l-13 19Z" fill="url(#car)" opacity=".82"/>
+  <path d="M21 58c0-4 3-7 7-7h104c4 0 7 3 7 7v13c0 4-3 7-7 7H28c-4 0-7-3-7-7V58Z" fill="#6f97d8"/>
+  <path d="m50 39-8 15h73l-6-15H50Z" fill="#dceafe" opacity=".92"/>
+  <circle cx="46" cy="75" r="10" fill="#26364f"/><circle cx="46" cy="75" r="4" fill="#cbd8ea"/>
+  <circle cx="116" cy="75" r="10" fill="#26364f"/><circle cx="116" cy="75" r="4" fill="#cbd8ea"/>
+</svg>
