@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-09-04T06:30:52+09:00",
+  "updatedAt": "2026-09-04T08:35:33+09:00",
   "deals": [
+    {
+      "title": "삼양 맛있는라면 20입 (5입 x 4개) /멀티팩",
+      "mall": "G마켓",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731536",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-03T23:31:58.000Z"
+    },
+    {
+      "title": "노바시새우 1+1 새우 제수용 냉동 손질 튀김용",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://naver.me/FDc8gLZx",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-03T23:29:29.000Z"
+    },
+    {
+      "title": "바라던 목살 많은 돼지고기 목전지 제육 구이 1kg 돼지 왕목살 미국산",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://naver.me/58qsKQqp",
+      "direct": true,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-03T23:17:46.000Z"
+    },
+    {
+      "title": "크라운제과 스낵풀충전 15팩",
+      "mall": "지마켓",
+      "price": 10950,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106930",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-03T23:01:37.000Z"
+    },
+    {
+      "title": "지오다노 맨투맨 (13,600/무배)",
+      "mall": "SSF",
+      "price": null,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731535",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-03T23:00:48.000Z"
+    },
+    {
+      "title": "을지로 연탄불고기 4팩",
+      "mall": "11번가",
+      "price": 13860,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731534",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-03T22:41:33.000Z"
+    },
     {
       "title": "멀티비타민 이뮨 에너지샷 30개 1박스 추석선물세트",
       "mall": "동국제약건강몰",
@@ -44,17 +110,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-03T16:57:55.000Z"
-    },
-    {
-      "title": "K2 씬에어(THINAIR) CLEAR W KWU25554",
-      "mall": "지마켓",
-      "price": 146730,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731531",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-03T16:15:25.000Z"
     },
     {
       "title": "오뚜기피자, 뿌셔뿌셔, 나랑드사이다 제로",
@@ -178,17 +233,6 @@
       "date": "2026-09-03T15:33:28.000Z"
     },
     {
-      "title": "피코크 떡갈비 450g 6개 (24,290원/무료) 카드 추가할인",
-      "mall": "G마켓",
-      "price": 24290,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731520",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-03T15:32:39.000Z"
-    },
-    {
       "title": "9월 4일 네이버페이 95원 + 랜덤 포인트",
       "mall": null,
       "price": 95,
@@ -209,17 +253,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-03T15:30:01.000Z"
-    },
-    {
-      "title": "썬키스트 제로소다 355ml 48캔",
-      "mall": "롯데온",
-      "price": 21110,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731519",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-03T15:27:28.000Z"
     },
     {
       "title": "파이널판타지 7 리메이크 시리즈 트릴로지 /",
@@ -519,17 +552,6 @@
       "date": "2026-09-02T22:40:46.000Z"
     },
     {
-      "title": "PS5 듀얼센스 + 메타포 리판타지오 / 85,940원",
-      "mall": "지마켓",
-      "price": 85940,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106900",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-02T22:26:15.000Z"
-    },
-    {
       "title": "9월 3일 네이버페이 93원 + 랜덤 포인트",
       "mall": null,
       "price": 93,
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-09-01T01:26:29.000Z"
-    },
-    {
-      "title": "📱 10GB 이상 월 1,000원 이하 알뜰폰 요금제 추천 — 2026년 9월",
-      "mall": null,
-      "price": 1000,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/79727",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-01T01:25:01.000Z"
-    },
-    {
-      "title": "설렘한입 냉동 미국산 우삼겹 1kg 대패 구이 샤브샤브용",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://naver.me/xKy1yC7o",
-      "direct": true,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-01T01:03:53.000Z"
     }
   ]
 }
