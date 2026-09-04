@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-09-05T06:05:30+09:00",
+  "updatedAt": "2026-09-05T08:31:42+09:00",
   "deals": [
+    {
+      "title": "1+1강아지농구복",
+      "mall": "카카오",
+      "price": 5500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731794",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T23:30:03.000Z"
+    },
+    {
+      "title": "꿀이구마 호박 찹쌀 약과, 30g, 30개",
+      "mall": "토스쇼핑",
+      "price": 4990,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731793",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T23:11:26.000Z"
+    },
+    {
+      "title": "바세린 대용량 바디로션 1000ml 2개",
+      "mall": "지마켓",
+      "price": 11970,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731792",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T23:00:55.000Z"
+    },
+    {
+      "title": "서풍의 광시곡 리마스터 / 44,000원",
+      "mall": "퍼플",
+      "price": 44000,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106955",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-04T23:00:44.000Z"
+    },
+    {
+      "title": "(네이버)대일밴드 뉴 일회용 반창고 표준형 96매 혼합형 126매",
+      "mall": null,
+      "price": 5500,
+      "cat": "기타",
+      "link": "https://smartstore.naver.com/captain-p/products",
+      "direct": true,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T22:53:34.000Z"
+    },
+    {
+      "title": "카스 제로 (0.00) 350ml 2캔 + 카스 레몬 스퀴즈 제로 (0.00) 330ml 2캔",
+      "mall": "네이버",
+      "price": 3000,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731790",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T22:26:11.000Z"
+    },
+    {
+      "title": "농협 행복드림 특등급 새청무쌀 10kg",
+      "mall": "오늘의집",
+      "price": 26952,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731789",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-04T22:00:28.000Z"
+    },
     {
       "title": "씨게이트 바라쿠다 5400 8TB",
       "mall": "알리익스프레스",
@@ -132,72 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-04T15:15:23.000Z"
-    },
-    {
-      "title": "고려홍삼중앙회 녹용홍삼 농축스틱 골드 10ml 120포 + 홍삼스틱 20포",
-      "mall": "옥션",
-      "price": 29900,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731779",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:12:06.000Z"
-    },
-    {
-      "title": "제주삼다수 500ml 40입",
-      "mall": "롯데온",
-      "price": 14780,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731778",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:11:17.000Z"
-    },
-    {
-      "title": "보디가드 남성 순면 트렁크 5매",
-      "mall": "11번가",
-      "price": 19600,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731777",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:10:30.000Z"
-    },
-    {
-      "title": "탄산워싱소다 3kg x 2개",
-      "mall": "G마켓",
-      "price": 9750,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731776",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:10:15.000Z"
-    },
-    {
-      "title": "스팸 클래식 340g x5개+라이트 340g x5개",
-      "mall": "오늘의집",
-      "price": 32968,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731775",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:09:41.000Z"
-    },
-    {
-      "title": "데일리 파자마",
-      "mall": "지마켓",
-      "price": 9680,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731774",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-04T15:09:34.000Z"
     },
     {
       "title": "일일적립, 클릭 42원, 퀴즈미션, 라이브예고 2원",
@@ -550,17 +561,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-03T17:08:19.000Z"
-    },
-    {
-      "title": "질레트랩스 핸들+날총8개+스탠드",
-      "mall": "롯데온",
-      "price": 48060,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106927",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-03T15:42:47.000Z"
     },
     {
       "title": "9월 4일 네이버페이 95원 + 랜덤 포인트",
