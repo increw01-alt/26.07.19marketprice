@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-06T05:45:50+09:00",
+  "updatedAt": "2026-09-06T07:23:37+09:00",
   "deals": [
+    {
+      "title": "스파클 생수, 무라벨, 500ml, 80개",
+      "mall": "토스",
+      "price": 8800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731970",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T22:11:30.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106974",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-05T22:01:40.000Z"
+    },
+    {
+      "title": "킨더 부에노 미니 18개입 4봉 총 72개 외",
+      "mall": "매일유업",
+      "price": 13520,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731969",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T21:55:04.000Z"
+    },
     {
       "title": "Beach Invasion 1944 무료",
       "mall": "에픽",
@@ -165,28 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-05T15:20:10.000Z"
-    },
-    {
-      "title": "김가네식탁 감자탕 5kg 9~10인분 (16,900/무배)",
-      "mall": "G마켓",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731954",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:20:01.000Z"
-    },
-    {
-      "title": "펩시콜라 제로슈거 라임 310ml 24캔",
-      "mall": "롯데온",
-      "price": 11910,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731953",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:18:42.000Z"
     },
     {
       "title": "일일적립, 클릭 28원, 퀴즈미션, 라이브예고 2원",
@@ -506,17 +517,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-04T08:06:14.000Z"
-    },
-    {
-      "title": "롯데 구구 크러스터 660ml 6개",
-      "mall": "롯데온",
-      "price": 23400,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106946",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-04T07:03:54.000Z"
     },
     {
       "title": "아이즈 5G 150G+5Mbps / 무제한(300분) / 무제한 평생 24,900원",
