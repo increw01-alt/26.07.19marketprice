@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05T22:37:38+09:00",
+  "updatedAt": "2026-09-06T01:18:40+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 108962000,
-      "change": -164000,
-      "changePct": -0.15028499,
-      "volume": 61548826830.80438,
+      "price": 108970000,
+      "change": -156000,
+      "changePct": -0.14295402000000001,
+      "volume": 44698583047.23438,
       "spark": [
         92680000,
         91424000,
@@ -156,7 +156,7 @@
         106400000,
         110926000,
         109126000,
-        108962000
+        108970000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 1.19,
+      "price": 1.08,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -439,7 +439,7 @@
       "href": "/giftcard/shinsegae",
       "name": "신세계상품권 10만원권",
       "value": 96500,
-      "changePct": 0.1037344398340249
+      "changePct": 0
     },
     {
       "chip": "롯데",
@@ -447,7 +447,7 @@
       "href": "/giftcard/lotte",
       "name": "롯데상품권 10만원권",
       "value": 96600,
-      "changePct": 0.10362694300518134
+      "changePct": 0
     },
     {
       "chip": "현대",
@@ -455,7 +455,7 @@
       "href": "/giftcard/hyundai",
       "name": "현대상품권 10만원권",
       "value": 96500,
-      "changePct": 0.05184033177812338
+      "changePct": 0
     }
   ],
   "seoul": {
