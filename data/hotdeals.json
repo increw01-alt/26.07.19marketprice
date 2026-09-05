@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-09-06T01:18:59+09:00",
+  "updatedAt": "2026-09-06T03:37:24+09:00",
   "deals": [
+    {
+      "title": "Beach Invasion 1944 무료",
+      "mall": "에픽",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106973",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-05T18:33:39.000Z"
+    },
+    {
+      "title": "Beach Invasion 1944",
+      "mall": "에픽게임즈",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731968",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T18:03:35.000Z"
+    },
+    {
+      "title": "100기가+5MBPS 알뜰요금제 5개월",
+      "mall": "에이모바일",
+      "price": 2900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731967",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T17:44:50.000Z"
+    },
+    {
+      "title": "갤럭시 아이폰 맥세이프 투명 케이스 1+1",
+      "mall": "지마켓",
+      "price": 8720,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731966",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T17:29:13.000Z"
+    },
+    {
+      "title": "레노마 FW 캐시미어 양모 남성 정장",
+      "mall": "G마켓",
+      "price": 91580,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731965",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T17:26:52.000Z"
+    },
+    {
+      "title": "신라면 40개 1박스(21,826원/무료) 적립금 반영 개당 500원꼴",
+      "mall": "농심몰",
+      "price": 500,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731964",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-05T16:33:52.000Z"
+    },
     {
       "title": "아이더 스테롤 L 남녀공용 윈드스타퍼 롱 다운자켓",
       "mall": "옥션",
@@ -123,17 +189,6 @@
       "date": "2026-09-05T15:18:42.000Z"
     },
     {
-      "title": "내츄럴 블루베리퓨레 100 15포 x 3개",
-      "mall": "지마켓",
-      "price": 19460,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731952",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:18:31.000Z"
-    },
-    {
       "title": "일일적립, 클릭 28원, 퀴즈미션, 라이브예고 2원",
       "mall": "네이버페이",
       "price": 2,
@@ -145,28 +200,6 @@
       "date": "2026-09-05T15:14:22.000Z"
     },
     {
-      "title": "초록매실 제로 500ml 20개",
-      "mall": "네이버",
-      "price": 12640,
-      "cat": "기타",
-      "link": "https://naver.me/5XcGJL9Z",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:12:30.000Z"
-    },
-    {
-      "title": "누리푸드 미국산 목전지 250g 8팩 + 초벌삼겹 1팩",
-      "mall": "옥션",
-      "price": 16500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731950",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:12:26.000Z"
-    },
-    {
       "title": "시그니앙75라포레 물티슈 70매20팩",
       "mall": "오늘의집",
       "price": 15736,
@@ -176,28 +209,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-05T15:10:29.000Z"
-    },
-    {
-      "title": "티젠 콤부차 10스틱X13박스 혼합 (130스틱)+퍼플보틀 증정 (네이버멤버십)",
-      "mall": "네이버",
-      "price": 26660,
-      "cat": "기타",
-      "link": "https://shopping.naver.com/festa/onsale/food/6a",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:09:12.000Z"
-    },
-    {
-      "title": "26년 햇 못난이 국내산 나주배 5kg 5~10과",
-      "mall": "G마켓",
-      "price": 15300,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=731948",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-05T15:06:44.000Z"
     },
     {
       "title": "신상 찰떡아이스 2종 MIX 6종구성",
@@ -506,17 +517,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-04T07:03:54.000Z"
-    },
-    {
-      "title": "기동전사 건담 G프레임 FA 데스티니 건담 / 71,400원",
-      "mall": "반다이몰",
-      "price": 71400,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106945",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-04T07:00:00.000Z"
     },
     {
       "title": "아이즈 5G 150G+5Mbps / 무제한(300분) / 무제한 평생 24,900원",
