@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-09-07T01:30:05+09:00",
+  "updatedAt": "2026-09-07T03:41:25+09:00",
   "deals": [
+    {
+      "title": "약단밤 골드 1kg",
+      "mall": "톡딜",
+      "price": 4900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732137",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-06T18:11:05.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/106992",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-06T17:11:55.000Z"
+    },
     {
       "title": "8Bitdo FlipPad 플립패드 스마트폰 게임패드",
       "mall": "G마켓",
@@ -220,17 +242,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-06T15:14:52.000Z"
-    },
-    {
-      "title": "아임비타 멀티비타민 이뮨샷 50일분 외 락토핏 골드 등",
-      "mall": "종근당건강몰",
-      "price": 57900,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732122",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-06T15:12:59.000Z"
     },
     {
       "title": "카페 2천원 이상 결제시 500원 적립 (9/7~13)",
@@ -528,17 +539,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-05T06:24:18.000Z"
-    },
-    {
-      "title": "다이제샌드 바닐라밀크 +초코스프레드+나샌드 각5개씩",
-      "mall": "롯데온",
-      "price": 14210,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/106961",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-05T04:01:57.000Z"
     },
     {
       "title": "9월 5일 네이버페이 92원 + 랜덤 포인트",
