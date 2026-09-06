@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-07T05:53:26+09:00",
+  "updatedAt": "2026-09-07T07:28:59+09:00",
   "deals": [
+    {
+      "title": "헤드앤숄더 클리니컬 스트렝스 400ml 2개",
+      "mall": "네이버",
+      "price": 31320,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732140",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-06T22:11:47.000Z"
+    },
+    {
+      "title": "클리어 미용티슈, 2겹, 300매, 6개",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732139",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-06T22:03:40.000Z"
+    },
+    {
+      "title": "한우물 두번구운 주먹밥 15개 골라담기",
+      "mall": "카카오쇼핑",
+      "price": 10800,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732138",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-06T21:22:16.000Z"
+    },
     {
       "title": "약단밤 골드 1kg",
       "mall": "톡딜",
@@ -200,17 +233,6 @@
       "date": "2026-09-06T15:19:19.000Z"
     },
     {
-      "title": "포포박스 캣타워 고양이 스크래쳐 다층 구조 놀이터",
-      "mall": "네이버",
-      "price": 36000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732125",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-06T15:18:38.000Z"
-    },
-    {
       "title": "이번주 T데이 혜택 (9/7~11)",
       "mall": "T멤버십",
       "price": null,
@@ -220,28 +242,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-06T15:17:28.000Z"
-    },
-    {
-      "title": "G블랙앵거스 LA갈비 4kg 선물세트",
-      "mall": "지마켓",
-      "price": 110960,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732124",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-06T15:16:27.000Z"
-    },
-    {
-      "title": "홍로사과 4kg 중과",
-      "mall": "G마켓",
-      "price": 11900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=732123",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-06T15:14:52.000Z"
     },
     {
       "title": "카페 2천원 이상 결제시 500원 적립 (9/7~13)",
