@@ -24,6 +24,20 @@ const TOPICS = [
   { id: 'giftcard', q: '상품권 시세' },
   { id: 'realestate', q: '아파트 실거래가' },
   { id: 'lotto', q: '로또 판매' },
+  {
+    id: 'car',
+    q: '"완성차 5사" OR "국내 자동차 판매" OR "수입차 판매량" OR "국내 신차 출시" when:21d',
+    include: /자동차|완성차|신차|전기차|판매량/,
+    exclude: /호주|베트남|글로벌 누적|전 세계 누적/,
+    sourceExclude: /Vietnam\.vn/,
+  },
+  {
+    id: 'used-car',
+    q: '("중고차 시세" OR "중고차 거래" OR "중고차 시장" OR "중고차 판매량" OR "중고차 소비자") (케이카 OR 엔카 OR KB차차차 OR 자동차365 OR 헤이딜러 OR 국토부) when:90d',
+    include: /중고차/,
+    exclude: /테러|밀수|범죄|굴착기|우즈벡|수출중고차|수출 중고차|사이트추천|입문 가이드|아마존|블로그|검은 세력|두 얼굴|바가지|토요타.*이익/,
+    sourceExclude: /Naver Blog|Histoire pour tous|경제투데이|오토놀로지|미주조선일보/,
+  },
 ];
 
 const rss = (q) =>
@@ -68,14 +82,34 @@ function parseItems(xml) {
   return out;
 }
 
-const topics = {};
+const requestedArg = process.argv.find((arg) => arg.startsWith('--topics='));
+const requestedIds = requestedArg
+  ? new Set(requestedArg.slice('--topics='.length).split(',').map((id) => id.trim()).filter(Boolean))
+  : null;
+const selectedTopics = requestedIds ? TOPICS.filter((topic) => requestedIds.has(topic.id)) : TOPICS;
+if (!selectedTopics.length) throw new Error('수집할 뉴스 토픽이 없습니다.');
+
+// 일부 토픽만 수동 갱신할 때도 다른 메뉴의 기존 스냅샷을 보존합니다.
+const previousSnapshot = await readJSON(OUT, { topics: {} });
+const topics = { ...(previousSnapshot.topics || {}) };
 let okCount = 0;
 
-for (const t of TOPICS) {
+for (const t of selectedTopics) {
   try {
     const xml = await getText(rss(t.q));
+    const seenTitles = new Set();
     const items = parseItems(xml)
+      .filter((item) => !t.include || t.include.test(item.title))
+      .filter((item) => !t.exclude || !t.exclude.test(item.title))
+      .filter((item) => !t.sourceExclude || !t.sourceExclude.test(item.source || ''))
       .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+      .filter((item) => {
+        const key = item.title
+          .replace(/\s+By\s+[^|]+$/i, '')
+          .replace(/[^\p{L}\p{N}]+/gu, '')
+          .toLowerCase();
+        return key && !seenTitles.has(key) && (seenTitles.add(key), true);
+      })
       .slice(0, PER_TOPIC);
     if (!items.length) throw new Error('기사 0건');
     topics[t.id] = items;
@@ -83,7 +117,7 @@ for (const t of TOPICS) {
     console.log(`${t.id}: ${items.length}건 (${items[0].title.slice(0, 30)}…)`);
   } catch (err) {
     console.error(`${t.id} 실패: ${err.message}`);
-    topics[t.id] = [];
+    if (!Array.isArray(topics[t.id])) topics[t.id] = [];
   }
   await new Promise((r) => setTimeout(r, 500)); // 요청 간격
 }
@@ -94,7 +128,7 @@ await writeJSON(OUT, { updatedAt: nowKST(), topics });
 
 // 누적 아카이브 — 이번에 받은 기사를 기존 아카이브 위에 얹고 링크로 중복 제거.
 // 스냅샷(news.json)은 매시간 교체돼 옛 기사가 사라지지만, 여기엔 계속 쌓입니다.
-for (const t of TOPICS) {
+for (const t of selectedTopics) {
   const fresh = topics[t.id];
   if (!fresh?.length) continue; // 이번에 실패한 토픽은 기존 아카이브 유지
   const path = `${ARCHIVE_DIR}/${t.id}.json`;
@@ -107,4 +141,4 @@ for (const t of TOPICS) {
   await writeJSON(path, { updatedAt: nowKST(), topic: t.id, items: merged.slice(0, ARCHIVE_MAX) });
 }
 
-console.log(`done: ${okCount}/${TOPICS.length} topics`);
+console.log(`done: ${okCount}/${selectedTopics.length} topics`);

@@ -1667,6 +1667,223 @@ output {
   text-align: right;
 }
 
+/* ---------- 자동차·중고차 최신 뉴스 ---------- */
+.car-news-panel {
+  position: relative;
+  overflow: hidden;
+  margin-top: 28px;
+  background:
+    radial-gradient(circle at 96% 0%, rgba(55, 105, 255, .12), transparent 31%),
+    var(--color-surface);
+}
+.car-news-panel.is-used-car {
+  background:
+    radial-gradient(circle at 96% 0%, rgba(14, 165, 133, .12), transparent 31%),
+    var(--color-surface);
+}
+.car-news-head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 24px;
+}
+.car-news-head > div { max-width: 720px; }
+.car-news-head > div > span {
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .13em;
+}
+.car-news-panel.is-used-car .car-news-head > div > span { color: #0d9278; }
+.car-news-head h2 {
+  margin: 7px 0 0;
+  color: var(--color-foreground);
+  font-size: clamp(26px, 3vw, 38px);
+  line-height: 1.2;
+  letter-spacing: -.04em;
+}
+.car-news-head p {
+  margin: 10px 0 0;
+  color: var(--color-muted-fg);
+  font-size: 15px;
+  line-height: 1.65;
+}
+.car-news-refresh {
+  flex: none;
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  background: var(--color-surface);
+  color: var(--color-foreground);
+  font: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform .2s ease, border-color .2s ease, color .2s ease, background-color .2s ease;
+}
+.car-news-refresh:hover:not(:disabled) {
+  transform: translateY(-2px);
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: color-mix(in srgb, var(--color-primary) 5%, var(--color-surface));
+}
+.car-news-refresh:disabled { cursor: wait; opacity: .7; }
+.car-news-refresh svg {
+  width: 17px;
+  height: 17px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.car-news-refresh.is-loading svg { animation: car-news-spin .8s linear infinite; }
+.car-news-state {
+  min-height: 92px;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  border: 1px dashed var(--color-border);
+  border-radius: 16px;
+  color: var(--color-muted-fg);
+  text-align: center;
+}
+.car-news-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: car-news;
+}
+.car-news-grid li { min-width: 0; }
+.car-news-grid li.is-featured { grid-column: 1 / -1; }
+.car-news-grid a {
+  min-height: 168px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 22px;
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+  border-radius: 18px;
+  background: color-mix(in srgb, var(--color-surface) 96%, var(--color-primary) 4%);
+  color: var(--color-foreground);
+  text-decoration: none;
+  transition: transform .22s ease, border-color .22s ease, box-shadow .22s ease;
+}
+.car-news-grid .is-featured a {
+  min-height: 188px;
+  padding: clamp(24px, 4vw, 36px);
+  border-color: rgba(55, 105, 255, .25);
+  background:
+    linear-gradient(120deg, rgba(29, 67, 174, .96), rgba(67, 77, 198, .9)),
+    var(--color-primary);
+  color: #fff;
+  box-shadow: 0 20px 46px rgba(30, 64, 175, .18);
+}
+.car-news-panel.is-used-car .car-news-grid .is-featured a {
+  border-color: rgba(14, 165, 133, .26);
+  background: linear-gradient(120deg, #0a6757, #087a72);
+  box-shadow: 0 20px 46px rgba(8, 122, 114, .16);
+}
+.car-news-grid a:hover {
+  transform: translateY(-3px);
+  border-color: color-mix(in srgb, var(--color-primary) 46%, var(--color-border));
+  box-shadow: 0 14px 34px rgba(35, 55, 100, .1);
+}
+.car-news-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+.car-news-rank {
+  color: var(--color-primary);
+  font-size: 12px;
+  font-weight: 850;
+  letter-spacing: .08em;
+}
+.car-news-arrow {
+  color: var(--color-muted-fg);
+  font-size: 20px;
+  line-height: 1;
+}
+.car-news-grid .is-featured .car-news-rank,
+.car-news-grid .is-featured .car-news-arrow { color: rgba(255,255,255,.78); }
+.car-news-grid strong {
+  display: -webkit-box;
+  overflow: hidden;
+  color: inherit;
+  font-size: 18px;
+  line-height: 1.45;
+  letter-spacing: -.025em;
+  word-break: keep-all;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.car-news-grid .is-featured strong {
+  max-width: 920px;
+  font-size: clamp(24px, 3vw, 34px);
+  line-height: 1.35;
+}
+.car-news-meta {
+  display: block;
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--color-muted-fg);
+  font-size: 13px;
+}
+.car-news-meta b { color: var(--color-foreground); font-weight: 700; }
+.car-news-grid .is-featured .car-news-meta,
+.car-news-grid .is-featured .car-news-meta b { color: rgba(255,255,255,.72); }
+.car-news-foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin-top: 18px;
+  color: var(--color-muted-fg);
+  font-size: 13px;
+}
+.car-news-foot[hidden] { display: none; }
+.car-news-foot p { display: flex; align-items: center; gap: 8px; margin: 0; }
+.car-news-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #13ad7c;
+  box-shadow: 0 0 0 5px rgba(19, 173, 124, .1);
+}
+.car-news-foot a { color: var(--color-primary); font-weight: 700; text-decoration: none; }
+.car-news-foot a:hover { text-decoration: underline; }
+@keyframes car-news-spin { to { transform: rotate(360deg); } }
+
+@media (max-width: 700px) {
+  .car-news-head { align-items: stretch; flex-direction: column; }
+  .car-news-refresh { align-self: flex-start; }
+  .car-news-grid { grid-template-columns: 1fr; }
+  .car-news-grid li.is-featured { grid-column: auto; }
+  .car-news-grid a,
+  .car-news-grid .is-featured a { min-height: 154px; padding: 20px; }
+  .car-news-grid .is-featured strong { font-size: 21px; }
+  .car-news-foot { align-items: flex-start; flex-direction: column; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .car-news-refresh,
+  .car-news-grid a { transition: none; }
+  .car-news-refresh.is-loading svg { animation: none; }
+}
+
 /* 게시판식 페이지 이동 (뉴스 등) */
 .pager {
   display: flex;
