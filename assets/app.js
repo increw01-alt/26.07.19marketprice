@@ -117,19 +117,22 @@ function currentNavigation(page) {
   return { activePage, activeGroup };
 }
 
-function topNavMarkup(page) {
+function topNavMarkup(page, insideHeader = false) {
   const topPages = SITE_CONFIG.pages.filter((item) => item.topNav !== false);
   const home = topPages.find((item) => item.id === 'home');
   const giftcard = topPages.find((item) => item.id === 'giftcard');
-  const orderedPages = home && giftcard
+  let orderedPages = home && giftcard
     ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
     : topPages;
+  if (insideHeader && page === 'home') {
+    orderedPages = orderedPages.filter((item) => item.id !== 'home');
+  }
   const links = orderedPages.map((item) => {
     const current = item.id === page ? ' aria-current="page"' : '';
     return `<a class="top-link" href="${escapeHTML(item.href)}"${current}>${escapeHTML(item.nav || item.label)}</a>`;
   }).join('');
-  return `<nav class="top-nav" aria-label="주요 메뉴">
-  <div class="wrap">${links}</div>
+  return `<nav class="top-nav${insideHeader ? ' header-top-nav' : ''}" aria-label="주요 메뉴">
+  <div class="${insideHeader ? 'top-nav-inner' : 'wrap'}">${links}</div>
 </nav>`;
 }
 
@@ -293,6 +296,7 @@ function renderShell() {
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
+${page === 'home' ? `    ${topNavMarkup(page, true)}` : ''}
     <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -304,7 +308,7 @@ function renderShell() {
     </div>
   </div>
 </header>
-${topNavMarkup(page)}
+${page === 'home' ? '' : topNavMarkup(page)}
 ${navigationMarkup(page)}`);
   else if (!$('.skip-link')) document.body.insertAdjacentHTML('afterbegin', '<a class="skip-link" href="#main">본문 바로가기</a>');
 
@@ -335,6 +339,63 @@ ${navigationMarkup(page)}`);
 
   bindThemeToggle();
   bindNavigationDrawer();
+}
+
+/** 홈 데이터 카드가 포인터 위치를 따라 은은하게 기울어지도록 합니다. */
+function bindDataCardTilt() {
+  if (document.documentElement.dataset.dataCardTiltBound === 'true') return;
+  document.documentElement.dataset.dataCardTiltBound = 'true';
+
+  const finePointer = window.matchMedia('(hover: hover) and (pointer: fine)');
+  const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
+  let activeCard = null;
+  let frame = 0;
+  let nextTilt = null;
+
+  const resetCard = (card) => {
+    if (!card) return;
+    card.style.setProperty('--tilt-x', '0deg');
+    card.style.setProperty('--tilt-y', '0deg');
+  };
+
+  document.addEventListener('pointermove', (event) => {
+    if (!finePointer.matches || reducedMotion.matches || !(event.target instanceof Element)) return;
+    const card = event.target.closest('.home .cat-grid .hcard');
+    if (!card) {
+      if (activeCard) resetCard(activeCard);
+      activeCard = null;
+      return;
+    }
+
+    if (activeCard && activeCard !== card) resetCard(activeCard);
+    activeCard = card;
+    const bounds = card.getBoundingClientRect();
+    const horizontal = Math.max(-.5, Math.min(.5, (event.clientX - bounds.left) / bounds.width - .5));
+    const vertical = Math.max(-.5, Math.min(.5, (event.clientY - bounds.top) / bounds.height - .5));
+    nextTilt = {
+      card,
+      x: `${(-vertical * 20).toFixed(2)}deg`,
+      y: `${(horizontal * 20).toFixed(2)}deg`,
+    };
+
+    if (frame) return;
+    frame = requestAnimationFrame(() => {
+      if (nextTilt) {
+        nextTilt.card.style.setProperty('--tilt-x', nextTilt.x);
+        nextTilt.card.style.setProperty('--tilt-y', nextTilt.y);
+      }
+      nextTilt = null;
+      frame = 0;
+    });
+  }, { passive: true });
+
+  document.addEventListener('pointerout', (event) => {
+    if (!(event.target instanceof Element)) return;
+    const card = event.target.closest('.home .cat-grid .hcard');
+    if (!card || (event.relatedTarget instanceof Node && card.contains(event.relatedTarget))) return;
+    resetCard(card);
+    if (activeCard === card) activeCard = null;
+  }, { passive: true });
 }
 
 /** 헤더의 갱신 시각 표시 */
@@ -417,3 +478,4 @@ async function renderMarketGroup(groupOrIds, mountSel) {
 // 정적 HTML에서도 테마와 모바일 내비게이션이 즉시 동작하게 합니다.
 // pages.js가 다시 호출해도 각 바인딩은 data-bound로 한 번만 연결됩니다.
 renderShell();
+bindDataCardTilt();

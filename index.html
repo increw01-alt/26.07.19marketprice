@@ -53,7 +53,8 @@
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20260903-nav2">
+<link rel="preload" as="image" href="/assets/home-hero-market.jpg" fetchpriority="high">
+<link rel="stylesheet" href="assets/style.css?v=20260908-hero20">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -63,6 +64,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </script>
 </head>
 <body data-page="home">
+<div class="home-hero-stage">
 
 <!-- static-shell:header:start -->
 <a class="skip-link" href="#main">본문 바로가기</a>
@@ -77,6 +79,9 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
+    <nav class="top-nav header-top-nav" aria-label="주요 메뉴">
+  <div class="top-nav-inner"><a class="top-link" href="/giftcard">상품권</a><a class="top-link" href="/stock">주식</a><a class="top-link" href="/kosdaq">코스닥</a><a class="top-link" href="/coin">코인</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
+</nav>
     <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 9. 8. 10:32:34</p>
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -88,9 +93,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     </div>
   </div>
 </header>
-<nav class="top-nav" aria-label="주요 메뉴">
-  <div class="wrap"><a class="top-link" href="/" aria-current="page">홈</a><a class="top-link" href="/giftcard">상품권</a><a class="top-link" href="/stock">주식</a><a class="top-link" href="/kosdaq">코스닥</a><a class="top-link" href="/coin">코인</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
-</nav>
+
 <div class="nav-backdrop" data-nav-dismiss hidden></div>
 <div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
   <div class="nav-panel-head">
@@ -105,8 +108,6 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </div>
 <!-- static-shell:header:end -->
 
-<main id="main" class="home">
-
   <section class="hero" aria-label="모두의 시세 소개">
     <div class="wrap hero-grid">
       <div class="hero-copy">
@@ -117,7 +118,6 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
         </span></span>
         <h1>대한민국 <span class="hero-accent">모든 시세</span> 한눈에</h1>
         <p class="hero-sub">코인, 주식, 환율, 금·은, 유가, 상품권, 부동산, 로또까지<br>실시간 시장 정보를 한곳에서 쉽고 빠르게 확인하세요.</p>
-        <p class="hero-cta-row"><a class="hero-cta" href="#indicators">지표 한눈에 보기 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"></path></svg></a></p>
       </div>
       <div class="hero-visual" aria-hidden="true">
         <div class="hero-blob hero-blob-a"></div>
@@ -161,6 +161,22 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       </div>
     </div>
   </section>
+
+  <nav class="hero-category-dock" aria-label="시세 카테고리 바로가기">
+    <div class="wrap">
+      <a class="hero-category-card" href="#indicators"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>지표 한눈에 보기</span></a>
+      <a class="hero-category-card" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>금융시장</span></a>
+      <a class="hero-category-card" href="/metal"><svg class="icon" aria-hidden="true"><use href="#i-gem"/></svg><span>원자재·지표</span></a>
+      <a class="hero-category-card" href="/giftcard"><svg class="icon" aria-hidden="true"><use href="#i-home"/></svg><span>생활시세</span></a>
+      <a class="hero-category-card" href="/car"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg><span>자동차</span></a>
+      <a class="hero-category-card" href="/used-car"><svg class="icon" aria-hidden="true"><use href="#i-car"/></svg><span>중고차</span></a>
+      <a class="hero-category-card" href="/hotdeal"><svg class="icon" aria-hidden="true"><use href="#i-target"/></svg><span>혜택·도구</span></a>
+    </div>
+  </nav>
+
+</div>
+
+<main id="main" class="home">
 
   <section class="wrap home-sec" aria-label="카테고리 요약">
     <div class="cat-grid" id="cat-grid">
@@ -314,17 +330,17 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
           <!-- prerender:gift-rows:start -->
             <a class="gift-row" href="/giftcard/shinsegae">
               <span class="gift-chip" style="background:#c8102e">신세계</span>
-              <span class="gift-name">신세계상품권 10만원권</span>
+              <span class="gift-name" aria-label="신세계상품권 10만원권"><span class="gift-marquee-track"><span>신세계상품권 10만원권</span><span aria-hidden="true">신세계상품권 10만원권</span></span></span>
               <span class="gift-col"><span class="gift-val">96,500원</span><span class="gift-d flat">보합</span></span>
             </a>
             <a class="gift-row" href="/giftcard/lotte">
               <span class="gift-chip" style="background:#da291c">롯데</span>
-              <span class="gift-name">롯데상품권 10만원권</span>
+              <span class="gift-name" aria-label="롯데상품권 10만원권"><span class="gift-marquee-track"><span>롯데상품권 10만원권</span><span aria-hidden="true">롯데상품권 10만원권</span></span></span>
               <span class="gift-col"><span class="gift-val">96,500원</span><span class="gift-d flat">보합</span></span>
             </a>
             <a class="gift-row" href="/giftcard/hyundai">
               <span class="gift-chip" style="background:#00805a">현대</span>
-              <span class="gift-name">현대상품권 10만원권</span>
+              <span class="gift-name" aria-label="현대상품권 10만원권"><span class="gift-marquee-track"><span>현대상품권 10만원권</span><span aria-hidden="true">현대상품권 10만원권</span></span></span>
               <span class="gift-col"><span class="gift-val">96,900원</span><span class="gift-d up">▲ 0.47%</span></span>
             </a>
           <!-- prerender:gift-rows:end -->
@@ -433,10 +449,10 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 </footer>
 <!-- static-shell:footer:end -->
 
-<script src="assets/site-config.js?v=20260903-nav2"></script>
-<script src="assets/home-render.js?v=20260831-gift1"></script>
+<script src="assets/site-config.js?v=20260908-hero20"></script>
+<script src="assets/home-render.js?v=20260908-hero14"></script>
 <script src="assets/btc-chart.js?v=20260831-gift1"></script>
-<script src="assets/app.js?v=20260903-nav2"></script>
-<script src="assets/pages.js?v=20260903-nav2"></script>
+<script src="assets/app.js?v=20260908-hero20"></script>
+<script src="assets/pages.js?v=20260908-hero20"></script>
 </body>
 </html>

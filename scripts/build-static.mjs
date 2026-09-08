@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260903-nav2';
+const ASSET_VERSION = '20260908-hero20';
 const USED_CAR_ASSET_VERSION = '20260903-car7';
 
 const esc = (value) =>
@@ -339,23 +339,27 @@ function staticNavigation(page) {
 </div>`;
 }
 
-function staticTopNav(page) {
+function staticTopNav(page, insideHeader = false) {
   const topPages = SITE_CONFIG.pages.filter((item) => item.topNav !== false);
   const home = topPages.find((item) => item.id === 'home');
   const giftcard = topPages.find((item) => item.id === 'giftcard');
-  const orderedPages = home && giftcard
+  let orderedPages = home && giftcard
     ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
     : topPages;
+  if (insideHeader && page === 'home') {
+    orderedPages = orderedPages.filter((item) => item.id !== 'home');
+  }
   const links = orderedPages.map((item) => {
     const current = item.id === page ? ' aria-current="page"' : '';
     return `<a class="top-link" href="${esc(item.href)}"${current}>${esc(item.nav || item.label)}</a>`;
   }).join('');
-  return `<nav class="top-nav" aria-label="주요 메뉴">
-  <div class="wrap">${links}</div>
+  return `<nav class="top-nav${insideHeader ? ' header-top-nav' : ''}" aria-label="주요 메뉴">
+  <div class="${insideHeader ? 'top-nav-inner' : 'wrap'}">${links}</div>
 </nav>`;
 }
 
 function staticHeader(page, stamp, hideStatus = false) {
+  const homeTopNav = page === 'home' ? staticTopNav(page, true) : '';
   const status = hideStatus
     ? '<p class="status" id="updated" hidden><span class="dot"></span></p>'
     : `<p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 ${formatStamp(stamp)}</p>`;
@@ -371,6 +375,7 @@ function staticHeader(page, stamp, hideStatus = false) {
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
+${homeTopNav ? `    ${homeTopNav}` : ''}
     ${status}
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -382,7 +387,7 @@ function staticHeader(page, stamp, hideStatus = false) {
     </div>
   </div>
 </header>
-${staticTopNav(page)}
+${page === 'home' ? '' : staticTopNav(page)}
 ${staticNavigation(page)}`;
 }
 

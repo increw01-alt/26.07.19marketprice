@@ -404,9 +404,10 @@
           g.changePct != null
             ? `<span class="gift-d ${dirOf(g.changePct)}">${deltaText(g.changePct)}</span>`
             : '';
+        const name = esc(g.name);
         return `<a class="gift-row" href="${g.href}">
   <span class="gift-chip" style="background:${g.color}">${esc(g.chip)}</span>
-  <span class="gift-name">${esc(g.name)}</span>
+  <span class="gift-name" aria-label="${name}"><span class="gift-marquee-track"><span>${name}</span><span aria-hidden="true">${name}</span></span></span>
   <span class="gift-col"><span class="gift-val">${fmt0(g.value)}원</span>${delta}</span>
 </a>`;
       })
