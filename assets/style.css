@@ -346,7 +346,13 @@ output {
   .brand-mark { font-size: 20px; }
   .brand-text,
   .site-header .status { display: none; }
-  .nav-toggle { display: inline-grid; }
+  .header-actions { margin-left: auto; }
+  .theme-toggle { display: none; }
+  .nav-toggle {
+    display: inline-grid;
+    width: 44px;
+    padding-inline: 0;
+  }
   .site-nav-panel {
     position: fixed;
     z-index: 1000;

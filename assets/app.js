@@ -303,8 +303,8 @@ ${page === 'home' ? '' : '<div class="internal-hero-backdrop" aria-hidden="true"
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
         ${icon('sun', 'icon icon-sun')}${icon('moon', 'icon icon-moon')}
       </button>
-      <button class="nav-toggle" type="button" aria-controls="site-navigation" aria-expanded="false">
-        ${icon('menu')}<span>카테고리</span>
+      <button class="nav-toggle" type="button" aria-label="카테고리 메뉴 열기" aria-controls="site-navigation" aria-expanded="false">
+        ${icon('menu')}
       </button>
     </div>
   </div>
