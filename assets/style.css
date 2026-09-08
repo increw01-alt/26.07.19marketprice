@@ -4966,6 +4966,11 @@ body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .de
 }
 
 /* ---------- 대형 섹션 컨테이너의 Border Beam 제거 ---------- */
+.internal-motion-card:is(.panel, .car-panel, .map-box, .region-panel, .estimator) {
+  border: 0;
+  outline: 0;
+  box-shadow: none;
+}
 .internal-motion-card:is(.panel, .car-panel, .map-box, .region-panel, .estimator)::after {
   display: none;
 }
