@@ -4964,3 +4964,8 @@ body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .de
   --card-muted: #aeb9ca;
   --card-line: #2b3547;
 }
+
+/* ---------- 대형 섹션 컨테이너의 Border Beam 제거 ---------- */
+.internal-motion-card:is(.panel, .car-panel, .map-box, .region-panel, .estimator)::after {
+  display: none;
+}
