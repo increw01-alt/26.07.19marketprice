@@ -353,6 +353,7 @@ output {
     width: 44px;
     padding-inline: 0;
   }
+  .nav-toggle span { display: none; }
   .site-nav-panel {
     position: fixed;
     z-index: 1000;
@@ -4908,4 +4909,58 @@ body[data-page]:not([data-page='home']) .site-header:focus-within .header-top-na
   .crypto-table-row { animation: none; transition: none; }
   body[data-page]:not([data-page='home']) .header-top-nav .top-link::before,
   .home-hero-stage .header-top-nav .top-link::before { transition: none; }
+}
+
+/* ---------- 핫딜 목록: 무채색 기본면 + 검정 호버 ---------- */
+body[data-page='hotdeal'] .deal.internal-tilt-card {
+  --internal-accent: #2478ff;
+  --card-fill: transparent;
+  --card-fill-2: transparent;
+  --card-text: #172033;
+  --card-muted: #64748b;
+  --card-line: #d9e1ec;
+  --card-accent: #2563eb;
+  color: var(--card-text);
+  border: 0;
+  border-bottom: 1px solid var(--card-line);
+  border-radius: 12px;
+  background: transparent;
+  box-shadow: none;
+  transition:
+    transform .32s cubic-bezier(.22, 1, .36, 1),
+    color .24s ease,
+    background-color .24s ease,
+    border-color .24s ease,
+    box-shadow .28s ease;
+}
+body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) {
+  --card-fill: #080b11;
+  --card-fill-2: #080b11;
+  --card-text: #f8fafc;
+  --card-muted: #cbd5e1;
+  --card-line: #1f2937;
+  --card-accent: #60a5fa;
+  color: var(--card-text);
+  border-bottom-color: #1f2937;
+  background: #080b11;
+  box-shadow:
+    inset 4px 0 0 #2478ff,
+    0 16px 34px rgba(8, 11, 17, .22);
+}
+body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .deal-title {
+  color: #fff;
+}
+body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .deal-mall {
+  color: #f8fafc;
+  border-color: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .1);
+}
+body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .deal-direct {
+  color: #dbeafe;
+  background: rgba(96, 165, 250, .18);
+}
+:root[data-theme='dark'] body[data-page='hotdeal'] .deal.internal-tilt-card {
+  --card-text: #f8fafc;
+  --card-muted: #aeb9ca;
+  --card-line: #2b3547;
 }
