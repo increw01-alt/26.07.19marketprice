@@ -15,8 +15,8 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260908-hero20';
-const USED_CAR_ASSET_VERSION = '20260903-car7';
+const ASSET_VERSION = '20260908-trend-colors34';
+const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
   String(value ?? '')
@@ -72,6 +72,62 @@ function sparkline(values) {
 </svg>`;
 }
 
+function dailyIndexChart(item) {
+  const values = Array.isArray(item?.spark) ? item.spark.map(Number).filter(Number.isFinite) : [];
+  if (values.length < 2) return '<p class="empty">일간 차트 데이터를 불러오지 못했습니다.</p>';
+
+  const width = 760;
+  const height = 232;
+  const left = 58;
+  const right = 18;
+  const top = 22;
+  const bottom = 38;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const low = Math.min(...values);
+  const high = Math.max(...values);
+  const span = high - low || 1;
+  const x = (index) => left + (index / (values.length - 1)) * plotWidth;
+  const y = (value) => top + ((high - value) / span) * plotHeight;
+  const points = values.map((value, index) => `${x(index).toFixed(1)},${y(value).toFixed(1)}`);
+  const latest = values.at(-1);
+  const first = values[0];
+  const periodPct = first ? ((latest - first) / first) * 100 : 0;
+  const trend = periodPct >= 0 ? 'up' : 'down';
+  const format = (value) => Number(value).toLocaleString('ko-KR', { maximumFractionDigits: 2 });
+  const grid = [0, .3333, .6667, 1].map((ratio) => {
+    const gy = top + ratio * plotHeight;
+    const value = high - ratio * span;
+    return `<g class="kosdaq-chart-grid"><line x1="${left}" y1="${gy.toFixed(1)}" x2="${width - right}" y2="${gy.toFixed(1)}"/><text x="${left - 9}" y="${(gy + 4).toFixed(1)}">${format(value)}</text></g>`;
+  }).join('');
+  const dots = values.map((value, index) => `<circle class="kosdaq-chart-point" cx="${x(index).toFixed(1)}" cy="${y(value).toFixed(1)}" r="3"><title>${index + 1}번째 거래일 · ${format(value)}pt</title></circle>`).join('');
+  const area = `M${points.join(' L')} L${(width - right).toFixed(1)},${(top + plotHeight).toFixed(1)} L${left},${(top + plotHeight).toFixed(1)} Z`;
+
+  return `<figure class="kosdaq-daily-card">
+  <figcaption class="kosdaq-chart-head">
+    <div><span>DAILY TREND</span><strong>코스닥 일간 차트</strong><small>최근 ${values.length}거래일 종가 기준</small></div>
+    <dl class="kosdaq-chart-stats">
+      <div><dt>현재</dt><dd>${format(latest)}</dd></div>
+      <div><dt>고점</dt><dd>${format(high)}</dd></div>
+      <div><dt>저점</dt><dd>${format(low)}</dd></div>
+      <div><dt>기간</dt><dd class="${trend}">${periodPct >= 0 ? '+' : ''}${periodPct.toFixed(2)}%</dd></div>
+    </dl>
+  </figcaption>
+  <svg class="kosdaq-daily-svg ${trend}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="kosdaq-daily-title kosdaq-daily-desc">
+    <title id="kosdaq-daily-title">코스닥 최근 ${values.length}거래일 일간 차트</title>
+    <desc id="kosdaq-daily-desc">${format(first)}포인트에서 ${format(latest)}포인트로 변동했습니다.</desc>
+    <defs><linearGradient id="kosdaq-area-gradient" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/><stop offset="1" stop-color="currentColor" stop-opacity=".02"/></linearGradient></defs>
+    ${grid}
+    <path class="kosdaq-chart-area" d="${area}"/>
+    <polyline class="kosdaq-chart-line" points="${points.join(' ')}"/>
+    <g class="kosdaq-chart-points">${dots}</g>
+    <circle class="kosdaq-chart-latest" cx="${x(values.length - 1).toFixed(1)}" cy="${y(latest).toFixed(1)}" r="5"/>
+    <g class="kosdaq-chart-x"><text x="${left}" y="${height - 8}" text-anchor="start">${values.length}거래일 전</text><text x="${left + plotWidth / 2}" y="${height - 8}" text-anchor="middle">중간</text><text x="${width - right}" y="${height - 8}" text-anchor="end">최근</text></g>
+  </svg>
+  <p class="kosdaq-chart-date">기준 ${esc(item.date || '')} · 동일 시세 데이터에서 자동 갱신</p>
+</figure>`;
+}
+
 function marketCard(item, index = 0) {
   const d = direction(item.changePct);
   const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
@@ -83,15 +139,23 @@ function marketCard(item, index = 0) {
     item.change == null
       ? ''
       : `(${Number(item.change) > 0 ? '+' : '-'}${num(Math.abs(item.change), 2)})`;
-
-  return `<article class="card" style="--i:${index}">
+  const isDomesticStock = /^\d{6}$/.test(String(item.code || '')) &&
+    (item.group === 'stock' || item.group === 'kosdaq_stock');
+  const market = item.group === 'kosdaq_stock' ? 'KOSDAQ' : 'KOSPI';
+  const href = isDomesticStock ? `/stock-detail?market=${market}&code=${encodeURIComponent(item.code)}` : '';
+  const content = `
   ${item.rank ? `<span class="rank">${esc(item.rank)}</span>` : ''}
   <div class="name">${esc(item.name)}</div>
   <div class="price">${fmtPrice(item.price, item.group, item.unit)}<span class="unit">${esc(item.unit)}</span></div>
   <div class="delta ${d}">${pct}${absolute}</div>
-  ${item.volume ? `<div class="memo">24h 거래대금 ${compactWon(item.volume)}</div>` : ''}
+  ${item.marketCap ? `<div class="memo stock-market-cap">시가총액 ${esc(item.marketCapText || compactWon(item.marketCap))}</div>` : ''}
+  ${item.volume ? `<div class="memo">${isDomesticStock ? `거래량 ${num(item.volume, 0)}주` : `24h 거래대금 ${compactWon(item.volume)}`}</div>` : ''}
   ${item.note ? `<div class="memo">${esc(item.note)}</div>` : ''}
   <span class="${d}">${sparkline(item.spark)}</span>
+  ${isDomesticStock ? `<span class="stock-card-more">상세보기 ${icon('arrow')}</span>` : ''}`;
+
+  return `<article class="card${isDomesticStock ? ' stock-card' : ''}" style="--i:${index}">
+  ${href ? `<a class="stock-card-link" href="${esc(href)}" aria-label="${esc(item.name)} 종목 상세보기">${content}</a>` : content}
 </article>`;
 }
 
@@ -346,7 +410,7 @@ function staticTopNav(page, insideHeader = false) {
   let orderedPages = home && giftcard
     ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
     : topPages;
-  if (insideHeader && page === 'home') {
+  if (insideHeader) {
     orderedPages = orderedPages.filter((item) => item.id !== 'home');
   }
   const links = orderedPages.map((item) => {
@@ -359,11 +423,14 @@ function staticTopNav(page, insideHeader = false) {
 }
 
 function staticHeader(page, stamp, hideStatus = false) {
-  const homeTopNav = page === 'home' ? staticTopNav(page, true) : '';
+  const headerTopNav = staticTopNav(page, true);
+  const internalBackdrop = page === 'home'
+    ? ''
+    : '<div class="internal-hero-backdrop" aria-hidden="true"></div>\n';
   const status = hideStatus
     ? '<p class="status" id="updated" hidden><span class="dot"></span></p>'
     : `<p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 ${formatStamp(stamp)}</p>`;
-  return `<a class="skip-link" href="#main">본문 바로가기</a>
+  return `${internalBackdrop}<a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
     <a class="brand" href="/">
@@ -375,7 +442,7 @@ function staticHeader(page, stamp, hideStatus = false) {
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
-${homeTopNav ? `    ${homeTopNav}` : ''}
+    ${headerTopNav}
     ${status}
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -387,7 +454,6 @@ ${homeTopNav ? `    ${homeTopNav}` : ''}
     </div>
   </div>
 </header>
-${page === 'home' ? '' : staticTopNav(page)}
 ${staticNavigation(page)}`;
 }
 
@@ -399,7 +465,7 @@ const staticFooter = `<footer class="site-footer">
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -408,7 +474,7 @@ const staticFooter = `<footer class="site-footer">
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
+    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`;
@@ -644,6 +710,7 @@ function renderBrandPage(config, data) {
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="/assets/style.css?v=${ASSET_VERSION}">
+<link rel="stylesheet" href="/assets/popup-banner/popup-banner.css?v=20260908-giftcard-popup29">
 <script>try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
 <script type="application/ld+json">
 ${brandJsonLd(config, data, items)}
@@ -708,6 +775,13 @@ ${staticRegionBlock('header', staticHeader('giftcard', data.updatedAt))}
 ${staticRegionBlock('footer', staticFooter)}
 
 <script src="/assets/site-config.js?v=${ASSET_VERSION}"></script>
+<script
+  src="/assets/popup-banner/popup-banner.js?v=20260908-giftcard-popup29"
+  data-delay="500"
+  data-hours="24"
+  data-storage-key="modoosise-giftcard-popup-hidden-until"
+  data-href="https://koreagiftcard.channel.io/home?page=%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%ED%8C%9D%EC%97%85"
+  defer></script>
 <script src="/assets/app.js?v=${ASSET_VERSION}"></script>
 <script src="/assets/pages.js?v=${ASSET_VERSION}"></script>
 </body>
@@ -844,6 +918,64 @@ const pickIds = (ids) => ids.map((id) => byId.get(id)).filter(Boolean);
 const pickGroup = (group) => markets.items.filter((item) => item.group === group);
 const marketGrid = (items) => items.map((item, index) => marketCard(item, index)).join('\n');
 
+function stockRankingTable(items) {
+  const rows = items.map((item, index) => {
+    const market = item.group === 'kosdaq_stock' ? 'KOSDAQ' : 'KOSPI';
+    const href = `/stock-detail?market=${market}&code=${encodeURIComponent(item.code)}`;
+    const d = direction(item.changePct);
+    const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
+    const logo = item.logoUrl ? safeHttpUrl(item.logoUrl) : '';
+    return `<tr class="stock-table-row" tabindex="0" role="link" data-stock-href="${esc(href)}" aria-label="${esc(item.name)} 종목 상세보기" style="--row-i:${index}">
+  <td class="stock-rank-cell">${num(item.rank, 0)}</td>
+  <td class="stock-name-cell">
+    <a class="stock-name-link" href="${esc(href)}" tabindex="-1">
+      <span class="stock-logo">${logo ? `<img src="${logo}" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer">` : esc(item.name).slice(0, 1)}</span>
+      <span><strong>${esc(item.name)}</strong><small>${esc(item.code)}</small></span>
+    </a>
+  </td>
+  <td class="stock-number-cell stock-price-cell">₩${fmtPrice(item.price, item.group, item.unit)}</td>
+  <td class="stock-number-cell stock-change-cell ${d}"><span class="trend-arrow" aria-hidden="true">${d === 'up' ? '▲' : d === 'down' ? '▼' : '—'}</span><span class="sr-label">${label}</span>${num(Math.abs(Number(item.changePct) || 0), 2)}%</td>
+  <td class="stock-number-cell">${esc(item.marketCapText || compactWon(item.marketCap))}</td>
+  <td class="stock-number-cell">${item.volume == null ? '—' : num(item.volume, 0)}</td>
+  <td class="stock-number-cell">${item.tradedValue == null ? '—' : compactWon(item.tradedValue)}</td>
+</tr>`;
+  }).join('\n');
+  return `<div class="stock-table-scroll">
+  <table class="stock-ranking-table">
+    <thead><tr><th scope="col">#</th><th scope="col">종목</th><th scope="col">현재가</th><th scope="col">등락률</th><th scope="col">시가총액</th><th scope="col">거래량</th><th scope="col">거래대금</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table>
+</div>`;
+}
+
+function cryptoRankingTable(items) {
+  const sorted = items.slice().sort((a, b) => Number(b.volume || 0) - Number(a.volume || 0));
+  const rows = sorted.map((item, index) => {
+    const d = direction(item.changePct);
+    const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
+    const symbol = String(item.id || '').toUpperCase();
+    return `<tr class="crypto-table-row" style="--row-i:${index};--coin-hue:${(index * 41 + 205) % 360}">
+  <td class="stock-rank-cell">${index + 1}</td>
+  <td class="stock-name-cell">
+    <div class="stock-name-link">
+      <span class="stock-logo crypto-logo">${icon('coin')}</span>
+      <span><strong>${esc(item.name)}</strong><small>KRW-${esc(symbol)}</small></span>
+    </div>
+  </td>
+  <td class="stock-number-cell stock-price-cell">₩${fmtPrice(item.price, item.group, item.unit)}</td>
+  <td class="stock-number-cell stock-change-cell ${d}"><span class="trend-arrow" aria-hidden="true">${d === 'up' ? '▲' : d === 'down' ? '▼' : '—'}</span><span class="sr-label">${label}</span>${num(Math.abs(Number(item.changePct) || 0), 2)}%</td>
+  <td class="stock-number-cell">${item.volume == null ? '—' : compactWon(item.volume)}</td>
+  <td class="crypto-trend-cell"><span class="${d}">${sparkline(item.spark)}</span></td>
+</tr>`;
+  }).join('\n');
+  return `<div class="stock-table-scroll crypto-table-scroll">
+  <table class="stock-ranking-table crypto-ranking-table">
+    <thead><tr><th scope="col">#</th><th scope="col">암호화폐</th><th scope="col">현재가</th><th scope="col">24시간 등락률</th><th scope="col">24시간 거래대금</th><th scope="col">최근 40일</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table>
+</div>`;
+}
+
 // 홈 데이터·마크업 — home-render.js 가 단일 소스입니다 (런타임 home.json 과 동일 함수).
 // 상품권 이력은 첫 실행 전엔 없을 수 있으므로 없으면 전일대비 없이 렌더합니다.
 let giftHistory = null;
@@ -898,14 +1030,15 @@ const renderPlan = {
     ['gift-rows', HOME_RENDER.giftRows(homeData)],
     ['quick-grid', HOME_RENDER.quickCards()],
   ],
-  'coin.html': [['grid-coin', marketGrid(pickGroup('coin'))]],
+  'coin.html': [['grid-coin', cryptoRankingTable(pickGroup('coin'))]],
   'stock.html': [
     ['grid-stock', marketGrid(pickIds(['kospi', 'spx', 'ndq', 'dji', 'nkx', 'hsi', 'sse', 'dax']))],
-    ['grid-stock-items', marketGrid(pickGroup('stock'))],
+    ['grid-stock-items', stockRankingTable(pickGroup('stock').slice(0, 20))],
   ],
   'kosdaq.html': [
     ['grid-kosdaq', marketGrid(pickIds(['kosdaq']))],
-    ['grid-kosdaq-items', marketGrid(pickGroup('kosdaq_stock'))],
+    ['kosdaq-daily-chart', dailyIndexChart(pickIds(['kosdaq'])[0])],
+    ['grid-kosdaq-items', stockRankingTable(pickGroup('kosdaq_stock').slice(0, 20))],
   ],
   'fx.html': [['grid-fx', marketGrid(pickGroup('fx'))]],
   'metal.html': [['grid-metal', marketGrid(pickIds(['gold_krx', 'gold_don', 'gold', 'silver', 'plat', 'palladium']))]],
@@ -933,6 +1066,7 @@ const shellPlan = {
   'index.html': { page: 'home', stamp: markets.updatedAt },
   'coin.html': { page: 'coin', stamp: markets.updatedAt },
   'stock.html': { page: 'stock', stamp: markets.updatedAt },
+  'stock-detail.html': { page: 'stock', stamp: markets.updatedAt },
   'kosdaq.html': { page: 'kosdaq', stamp: markets.updatedAt },
   'fx.html': { page: 'fx', stamp: markets.updatedAt },
   'metal.html': { page: 'metal', stamp: markets.updatedAt },

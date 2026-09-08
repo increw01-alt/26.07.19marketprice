@@ -29,7 +29,8 @@
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20260908-hero20">
+<link rel="stylesheet" href="assets/style.css?v=20260908-trend-colors34">
+<link rel="stylesheet" href="/assets/popup-banner/popup-banner.css?v=20260908-giftcard-popup29">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -52,6 +53,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <body data-page="giftcard">
 
 <!-- static-shell:header:start -->
+<div class="internal-hero-backdrop" aria-hidden="true"></div>
 <a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
@@ -64,7 +66,9 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
-
+    <nav class="top-nav header-top-nav" aria-label="주요 메뉴">
+  <div class="top-nav-inner"><a class="top-link" href="/giftcard" aria-current="page">상품권</a><a class="top-link" href="/stock">코스피</a><a class="top-link" href="/kosdaq">코스닥</a><a class="top-link" href="/coin">암호화폐</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
+</nav>
     <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 9. 8. 15:35:22</p>
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -76,9 +80,6 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     </div>
   </div>
 </header>
-<nav class="top-nav" aria-label="주요 메뉴">
-  <div class="wrap"><a class="top-link" href="/">홈</a><a class="top-link" href="/giftcard" aria-current="page">상품권</a><a class="top-link" href="/stock">주식</a><a class="top-link" href="/kosdaq">코스닥</a><a class="top-link" href="/coin">코인</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
-</nav>
 <div class="nav-backdrop" data-nav-dismiss hidden></div>
 <div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
   <div class="nav-panel-head">
@@ -468,7 +469,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -477,14 +478,21 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
+    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>
 <!-- static-shell:footer:end -->
 
-<script src="assets/site-config.js?v=20260908-hero20"></script>
-<script src="assets/app.js?v=20260908-hero20"></script>
-<script src="assets/pages.js?v=20260908-hero20"></script>
+<script src="assets/site-config.js?v=20260908-trend-colors34"></script>
+<script
+  src="/assets/popup-banner/popup-banner.js?v=20260908-giftcard-popup29"
+  data-delay="500"
+  data-hours="24"
+  data-storage-key="modoosise-giftcard-popup-hidden-until"
+  data-href="https://koreagiftcard.channel.io/home?page=%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%ED%8C%9D%EC%97%85"
+  defer></script>
+<script src="assets/app.js?v=20260908-trend-colors34"></script>
+<script src="assets/pages.js?v=20260908-trend-colors34"></script>
 </body>
 </html>

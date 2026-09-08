@@ -2,7 +2,7 @@
 //
 // 2026년 stooq 가 자바스크립트 proof-of-work 봇 차단을 도입해 CSV 수집이 막혔습니다.
 // 우회하지 않고 Yahoo Finance 차트 API 로 교체했습니다 (키 불필요, JSON).
-import { getJSON, writeJSON, nowKST } from './lib.mjs';
+import { getJSON, readJSON, writeJSON, nowKST } from './lib.mjs';
 
 const OUT = 'data/markets.json';
 const DAYS = 40; // 스파크라인용 최근 거래일 수
@@ -45,37 +45,131 @@ const QUOTES = [
   { id: 'dax',    symbol: '^GDAXI',   name: '독일 DAX',    group: 'macro', unit: 'pt' },
 ];
 
-// 국내 개별종목 — 시가총액 상위 위주로 큐레이션합니다.
-// KRX 시총 순위 API 는 세션/OTP 를 요구해 자동화가 취약하므로, 목록을
-// 고정하고 시세만 Yahoo 로 받습니다. 종목 교체는 이 배열만 고치면 됩니다.
-const STOCKS_KS = [
-  { code: '005930', name: '삼성전자' },
-  { code: '000660', name: 'SK하이닉스' },
-  { code: '373220', name: 'LG에너지솔루션' },
-  { code: '207940', name: '삼성바이오로직스' },
-  { code: '005380', name: '현대차' },
-  { code: '000270', name: '기아' },
-  { code: '068270', name: '셀트리온' },
-  { code: '005490', name: 'POSCO홀딩스' },
-  { code: '035420', name: 'NAVER' },
-  { code: '051910', name: 'LG화학' },
-];
-const STOCKS_KQ = [
-  { code: '247540', name: '에코프로비엠' },
-  { code: '086520', name: '에코프로' },
-  { code: '196170', name: '알테오젠' },
-  { code: '328130', name: '루닛' },
-  { code: '277810', name: '레인보우로보틱스' },
-  { code: '058470', name: '리노공업' },
-  { code: '357780', name: '솔브레인' },
-  { code: '240810', name: '원익IPS' },
-  { code: '293490', name: '카카오게임즈' },
-  { code: '112040', name: '위메이드' },
-];
-for (const s of STOCKS_KS)
-  QUOTES.push({ id: `ks_${s.code}`, symbol: `${s.code}.KS`, name: s.name, group: 'stock', unit: '원' });
-for (const s of STOCKS_KQ)
-  QUOTES.push({ id: `kq_${s.code}`, symbol: `${s.code}.KQ`, name: s.name, group: 'kosdaq_stock', unit: '원' });
+const STOCK_RANK_LIMIT = 100;
+const STOCK_HISTORY_CONCURRENCY = 8;
+
+const parseNumber = (value) => {
+  const parsed = Number(String(value ?? '').replace(/[^0-9.-]/g, ''));
+  return Number.isFinite(parsed) ? parsed : null;
+};
+
+async function mapConcurrent(items, limit, task) {
+  const results = new Array(items.length);
+  let cursor = 0;
+  const workers = Array.from({ length: Math.min(limit, items.length) }, async () => {
+    while (cursor < items.length) {
+      const index = cursor++;
+      results[index] = await task(items[index], index);
+    }
+  });
+  await Promise.all(workers);
+  return results;
+}
+
+/**
+ * 국내 시가총액 상위 100종목을 시장별로 수집합니다.
+ * 순위·현재가·시가총액은 네이버 금융 시장 목록을, 40거래일 차트는 종목별
+ * 일별 가격 응답을 사용합니다. 개별 차트 실패 시에도 순위 목록은 유지됩니다.
+ */
+async function collectDomesticRanking(market, group) {
+  const marketCode = market === 'KOSDAQ' ? 'KQ' : 'KS';
+  const prefix = market === 'KOSDAQ' ? 'kq' : 'ks';
+  const rankingBase = `https://m.stock.naver.com/api/stocks/marketValue/${market}`;
+  const rankingOptions = { headers: { referer: 'https://m.stock.naver.com/' } };
+  const firstPage = await getJSON(`${rankingBase}?page=1&pageSize=${STOCK_RANK_LIMIT}`, rankingOptions);
+  const firstStocks = Array.isArray(firstPage?.stocks) ? firstPage.stocks : [];
+  const isCommonStock = (item) => {
+    const name = String(item?.stockName || '').trim();
+    return item?.stockEndType === 'stock' &&
+      /^\d{6}$/.test(String(item?.itemCode || '')) &&
+      name &&
+      !/(?:우|우B|우C)$/.test(name);
+  };
+  const firstValid = firstStocks.filter(isCommonStock);
+  const secondPage = firstValid.length < STOCK_RANK_LIMIT
+    ? await getJSON(`${rankingBase}?page=2&pageSize=${STOCK_RANK_LIMIT}`, rankingOptions)
+    : null;
+  const stocks = [...firstStocks, ...(Array.isArray(secondPage?.stocks) ? secondPage.stocks : [])];
+  const valid = stocks
+    .filter(isCommonStock)
+    .slice(0, STOCK_RANK_LIMIT);
+  if (valid.length !== STOCK_RANK_LIMIT) {
+    throw new Error(`${market} 시가총액 순위가 ${valid.length}개만 수집되었습니다.`);
+  }
+
+  return mapConcurrent(valid, STOCK_HISTORY_CONCURRENCY, async (item, index) => {
+    const code = String(item.itemCode);
+    let history = [];
+    try {
+      const prices = await getJSON(
+        `https://m.stock.naver.com/api/stock/${code}/price?page=1&pageSize=${DAYS}`,
+        { headers: { referer: 'https://m.stock.naver.com/' } },
+      );
+      history = (Array.isArray(prices) ? prices : [])
+        .map((row) => ({
+          date: String(row.localTradedAt || '').slice(0, 10),
+          close: parseNumber(row.closePrice),
+          open: parseNumber(row.openPrice),
+          high: parseNumber(row.highPrice),
+          low: parseNumber(row.lowPrice),
+          volume: parseNumber(row.accumulatedTradingVolume),
+        }))
+        .filter((row) => row.date && row.close != null)
+        .reverse();
+    } catch (error) {
+      console.error(`${market} ${code} 차트 실패: ${error.message}`);
+    }
+
+    const latest = history.at(-1);
+    const result = {
+      id: `${prefix}_${code}`,
+      code,
+      market,
+      name: String(item.stockName),
+      group,
+      unit: '원',
+      rank: index + 1,
+      price: parseNumber(item.closePriceRaw ?? item.closePrice),
+      change: parseNumber(item.compareToPreviousClosePriceRaw ?? item.compareToPreviousClosePrice),
+      changePct: parseNumber(item.fluctuationsRatio),
+      date: String(item.localTradedAt || latest?.date || '').slice(0, 10),
+      volume: parseNumber(item.accumulatedTradingVolumeRaw ?? item.accumulatedTradingVolume),
+      tradedValue: parseNumber(item.accumulatedTradingValueRaw),
+      marketCap: parseNumber(item.marketValueRaw),
+      marketCapText: String(item.marketValueHangeul || ''),
+      detailUrl: String(item.newPcUrl || item.endUrl || ''),
+      logoUrl: String(item.itemLogoPngUrl || ''),
+      spark: history.map((row) => row.close),
+    };
+    if (latest) {
+      result.open = latest.open;
+      result.high = latest.high;
+      result.low = latest.low;
+    }
+    console.log(`${market} ${result.rank}. ${result.name}: ${result.price}`);
+    return result;
+  });
+}
+
+async function collectDomesticStocks() {
+  try {
+    const [kospi, kosdaq] = await Promise.all([
+      collectDomesticRanking('KOSPI', 'stock'),
+      collectDomesticRanking('KOSDAQ', 'kosdaq_stock'),
+    ]);
+    return [...kospi, ...kosdaq];
+  } catch (error) {
+    const previous = await readJSON(OUT, { items: [] });
+    const fallback = (previous.items || []).filter((item) =>
+      item.group === 'stock' || item.group === 'kosdaq_stock'
+    );
+    if (fallback.length >= STOCK_RANK_LIMIT * 2) {
+      console.error(`국내 시총 순위 갱신 실패, 이전 100위 데이터 유지: ${error.message}`);
+      return fallback;
+    }
+    throw error;
+  }
+}
 
 const COIN_TOP = 10; // 24시간 거래대금 상위 N개
 /** 거래대금 순위와 무관하게 항상 포함할 대표 코인 */
@@ -161,9 +255,10 @@ async function collectCoins() {
     picked.set(t.market, t);
   }
 
+  const selected = [...picked.values()].sort((a, b) => b.acc_trade_price_24h - a.acc_trade_price_24h);
   const out = [];
   let rank = 0;
-  for (const t of picked.values()) {
+  for (const t of selected) {
     rank++;
     let spark = [];
     try {
@@ -235,15 +330,16 @@ async function collectKrxGold() {
   };
 }
 
-const [quotes, coins, krxGold] = await Promise.all([
+const [quotes, coins, krxGold, domesticStocks] = await Promise.all([
   collectQuotes(),
   collectCoins(),
   collectKrxGold().catch((err) => {
     console.error(`국내 금값 수집 실패: ${err.message}`);
     return null;
   }),
+  collectDomesticStocks(),
 ]);
-const items = [...quotes, ...coins];
+const items = [...quotes, ...coins, ...domesticStocks];
 if (krxGold) items.push(krxGold);
 
 if (!items.length) throw new Error('수집된 항목이 없습니다 — 모든 소스 실패');
@@ -329,12 +425,6 @@ if (btc && usdkrw) {
   } catch (err) {
     console.error(`김치프리미엄 계산 실패: ${err.message}`);
   }
-}
-
-// 개별종목은 그룹 안에서 현재가 기준으로 순위를 매깁니다 (화면 상단 노출용).
-for (const grp of ['stock', 'kosdaq_stock']) {
-  const list = items.filter((i) => i.group === grp);
-  list.forEach((i, idx) => (i.rank = idx + 1)); // QUOTES 배열 순서 = 큐레이션 순위 유지
 }
 
 // 파생 계산에만 쓰인 보조 항목은 화면에 내보내지 않습니다.

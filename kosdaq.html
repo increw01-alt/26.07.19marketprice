@@ -29,7 +29,7 @@
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
-<link rel="stylesheet" href="assets/style.css?v=20260908-hero20">
+<link rel="stylesheet" href="assets/style.css?v=20260908-trend-colors34">
 <script>
 // www·pages.dev 로 들어오면 대표 도메인으로 보냅니다. (진짜 301 은 Cloudflare
 // 대시보드의 Redirect Rule 로 걸어야 하며, 이 스크립트는 그 전까지의 폴백입니다)
@@ -49,6 +49,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <body data-page="kosdaq">
 
 <!-- static-shell:header:start -->
+<div class="internal-hero-backdrop" aria-hidden="true"></div>
 <a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
@@ -61,8 +62,10 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
-
-    <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 9. 8. 15:35:14</p>
+    <nav class="top-nav header-top-nav" aria-label="주요 메뉴">
+  <div class="top-nav-inner"><a class="top-link" href="/giftcard">상품권</a><a class="top-link" href="/stock">코스피</a><a class="top-link" href="/kosdaq" aria-current="page">코스닥</a><a class="top-link" href="/coin">암호화폐</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
+</nav>
+    <p class="status is-live" id="updated"><span class="dot"></span>최종 갱신 2026. 9. 8. 16:42:37</p>
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
         <svg class="icon icon-sun" aria-hidden="true"><use href="#i-sun"/></svg><svg class="icon icon-moon" aria-hidden="true"><use href="#i-moon"/></svg>
@@ -73,9 +76,6 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     </div>
   </div>
 </header>
-<nav class="top-nav" aria-label="주요 메뉴">
-  <div class="wrap"><a class="top-link" href="/">홈</a><a class="top-link" href="/giftcard">상품권</a><a class="top-link" href="/stock">주식</a><a class="top-link" href="/kosdaq" aria-current="page">코스닥</a><a class="top-link" href="/coin">코인</a><a class="top-link" href="/fx">환율</a><a class="top-link" href="/metal">금·은</a><a class="top-link" href="/energy">유가</a><a class="top-link" href="/macro">지표</a><a class="top-link" href="/realestate">부동산</a><a class="top-link" href="/car">자동차</a><a class="top-link" href="/used-car">중고차</a><a class="top-link" href="/hotdeal">핫딜</a><a class="top-link" href="/lotto">로또</a></div>
-</nav>
 <div class="nav-backdrop" data-nav-dismiss hidden></div>
 <div class="site-nav-panel" id="site-navigation" aria-labelledby="nav-drawer-title">
   <div class="nav-panel-head">
@@ -89,7 +89,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   <nav class="secondary-nav wrap" aria-label="금융시장 세부 메뉴">
   <p class="nav-section-title">금융시장 세부 메뉴</p>
   <div class="nav-links">
-    <a class="nav-link nav-link-secondary" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>주요 증시</span></a><a class="nav-link nav-link-secondary" href="/kosdaq" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>코스닥 종목</span></a><a class="nav-link nav-link-secondary" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg><span>코인</span></a><a class="nav-link nav-link-secondary" href="/fx"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg><span>환율</span></a>
+    <a class="nav-link nav-link-secondary" href="/stock"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>주요 증시</span></a><a class="nav-link nav-link-secondary" href="/kosdaq" aria-current="page"><svg class="icon" aria-hidden="true"><use href="#i-chart"/></svg><span>코스닥 종목</span></a><a class="nav-link nav-link-secondary" href="/coin"><svg class="icon" aria-hidden="true"><use href="#i-coin"/></svg><span>암호화폐</span></a><a class="nav-link nav-link-secondary" href="/fx"><svg class="icon" aria-hidden="true"><use href="#i-fx"/></svg><span>환율</span></a>
   </div>
 </nav>
 </div>
@@ -98,142 +98,353 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
 <main id="main" class="wrap">
   <div class="page-head">
     <h1>코스닥시세</h1>
-    <p class="lead">코스닥 지수 · 코스닥 주요 종목</p>
+    <p class="lead">코스닥 지수 · 일간 차트 · 코스닥 시가총액 상위 100종목</p>
   </div>
   <section class="panel">
     <h2>코스닥 지수</h2>
-    <div class="grid" id="grid-kosdaq">
+    <div class="kosdaq-index-layout">
+    <div class="grid kosdaq-index-summary" id="grid-kosdaq">
       <!-- prerender:grid-kosdaq:start -->
         <article class="card" style="--i:0">
 
+
           <div class="name">코스닥</div>
-          <div class="price">814.59<span class="unit">pt</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.92%(-7.60)</div>
+          <div class="price">811.88<span class="unit">pt</span></div>
+          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>1.25%(-10.31)</div>
+
 
 
           <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,9.720657903868311 2.564102564102564,11.539369578192016 5.128205128205128,6.164828514719559 7.6923076923076925,10.609905755964856 10.256410256410255,15.600128804807973 12.82051282051282,15.162596083112414 15.384615384615385,15.428662400932724 17.94871794871795,10.79437811428651 20.51282051282051,15.768051410884562 23.076923076923077,13.800341443779756 25.64102564102564,20.77837522728219 28.205128205128204,25.883298957624884 30.76923076923077,28 33.33333333333333,19.133490082862576 35.8974358974359,17.053446777797827 38.46153846153847,11.924871264591168 41.02564102564102,9.693455105694895 43.58974358974359,9.447496772939886 46.15384615384615,9.785694893611115 48.717948717948715,3.2038086249253936 51.28205128205128,2.8052937665690436 53.84615384615385,2.678770802392883 56.41025641025641,2.3878690299387912 58.97435897435898,2 61.53846153846154,5.600765611337042 64.1025641025641,6.752535983455246 66.66666666666666,4.809661470984221 69.23076923076923,9.415566505197994 71.7948717948718,8.068677946340586 74.35897435897436,6.43443863033853 76.92307692307693,6.467552569850234 79.48717948717949,5.192795813843741 82.05128205128204,5.102930586977944 84.61538461538461,5.590127000430275 87.17948717948718,7.132126528516107 89.74358974358975,9.174335642011464 92.3076923076923,10.802656599164433 94.87179487179486,8.048577178786068 97.43589743589743,7.020969644815192 100,7.919679653559484" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
+          <polyline points="0,9.720657903868311 2.564102564102564,11.539369578192016 5.128205128205128,6.164828514719559 7.6923076923076925,10.609905755964856 10.256410256410255,15.600128804807973 12.82051282051282,15.162596083112414 15.384615384615385,15.428662400932724 17.94871794871795,10.79437811428651 20.51282051282051,15.768051410884562 23.076923076923077,13.800341443779756 25.64102564102564,20.77837522728219 28.205128205128204,25.883298957624884 30.76923076923077,28 33.33333333333333,19.133490082862576 35.8974358974359,17.053446777797827 38.46153846153847,11.924871264591168 41.02564102564102,9.693455105694895 43.58974358974359,9.447496772939886 46.15384615384615,9.785694893611115 48.717948717948715,3.2038086249253936 51.28205128205128,2.8052937665690436 53.84615384615385,2.678770802392883 56.41025641025641,2.3878690299387912 58.97435897435898,2 61.53846153846154,5.600765611337042 64.1025641025641,6.752535983455246 66.66666666666666,4.809661470984221 69.23076923076923,9.415566505197994 71.7948717948718,8.068677946340586 74.35897435897436,6.43443863033853 76.92307692307693,6.467552569850234 79.48717948717949,5.192795813843741 82.05128205128204,5.102930586977944 84.61538461538461,5.590127000430275 87.17948717948718,7.132126528516107 89.74358974358975,9.174335642011464 92.3076923076923,10.802656599164433 94.87179487179486,8.048577178786068 97.43589743589743,7.020969644815192 100,8.240144350215832" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
         </svg></span>
+
         </article>
       <!-- prerender:grid-kosdaq:end -->
     </div>
+    <div id="kosdaq-daily-chart">
+      <!-- prerender:kosdaq-daily-chart:start -->
+        <figure class="kosdaq-daily-card">
+          <figcaption class="kosdaq-chart-head">
+            <div><span>DAILY TREND</span><strong>코스닥 일간 차트</strong><small>최근 40거래일 종가 기준</small></div>
+            <dl class="kosdaq-chart-stats">
+              <div><dt>현재</dt><dd>811.88</dd></div>
+              <div><dt>고점</dt><dd>864.65</dd></div>
+              <div><dt>저점</dt><dd>644.78</dd></div>
+              <div><dt>기간</dt><dd class="up">+1.57%</dd></div>
+            </dl>
+          </figcaption>
+          <svg class="kosdaq-daily-svg up" viewBox="0 0 760 232" role="img" aria-labelledby="kosdaq-daily-title kosdaq-daily-desc">
+            <title id="kosdaq-daily-title">코스닥 최근 40거래일 일간 차트</title>
+            <desc id="kosdaq-daily-desc">799.36포인트에서 811.88포인트로 변동했습니다.</desc>
+            <defs><linearGradient id="kosdaq-area-gradient" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/><stop offset="1" stop-color="currentColor" stop-opacity=".02"/></linearGradient></defs>
+            <g class="kosdaq-chart-grid"><line x1="58" y1="22.0" x2="742" y2="22.0"/><text x="49" y="26.0">864.65</text></g><g class="kosdaq-chart-grid"><line x1="58" y1="79.3" x2="742" y2="79.3"/><text x="49" y="83.3">791.37</text></g><g class="kosdaq-chart-grid"><line x1="58" y1="136.7" x2="742" y2="136.7"/><text x="49" y="140.7">718.06</text></g><g class="kosdaq-chart-grid"><line x1="58" y1="194.0" x2="742" y2="194.0"/><text x="49" y="198.0">644.78</text></g>
+            <path class="kosdaq-chart-area" d="M58.0,73.1 L75.5,85.1 L93.1,49.6 L110.6,79.0 L128.2,112.0 L145.7,109.1 L163.2,110.8 L180.8,80.2 L198.3,113.1 L215.8,100.1 L233.4,146.2 L250.9,180.0 L268.5,194.0 L286.0,135.3 L303.5,121.6 L321.1,87.7 L338.6,72.9 L356.2,71.3 L373.7,73.5 L391.2,30.0 L408.8,27.3 L426.3,26.5 L443.8,24.6 L461.4,22.0 L478.9,45.8 L496.5,53.4 L514.0,40.6 L531.5,71.1 L549.1,62.1 L566.6,51.3 L584.2,51.6 L601.7,43.1 L619.2,42.5 L636.8,45.8 L654.3,56.0 L671.8,69.5 L689.4,80.2 L706.9,62.0 L724.5,55.2 L742.0,63.3 L742.0,194.0 L58,194.0 Z"/>
+            <polyline class="kosdaq-chart-line" points="58.0,73.1 75.5,85.1 93.1,49.6 110.6,79.0 128.2,112.0 145.7,109.1 163.2,110.8 180.8,80.2 198.3,113.1 215.8,100.1 233.4,146.2 250.9,180.0 268.5,194.0 286.0,135.3 303.5,121.6 321.1,87.7 338.6,72.9 356.2,71.3 373.7,73.5 391.2,30.0 408.8,27.3 426.3,26.5 443.8,24.6 461.4,22.0 478.9,45.8 496.5,53.4 514.0,40.6 531.5,71.1 549.1,62.1 566.6,51.3 584.2,51.6 601.7,43.1 619.2,42.5 636.8,45.8 654.3,56.0 671.8,69.5 689.4,80.2 706.9,62.0 724.5,55.2 742.0,63.3"/>
+            <g class="kosdaq-chart-points"><circle class="kosdaq-chart-point" cx="58.0" cy="73.1" r="3"><title>1번째 거래일 · 799.36pt</title></circle><circle class="kosdaq-chart-point" cx="75.5" cy="85.1" r="3"><title>2번째 거래일 · 783.98pt</title></circle><circle class="kosdaq-chart-point" cx="93.1" cy="49.6" r="3"><title>3번째 거래일 · 829.43pt</title></circle><circle class="kosdaq-chart-point" cx="110.6" cy="79.0" r="3"><title>4번째 거래일 · 791.84pt</title></circle><circle class="kosdaq-chart-point" cx="128.2" cy="112.0" r="3"><title>5번째 거래일 · 749.64pt</title></circle><circle class="kosdaq-chart-point" cx="145.7" cy="109.1" r="3"><title>6번째 거래일 · 753.34pt</title></circle><circle class="kosdaq-chart-point" cx="163.2" cy="110.8" r="3"><title>7번째 거래일 · 751.09pt</title></circle><circle class="kosdaq-chart-point" cx="180.8" cy="80.2" r="3"><title>8번째 거래일 · 790.28pt</title></circle><circle class="kosdaq-chart-point" cx="198.3" cy="113.1" r="3"><title>9번째 거래일 · 748.22pt</title></circle><circle class="kosdaq-chart-point" cx="215.8" cy="100.1" r="3"><title>10번째 거래일 · 764.86pt</title></circle><circle class="kosdaq-chart-point" cx="233.4" cy="146.2" r="3"><title>11번째 거래일 · 705.85pt</title></circle><circle class="kosdaq-chart-point" cx="250.9" cy="180.0" r="3"><title>12번째 거래일 · 662.68pt</title></circle><circle class="kosdaq-chart-point" cx="268.5" cy="194.0" r="3"><title>13번째 거래일 · 644.78pt</title></circle><circle class="kosdaq-chart-point" cx="286.0" cy="135.3" r="3"><title>14번째 거래일 · 719.76pt</title></circle><circle class="kosdaq-chart-point" cx="303.5" cy="121.6" r="3"><title>15번째 거래일 · 737.35pt</title></circle><circle class="kosdaq-chart-point" cx="321.1" cy="87.7" r="3"><title>16번째 거래일 · 780.72pt</title></circle><circle class="kosdaq-chart-point" cx="338.6" cy="72.9" r="3"><title>17번째 거래일 · 799.59pt</title></circle><circle class="kosdaq-chart-point" cx="356.2" cy="71.3" r="3"><title>18번째 거래일 · 801.67pt</title></circle><circle class="kosdaq-chart-point" cx="373.7" cy="73.5" r="3"><title>19번째 거래일 · 798.81pt</title></circle><circle class="kosdaq-chart-point" cx="391.2" cy="30.0" r="3"><title>20번째 거래일 · 854.47pt</title></circle><circle class="kosdaq-chart-point" cx="408.8" cy="27.3" r="3"><title>21번째 거래일 · 857.84pt</title></circle><circle class="kosdaq-chart-point" cx="426.3" cy="26.5" r="3"><title>22번째 거래일 · 858.91pt</title></circle><circle class="kosdaq-chart-point" cx="443.8" cy="24.6" r="3"><title>23번째 거래일 · 861.37pt</title></circle><circle class="kosdaq-chart-point" cx="461.4" cy="22.0" r="3"><title>24번째 거래일 · 864.65pt</title></circle><circle class="kosdaq-chart-point" cx="478.9" cy="45.8" r="3"><title>25번째 거래일 · 834.2pt</title></circle><circle class="kosdaq-chart-point" cx="496.5" cy="53.4" r="3"><title>26번째 거래일 · 824.46pt</title></circle><circle class="kosdaq-chart-point" cx="514.0" cy="40.6" r="3"><title>27번째 거래일 · 840.89pt</title></circle><circle class="kosdaq-chart-point" cx="531.5" cy="71.1" r="3"><title>28번째 거래일 · 801.94pt</title></circle><circle class="kosdaq-chart-point" cx="549.1" cy="62.1" r="3"><title>29번째 거래일 · 813.33pt</title></circle><circle class="kosdaq-chart-point" cx="566.6" cy="51.3" r="3"><title>30번째 거래일 · 827.15pt</title></circle><circle class="kosdaq-chart-point" cx="584.2" cy="51.6" r="3"><title>31번째 거래일 · 826.87pt</title></circle><circle class="kosdaq-chart-point" cx="601.7" cy="43.1" r="3"><title>32번째 거래일 · 837.65pt</title></circle><circle class="kosdaq-chart-point" cx="619.2" cy="42.5" r="3"><title>33번째 거래일 · 838.41pt</title></circle><circle class="kosdaq-chart-point" cx="636.8" cy="45.8" r="3"><title>34번째 거래일 · 834.29pt</title></circle><circle class="kosdaq-chart-point" cx="654.3" cy="56.0" r="3"><title>35번째 거래일 · 821.25pt</title></circle><circle class="kosdaq-chart-point" cx="671.8" cy="69.5" r="3"><title>36번째 거래일 · 803.98pt</title></circle><circle class="kosdaq-chart-point" cx="689.4" cy="80.2" r="3"><title>37번째 거래일 · 790.21pt</title></circle><circle class="kosdaq-chart-point" cx="706.9" cy="62.0" r="3"><title>38번째 거래일 · 813.5pt</title></circle><circle class="kosdaq-chart-point" cx="724.5" cy="55.2" r="3"><title>39번째 거래일 · 822.19pt</title></circle><circle class="kosdaq-chart-point" cx="742.0" cy="63.3" r="3"><title>40번째 거래일 · 811.88pt</title></circle></g>
+            <circle class="kosdaq-chart-latest" cx="742.0" cy="63.3" r="5"/>
+            <g class="kosdaq-chart-x"><text x="58" y="224" text-anchor="start">40거래일 전</text><text x="400" y="224" text-anchor="middle">중간</text><text x="742" y="224" text-anchor="end">최근</text></g>
+          </svg>
+          <p class="kosdaq-chart-date">기준 2026-09-08 · 동일 시세 데이터에서 자동 갱신</p>
+        </figure>
+      <!-- prerender:kosdaq-daily-chart:end -->
+    </div>
+    </div>
   </section>
-  <section class="panel">
-    <h2>코스닥 주요 종목 <span class="tag">시가총액 상위</span></h2>
-    <div class="grid" id="grid-kosdaq-items">
+  <section class="panel stock-ranking-panel">
+    <div class="stock-ranking-head">
+      <h2>코스닥 시가총액 100 <span class="tag">실시간 순위</span></h2>
+      <p data-stock-count>시가총액 1–20위 · 전체 100종목</p>
+    </div>
+    <div class="stock-table-wrap" id="grid-kosdaq-items">
       <!-- prerender:grid-kosdaq-items:start -->
-        <article class="card" style="--i:0">
-          <span class="rank">1</span>
-          <div class="name">에코프로비엠</div>
-          <div class="price">104,900<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>1.69%(-1,800.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,3.010600706713781 2.564102564102564,9.625441696113075 5.128205128205128,2 7.6923076923076925,9.809187279151946 10.256410256410255,17.434628975265017 12.82051282051282,15.780918727915195 15.384615384615385,14.31095406360424 17.94871794871795,4.480565371024735 20.51282051282051,13.575971731448764 23.076923076923077,11.554770318021198 25.64102564102564,19.547703180212014 28.205128205128204,28 30.76923076923077,24.41696113074205 33.33333333333333,17.985865724381625 35.8974358974359,24.141342756183747 38.46153846153847,18.90459363957597 41.02564102564102,19.639575971731446 43.58974358974359,18.90459363957597 46.15384615384615,14.770318021201415 48.717948717948715,7.604240282685513 51.28205128205128,12.197879858657243 53.84615384615385,7.971731448763251 56.41025641025641,7.879858657243819 58.97435897435898,5.858657243816257 61.53846153846154,12.840989399293285 64.1025641025641,12.197879858657243 66.66666666666666,8.247349823321557 69.23076923076923,16.0565371024735 71.7948717948718,5.583038869257951 74.35897435897436,11.195396974381627 76.92307692307693,12.100989951413426 79.48717948717949,6.214657133392226 82.05128205128204,6.033538537985866 84.61538461538461,3.679011152826856 87.17948717948718,7.844717314487632 89.74358974358975,15.27055101590106 92.3076923076923,15.229681978798586 94.87179487179486,15.689045936395761 97.43589743589743,15.045936395759718 100,16.699646643109542" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:1">
-          <span class="rank">2</span>
-          <div class="name">에코프로</div>
-          <div class="price">81,600<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>1.09%(-900.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,11.923664122137403 2.564102564102564,16.389312977099237 5.128205128205128,9.145038167938932 7.6923076923076925,15.49618320610687 10.256410256410255,21.946564885496183 12.82051282051282,20.259541984732824 15.384615384615385,18.37404580152672 17.94871794871795,11.229007633587784 20.51282051282051,17.38167938931298 23.076923076923077,14.900763358778628 25.64102564102564,22.740458015267176 28.205128205128204,28 30.76923076923077,24.82442748091603 33.33333333333333,16.389312977099237 35.8974358974359,18.076335877862597 38.46153846153847,13.511450381679388 41.02564102564102,13.213740458015266 43.58974358974359,11.923664122137403 46.15384615384615,9.541984732824428 48.717948717948715,2.099236641221374 51.28205128205128,5.274809160305345 53.84615384615385,4.282442748091604 56.41025641025641,3.4885496183206115 58.97435897435898,2 61.53846153846154,8.450381679389313 64.1025641025641,9.34351145038168 66.66666666666666,7.458015267175572 69.23076923076923,13.809160305343513 71.7948717948718,7.65648854961832 74.35897435897436,10.33587786259542 76.92307692307693,8.549618320610687 79.48717948717949,3.5877862595419856 82.05128205128204,5.374045801526716 84.61538461538461,4.282442748091604 87.17948717948718,8.351145038167939 89.74358974358975,13.511450381679388 92.3076923076923,13.809160305343513 94.87179487179486,13.114503816793894 97.43589743589743,13.015267175572518 100,13.908396946564885" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:2">
-          <span class="rank">3</span>
-          <div class="name">알테오젠</div>
-          <div class="price">277,500<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>2.97%(-8,500.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,21.16160620319946 2.564102564102564,26.378524532630752 5.128205128205128,25.109543856603445 7.6923076923076925,26.801517136633727 10.256410256410255,27.788503697998514 12.82051282051282,27.29501041731612 15.384615384615385,28 17.94871794871795,22.571582504548832 20.51282051282051,23.417570576573166 23.076923076923077,21.796095109203918 25.64102564102564,23.981561669916594 28.205128205128204,25.95553192862778 30.76923076923077,26.378524532630752 33.33333333333333,22.289588389886312 35.8974358974359,21.020607713859008 38.46153846153847,16.861173758453535 41.02564102564102,15.014099562532207 43.58974358974359,11.989696143070496 46.15384615384615,9.881778608294155 48.717948717948715,2 51.28205128205128,5.757592127210003 53.84615384615385,7.590563896580736 56.41025641025641,7.590563896580736 58.97435897435898,8.232104015860493 61.53846153846154,11.164858846853665 64.1025641025641,10.156724373699763 66.66666666666666,3.558026003965125 69.23076923076923,7.132320954238054 71.7948717948718,7.040672365769517 74.35897435897436,9.790130019825618 76.92307692307693,8.690346958203175 79.48717948717949,8.690346958203175 82.05128205128204,7.132320954238054 84.61538461538461,9.42353566595147 87.17948717948718,10.614967316042446 89.74358974358975,11.073210258385128 92.3076923076923,13.914316500909768 94.87179487179486,12.906182027755865 97.43589743589743,13.364424970098547 100,14.92245097406367" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:3">
-          <span class="rank">4</span>
-          <div class="name">루닛</div>
-          <div class="price">8,760<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>1.24%(-110.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,16.914110429447852 2.564102564102564,19.78527607361963 5.128205128205128,15.877300613496933 7.6923076923076925,15.877300613496933 10.256410256410255,21.300613496932513 12.82051282051282,22.177914110429448 15.384615384615385,22.57668711656442 17.94871794871795,17.47239263803681 20.51282051282051,21.619631901840492 23.076923076923077,19.306748466257666 25.64102564102564,22.8159509202454 28.205128205128204,24.171779141104295 30.76923076923077,28 33.33333333333333,22.177914110429448 35.8974358974359,16.43558282208589 38.46153846153847,10.214723926380366 41.02564102564102,10.134969325153374 43.58974358974359,10.294478527607364 46.15384615384615,9.337423312883438 48.717948717948715,2 51.28205128205128,3.116564417177912 53.84615384615385,10.294478527607364 56.41025641025641,12.049079754601227 58.97435897435898,11.730061349693251 61.53846153846154,18.66871165644172 64.1025641025641,24.012269938650306 66.66666666666666,18.50920245398773 69.23076923076923,22.496932515337424 71.7948717948718,22.098159509202453 74.35897435897436,22.736196319018404 76.92307692307693,22.8159509202454 79.48717948717949,23.773006134969325 82.05128205128204,22.337423312883438 84.61538461538461,23.45398773006135 87.17948717948718,23.45398773006135 89.74358974358975,27.042944785276074 92.3076923076923,27.680981595092025 94.87179487179486,24.171779141104295 97.43589743589743,25.208588957055213 100,26.085889570552148" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:4">
-          <span class="rank">5</span>
-          <div class="name">레인보우로보틱스</div>
-          <div class="price">434,000<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>3.13%(-14,000.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,19.91111111111111 2.564102564102564,22.703703703703702 5.128205128205128,17.022222222222222 7.6923076923076925,23.377777777777776 10.256410256410255,27.614814814814814 12.82051282051282,20.585185185185185 15.384615384615385,7.681481481481484 17.94871794871795,2 20.51282051282051,19.237037037037037 23.076923076923077,13.94074074074074 25.64102564102564,22.703703703703702 28.205128205128204,20.77777777777778 30.76923076923077,28 33.33333333333333,16.444444444444443 35.8974358974359,11.533333333333335 38.46153846153847,9.896296296296295 41.02564102564102,6.622222222222224 43.58974358974359,5.562962962962963 46.15384615384615,10.281481481481482 48.717948717948715,5.659259259259258 51.28205128205128,7.392592592592592 53.84615384615385,5.466666666666665 56.41025641025641,4.1185185185185205 58.97435897435898,3.348148148148148 61.53846153846154,9.318518518518516 64.1025641025641,10.762962962962963 66.66666666666666,9.029629629629628 69.23076923076923,12.4 71.7948717948718,14.229629629629628 74.35897435897436,12.303703703703702 76.92307692307693,13.074074074074074 79.48717948717949,9.125925925925923 82.05128205128204,12.014814814814814 84.61538461538461,11.148148148148149 87.17948717948718,13.266666666666667 89.74358974358975,15.77037037037037 92.3076923076923,15.77037037037037 94.87179487179486,11.437037037037037 97.43589743589743,13.555555555555555 100,16.251851851851853" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:5">
-          <span class="rank">6</span>
-          <div class="name">리노공업</div>
-          <div class="price">69,200<span class="unit">원</span></div>
-          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>1.17%(+800.00)</div>
-
-
-          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,8.41409691629956 2.564102564102564,7.497797356828194 5.128205128205128,2 7.6923076923076925,8.41409691629956 10.256410256410255,12.079295154185022 12.82051282051282,11.048458149779737 15.384615384615385,8.986784140969164 17.94871794871795,6.581497797356828 20.51282051282051,12.651982378854624 23.076923076923077,11.277533039647576 25.64102564102564,20.669603524229075 28.205128205128204,24.56387665198238 30.76923076923077,28 33.33333333333333,17.80616740088106 35.8974358974359,20.898678414096917 38.46153846153847,17.462555066079297 41.02564102564102,14.599118942731277 43.58974358974359,14.599118942731277 46.15384615384615,15.973568281938327 48.717948717948715,10.246696035242291 51.28205128205128,9.330396475770925 53.84615384615385,9.444933920704845 56.41025641025641,9.559471365638768 58.97435897435898,10.132158590308372 61.53846153846154,13.568281938325992 64.1025641025641,13.45374449339207 66.66666666666666,11.621145374449338 69.23076923076923,15.973568281938327 71.7948717948718,17.233480176211454 74.35897435897436,14.026431718061675 76.92307692307693,15.17180616740088 79.48717948717949,14.828193832599117 82.05128205128204,14.7136563876652 84.61538461538461,14.942731277533039 87.17948717948718,16.202643171806166 89.74358974358975,17.462555066079297 92.3076923076923,17.577092511013216 94.87179487179486,14.942731277533039 97.43589743589743,12.881057268722468 100,11.9647577092511" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:6">
-          <span class="rank">7</span>
-          <div class="name">솔브레인</div>
-          <div class="price">326,000<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>4.26%(-14,500.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,10.098360655737704 2.564102564102564,10.95081967213115 5.128205128205128,10.524590163934427 7.6923076923076925,13.721311475409834 10.256410256410255,17.024590163934427 12.82051282051282,16.172131147540984 15.384615384615385,16.91803278688525 17.94871794871795,12.762295081967212 20.51282051282051,18.30327868852459 23.076923076923077,16.704918032786885 25.64102564102564,22.991803278688526 28.205128205128204,26.081967213114755 30.76923076923077,28 33.33333333333333,22.0327868852459 35.8974358974359,21.71311475409836 38.46153846153847,18.19672131147541 41.02564102564102,15 43.58974358974359,12.442622950819672 46.15384615384615,12.975409836065573 48.717948717948715,9.032786885245901 51.28205128205128,8.926229508196723 53.84615384615385,6.04918032786885 56.41025641025641,5.942622950819672 58.97435897435898,7.221311475409834 61.53846153846154,6.262295081967213 64.1025641025641,5.409836065573771 66.66666666666666,4.983606557377051 69.23076923076923,6.368852459016395 71.7948717948718,5.516393442622949 74.35897435897436,4.663934426229506 76.92307692307693,5.516393442622949 79.48717948717949,3.172131147540984 82.05128205128204,2 84.61538461538461,2.8524590163934427 87.17948717948718,3.385245901639344 89.74358974358975,5.622950819672134 92.3076923076923,7.754098360655739 94.87179487179486,6.581967213114755 97.43589743589743,3.278688524590166 100,6.368852459016395" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:7">
-          <span class="rank">8</span>
-          <div class="name">원익IPS</div>
-          <div class="price">116,800<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.68%(-800.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,9.009036144578314 2.564102564102564,8.108433734939759 5.128205128205128,2 7.6923076923076925,2.783132530120483 10.256410256410255,12.80722891566265 12.82051282051282,12.415662650602409 15.384615384615385,14.13855421686747 17.94871794871795,13.512048192771083 20.51282051282051,18.52409638554217 23.076923076923077,16.37048192771084 25.64102564102564,22.83132530120482 28.205128205128204,25.298192771084338 30.76923076923077,28 33.33333333333333,19.65963855421687 35.8974358974359,21.186746987951807 38.46153846153847,20.09036144578313 41.02564102564102,19.62048192771084 43.58974358974359,21.617469879518072 46.15384615384615,23.30120481927711 48.717948717948715,19.346385542168676 51.28205128205128,16.87951807228916 53.84615384615385,14.216867469879517 56.41025641025641,10.888554216867469 58.97435897435898,12.21987951807229 61.53846153846154,13.864457831325302 64.1025641025641,15.078313253012048 66.66666666666666,13.277108433734938 69.23076923076923,15.626506024096386 71.7948717948718,16.21385542168675 74.35897435897436,13.903614457831326 76.92307692307693,15.078313253012048 79.48717948717949,13.746987951807228 82.05128205128204,14.373493975903616 84.61538461538461,14.216867469879517 87.17948717948718,14.80421686746988 89.74358974358975,14.921686746987952 92.3076923076923,16.762048192771083 94.87179487179486,12.924698795180722 97.43589743589743,11.828313253012048 100,12.14156626506024" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:8">
-          <span class="rank">9</span>
-          <div class="name">카카오게임즈</div>
-          <div class="price">8,980<span class="unit">원</span></div>
-          <div class="delta up"><svg class="icon" aria-hidden="true"><use href="#i-up"/></svg><span class="sr-label">상승</span>0.90%(+80.00)</div>
-
-
-          <span class="up"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,22.24505928853755 2.564102564102564,22.039525691699605 5.128205128205128,23.375494071146246 7.6923076923076925,22.861660079051383 10.256410256410255,24.91699604743083 12.82051282051282,25.533596837944664 15.384615384615385,26.972332015810277 17.94871794871795,23.47826086956522 20.51282051282051,24.91699604743083 23.076923076923077,22.24505928853755 25.64102564102564,26.66403162055336 28.205128205128204,28 30.76923076923077,26.458498023715414 33.33333333333333,21.628458498023715 35.8974358974359,21.628458498023715 38.46153846153847,17.82608695652174 41.02564102564102,23.683794466403164 43.58974358974359,21.628458498023715 46.15384615384615,17.92885375494071 48.717948717948715,17.620553359683793 51.28205128205128,13.920948616600791 53.84615384615385,12.687747035573121 56.41025641025641,10.324110671936761 58.97435897435898,11.146245059288535 61.53846153846154,12.996047430830039 64.1025641025641,12.58498023715415 66.66666666666666,11.351778656126484 69.23076923076923,16.07905138339921 71.7948717948718,14.537549407114625 74.35897435897436,16.284584980237156 76.92307692307693,17.209486166007906 79.48717948717949,19.367588932806324 82.05128205128204,18.648221343873516 84.61538461538461,12.996047430830039 87.17948717948718,2 89.74358974358975,10.837944664031621 92.3076923076923,12.790513833992096 94.87179487179486,10.735177865612648 97.43589743589743,12.071146245059289 100,11.249011857707508" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="up" />
-        </svg></span>
-        </article>
-        <article class="card" style="--i:9">
-          <span class="rank">10</span>
-          <div class="name">위메이드</div>
-          <div class="price">15,110<span class="unit">원</span></div>
-          <div class="delta down"><svg class="icon" aria-hidden="true"><use href="#i-down"/></svg><span class="sr-label">하락</span>0.59%(-90.00)</div>
-
-
-          <span class="down"><svg class="spark" viewBox="0 0 100 30" preserveAspectRatio="none" aria-hidden="true">
-          <polyline points="0,9.183505154639175 2.564102564102564,12.882474226804122 5.128205128205128,12.50721649484536 7.6923076923076925,14.705154639175259 10.256410256410255,20.923711340206186 12.82051282051282,21.40618556701031 15.384615384615385,22.63917525773196 17.94871794871795,16.903092783505155 20.51282051282051,19.690721649484537 23.076923076923077,20.22680412371134 25.64102564102564,24.19381443298969 28.205128205128204,28 30.76923076923077,27.7319587628866 33.33333333333333,18.189690721649484 35.8974358974359,20.01237113402062 38.46153846153847,16.098969072164948 41.02564102564102,19.15463917525773 43.58974358974359,17.760824742268042 46.15384615384615,16.15257731958763 48.717948717948715,14.061855670103093 51.28205128205128,2 53.84615384615385,9.612371134020616 56.41025641025641,8.325773195876288 58.97435897435898,11.810309278350516 61.53846153846154,18.672164948453606 64.1025641025641,18.082474226804123 66.66666666666666,17.65360824742268 69.23076923076923,21.45979381443299 71.7948717948718,20.494845360824744 74.35897435897436,20.548453608247424 76.92307692307693,22.69278350515464 79.48717948717949,22.69278350515464 82.05128205128204,23.228865979381442 84.61538461538461,22.96082474226804 87.17948717948718,21.191752577319587 89.74358974358975,24.24742268041237 92.3076923076923,26.123711340206185 94.87179487179486,22.85360824742268 97.43589743589743,22.424742268041236 100,22.90721649484536" fill="none" stroke="currentColor" stroke-width="1.5" vector-effect="non-scaling-stroke" class="down" />
-        </svg></span>
-        </article>
+        <div class="stock-table-scroll">
+          <table class="stock-ranking-table">
+            <thead><tr><th scope="col">#</th><th scope="col">종목</th><th scope="col">현재가</th><th scope="col">등락률</th><th scope="col">시가총액</th><th scope="col">거래량</th><th scope="col">거래대금</th></tr></thead>
+            <tbody><tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=196170" aria-label="알테오젠 종목 상세보기" style="--row-i:0">
+          <td class="stock-rank-cell">1</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=196170" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock196170.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>알테오젠</strong><small>196170</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩277,000</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>3.15%</td>
+          <td class="stock-number-cell">19조 2,945억원</td>
+          <td class="stock-number-cell">657,576</td>
+          <td class="stock-number-cell">1,835억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=086520" aria-label="에코프로 종목 상세보기" style="--row-i:1">
+          <td class="stock-rank-cell">2</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=086520" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock086520.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>에코프로</strong><small>086520</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩81,100</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>1.70%</td>
+          <td class="stock-number-cell">11조 114억원</td>
+          <td class="stock-number-cell">477,826</td>
+          <td class="stock-number-cell">397억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=247540" aria-label="에코프로비엠 종목 상세보기" style="--row-i:2">
+          <td class="stock-rank-cell">3</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=247540" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock247540.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>에코프로비엠</strong><small>247540</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩104,800</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>1.78%</td>
+          <td class="stock-number-cell">10조 2,526억원</td>
+          <td class="stock-number-cell">250,745</td>
+          <td class="stock-number-cell">269억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=036930" aria-label="주성엔지니어링 종목 상세보기" style="--row-i:3">
+          <td class="stock-rank-cell">4</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=036930" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock036930.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>주성엔지니어링</strong><small>036930</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩194,600</td>
+          <td class="stock-number-cell stock-change-cell up"><span class="trend-arrow" aria-hidden="true">▲</span><span class="sr-label">상승</span>3.95%</td>
+          <td class="stock-number-cell">9조 452억원</td>
+          <td class="stock-number-cell">2,525,657</td>
+          <td class="stock-number-cell">5,092억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=277810" aria-label="레인보우로보틱스 종목 상세보기" style="--row-i:4">
+          <td class="stock-rank-cell">5</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=277810" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock277810.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>레인보우로보틱스</strong><small>277810</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩433,000</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>3.35%</td>
+          <td class="stock-number-cell">8조 4,001억원</td>
+          <td class="stock-number-cell">97,222</td>
+          <td class="stock-number-cell">430억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=240810" aria-label="원익IPS 종목 상세보기" style="--row-i:5">
+          <td class="stock-rank-cell">6</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=240810" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock240810.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>원익IPS</strong><small>240810</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩115,800</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>1.53%</td>
+          <td class="stock-number-cell">5조 6,839억원</td>
+          <td class="stock-number-cell">848,309</td>
+          <td class="stock-number-cell">1,013억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=039030" aria-label="이오테크닉스 종목 상세보기" style="--row-i:6">
+          <td class="stock-rank-cell">7</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=039030" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock039030.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>이오테크닉스</strong><small>039030</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩446,500</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>2.08%</td>
+          <td class="stock-number-cell">5조 5,007억원</td>
+          <td class="stock-number-cell">125,289</td>
+          <td class="stock-number-cell">570억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=058470" aria-label="리노공업 종목 상세보기" style="--row-i:7">
+          <td class="stock-rank-cell">8</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=058470" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock058470.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>리노공업</strong><small>058470</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩68,900</td>
+          <td class="stock-number-cell stock-change-cell up"><span class="trend-arrow" aria-hidden="true">▲</span><span class="sr-label">상승</span>0.73%</td>
+          <td class="stock-number-cell">5조 2,510억원</td>
+          <td class="stock-number-cell">739,449</td>
+          <td class="stock-number-cell">523억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=222800" aria-label="심텍 종목 상세보기" style="--row-i:8">
+          <td class="stock-rank-cell">9</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=222800" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock222800.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>심텍</strong><small>222800</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩121,800</td>
+          <td class="stock-number-cell stock-change-cell up"><span class="trend-arrow" aria-hidden="true">▲</span><span class="sr-label">상승</span>1.67%</td>
+          <td class="stock-number-cell">4조 6,253억원</td>
+          <td class="stock-number-cell">899,225</td>
+          <td class="stock-number-cell">1,125억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=403870" aria-label="HPSP 종목 상세보기" style="--row-i:9">
+          <td class="stock-rank-cell">10</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=403870" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock403870.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>HPSP</strong><small>403870</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩53,300</td>
+          <td class="stock-number-cell stock-change-cell flat"><span class="trend-arrow" aria-hidden="true">—</span><span class="sr-label">보합</span>0.00%</td>
+          <td class="stock-number-cell">4조 3,866억원</td>
+          <td class="stock-number-cell">2,700,870</td>
+          <td class="stock-number-cell">1,480억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=028300" aria-label="HLB 종목 상세보기" style="--row-i:10">
+          <td class="stock-rank-cell">11</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=028300" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock028300.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>HLB</strong><small>028300</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩31,650</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>3.95%</td>
+          <td class="stock-number-cell">4조 2,157억원</td>
+          <td class="stock-number-cell">605,825</td>
+          <td class="stock-number-cell">195억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=108490" aria-label="로보티즈 종목 상세보기" style="--row-i:11">
+          <td class="stock-rank-cell">12</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=108490" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock108490.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>로보티즈</strong><small>108490</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩284,000</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>5.80%</td>
+          <td class="stock-number-cell">4조 1,654억원</td>
+          <td class="stock-number-cell">565,816</td>
+          <td class="stock-number-cell">1,653억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=095340" aria-label="ISC 종목 상세보기" style="--row-i:12">
+          <td class="stock-rank-cell">13</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=095340" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock095340.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>ISC</strong><small>095340</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩183,000</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>1.61%</td>
+          <td class="stock-number-cell">3조 8,791억원</td>
+          <td class="stock-number-cell">103,448</td>
+          <td class="stock-number-cell">194억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=214450" aria-label="파마리서치 종목 상세보기" style="--row-i:13">
+          <td class="stock-rank-cell">14</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=214450" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock214450.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>파마리서치</strong><small>214450</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩369,000</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>1.99%</td>
+          <td class="stock-number-cell">3조 8,338억원</td>
+          <td class="stock-number-cell">114,969</td>
+          <td class="stock-number-cell">425억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=000250" aria-label="삼천당제약 종목 상세보기" style="--row-i:14">
+          <td class="stock-rank-cell">15</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=000250" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock000250.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>삼천당제약</strong><small>000250</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩162,900</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>0.06%</td>
+          <td class="stock-number-cell">3조 8,212억원</td>
+          <td class="stock-number-cell">81,911</td>
+          <td class="stock-number-cell">136억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=298380" aria-label="에이비엘바이오 종목 상세보기" style="--row-i:15">
+          <td class="stock-rank-cell">16</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=298380" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock298380.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>에이비엘바이오</strong><small>298380</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩68,200</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>4.08%</td>
+          <td class="stock-number-cell">3조 8,183억원</td>
+          <td class="stock-number-cell">192,626</td>
+          <td class="stock-number-cell">134억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=319660" aria-label="피에스케이 종목 상세보기" style="--row-i:16">
+          <td class="stock-rank-cell">17</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=319660" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock319660.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>피에스케이</strong><small>319660</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩125,500</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>2.11%</td>
+          <td class="stock-number-cell">3조 6,353억원</td>
+          <td class="stock-number-cell">339,313</td>
+          <td class="stock-number-cell">439억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=440110" aria-label="파두 종목 상세보기" style="--row-i:17">
+          <td class="stock-rank-cell">18</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=440110" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock440110.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>파두</strong><small>440110</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩71,000</td>
+          <td class="stock-number-cell stock-change-cell up"><span class="trend-arrow" aria-hidden="true">▲</span><span class="sr-label">상승</span>1.57%</td>
+          <td class="stock-number-cell">3조 5,579억원</td>
+          <td class="stock-number-cell">487,571</td>
+          <td class="stock-number-cell">354억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=087010" aria-label="펩트론 종목 상세보기" style="--row-i:18">
+          <td class="stock-rank-cell">19</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=087010" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock087010.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>펩트론</strong><small>087010</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩147,200</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>8.11%</td>
+          <td class="stock-number-cell">3조 4,323억원</td>
+          <td class="stock-number-cell">192,415</td>
+          <td class="stock-number-cell">293억원</td>
+        </tr>
+        <tr class="stock-table-row" tabindex="0" role="link" data-stock-href="/stock-detail?market=KOSDAQ&amp;code=141080" aria-label="리가켐바이오 종목 상세보기" style="--row-i:19">
+          <td class="stock-rank-cell">20</td>
+          <td class="stock-name-cell">
+            <a class="stock-name-link" href="/stock-detail?market=KOSDAQ&amp;code=141080" tabindex="-1">
+              <span class="stock-logo"><img src="https://ssl.pstatic.net/imgstock/fn/real/logo/png/stock/Stock141080.png" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer"></span>
+              <span><strong>리가켐바이오</strong><small>141080</small></span>
+            </a>
+          </td>
+          <td class="stock-number-cell stock-price-cell">₩89,300</td>
+          <td class="stock-number-cell stock-change-cell down"><span class="trend-arrow" aria-hidden="true">▼</span><span class="sr-label">하락</span>3.25%</td>
+          <td class="stock-number-cell">3조 3,058억원</td>
+          <td class="stock-number-cell">265,876</td>
+          <td class="stock-number-cell">242억원</td>
+        </tr></tbody>
+          </table>
+        </div>
       <!-- prerender:grid-kosdaq-items:end -->
     </div>
+    <nav class="stock-pager" data-stock-pager aria-label="코스닥 시가총액 순위 페이지"></nav>
   </section>
 </main>
 
@@ -246,7 +457,7 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -255,14 +466,14 @@ try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.th
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
+    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>
 <!-- static-shell:footer:end -->
 
-<script src="assets/site-config.js?v=20260908-hero20"></script>
-<script src="assets/app.js?v=20260908-hero20"></script>
-<script src="assets/pages.js?v=20260908-hero20"></script>
+<script src="assets/site-config.js?v=20260908-trend-colors34"></script>
+<script src="assets/app.js?v=20260908-trend-colors34"></script>
+<script src="assets/pages.js?v=20260908-trend-colors34"></script>
 </body>
 </html>

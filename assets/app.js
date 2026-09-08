@@ -124,7 +124,7 @@ function topNavMarkup(page, insideHeader = false) {
   let orderedPages = home && giftcard
     ? [home, giftcard, ...topPages.filter((item) => item !== home && item !== giftcard)]
     : topPages;
-  if (insideHeader && page === 'home') {
+  if (insideHeader) {
     orderedPages = orderedPages.filter((item) => item.id !== 'home');
   }
   const links = orderedPages.map((item) => {
@@ -284,6 +284,7 @@ function renderShell() {
   if (!$('[data-icon-sprite]')) document.body.insertAdjacentHTML('afterbegin', SPRITE);
 
   if (!$('.site-header')) document.body.insertAdjacentHTML('afterbegin', `
+${page === 'home' ? '' : '<div class="internal-hero-backdrop" aria-hidden="true"></div>'}
 <a class="skip-link" href="#main">본문 바로가기</a>
 <header class="site-header">
   <div class="wrap">
@@ -296,7 +297,7 @@ function renderShell() {
       <span class="brand-mark">모두의 <b>시세</b></span>
       <span class="brand-text">대한민국 모든 시세 한눈에</span>
     </a>
-${page === 'home' ? `    ${topNavMarkup(page, true)}` : ''}
+    ${topNavMarkup(page, true)}
     <p class="status" id="updated"><span class="dot"></span>불러오는 중…</p>
     <div class="header-actions">
       <button class="theme-toggle" id="theme-toggle" type="button" aria-label="화면 테마 전환">
@@ -308,7 +309,6 @@ ${page === 'home' ? `    ${topNavMarkup(page, true)}` : ''}
     </div>
   </div>
 </header>
-${page === 'home' ? '' : topNavMarkup(page)}
 ${navigationMarkup(page)}`);
   else if (!$('.skip-link')) document.body.insertAdjacentHTML('afterbegin', '<a class="skip-link" href="#main">본문 바로가기</a>');
 
@@ -322,7 +322,7 @@ ${navigationMarkup(page)}`);
     </div>
     <nav class="foot-col" aria-label="서비스 메뉴">
       <strong>서비스</strong>
-      <div class="foot-menu"><a href="/coin">코인시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
     </nav>
     <nav class="foot-col" aria-label="안내">
       <strong>안내</strong>
@@ -331,7 +331,7 @@ ${navigationMarkup(page)}`);
   </div>
   <div class="wrap foot-legal">
     <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-    <p class="src">출처: 동행복권 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
+    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
     <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
   </div>
 </footer>`,
@@ -341,7 +341,71 @@ ${navigationMarkup(page)}`);
   bindNavigationDrawer();
 }
 
-/** 홈 데이터 카드가 포인터 위치를 따라 은은하게 기울어지도록 합니다. */
+/** 내부 페이지의 카드·패널에 공통 진입/테두리 모션을 부여합니다. */
+function bindInternalCardMotion() {
+  if (document.body.dataset.page === 'home') return;
+  if (document.documentElement.dataset.internalCardMotionBound === 'true') return;
+  document.documentElement.dataset.internalCardMotionBound = 'true';
+
+  const motionSelector = [
+    '.card',
+    '.gc',
+    '.stat',
+    '.panel',
+    '.car-kpi',
+    '.car-panel',
+    '.deal',
+    '.map-box',
+    '.region-panel',
+    '.estimator',
+    '.brand-fact',
+    '.ab-cat',
+    '.ab-use',
+  ].join(',');
+  const tiltSelector = '.card, .gc, .stat, .car-kpi, .deal, .brand-fact, .ab-cat, .ab-use';
+  let motionIndex = 0;
+  let toneIndex = 0;
+  const cardTones = ['ink', 'white', 'red', 'sky', 'blue', 'pink', 'teal'];
+  const revealObserver = 'IntersectionObserver' in window
+    ? new IntersectionObserver((entries, observer) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add('is-motion-visible');
+          observer.unobserve(entry.target);
+        });
+      }, { rootMargin: '0px 0px -8% 0px', threshold: 0.08 })
+    : null;
+
+  const enhance = (root = document) => {
+    const nodes = [];
+    if (root instanceof Element && root.matches(motionSelector)) nodes.push(root);
+    if (root.querySelectorAll) nodes.push(...root.querySelectorAll(motionSelector));
+
+    nodes.forEach((node) => {
+      if (node.dataset.internalMotion === 'true') return;
+      node.dataset.internalMotion = 'true';
+      node.classList.add('internal-motion-card');
+      node.style.setProperty('--motion-i', String(motionIndex % 10));
+      motionIndex += 1;
+      if (node.matches(tiltSelector)) {
+        node.classList.add('internal-tilt-card', `internal-tone-${cardTones[toneIndex % cardTones.length]}`);
+        toneIndex += 1;
+      }
+      if (revealObserver) revealObserver.observe(node);
+      else node.classList.add('is-motion-visible');
+    });
+  };
+
+  enhance();
+  const observer = new MutationObserver((records) => {
+    records.forEach((record) => record.addedNodes.forEach((node) => {
+      if (node instanceof Element) enhance(node);
+    }));
+  });
+  observer.observe(document.body, { childList: true, subtree: true });
+}
+
+/** 메인·내부 데이터 카드가 포인터 위치를 따라 은은하게 기울어지도록 합니다. */
 function bindDataCardTilt() {
   if (document.documentElement.dataset.dataCardTiltBound === 'true') return;
   document.documentElement.dataset.dataCardTiltBound = 'true';
@@ -360,7 +424,7 @@ function bindDataCardTilt() {
 
   document.addEventListener('pointermove', (event) => {
     if (!finePointer.matches || reducedMotion.matches || !(event.target instanceof Element)) return;
-    const card = event.target.closest('.home .cat-grid .hcard');
+    const card = event.target.closest('.home .cat-grid .hcard, .internal-tilt-card');
     if (!card) {
       if (activeCard) resetCard(activeCard);
       activeCard = null;
@@ -391,11 +455,70 @@ function bindDataCardTilt() {
 
   document.addEventListener('pointerout', (event) => {
     if (!(event.target instanceof Element)) return;
-    const card = event.target.closest('.home .cat-grid .hcard');
+    const card = event.target.closest('.home .cat-grid .hcard, .internal-tilt-card');
     if (!card || (event.relatedTarget instanceof Node && card.contains(event.relatedTarget))) return;
     resetCard(card);
     if (activeCard === card) activeCard = null;
   }, { passive: true });
+}
+
+/**
+ * 단순 정적 서버를 사용하는 로컬 미리보기에서는 `/coin` 같은 확장자 없는
+ * 파일형 경로가 404가 됩니다. 배포 주소는 그대로 두고 로컬 클릭만 실제
+ * `.html` 파일로 연결합니다.
+ */
+function bindLocalPreviewRoutes() {
+  const localHosts = new Set(['127.0.0.1', 'localhost', '[::1]']);
+  if (!localHosts.has(window.location.hostname)) return;
+  if (document.documentElement.dataset.localRoutesBound === 'true') return;
+  document.documentElement.dataset.localRoutesBound = 'true';
+
+  const fileRoutes = new Set([
+    '/coin',
+    '/stock',
+    '/stock-detail',
+    '/kosdaq',
+    '/fx',
+    '/metal',
+    '/energy',
+    '/macro',
+    '/realestate',
+    '/hotdeal',
+    '/lotto',
+    '/shopping',
+    '/about',
+    '/giftcard',
+    '/giftcard/lotte',
+    '/giftcard/shinsegae',
+    '/giftcard/hyundai',
+    '/car',
+    '/car/domestic',
+    '/car/imported',
+    '/used-car',
+    '/used-car/domestic',
+    '/used-car/imported',
+  ]);
+
+  document.addEventListener('click', (event) => {
+    if (event.defaultPrevented || event.button !== 0) return;
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    if (!(event.target instanceof Element)) return;
+
+    const link = event.target.closest('a[href]');
+    if (!link || link.hasAttribute('download')) return;
+    if (link.target && link.target !== '_self') return;
+
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('#')) return;
+
+    const url = new URL(href, window.location.href);
+    const cleanPath = url.pathname.replace(/\/$/, '') || '/';
+    if (url.origin !== window.location.origin || !fileRoutes.has(cleanPath)) return;
+
+    event.preventDefault();
+    url.pathname = `${cleanPath}.html`;
+    window.location.assign(url.href);
+  }, true);
 }
 
 /** 헤더의 갱신 시각 표시 */
@@ -439,14 +562,24 @@ function card(item, i = 0) {
   const abs =
     item.change == null ? '' : `(${item.change > 0 ? '+' : '-'}${num(Math.abs(item.change), 2)})`;
   const index = Number.isInteger(i) && i >= 0 ? i : 0;
-  return `<article class="card" style="--i:${index}">
+  const isDomesticStock = /^\d{6}$/.test(String(item.code || '')) &&
+    (item.group === 'stock' || item.group === 'kosdaq_stock');
+  const market = item.group === 'kosdaq_stock' ? 'KOSDAQ' : 'KOSPI';
+  const href = isDomesticStock
+    ? `/stock-detail?market=${market}&code=${encodeURIComponent(item.code)}`
+    : '';
+  const content = `
     ${item.rank ? `<span class="rank">${escapeHTML(item.rank)}</span>` : ''}
     <div class="name">${escapeHTML(item.name)}</div>
     <div class="price">${fmtPrice(item.price, item.group, item.unit)}<span class="unit">${escapeHTML(item.unit)}</span></div>
     <div class="delta ${d}">${pct}${abs}</div>
-    ${item.volume ? `<div class="memo">24h 거래대금 ${compactWon(item.volume)}</div>` : ''}
+    ${item.marketCap ? `<div class="memo stock-market-cap">시가총액 ${escapeHTML(item.marketCapText || compactWon(item.marketCap))}</div>` : ''}
+    ${item.volume ? `<div class="memo">${isDomesticStock ? `거래량 ${num(item.volume, 0)}주` : `24h 거래대금 ${compactWon(item.volume)}`}</div>` : ''}
     ${item.note ? `<div class="memo">${escapeHTML(item.note)}</div>` : ''}
     <span class="${d}">${sparkline(item.spark)}</span>
+    ${isDomesticStock ? `<span class="stock-card-more">상세보기 ${icon('arrow')}</span>` : ''}`;
+  return `<article class="card${isDomesticStock ? ' stock-card' : ''}" style="--i:${index}">
+    ${href ? `<a class="stock-card-link" href="${escapeHTML(href)}" aria-label="${escapeHTML(item.name)} 종목 상세보기">${content}</a>` : content}
   </article>`;
 }
 
@@ -478,4 +611,6 @@ async function renderMarketGroup(groupOrIds, mountSel) {
 // 정적 HTML에서도 테마와 모바일 내비게이션이 즉시 동작하게 합니다.
 // pages.js가 다시 호출해도 각 바인딩은 data-bound로 한 번만 연결됩니다.
 renderShell();
+bindInternalCardMotion();
 bindDataCardTilt();
+bindLocalPreviewRoutes();

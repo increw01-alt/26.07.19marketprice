@@ -13,9 +13,9 @@
       label: '금융시장',
       icon: 'chart',
       pages: [
-        { id: 'stock', href: '/stock', label: '주요 증시', nav: '주식', icon: 'chart' },
+        { id: 'stock', href: '/stock', label: '주요 증시', nav: '코스피', icon: 'chart' },
         { id: 'kosdaq', href: '/kosdaq', label: '코스닥 종목', nav: '코스닥', icon: 'chart' },
-        { id: 'coin', href: '/coin', label: '코인', nav: '코인', icon: 'coin' },
+        { id: 'coin', href: '/coin', label: '암호화폐', nav: '암호화폐', icon: 'coin' },
         { id: 'fx', href: '/fx', label: '환율', nav: '환율', icon: 'fx' },
       ],
     },

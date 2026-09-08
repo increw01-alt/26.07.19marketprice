@@ -32,6 +32,7 @@ const PUBLIC_FILES = [
   'realestate.html',
   'shopping.html',
   'stock.html',
+  'stock-detail.html',
   '404.html',
   'robots.txt',
   'rss.xml',

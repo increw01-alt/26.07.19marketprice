@@ -71,7 +71,103 @@ async function pageGroup(groupOrIds, mount) {
   setStatus(data.updatedAt);
 }
 
+function cryptoRankingTable(items) {
+  const sorted = items.slice().sort((a, b) => finite(b.volume) - finite(a.volume));
+  const rows = sorted.map((item, index) => {
+    const d = finite(item.changePct) > 0 ? 'up' : finite(item.changePct) < 0 ? 'down' : 'flat';
+    const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
+    const symbol = String(item.id || '').toUpperCase();
+    return `<tr class="crypto-table-row" style="--row-i:${index};--coin-hue:${(index * 41 + 205) % 360}">
+      <td class="stock-rank-cell">${index + 1}</td>
+      <td class="stock-name-cell">
+        <div class="stock-name-link">
+          <span class="stock-logo crypto-logo">${icon('coin')}</span>
+          <span><strong>${esc(item.name)}</strong><small>KRW-${esc(symbol)}</small></span>
+        </div>
+      </td>
+      <td class="stock-number-cell stock-price-cell">₩${fmtPrice(item.price, item.group, item.unit)}</td>
+      <td class="stock-number-cell stock-change-cell ${d}"><span class="trend-arrow" aria-hidden="true">${d === 'up' ? '▲' : d === 'down' ? '▼' : '—'}</span><span class="sr-label">${label}</span>${num(Math.abs(finite(item.changePct)), 2)}%</td>
+      <td class="stock-number-cell">${item.volume == null ? '—' : compactWon(item.volume)}</td>
+      <td class="crypto-trend-cell"><span class="${d}">${sparkline(item.spark)}</span></td>
+    </tr>`;
+  }).join('');
+  return `<div class="stock-table-scroll crypto-table-scroll">
+    <table class="stock-ranking-table crypto-ranking-table">
+      <thead><tr><th scope="col">#</th><th scope="col">암호화폐</th><th scope="col">현재가</th><th scope="col">24시간 등락률</th><th scope="col">24시간 거래대금</th><th scope="col">최근 40일</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+async function pageCrypto() {
+  const data = await fetchJSON('/data/markets.json');
+  const items = data.items.filter((item) => item.group === 'coin');
+  const mount = $('#grid-coin');
+  if (mount) {
+    mount.innerHTML = items.length
+      ? cryptoRankingTable(items)
+      : '<p class="empty">암호화폐 데이터를 불러오지 못했습니다.</p>';
+  }
+  setStatus(data.updatedAt);
+}
+
 /** 지수 + 개별종목 두 그리드를 함께 그립니다 (주식·코스닥). */
+function dailyIndexChart(item) {
+  const values = Array.isArray(item?.spark) ? item.spark.map(Number).filter(Number.isFinite) : [];
+  if (values.length < 2) return '<p class="empty">일간 차트 데이터를 불러오지 못했습니다.</p>';
+
+  const width = 760;
+  const height = 232;
+  const left = 58;
+  const right = 18;
+  const top = 22;
+  const bottom = 38;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const low = Math.min(...values);
+  const high = Math.max(...values);
+  const span = high - low || 1;
+  const x = (index) => left + (index / (values.length - 1)) * plotWidth;
+  const y = (value) => top + ((high - value) / span) * plotHeight;
+  const points = values.map((value, index) => `${x(index).toFixed(1)},${y(value).toFixed(1)}`);
+  const latest = values.at(-1);
+  const first = values[0];
+  const periodPct = first ? ((latest - first) / first) * 100 : 0;
+  const trend = periodPct >= 0 ? 'up' : 'down';
+  const format = (value) => Number(value).toLocaleString('ko-KR', { maximumFractionDigits: 2 });
+  const grid = [0, .3333, .6667, 1].map((ratio) => {
+    const gy = top + ratio * plotHeight;
+    const value = high - ratio * span;
+    return `<g class="kosdaq-chart-grid"><line x1="${left}" y1="${gy.toFixed(1)}" x2="${width - right}" y2="${gy.toFixed(1)}"/><text x="${left - 9}" y="${(gy + 4).toFixed(1)}">${format(value)}</text></g>`;
+  }).join('');
+  const dots = values.map((value, index) => `<circle class="kosdaq-chart-point" cx="${x(index).toFixed(1)}" cy="${y(value).toFixed(1)}" r="3"><title>${index + 1}번째 거래일 · ${format(value)}pt</title></circle>`).join('');
+  const area = `M${points.join(' L')} L${(width - right).toFixed(1)},${(top + plotHeight).toFixed(1)} L${left},${(top + plotHeight).toFixed(1)} Z`;
+
+  return `<figure class="kosdaq-daily-card">
+    <figcaption class="kosdaq-chart-head">
+      <div><span>DAILY TREND</span><strong>코스닥 일간 차트</strong><small>최근 ${values.length}거래일 종가 기준</small></div>
+      <dl class="kosdaq-chart-stats">
+        <div><dt>현재</dt><dd>${format(latest)}</dd></div>
+        <div><dt>고점</dt><dd>${format(high)}</dd></div>
+        <div><dt>저점</dt><dd>${format(low)}</dd></div>
+        <div><dt>기간</dt><dd class="${trend}">${periodPct >= 0 ? '+' : ''}${periodPct.toFixed(2)}%</dd></div>
+      </dl>
+    </figcaption>
+    <svg class="kosdaq-daily-svg ${trend}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="kosdaq-daily-title kosdaq-daily-desc">
+      <title id="kosdaq-daily-title">코스닥 최근 ${values.length}거래일 일간 차트</title>
+      <desc id="kosdaq-daily-desc">${format(first)}포인트에서 ${format(latest)}포인트로 변동했습니다.</desc>
+      <defs><linearGradient id="kosdaq-area-gradient" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".28"/><stop offset="1" stop-color="currentColor" stop-opacity=".02"/></linearGradient></defs>
+      ${grid}
+      <path class="kosdaq-chart-area" d="${area}"/>
+      <polyline class="kosdaq-chart-line" points="${points.join(' ')}"/>
+      <g class="kosdaq-chart-points">${dots}</g>
+      <circle class="kosdaq-chart-latest" cx="${x(values.length - 1).toFixed(1)}" cy="${y(latest).toFixed(1)}" r="5"/>
+      <g class="kosdaq-chart-x"><text x="${left}" y="${height - 8}" text-anchor="start">${values.length}거래일 전</text><text x="${left + plotWidth / 2}" y="${height - 8}" text-anchor="middle">중간</text><text x="${width - right}" y="${height - 8}" text-anchor="end">최근</text></g>
+    </svg>
+    <p class="kosdaq-chart-date">기준 ${esc(item.date || '')} · 동일 시세 데이터에서 자동 갱신</p>
+  </figure>`;
+}
+
 async function pageStock(indexIds, stockGroup, indexMount, stockMount) {
   const data = await fetchJSON('/data/markets.json');
   const put = (sel, list) => {
@@ -82,7 +178,220 @@ async function pageStock(indexIds, stockGroup, indexMount, stockMount) {
         : '<p class="empty">데이터를 불러오지 못했습니다.</p>';
   };
   put(indexMount, indexIds.map((id) => data.items.find((i) => i.id === id)).filter(Boolean));
-  put(stockMount, data.items.filter((i) => i.group === stockGroup));
+  renderStockRanking(
+    data.items.filter((i) => i.group === stockGroup).sort((a, b) => finite(a.rank) - finite(b.rank)),
+    stockMount,
+  );
+  if (indexMount === '#grid-kosdaq') {
+    const chart = $('#kosdaq-daily-chart');
+    const kosdaq = data.items.find((item) => item.id === 'kosdaq');
+    if (chart && kosdaq) chart.innerHTML = dailyIndexChart(kosdaq);
+  }
+  setStatus(data.updatedAt);
+}
+
+const STOCKS_PER_PAGE = 20;
+
+function stockRankingTable(items) {
+  const rows = items.map((item, index) => {
+    const market = item.group === 'kosdaq_stock' ? 'KOSDAQ' : 'KOSPI';
+    const href = `/stock-detail?market=${market}&code=${encodeURIComponent(item.code)}`;
+    const d = finite(item.changePct) > 0 ? 'up' : finite(item.changePct) < 0 ? 'down' : 'flat';
+    const label = d === 'up' ? '상승' : d === 'down' ? '하락' : '보합';
+    const logo = safeWebUrl(item.logoUrl);
+    return `<tr class="stock-table-row" tabindex="0" role="link" data-stock-href="${esc(href)}" aria-label="${esc(item.name)} 종목 상세보기" style="--row-i:${index}">
+      <td class="stock-rank-cell">${finite(item.rank)}</td>
+      <td class="stock-name-cell">
+        <a class="stock-name-link" href="${esc(href)}" tabindex="-1">
+          <span class="stock-logo">${logo ? `<img src="${urlAttr(logo)}" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer">` : esc(item.name).slice(0, 1)}</span>
+          <span><strong>${esc(item.name)}</strong><small>${esc(item.code)}</small></span>
+        </a>
+      </td>
+      <td class="stock-number-cell stock-price-cell">₩${fmtPrice(item.price, item.group, item.unit)}</td>
+      <td class="stock-number-cell stock-change-cell ${d}"><span class="trend-arrow" aria-hidden="true">${d === 'up' ? '▲' : d === 'down' ? '▼' : '—'}</span><span class="sr-label">${label}</span>${num(Math.abs(finite(item.changePct)), 2)}%</td>
+      <td class="stock-number-cell">${esc(item.marketCapText || compactWon(item.marketCap))}</td>
+      <td class="stock-number-cell">${item.volume == null ? '—' : num(item.volume, 0)}</td>
+      <td class="stock-number-cell">${item.tradedValue == null ? '—' : compactWon(item.tradedValue)}</td>
+    </tr>`;
+  }).join('');
+  return `<div class="stock-table-scroll">
+    <table class="stock-ranking-table">
+      <thead><tr><th scope="col">#</th><th scope="col">종목</th><th scope="col">현재가</th><th scope="col">등락률</th><th scope="col">시가총액</th><th scope="col">거래량</th><th scope="col">거래대금</th></tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  </div>`;
+}
+
+function renderStockRanking(items, mountSelector) {
+  const mount = $(mountSelector);
+  if (!mount) return;
+  const panel = mount.closest('.panel');
+  const count = panel?.querySelector('[data-stock-count]');
+  const pager = panel?.querySelector('[data-stock-pager]');
+  const pages = Math.max(1, Math.ceil(items.length / STOCKS_PER_PAGE));
+
+  const render = ({ scroll = false } = {}) => {
+    const requested = Number(new URLSearchParams(location.search).get('page'));
+    const page = Math.min(Math.max(Number.isInteger(requested) && requested > 0 ? requested : 1, 1), pages);
+    const start = (page - 1) * STOCKS_PER_PAGE;
+    const slice = items.slice(start, start + STOCKS_PER_PAGE);
+    mount.innerHTML = slice.length
+      ? stockRankingTable(slice)
+      : '<p class="empty">종목 데이터를 불러오지 못했습니다.</p>';
+
+    if (count) {
+      const first = slice.length ? start + 1 : 0;
+      const last = start + slice.length;
+      count.textContent = `시가총액 ${first}–${last}위 · 전체 ${items.length}종목`;
+    }
+    if (pager) {
+      pager.innerHTML = `
+        <button type="button" class="stock-page-btn stock-page-prev" data-stock-page="${page - 1}" ${page === 1 ? 'disabled' : ''}>이전</button>
+        <div class="stock-page-numbers">
+          ${Array.from({ length: pages }, (_, index) => {
+            const value = index + 1;
+            return `<button type="button" class="stock-page-btn" data-stock-page="${value}"${value === page ? ' aria-current="page"' : ''}>${value}</button>`;
+          }).join('')}
+        </div>
+        <button type="button" class="stock-page-btn stock-page-next" data-stock-page="${page + 1}" ${page === pages ? 'disabled' : ''}>다음</button>`;
+    }
+    bindInternalCardMotion();
+    bindDataCardTilt();
+    if (scroll) panel?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  };
+
+  if (pager && pager.dataset.bound !== 'true') {
+    pager.dataset.bound = 'true';
+    pager.addEventListener('click', (event) => {
+      const button = event.target.closest('[data-stock-page]');
+      if (!button || button.disabled) return;
+      const next = Number(button.dataset.stockPage);
+      if (!Number.isInteger(next) || next < 1 || next > pages) return;
+      updateQuery({ page: next === 1 ? null : next });
+      render({ scroll: true });
+    });
+    addEventListener('popstate', () => render());
+  }
+  if (mount.dataset.stockRowsBound !== 'true') {
+    mount.dataset.stockRowsBound = 'true';
+    const activateRow = (row) => {
+      const anchor = row?.querySelector('.stock-name-link');
+      if (anchor) anchor.click();
+    };
+    mount.addEventListener('click', (event) => {
+      if (event.target.closest('a, button')) return;
+      activateRow(event.target.closest('[data-stock-href]'));
+    });
+    mount.addEventListener('keydown', (event) => {
+      if (event.key !== 'Enter' && event.key !== ' ') return;
+      const row = event.target.closest('[data-stock-href]');
+      if (!row) return;
+      event.preventDefault();
+      activateRow(row);
+    });
+  }
+  render();
+}
+
+function stockDetailChart(item) {
+  const values = Array.isArray(item.spark) ? item.spark.map(Number).filter(Number.isFinite) : [];
+  if (values.length < 2) return '<p class="empty">최근 거래일 차트 데이터가 없습니다.</p>';
+  const width = 920;
+  const height = 300;
+  const left = 66;
+  const right = 20;
+  const top = 22;
+  const bottom = 38;
+  const plotWidth = width - left - right;
+  const plotHeight = height - top - bottom;
+  const low = Math.min(...values);
+  const high = Math.max(...values);
+  const span = high - low || 1;
+  const x = (index) => left + (index / (values.length - 1)) * plotWidth;
+  const y = (value) => top + ((high - value) / span) * plotHeight;
+  const points = values.map((value, index) => `${x(index).toFixed(1)},${y(value).toFixed(1)}`);
+  const trend = values.at(-1) >= values[0] ? 'up' : 'down';
+  const code = esc(item.code);
+  const grid = [0, .3333, .6667, 1].map((ratio) => {
+    const gy = top + ratio * plotHeight;
+    const value = high - ratio * span;
+    return `<g class="stock-detail-grid"><line x1="${left}" y1="${gy.toFixed(1)}" x2="${width - right}" y2="${gy.toFixed(1)}"/><text x="${left - 10}" y="${(gy + 4).toFixed(1)}">${Math.round(value).toLocaleString('ko-KR')}</text></g>`;
+  }).join('');
+  const area = `M${points.join(' L')} L${width - right},${top + plotHeight} L${left},${top + plotHeight} Z`;
+  return `<figure class="stock-detail-chart">
+    <figcaption><strong>최근 ${values.length}거래일 종가 추이</strong><span>${esc(item.date || '')} 기준</span></figcaption>
+    <svg class="stock-detail-svg ${trend}" viewBox="0 0 ${width} ${height}" role="img" aria-labelledby="stock-chart-title-${code} stock-chart-desc-${code}">
+      <title id="stock-chart-title-${code}">${esc(item.name)} 최근 ${values.length}거래일 차트</title>
+      <desc id="stock-chart-desc-${code}">${Math.round(values[0]).toLocaleString('ko-KR')}원에서 ${Math.round(values.at(-1)).toLocaleString('ko-KR')}원으로 변동했습니다.</desc>
+      <defs><linearGradient id="stock-area-${code}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="currentColor" stop-opacity=".32"/><stop offset="1" stop-color="currentColor" stop-opacity=".02"/></linearGradient></defs>
+      ${grid}
+      <path class="stock-detail-area" style="fill:url(#stock-area-${code})" d="${area}"/>
+      <polyline class="stock-detail-line" points="${points.join(' ')}"/>
+      <circle class="stock-detail-latest" cx="${x(values.length - 1).toFixed(1)}" cy="${y(values.at(-1)).toFixed(1)}" r="5"/>
+      <g class="stock-detail-x"><text x="${left}" y="${height - 8}" text-anchor="start">${values.length}거래일 전</text><text x="${width - right}" y="${height - 8}" text-anchor="end">최근</text></g>
+    </svg>
+  </figure>`;
+}
+
+async function pageStockDetail() {
+  const params = new URLSearchParams(location.search);
+  const code = String(params.get('code') || '').replace(/\D/g, '').slice(0, 6);
+  const requestedMarket = params.get('market') === 'KOSDAQ' ? 'KOSDAQ' : 'KOSPI';
+  const data = await fetchJSON('/data/markets.json');
+  const item = data.items.find((entry) => entry.code === code &&
+    (entry.group === 'stock' || entry.group === 'kosdaq_stock'));
+  const root = $('#stock-detail-root');
+  if (!root) return;
+  if (!item) {
+    const pageTitle = $('#stock-detail-page-title');
+    const pageLead = $('#stock-detail-page-lead');
+    if (pageTitle) pageTitle.textContent = '종목을 찾을 수 없습니다';
+    if (pageLead) pageLead.textContent = '시가총액 100위 목록에서 종목을 다시 선택해 주세요.';
+    root.innerHTML = `<section class="panel stock-detail-empty"><h2>목록에서 종목을 다시 선택해 주세요</h2><p>요청한 종목코드가 현재 시가총액 100위 데이터에 없습니다.</p><a class="stock-detail-back" href="/${requestedMarket === 'KOSDAQ' ? 'kosdaq' : 'stock'}">목록으로 돌아가기</a></section>`;
+    setStatus(data.updatedAt);
+    return;
+  }
+
+  const market = item.group === 'kosdaq_stock' ? 'KOSDAQ' : 'KOSPI';
+  const backHref = market === 'KOSDAQ' ? '/kosdaq' : '/stock';
+  const external = safeWebUrl(item.detailUrl);
+  const d = finite(item.changePct) > 0 ? 'up' : finite(item.changePct) < 0 ? 'down' : 'flat';
+  const sign = finite(item.change) > 0 ? '+' : finite(item.change) < 0 ? '-' : '';
+  document.title = `${item.name}(${item.code}) 종목 상세 | 모두의 시세`;
+  const pageTitle = $('#stock-detail-page-title');
+  const pageLead = $('#stock-detail-page-lead');
+  if (pageTitle) pageTitle.textContent = item.name;
+  if (pageLead) pageLead.textContent = `${market} · 종목코드 ${item.code} · 시가총액 ${finite(item.rank)}위`;
+  $$('.top-link, .nav-link-secondary').forEach((link) => {
+    const active = link.getAttribute('href') === backHref;
+    if (active) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
+  root.innerHTML = `
+    <nav class="stock-detail-breadcrumb" aria-label="현재 위치"><a href="${backHref}">${market} 시가총액 100</a><span aria-hidden="true">/</span><span>${esc(item.name)}</span></nav>
+    <section class="stock-detail-hero">
+      <div class="stock-detail-heading">
+        ${safeWebUrl(item.logoUrl) ? `<img src="${urlAttr(item.logoUrl)}" alt="" width="54" height="54" referrerpolicy="no-referrer">` : ''}
+        <div><span class="stock-detail-market">${market} · 시가총액 ${finite(item.rank)}위</span><h2>${esc(item.name)}</h2><p>종목코드 ${esc(item.code)}</p></div>
+      </div>
+      <div class="stock-detail-price"><strong>${fmtPrice(item.price, item.group, item.unit)}<small>원</small></strong><span class="${d}">${icon(d)} ${num(Math.abs(finite(item.changePct)), 2)}% (${sign}${num(Math.abs(finite(item.change)), 0)}원)</span></div>
+    </section>
+    <section class="stock-detail-layout">
+      <div class="panel stock-detail-chart-panel"><h2>가격 흐름</h2>${stockDetailChart(item)}</div>
+      <aside class="panel stock-detail-metrics" aria-label="종목 주요 정보">
+        <h2>주요 정보</h2>
+        <dl>
+          <div><dt>시가총액</dt><dd>${esc(item.marketCapText || compactWon(item.marketCap))}</dd></div>
+          <div><dt>시가</dt><dd>${item.open == null ? '—' : `${num(item.open, 0)}원`}</dd></div>
+          <div><dt>고가</dt><dd>${item.high == null ? '—' : `${num(item.high, 0)}원`}</dd></div>
+          <div><dt>저가</dt><dd>${item.low == null ? '—' : `${num(item.low, 0)}원`}</dd></div>
+          <div><dt>거래량</dt><dd>${item.volume == null ? '—' : `${num(item.volume, 0)}주`}</dd></div>
+          <div><dt>거래대금</dt><dd>${item.tradedValue == null ? '—' : compactWon(item.tradedValue)}</dd></div>
+        </dl>
+        ${external ? `<a class="stock-detail-external" href="${urlAttr(external)}" target="_blank" rel="noopener noreferrer nofollow">네이버 금융에서 더 보기 ${icon('arrow')}</a>` : ''}
+      </aside>
+    </section>
+    <p class="stock-detail-source">시가총액 순위와 종목 시세는 네이버 금융 기준이며 참고용입니다. 실제 거래 전 증권사 시세를 확인하세요.</p>`;
   setStatus(data.updatedAt);
 }
 
@@ -1281,9 +1590,10 @@ async function renderNews(topic) {
 // ---------- 디스패처 ----------
 const ROUTES = {
   home: pageHome,
-  coin: () => pageGroup('coin', '#grid-coin'),
+  coin: pageCrypto,
   stock: () => pageStock(['kospi', 'spx', 'ndq', 'dji', 'nkx', 'hsi', 'sse', 'dax'], 'stock', '#grid-stock', '#grid-stock-items'),
   kosdaq: () => pageStock(['kosdaq'], 'kosdaq_stock', '#grid-kosdaq', '#grid-kosdaq-items'),
+  'stock-detail': pageStockDetail,
   fx: () => pageGroup('fx', '#grid-fx'),
   metal: () => pageGroup(['gold_krx', 'gold_don', 'gold', 'silver', 'plat', 'palladium'], '#grid-metal'),
   energy: pageEnergy,
@@ -1309,5 +1619,11 @@ renderShell();
 });
 // 실시간 데이터가 있는 메뉴 페이지에만 관련 뉴스를 붙입니다.
 if (PAGE && PAGE !== 'home' && PAGE !== 'about') {
-  renderNews(PAGE === 'giftcard-brand' ? 'giftcard' : PAGE);
+  const detailMarket = new URLSearchParams(location.search).get('market');
+  const newsTopic = PAGE === 'giftcard-brand'
+    ? 'giftcard'
+    : PAGE === 'stock-detail'
+      ? (detailMarket === 'KOSDAQ' ? 'kosdaq' : 'stock')
+      : PAGE;
+  renderNews(newsTopic);
 }
