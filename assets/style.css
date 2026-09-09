@@ -4847,11 +4847,30 @@ body[data-page='about'] > main.wrap > .ab-hero:first-child {
 .crypto-table-row:hover .up { color: #ff5c70; }
 .crypto-table-row:hover .down { color: #5d9dff; }
 .crypto-logo {
+  position: relative;
+  isolation: isolate;
   border-color: hsl(var(--coin-hue) 78% 58% / .28);
   background: hsl(var(--coin-hue) 85% 96%);
   color: hsl(var(--coin-hue) 78% 45%);
 }
-.crypto-logo .icon { width: 20px; height: 20px; }
+.crypto-logo > * { grid-area: 1 / 1; }
+.crypto-logo img {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  padding: 4px;
+  object-fit: contain;
+}
+.crypto-logo-fallback {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  color: currentColor;
+  font: 900 10px/1 ui-monospace, SFMono-Regular, Consolas, monospace;
+  letter-spacing: -.04em;
+}
 .crypto-trend-cell { text-align: right; }
 .crypto-trend-cell > span { display: block; width: 130px; margin-left: auto; }
 .crypto-trend-cell svg.spark { display: block; width: 100%; height: 32px; }

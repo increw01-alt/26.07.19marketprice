@@ -71,6 +71,15 @@ async function pageGroup(groupOrIds, mount) {
   setStatus(data.updatedAt);
 }
 
+function cryptoLogo(symbol) {
+  const code = String(symbol || '').toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 16);
+  const logoUrl = `https://static.upbit.com/logos/${encodeURIComponent(code)}.png`;
+  return `<span class="stock-logo crypto-logo">
+    <span class="crypto-logo-fallback" aria-hidden="true">${esc(code.slice(0, 2) || 'CO')}</span>
+    <img src="${urlAttr(logoUrl)}" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer">
+  </span>`;
+}
+
 function cryptoRankingTable(items) {
   const sorted = items.slice().sort((a, b) => finite(b.volume) - finite(a.volume));
   const rows = sorted.map((item, index) => {
@@ -81,7 +90,7 @@ function cryptoRankingTable(items) {
       <td class="stock-rank-cell">${index + 1}</td>
       <td class="stock-name-cell">
         <div class="stock-name-link">
-          <span class="stock-logo crypto-logo">${icon('coin')}</span>
+          ${cryptoLogo(symbol)}
           <span><strong>${esc(item.name)}</strong><small>KRW-${esc(symbol)}</small></span>
         </div>
       </td>

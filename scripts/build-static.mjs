@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260908-large-outline-off37';
+const ASSET_VERSION = '20260909-crypto-symbols38';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -55,6 +55,15 @@ function direction(value) {
 
 const icon = (id, cls = 'icon') =>
   `<svg class="${esc(cls)}" aria-hidden="true"><use href="#i-${esc(id)}"/></svg>`;
+
+function cryptoLogo(symbol) {
+  const code = String(symbol || '').toUpperCase().replace(/[^A-Z0-9_-]/g, '').slice(0, 16);
+  const logoUrl = `https://static.upbit.com/logos/${encodeURIComponent(code)}.png`;
+  return `<span class="stock-logo crypto-logo">
+  <span class="crypto-logo-fallback" aria-hidden="true">${esc(code.slice(0, 2) || 'CO')}</span>
+  <img src="${esc(logoUrl)}" alt="" width="36" height="36" loading="lazy" referrerpolicy="no-referrer">
+</span>`;
+}
 
 function sparkline(values) {
   if (!Array.isArray(values) || values.length < 2) return '';
@@ -958,7 +967,7 @@ function cryptoRankingTable(items) {
   <td class="stock-rank-cell">${index + 1}</td>
   <td class="stock-name-cell">
     <div class="stock-name-link">
-      <span class="stock-logo crypto-logo">${icon('coin')}</span>
+      ${cryptoLogo(symbol)}
       <span><strong>${esc(item.name)}</strong><small>KRW-${esc(symbol)}</small></span>
     </div>
   </td>
