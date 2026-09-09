@@ -1596,6 +1596,217 @@ body[data-page='about'] > main.wrap > .ab-hero:first-child .ab-eyebrow {
   font-weight: 700;
 }
 
+/* ---------- 상품권 할부 상담 CTA ---------- */
+.gift-installment-cta {
+  margin-block: var(--space-lg);
+}
+.gift-installment-cta__link {
+  position: relative;
+  isolation: isolate;
+  display: grid;
+  min-height: 242px;
+  grid-template-columns: minmax(270px, 340px) minmax(120px, 1fr) minmax(340px, .9fr);
+  grid-template-rows: 1fr auto;
+  gap: 22px 46px;
+  align-items: center;
+  overflow: hidden;
+  padding: 32px 54px;
+  border-radius: 16px;
+  background: #151931;
+  box-shadow: 0 20px 50px rgb(15 23 42 / 16%);
+  color: #fff;
+  text-decoration: none;
+  transition: box-shadow .3s ease, transform .3s ease;
+}
+.gift-installment-cta__link::before {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  content: "";
+  background:
+    radial-gradient(circle at 83% 50%, rgb(40 193 244 / 20%), transparent 28%),
+    linear-gradient(120deg, transparent 0 52%, rgb(255 255 255 / 3%) 52% 53%, transparent 53%);
+}
+.gift-installment-cta__link:hover,
+.gift-installment-cta__link:focus-visible {
+  box-shadow: 0 26px 62px rgb(15 23 42 / 24%);
+  transform: translateY(-2px);
+}
+.gift-installment-cta__link:focus-visible {
+  outline: 3px solid #60a5fa;
+  outline-offset: 3px;
+}
+.gift-installment-cta__copy {
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 4px;
+  font-size: 17px;
+  line-height: 1.35;
+}
+.gift-installment-cta__copy strong {
+  font-size: clamp(24px, 2.2vw, 31px);
+  font-weight: 800;
+  letter-spacing: -.04em;
+}
+.gift-installment-cta__line {
+  z-index: 2;
+  width: 100%;
+  height: 1px;
+  align-self: end;
+  margin-bottom: 24px;
+  background: rgb(255 255 255 / 78%);
+}
+.gift-installment-cta__button {
+  z-index: 2;
+  display: inline-flex;
+  box-sizing: border-box;
+  width: fit-content;
+  max-width: 100%;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  align-self: start;
+  padding: 11px 24px;
+  border: 1px solid #fff;
+  border-radius: 999px;
+  font-size: 15px;
+  font-weight: 700;
+  transition: background-color .3s ease, color .3s ease, transform .3s ease;
+}
+.gift-installment-cta__button b {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: .6;
+  transition: transform .3s ease;
+}
+.gift-installment-cta__link:hover .gift-installment-cta__button,
+.gift-installment-cta__link:focus-visible .gift-installment-cta__button {
+  background: #fff;
+  color: #151931;
+}
+.gift-installment-cta__link:hover .gift-installment-cta__button b,
+.gift-installment-cta__link:focus-visible .gift-installment-cta__button b {
+  transform: translateX(3px);
+}
+.gift-installment-cta__art {
+  position: relative;
+  z-index: 1;
+  width: min(100%, 430px);
+  height: 176px;
+  grid-column: 3;
+  grid-row: 1 / 3;
+  justify-self: end;
+  transform: rotate(5deg) translate(12px, 12px);
+  transform-origin: 55% 70%;
+  transition: transform .4s cubic-bezier(.78, 0, 0, 1);
+}
+.gift-installment-cta__link:hover .gift-installment-cta__art,
+.gift-installment-cta__link:focus-visible .gift-installment-cta__art {
+  transform: rotate(0deg) translate(0, 0);
+}
+.gift-installment-card {
+  position: absolute;
+  width: 245px;
+  aspect-ratio: 1.6;
+  overflow: hidden;
+  border: 1px solid rgb(255 255 255 / 38%);
+  border-radius: 18px;
+  background: linear-gradient(145deg, #6df8fa 0%, #35d5f4 42%, #2d8df2 100%);
+  box-shadow: 0 18px 30px rgb(10 77 157 / 34%), inset 0 1px rgb(255 255 255 / 36%);
+}
+.gift-installment-card::before {
+  position: absolute;
+  top: 61px;
+  left: 40px;
+  width: 38px;
+  height: 29px;
+  content: "";
+  border-radius: 6px;
+  background:
+    linear-gradient(90deg, transparent 47%, rgb(160 181 189 / 58%) 47% 53%, transparent 53%),
+    linear-gradient(transparent 47%, rgb(160 181 189 / 58%) 47% 53%, transparent 53%),
+    linear-gradient(135deg, #eff7f7, #aebdc4);
+  box-shadow: 0 2px 5px rgb(13 74 126 / 20%);
+}
+.gift-installment-card::after {
+  position: absolute;
+  top: 30px;
+  right: 32px;
+  width: 48px;
+  height: 12px;
+  content: "";
+  border-radius: 999px;
+  background: rgb(255 255 255 / 72%);
+  box-shadow: 0 18px 0 -3px rgb(255 255 255 / 38%);
+}
+.gift-installment-card--back {
+  top: 2px;
+  right: -24px;
+  transform: rotate(18deg);
+}
+.gift-installment-card--front {
+  top: 52px;
+  right: 88px;
+  transform: rotate(19deg);
+}
+
+@media (max-width: 920px) {
+  .gift-installment-cta__link {
+    grid-template-columns: minmax(240px, 1fr) minmax(260px, .9fr);
+    gap: 18px 26px;
+    padding: 32px 38px;
+  }
+  .gift-installment-cta__line { display: none; }
+  .gift-installment-cta__art { grid-column: 2; }
+}
+
+@media (max-width: 640px) {
+  .gift-installment-cta { margin-block: var(--space-md); }
+  .gift-installment-cta__link {
+    min-height: 430px;
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto 1fr;
+    gap: 18px;
+    padding: 30px 24px 0;
+    border-radius: 14px;
+  }
+  .gift-installment-cta__copy { align-self: start; }
+  .gift-installment-cta__copy strong { font-size: 25px; }
+  .gift-installment-cta__button {
+    width: 100%;
+    grid-row: 2;
+  }
+  .gift-installment-cta__art {
+    width: min(330px, 100%);
+    min-width: 0;
+    max-width: 100%;
+    height: 190px;
+    grid-column: 1;
+    grid-row: 3;
+    align-self: end;
+    justify-self: center;
+    transform: rotate(5deg) translate(8px, 22px);
+  }
+  .gift-installment-card { width: 228px; }
+  .gift-installment-card::before {
+    top: 49px;
+    left: 32px;
+    width: 32px;
+    height: 25px;
+  }
+  .gift-installment-card--front { top: 66px; right: 70px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .gift-installment-cta__link,
+  .gift-installment-cta__button,
+  .gift-installment-cta__button b,
+  .gift-installment-cta__art { transition-duration: .01ms; }
+}
+
 /* ---------- 상품권 FAQ ---------- */
 .faq-panel {
   scroll-margin-top: var(--space-lg);

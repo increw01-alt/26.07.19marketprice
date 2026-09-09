@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260909-crypto-symbols38';
+const ASSET_VERSION = '20260909-gift-installment-cta40';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -560,6 +560,23 @@ function brandSubnav(currentKey) {
 </nav>`;
 }
 
+function giftInstallmentCta() {
+  return `<section class="gift-installment-cta" aria-labelledby="gift-installment-title">
+  <a class="gift-installment-cta__link" href="https://koreagiftcard.channel.io/home?page=%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%ED%8C%9D%EC%97%85" target="_blank" rel="noopener noreferrer">
+    <span class="gift-installment-cta__copy">
+      <span>지금 채널톡에서</span>
+      <strong id="gift-installment-title">상품권 할부 구매 문의</strong>
+    </span>
+    <span class="gift-installment-cta__line" aria-hidden="true"></span>
+    <span class="gift-installment-cta__art" aria-hidden="true">
+      <span class="gift-installment-card gift-installment-card--back"></span>
+      <span class="gift-installment-card gift-installment-card--front"></span>
+    </span>
+    <span class="gift-installment-cta__button">채널톡 상담 바로가기 <b aria-hidden="true">›</b></span>
+  </a>
+</section>`;
+}
+
 function discountRate(item, field, face) {
   const saved = field === 'buy' ? item.buyRate : item.sellRate;
   if (typeof saved === 'number') return saved;
@@ -747,6 +764,8 @@ ${staticRegionBlock('header', staticHeader('giftcard', data.updatedAt))}
     )}">최종 갱신 ${updated}</time></p>
     <div class="grid grid-gc">${brandCards(items)}</div>
   </section>
+
+  ${giftInstallmentCta()}
 
   <section class="panel brand-guide">
     <h2>시세 읽는 법</h2>
