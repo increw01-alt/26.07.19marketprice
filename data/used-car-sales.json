@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-03T04:48:50.329Z",
-  "latestMonth": "2026-07",
+  "updatedAt": "2026-09-18T02:40:46.719Z",
+  "latestMonth": "2026-08",
   "displayMonths": 24,
   "basis": {
     "notice": "중고차의 단순 매물 수가 아니라 자동차등록원부의 이전등록 건수를 월별 거래량으로 집계합니다. 매입·매도·상사이전·알선·개인거래·기타가 모두 포함되므로 순수 최종소비자 판매량과는 다를 수 있습니다.",
@@ -20,15 +20,6 @@
     "url": "https://www.carisyou.com/price/sample"
   },
   "months": [
-    {
-      "month": "2024-08",
-      "total": 267908,
-      "previousTotal": 302529,
-      "changePct": -11.4,
-      "domestic": 219300,
-      "imported": 48608,
-      "importShare": 18.1
-    },
     {
       "month": "2024-09",
       "total": 251205,
@@ -235,268 +226,50 @@
       "domestic": 237522,
       "imported": 52936,
       "importShare": 18.2
+    },
+    {
+      "month": "2026-08",
+      "total": 258200,
+      "previousTotal": 290458,
+      "changePct": -11.1,
+      "domestic": 211473,
+      "imported": 46727,
+      "importShare": 18.1
     }
   ],
   "latestDealTypes": [
     {
       "name": "매입",
-      "count": 100155,
-      "previousCount": 102471
+      "count": 83091,
+      "previousCount": 100155
     },
     {
       "name": "매도",
-      "count": 78739,
-      "previousCount": 73853
+      "count": 78346,
+      "previousCount": 78739
     },
     {
       "name": "상사이전",
-      "count": 18125,
-      "previousCount": 17508
+      "count": 14810,
+      "previousCount": 18125
     },
     {
       "name": "알선",
-      "count": 563,
-      "previousCount": 567
+      "count": 545,
+      "previousCount": 563
     },
     {
       "name": "개인거래",
-      "count": 87789,
-      "previousCount": 86499
+      "count": 76618,
+      "previousCount": 87789
     },
     {
       "name": "기타",
-      "count": 5087,
-      "previousCount": 5372
+      "count": 4790,
+      "previousCount": 5087
     }
   ],
   "rankings": [
-    {
-      "month": "2024-08",
-      "domestic": [
-        {
-          "rank": 1,
-          "brand": "현대",
-          "name": "그랜저",
-          "fullName": "현대 그랜저",
-          "sales": 16587,
-          "share": 7.6,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
-          "detailUrl": "https://www.carisyou.com/car/1015",
-          "image": "https://file.carisyou.com/upload/2026/05/14/FILE_202605140405108660.png"
-        },
-        {
-          "rank": 2,
-          "brand": "기아",
-          "name": "모닝",
-          "fullName": "기아 모닝",
-          "sales": 15285,
-          "share": 7,
-          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
-          "detailUrl": "https://www.carisyou.com/car/2538",
-          "image": "https://file.carisyou.com/upload/2023/08/17/FILE_202308170339556250.png"
-        },
-        {
-          "rank": 3,
-          "brand": "현대",
-          "name": "아반떼",
-          "fullName": "현대 아반떼",
-          "sales": 14057,
-          "share": 6.4,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
-          "detailUrl": "https://www.carisyou.com/car/921",
-          "image": "https://file.carisyou.com/upload/2026/08/05/FILE_202608051038569620.png"
-        },
-        {
-          "rank": 4,
-          "brand": "현대",
-          "name": "쏘나타",
-          "fullName": "현대 쏘나타",
-          "sales": 13298,
-          "share": 6.1,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
-          "detailUrl": "https://www.carisyou.com/car/972",
-          "image": "https://file.carisyou.com/upload/2023/04/24/FILE_202304241050166250.png"
-        },
-        {
-          "rank": 5,
-          "brand": "기아",
-          "name": "카니발",
-          "fullName": "기아 카니발",
-          "sales": 10730,
-          "share": 4.9,
-          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
-          "detailUrl": "https://www.carisyou.com/car/1256",
-          "image": "https://file.carisyou.com/upload/2024/02/05/FILE_202402050415071560.png"
-        },
-        {
-          "rank": 6,
-          "brand": "쉐보레",
-          "name": "스파크",
-          "fullName": "쉐보레 스파크",
-          "sales": 8853,
-          "share": 4,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160608469790.png",
-          "detailUrl": "https://www.carisyou.com/car/4093",
-          "image": "https://file.carisyou.com/upload/2018/09/19/FILE_201809191117220440.png"
-        },
-        {
-          "rank": 7,
-          "brand": "현대",
-          "name": "싼타페",
-          "fullName": "현대 싼타페",
-          "sales": 8452,
-          "share": 3.8,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
-          "detailUrl": "https://www.carisyou.com/car/1067",
-          "image": "https://file.carisyou.com/upload/2023/08/14/FILE_202308141019435910.png"
-        },
-        {
-          "rank": 8,
-          "brand": "기아",
-          "name": "K5",
-          "fullName": "기아 K5",
-          "sales": 7983,
-          "share": 3.6,
-          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
-          "detailUrl": "https://www.carisyou.com/car/3956",
-          "image": "https://file.carisyou.com/upload/2024/01/16/FILE_202401160245434840.png"
-        },
-        {
-          "rank": 9,
-          "brand": "기아",
-          "name": "레이",
-          "fullName": "기아 레이",
-          "sales": 8011,
-          "share": 3.6,
-          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
-          "detailUrl": "https://www.carisyou.com/car/4203",
-          "image": "https://file.carisyou.com/upload/2022/09/01/FILE_202209010954489680.png"
-        },
-        {
-          "rank": 10,
-          "brand": "기아",
-          "name": "쏘렌토",
-          "fullName": "기아 쏘렌토",
-          "sales": 7799,
-          "share": 3.5,
-          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
-          "detailUrl": "https://www.carisyou.com/car/1443",
-          "image": "https://file.carisyou.com/upload/2023/09/07/FILE_202309070441362840.png"
-        }
-      ],
-      "imported": [
-        {
-          "rank": 1,
-          "brand": "벤츠",
-          "name": "E클래스",
-          "fullName": "벤츠 E클래스",
-          "sales": 4753,
-          "share": 9.8,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
-          "detailUrl": "https://www.carisyou.com/car/143",
-          "image": "https://file.carisyou.com/upload/2024/01/04/FILE_202401040227284180.png"
-        },
-        {
-          "rank": 2,
-          "brand": "BMW",
-          "name": "5시리즈",
-          "fullName": "BMW 5시리즈",
-          "sales": 4221,
-          "share": 8.7,
-          "brandLogo": "https://file.carisyou.com/upload/2020/04/03/FILE_202004031126290740.png",
-          "detailUrl": "https://www.carisyou.com/car/225",
-          "image": "https://file.carisyou.com/upload/2023/09/06/FILE_202309061102221390.png"
-        },
-        {
-          "rank": 3,
-          "brand": "BMW",
-          "name": "3시리즈",
-          "fullName": "BMW 3시리즈",
-          "sales": 1860,
-          "share": 3.8,
-          "brandLogo": "https://file.carisyou.com/upload/2020/04/03/FILE_202004031126290740.png",
-          "detailUrl": "https://www.carisyou.com/car/212",
-          "image": "https://file.carisyou.com/upload/2024/11/07/FILE_202411071109277780.png"
-        },
-        {
-          "rank": 4,
-          "brand": "벤츠",
-          "name": "S클래스",
-          "fullName": "벤츠 S클래스",
-          "sales": 1660,
-          "share": 3.4,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
-          "detailUrl": "https://www.carisyou.com/car/108",
-          "image": "https://file.carisyou.com/upload/2026/05/18/FILE_202605180506519330.png"
-        },
-        {
-          "rank": 5,
-          "brand": "아우디",
-          "name": "A6",
-          "fullName": "아우디 A6",
-          "sales": 1410,
-          "share": 2.9,
-          "brandLogo": "https://file.carisyou.com/upload/2021/02/16/FILE_202102160218336240.png",
-          "detailUrl": "https://www.carisyou.com/car/69",
-          "image": "https://file.carisyou.com/upload/2026/04/22/FILE_202604220319265610.png"
-        },
-        {
-          "rank": 6,
-          "brand": "벤츠",
-          "name": "C클래스",
-          "fullName": "벤츠 C클래스",
-          "sales": 1374,
-          "share": 2.8,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
-          "detailUrl": "https://www.carisyou.com/car/122",
-          "image": "https://file.carisyou.com/upload/2022/11/21/FILE_202211210924075450.png"
-        },
-        {
-          "rank": 7,
-          "brand": "미니",
-          "name": "미니 해치",
-          "fullName": "미니 미니 해치",
-          "sales": 1243,
-          "share": 2.5,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160635128990.png",
-          "detailUrl": "https://www.carisyou.com/car/261",
-          "image": "https://file.carisyou.com/upload/2022/06/17/FILE_202206170213589630.png"
-        },
-        {
-          "rank": 8,
-          "brand": "BMW",
-          "name": "7시리즈",
-          "fullName": "BMW 7시리즈",
-          "sales": 826,
-          "share": 1.7,
-          "brandLogo": "https://file.carisyou.com/upload/2020/04/03/FILE_202004031126290740.png",
-          "detailUrl": "https://www.carisyou.com/car/238",
-          "image": "https://file.carisyou.com/upload/2022/07/08/FILE_202207080916071430.png"
-        },
-        {
-          "rank": 9,
-          "brand": "벤츠",
-          "name": "GLC",
-          "fullName": "벤츠 GLC",
-          "sales": 835,
-          "share": 1.7,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
-          "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
-        },
-        {
-          "rank": 10,
-          "brand": "포드",
-          "name": "익스플로러",
-          "fullName": "포드 익스플로러",
-          "sales": 769,
-          "share": 1.5,
-          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160638218350.png",
-          "detailUrl": "https://www.carisyou.com/car/712",
-          "image": ""
-        }
-      ]
-    },
     {
       "month": "2024-09",
       "domestic": [
@@ -709,7 +482,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -936,7 +709,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -1163,7 +936,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -1379,7 +1152,7 @@
           "share": 1.8,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 9,
@@ -1617,7 +1390,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -1844,7 +1617,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -2082,7 +1855,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         }
       ]
     },
@@ -2287,7 +2060,7 @@
           "share": 1.8,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 9,
@@ -2525,7 +2298,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -2752,7 +2525,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -2979,7 +2752,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -3206,7 +2979,7 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -3649,7 +3422,7 @@
           "share": 2,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 9,
@@ -3887,7 +3660,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -4103,7 +3876,7 @@
           "share": 2,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 9,
@@ -4341,7 +4114,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -4568,7 +4341,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -4579,7 +4352,7 @@
           "share": 1.5,
           "brandLogo": "https://file.carisyou.com/upload/2020/05/04/FILE_202005040508286920.png",
           "detailUrl": "https://www.carisyou.com/car/3435",
-          "image": "https://file.carisyou.com/upload/2021/08/03/FILE_202108030114475350.png"
+          "image": ""
         }
       ]
     },
@@ -4784,7 +4557,7 @@
           "share": 1.8,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 9,
@@ -5022,7 +4795,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -5260,7 +5033,7 @@
           "share": 1.7,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         }
       ]
     },
@@ -5476,7 +5249,7 @@
           "share": 1.8,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         },
         {
           "rank": 10,
@@ -5714,7 +5487,234 @@
           "share": 1.6,
           "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
           "detailUrl": "https://www.carisyou.com/car/5047",
-          "image": "https://file.carisyou.com/upload/2026/07/09/FILE_202607090356077700.png"
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
+        }
+      ]
+    },
+    {
+      "month": "2026-08",
+      "domestic": [
+        {
+          "rank": 1,
+          "brand": "현대",
+          "name": "그랜저",
+          "fullName": "현대 그랜저",
+          "sales": 16320,
+          "share": 7.7,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
+          "detailUrl": "https://www.carisyou.com/car/1015",
+          "image": "https://file.carisyou.com/upload/2026/05/14/FILE_202605140405108660.png"
+        },
+        {
+          "rank": 2,
+          "brand": "현대",
+          "name": "아반떼",
+          "fullName": "현대 아반떼",
+          "sales": 13506,
+          "share": 6.4,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
+          "detailUrl": "https://www.carisyou.com/car/921",
+          "image": "https://file.carisyou.com/upload/2026/08/05/FILE_202608051038569620.png"
+        },
+        {
+          "rank": 3,
+          "brand": "기아",
+          "name": "모닝",
+          "fullName": "기아 모닝",
+          "sales": 12104,
+          "share": 5.7,
+          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
+          "detailUrl": "https://www.carisyou.com/car/2538",
+          "image": "https://file.carisyou.com/upload/2023/08/17/FILE_202308170339556250.png"
+        },
+        {
+          "rank": 4,
+          "brand": "기아",
+          "name": "카니발",
+          "fullName": "기아 카니발",
+          "sales": 11602,
+          "share": 5.5,
+          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
+          "detailUrl": "https://www.carisyou.com/car/1256",
+          "image": "https://file.carisyou.com/upload/2024/02/05/FILE_202402050415071560.png"
+        },
+        {
+          "rank": 5,
+          "brand": "현대",
+          "name": "쏘나타",
+          "fullName": "현대 쏘나타",
+          "sales": 10465,
+          "share": 4.9,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
+          "detailUrl": "https://www.carisyou.com/car/972",
+          "image": "https://file.carisyou.com/upload/2023/04/24/FILE_202304241050166250.png"
+        },
+        {
+          "rank": 6,
+          "brand": "기아",
+          "name": "레이",
+          "fullName": "기아 레이",
+          "sales": 9453,
+          "share": 4.5,
+          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
+          "detailUrl": "https://www.carisyou.com/car/4203",
+          "image": "https://file.carisyou.com/upload/2022/09/01/FILE_202209010954489680.png"
+        },
+        {
+          "rank": 7,
+          "brand": "기아",
+          "name": "쏘렌토",
+          "fullName": "기아 쏘렌토",
+          "sales": 8392,
+          "share": 4,
+          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
+          "detailUrl": "https://www.carisyou.com/car/1443",
+          "image": "https://file.carisyou.com/upload/2023/09/07/FILE_202309070441362840.png"
+        },
+        {
+          "rank": 8,
+          "brand": "현대",
+          "name": "싼타페",
+          "fullName": "현대 싼타페",
+          "sales": 8103,
+          "share": 3.8,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160639384790.png",
+          "detailUrl": "https://www.carisyou.com/car/1067",
+          "image": "https://file.carisyou.com/upload/2023/08/14/FILE_202308141019435910.png"
+        },
+        {
+          "rank": 9,
+          "brand": "기아",
+          "name": "K5",
+          "fullName": "기아 K5",
+          "sales": 7355,
+          "share": 3.5,
+          "brandLogo": "https://file.carisyou.com/upload/2021/01/07/FILE_202101071032134020.png",
+          "detailUrl": "https://www.carisyou.com/car/3956",
+          "image": "https://file.carisyou.com/upload/2024/01/16/FILE_202401160245434840.png"
+        },
+        {
+          "rank": 10,
+          "brand": "쉐보레",
+          "name": "스파크",
+          "fullName": "쉐보레 스파크",
+          "sales": 7460,
+          "share": 3.5,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160608469790.png",
+          "detailUrl": "https://www.carisyou.com/car/4093",
+          "image": "https://file.carisyou.com/upload/2018/09/19/FILE_201809191117220440.png"
+        }
+      ],
+      "imported": [
+        {
+          "rank": 1,
+          "brand": "벤츠",
+          "name": "E클래스",
+          "fullName": "벤츠 E클래스",
+          "sales": 4046,
+          "share": 8.7,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
+          "detailUrl": "https://www.carisyou.com/car/143",
+          "image": "https://file.carisyou.com/upload/2024/01/04/FILE_202401040227284180.png"
+        },
+        {
+          "rank": 2,
+          "brand": "BMW",
+          "name": "5시리즈",
+          "fullName": "BMW 5시리즈",
+          "sales": 3583,
+          "share": 7.7,
+          "brandLogo": "https://file.carisyou.com/upload/2020/04/03/FILE_202004031126290740.png",
+          "detailUrl": "https://www.carisyou.com/car/225",
+          "image": "https://file.carisyou.com/upload/2023/09/06/FILE_202309061102221390.png"
+        },
+        {
+          "rank": 3,
+          "brand": "BMW",
+          "name": "3시리즈",
+          "fullName": "BMW 3시리즈",
+          "sales": 1744,
+          "share": 3.7,
+          "brandLogo": "https://file.carisyou.com/upload/2020/04/03/FILE_202004031126290740.png",
+          "detailUrl": "https://www.carisyou.com/car/212",
+          "image": "https://file.carisyou.com/upload/2024/11/07/FILE_202411071109277780.png"
+        },
+        {
+          "rank": 4,
+          "brand": "벤츠",
+          "name": "S클래스",
+          "fullName": "벤츠 S클래스",
+          "sales": 1749,
+          "share": 3.7,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
+          "detailUrl": "https://www.carisyou.com/car/108",
+          "image": "https://file.carisyou.com/upload/2026/05/18/FILE_202605180506519330.png"
+        },
+        {
+          "rank": 5,
+          "brand": "테슬라",
+          "name": "모델 Y",
+          "fullName": "테슬라 모델 Y",
+          "sales": 1228,
+          "share": 2.6,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160607577820.png",
+          "detailUrl": "https://www.carisyou.com/car/5496",
+          "image": "https://file.carisyou.com/upload/2025/03/28/FILE_202503280326303300.png"
+        },
+        {
+          "rank": 6,
+          "brand": "아우디",
+          "name": "A6",
+          "fullName": "아우디 A6",
+          "sales": 1186,
+          "share": 2.5,
+          "brandLogo": "https://file.carisyou.com/upload/2021/02/16/FILE_202102160218336240.png",
+          "detailUrl": "https://www.carisyou.com/car/69",
+          "image": "https://file.carisyou.com/upload/2026/04/22/FILE_202604220319265610.png"
+        },
+        {
+          "rank": 7,
+          "brand": "미니",
+          "name": "미니 해치",
+          "fullName": "미니 미니 해치",
+          "sales": 1137,
+          "share": 2.4,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160635128990.png",
+          "detailUrl": "https://www.carisyou.com/car/261",
+          "image": "https://file.carisyou.com/upload/2022/06/17/FILE_202206170213589630.png"
+        },
+        {
+          "rank": 8,
+          "brand": "테슬라",
+          "name": "모델 3",
+          "fullName": "테슬라 모델 3",
+          "sales": 1024,
+          "share": 2.2,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160607577820.png",
+          "detailUrl": "https://www.carisyou.com/car/5249",
+          "image": "https://file.carisyou.com/upload/2024/04/03/FILE_202404030359257140.png"
+        },
+        {
+          "rank": 9,
+          "brand": "벤츠",
+          "name": "C클래스",
+          "fullName": "벤츠 C클래스",
+          "sales": 972,
+          "share": 2,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
+          "detailUrl": "https://www.carisyou.com/car/122",
+          "image": "https://file.carisyou.com/upload/2022/11/21/FILE_202211210924075450.png"
+        },
+        {
+          "rank": 10,
+          "brand": "벤츠",
+          "name": "GLC",
+          "fullName": "벤츠 GLC",
+          "sales": 819,
+          "share": 1.7,
+          "brandLogo": "https://file.carisyou.com/upload/2017/02/16/FILE_201702160634414510.png",
+          "detailUrl": "https://www.carisyou.com/car/5047",
+          "image": "https://file.carisyou.com/upload/2023/06/16/FILE_202306161010404980.png"
         }
       ]
     }
