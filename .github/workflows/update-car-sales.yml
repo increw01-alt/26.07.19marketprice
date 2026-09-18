@@ -49,6 +49,9 @@ jobs:
       - name: 생성 결과 검증
         run: node scripts/build-static.mjs --check
 
+      - name: 자동 커밋 회귀 테스트
+        run: node --test scripts/stage-generated.test.mjs
+
       - name: 배포 allowlist 산출물 검증
         run: |
           node scripts/build-deploy.mjs
@@ -58,7 +61,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/car-sales.json data/car-rankings.json data/used-car-sales.json car.html car/domestic.html car/imported.html car/used.html used-car.html used-car/domestic.html used-car/imported.html sitemap.xml _headers
+          node scripts/stage-generated.mjs
           if git diff --staged --quiet; then
             echo "변경 없음"
           else
