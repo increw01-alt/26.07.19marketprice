@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-08T15:35:41+09:00",
+  "updatedAt": "2026-09-18T11:35:59+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피, 美증시 훈풍에 2%대 올라 6,800대...코스닥 동반 상승",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1wZmtuMkV4ZFpnNmtjSGllZ3NrSmZIdzhWdVhhc3p5Rmx2TEpsQ2NvejNJS2dxSXZyMnN3VXVROWZGeF9TN21lOFFkNjNYWklVTXJycnQxWWs?oc=5",
+      "source": "경북신문",
+      "date": "2026-09-18T02:14:40.000Z"
+    },
+    {
+      "title": "외국인 8개월 만에 국내증시로 귀환…지난달 코스피 1.9조 순매수",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vOXhMVU9MN05CZjFoWGtFT0hGTGhja0psZkh4RUU5SWNSampXV19uR0dac0FYc0YycXJWVjY0cUpCQWFiWERZU09sTERsSTdIM1ZYYmFjNF9yNWFCNkdvZQ?oc=5",
+      "source": "증권일보",
+      "date": "2026-09-18T01:10:00.000Z"
+    },
+    {
+      "title": "美 기술주 살아나자 K증시도 반등…코스피 2.25%↑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4zcms5TWNHMVNTcmhZYmZUZkRQeFN3c204YnhfYnZZbXVraHRZXzBpVC1remU0bTdSVW5KSUJtUGMyZkQ4Z2pwai0zQlpRR3V0WlRuS2dab21HQm12NHgtdGxHZWlHU3F4cmhCctIBcEFVX3lxTE9lZzJtTDkwRlFEb25LakFPYXN0dHd4UkRSbTZOdFU0ZFU4X3Z2TWNFdTEzS1lCdnFaM1JIODY3azFWUWRpZHZZZGxvOUdRUFJXallESmNpUjBkcmd0N0poVEJjZUJBNXlsU3JKc253Mk0?oc=5",
+      "source": "남도일보",
+      "date": "2026-09-18T01:07:00.000Z"
+    },
+    {
+      "title": "외국인 8개월 만에 증시 컴백…코스피 사고 코스닥·채권 팔았다",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9vRXhaNjZ0QjFhcTAtX0o5TFZYTVlIaUF1Y1J0cUZodkNockVwZlpjVkV4WTE3dVhaLW9GT1BXRENBa0poR0NJeXNpaGZ0OW92Vm9OV25DZ2ItaXZzbm4yRjhGNVo?oc=5",
+      "source": "포쓰저널",
+      "date": "2026-09-18T01:02:42.000Z"
+    },
+    {
+      "title": "“코스피 7000선 회복은 언제?”…美증시 훈풍에 2%대 올라 6800대 [투자360]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9IZXFGRXB0QXR1cFRuTGRONkNtcDh0YUhXMDZrNHk3NVMtN2hBbk45NDlZRXd6ZlFVXy1ESnl2cFZIQmdCODYzOEFvNFA4UVBvN0gzaXZ3?oc=5",
+      "source": "헤럴드경제",
+      "date": "2026-09-18T01:00:26.000Z"
+    },
+    {
+      "title": "美증시 반등에 코스피 2%대 급등…반도체주 강세에 6800선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1fZ1N6N0c1WDdfUTNTNXhnYXBIUXpaclJXb3R3RVlmRmVacnRtM2JaUkNNamtTZGxFdlc5Uy1DdVZRdlNKWG9HYjVYbWZVQzQ?oc=5",
+      "source": "v.daum.net",
+      "date": "2026-09-18T01:00:08.000Z"
+    },
+    {
+      "title": "[개장시황] 코스피 2.18% 급등 6861…삼성전기 4.96%↑",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9RM3RuMUdMLUFLeFptdmE4NjZrUFg4ZXJJNk5lUXljRWk0TjJTTFQ3aE9JaDZ3ZUR6R1VoNE00LWY2VVI2c0JkekxQSFUzNXJuNlV6Y0NtRGhNaEc0S0Z6TlBzNkhqMTQ?oc=5",
+      "source": "자본시장뉴스",
+      "date": "2026-09-18T01:00:00.000Z"
+    },
+    {
+      "title": "코스피 반등 기대감↑…美 연준 금리인상 충격 딛고 반도체株 강세",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PcXpJZ21zeVZPWExYTVFHbk00Q3VFdm5kczduVDBvX2ZxWlItNm8xZ0xNUGRHWERPcmJwVGJFOEVMUUM4ZFRuN2VKeFN1eDZSZXpHNGJFNXhqc3h0MHk5ZWtLSlU?oc=5",
+      "source": "ppss.kr",
+      "date": "2026-09-18T00:58:07.000Z"
+    },
     {
       "title": "장중 7171.52 찍은 코스피...개인 순매도 이어지며 7100선 반납",
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBIY0pab1NfQVI2VFFBX0dvOXc1V01MdlZpWlZWd0d6cG1RZV9mcGhCaWJfQ3NHb2h0cFdvT1pvM3dOMXphUWpiR1JlX2d4dU9LLWdRMnE4SnpNNWFKREtDVVVDcGlHUS1FMmhQN0xFY1Y1c2pw?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBWZTc0ZGZFdmt3UkhlRXRuUVRiaDk3SWpBNlN1VkhSNHcxVGdsNGlZdmRjZXIyZ0RZdHRtX3RYLUVSNi00VWRzT2VKa3RLRTQ?oc=5",
       "source": "v.daum.net",
       "date": "2026-09-05T01:26:53.000Z"
-    },
-    {
-      "title": "[주간증시전망] 코스피 6200~7300선 전망…지정학 리스크에 약세",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZQmNGdW91Uks5YnpXSnc1QUtyNzhRMTRncnZzT1VvNGJ6Zlh0ekpwZm9YX2k2QUVSZThpZDRQbUZiRVRsaG9Rb0M3Mm1HS2s?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-04T23:01:04.000Z"
-    },
-    {
-      "title": "[주간증시전망] 코스피 6200~7300선 전망…지정학 리스크에 약세",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5WX2hzeENUUjZiT3VkQkw4MzZXTnNzMjFyUDJCellTM3k2S29LanZ0U3pDRmo5c2hzOFIxZ3NIVGhwUU1yWTAyaENjUV95NWtra21rOQ?oc=5",
-      "source": "이투데이",
-      "date": "2026-09-04T23:00:00.000Z"
-    },
-    {
-      "title": "9월 코스피는 원래 잔인했다지만, 미국 중간선거가 코스피를 살릴 수 있을까[경제뭔데]",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBSczFVQzlGNmcwQXp0eU9ZeWNkdTZEU0Zyb3dDNzZWZFplZG5KSGJVWjV0OGxjd3ZBYUhYVWpiQjBiRGZMQXJXZ3c5SWI2SVE?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-04T21:01:10.000Z"
-    },
-    {
-      "title": "[주간증시전망] 코스피, 반도체 반등 이어갈까…美 물가·동시만기 '변수'",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1Fd1BEQW0ya0RiSkoyUkprVUdlc0p4RGc0dTFSVFVtOWgyV0F6VEloTGpEYVNGUmZSU01RV1JCQkpieW1fd21XcEZ0Z2hfN2xqeVlz?oc=5",
-      "source": "네이트",
-      "date": "2026-09-04T21:01:00.000Z"
-    },
-    {
-      "title": "[주간증시전망] 코스피, 반도체 반등 이어갈까…美 물가·동시만기 '변수'",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5NQjNXaE9rZG9zSkRINEJtY2RqaG5fekNPSmF0d2VNb3RvQjQxXzN2OTBUZWNjSGNlMmhjZFFnZGotQ2NxY2E3OHFoSHJBdlU?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-04T21:00:40.000Z"
-    },
-    {
-      "title": "[주간증시전망] 코스피, 반도체 반등 이어갈까…美 물가·동시만기 변수",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GQ0VxWkVZU2ZJS1NVdDkzMTdwX0huWWJwMjJCcmZmZXg0U29ON0RST0JWQkRZbkFIWVpJSGtvcUUwTWtFRG1tNm5zSjRpQXIxLVo2c29oY3BzZ9IBWEFVX3lxTFBqZEgxQ3ZoYm1FSkhSam13NmJaRFZURlhITzZCMlpQRkZFanMxMS0zOVNscXlJVXZCR0tDdk9qMzNoT1phUTdydFNMSEZ3eWw1NFZmTE1oU3k?oc=5",
-      "source": "ajunews.com",
-      "date": "2026-09-04T21:00:00.000Z"
-    },
-    {
-      "title": "한국판 공포지수 연초 수준으로…증시 활력 떨어졌나",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1GRVJtY1RLSldieXA0aXdfQ2FvcF9naGc4a2I2c1ZxcXB4R0dra1k2VVVDSElrQ1lZUU9ydm1BSVhGM3dOQmJlMHRTMlhVUjlNdjlXRFhnVWI5aFRFdjNMRlNxYkxqWVJv?oc=5",
-      "source": "ebn.co.kr",
-      "date": "2026-09-04T21:00:00.000Z"
-    },
-    {
-      "title": "[경제뭔데]9월 코스피는 원래 잔인했다지만, 미국 중간선거가 코스피를 살릴 수 있을까",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBFd1NsX3RpVm5ER0N4b3hIOUc5UlZuU1JfbTdURzNfTzlRZy1ZWHdUT1FUSkZzaW8yeUU2MHRXMVFqd0M1OEs5WjRTVWtsU3hVZnpYclpFNmtRd9IBX0FVX3lxTE1QdHlzdXp6YjNJdlhXamlBVmdkMDNzS3R1MFZqOVBxSWZPM09ra25tYnh6eFEwWU5mUTZKUEZIaVdQQ016ZDFwZU9wbXBxQVVlS09pSkFwTVZMVG5leWpv?oc=5",
-      "source": "경향신문",
-      "date": "2026-09-04T21:00:00.000Z"
     }
   ]
 }
