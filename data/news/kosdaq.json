@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-18T11:38:57+09:00",
+  "updatedAt": "2026-09-18T15:44:38+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "[속보] 코스닥 4.94p(0.60%) 오른 827.12(마감)",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5yRk9JN09RQlRkU3ZwNWZ0SExCOGVINk1jV1l5eUlNY3d0VndXOXB6RGtuVGdyMFN3R1U3VGxBN01GQmVVa0drM25rdVNHQWk4S0JabQ?oc=5",
+      "source": "이투데이",
+      "date": "2026-09-18T06:38:00.000Z"
+    },
+    {
+      "title": "코스닥 상승 마감, 827.12P (0.6%↑) 코스닥 건설, 코스닥 전기·전자 등 상승 주도",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1RbUNsaENTTmNJZElNdGZXU0N6Y3BaVHZmVnBxY1BMNUtvQWxUaVBsM1dhMmE2NzRpelRPNFpucDRROWx6TTExX08teDBlcDk3Nnc?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-09-18T06:36:27.000Z"
+    },
+    {
+      "title": "[코스닥] 4.94포인트(0.60%) 오른 827.12 마감",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IcGx5M0xmdmd1MFVMaGhpc3ZES1VaamViUXdMNGVDYzAwcXlldFBvZ3Y5MnJKNUFoVVZBdUlLeWh1TzZLdXhyeGhvQ2pzc2lHNVHSAVNBVV95cUxQLVZOLU9iMmlLZko1WnVESDQyZ1lUUW5Eb1NhMWZkVnJPYlNWbXgzdXZ3VW51djRBelAyemVQYkJuMHE0bm9zVGhkX0JiMmVmVEhmUQ?oc=5",
+      "source": "서울경제",
+      "date": "2026-09-18T06:35:11.000Z"
+    },
+    {
+      "title": "코스닥, 4.94P 오른 827.12 마감(0.60%↑)",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9VbDVxbFFjc0IzSkRua2lDdXZBeng0U0ZmZksyZUVkVTJNbDV6a3NMc1g1SGxDeS1FRlVmT293VmFQNVZyUnVJWjUtYmpjaW9jajBiYmFjZm9WSlVWMC1PNmlR?oc=5",
+      "source": "아시아경제",
+      "date": "2026-09-18T06:34:00.000Z"
+    },
+    {
+      "title": "[속보]코스닥, 4.94포인트(0.60%) 상승한 827.12 마감",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XYS1yYmZ0OWs5ckhpcFQ2MzJ1MlJZbG5KMUNqYzNFb09XMm1WRlR0XzZQZU9iWjl0ZzBRbm5paTE3emUyaWl6VTVfZlEtUDNSSTYwTTBqcXNoaXFkempCa9IBeEFVX3lxTFBvdnhmOTE5TUNab0V2ZjlLYnFITUFrdkwzWVdPQzJHdWx2djYxMmtnNm5TOXVGRzhyMmF4WHF5c21saHNlZXRpcmptTlktYXdoTVlURWRjcExYUTYwQXY4VFdPVGdCdk91MEVWQkZITWlDb2I3dkdxRQ?oc=5",
+      "source": "뉴시스",
+      "date": "2026-09-18T06:33:43.000Z"
+    },
+    {
+      "title": "[스팟]코스닥 4.94포인트(0.6%) 오른 827.12 마감 - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxbjF5WE81cmxLOHd2MHNTRGFiVjdLZ1VXWkJoUXR0OUp6TzdoUFlLREFGWXNmUG1zNHNLeWkwUzhabS1MS0tjQVFMbDNLc3ZDektUVVg2bWRxRjJ3eUk5SjBvWUFUX3VZ0gFuQVVfeXFMT2FsZ192aE9NS3B6MGNNNDJrRlh5d3QxaWRHc2d6WGpxTTZEeWNrZlBBcmlEaXFYaG5BV0lnRlFuX21tT0wtanFXcXo5cVhhc2JKN1A2Vmhwd0I5Snh0SjctVmNnY29DUVNQb296NUE?oc=5",
+      "source": "머니투데이",
+      "date": "2026-09-18T06:33:38.000Z"
+    },
+    {
+      "title": "미래에셋증권, 코스피200·코스닥150 선물 ETN 4종 재상장",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE94WHZoR1llZXdPZ2UzdGNncjFXVGhjWGFxTVNCcGt4b1VRQ3hqUUlZTWxwMjhmMV9Ncm1JaTJvc2hCSzJxVnNhLTN3QkR3eldaUTV4ZXJUb3hMdTZhYXdGMUlqbzJHOGPSAWtBVV95cUxOUHdiOGtBV3JLWV80aF9iQ25QcFpXMW1ZZkNtMExFUmE0TGdyY0J5ckJBME15UnR4R1I1aG5xdXJ5cUJ3UUU3Mm5pWG1hY25FUXZzVWxYOVZyMDZoWXRXUGdPTW1TdjNnZlhsRQ?oc=5",
+      "source": "SR타임스",
+      "date": "2026-09-18T06:22:48.000Z"
+    },
+    {
+      "title": "흑자인 ‘시총 미달·동전주’ 상장사 구제… 코넥스 이전상장, 23일부터 협의 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTklQUUN3aW1qNTdoTDZudDExUHFaTERENnpQZG9hS1RyZUNWU3B3emM2cy1XZzhONThTUUpxLTFvdDgzSF9qSHJUdjV5TkxveHNXZmxZUy1vNFFZWTNnQ3ZReTBRYU9NRGFiYVdyY3R5MlZqTWxHcTk5RjRxYlFBajBDR0ZoX2c20gGcAUFVX3lxTE54V1Npa09wc29jLXotdERsRFBnRnZHR2FtZjFtZTBnTkRsSG1IempOT3VNdGdTYVpVaFNkRDAyRUh2aWtqRGF5aFZiMGpJeXhraVZXUkQzTnpEVERpZk9mdkk4SVV5ZW91Q05VdEN4S19FSlRDSUJ5d29ZNF9iVmNoem1kbk85b25qRE9JNXRfMWVoMVl1VkNFQ2hTbw?oc=5",
+      "source": "Chosunbiz",
+      "date": "2026-09-18T06:15:00.000Z"
+    },
     {
       "title": "코스피, 2% 안팎 상승세 유지…외국인 '사자' 전환",
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1peUZ0YUJhWVdXa2Zxb3l2NzBrTkFXVER0NU9kWFZxYU5Kbk5MTVh0V01lR2ZiZzI4LXRPWHhTOGtueDdWMGM0ZFBDRUptcU16MUE?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1DbFZLNHlnVS1yRWE1MEh1THdlU1BMR3ZPcGZZSS1IeWw3cGU0QUJqZGppX3B2YlBaQm1pSWNlY2ZyQ0JITFpjM0pCOF9jaHdLNHIwVHZoektiUElVekdtVg?oc=5",
       "source": "메트로신문",
       "date": "2026-09-06T02:11:22.000Z"
-    },
-    {
-      "title": "코스닥 투자는 '깜깜이 투자'? 증권사 보고서 기근 심각",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE54MmY3ZHUtdU0ySUIxLWVLdGNrZS15Qks3MGhoMDJxTnVOWGV0eXBqTzBvaXNRdGNhb3ZuWUlocVRUekpveFNYUmU0R1ZYUG1zS1BB?oc=5",
-      "source": "news.nate.com",
-      "date": "2026-09-06T00:01:00.000Z"
-    },
-    {
-      "title": "상폐 유예 끝나면 471곳 다시 시험대⋯소액주주 300만명 ‘8조원’ 영향권",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Pdjk2WFJ1T055OUpfeExMTUhwaEZJS0JRcGl3Zm1lVWlBdkhlUVhxYnB2bHRHU2Z0Z1NoN0l1LUwtV3FoREVwOGtuakF4TC1wWHlBVw?oc=5",
-      "source": "이투데이",
-      "date": "2026-09-05T23:04:00.000Z"
-    },
-    {
-      "title": "[코스피·코스닥지수] 오픈AI발 AI 혁신에 반도체주 들썩...한국 증시 반등 기대감",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SV0UwNkxzRFAxUDVRdm92SEZSUlNlRGlhMHVuTVdkaDdHNWx1cm1PQXJFT2xWdmdQVW1fZGdMSThkTXpBR3kwNnVlbm1xLWlqdlEtOXVnem1QWkZaSlJBb1p4anA1OHJqVm02X2dmTVk?oc=5",
-      "source": "한국강사신문",
-      "date": "2026-09-05T22:29:25.000Z"
-    },
-    {
-      "title": "\"AI 반도체 발열 잡아라\" 유망 종목인데...코스닥서 뚝뚝뚝, 왜 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5vZUFJZTJwSjN2bE1MZXRRWWdDRXVmSTM1dDJINGhuYlZFWXlwOGVSUXRJOFFpY0NpREVXU21pU2w5cjlDWHZpYmF4S2p0Vm1JS2NON282SlBhci03SVpjVDQ1a2lRRVVS0gFuQVVfeXFMT1NSR2hTNEpZWnZ1aVR6S3BWS2tHVGtjQVNTU180X2dfYUhYOVBJcXdjMnJpSXVaQ3huYVNURndVVF9ZRmVNVWlESGd2R2d2Ymc0LUlhR1FVLUkzWDdDOGZxR2VzZm1iUmtpODNXcFE?oc=5",
-      "source": "머니투데이",
-      "date": "2026-09-05T21:06:00.000Z"
-    },
-    {
-      "title": "상폐기준 강화에 '소액주주 300만명·보유액 8조원' 영향권",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1icWptR0dUcUxGNkhfLVg1SlRhZmdOdDdON0x3ZExoT2F6WU5JenB6TGxzSzJ6czAxekxQWGd5eGJHbUxTNThLbGs4SFU4NmFLV2c?oc=5",
-      "source": "매일경제 마켓",
-      "date": "2026-09-05T21:05:00.000Z"
-    },
-    {
-      "title": "정부, 코스닥·코스피 상장폐지 기준 강화 내년 7월로 6개월 유예",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBUd2h5SXpEeU9WSmZ6UWRkT05XSGNpenY1SDVuNGxUZ1Q4OTV6Vk0tQU05Tzhidk9hMnN1Y0xhVTJMZ0l6Y0s0YnM2Z1RBYl95VUVRWHRTY0pPQnZEN0Z6UmRyT2MxQUNNNnc3Sw?oc=5",
-      "source": "한국사회복지저널",
-      "date": "2026-09-05T08:43:22.000Z"
-    },
-    {
-      "title": "‘코넥스 이전 허용’ 퇴출 위기 상장사에 완화책…“성장성 함께 고려해야”",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ISkxsanhqZ1JkNGdUc1NoSFhWeTFoQW5oMEJUUVE0am9HLWQ1THZOUk5Vcnc4OFM1VjlDN0RFZkJCTlZFMC1senlYUVJJN1k?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-05T07:16:11.000Z"
-    },
-    {
-      "title": "코스닥 기술특례상장 300사…거래소, 전문평가제도 개편 추진",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55YVRfZmgySE0zeTNUSFcybXdKcmN2TXcwcXctbG1QTzZLUWp1d1Jwek1EZFhKd0RKT1JjYmFMNFJvbEpNX3JEVXNlNG1oVGVlUFdBSU5EUTU3dGVLR2Rid1pqYnnSAWhBVV95cUxNTDJhOE1JMnkwTFBFMGRnRHFVelpTaXZfcHZ2a3k3bTJleC1CYi1qQ3E4NENxdWt3b2dHQ1hXd202eGRNVkVneVlCUldnVG5aWXN1LWpQVzN0azAzRWtBQ3NiR3dEWUx0Rw?oc=5",
-      "source": "매일일보",
-      "date": "2026-09-05T05:53:08.000Z"
     }
   ]
 }
