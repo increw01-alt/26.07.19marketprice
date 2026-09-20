@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21T06:56:51+09:00",
+  "updatedAt": "2026-09-21T08:42:43+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -60,10 +60,10 @@
       "label": "신세계백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 96900,
-      "buyRate": 3.1,
-      "sell": 97100,
-      "sellRate": 2.9
+      "buy": 96850,
+      "buyRate": 3.15,
+      "sell": 97000,
+      "sellRate": 3
     },
     {
       "shopId": "citypay",
@@ -74,8 +74,8 @@
       "method": "현금",
       "buy": 96750,
       "buyRate": 3.25,
-      "sell": 97100,
-      "sellRate": 2.9
+      "sell": 97000,
+      "sellRate": 3
     },
     {
       "shopId": "citypay",
