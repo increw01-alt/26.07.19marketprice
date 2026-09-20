@@ -1,12 +1,36 @@
 {
-  "updatedAt": "2026-09-21T04:07:03+09:00",
+  "updatedAt": "2026-09-21T06:57:11+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "[코스피·코스닥 전 거래일(18일) 주요공시]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5JdmI2NGRKNkZ2UFlvellRbkZRWjNsTXpQN1VYdXA2eVlNX3B1eXFKX3BsYmJxNDVLVEdlRHh4YnU0dFhtbkp0c2IzcWJCRnRIZnc?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-09-20T21:05:01.000Z"
+    },
+    {
+      "title": "새내기주 줄상장…네오사피엔스·와이즈플래닛, 코스닥 데뷔 [이번주 증시 캘린더]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9kaXFydU9KUzl6eUFHQ2h4MFcycVZvZWo2SlVyR2xGd1owdWdFTElldGEzTHZRbmplX3ZVa1hzaW5DZTFSeUVpYnAzeVpvOWJJT2fSAVNBVV95cUxOTFRVY1FQRzdobHZYTmJLajdQejY4UGEybF95NjUzZVlWTUpBajAwS0c3Y2Itand5UkV3MWYzbVd6a0pkNE1iU2FBOXNhN3A5QUxhNA?oc=5",
+      "source": "서울경제",
+      "date": "2026-09-20T21:00:00.000Z"
+    },
+    {
+      "title": "[주간IPO] 네오사피엔스 코스닥 입성…와이즈플래닛컴퍼니 신규 상장",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBEZUFXVUlYdGNkVjhfRC15T0ROcnFGS0Z3SDd2Q3Q4QmdpbVIxbWx4VmN4Y1l5dktnU3U5YkRwOW1lRWRpRjdOYWtNMXNKTzdJOEVMbjBrZXZMQlhr?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-09-20T21:00:00.000Z"
+    },
     {
       "title": "소프트웨어 관련주 ‘네오사피엔스’, 오늘(21일) 코스닥 상장",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5IcWZqWno1eC1KbW0xTDVac0YtaGxXVlpFcUstUEYyUzhHN3R2VWoxSFo2elBSeFNycGxDcFZ5c3IyeXlfY0RHakdQaXgzSllBN2xhYVEwOC16ZmItQ2lva3owREF1M1NjWEphOA?oc=5",
       "source": "뉴스웰",
       "date": "2026-09-20T15:00:00.000Z"
+    },
+    {
+      "title": "현금 없는 동전주까지 공개매수…펀더멘털 약해 퇴출 위험 여전 [시그널]",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sMDhEVFVmUmZIOUk5SGJEZDZ1bzVkNGlTQnRuQ2JDLXloMzVsbTRpUTlKc3hiZW9Qemt0LU5CTVpNTmxEWi1VcEc5QjZZSjRGVWs1NnJudjRkdUkxQWVoSQ?oc=5",
+      "source": "서울경제",
+      "date": "2026-09-20T12:01:35.000Z"
     },
     {
       "title": "미래에셋證, 코스피200·코스닥150 선물 ETN 4종 재상장",
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYVJDcFhuNFowMUd0Z2RtZEVmOWxvTVNTS0R6eEE0aDRJRG1TZGR3UGtQMmp4VWhHblJab0xNRlJmay1VaW5vUGdvQ29PUkVRbUlrZ2cyVzNDWmk1cE1PUmUxT2RKZjJ4cnRxSl9qQXZ0UUp2dC1ndmUyNVFKSnp3Qkx1TloweVBZajA0?oc=5",
       "source": "국제신문",
       "date": "2026-09-07T06:59:00.000Z"
-    },
-    {
-      "title": "코스피 4.61% 급등한 6995.39 마감…‘반도체 훈풍’에 7000선 턱밑",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5tYzk3SmxVamt5VjdYWGFDUGZlTUVMN0JEckNyeGM5Vm8wT2VEYlJUWTRyRmliLUxxV2NFTl83LUxUVUJsWWpPanVLbEYyRjg?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-07T06:57:56.000Z"
-    },
-    {
-      "title": "[스팟] 코스닥 8.69포인트(1.07%) 오른 822.19 마감 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oNTZWamxFdU5UQUZSMmQxUkJwQV9EdURzajEtdVltSUlORHdSVFBUQ3JHT0dmd3g2cEpFbzZnVktVRy1YcWJ5YVlZWDFaa05jYWl1QkJ0SjAtX01TSUdWTW5NMkVsbjJmdWV2ekw2UGNnektyNVHSAXtBVV95cUxPZ281dm83OHhLV2x5U3dZRThoV0dDcWUydnRFR2hmcllPNXpwXzZYT3BmeEdHTjdkN2VvRU9sRU1xMU9NbFBXd0FtQU02eWRxZE5PMFV3TXNwOTNzZzFaRTk3MWJCbUgxcEQ0WVZRR3NJSncta0p0cFdNVkk?oc=5",
-      "source": "머니투데이",
-      "date": "2026-09-07T06:55:46.000Z"
-    },
-    {
-      "title": "코스피, 4.6% 급등해 7000선 코앞…코스닥 1% 상승",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NOW9QRGw3bnItNS1ONk85Y3JzcGJ5ZS1HNEUwZDBxeF82c20xYUY2bmxza01QMHFKLWJOTEVFcFo3LTZGWmtLTkIyMTdkQ0VGOFY4RUxsSlVWYUtGc0ZhVXRQTmtxdmVUN1E?oc=5",
-      "source": "컨슈머타임스",
-      "date": "2026-09-07T06:54:20.000Z"
-    },
-    {
-      "title": "코스피 4% 올라 7000선 코앞…외인·기관 '쌍끌이'",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1FSE9CdWpuYkFYTXU4WnozNlkwM0FWR01rWm91cms0NXZIZkVJUXRDZmt3Vmkyd3BOWUs2MnU1WG10YXh5ekZ5dHRyRmlEUVVpNHpROFZKYjFZYlBYM0JHSHhZUU1ZOVNneE1fVldTQXNwa2c?oc=5",
-      "source": "마켓인",
-      "date": "2026-09-07T04:59:58.000Z"
     }
   ]
 }
