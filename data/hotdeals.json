@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-09-21T01:32:52+09:00",
+  "updatedAt": "2026-09-21T04:06:52+09:00",
   "deals": [
+    {
+      "title": "11GB+일2GB+3Mbps(밀리의서재)4개월 알뜰요금제",
+      "mall": "비즈인",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735841",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-20T18:21:47.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107421",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-20T16:41:34.000Z"
+    },
+    {
+      "title": "극조생 감귤 햇귤, 혼합과, 5kg, 1개",
+      "mall": "토스",
+      "price": 11900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735840",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-20T16:38:04.000Z"
+    },
     {
       "title": "공차 블랙밀크티 + 펄L 외",
       "mall": "지마켓",
@@ -68,9 +101,9 @@
       "date": "2026-09-20T15:31:40.000Z"
     },
     {
-      "title": "09-21 네이버페이 93원 + 랜덤 포인트",
+      "title": "09-21 네이버페이 144원 + 랜덤 포인트",
       "mall": null,
-      "price": 93,
+      "price": 144,
       "cat": "쿠폰·상품권",
       "link": "https://damoang.net/economy/80670",
       "direct": false,
@@ -189,17 +222,6 @@
       "date": "2026-09-20T15:09:04.000Z"
     },
     {
-      "title": "투게더 바닐라 오리지널 900ml 5개",
-      "mall": "오늘의집",
-      "price": 20940,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735825",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-20T15:09:02.000Z"
-    },
-    {
       "title": "카페 2천원 이상 결제시 500원 적립 (9/21~27)",
       "mall": "네이버페이",
       "price": 500,
@@ -209,17 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-20T15:07:39.000Z"
-    },
-    {
-      "title": "국내산 도가니탕 800g x 6팩",
-      "mall": "토스",
-      "price": 29900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=735823",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-20T15:01:38.000Z"
     },
     {
       "title": "09월20일 마이카방문 재적립가능",
@@ -495,17 +506,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-19T01:47:15.000Z"
-    },
-    {
-      "title": "라방 랜덤 5원",
-      "mall": "네이버페이",
-      "price": 5,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107380",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-19T01:00:22.000Z"
     },
     {
       "title": "디지털 온누리 상품권 추석 특별 할인",
