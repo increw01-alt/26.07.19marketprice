@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-09-26T03:58:41+09:00",
+  "updatedAt": "2026-09-26T06:57:00+09:00",
   "deals": [
+    {
+      "title": "구글플레이 기프트카드 10만원권",
+      "mall": "네이버",
+      "price": 93120,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107543",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-25T21:56:34.000Z"
+    },
     {
       "title": "폴햄 바람막이 5종 택1",
       "mall": "옥션",
@@ -539,17 +550,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-24T02:38:39.000Z"
-    },
-    {
-      "title": "라방 랜덤 5원",
-      "mall": "네이버페이",
-      "price": 5,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107515",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-24T02:08:07.000Z"
     },
     {
       "title": "iOS 일시무료 Counting Sheep",
