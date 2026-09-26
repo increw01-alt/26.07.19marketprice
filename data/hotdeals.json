@@ -1,6 +1,237 @@
 {
-  "updatedAt": "2026-09-26T23:46:40+09:00",
+  "updatedAt": "2026-09-27T03:06:07+09:00",
   "deals": [
+    {
+      "title": "PS5 고요한 시골 정원이야기 74100",
+      "mall": "네이버",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107553",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-26T18:03:39.000Z"
+    },
+    {
+      "title": "PS5 하늘의 궤적 2nd 85900원",
+      "mall": "예판런",
+      "price": 85900,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107552",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-26T17:59:41.000Z"
+    },
+    {
+      "title": "멸치볶음/멸치넛츠 100g 2개",
+      "mall": "토스",
+      "price": 6930,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736559",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T17:15:23.000Z"
+    },
+    {
+      "title": "평생5G 통화기본150GB+ 알뜰요금제",
+      "mall": "시월모바일",
+      "price": 25850,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736558",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T16:56:51.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107551",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-26T16:56:36.000Z"
+    },
+    {
+      "title": "참기름 350ml + 들기름 350ml",
+      "mall": "옥션",
+      "price": 13980,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736557",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:56:19.000Z"
+    },
+    {
+      "title": "산림방사 난각번호1번 유정란 60구",
+      "mall": "토스",
+      "price": 22900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736556",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:36:22.000Z"
+    },
+    {
+      "title": "나랑드사이다 제로 350ml PET 3종 1박스",
+      "mall": "롯데온",
+      "price": 10950,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736555",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:32:18.000Z"
+    },
+    {
+      "title": "09-27 네이버페이 67원 + 랜덤 포인트",
+      "mall": null,
+      "price": 67,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/80872",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-26T15:30:24.000Z"
+    },
+    {
+      "title": "U+망 알뜰폰 100GB+5mbps 통화문자 무제한 4개월 900원",
+      "mall": "KG모바일",
+      "price": 900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736554",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:30:09.000Z"
+    },
+    {
+      "title": "VGN 잠자리 3세대 PRO 무선 게이밍 마우스",
+      "mall": "G마켓",
+      "price": 36900,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736553",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:28:38.000Z"
+    },
+    {
+      "title": "국내산 유러피안 상추 믹스 4종 1kg",
+      "mall": "오늘의집",
+      "price": 9810,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736552",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:24:02.000Z"
+    },
+    {
+      "title": "폴햄 컴포트 청바지",
+      "mall": "옥션",
+      "price": 18920,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736551",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:16:19.000Z"
+    },
+    {
+      "title": "일일적립, 클릭 28원, 라이브예고 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107550",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-26T15:15:22.000Z"
+    },
+    {
+      "title": "보양옥 올갱이해장국 600g 3팩",
+      "mall": "토스",
+      "price": 12900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736550",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:14:19.000Z"
+    },
+    {
+      "title": "iOS 일시무료 PocketTok",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/80871",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-09-26T15:14:03.000Z"
+    },
+    {
+      "title": "생면 칼국수 6인분",
+      "mall": "오늘의집",
+      "price": 7128,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736549",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:11:35.000Z"
+    },
+    {
+      "title": "대구 달구벌 막창 1kg x 2팩 총 2kg",
+      "mall": "G마켓",
+      "price": 22610,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736548",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:10:14.000Z"
+    },
+    {
+      "title": "국내산 냉동 닭윙봉 1kg x 2개",
+      "mall": "G마켓",
+      "price": 13660,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736547",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:05:39.000Z"
+    },
+    {
+      "title": "마이키즈 멀티비타민 미네랄 구미 60정",
+      "mall": "카카오",
+      "price": 9900,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736546",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:02:44.000Z"
+    },
+    {
+      "title": "PAT 클래식핏 치노 슬랙스 팬츠",
+      "mall": "G마켓",
+      "price": 19800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736545",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-26T15:01:08.000Z"
+    },
     {
       "title": "닌텐도 스위치 포켓몬스터 바이올렛 DLC 합본 (99600/3000)",
       "mall": "네이버",
@@ -13,50 +244,6 @@
       "date": "2026-09-26T14:08:57.000Z"
     },
     {
-      "title": "극조생 노지감귤 3kg 꼬마과",
-      "mall": "네이버",
-      "price": 9900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736543",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T14:04:48.000Z"
-    },
-    {
-      "title": "폴햄 클라우드 에어 경량 베스트",
-      "mall": "지마켓",
-      "price": 18920,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736542",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T14:02:31.000Z"
-    },
-    {
-      "title": "무신사 스탠다드 라이트웨이트 드로즈 3팩",
-      "mall": "무신사",
-      "price": 17990,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736541",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T13:45:14.000Z"
-    },
-    {
-      "title": "제주 유라 그린향 감귤 2kg",
-      "mall": "톡딜",
-      "price": 9890,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736540",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T13:40:53.000Z"
-    },
-    {
       "title": "NS 리듬 천국 미라클 스타즈 ￦46,800/무료",
       "mall": "롯데마트제타",
       "price": null,
@@ -66,127 +253,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-26T13:20:35.000Z"
-    },
-    {
-      "title": "뚜레주르 잔액관리권 3만5천원권",
-      "mall": "11번가",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736539",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T13:15:53.000Z"
-    },
-    {
-      "title": "국내산 저염 고단백 수비드 닭가슴살 2kg",
-      "mall": "롯데온",
-      "price": 16670,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736538",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T12:52:06.000Z"
-    },
-    {
-      "title": "수분 비타민 NMF 화이트닝 토너 150ml",
-      "mall": "네이버",
-      "price": 5990,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736537",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T12:40:27.000Z"
-    },
-    {
-      "title": "버거킹 치즈와퍼주니어+비프불고기버거+콜라R+콜라R+쉐이킹프라이 (8,300원/무료) 2개이상 추가 5%할인",
-      "mall": "롯데온",
-      "price": 8300,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736536",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T12:13:26.000Z"
-    },
-    {
-      "title": "이뮨 멀티비타민&미네랄 40병",
-      "mall": "CJ온스타일",
-      "price": 27000,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736535",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T12:12:26.000Z"
-    },
-    {
-      "title": "핫도그 50g 30개",
-      "mall": "톡딜",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736534",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T12:01:30.000Z"
-    },
-    {
-      "title": "에디션 간절기 긴팔 반팔 이너 3장 무료배송",
-      "mall": "지마켓",
-      "price": 3000,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736533",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T11:40:02.000Z"
-    },
-    {
-      "title": "애슐리핫도그 4종 혼합세트",
-      "mall": "11번가",
-      "price": 12500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736532",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T11:31:54.000Z"
-    },
-    {
-      "title": "닌텐도 스위치용 마리오 래비드 반짝이는 희망 골드 에디션",
-      "mall": "닌텐도 스토어",
-      "price": 9680,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736531",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T11:13:25.000Z"
-    },
-    {
-      "title": "국산 포르단밤 1kg",
-      "mall": "11번가",
-      "price": 10900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736530",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T11:05:52.000Z"
-    },
-    {
-      "title": "원스데일리 포우먼 멀티비타민 60정 3개",
-      "mall": "네이버",
-      "price": 62800,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=736529",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-26T11:05:12.000Z"
     },
     {
       "title": "애플TV 스토어 영화할인",
@@ -541,28 +607,6 @@
       "date": "2026-09-24T17:35:42.000Z"
     },
     {
-      "title": "(무료) Magic Time - Control Time per..",
-      "mall": "에셋스토어",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107525",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-24T15:36:32.000Z"
-    },
-    {
-      "title": "일일적립, 클릭 23원",
-      "mall": "네이버페이",
-      "price": 23,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107524",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-24T15:17:15.000Z"
-    },
-    {
       "title": "09-25 네이버페이 41원 + 랜덤 포인트",
       "mall": null,
       "price": 41,
@@ -572,28 +616,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-09-24T15:16:48.000Z"
-    },
-    {
-      "title": "아스트리아: 식스 사이드 오라클",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107523",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-24T15:00:01.000Z"
-    },
-    {
-      "title": "네이버페이 5천원 이상 결제 시 50% 페이백 (9/28~30)",
-      "mall": "공차",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107522",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-24T14:52:42.000Z"
     },
     {
       "title": "iOS 일시무료 Counting Sheep",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-09-22T15:28:29.000Z"
-    },
-    {
-      "title": "09-22 네이버페이 99원 + 랜덤 포인트",
-      "mall": null,
-      "price": 99,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/80711",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-21T15:32:12.000Z"
-    },
-    {
-      "title": "iOS 일시무료 사전 녹화 카메라",
-      "mall": null,
-      "price": null,
-      "cat": "디지털·가전",
-      "link": "https://damoang.net/economy/80708",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-21T14:53:27.000Z"
     }
   ]
 }
