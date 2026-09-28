@@ -104,6 +104,7 @@
       });
       if (!archiveResponse.ok) throw new Error(`HTTP ${archiveResponse.status}`);
       const archive = await archiveResponse.json();
+      globalThis.MODOO_REFRESH?.track(`/data/news/${topic}.json`, archive);
       return { items: archive.items, updatedAt: archive.updatedAt };
     } catch {
       const snapshotResponse = await fetch(`/data/news.json?t=${cacheBuster}`, {
@@ -112,6 +113,7 @@
       });
       if (!snapshotResponse.ok) throw new Error(`HTTP ${snapshotResponse.status}`);
       const snapshot = await snapshotResponse.json();
+      globalThis.MODOO_REFRESH?.track('/data/news.json', snapshot);
       return { items: snapshot.topics?.[topic], updatedAt: snapshot.updatedAt };
     }
   };

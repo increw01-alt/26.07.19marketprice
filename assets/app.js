@@ -76,10 +76,13 @@ const icon = (id, cls = 'icon') =>
 
 // 시세 JSON 은 항상 재검증합니다 — 브라우저 휴리스틱 캐시가 며칠 묵은 시세를
 // 보여주는 사고 방지 (엣지 캐시는 _headers 의 /data/* 5분 규칙이 담당).
-const fetchJSON = (path, options = {}) => fetch(path, { cache: 'no-store', ...options }).then((r) => {
-  if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
-  return r.json();
-});
+const fetchJSON = (path, options = {}) => {
+  globalThis.MODOO_REFRESH?.watch(path);
+  return fetch(path, { cache: 'no-store', ...options }).then((r) => {
+    if (!r.ok) throw new Error(`${path}: HTTP ${r.status}`);
+    return r.json().then((data) => globalThis.MODOO_REFRESH?.track(path, data) ?? data);
+  });
+};
 
 const SPRITE = `
 <svg data-icon-sprite width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
@@ -523,6 +526,7 @@ function bindLocalPreviewRoutes() {
 
 /** 헤더의 갱신 시각 표시 */
 function setStatus(stamp, msg) {
+  globalThis.MODOO_REFRESH?.showStatus(stamp);
   const el = $('#updated');
   if (!el) return;
   el.className = stamp ? 'status is-live' : 'status is-error';

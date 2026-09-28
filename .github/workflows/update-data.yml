@@ -2,10 +2,10 @@ name: 시세 데이터 갱신
 
 on:
   schedule:
-    # 매시 정각 (UTC) — 한국시간 매시 정각.
+    # 매시간 17분: 정각 혼잡을 피합니다. GitHub 예약 실행은 지연/누락될 수 있습니다.
     # 저장소가 public 이라 Actions 분은 무료입니다. private 로 되돌리면
     # 무료 한도(2,000분/월)가 적용되니 크론 축소를 함께 검토하세요.
-    - cron: '0 * * * *'
+    - cron: '17 * * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -79,7 +79,7 @@ jobs:
         run: node scripts/build-static.mjs --check
 
       - name: 보안 회귀 테스트
-        run: node --test scripts/stage-generated.test.mjs scripts/security-sanitizers.test.mjs scripts/giftcard-faq.test.mjs functions/api/lotto/security.test.mjs functions/security-routes.test.mjs
+        run: node --test scripts/data-refresh.test.mjs scripts/stage-generated.test.mjs scripts/security-sanitizers.test.mjs scripts/giftcard-faq.test.mjs functions/api/lotto/security.test.mjs functions/security-routes.test.mjs
 
       - name: 배포 allowlist 산출물 검증
         run: |

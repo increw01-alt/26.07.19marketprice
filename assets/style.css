@@ -237,6 +237,9 @@ output {
 }
 .status.is-live .dot { background: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.25); }
 .status.is-error .dot { background: var(--color-destructive); box-shadow: none; }
+.data-refresh-status { margin: 0 0 20px; color: var(--color-muted-fg); font-size: 12px; line-height: 1.7; overflow-wrap: anywhere; }
+.data-refresh-status.is-delayed { color: #a24b00; }
+[data-theme='dark'] .data-refresh-status.is-delayed { color: #ffc478; }
 
 .theme-toggle,
 .nav-toggle,

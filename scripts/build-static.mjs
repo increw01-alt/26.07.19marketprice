@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260909-gift-installment-cta40';
+const ASSET_VERSION = '20260928-data-refresh41';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -810,6 +810,7 @@ ${staticRegionBlock('footer', staticFooter)}
   data-storage-key="modoosise-giftcard-popup-hidden-until"
   data-href="https://koreagiftcard.channel.io/home?page=%ED%99%88%ED%8E%98%EC%9D%B4%EC%A7%80%ED%8C%9D%EC%97%85"
   defer></script>
+<script src="/assets/data-refresh.js?v=${ASSET_VERSION}"></script>
 <script src="/assets/app.js?v=${ASSET_VERSION}"></script>
 <script src="/assets/pages.js?v=${ASSET_VERSION}"></script>
 </body>
@@ -849,6 +850,9 @@ function ensureMainTarget(source, file) {
 }
 
 function ensureSiteConfigScript(source, file) {
+  if (!/<script\s+src=["'][^"']*assets\/data-refresh\.js/i.test(source)) {
+    source = source.replace(/(<script\s+src=["'])(\/?assets\/)app\.js/, `<script src="$2data-refresh.js?v=${ASSET_VERSION}"></script>\n$1$2app.js`);
+  }
   if (/<script\s+src=["'][^"']*assets\/site-config\.js/i.test(source)) return source;
   const app = source.match(/<script\s+src=(["'])(\/?assets\/)app\.js[^"']*\1[^>]*><\/script>/i);
   if (!app || app.index == null) throw new Error(`${file}: app.js 스크립트를 찾지 못했습니다.`);
@@ -1149,7 +1153,7 @@ for (const [file, shell] of Object.entries(shellPlan)) {
     shell.hideStatus,
   );
   document.next = document.next.replace(
-    /((?:\/)?assets\/(?:style\.css|site-config\.js|app\.js|pages\.js|car-sales\.js|used-car-sales\.js))\?v=[^"']+/g,
+    /((?:\/)?assets\/(?:style\.css|site-config\.js|data-refresh\.js|app\.js|pages\.js|car-sales\.js|used-car-sales\.js|car-news\.js))\?v=[^"']+/g,
     `$1?v=${assetVersion}`,
   );
 }
