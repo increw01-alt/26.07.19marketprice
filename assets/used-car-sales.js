@@ -227,6 +227,7 @@
   }
 
   function renderSources(data) {
+    data = { ...data, updatedAt: data.checkedAt || data.updatedAt };
     document.querySelector('#used-basis-notice').textContent = data.basis.notice;
     document.querySelector('#used-definitions').innerHTML = `<dt>전체</dt><dd>${escapeHTML(data.basis.total)}</dd><dt>국산·수입</dt><dd>${escapeHTML(data.basis.split)}</dd><dt>모델 순위</dt><dd>${escapeHTML(data.basis.ranking)}</dd><dt>차량 이미지</dt><dd>${escapeHTML(data.basis.image)}</dd>`;
     document.querySelector('#used-sources').innerHTML = `<li><div><a href="${safeHttpUrl(data.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.source.name)}</a><span>${escapeHTML(data.source.upstream)}</span></div><time datetime="${escapeHTML(data.updatedAt)}">확인 ${new Date(data.updatedAt).toLocaleDateString('ko-KR')}</time></li><li><div><a href="${safeHttpUrl(data.sourceGuide.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.sourceGuide.name)}</a><span>월별 업데이트·공식 등록자료 집계기준 안내</span></div></li>`;
@@ -243,7 +244,7 @@
     .then(validate)
     .then((data) => {
       const rows = data.months.slice(-Math.max(1, Number(data.displayMonths) || 24));
-      setStatus(data.updatedAt);
+      setStatus(data.checkedAt || data.updatedAt);
       document.querySelector('#used-range').textContent = `${rows[0].month.replace('-', '.')} — ${rows.at(-1).month.replace('-', '.')}`;
       renderKpis(rows);
       renderChart(rows);

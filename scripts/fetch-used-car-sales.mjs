@@ -1,6 +1,7 @@
 import { readFile, rename, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchCarSource } from './car-fetch.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const outputPath = path.join(root, 'data', 'used-car-sales.json');
@@ -31,7 +32,7 @@ function monthsEndingAt(value, count) {
 }
 
 async function postJson(url, params) {
-  const response = await fetch(url, {
+  const response = await fetchCarSource(url, {
     method: 'POST',
     headers: {
       accept: 'application/json, text/plain, */*',
@@ -39,7 +40,6 @@ async function postJson(url, params) {
       'user-agent': 'modoosise-used-car-updater/1.0 (+https://modoosise.com/car/used)',
     },
     body: new URLSearchParams(params),
-    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`${url}: HTTP ${response.status}`);
   const text = await response.text();
@@ -65,9 +65,8 @@ async function mapWithConcurrency(values, concurrency, mapper) {
 }
 
 async function fetchLatestMonth() {
-  const response = await fetch(mobilePriceUrl, {
+  const response = await fetchCarSource(mobilePriceUrl, {
     headers: { 'user-agent': 'modoosise-used-car-updater/1.0 (+https://modoosise.com/car/used)' },
-    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`카이즈유 중고차 페이지: HTTP ${response.status}`);
   const html = await response.text();
@@ -187,6 +186,7 @@ for (const row of rankings) {
 
 const output = {
   version: 1,
+  checkedAt: new Date().toISOString(),
   updatedAt: new Date().toISOString(),
   latestMonth: formatMonth(latestMonth),
   displayMonths: months.length,
@@ -213,17 +213,19 @@ const output = {
 
 try {
   const previous = JSON.parse(await readFile(outputPath, 'utf8'));
+  if (previous.latestMonth > output.latestMonth) throw new Error(`중고차 기준월 후퇴: ${previous.latestMonth} → ${output.latestMonth}`);
   const withoutStamp = (value) => {
     const copy = structuredClone(value);
     delete copy.updatedAt;
+    delete copy.checkedAt;
     return JSON.stringify(copy);
   };
   if (withoutStamp(previous) === withoutStamp(output)) {
     console.log(`중고차 데이터 변경 없음 (최신 ${output.latestMonth})`);
-    process.exit(0);
+    output.updatedAt = previous.updatedAt;
   }
 } catch (error) {
-  if (error?.code !== 'ENOENT') console.warn(`기존 중고차 데이터 비교 생략: ${error.message}`);
+  if (error?.code !== 'ENOENT') throw error;
 }
 
 await writeFile(temporaryPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');

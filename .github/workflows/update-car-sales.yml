@@ -2,8 +2,9 @@ name: 자동차 판매량 갱신
 
 on:
   schedule:
-    # 월간 발표 시점 차이를 고려해 매월 8·15·22일 오전 10:20(KST)에 확인합니다.
-    - cron: '20 1 8,15,22 * *'
+    # 매일 10:43 KST: 25일 전월 통계 발표 및 출처별 발표 지연을 모두 확인합니다.
+    # GitHub 예약 실행은 지연될 수 있습니다.
+    - cron: '43 1 * * *'
   workflow_dispatch:
   push:
     branches: [main]
@@ -11,6 +12,8 @@ on:
       - 'scripts/fetch-car-sales.mjs'
       - 'scripts/fetch-car-rankings.mjs'
       - 'scripts/fetch-used-car-sales.mjs'
+      - 'scripts/car-fetch.mjs'
+      - 'scripts/car-fetch.test.mjs'
       - '.github/workflows/update-car-sales.yml'
 
 permissions:
@@ -34,14 +37,18 @@ jobs:
           node-version: '24'
 
       - name: 신차 월별 판매량 수집
+        id: sales
         run: node scripts/fetch-car-sales.mjs
         continue-on-error: true
 
       - name: 신차 브랜드·모델 순위 수집
+        id: rankings
+        if: steps.sales.outcome == 'success'
         run: node scripts/fetch-car-rankings.mjs
         continue-on-error: true
 
       - name: 중고차 거래량·모델 순위 수집
+        id: used
         run: node scripts/fetch-used-car-sales.mjs
         continue-on-error: true
 
@@ -52,7 +59,7 @@ jobs:
         run: node scripts/build-static.mjs --check
 
       - name: 자동 커밋 회귀 테스트
-        run: node --test scripts/stage-generated.test.mjs
+        run: node --test scripts/stage-generated.test.mjs scripts/car-fetch.test.mjs scripts/data-refresh.test.mjs
 
       - name: 배포 allowlist 산출물 검증
         run: |
@@ -70,4 +77,18 @@ jobs:
             git commit -m "chore: 자동차 판매량 월간 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST'))"
             git pull --rebase origin main
             git push
+          fi
+
+      # Keep independently successful data, but never conceal a failed collector.
+      - name: 수집 결과 최종 확인
+        if: always()
+        env:
+          SALES_RESULT: ${{ steps.sales.outcome }}
+          RANKINGS_RESULT: ${{ steps.rankings.outcome }}
+          USED_RESULT: ${{ steps.used.outcome }}
+        run: |
+          echo "신차=$SALES_RESULT / 순위=$RANKINGS_RESULT / 중고차=$USED_RESULT" >> "$GITHUB_STEP_SUMMARY"
+          if [ "$SALES_RESULT" != "success" ] || [ "$RANKINGS_RESULT" != "success" ] || [ "$USED_RESULT" != "success" ]; then
+            echo "::error::일부 자동차 수집 실패. 실패한 출처는 기존 자료를 보존했으며 다음 일일 실행에서 재시도합니다."
+            exit 1
           fi

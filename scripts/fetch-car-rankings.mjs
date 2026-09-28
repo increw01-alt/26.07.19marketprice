@@ -1,6 +1,7 @@
 import { readFile, rename, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchCarSource } from './car-fetch.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const salesPath = path.join(root, 'data', 'car-sales.json');
@@ -60,12 +61,11 @@ function parseItems(listHtml, kind) {
 
 async function fetchBrandModels({ month, brandId }) {
   const url = `${sourceUrl}&Tab=Brand&Brand=${encodeURIComponent(brandId)}&Month=${month}-00`;
-  const response = await fetch(url, {
+  const response = await fetchCarSource(url, {
     headers: {
       accept: 'text/html,application/xhtml+xml',
       'user-agent': 'modoosise-car-ranking-updater/1.0 (+https://modoosise.com/car)',
     },
-    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`다나와 모델 이미지 ${month}/${brandId}: HTTP ${response.status}`);
   const html = await response.text();
@@ -97,12 +97,11 @@ function parseModelMonths(sectionHtml) {
 }
 
 async function fetchMonth(month) {
-  const response = await fetch(`${sourceUrl}&Month=${month}-00`, {
+  const response = await fetchCarSource(`${sourceUrl}&Month=${month}-00`, {
     headers: {
       accept: 'text/html,application/xhtml+xml',
       'user-agent': 'modoosise-car-ranking-updater/1.0 (+https://modoosise.com/car)',
     },
-    signal: AbortSignal.timeout(30_000),
   });
   if (!response.ok) throw new Error(`다나와 ${month}: HTTP ${response.status}`);
   const html = await response.text();

@@ -1,6 +1,7 @@
 import { readFile, rename, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchCarSource } from './car-fetch.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'data', 'car-sales.json');
@@ -28,7 +29,7 @@ async function fetchYear(year) {
     searchVerticalId: 'month',
     statsType: 'month',
   });
-  const response = await fetch(sourceUrl, {
+  const response = await fetchCarSource(sourceUrl, {
     method: 'POST',
     headers: {
       accept: 'text/html,application/xhtml+xml',
@@ -36,7 +37,6 @@ async function fetchYear(year) {
       'user-agent': 'modoosise-car-sales-updater/1.0 (+https://modoosise.com/car)',
     },
     body,
-    signal: AbortSignal.timeout(25_000),
   });
   if (!response.ok) throw new Error(`KAIDA ${year}: HTTP ${response.status}`);
   const html = await response.text();
@@ -87,14 +87,11 @@ const latestMonth = months.at(-1).month;
 const comparableBefore = JSON.stringify(previous.months);
 const comparableAfter = JSON.stringify(months);
 
-if (comparableBefore === comparableAfter && previous.latestMonth === latestMonth) {
-  console.log(`자동차 판매량 변경 없음 (최신 ${latestMonth})`);
-  process.exit(0);
-}
+const changed = comparableBefore !== comparableAfter || previous.latestMonth !== latestMonth;
 
 const now = new Date().toISOString();
 const sources = previous.sources.map((source) => source.url === sourceUrl ? { ...source, checkedAt: now } : source);
-const next = { ...previous, updatedAt: now, latestMonth, sources, months };
+const next = { ...previous, updatedAt: changed ? now : previous.updatedAt, checkedAt: now, latestMonth, sources, months };
 await writeFile(temporary, `${JSON.stringify(next, null, 2)}\n`, 'utf8');
 await rename(temporary, output);
-console.log(`자동차 판매량 갱신: ${previous.latestMonth} → ${latestMonth} (${months.length}개월 보관)`);
+console.log(`자동차 판매량 ${changed ? '갱신' : '확인 (변경 없음)'}: ${previous.latestMonth} → ${latestMonth} (${months.length}개월 보관)`);

@@ -58,6 +58,15 @@ test('recovers when the initial data request failed', async () => {
   assert.equal(state.reloads, 1);
 });
 
+test('daily car verification is tracked separately from an unchanged monthly publication', async () => {
+  const { api, state } = setup();
+  api.track('/data/car-sales.json', { updatedAt: '2026-09-03T00:00:00Z', checkedAt: stamp });
+  state.next = { updatedAt: '2026-09-03T00:00:00Z', checkedAt: later };
+  await api.check();
+  assert.equal(state.reloads, 1);
+  assert.equal(api.statusText(stamp, 'car', Date.parse(stamp) + 49 * 3600000).delayed, true);
+});
+
 test('does not refresh hidden tabs; defers new data while typing or using a modal', async () => {
   const { api, state, document } = setup();
   api.track('/data/markets.json', { updatedAt: stamp });

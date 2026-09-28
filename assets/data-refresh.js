@@ -19,7 +19,7 @@
 
   function track(path, data) {
     const url = new URL(path, location.href);
-    const stamp = Date.parse(data?.updatedAt);
+    const stamp = Date.parse(data?.checkedAt || data?.updatedAt);
     if (url.origin === location.origin && url.pathname.startsWith('/data/') && Number.isFinite(stamp)) {
       versions.set(url.pathname, stamp);
     } else if (versions.get(url.pathname) === -Infinity) {
@@ -32,10 +32,10 @@
   function statusText(stamp, page, now = Date.now()) {
     const time = Date.parse(stamp);
     if (!Number.isFinite(time)) return { text: '데이터를 확인하지 못했습니다. 잠시 후 다시 확인합니다.', delayed: true };
-    // Monthly/weekly/manual sources must not receive an hourly freshness warning.
-    const limits = { realestate: 48, lotto: 8 * 24, car: 32 * 24, 'car-domestic': 32 * 24,
-      'car-imported': 32 * 24, 'used-car': 32 * 24, 'used-car-domestic': 32 * 24,
-      'used-car-imported': 32 * 24, shopping: Infinity };
+    // Monthly car figures are checked daily; a quiet data month is not a failed check.
+    const limits = { realestate: 48, lotto: 8 * 24, car: 48, 'car-domestic': 48,
+      'car-imported': 48, 'used-car': 48, 'used-car-domestic': 48,
+      'used-car-imported': 48, shopping: Infinity };
     const limit = limits[page] ?? 2;
     const delayed = now - time > limit * 3600000;
     const date = new Date(time).toLocaleString('ko-KR', { timeZone: 'Asia/Seoul' });
@@ -88,7 +88,7 @@
           const response = await fetch(path, { cache: 'no-store', signal: AbortSignal.timeout(15000) });
           if (!response.ok) throw new Error(`HTTP ${response.status}`);
           const data = await response.json();
-          const stamp = Date.parse(data?.updatedAt);
+          const stamp = Date.parse(data?.checkedAt || data?.updatedAt);
           if (!Number.isFinite(stamp)) throw new Error('Invalid update timestamp');
           if (stamp > previous) changed = true;
         } catch { failed = true; }

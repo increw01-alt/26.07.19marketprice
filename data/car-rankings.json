@@ -1,7 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T06:14:16.453Z",
-  "latestMonth": "2026-07",
+  "updatedAt": "2026-09-28T06:10:47.975Z",
+  "latestMonth": "2026-08",
   "displayMonths": 24,
   "basisNotice": "다나와자동차가 KAMA·KAIDA 공식자료를 자체 모델 분류 기준으로 재구성한 판매실적입니다. 버스·상용차와 모델 분류 차이로 상단 총판매량과 합계가 다를 수 있습니다.",
   "source": {
@@ -18,259 +18,6 @@
     "coverage": "최근 6개월 판매 모델을 기준으로 연결하며, 미확인 모델은 공통 실루엣을 표시합니다."
   },
   "rankings": [
-    {
-      "month": "2024-08",
-      "domestic": {
-        "total": 105651,
-        "brands": [
-          {
-            "rank": 1,
-            "name": "현대",
-            "sales": 47764,
-            "share": 45.2
-          },
-          {
-            "rank": 2,
-            "name": "기아",
-            "sales": 40684,
-            "share": 38.5
-          },
-          {
-            "rank": 3,
-            "name": "제네시스",
-            "sales": 10323,
-            "share": 9.8
-          },
-          {
-            "rank": 4,
-            "name": "KGM",
-            "sales": 3943,
-            "share": 3.7
-          },
-          {
-            "rank": 5,
-            "name": "쉐보레",
-            "sales": 1587,
-            "share": 1.5
-          }
-        ],
-        "models": [
-          {
-            "rank": 1,
-            "name": "쏘나타 디 엣지",
-            "sales": 6317,
-            "brand": "현대",
-            "change": 785,
-            "image": "https://autoimg.danawa.com/photo/4466/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4466"
-          },
-          {
-            "rank": 2,
-            "name": "그랜저",
-            "sales": 6187,
-            "brand": "현대",
-            "change": -100,
-            "image": "https://autoimg.danawa.com/photo/4188/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4188"
-          },
-          {
-            "rank": 3,
-            "name": "스포티지",
-            "sales": 5988,
-            "brand": "기아",
-            "change": -247,
-            "image": "https://autoimg.danawa.com/photo/4684/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4684"
-          },
-          {
-            "rank": 4,
-            "name": "싼타페",
-            "sales": 5715,
-            "brand": "현대",
-            "change": 467,
-            "image": "https://autoimg.danawa.com/photo/4435/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4435"
-          },
-          {
-            "rank": 5,
-            "name": "셀토스",
-            "sales": 5551,
-            "brand": "기아",
-            "change": 62,
-            "image": "https://autoimg.danawa.com/photo/4763/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4763"
-          },
-          {
-            "rank": 6,
-            "name": "카니발",
-            "sales": 5534,
-            "brand": "기아",
-            "change": -1516,
-            "image": "https://autoimg.danawa.com/photo/4586/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4586"
-          },
-          {
-            "rank": 7,
-            "name": "EV3",
-            "sales": 4002,
-            "brand": "기아",
-            "change": 2027,
-            "image": "https://autoimg.danawa.com/photo/4647/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4647"
-          },
-          {
-            "rank": 8,
-            "name": "투싼",
-            "sales": 3965,
-            "brand": "현대",
-            "change": 841,
-            "image": "https://autoimg.danawa.com/photo/4592/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4592"
-          },
-          {
-            "rank": 9,
-            "name": "포터2",
-            "sales": 3962,
-            "brand": "현대",
-            "change": -183,
-            "image": "https://autoimg.danawa.com/photo/1901/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=1901"
-          },
-          {
-            "rank": 10,
-            "name": "아반떼",
-            "sales": 3885,
-            "brand": "현대",
-            "change": 12,
-            "image": "https://autoimg.danawa.com/photo/4455/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4455"
-          }
-        ]
-      },
-      "imported": {
-        "total": 22076,
-        "brands": [
-          {
-            "rank": 1,
-            "name": "BMW",
-            "sales": 5880,
-            "share": 26.6
-          },
-          {
-            "rank": 2,
-            "name": "벤츠",
-            "sales": 5286,
-            "share": 23.9
-          },
-          {
-            "rank": 3,
-            "name": "테슬라",
-            "sales": 2208,
-            "share": 10
-          },
-          {
-            "rank": 4,
-            "name": "폭스바겐",
-            "sales": 1445,
-            "share": 6.5
-          },
-          {
-            "rank": 5,
-            "name": "렉서스",
-            "sales": 1355,
-            "share": 6.1
-          }
-        ],
-        "models": [
-          {
-            "rank": 1,
-            "name": "E-Class",
-            "sales": 2231,
-            "brand": "벤츠",
-            "change": 739,
-            "image": "https://autoimg.danawa.com/photo/4516/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4516"
-          },
-          {
-            "rank": 2,
-            "name": "Model Y",
-            "sales": 1215,
-            "brand": "테슬라",
-            "change": -408,
-            "image": "https://autoimg.danawa.com/photo/4667/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4667"
-          },
-          {
-            "rank": 3,
-            "name": "5 Series",
-            "sales": 1118,
-            "brand": "BMW",
-            "change": -526,
-            "image": "https://autoimg.danawa.com/photo/4517/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4517"
-          },
-          {
-            "rank": 4,
-            "name": "Model 3",
-            "sales": 921,
-            "brand": "테슬라",
-            "change": -134,
-            "image": "https://autoimg.danawa.com/photo/4610/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4610"
-          },
-          {
-            "rank": 5,
-            "name": "ID.4",
-            "sales": 911,
-            "brand": "폭스바겐",
-            "change": 556
-          },
-          {
-            "rank": 6,
-            "name": "GLC-Class",
-            "sales": 804,
-            "brand": "벤츠",
-            "change": 178,
-            "image": "https://autoimg.danawa.com/photo/4373/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4373"
-          },
-          {
-            "rank": 7,
-            "name": "6 Series",
-            "sales": 674,
-            "brand": "BMW",
-            "change": -6
-          },
-          {
-            "rank": 8,
-            "name": "X3",
-            "sales": 639,
-            "brand": "BMW",
-            "change": 566,
-            "image": "https://autoimg.danawa.com/photo/4656/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4656"
-          },
-          {
-            "rank": 9,
-            "name": "3 Series",
-            "sales": 618,
-            "brand": "BMW",
-            "change": 178,
-            "image": "https://autoimg.danawa.com/photo/4650/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4650"
-          },
-          {
-            "rank": 10,
-            "name": "ES",
-            "sales": 582,
-            "brand": "렉서스",
-            "change": 56,
-            "image": "https://autoimg.danawa.com/photo/4093/model_360.png",
-            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4093"
-          }
-        ]
-      }
-    },
     {
       "month": "2024-09",
       "domestic": {
@@ -6170,6 +5917,263 @@
             "sales": 586,
             "brand": "BMW",
             "change": 91,
+            "image": "https://autoimg.danawa.com/photo/4475/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4475"
+          }
+        ]
+      }
+    },
+    {
+      "month": "2026-08",
+      "domestic": {
+        "total": 79739,
+        "brands": [
+          {
+            "rank": 1,
+            "name": "기아",
+            "sales": 40365,
+            "share": 50.6
+          },
+          {
+            "rank": 2,
+            "name": "현대",
+            "sales": 29788,
+            "share": 37.4
+          },
+          {
+            "rank": 3,
+            "name": "제네시스",
+            "sales": 4545,
+            "share": 5.7
+          },
+          {
+            "rank": 4,
+            "name": "KGM",
+            "sales": 2300,
+            "share": 2.9
+          },
+          {
+            "rank": 5,
+            "name": "르노코리아",
+            "sales": 2024,
+            "share": 2.5
+          }
+        ],
+        "models": [
+          {
+            "rank": 1,
+            "name": "쏘렌토",
+            "sales": 6397,
+            "brand": "기아",
+            "change": 244,
+            "image": "https://autoimg.danawa.com/photo/4563/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4563"
+          },
+          {
+            "rank": 2,
+            "name": "더 뉴 그랜저",
+            "sales": 5931,
+            "brand": "현대",
+            "change": -2601,
+            "image": "https://autoimg.danawa.com/photo/4802/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4802"
+          },
+          {
+            "rank": 3,
+            "name": "카니발",
+            "sales": 4186,
+            "brand": "기아",
+            "change": -2731,
+            "image": "https://autoimg.danawa.com/photo/4586/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4586"
+          },
+          {
+            "rank": 4,
+            "name": "스포티지",
+            "sales": 3874,
+            "brand": "기아",
+            "change": -1507,
+            "image": "https://autoimg.danawa.com/photo/4684/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4684"
+          },
+          {
+            "rank": 5,
+            "name": "포터2",
+            "sales": 3743,
+            "brand": "현대",
+            "change": 18,
+            "image": "https://autoimg.danawa.com/photo/1901/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=1901"
+          },
+          {
+            "rank": 6,
+            "name": "싼타페",
+            "sales": 3596,
+            "brand": "현대",
+            "change": -226,
+            "image": "https://autoimg.danawa.com/photo/4435/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4435"
+          },
+          {
+            "rank": 7,
+            "name": "셀토스",
+            "sales": 3307,
+            "brand": "기아",
+            "change": -4120,
+            "image": "https://autoimg.danawa.com/photo/4763/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4763"
+          },
+          {
+            "rank": 8,
+            "name": "EV3",
+            "sales": 3174,
+            "brand": "기아",
+            "change": -293,
+            "image": "https://autoimg.danawa.com/photo/4647/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4647"
+          },
+          {
+            "rank": 9,
+            "name": "EV5",
+            "sales": 3146,
+            "brand": "기아",
+            "change": -288,
+            "image": "https://autoimg.danawa.com/photo/4499/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4499"
+          },
+          {
+            "rank": 10,
+            "name": "쏘나타 디 엣지",
+            "sales": 3105,
+            "brand": "현대",
+            "change": -1479,
+            "image": "https://autoimg.danawa.com/photo/4466/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4466"
+          }
+        ]
+      },
+      "imported": {
+        "total": 29817,
+        "brands": [
+          {
+            "rank": 1,
+            "name": "테슬라",
+            "sales": 10400,
+            "share": 34.9
+          },
+          {
+            "rank": 2,
+            "name": "BMW",
+            "sales": 6180,
+            "share": 20.7
+          },
+          {
+            "rank": 3,
+            "name": "벤츠",
+            "sales": 4037,
+            "share": 13.5
+          },
+          {
+            "rank": 4,
+            "name": "BYD",
+            "sales": 3002,
+            "share": 10.1
+          },
+          {
+            "rank": 5,
+            "name": "토요타",
+            "sales": 1015,
+            "share": 3.4
+          }
+        ],
+        "models": [
+          {
+            "rank": 1,
+            "name": "Model Y",
+            "sales": 9638,
+            "brand": "테슬라",
+            "change": 933,
+            "image": "https://autoimg.danawa.com/photo/4667/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4667"
+          },
+          {
+            "rank": 2,
+            "name": "5 Series",
+            "sales": 1902,
+            "brand": "BMW",
+            "change": -17,
+            "image": "https://autoimg.danawa.com/photo/4517/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4517"
+          },
+          {
+            "rank": 3,
+            "name": "E-Class",
+            "sales": 1418,
+            "brand": "벤츠",
+            "change": -7,
+            "image": "https://autoimg.danawa.com/photo/4516/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4516"
+          },
+          {
+            "rank": 4,
+            "name": "Dolphin",
+            "sales": 1202,
+            "brand": "BYD",
+            "change": -62,
+            "image": "https://autoimg.danawa.com/photo/4704/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4704"
+          },
+          {
+            "rank": 5,
+            "name": "SEALION 7",
+            "sales": 819,
+            "brand": "BYD",
+            "change": -241,
+            "image": "https://autoimg.danawa.com/photo/4706/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4706"
+          },
+          {
+            "rank": 6,
+            "name": "Model 3",
+            "sales": 693,
+            "brand": "테슬라",
+            "change": -838,
+            "image": "https://autoimg.danawa.com/photo/4610/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4610"
+          },
+          {
+            "rank": 7,
+            "name": "X3",
+            "sales": 638,
+            "brand": "BMW",
+            "change": 9,
+            "image": "https://autoimg.danawa.com/photo/4656/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4656"
+          },
+          {
+            "rank": 8,
+            "name": "GLC-Class",
+            "sales": 591,
+            "brand": "벤츠",
+            "change": -67,
+            "image": "https://autoimg.danawa.com/photo/4373/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4373"
+          },
+          {
+            "rank": 9,
+            "name": "SEALION 6 DM-i",
+            "sales": 500,
+            "brand": "BYD",
+            "change": 443,
+            "image": "https://autoimg.danawa.com/photo/4818/model_360.png",
+            "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4818"
+          },
+          {
+            "rank": 10,
+            "name": "X5",
+            "sales": 485,
+            "brand": "BMW",
+            "change": -101,
             "image": "https://autoimg.danawa.com/photo/4475/model_360.png",
             "detailUrl": "https://auto.danawa.com/auto/?Work=model&Model=4475"
           }

@@ -189,7 +189,6 @@
     document.querySelector('#car-rankings').hidden = false;
     const sources = document.querySelector('#car-sources');
     sources.insertAdjacentHTML('beforeend', `<li><div><a href="${safeHttpUrl(data.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.source.name)}</a><span>KAMA·KAIDA 자료 재구성 · 브랜드/차종 순위</span></div><time datetime="${escapeHTML(data.updatedAt)}">확인 ${new Date(data.updatedAt).toLocaleDateString('ko-KR')}</time></li>`);
-    setStatus(data.updatedAt);
   }
 
   function loadRankings() {
@@ -215,7 +214,7 @@
     .then(validate)
     .then((data) => {
       const rows = data.months.slice(-Math.max(1, Number(data.displayMonths) || 24));
-      setStatus(data.updatedAt);
+      setStatus(data.checkedAt || data.updatedAt);
       renderKpis(rows);
       renderChart(rows);
       renderAnalysis(rows);
