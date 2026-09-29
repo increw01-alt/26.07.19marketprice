@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-09-30T04:25:56+09:00",
+  "updatedAt": "2026-09-30T08:43:32+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "암호화폐시세 - 업계 전문가들의 조언",
+        "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSlJmMThTbFhYNW1EMDVkZFNyZ3JROGY1N042NV9wbXh0R2tsX1d0MDZTb0lMaFEtUTFObUYwY0tQRVBnUWxrZUR3MHB6SVBkMVFpV1NNZGVjODh0cVJHUnJBd1NieHZkdUdPNmt3c21jMzMtN3ZKcm5Yd2I0cTNTSk9WdmhCaVE1QmlMZnlZWF91OUkzYmN4Ukd5MG1ZZXFUaV9mOVg2NUphaGs1ZkcxcWdMTk5wbGJyUTlwRGVJbkZTYkk1Vk4ydkpqVmxDdXo4Vjd5SDU2UlBRdlA3c2FJVTc0YVE4dw?oc=5",
+        "source": "histoire-pour-tous.fr",
+        "date": "2026-09-29T06:13:43.000Z"
+      },
       {
         "title": "비트코인 오르지만 수요는 '뚝'…가격·수급 엇박자",
         "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84d2FMMEVqMVYwODQyVEFqR1hOZVRHbS1OVHZGb05wSnJrbDlyQ0VTWFpIN2p4RUVBbmVoR1Z4LTN4Ymp3SFQyU0xocVpJdWhOOXExT2hqNDNWMnhnUXg1NFdQQzN2d0ZJbElJRGRYLUZVSzA?oc=5",
@@ -11,7 +17,7 @@
       {
         "title": "게임 이름과 버전 이름을 구별하는 암호 화폐 가격 차트",
         "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTDYtTU1iZU9rZkFRZDlEVW1xR3BHY3lybTRCSGJlTUFSZ1pZVWY1T0lSVHJRSThFYlRWdWlrNUxiMkN2aDNsMTVFa1lHMnQ0c1RKblJubFNMRWlCTUIyUllIcHUyUWczellyTldxMmJSb1R6ak96UFo1U2p1RUxacmlXTGJWRnZmeXF5TE54ZnRmVVc0aU8zT192WGNYUU1yd05CQWFXMGsyTjZ1dXR2Ml82OTAzUDBOc3NGQ2xiMmZGUENhSHhmSFdieWY?oc=5",
-        "source": "Histoire pour tous",
+        "source": "histoire-pour-tous.fr",
         "date": "2026-09-28T14:16:12.000Z"
       },
       {
@@ -29,19 +35,13 @@
       {
         "title": "[오후 시세브리핑] 암호화폐 시장 혼조세… 비트코인 84,437달러, 이더리움 2,697달러",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5uanpxLTBMcF93WlZ2SXZPZnAzaXZrUmNWbm5OLU5MMHUxV3p0Y01aWXZsemEzWmNOS0pzS2NoYk5wNGlMMjZlSVFsMFFHdmtta2FuaVh5ME4?oc=5",
-        "source": "토큰포스트",
+        "source": "tokenpost.kr",
         "date": "2026-09-27T03:01:37.000Z"
-      },
-      {
-        "title": "[자정 시세브리핑] 암호화폐 시장 혼조세… 비트코인 84,025달러, 이더리움 2,689달러",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBZcmU3dGxZVU4tOHlsbVRiUVlmTWVwdFpqRHpOX2FfRGdFcUxUREotdDNJQnE2VGEyRVdjSjQyQ3pDQjJacHI0NlpMXzNyM1JMM1hqcFNtUkg?oc=5",
-        "source": "토큰포스트",
-        "date": "2026-09-26T15:03:00.000Z"
       },
       {
         "title": "페이지마다 다른 용어를 맞춰 읽는 암호 화폐 가격",
         "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWGIyWEFHNHp5UTZTQ0ZqbC1YUVpzbTdTMHhSRWN5WGhMVlJpTk9mNlZlMi1NWlpPNmtJcFJwLVZJZk1oNDZmYUtBODBUOG5rSFdDNnZlYnFFalJNYU11ZU1PM3lqc0otYWVjc0pNS0FJWm1TWXJNVlQzTzZnT2RMa25wSEVWMUlocU1WRVNYVGlQdExhOWZGQlNDN0xRNTM2TXFGWHBIdWZtM1JLZzg5aWhXTWQ?oc=5",
-        "source": "Histoire pour tous",
+        "source": "histoire-pour-tous.fr",
         "date": "2026-09-26T11:24:30.000Z"
       },
       {
@@ -53,9 +53,27 @@
     ],
     "stock": [
       {
+        "title": "[오늘의 증시]美증시 약세에도 반도체는 견조한 흐름…코스피 반등 시도할 듯",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hanExWEI3UlFaTmNmZ1pTdEVUblg1NmhIYmUzYXNvellyckpEdU1vNEFaSWFIdmdVcEVUblktZGl1cVg4UHdjSW1vMUw5ZFFkY2dBWlNtTzhYN0RPbUFIadIBeEFVX3lxTE52ZFplMzYwRDlzX2Q3eWZiZmtrNnI3bDNxQTVhSW80dlBWak1TSko2empjcjBrbTl0d2NNNXpYUUJNbnBTMkphS2lwYkxsZDJhV0EyZVgyYVpZbkNMRXZqSmc3QXIxU0hnNTZLSUJIR1RqUFMzQk5xMg?oc=5",
+        "source": "뉴시스",
+        "date": "2026-09-29T23:02:24.000Z"
+      },
+      {
+        "title": "코스피, 반도체 반등 시도…美 국채금리 5.2%가 '복병'",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1aY2lZanUzOWc4OGkyRFpvY2Z0WW8yWkx0amVXSndvMTV3bWkzb2ducTVqTG94WWpyekFuanpTUUdRTngyRFVrdEdOaGRoNEM3QmxLU0ptXzFzSE52dXh0WWZVV0Rjdk9a?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-09-29T21:45:22.000Z"
+      },
+      {
+        "title": "배당락 딛고 일어선 삼전·SK하닉…코스피 하락 방어",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9aNmd2cXc4dG4zUmRhQlR2aHp5OVFBWlZ0TFgzN0FYZXkzLVBGejhiZE9ZMVFMRlJyMi03MFZWdnlTSWdqYm1DU3NnbWJrUklwc0FpQQ?oc=5",
+        "source": "이투데이",
+        "date": "2026-09-29T21:00:00.000Z"
+      },
+      {
         "title": "미국 국채금리 급등에 코스피 이틀째 '하락'",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE55bzdjMFJxWWNQempBcjFvdl9ORUFFVktZTmN2UXFDc3RDZUo1dDl0OXJzRVc0VGJ6a3l0TTdvYlFnOUlDdXFOSVRvb3RwUjFBckFvNkRLZDFMM0NITVdJbGRNd0NVSnVKZ001NTh3?oc=5",
-        "source": "safemoney.co.kr",
+        "source": "세이프머니",
         "date": "2026-09-29T10:33:44.000Z"
       },
       {
@@ -79,89 +97,89 @@
       {
         "title": "코스피 2일 연속↓·코스닥 3일 연속↑",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBwUUF2d2lPYVB0akxHR3h3XzFrQUplcUhnckJ5amNSd2Q5UEpKT1NFNGphTmRoWTJzREYwVW1KOWE3NFpZTXJtNjQ1U0FZRVpoY1A3THk2N25PZUxSc0Juc1dBTnk1RldkbEVPbkpB?oc=5",
-        "source": "더리포트",
+        "source": "thereport.co.kr",
         "date": "2026-09-29T08:05:06.000Z"
-      },
-      {
-        "title": "코스피, 외국인 2.9조원 ‘팔자’에 6870선 하락···반도체주 선방",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GRllwNFpjVnc1Wjk1cTFaNEZONFljQURDQV9FV2djd1BCbjlHM2xPSm1PeE8zbEF3SjhpOEFIR0NfZlo0ZFJvRGRqWG1Hb3FOd0J2OGhiMTA1SUNWeU5KRThYNTZ0TGprNE5jbg?oc=5",
-        "source": "스마트비즈",
-        "date": "2026-09-29T08:02:07.000Z"
-      },
-      {
-        "title": "코스피, 외인 2.9조 ‘팔자’에 6870선 약보합…삼성전자 0.9%↑",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE83X3pWTnVTczFKWlVVRkVocEZRc1E4b0NES3g1MjBVQWRySDBZVnJYV2dFX1E5R1NuMl9wMVU2RjFka0M4RmNvTkpBSkhWblltaUpLS2Z2V3c5YzluQlUtOWE1cTk?oc=5",
-        "source": "디지털데일리",
-        "date": "2026-09-29T07:55:44.000Z"
-      },
-      {
-        "title": "코스피 이틀째 하락…외국인 2조 9045억 순매도",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBldkRuWWg3b2I4c1dVRV9LOGV5dDdmWGlrSVNjTW1NejBfaGFGb1NnNWZsaEtieDVoVmNZbzdKNDlfSHZYaENoN2ZvTUo0N3JqUDVxOFdzMnlST01aMjkyTGdOVjdtWnRVUkdXWS0wQXI?oc=5",
-        "source": "코리아리포트",
-        "date": "2026-09-29T07:52:05.000Z"
       }
     ],
     "kosdaq": [
       {
-        "title": "우주항공주 ‘덕산넵코어스’ 오늘(30일) 코스닥 상장, 7호 따따블 쏘아올릴까",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1SdzluWnotZVF4VzgtamlBQmlkbEN1TF9YUTg0TWlJU29MX2FNMDVzWGxjQ2VnX0NQMEZ6VXd2UlZtWUg3YnlkVE0zLU1rZFQ1UGdfU09QdnZPZTZDMWExRG9zclFreHpONjUwSA?oc=5",
-        "source": "뉴스웰",
-        "date": "2026-09-29T15:00:00.000Z"
+        "title": "오에스피, 코스닥 관리종목 탈피…밸류업 본격화",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBSWTBVcFQ5YVRCa0hKRHA1ejY3X01GSHdNdFl2cnl6UGE1Ykk3YTlXZjhHNVFSUEJxVGtDUGZwdjB3M2Rad0Y4dmp6a050RVdNS09iWHZKTEJLb19BZDZ1VA?oc=5",
+        "source": "아시아경제",
+        "date": "2026-09-29T23:37:38.000Z"
       },
       {
-        "title": "로봇 모듈화 플랫폼 기업 브릴스, 10월 1일 코스닥 상장",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ERnNVOVZnMTRqUDBiNnpPWXI0ZDE2b29IazQzNWpKZ2pHcFJCdW9kaUh3WEhXZ1hEM296Y0d6V2VLbEYtNjg2a3RheWFYVHdBX0lmR1VzVnQ1R3R4MmJXVkpWUG1zR09scEppck84OGU?oc=5",
-        "source": "코리아리포트",
-        "date": "2026-09-29T12:51:12.000Z"
+        "title": "큐어버스, 코스닥 기술성평가 통과… 2027년 상반기 상장 추진",
+        "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9YVW0xUTBZck5YdTg0dXlpaFBQVzFTYzZFNUhlSVBnalRTWC1FQW5FTl9zQmR1TUVkWWhXVjV1T18wRkRXOTY3M3NROVdhOUJjeGNJTWFwNGZjMzhPekRVZGNYQjFDSUFyeU1MREIyVTVycmM0SGNwWWFB?oc=5",
+        "source": "약업닷컴",
+        "date": "2026-09-29T23:29:00.000Z"
       },
       {
-        "title": "벤처업계 반발에 ‘코스닥 승강제’ 도입 연기",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE96SkNVLXNZa1NPOUVLZ0pqV0oxY3MyQ2ZzVTNUNHpMXzR3Ty1BZ2dyal9kSkdTbVlKZEdaOEhFMUdiQy1UYzN4b1QwSXg4Nlk?oc=5",
+        "title": "‘항법·항재밍 솔루션’ 덕산넵코어스, 코스닥 입성",
+        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1jRWk3RmJDV2x6V3BLWjVBS3dMcjVwYnFsVlRtNTNuTi16MnRWbUctVHpSQ2YtcWk5M0ZOME9Hc3lGSklKbjVLQlF2TWZEMkxPdnF3SEhKbUh3T0VHMmlnMUtvUklrRFl1elNZeVhzZmRMZE0?oc=5",
+        "source": "마켓인",
+        "date": "2026-09-29T22:51:37.000Z"
+      },
+      {
+        "title": "[실전재테크]저점 다지는 코스닥…주목할 종목 4選",
+        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9tMWtBR2VOejRjeHBNX2szTGZ4NXE1dGFiZGlUNm92VkNTS3ozcXgzcWZjckRFaUJiemlCNFNkU2czWHVOaFBDUV9HLTdVeDA?oc=5",
         "source": "v.daum.net",
-        "date": "2026-09-29T09:57:45.000Z"
+        "date": "2026-09-29T22:44:00.000Z"
       },
       {
-        "title": "코스피, 금리·유가 악재에 이틀 연속 내림세…코스닥은 반등",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBRZ21YLVRUTHB3Wm1JTndjVi1FLUhfaDlVa0tZamU1ZzlxWlZ1VDNYR2tHeDNub3pTb1dGckRSZG1ITjJkYzdJcjd1MDZaVFh0OFE?oc=5",
-        "source": "더나은미래",
-        "date": "2026-09-29T09:17:00.000Z"
+        "title": "\"내 주식 2부리그 되면 어쩌나\"…코스닥 승강제에 떠는 개미",
+        "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNNjU1NzdQa0RudmxyWjlfWGIybnhBY2lCekVJOURnT1Z0ek4xeHlmSjlOR0ptQURRSzkwQkQxUzRKNl9ZQmZsWUpyeVc5aWNCZF9zclNrYWdTNjM4WVVZdERNTmkxeG1RMmlRTThrYkZUT0tkRWtLVzhpZkQyZDhnY2cyQ3ZfNjRodUM1UGY1NUZ3NVprSnY4alI2UC1KMGswY1hzdmloeUJsUW53U1NocEdCS04zUHVjOVhkejRFbXdmNV85OTlzRGFKNXh5NlVVajZlMGhYek9WeGVnY2h5cHBXaDZDUWdON1JWdEVJOWNXU202R0hVN1h4MTRyTVhON0R6NGtNX2ltOGc0?oc=5",
+        "source": "데일리안",
+        "date": "2026-09-29T22:03:00.000Z"
       },
       {
-        "title": "[사진] 빅웨이브로보틱스 코스닥 시장 성공적 입성",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE93RGU1X20yS09RX2xlb1o0WUpRUVpROUZVby1pSHA2STNCckpReEFXUnR2WHh3dWxPdEtySXNSLU1DbWVNUWZ6QXVmckVuQ25BZC1qeExuQTJTOGo2N0tyTHZuMGlRNlMtZmFaNA?oc=5",
-        "source": "로봇신문",
-        "date": "2026-09-29T08:48:47.000Z"
+        "title": "코스닥 재도전 휴이노 가세… 심전도·원내 모니터링 시장 3파전",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB5V3ZtdHV0ejFLbGxtcFM4ejFaUUZoWFBVTEhmQm1xM2VPMG9iU2d3ckI4N0lwSV9VM1J3akVrU1l3MXVySG1ZWmJ3eFZsUmt3NFoyZlNkSUNGMmxBSE5xZUdkNnpfU0ZRN0xz?oc=5",
+        "source": "hitnews.co.kr",
+        "date": "2026-09-29T21:05:00.000Z"
       },
       {
-        "title": "코스피 6,870.81 코스닥 849.80",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE15UURKdHBCQ05HVUNhMkFpcHg0ZG5fNzMwWUpyNGRHRk5hMHBWLVpoZm1DYmFsR3RZLVZGYmxFVnVKSzNrczQxVWtJc1BYdXcwcmpwSG1HMm51THc?oc=5",
-        "source": "KBS 뉴스",
-        "date": "2026-09-29T08:24:00.000Z"
+        "title": "올 하반기 IPO 나서는 제약바이오기업들",
+        "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5DR0dpaDNXYXE5OUppdVhRRGlyTzRLUUV1blZ5VGlFZkVQU0NQNjhTWVJKTXRJZXVEaG9yR3R0ekxNY1B2NjZfN1ZMRzc0Q0pPdF9hQUVuV2hTTFlkeFdja3U0VUVhSUZ0NVE?oc=5",
+        "source": "bosa.co.kr",
+        "date": "2026-09-29T21:00:00.000Z"
       },
       {
-        "title": "한국거래소 코스닥 셀렉트 신설…내년 하반기 시행",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1HN1VNcHlmNm5aVXhTdHNLLVpaM0JWSVlwLWg2VE1lNVhwYmVxSExhcDBpU1dLbjBwSUxZVFBQZ2dQU1pBUVkzT3RFTEI4UGhlQkNPSE9tTnNMRGt0N3F1N3hKeXJNd28?oc=5",
-        "source": "자본시장뉴스",
-        "date": "2026-09-29T08:15:06.000Z"
-      },
-      {
-        "title": "코스닥 세그먼트 도입 초읽기…\"우수기업 선별해 기관자금 유입해야\"[코리아 프리미엄 위크]",
-        "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE05ZUV0aktSMVZHRlpvYWd2UmdfbkR5OWxYU2ZpcW5Vc2JLendlTW5heEdtMzY2b0NvS0VhNEV1bGxCX1M3aEFzNm9uN0VmbzQ?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-09-29T08:06:06.000Z"
+        "title": "\"빅테크 3조 달러 쏟아붓는다\"…코스닥 'AIDC 수혜주' 주목",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBMMTVqWXctaHBSSk9PNmE3VFY0NkRBTmxhQ0pNdExkOEJvT2NRek1RS3JHSS01bm5JZmdQbS1BZlRnb1B4eG1LNG9tOEFROEdCVk9heXhkRGNJbUxmamx6RXpRSjNqck1y?oc=5",
+        "source": "ebn.co.kr",
+        "date": "2026-09-29T21:00:00.000Z"
       }
     ],
     "fx": [
       {
+        "title": "유가 2.6% 하락에 환율 상방 압력 완화…1350원대 등락[외환브리핑]",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNNkh0SjFnQjh0WV9wLTZBc1ViRUZ4S1NHekdlVl8wdDl3dnkzLTZKSXBtZWg1Mm53VVl4TWZPb1Z4MFlhN1hacER6VmpBMmR1T3duYmc3LXcwVFRzT0tpQ3RyRS1FeXJuc0gyeUwtcUxNdktiU2g3Q090THdZOVBMVA?oc=5",
+        "source": "edaily.co.kr",
+        "date": "2026-09-29T23:10:01.000Z"
+      },
+      {
+        "title": "원·달러 환율, 1354.0원…달러, 강보합권 등락 전망",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5scTN2YjZsMHp2UjdvbnV5MDNvWlNpSkhsbFZWanc0dGR1RnpFTWIyeXg3NV94VEkzSEZOcUd3TjE2MUZFeVdKX0dqQlhKZmQ2VGFxUE1iSEFJMnhvUDhxWjRXYlgwRHpjNDRpbkF5NA?oc=5",
+        "source": "조세일보",
+        "date": "2026-09-29T23:03:36.000Z"
+      },
+      {
+        "title": "달러 강세에도 네고 물량에 상쇄⋯\"1350원 초중반서 등락\" [환율전망]",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5kSldRQXRaTjgyQTJJYTRJaHBob0pRaXJJSzlpbzdaMkRqOWNiVVVfNlYzbGY3SXNFOGtpMVNJemFOWGg2TXUxY0o3ZS1fWkNsRFhNckZNTVYxSlZJVFhxSXRhV1lWR3YwR3NRcXNYOTBzMHpS?oc=5",
+        "source": "이투데이",
+        "date": "2026-09-29T23:01:00.000Z"
+      },
+      {
         "title": "달러-원, 뉴욕장서 1,350원 중반대 거래",
         "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1BUEs4WC1GeFRqSGNhWTdBZlhsUjgyWmZQZFRjNFRNN3RvaWdnTll0SXZuWnY3QUpNSGRuM0NxaTFrUkpYTU02Tk5EZWNDOUs1WkFyX3pmR0dFclpVVmc0TzMyWGdBZFV5OXJGSHBHdFVXUQ?oc=5",
-        "source": "KB Think",
+        "source": "kbthink.com",
         "date": "2026-09-29T12:10:04.000Z"
       },
       {
         "title": "엔화 약세 경계에 환율 1350원대로 '하락'",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5GbDI0ZloyTzFVSk1YemFSR3AwSVlxSVZDejQtS01VbmJIT251bk9EMXBGcEg5UEpxeTFtMWhIa1ZVMGNnMndodUEyVy1rZmNxazJJbHczdlhUWkZFbjlpOXBLeFBwQ2N4UkN5WW5n?oc=5",
-        "source": "safemoney.co.kr",
+        "source": "세이프머니",
         "date": "2026-09-29T10:56:10.000Z"
       },
       {
@@ -173,7 +191,7 @@
       {
         "title": "\"삼전·닉스 3분기 실적, 기대보다 7조·8조 낮다\"… 환율 1300원대 명암",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9VNVRwa0pYZERvVXB6RHA5MVo4RlgyVlROd0hpS1JPc3FvUG1BSzNPQ21ueDB6R2NRSXQ2blItc1lCNEs0RTNfdjZEeEdPMml2c1lNVVZxZDFsWlpRWFh4QUZFQWFsLWpSRGJWNnNn0gFzQVVfeXFMTjllNTg5dlJtbERaSTJsRTBDZ3ctS2VOSjlsei1YTUZRNnY3YXBlMTJ6LWtNTjlzSDhyakZWQXV2eXk3UUFUMFdRYURDUWxabGtJVl9aUXVrMGduYTdPNWRQeTRrVmpuRHZJeFZGSUthXzBEUQ?oc=5",
-        "source": "한국일보",
+        "source": "hankookilbo.com",
         "date": "2026-09-29T08:47:00.000Z"
       },
       {
@@ -181,27 +199,15 @@
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NWXlJejQtTXFaRWNBMi1LQzBSZzVleDJvcy1HRjBhNUhsOHFIeXItNkRoZkh3TUFFSEpmVEMzbWpqUldPUkN1Vm81aE4wWi1EZGhodWNxVDFyTXl3SmRqNFhXOXlLTng1?oc=5",
         "source": "데일리팝",
         "date": "2026-09-29T08:45:52.000Z"
-      },
-      {
-        "title": "수출업체 달러 매도·엔화 개입 조짐에…환율 1350원대로 하락",
-        "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1KWEZTcmhFVjJlZ0NXcXl0RnZjRmxnX3pUckhsa01HS3hwYnpIOVViQUZDU1ZHRVRmeFZSMGtvVFJzX3YwN09fRThVeElpUWs5cnhjeUQtUWdJNEE5?oc=5",
-        "source": "supple.kr",
-        "date": "2026-09-29T08:34:24.000Z"
-      },
-      {
-        "title": "엔화 경고에 수출업체 달러 매도 확대까지...원·달러 환율, 1350원대 하락 마감",
-        "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9GeVJtSnk5OWoyb1VwMFhyVEhFZS1WSkN6N3Y4bFBWaE1Vc1FoX0J4Q2lwY3VjdFVCYUFSNXhFd211M3E3NGx0VUR2VUF3LUhwdFdBZWlzSHBZRHFCTFRDUWdIYmg?oc=5",
-        "source": "베타뉴스",
-        "date": "2026-09-29T08:20:00.000Z"
-      },
-      {
-        "title": "코스피, 美 국채금리 급등에 이틀째 하락…원·달러 환율은 1천350원대",
-        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE95S05GUW03bTZYeUFBMXJFcEVZR1dnT3BWMHU3dHFaTm1xdS00ajJhU0xnbUtHdFVOSVl2MGdVVWpHRE9XZFBtR3l4Tzc3cURtV2ZwUEVhUjh1SFZpZ2F6bnFqZnJiZTA?oc=5",
-        "source": "청년일보",
-        "date": "2026-09-29T08:02:50.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "반등한 국제 금값…국내 금시세는?",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ZRFFwUWQ4VnJRbElub3hjcGVXWU4yWTZMUHlYYjNmMmVjOGsydjFtYzdWLW5NX19xNjNqZUIyVnBwVFJhcFF3bnJKeXU3cFc0T3JWVQ?oc=5",
+        "source": "이투데이",
+        "date": "2026-09-29T22:56:00.000Z"
+      },
       {
         "title": "금(금값, 금시세) 하락 흐름",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBOajJqMVEzR1cxT0NYWnNTMGRuaXlPTUlCRVJUZG42QjhTc0U3VlBhRnVKajh2UW5KVFQxem83Z1dKcVA5ME9UbElPa2pXOE95N0xjWGc5VV9JT3dCMVp4bURCQ0RSNF9P?oc=5",
@@ -217,7 +223,7 @@
       {
         "title": "오늘 금시세(금값) 폭락... 이번 금가격 하락세가 심상치 않은 이유는",
         "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UN2NFN21ka0FmMUFRNEJLbWFvZXNkV1RGX291VDhXVXhuSE1ESkFYRzVRN1phbVNIeV92MjNZZGVpMUw4cHZoTFBFal96X0NWTjB3cEFn?oc=5",
-        "source": "위키트리",
+        "source": "wikitree.co.kr",
         "date": "2026-09-29T05:36:00.000Z"
       },
       {
@@ -229,7 +235,7 @@
       {
         "title": "[금값시세] 금시세 1돈",
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5BZ1hOQjFrNm93cFNycUJIVG82VjZISldGWGQ1anV1N2VpTHFiUTJwQlluUDZac21ETVRLUVNnVU54dXd2b3N4M2VRdWRwbjVlWl80dFdiNm1UM203UWFZWWNTenRHSTFPbEVucw?oc=5",
-        "source": "게임톡",
+        "source": "gametoc.co.kr",
         "date": "2026-09-29T01:48:33.000Z"
       },
       {
@@ -241,21 +247,15 @@
       {
         "title": "오늘 금값 일제히 하락…순금 한 돈 살 때 79만2000원",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14ZkQ2UFdva3lsNzV3NkRfck96V21ncDhHbE1GRFRWcFNCcVF1a0pCMjhIblhqRzdQMjJrbnBfMzU0LVJ1c2VTdTNWWHFERUtMN0tIWEU3YUVvWjJEWl9VX2hJSzNvRVhyTWJVV3VB0gFyQVVfeXFMT0h0a0RveDN3dE5ielhNeGpqdFg2aTVQY1hmbTkzVG5LMU9BVkFERjlJdVI5T1lkSkxiaUxwLUNHMzBXN29UcVVMOWR4SFNWWVV0bzVEX1hTbjV6UGxXRXgzN3dyRnV5bmVYMk1YMlZnS3pn?oc=5",
-        "source": "job-post.co.kr",
+        "source": "잡포스트",
         "date": "2026-09-29T01:19:39.000Z"
-      },
-      {
-        "title": "오늘 금시세(금값)는?",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBGMkZtbkxSS2F5bmliSDRnRURYd0wzOVk2VUh3TWtTcGlMdXRRajJSRzFPRFFTLUhmUEdTLTc2OTgyNDBCZTN6NzVRVmFUeGV6S3hqajl2ZTZwR3lzNlpJYWNRYXZoU0RG?oc=5",
-        "source": "키즈맘",
-        "date": "2026-09-29T00:55:18.000Z"
       }
     ],
     "energy": [
       {
         "title": "WTI 국제유가 장중 90달러 하회, 2.25%↓",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9HZkZjMWpsMVRwMlRSZ2NCdXBpWjR5d3RINlMwR0Naa3hOU2t4S1NnblRJdWdpcnZGMG1yZTVTeTdsaks2aFktZlp0REU2aVFZdTFtS0JiU0o?oc=5",
-        "source": "토큰포스트",
+        "source": "tokenpost.kr",
         "date": "2026-09-29T11:57:59.000Z"
       },
       {
@@ -347,7 +347,7 @@
       {
         "title": "[환율 전망] 유가와 금리 하락, 원화에는 더욱 긍정적",
         "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE01LVZqNExGdmlkWmZ2V2RMRnA5NW1PdjZDRjc3Vzh2V1U0cjFQU1BfTEVXVDd5dFBUbDl4eER1UkRsVk4yd0NVMUY0dy1SZFlJb2JuYkgyQTQwQjMtMVlPOQ?oc=5",
-        "source": "KB Think",
+        "source": "kbthink.com",
         "date": "2026-08-26T07:00:00.000Z"
       }
     ],
@@ -361,7 +361,7 @@
       {
         "title": "연천군, 착한가격업소 지역화폐 결제 5% 추가 캐시백",
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1sTV9lUDc5WW84ZmtoVTdfYk1rZnZ1SFRSUEJKelBQMTBIbk1pVG5JTmtrX3VxaUdkZmYtWmJXcmdQX1RHTUVXV29hV3RzaWhwYVdBS2N3UTVWb3FwQXJvMXo3LWxmVjZQcm9IaE5n?oc=5",
-        "source": "전국매일신문",
+        "source": "jeonmae.co.kr",
         "date": "2026-09-29T04:42:19.000Z"
       },
       {
@@ -403,9 +403,27 @@
     ],
     "realestate": [
       {
+        "title": "[아파트값 상승 톱10] 서울 용산구 ‘나인원한남’ 등",
+        "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5fZnRxTjJjMmhTblF6c2J5SGlzbTlGQ3BfWlBCazUycmQzM1pPQjRpV3ZwWWhJd1M0amVOY3RCbFd0ZVZleE1PMTZCSXJYeWp2Y3dLdQ?oc=5",
+        "source": "이투데이",
+        "date": "2026-09-29T23:30:00.000Z"
+      },
+      {
+        "title": "광주 아파트 임대차, 월세가 전세 앞질렀다",
+        "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5VdHhjSjlKemZ2XzhrUUdQVzlYN09kWGhEVFpHYk1YN0JGRGQ4YUpFNWFBZm9UWm9rM0VJbG9wOVJhQ1ltdEJKalZhSTE?oc=5",
+        "source": "무등일보",
+        "date": "2026-09-29T23:00:00.000Z"
+      },
+      {
+        "title": "몇 년 전엔 집값, 이젠 전셋값⋯서울 아파트 가격 기준선 달라졌다 [서울 전세 10억 시대 ①]",
+        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WbEJydHZUSlJfRGRKalp6a1Vnbmpac3BzSFZpUGktLXVRd09KNmd1WWNnMEk0VzY2VWNsc0QyLUdWMmFoVmN0QWFjMXgwaS1qekVwa2FQSU5naFVKaEtvQlJVLWFtblo4NTRPYk1n?oc=5",
+        "source": "이투데이",
+        "date": "2026-09-29T21:00:00.000Z"
+      },
+      {
         "title": "\"작아도 강남\"…초소형 아파트 거래 14%↑·3.3㎡당 1억 속출",
         "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNbXByWmlXYU8yVXpNVzFHTzg2MlB0ajZzSUlrRlRiOXRDZy1TZk1rSkt3YXJ0MlJPZ1pJUTdXMmxxeFNBRnplTWhuRUVPbGZ0SlNWaFJfUGhpd041c0ZXYnBaOXZMOHJHOEFv?oc=5",
-        "source": "한국부동산뉴스",
+        "source": "karnews.or.kr",
         "date": "2026-09-29T08:26:20.000Z"
       },
       {
@@ -431,33 +449,9 @@
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE8wSVc2b3lyYVFQSVF2NDV2STdwNGFaMmo1dm1SX2hodHlXazlmSlFOOVNLZk9vclZRZ1BoRlJTeHV0N0NRUUloZ1FSZGtFUWxnVkZIS2ZYY01mOGhSZmhicnc5eDZRV0VyM2c?oc=5",
         "source": "월요신문",
         "date": "2026-09-29T02:32:00.000Z"
-      },
-      {
-        "title": "“10억 쥐고 서울 아파트 찾기”…5건 중 1건은 ‘이 동네’로 몰렸다",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1hZ3I5WWplakFyOEhBOUg1aW9MNjJDNm5OajZ5ZjJzU3NvOFpyaW9pbWM1Mk9oaW5WWnJvRm1BZUQ4bGg0ekE?oc=5",
-        "source": "v.daum.net",
-        "date": "2026-09-29T01:00:00.000Z"
-      },
-      {
-        "title": "아파트 대신 '아파텔'…대형 오피스텔 가격 1년 새 8%↑",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kZ3ZqSzlIRHZIdDVsZlhLemh6MEJBMlp4Rk9FcmMyTy1xYlkwS1Vvd0xTM2xpVjYxUDBpRTAtTVB3TWd5UElMcUJsOTZVZVJ0MkdRcmpGTXNrb3JDWDkzN9IBeEFVX3lxTE94czlIUC1jZXpLWEhWTS1xdzJ5eHJhVHg2cnZBOWhiRXQxSlRhT2RULUtqNms1WWotWHJSYWlDRTR3ZzVCSGczYVJ0MGNyZUNZWXUzYXlDQ3piUjJMZTAtSmFVRWRrUmlVSlpfbzdVWW12NzdwczdUeQ?oc=5",
-        "source": "뉴시스",
-        "date": "2026-09-29T00:42:45.000Z"
-      },
-      {
-        "title": "“좁아도 강남 집이 돈 되는 거야”…전용 28㎡ 원룸형 아파트 11.5억 ‘신고가’",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ncFhtUlMxUFRKVkpDQ1o2SklXcmpLdHBmOVNmR196MkZqOEZxM0xxZ1JLc1ZES2VxcVFiMlJRVi1pOEZzNXZPcDBCeDJBdHNua0FKakhQX20?oc=5",
-        "source": "매일경제",
-        "date": "2026-09-29T00:37:09.000Z"
       }
     ],
     "lotto": [
-      {
-        "title": "처음 보는 효과를 기능과 연결하는 서울역 로또 화면 읽기",
-        "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOOVZlUk5GTVVHcmxuU0VabW9uZ3lndEliOUJEVC1tam9VYnN5MU1uOV9sT1ltaHJZU2xVa0xMMnpWajFTMmt2ZmJrbzVRVUFvbUdkdndhM2cxVHVUWWJvNmVDc0lncDN5WU5Nc0pUd3llQzV4d2dCbHhDbHBsX2NITFg3OGt4UWpWNHZnR2l0b0wya1hwYXNQVXFTQlBNdDRmeFVXRW1LQWlQcWZURGdrWnlhd1dTY2FXb1hYaHd1MGllRXQyUTE0b3ZFVVZxSTg1Y1BROTI2T29IR0plQ1dyNmtQZkpUbVFtQ0lKQld3cjhnLU5mTWg1NDNTUzRnTUF6akxfLU5TTmRWZw?oc=5",
-        "source": "Histoire pour tous",
-        "date": "2026-09-28T23:29:12.000Z"
-      },
       {
         "title": "1243회 로또 당첨번호 통계",
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9PZmZPZ2xiUDhzR0pGV2dpY1lYSkZDdXZpa2N4ZlVLNXNOclZJRGlkai1ReW9wcEJNTzlvaDFBM2QwZkRYaEZkS0FVRmNBczJMc0VMM1JMSk9mUF9uQWV4el9rTGU?oc=5",
@@ -467,7 +461,7 @@
       {
         "title": "충주 로또 화면 속 숫자는 무엇을 뜻할까?",
         "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxObTYzYVpob08yNGxrd29qVnQzeks4OGQ5b21PbGFYQVdEQy05bG5ybmhPSWtoUkVsaldfMFpSV3p2dnZBd1JYeG1sbkZPbVN0MFlhSzMxbzhpS21TeDBaNmJ3bm9EZ2p3QVJIdXk3WkNDN2hxQVdYcmdTM2NhUUoyRjlFSVJBTjRMZDNxQzR1ZDN4bTdaZWowUmIxX3V3TzhzbWdGTU1Dekw0SzdMbnl5U3BrYTlfRDJ3eXRRUDdCNFBrSENSQlM1OWxjYmk0bDdPSTRHM093aUtsUW14bThKdTdCQXc0clFBbUlOWHpMb0pWNk95QUFiNVlRUnB5M3pyQTJCbU1wRl9teUdOUVUzQWt3dDNoRkpnTWNCdVhYOUhWamdfTFBSNmN4Y0xlQ1BDUzlNZjBSck0xZUtiVWxJSXB0WXhsY1hQSHVfRHpidEJua0tBV0tQVmZyMV94UQ?oc=5",
-        "source": "Histoire pour tous",
+        "source": "histoire-pour-tous.fr",
         "date": "2026-09-28T14:47:48.000Z"
       },
       {
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBnOFBYNjBqTFZKR1ZBc2RLYTZnTTNpamIyTDE2U3dIcllJQ3JxRzdHd1Z3dXJLXzRFS1k5dU5iclcyMXc1ZVFvd0JLT21odFNLOUhicjkxb2lvcU5nMXI5cXBnLTQ?oc=5",
         "source": "bntnews.co.kr",
         "date": "2026-09-26T15:00:02.000Z"
+      },
+      {
+        "title": "로또 동행복권 제 1243회 당첨번호 9, 18, 24, 38, 43, 44 + 35",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE45TmU3NXloSzc3RW9wWm8xTkVZcG1UTWlCZDNzRWFjOC0zaHBNb1NfMGFwMHYzUmttOHZpdDBUNkhZMlJUd2xhRm5CMFpSTzlJc09ZMDdhMy01M2FmTEVwa0JFejBjSE9U?oc=5",
+        "source": "2news.co.kr",
+        "date": "2026-09-26T14:04:31.000Z"
       }
     ],
     "car": [
@@ -567,7 +567,7 @@
       {
         "title": "엔카, 9월 중고차 시세 하락폭 줄어…테슬라 2개월 연속 시세 상",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYbllvSXhtNUhUV3phRDllVFlDZ0NHLTNPTUw5cHBXcTJlWVR5SkJJWFUxOTJSQ3BLLWdON3Zwd2d3eElMVC1lQ2NFQnNualZmT0tnaHBOVjRhcXVaNzZ3d0J0YWVlSmRaZHc?oc=5",
-        "source": "모토야",
+        "source": "motoya.co.kr",
         "date": "2026-09-21T01:14:57.000Z"
       },
       {

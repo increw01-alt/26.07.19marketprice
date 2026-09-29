@@ -1,8 +1,52 @@
 {
-  "updatedAt": "2026-09-30T04:25:46+09:00",
+  "updatedAt": "2026-09-30T08:43:21+09:00",
   "deals": [
     {
-      "title": "킹덤러쉬 - 90% 1050원",
+      "title": "메트로 엑소더스 할인",
+      "mall": "스팀",
+      "price": 3040,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107625",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-29T23:26:34.000Z"
+    },
+    {
+      "title": "청도반시 5kg 46-55과",
+      "mall": "지마켓",
+      "price": 10630,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737142",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-29T22:41:25.000Z"
+    },
+    {
+      "title": "펩시제로제로 210ml 30캔+355ml 24캔",
+      "mall": "지마켓",
+      "price": 22900,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107624",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-29T22:09:50.000Z"
+    },
+    {
+      "title": "애플워치 울트라 2세대",
+      "mall": "이마트",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737141",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-29T19:56:20.000Z"
+    },
+    {
+      "title": "킹덤러쉬 - 90% / 1050원",
       "mall": "스팀",
       "price": 1050,
       "cat": "기타",
@@ -209,28 +253,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-29T15:09:47.000Z"
-    },
-    {
-      "title": "엠앤엠즈 미니 튜브 35g 24개",
-      "mall": "토스쇼핑",
-      "price": 17400,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737127",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-29T15:09:14.000Z"
-    },
-    {
-      "title": "청도 햇 반시 2.5kg (30과이상)",
-      "mall": "11번가",
-      "price": 8900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737126",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-29T15:09:01.000Z"
     },
     {
       "title": "개별 스위치 3구 멀티탭",
@@ -539,28 +561,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-28T17:53:28.000Z"
-    },
-    {
-      "title": "라스트 오브 어스 데이 PSN 아바타 4종",
-      "mall": "PSN",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107594",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-28T17:14:00.000Z"
-    },
-    {
-      "title": "라방 랜덤 5원",
-      "mall": "네이버페이",
-      "price": 5,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107593",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-28T15:58:55.000Z"
     },
     {
       "title": "09-29 네이버페이 49원 + 랜덤 포인트",
