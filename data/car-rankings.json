@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-28T06:14:01.744Z",
+  "updatedAt": "2026-09-29T07:30:29.997Z",
   "latestMonth": "2026-08",
   "displayMonths": 24,
   "basisNotice": "다나와자동차가 KAMA·KAIDA 공식자료를 자체 모델 분류 기준으로 재구성한 판매실적입니다. 버스·상용차와 모델 분류 차이로 상단 총판매량과 합계가 다를 수 있습니다.",
@@ -5926,7 +5926,7 @@
     {
       "month": "2026-08",
       "domestic": {
-        "total": 79739,
+        "total": 79734,
         "brands": [
           {
             "rank": 1,
@@ -5937,7 +5937,7 @@
           {
             "rank": 2,
             "name": "현대",
-            "sales": 29788,
+            "sales": 29783,
             "share": 37.4
           },
           {
