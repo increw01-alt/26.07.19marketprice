@@ -1,6 +1,94 @@
 {
-  "updatedAt": "2026-10-01T03:26:59+09:00",
+  "updatedAt": "2026-10-01T08:00:33+09:00",
   "deals": [
+    {
+      "title": "bhc 뿌링팝콘 12봉",
+      "mall": "지마켓",
+      "price": 11480,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107668",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T23:00:22.000Z"
+    },
+    {
+      "title": "티오피 캔커피 마스터라떼 275ml 24캔 외 7종 고르기",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737355",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-30T22:57:32.000Z"
+    },
+    {
+      "title": "연금확인적립 20원",
+      "mall": "네이버페이",
+      "price": 20,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107667",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T22:43:39.000Z"
+    },
+    {
+      "title": "성균관생활건강 뼈를 위한 호두 아몬드 두유 72팩",
+      "mall": "지마켓",
+      "price": 21210,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737354",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-09-30T22:33:32.000Z"
+    },
+    {
+      "title": "10월 슈퍼세일 &amp; 주요 할인 행사 (10/1~31)",
+      "mall": "CU편의점",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107666",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T21:09:42.000Z"
+    },
+    {
+      "title": "조텍 RTX5080 SOLID OC / 2,265,140원",
+      "mall": "지마켓",
+      "price": 2265140,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107665",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T20:11:52.000Z"
+    },
+    {
+      "title": "레노버 요가탭 Plus13 Gen2(16G/512GB)1,199,000원",
+      "mall": "네이버",
+      "price": 1199000,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107664",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T19:36:53.000Z"
+    },
+    {
+      "title": "롯데리아 데리1인팩",
+      "mall": "11번가",
+      "price": 5600,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107663",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-09-30T18:41:22.000Z"
+    },
     {
       "title": "라방 랜덤 5원",
       "mall": "네이버페이",
@@ -33,17 +121,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-30T17:30:02.000Z"
-    },
-    {
-      "title": "100gb 5mbps 밀리의서재 케이티망 알뜰요금제",
-      "mall": "비즈인모바일",
-      "price": 550,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737352",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-30T17:16:44.000Z"
     },
     {
       "title": "10월 갓세일 &amp; 주요 할인 행사 정리 (10/1~31)",
@@ -147,7 +224,7 @@
     {
       "title": "U+망 통화 500분, 데이터 4.5GB",
       "mall": "모나",
-      "price": 770,
+      "price": 800,
       "cat": "기타",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737344",
       "direct": false,
@@ -209,17 +286,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-09-30T15:29:04.000Z"
-    },
-    {
-      "title": "삼양라면 20입",
-      "mall": "네이버",
-      "price": 9850,
-      "cat": "식품",
-      "link": "https://naver.me/xEx7RrXE",
-      "direct": true,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-09-30T15:25:33.000Z"
     },
     {
       "title": "10-01 네이버페이 169원 + 랜덤 포인트",
@@ -407,72 +473,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-09-30T06:01:00.000Z"
-    },
-    {
-      "title": "NS2 스플릿 픽션 예약 판매 / 69,800원",
-      "mall": "겜우리",
-      "price": 69800,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107638",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T06:00:01.000Z"
-    },
-    {
-      "title": "하늘의 궤적 the 1st 10월 중하순 (스위치/PS5) 69800원",
-      "mall": "네이버",
-      "price": 69800,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107636",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T04:47:43.000Z"
-    },
-    {
-      "title": "조지아 블랙 무라벨 커피, 370ml, 20개",
-      "mall": "쿠팡",
-      "price": 16440,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107634",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T03:24:45.000Z"
-    },
-    {
-      "title": "소니 1000X THE COLLEXION 헤드폰+증정 749,000원",
-      "mall": "지구인샵",
-      "price": 749000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107633",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T03:01:41.000Z"
-    },
-    {
-      "title": "PS5 데스스트랜딩2 디럭스 코드 55,960원",
-      "mall": "미니맵",
-      "price": 55960,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107632",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T02:52:20.000Z"
-    },
-    {
-      "title": "온라인 도서문화상품권 5만원권",
-      "mall": "네이버",
-      "price": 45500,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107631",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-09-30T02:25:57.000Z"
     },
     {
       "title": "극소수 국밥 간편식 캠핑 냉동 순대국밥, 245g, 1개",
