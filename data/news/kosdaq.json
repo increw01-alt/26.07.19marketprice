@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-09-30T14:31:55+09:00",
+  "updatedAt": "2026-09-30T21:33:45+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "코스피 6,838.04 코스닥 855.91",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1hQmlabWZmVlpSUTZYa3Y5eFFDd1BVdHYyWFpFOFdFNEpJd0owd09uZzV5THYtaEpTOXpCdVd2eHVpT1Q5MHpIWElQWFdLWFdkQmY4T0NabHpBV1k?oc=5",
+      "source": "KBS 뉴스",
+      "date": "2026-09-30T08:24:00.000Z"
+    },
+    {
+      "title": "메디콕스, 코스닥시장위원회서 상장폐지 결정",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ySGp6Y2RlS0xqOFlMUjVGb3pPTm8wU0FIbjRGYXY2TWcwak9vMDNZYlZqbGQzbkQ2Q1pWWEVMQzBHSjM3MFBKMGZta0ZrbWcwWWQxcDZDRC1MMUtYZEliYWRYdm5MOTBtU1hRV0ZSSThCcTQ?oc=5",
+      "source": "마켓인",
+      "date": "2026-09-30T08:23:59.000Z"
+    },
+    {
+      "title": "덕산넵코어스, 코스닥 상장 첫날 23% 상승 마감…\"방산·우주항공 선제 대응\"",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE16Vjlzb1JyNWZpNVdEVlY1dXJDM0FwdlJLSWNLd3p3Z0lndGtKcFZsRHpwMXJIT3VPbkx4Qlp2WDF4N3lRTnFabHZocDNmYlYtNXpSVmVtUlhoRDlTNXFMM1pnLXM?oc=5",
+      "source": "디지털데일리",
+      "date": "2026-09-30T08:12:18.000Z"
+    },
+    {
+      "title": "코스닥 상장 20주년 '바텍', 중장기 전략 발표…\"장비에 AI 결합\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93cXpZbEh0WEZ4ejl6Y3VIOWFOb3VOM2ZyLTJTOEdwMGJ2R0k3MUpLdk8zTF9LYy1DRmJmdk1tQTJKM1JJb28wSzFDZHVOb3JWbXJkTUltUjdLSTZJbGdpVEFZTHhYWHBy0gFuQVVfeXFMUG5fRHJtTElnUm5kWDVUMmZxU3UzOXYxSlpBOUcyeklleEdZWWVITVhKRl9TYmJ1TXBob1NEREI4eXR4MGMySlB6a0hmaHpvdTR6aHRUcFRKcS13eXJRWE1uRG5RX1NJUmVnOUZUa2c?oc=5",
+      "source": "머니투데이",
+      "date": "2026-09-30T08:03:03.000Z"
+    },
+    {
+      "title": "상승 출발했던 코스피, 하락 마감...코스닥 상승",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9oelVVcEVKdjh2dWtheWlIVk0yTHVHRDZZNVBVdWw4UDhYdy04Mzhmc2N5b1MxN3g4UktsYmFjYWRUU05vZ28xQW84RVdVaFhkTThBcGhYQ1c1cmNGcm01dVFheTZLdUJ2Tm5oTjhKdw?oc=5",
+      "source": "YTN",
+      "date": "2026-09-30T07:49:00.000Z"
+    },
+    {
+      "title": "덕산넵코어스, 코스닥 입성...\"글로벌 시장 공략 본격화\"",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkRTlwVnhYNDBqOWFVRzMzNExlNVpvMFFpa1ZfMEN2XzhMYmxDVGNTdk0xaWZmMjBETVFmdG9Sbk1INUlUQ0xtTlJXYUlvQVByMjZCSlZ3?oc=5",
+      "source": "지디넷코리아",
+      "date": "2026-09-30T07:40:58.000Z"
+    },
+    {
+      "title": "코스피, ‘전강후약’ 6800선 마감…코스닥 4거래일 연속 상승",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fa184ai1MYURTVExfc0RLclpEd044SHo2eHZmWm1kUFdKRzVkbUtlX000NS1kQmphMExTOFVYUHVHRG0wY0Y5MmZlSnFuQVU0UUpSVjJqWDZXYnlnbzNLaw?oc=5",
+      "source": "증권일보",
+      "date": "2026-09-30T07:39:34.000Z"
+    },
+    {
+      "title": "벤처기업협회-LKB평산 맞손…코스닥 개편·법률이슈 공동대응",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE13bnFNQmNNN253cVU2emhMN2VSVWIxZ196TjJ3bHlTWVl4QlBUS09sRThUbXZ2Z3oyVEQwcVExMGEyQXZXeVVFQ3BlQkd6MExQc0JTT0tUWWR1clBodmZTQVBoQ3Y?oc=5",
+      "source": "매일일보",
+      "date": "2026-09-30T07:37:29.000Z"
+    },
     {
       "title": "예탁원 “10월 유가증권·코스닥 34개사 의무보유 해제”",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBCZ3pra2hjaEFSTkl4c2o1WXg2MjNoTzhKRGgtdDVFd3lYY2RFRFZTTGJnMm5qdmNDTDc5dEYzeGZLR3Npa2Q3V1JfOVRTOFYwbVhOakNB?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBxM0hZYTVIY2RNUm5NeVFsMWNjUWIybjU5cThMYndHM29Db3BJaGxUaGh4Q1YtY1hGMk5LdFQyQ0l1TkZYSC1rZG5icDc0S2s?oc=5",
       "source": "v.daum.net",
       "date": "2026-09-26T09:01:00.000Z"
-    },
-    {
-      "title": "플렉스시스템, 방산 시험기술 앞세워 코스닥 출사표",
-      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAtVUc2WXRpVXFGejB6MHZjUFdmSkZUNHBJNHFIOXFMbGljWXplZWhNSTVXV29DajZxcmpNSFc0RkhsN3VYU3c?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-26T07:18:07.000Z"
-    },
-    {
-      "title": "[주간 코스닥150] 카페24, 한주간 21% 급등 ‘주목’",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5INnkxR3JlYkxrTWFUdWJzVjhKSG1kS0xUSWpmUlBYcm1LZ0NGcHB1aU1xZHpxSzlnenI3b2NvOEJpVnAwVmdubnhUN3g3YmNiUmIwVlMzeGRQdmhrTmZLWW9Ta05GdU1SWWRUMEVMb1RiTmPSAXdBVV95cUxNVlU2c0RIeDlXdGtFdDJoZm02QnBQbV9sb0g4VFZyd0VoNGZQM2R6LUlxUERLSHhEWGY5R2s3NERObWhxb3R2cVNRdEdPS2pCLWNrRkoyOWl4RHlyTlFScTFuazlhQjRadkpqTUw0T2EweHVEMGFqVQ?oc=5",
-      "source": "핀포인트뉴스",
-      "date": "2026-09-26T06:38:36.000Z"
-    },
-    {
-      "title": "다음주 IPO 시장…글로벌테크놀로지·빅웨이브로보틱스 등 4곳 코스닥 입성",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5LNmFHdzFfMk1sV19wUGNlUkdyTjNVNHJDektQMXk4LUFhalQ0bG5Db3RJSEcyYk45RUo5S3JBdVEybmZJSWpDd092b0Rxdw?oc=5",
-      "source": "전자신문",
-      "date": "2026-09-26T03:59:20.000Z"
-    },
-    {
-      "title": "증시, 개별종목 쏠림 심화…상한가 기업 수 '절반 뚝'",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMElPbHVyV051cURNOHVHeF91UWpSSDF6Q05sWERBNkVfMTFLUC11QWhjT2VpeWN0ODdLZ21uR0o3UlZNamtBUW1XM21ucFF0WHB3Tkt3cDV3RDNsc09kUTFrT0RmcnVkZnNlUk15SFBob2RFOHd3bm5SMDIwck1YeEZBNUR3bXN0?oc=5",
-      "source": "글로벌이코노믹",
-      "date": "2026-09-26T02:04:34.000Z"
-    },
-    {
-      "title": "시총 미달 코스닥 상장사 8곳 상폐 '동전주' 45곳도 다음달 상폐 위기",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5nX2E1UXBDOTBua0FSRWNlTFU5OWhnUGNpVXdpT3dNb0NLVXROYl81ZEFLTFk2XzNoQV95ZFFEYnlSYXhqVVcyZko2cFVSMkVpN1U2OHNSczNFRV9tTXZNSkFiZnJaZERPLTJpQQ?oc=5",
-      "source": "중소기업신문",
-      "date": "2026-09-26T01:56:02.000Z"
-    },
-    {
-      "title": "28만전자, 180만닉스, 7천피인데…거래대금은 6월의 ‘반토막’ [주간 증시해설서]",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vUHBiQUF2U0JBTzM5WFM5aEtFX0lYTHYyblVxM2xqQVlKRk95TTdDa25KMjBONkJpSlZELTluSWhqUkgxcS0wVkhISjNzemc3cEU5b2hwYVJhYVVKWFd0dXZUeWVMb3lYd20xbzdn?oc=5",
-      "source": "더스쿠프",
-      "date": "2026-09-26T01:25:40.000Z"
-    },
-    {
-      "title": "플렉스시스템, 방산 시험기술 앞세워 코스닥 출사표",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZdkV6ZlVWN2pyZndOelBMT0labEF0eDVFNlNWX05QSHBHeVRRWTRVR2lZamttSElmdUtEalBRNmVTYnBacjNrOXpWbzR0TTBPb0RsUnJ6S0k4RHhBU19IcDV6WERoVUI00gFsQVVfeXFMTVpnN1ZBQkxLdTVDNVBsRnNuSWNia0JwVkJYWGVsRDR1UUZsSXlUM2tTbWFOOFlPWnJBNlhhWTZDbHR6UmhrakViWnU1YS13Njd4Q0hNckNieWxwWEEyeEVvc3ZoSmt2djNQXzZw?oc=5",
-      "source": "블로터",
-      "date": "2026-09-26T01:00:00.000Z"
-    },
-    {
-      "title": "멜콘·진코스텍, 내주 공모주 청약…코스닥 입성 채비",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE56ZzA1bnVwY3dqbmdRN29VekJxc0loSnNDYmxZWmVzZjRveWlKSG1vZUFiZHQwSkh3SVdUNWRnYWx0cm4wNjhuZUxXVWxTWVdfZzNIbjJJR0ViQQ?oc=5",
-      "source": "viva100.com",
-      "date": "2026-09-26T00:54:00.000Z"
     }
   ]
 }
