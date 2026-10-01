@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-01T08:00:43+09:00",
+  "updatedAt": "2026-10-01T11:09:24+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "[증시 오늘(1일) 주요 특징주] 코스피, 대형주 약세에 6810선 숨고르기…코스닥은 AI·로봇주 강세에 2%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpTG9QUDVxMnBFSDU0Y3BGTE9oR3VRSzh6eUR5dDB2dGJZbDdUYUdQdmtQMkVWdVFER0t0VGhOV2w3S1RleGgyY1dCcVhadlBVQmZybFZoaHlMMEJsdGgtbTBvdHg4OF9IYmJVbDRVM3XSAXRBVV95cUxNYTRia2xIajVHRDB2NC02YVNjUkZOenRKT3FoSy1USHFaUzhwVjJUTGNaTVN0Y1BJOEJDUlY0cjNqZ1NLYjQySGYzUG9UcGJFYUo0M1Y1dGJBQTM3R1JDWFpsbldBRk9xd1Z1OTJhYXZxbFhOVQ?oc=5",
+      "source": "thefairnews.co.kr",
+      "date": "2026-10-01T01:58:52.000Z"
+    },
+    {
+      "title": "코스피, 마이크론 실적에 반등…6840선 회복",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAyVEJIYnJ5eTlpZjI4amp2RDcwUUNkdWJkVFhSeFdDMlBpLUNraWNtamNsWWhSUHBBU25MMTU1RURUSUh0S0R4U1p6TjJZbmM0cDlZaHU4MlE3eWt2clIzYnMxZVdlci00eWlaRg?oc=5",
+      "source": "스페셜경제",
+      "date": "2026-10-01T01:31:22.000Z"
+    },
+    {
+      "title": "코스피 미국 국채금리 부담에 장중 하락해 6810선, 코스닥은 1%대 상승",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBaOG5FYmxNZDlYeUtSN0MwWnVzSENSSjQtckxlR1VUM0lMZ3FkOWl0dWtkYWJlWGVSZDhIWUpDRnJQcTl2SXBYV1QxLWxoNkhvRC1Pb3ZXN0dsd2VhQlM2SW9YTnJsRUxkdXB5R1p6T0t5c2s?oc=5",
+      "source": "비즈니스포스트",
+      "date": "2026-10-01T01:18:17.000Z"
+    },
+    {
+      "title": "코스피 6810선 주춤…코스닥은 반도체 타고 1% 쑥",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4eXBQQkUxZGFLTl8zWTNlMTFXcTZWMF9MeV9KS1BXUDZhQkNYTnU2MVZvMU4xRWVLUVk5ZHZ1c1FtQ2l6SlRYTTlFaGZVS2lLbXdz?oc=5",
+      "source": "경제타임스",
+      "date": "2026-10-01T01:11:22.000Z"
+    },
+    {
+      "title": "[개장] 코스피, 마이크론 훈풍불구 금리·유가 ‘발목’… 삼전닉스 약세",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaUWU4UHZYQmxRdVc1ZEtSelI0SVBEeTV3RzBMUWFkU3M2a1VYQkVuemdNTERnek12b2c5RURlWlJfVXM2T21EWTNpVTRTTVAtaGVFTE1WcF91emlXZHEyb25oN0xsQzNWUGUyVDdaVy3SAXRBVV95cUxNQ2ItNXp2VWQ4enVYdE9IU2IzZW1IcUhTdjhhRlk0SU9GZERLT0pMUGFQN3dYQXVKcF91RjJYMVYzb3l4TmU5R2kwVkRtVXVmWk50SlJ0WjNRMFVLOWlnLU1qQk40QzViY0ZMR09EdVU4ZWZqQw?oc=5",
+      "source": "IT조선",
+      "date": "2026-10-01T01:04:47.000Z"
+    },
+    {
+      "title": "[개장시황] 코스피 6807선 약세…반도체 대형주 동반 하락",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5YbElPekEzbXV5STN2YVJBajNUOXY4dUVyWUVuZ3hUeDFIcUlkQVNDU2FfWERxWWlzNG1YSTJwaElXSWZuVVdGV0lRMEJTb1prSGRscldjZTRMSlFOYWpDYkVKYXBBLVk?oc=5",
+      "source": "자본시장뉴스",
+      "date": "2026-10-01T01:00:00.000Z"
+    },
+    {
+      "title": "[개장시황] 코스피, 외인·기관 동반 매도에 6800선 하회",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1blZ1azBaSVd4a01qSGxaNHROYmZVWDQ2Sk95QjZYZ01TT3VFRjk2V0pHR1d5OHgwTDBQZmluUDdCZFlJa0FMX2hQZzE4QXYtNDBITXFIXzdqb2c0?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-01T00:44:00.000Z"
+    },
+    {
+      "title": "마이크론 호실적에도 반도체주 약세...코스피 하락 출발",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wQi1XejNrOFhTVTBEcVhMemdXMTk0ZWVUUldkV2RfbTR0dmp2b0IzMTg3U3M0NEFPYzJneTMwc2hyLVlBNE45TC1NTDRxY2R6RERTZ3dQazMyd3VhckE?oc=5",
+      "source": "YTN",
+      "date": "2026-10-01T00:40:00.000Z"
+    },
     {
       "title": "10월 코스피 8500 전망…“주식 비중 늘려라”",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOanZCOE9QTTY0Z1VoSnBYTk0taEppcG5LWmxJWHNXVmtmMWREc1g1S0hGRUo1WEI3SXVFdHV4MGk5XzNabkUwU0VubVgzVFZ3OEpyU20zSHJ0X0J6QVlWN19vOVBpaFQtTDdCSE5SSTVuQzVPSVh0bjlZUS1KZ0RSaA?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvdExyY0lQU2c2V1NKMXhNbnpUczFHOTZUZzA5Rzk4d2ttNVpMM184Y0JWeWVPSEdYUmU5SDBoOEFTR3VCeG05ZjBCT0N1Vm1pZXl1cjNaenZWTERzdGZGWU55V19EcXB2U243eHI0WTJIWFZV?oc=5",
       "source": "부산일보",
       "date": "2026-09-27T03:55:00.000Z"
-    },
-    {
-      "title": "올해 최고의 재테크는 ‘코스피200 ETF’…수익률 80.76%",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAyaF9EOGJWaUJTUXBUSlNBNzhWMGNxYTZfWFQ5S0hqVEt6WUI2TEtHY2RxTXJ4X3ZQY2l2Mzc5M2VEblhyQVlvRnlkd1lFSjdLRm4wbnFza1ZjcFlSek11T2oxT0tFRGRtZFBCYWZTeXFQUVdQb2NRQ285dms?oc=5",
-      "source": "부산일보",
-      "date": "2026-09-27T03:55:00.000Z"
-    },
-    {
-      "title": "올해 주요 재테크 수익률 1위는? 코스피200 ETF…예금 수익률 40배 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbUctUnlidVdPR0R0WnJqYjRZSXhybFZ5YXhqYXFweWZrNjFfTVgtV1NNc0VpOXFpZlpzWF9sblN6SEpXWm1URDd6alBrMnJmMDZ5Y0h5eWFaZ0NOeFM3azUzeDd6bVU1ZExId1FhOEt3ajVaV2hxWF9WODFGQVZJZFZ4MHlhQ2VT0gGcAUFVX3lxTE1weDRWQ1BKbDFXeE04QTUyNGFwMWt6dlFCaHlKQlNVcUJGM0JvMzJpWm9NZTZiR3FDMGRzcUJydnBzWEV1ajlhc2N1S1MyZHVHODVnbkZST0pnc2tpVzhEeXBscDA5U2NGNHJBd1VaUmJhLWVKQ1ZJNmpnZTRlUTFlblgySWpaZTdPeVpfeFZYZ0ZpNDd1bE11RVZkYg?oc=5",
-      "source": "Chosunbiz",
-      "date": "2026-09-27T02:43:00.000Z"
-    },
-    {
-      "title": "코스피200 ETF 수익률 80% 돌파…금·비트코인·채권은 ‘마이너스’",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZWlN0RjV0NVc1ejdsWmh5dGlfQzdYMU9mNEFoMEdHMWp0UWlXbDRyRlVfMVNDd0VNdEVGc0NyMEZsZ3FYRzY1c0FrMWdpNWM3cVdTMFphT3V2YmZoMjloLXVjZGN3SkN6NzkzRzliVUrSAXRBVV95cUxPVnRhdDNsTGFFX05DSm5veXFRTGtabzdfTUotSkxmaHVnQVc3Y0FIZmktYy1mRU9DdTFqYU9ONDJXRlJ5VEVOMzN1cldRR19fTDNOeDUyMTlCckdKSWFGb0t0eHNKN25XRUtMTmYwdFJGako4Ng?oc=5",
-      "source": "산경투데이",
-      "date": "2026-09-27T02:35:13.000Z"
-    },
-    {
-      "title": "코스피 7000의 두 얼굴... 내 주식은 떨어지고 개미 돈은 미국으로",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBxSUZVN0F2NDZGRE1iRkw5Y1VqNHZ4Mnc3TWR2VXExRkZyUC1DZ29JNXJpVzRzSG1fbWNIZVM1V2EzanJxbmE2R21sQlRScjZpUjlNbkZHNTNTUDBCMDkzaE4wRkVfYjBReEFtb1BrX2Y?oc=5",
-      "source": "meconomynews.com",
-      "date": "2026-09-27T01:42:18.000Z"
-    },
-    {
-      "title": "코스피 7000대 안착할까…마이크론과 국제유가, 고용지표가 변수 [이번주 주요변수 미리보기]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DSVVXRVlWakYyYjZvSDZNN2VCdXZJTU85QTdYektweHhSdURiSXYzZGYwdnhxMW9LTmp5NE9SSXhKZUtfN2N5SDFKdEdPZl9FZW5pLTFYMjhVUQ?oc=5",
-      "source": "한국경제",
-      "date": "2026-09-27T01:39:18.000Z"
-    },
-    {
-      "title": "[주간증시전망] 7천선 안착 노리는 코스피, 유가·금리 악재 뚫고 랠리 이어갈까",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9YRXhXWmk1enVCTVNvcHJ1ZmdWdUdJUjc1elo2NWRhM2tESHVEeHFjcDBGTF83QjQtdWlQaTRlQ3R4VkNWODJ3Y05oZk5KX3oxMFBTWHc4ejhkZw?oc=5",
-      "source": "브릿지경제",
-      "date": "2026-09-27T01:28:00.000Z"
-    },
-    {
-      "title": "\"예금보다 40배↑\"…코스피200 ETF, 올해 재테크 수익률 1위",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kTjRmVmNOU21LQnBSOUlaUU1jTkFRRmF3N1FOeDVRQVFsWHdCQ3REV3dVVGVxdzBXaWxhWldLWWNGSThiSjg5eDJaQlZZTnpYYmxfRncwZ01KR19QWE4w?oc=5",
-      "source": "조세일보",
-      "date": "2026-09-27T00:48:46.000Z"
-    },
-    {
-      "title": "[증시 현황] 삼성전자 상승 힘입어 코스피 7000선 회복",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE14N3lTY21RbW1xbTU4QXA4aHhaaXM2SjlmVjlfN2VscDJSNFc5TTRRY0NiYU5VR0V6WWFuMjdZWDAzOFV5bkdVNTU5XzhaTFVWVUxTN1BkNEtqR2FLVVpQNFhqdjNNWE43cnBfVmRMVlnSAXRBVV95cUxNd1R1UHRyYmFqTWpMQXoybWZ1RHZVX1pWTUxIeF84bW5xMkdZYVdZUlRsU1F2UGd4UzVLYUVVSGNaMHlaUzQ1Ynk4Vk5NX1Z1LWdDWXE1a0pNWkdIUHpUMENKWjdMb2h1TlQxQnRwbWllbW41RQ?oc=5",
-      "source": "이뉴스투데이",
-      "date": "2026-09-27T00:15:32.000Z"
     }
   ]
 }
