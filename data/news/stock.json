@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-01T11:09:24+09:00",
+  "updatedAt": "2026-10-01T17:55:36+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피 6,970선 반등 성공…반도체·소부장 기술주 강세",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1oQXZEZmhZT1BWN01xanZNNThWblIyUlZMVUgyRDExVGVPajRCMkdRQUZLbl9mYXhqVnNPRlNKZ1oxcndNY2hwYzg3NDJkQWI5TW84R1RfRVY4Si0tcjZnTUFkLWxxeTJoMm9ycw?oc=5",
+      "source": "freezine.co.kr",
+      "date": "2026-10-01T08:45:29.000Z"
+    },
+    {
+      "title": "반도체 훈풍에 코스피 6970선 반등…코스닥도 4.48% 급등",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1HX0tiMHlmdEc3Z09HOEczRmxRVTJEUG0zRl92aXpqZWRrWlZobFdHSUJ1Y2ZzZFN4UFRCUUkwU2RFeE1qV2dJNWNsWWczVU9oNGFvRWV3T3hjVVNsbXJlRlRNMXNIZEpjTldJTw?oc=5",
+      "source": "굿모닝경제",
+      "date": "2026-10-01T08:02:05.000Z"
+    },
+    {
+      "title": "[증시 인사이트] 오늘은 전약후강 코스피…마이크론 호실적 효과?",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9wWnB0cWpaSlAwUE82ZFRsT3BwUDU0b3FOYmU3SE5iaHU5WWVDY0RGWm9TVUtkQm9nb24wbDItdlVNTTE1bnlGS21tNk0yeHM?oc=5",
+      "source": "v.daum.net",
+      "date": "2026-10-01T07:45:03.000Z"
+    },
+    {
+      "title": "코스피 4일 만에 상승 마감···코스닥 5일 연속 강세",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0cnlXYlZZQmhsNXNiZTlMTzhYbm9DSmJ3ZnI1NWxVeGo2WlpvM3BhMHp3bHMzdmlzbW5NVng2b09ObjVNVHhMWXZMd2E5cmlIRklKM1dHVU1vLVlOWm82ZUNsYWdQUGRGTG1QWVBn?oc=5",
+      "source": "더리포트",
+      "date": "2026-10-01T07:36:47.000Z"
+    },
+    {
+      "title": "[마감] 코스피, 삼전닉스 반등에 6900선 회복",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5URjNPNHR2a2VEdUpTSnRJUmNOTTdleTF0LUJIOHNRY1l2RW93YlVwSGR6ZGhOVHI5RW5idzcyV2JHQ1ZpN09UVnN0OHROZXd6clZDa0dfVGZoWDJCUUJueXpvYU8tZjZRMENKN2haOGTSAXRBVV95cUxObFpfYm5MUmxwbWR1dnBUZHctV1BubjFiMlJKbjdPQnE4SEpQRkhfTVkzbnFNTlIzTlA5SXJnUG14RHFCOE1ySDJ6UG9NbmtfWVhKNEl1eXdNZmdPV1l2VjhZMkNPSEpaMEVyZU1XbF9JTzQxYw?oc=5",
+      "source": "IT조선",
+      "date": "2026-10-01T07:28:59.000Z"
+    },
+    {
+      "title": "[MD증시] 반도체 훈풍에 삼전·닉스 ‘활짝’…코스피 4거래일 만에 반등",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mRzFrS0dEUTZWRGNwY204QThHdERuZGFqOXlPNjRYbllPdklnV1VWYl9LblBsR01FNk0wMGlaNThtX2tUSm5UbmsyTmZZZ1V6MmdMTXhiMEdrRnUzUmJaYkhIaFdsZw?oc=5",
+      "source": "마이데일리",
+      "date": "2026-10-01T07:14:07.000Z"
+    },
+    {
+      "title": "코스피, 반도체 훈풍에 7000선 목전…코스닥 4%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1sbTlVdGpkZTlXNFQ3QUR0OEJ2M0o2UDROakNGRV9ZMlVFWGlaLXI0TnJGcjkydUFlN0FqWDA2bkZWVEdjRk00VDY0bW5TNVlGaVUyano2ZHJzS1RkOVh0bWlKVjFMQU1t?oc=5",
+      "source": "ebn.co.kr",
+      "date": "2026-10-01T07:12:44.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피, 마이크론 훈풍에 1.95%↑…6900선 회복",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15VEk3cmE4bUNMRE5aUHZKZ3hSNTFFaVpsRk5STUZsdF9iNU03MGZ4MG9OYmxaQklKMFhBSmZfYVRkT0J4YjlKNEJqMG9nWnVROHR1Nm81TDF5c2dS?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-01T07:01:00.000Z"
+    },
     {
       "title": "[증시 오늘(1일) 주요 특징주] 코스피, 대형주 약세에 6810선 숨고르기…코스닥은 AI·로봇주 강세에 2%대 급등",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBpTG9QUDVxMnBFSDU0Y3BGTE9oR3VRSzh6eUR5dDB2dGJZbDdUYUdQdmtQMkVWdVFER0t0VGhOV2w3S1RleGgyY1dCcVhadlBVQmZybFZoaHlMMEJsdGgtbTBvdHg4OF9IYmJVbDRVM3XSAXRBVV95cUxNYTRia2xIajVHRDB2NC02YVNjUkZOenRKT3FoSy1USHFaUzhwVjJUTGNaTVN0Y1BJOEJDUlY0cjNqZ1NLYjQySGYzUG9UcGJFYUo0M1Y1dGJBQTM3R1JDWFpsbldBRk9xd1Z1OTJhYXZxbFhOVQ?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE04UDFCejdxR2M4WUxhbkp3MXFrT2VZaEcwZGRPM1VNY2x2OG9tWktEbWQ2d05pOUNSZXBxNVIzamZCaGxWV1ZkVHZqSEtxZkNCeFR4MzdXeWFlZw?oc=5",
       "source": "한국경제",
       "date": "2026-09-27T08:06:10.000Z"
-    },
-    {
-      "title": "\"은행 예금의 40배\"…올해 재테크 수익률 1위 코스피200 ETF",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5vTUhkRThwR3dBM3FVbi1XdHJkQnU3UnBwTDFGNjFBSXFBQ1JqaTBFZmhKbDVmWXdobHVPWVJQWUozbkNZWjhwcWZhb2V4WlRPWmU4aXFmQkVUenAzbzFXakpHaTZNTlRzdFV3ag?oc=5",
-      "source": "econovill.com",
-      "date": "2026-09-27T08:05:25.000Z"
-    },
-    {
-      "title": "7,000선 사수 코스피, 연휴 이후 변수는?",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1CS3htMWRLX01UMjR0NzRZY3FWbTQ4YVNkWkozNmFGYWdrTjB1VThpOTRFVW42TDhpeXZYcTBfZ2dJcm9DbFNUc0hKLXFXWEtXM09NNUduWDVWdllrT1E?oc=5",
-      "source": "YTN",
-      "date": "2026-09-27T07:44:00.000Z"
-    },
-    {
-      "title": "미 국채금리·마이크론 실적 발표 앞둔 韓 증시, 추석 이후 코스피 행방은?",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5jWFdoWktoaDlpVGRhN1I3Q0tsQS1CdUxOZURCQUxqMktFR1RZNVNSd2VHRUxJTHY5YllydWZDcWUtQmM2UUcxVmFwYklVcjQ?oc=5",
-      "source": "v.daum.net",
-      "date": "2026-09-27T07:11:48.000Z"
-    },
-    {
-      "title": "미 국채금리·마이크론 실적 발표 앞둔 韓 증시, 추석 이후 코스피 행방은?",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0tdlhBMkM1ZkVVZGw4MXZiWnV0b1pqLWtZTXdpQkdBWGt4TElaMlFoM0ZxUEFIV0huZXphMTRIVEJpT2V1enVJMGowbkUtckxWQUF3SW0tTGpfUdIBWEFVX3lxTE1MMHRobTU5bXlubm0wZlBON0JKYmN4eHJQeEZhMTc4OEVXV29NRVR6OEhrNUtfQV85RFpmRWw1UmxzNEpFSWxhZVY0LWdWZ1FPaDQ1RzFab1A?oc=5",
-      "source": "아주경제",
-      "date": "2026-09-27T07:11:42.000Z"
-    },
-    {
-      "title": "추석 연휴 끝난 코스피, 뉴욕증시 훈풍에도 '금리·유가' 변수",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE00MVpaQVg2eHM2QzhkQUtXVURzcnU3c3Jid2hGLW1iRjJIVTVFUlpYbEZZN3dDd2hjc2hZNjJ6VnIzR0sxZzl0YnJvZG9xZWhvNVkyakdQWnBFWGU2NnY0bkRySDF4VEhxcXlGa0RIX1JJYUkz?oc=5",
-      "source": "파이낸셜포스트",
-      "date": "2026-09-27T06:55:00.000Z"
-    },
-    {
-      "title": "추석 넘긴 코스피, 미 PCE 지수·마이크론 실적에 달렸다[주간증시전망]",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTTFHU09lVHd3bkpfcElFMGliSTQ5elZVVUc2TFota2lSTm9LWURRSWNaZGJFQTNxMmlmLVJZdk81bWdVaXZOa2J0Y2ZzZGoxbzhZUjBROXhBMW1JeTdIc2hzTGNuS3hCUy1JbkJRRTVSUEp4MFplY1E1c1VId3VCbw?oc=5",
-      "source": "edaily.co.kr",
-      "date": "2026-09-27T06:38:09.000Z"
-    },
-    {
-      "title": "[마켓 ING]7000선 안착 코스피, 美 경제지표·마이크론 실적 주목",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5SV3JXYjBzclZ0RnlHLW1SbHdFTnVCSV9yRHhhLTdXTVVGakZGV1RPRjJ5Q3BXTWxJNkU2cUtRbnRnNWczNmE0NEYtYW4zanNGT3Fhei14RndBeldfaU1NNmhn?oc=5",
-      "source": "아시아경제",
-      "date": "2026-09-27T05:01:00.000Z"
-    },
-    {
-      "title": "올해 최고의 재테크는 ‘코스피200 ETF’…수익률 80.76%",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBvdExyY0lQU2c2V1NKMXhNbnpUczFHOTZUZzA5Rzk4d2ttNVpMM184Y0JWeWVPSEdYUmU5SDBoOEFTR3VCeG05ZjBCT0N1Vm1pZXl1cjNaenZWTERzdGZGWU55V19EcXB2U243eHI0WTJIWFZV?oc=5",
-      "source": "부산일보",
-      "date": "2026-09-27T03:55:00.000Z"
     }
   ]
 }
