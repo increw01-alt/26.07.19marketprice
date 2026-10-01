@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-10-02T01:26:53+09:00",
+  "updatedAt": "2026-10-02T06:50:06+09:00",
   "deals": [
+    {
+      "title": "iOS 일시무료 라이브 타이머",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81078",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-01T21:36:36.000Z"
+    },
+    {
+      "title": "iOS 일시무료 PocketTok",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81077",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-01T21:28:39.000Z"
+    },
+    {
+      "title": "플레이스테이션 프렌차이즈 세일 / 14,900원 부터~",
+      "mall": "그린맨게이밍",
+      "price": 14900,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107715",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T19:58:28.000Z"
+    },
+    {
+      "title": "10월 달달 혜택-도미노피자 포장 50% 할인 외 (10/1~31)",
+      "mall": "KT멤버십",
+      "price": null,
+      "cat": "식품",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107714",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T19:02:13.000Z"
+    },
+    {
+      "title": "페이트 스테이나이트 + 할로우 아타락시아번들 [34,560]",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107713",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T18:54:10.000Z"
+    },
+    {
+      "title": "아이돌마스터 스탈릿 시즌 디지털 디럭스 에디션 [27,840]",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107712",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T17:25:27.000Z"
+    },
+    {
+      "title": "2026 가을 할인 스티커 3종",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737629",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-01T17:24:11.000Z"
+    },
+    {
+      "title": "드래곤볼 스파킹제로 [35,880]",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107711",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T17:12:49.000Z"
+    },
+    {
+      "title": "2026 가을 할인 스티커 3종",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107710",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T17:02:23.000Z"
+    },
+    {
+      "title": "100GB+5Mbps 밀리의서재 4개월 550원",
+      "mall": "비즈인",
+      "price": 550,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737628",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-01T17:02:14.000Z"
+    },
+    {
+      "title": "(무료) USA Real-World Heightmaps",
+      "mall": "에셋스토어",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107709",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T16:52:48.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107708",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-01T16:51:41.000Z"
+    },
     {
       "title": "탑씨 제로 1.5L 12개 5가지맛",
       "mall": "네이버",
@@ -178,17 +310,6 @@
       "date": "2026-10-01T15:01:34.000Z"
     },
     {
-      "title": "맛팜 신 곱창볶음 250g 2개",
-      "mall": "토스",
-      "price": 6600,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737613",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-01T15:01:15.000Z"
-    },
-    {
       "title": "브릿지 컨스트럭터 스튜디오",
       "mall": "에픽모바일",
       "price": null,
@@ -209,17 +330,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-01T15:00:02.000Z"
-    },
-    {
-      "title": "BURIED STARS",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737612",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-01T15:00:01.000Z"
     },
     {
       "title": "프링글스 사워크림&amp;어니언 110g 12개",
@@ -409,17 +519,6 @@
       "date": "2026-10-01T02:03:36.000Z"
     },
     {
-      "title": "Ori and the Will of the Wisps",
-      "mall": "스팀",
-      "price": 2990,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107681",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:53:37.000Z"
-    },
-    {
       "title": "📱 10GB 이상 월 1,000원 이하 알뜰폰 요금제 추천 — 2026년 10월",
       "mall": null,
       "price": 1000,
@@ -429,39 +528,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-01T01:43:48.000Z"
-    },
-    {
-      "title": "(카카오톡딜) 젤다의 전설 시간의 오카리나 88,000 사은품 패드or키링",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107680",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:35:27.000Z"
-    },
-    {
-      "title": "오늘 클립 챌린지 20원",
-      "mall": "네이버페이",
-      "price": 20,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107679",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:16:32.000Z"
-    },
-    {
-      "title": "폰타나 이탈리아 스파게티 500g 3개",
-      "mall": "쿠팡",
-      "price": 5220,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107678",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:16:21.000Z"
     },
     {
       "title": "극소수 순살 뼈해장국 우거지 뼈없는 감자탕 1인분 국밥 간편 냉동 레토르트 시레기 캠핑",
@@ -475,17 +541,6 @@
       "date": "2026-10-01T01:16:10.000Z"
     },
     {
-      "title": "시간의 오카리나 본체 프로콘 타이틀 특전 시계 / 788,000원",
-      "mall": "이마트앱",
-      "price": 788000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107677",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:14:57.000Z"
-    },
-    {
       "title": "돼지고기 목전지 1kg 제육용 불고기용 찌개용 구이용",
       "mall": "네이버",
       "price": null,
@@ -495,39 +550,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-01T01:07:10.000Z"
-    },
-    {
-      "title": "멤버십 부르르 제로콜라+사이다 각30캔",
-      "mall": "네이버",
-      "price": 16760,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107676",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T01:05:21.000Z"
-    },
-    {
-      "title": "젤다의전설 시간의오카리나 사전예약",
-      "mall": "SSG",
-      "price": 88000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107675",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T00:58:07.000Z"
-    },
-    {
-      "title": "스위치 2 젤다 40주년 에디션 - 788,000원",
-      "mall": "컬리",
-      "price": 788000,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107674",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-01T00:41:43.000Z"
     },
     {
       "title": "2025년 국산 혼합강낭콩 1kg 울타리콩 호랑이콩",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-09-29T02:05:05.000Z"
-    },
-    {
-      "title": "난각번호1번 계란 유정란 20구 달걀 무항생제 자연방사",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/80962",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-29T01:59:03.000Z"
-    },
-    {
-      "title": "프리티 / 10GB / 300분 / 300건 1650원",
-      "mall": "알뜰폰",
-      "price": 1650,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/80957",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-09-29T00:44:19.000Z"
     }
   ]
 }
