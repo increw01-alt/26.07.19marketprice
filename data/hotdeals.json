@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-04T04:57:39+09:00",
+  "updatedAt": "2026-10-04T08:03:26+09:00",
   "deals": [
+    {
+      "title": "삼다수 2L X 24개",
+      "mall": "지마켓",
+      "price": 18620,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737943",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-03T22:49:37.000Z"
+    },
+    {
+      "title": "크리스탈코트 플러스 500ml 1+1",
+      "mall": "옥션",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737942",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-03T22:32:34.000Z"
+    },
+    {
+      "title": "동원 통그릴비엔나 1kg 2봉",
+      "mall": "토스쇼핑",
+      "price": 17900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737941",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-03T22:23:04.000Z"
+    },
+    {
+      "title": "타이탄폴 2: 얼티메이트 에디션 VR 모드 + 한글패치 / 4,950원",
+      "mall": "스팀",
+      "price": 4950,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107767",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-03T21:55:55.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Dual Apps",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81162",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-03T19:59:40.000Z"
+    },
     {
       "title": "iOS 일시무료 Dayliviya",
       "mall": null,
@@ -167,28 +222,6 @@
       "date": "2026-10-03T15:15:14.000Z"
     },
     {
-      "title": "모나리자 소프트리 미용티슈 230매 12개",
-      "mall": "옥션",
-      "price": 12210,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737928",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-03T15:13:10.000Z"
-    },
-    {
-      "title": "동원 딤섬 부추창펀 390g6봉",
-      "mall": "토스",
-      "price": 19900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737927",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-03T15:10:18.000Z"
-    },
-    {
       "title": "일일적립, 클릭 26원",
       "mall": "네이버페이",
       "price": 26,
@@ -198,17 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-03T15:08:32.000Z"
-    },
-    {
-      "title": "알페신 카페인샴푸 C1 600ml (펌프형) 2개+두피브러쉬",
-      "mall": "롯데온",
-      "price": 47520,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737926",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-03T15:06:09.000Z"
     },
     {
       "title": "Legend of Cina",
@@ -563,17 +585,6 @@
       "date": "2026-10-02T08:46:47.000Z"
     },
     {
-      "title": "(플레이샵)플레이샵 어플 전용 20%할인쿠폰 최대 1만원",
-      "mall": null,
-      "price": null,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107738",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-02T07:59:35.000Z"
-    },
-    {
       "title": "우맛순 7종 수제 직화구이 알곱창 무뼈 닭발 오돌뼈 막창 꼬리족발 캠핑 택배주문",
       "mall": "네이버",
       "price": null,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-01T02:21:52.000Z"
-    },
-    {
-      "title": "📱 10GB 이상 월 1,000원 이하 알뜰폰 요금제 추천 — 2026년 10월",
-      "mall": null,
-      "price": 1000,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81053",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-01T01:43:48.000Z"
     }
   ]
 }
