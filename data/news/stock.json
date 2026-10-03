@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-03T15:32:26+09:00",
+  "updatedAt": "2026-10-03T21:33:29+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "[증시 현황] 악재에 갇힌 코스피···두 달째 7000선",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBoWF9hUHg1VlZRVjBrWUk4VDNKdWV1cHozZGs4SWFLZFlVZEVINk96TEpFVHZrYXhpbmc2QXdLSW1UbGNVZ0xoaXo2TUJfSHIxZ2IzeS1GZnRYdUd2aUxLWkpVNFZVcEp2MzM5VlBrVVo5QdIBdEFVX3lxTE13T1l1UHNmNmpiMEV6WWJXdEdtLW1jSktuWXo3MzFHaHNZcUlmRlBXTnJaMFZvSjRfbFRXdUVnSFBNU2JfU01TeXhnd0hjQ2g4bm1ybHY3NFNmNm0teFNHSno5Q0tYaFZtT3RqTlVXcW5SREtL?oc=5",
+      "source": "이뉴스투데이",
+      "date": "2026-10-03T07:32:57.000Z"
+    },
     {
       "title": "[10월 첫째 주 세계경제동향 브리핑] 코스피 7,000선 회복…코스닥 5%대 강세",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBwcG92NFJtakhib0RKRjJKYm51NUpISVROdzg2bnRFazFvM2M2LTVxUl85ODVmT2V6RFVFVUZQU0VUODFoNjg0S2RYQTZTamcyb1ZMU085cWlIM3NTeGJYLS10VzFaeE10dk9mc1hPNA?oc=5",
@@ -23,7 +29,7 @@
     {
       "title": "[주간증시전망] 다음주 코스피 6500~7500 전망⋯‘삼성전자 실적’이 분수령",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE8xc3ZtbndzQVFpWmRYR2UyMXhnQV9JcE1VYVRqU05COGZoOVlUWFlBbW04elFpLVJOZzMyN2NydE5VbGhsUUxfRzZYWU1WZkxZR0JCbmlqcjc5YTE0djMwVE04bVI1MVhMc05lR1VmUi1uQQ?oc=5",
-      "source": "etoday.co.kr",
+      "source": "이투데이",
       "date": "2026-10-02T21:00:00.000Z"
     },
     {
@@ -37,6 +43,12 @@
       "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5naGVtZmk5SkFqUFFwdDdNZFdwS29FckFVRTlKUUNza3JCU0loME9jRWsxdXlSckkxY2FBYmtxcWNwd1llQTJqTWN3Vnh6bTg?oc=5",
       "source": "v.daum.net",
       "date": "2026-10-02T12:24:04.000Z"
+    },
+    {
+      "title": "[주간증시전망] 7000선 회복한 코스피⋯다음주 삼성전자 잠정실적 발표",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE42YzM5SlRoS2ZWR0xkZlppcURBUjNLcU1iR3hvamV5eFMyLWRpXzZWOVc1Mm5fNXdhRnRaanhTY1dCWFJ5VHB5SWlKT0xRX2NiejFNdzhqUTJ1dFh4WGh0dGk1RzdsczY1dER6ZUtTMA?oc=5",
+      "source": "이투데이",
+      "date": "2026-10-02T12:23:00.000Z"
     },
     {
       "title": "[주간증시전망] 7000선 회복한 코스피⋯다음주 삼성전자 잠정실적 발표",
@@ -589,18 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VTnVXY3p6YjY0Qy1EaGpFMVlxeVJsdkxBQVRGNTdOby0yVHNRTjItLWZ0TDhXemNBUU90SHh6ZlVBbUlyY2NJUFMzNTQ4Vld3WVNqRDRONHYyTmJH?oc=5",
       "source": "뉴스핌",
       "date": "2026-09-29T02:38:00.000Z"
-    },
-    {
-      "title": "뉴욕증시 또 미끄럼…코스피도 하락 출발",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5pRE0yM0dZaTgxdmo3NVpWeHZUOWpkRUVLWHJXZGJrZkNCeUs3R3A4VEQzV1RQUFVGWURSOHVNdmkxQXRuU0RSa0tQMk9xTUtPd29MX1R4S1lZLXdq?oc=5",
-      "source": "supple.kr",
-      "date": "2026-09-29T02:37:54.000Z"
-    },
-    {
-      "title": "삼성우 판 초고수들…코스피 개장 1시간 동안 뭘 담았나",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1EQkRIQzV4cE44UEJ0ZGZzb2tvX3RKWU50ZEJGeTA1N3BCMG00NEozR2RwVkJNRmFjRjR6RzFleFQ2REdqZVdpUVhaczFVbGJWQ05tQ2RoY29Wdw?oc=5",
-      "source": "hankyung.com",
-      "date": "2026-09-29T02:00:05.000Z"
     }
   ]
 }
