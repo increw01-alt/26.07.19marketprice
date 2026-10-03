@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-04T02:16:20+09:00",
+  "updatedAt": "2026-10-04T04:57:39+09:00",
   "deals": [
+    {
+      "title": "iOS 일시무료 Dayliviya",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81161",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-03T19:56:06.000Z"
+    },
+    {
+      "title": "신라면 10입+너구리5입+짜파게티5입",
+      "mall": "지마켓",
+      "price": 14520,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737940",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-03T17:29:00.000Z"
+    },
     {
       "title": "투썸플레이스 마이 투썸초코",
       "mall": "카톡선물하기",
@@ -187,17 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-03T15:06:09.000Z"
-    },
-    {
-      "title": "홍로사과 중대과 4kg",
-      "mall": "지마켓",
-      "price": 14340,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=737925",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-03T15:05:58.000Z"
     },
     {
       "title": "Legend of Cina",
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-01T01:43:48.000Z"
-    },
-    {
-      "title": "극소수 순살 뼈해장국 우거지 뼈없는 감자탕 1인분 국밥 간편 냉동 레토르트 시레기 캠핑",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81051",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-01T01:16:10.000Z"
     }
   ]
 }
