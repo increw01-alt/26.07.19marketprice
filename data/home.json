@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T21:33:00+09:00",
+  "updatedAt": "2026-10-04T02:16:00+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 115426000,
-      "change": 376000,
-      "changePct": 0.32681443,
-      "volume": 102504015602.99783,
+      "price": 115354000,
+      "change": 304000,
+      "changePct": 0.26423293999999997,
+      "volume": 60890904574.74624,
       "spark": [
         109165000,
         109830000,
@@ -156,7 +156,7 @@
         113740000,
         115657000,
         115050000,
-        115426000
+        115354000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 1.35,
+      "price": 1.23,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -387,20 +387,20 @@
     "buy": 96200
   },
   "lotto": {
-    "round": 1243,
-    "date": "2026-09-26",
+    "round": 1244,
+    "date": "2026-10-03",
     "numbers": [
-      9,
+      1,
+      13,
       18,
-      24,
-      38,
-      43,
-      44
+      26,
+      34,
+      38
     ],
-    "bonus": 35,
-    "sales": 128926419000,
-    "firstWinners": 12,
-    "firstPrize": 2592525282
+    "bonus": 25,
+    "sales": 123436098000,
+    "firstWinners": 18,
+    "firstPrize": 1604686625
   },
   "rate": {
     "price": 3,
@@ -439,7 +439,7 @@
       "href": "/giftcard/shinsegae",
       "name": "신세계상품권 10만원권",
       "value": 96150,
-      "changePct": 0.052029136316337155
+      "changePct": 0
     },
     {
       "chip": "롯데",
