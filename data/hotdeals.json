@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-10-10T01:11:55+09:00",
+  "updatedAt": "2026-10-10T05:54:00+09:00",
   "deals": [
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107912",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-09T19:22:42.000Z"
+    },
+    {
+      "title": "메디힐 비타민씨 브라이트닝 선크림 50g 본품",
+      "mall": "CJ온",
+      "price": 5900,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739069",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-09T19:17:34.000Z"
+    },
+    {
+      "title": "삼겹살, 맥콜, 고추장불고기, 찹쌀누룽지",
+      "mall": "토스쇼핑",
+      "price": null,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739068",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-09T18:54:59.000Z"
+    },
+    {
+      "title": "Fireside Feelings",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107911",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-09T17:10:45.000Z"
+    },
+    {
+      "title": "알뜰요금제 5mbps 7개월요금제 네이버페이5천지급",
+      "mall": "비즈인",
+      "price": 7700,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739067",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-09T17:04:34.000Z"
+    },
+    {
+      "title": "Fireside Feelings",
+      "mall": "스팀",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739066",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-09T17:00:56.000Z"
+    },
     {
       "title": "구글 플레이 기프트 5만원권 (46,500/없음) , 1만원권 (9,300/없음)",
       "mall": "네이버스토어",
@@ -167,28 +233,6 @@
       "date": "2026-10-09T15:03:18.000Z"
     },
     {
-      "title": "U+알뜰폰 5g망 180gb+10mbps 음성문자무제한 7개월",
-      "mall": "A모바일",
-      "price": 8900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739053",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-09T15:02:40.000Z"
-    },
-    {
-      "title": "제주삼다수 2L 12입",
-      "mall": "토스",
-      "price": 8990,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739052",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-09T15:02:33.000Z"
-    },
-    {
       "title": "어게인스트 더 스톰",
       "mall": "스팀",
       "price": 8970,
@@ -198,28 +242,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-09T15:00:16.000Z"
-    },
-    {
-      "title": "마가렛트 오리지널 대, 352g, 4개",
-      "mall": "11번가",
-      "price": 13500,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739051",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-09T14:51:37.000Z"
-    },
-    {
-      "title": "촉촉한 초코칩 16개입 x 3박스",
-      "mall": "지마켓",
-      "price": 9900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739050",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-09T14:35:35.000Z"
     },
     {
       "title": "PS5 아스트로 봇 - 43,450원",
@@ -550,28 +572,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-08T17:00:28.000Z"
-    },
-    {
-      "title": "네이버페이로 12000원 결제시 4800원 할인 외 (10/9)",
-      "mall": "던킨도너츠",
-      "price": 4800,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107881",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-08T15:45:43.000Z"
-    },
-    {
-      "title": "에어팟 4세대 MXP63KH/A 109,000원 무배",
-      "mall": "이마트",
-      "price": 109000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107880",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-08T15:40:18.000Z"
     },
     {
       "title": "10-09 네이버페이 73원 + 랜덤 포인트",
