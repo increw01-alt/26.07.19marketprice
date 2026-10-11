@@ -1,6 +1,138 @@
 {
-  "updatedAt": "2026-10-12T00:40:03+09:00",
+  "updatedAt": "2026-10-12T05:16:02+09:00",
   "deals": [
+    {
+      "title": "로보락 Qrevo Curv 2 Flow",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739360",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T20:09:36.000Z"
+    },
+    {
+      "title": "카누 더블샷 라떼 50Tx2개 [24,300/무료]",
+      "mall": "지마켓",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739359",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T19:18:12.000Z"
+    },
+    {
+      "title": "메가MGC커피 아이스 아메리카노",
+      "mall": "지마켓",
+      "price": 1600,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739358",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T17:08:58.000Z"
+    },
+    {
+      "title": "11gb + 일2gb+ 3mbps 통문무 4개월",
+      "mall": "케이티 알뜰요금제 비즈인모바일",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739357",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T17:01:43.000Z"
+    },
+    {
+      "title": "아임 멀티비타민 이뮨샷50병 1박스",
+      "mall": "종근당건강몰",
+      "price": 53475,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739356",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T17:01:12.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107937",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-11T16:25:12.000Z"
+    },
+    {
+      "title": "1등급 한돈 토마호크 한입스테이크 150g x 1팩",
+      "mall": "옥션",
+      "price": 4640,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739353",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T15:57:03.000Z"
+    },
+    {
+      "title": "뽑아쓰는 키친타올 800매",
+      "mall": "롯데온",
+      "price": 5590,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739352",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T15:52:31.000Z"
+    },
+    {
+      "title": "스타벅스 금액권 15-20% 할인",
+      "mall": "카카오톡",
+      "price": null,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/107936",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-11T15:44:35.000Z"
+    },
+    {
+      "title": "PSN 스토어 기프트카드 5만원",
+      "mall": "롯데온",
+      "price": null,
+      "cat": "쿠폰·상품권",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739351",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T15:42:41.000Z"
+    },
+    {
+      "title": "펩시제로 라임 310ml 48캔",
+      "mall": "롯데온",
+      "price": 19950,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739350",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T15:38:36.000Z"
+    },
+    {
+      "title": "맥심 카누 더블샷라떼 50T 2개+ 카바챔 머그",
+      "mall": "옥션",
+      "price": 29900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739349",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-11T15:36:43.000Z"
+    },
     {
       "title": "cj제일제당 맛밤 60g x 20개",
       "mall": "지마켓",
@@ -79,50 +211,6 @@
       "date": "2026-10-11T15:24:27.000Z"
     },
     {
-      "title": "추추 추어탕 500g 4개 8,900원, 에브리워터 생수 2L 24개 7,900원",
-      "mall": "토스",
-      "price": 7900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739343",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:22:49.000Z"
-    },
-    {
-      "title": "국내산 파프리카 3kg",
-      "mall": "11번가",
-      "price": 9990,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739342",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:20:19.000Z"
-    },
-    {
-      "title": "국내산 갓김치 1.5kg",
-      "mall": "옥션",
-      "price": 9900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739341",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:20:13.000Z"
-    },
-    {
-      "title": "스파클 생수, 무라벨, 1L, 24개",
-      "mall": "토스",
-      "price": 6700,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739340",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:16:53.000Z"
-    },
-    {
       "title": "이번주 T데이 혜택 (10/12~16)",
       "mall": "T멤버십",
       "price": null,
@@ -156,39 +244,6 @@
       "date": "2026-10-11T15:11:38.000Z"
     },
     {
-      "title": "팔도 뽀로로 음료수 8종 10+10+10 30개 골라담기",
-      "mall": "롯데온",
-      "price": 18940,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739339",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:11:01.000Z"
-    },
-    {
-      "title": "닥터가 비타도스 비타민C 1000mg",
-      "mall": "네이버",
-      "price": 3200,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739338",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:10:22.000Z"
-    },
-    {
-      "title": "천하장사 오리지날 Original 1500g (15gX100개입) X 2개",
-      "mall": "네이버",
-      "price": 29860,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739337",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:09:03.000Z"
-    },
-    {
       "title": "메가커피 메뉴 20% &amp; 금액권 10% 할인 (10/12~18)",
       "mall": "지마켓",
       "price": null,
@@ -200,17 +255,6 @@
       "date": "2026-10-11T15:06:35.000Z"
     },
     {
-      "title": "맥심 모카골드 커피믹스 190T",
-      "mall": "지마켓",
-      "price": 24200,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739336",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T15:04:15.000Z"
-    },
-    {
       "title": "와퍼주니어 2개 6천원&amp;롱치킨 버거 2개 7천원 (10/12~25)",
       "mall": "버거킹",
       "price": null,
@@ -220,28 +264,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-11T15:01:30.000Z"
-    },
-    {
-      "title": "올반키친 인생 왕교자 210g 10봉",
-      "mall": "롯데온",
-      "price": 13900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739334",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T14:47:46.000Z"
-    },
-    {
-      "title": "나주 소고기 곰탕 550g 2팩",
-      "mall": "네이버",
-      "price": 7400,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=739333",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-11T14:39:14.000Z"
     },
     {
       "title": "롯데 구구 크러스터 660ml x 8개",
@@ -574,17 +596,6 @@
       "date": "2026-10-09T15:25:06.000Z"
     },
     {
-      "title": "일일적립, 클릭 42원, 라이브예고 1원",
-      "mall": "네이버페이",
-      "price": 1,
-      "cat": "쿠폰·상품권",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107909",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-09T15:14:45.000Z"
-    },
-    {
       "title": "Out of Sight , TerraScape 무료배",
       "mall": "에픽게임",
       "price": null,
@@ -594,17 +605,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-09T15:03:18.000Z"
-    },
-    {
-      "title": "어게인스트 더 스톰",
-      "mall": "스팀",
-      "price": 8970,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/107908",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-09T15:00:16.000Z"
     },
     {
       "title": "iOS 일시무료 BP Log",
