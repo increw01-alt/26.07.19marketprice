@@ -5261,3 +5261,37 @@ body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .de
   text-decoration: none;
 }
 .cp-btn:hover { filter: brightness(0.92); }
+
+/* 쿠팡 공식 배너 카드 — 이미지·가격은 쿠팡 iframe 이 직접 렌더 */
+.cp-grid:has(.cp-card-banner) { display: flex; flex-wrap: wrap; gap: 14px; }
+.cp-card-banner {
+  width: 172px;
+  align-items: center;
+  text-align: center;
+  padding: 12px 10px 12px;
+}
+.cp-frame {
+  display: block;
+  width: 120px;
+  height: 240px;
+  border: 0;
+  border-radius: 8px;
+  background: #fff;
+  overflow: hidden;
+}
+.cp-link {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12.5px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--color-foreground);
+  text-decoration: none;
+  word-break: keep-all;
+}
+.cp-link:hover { color: var(--color-primary); text-decoration: underline; }
+@media (max-width: 420px) {
+  .cp-grid:has(.cp-card-banner) { justify-content: center; }
+}

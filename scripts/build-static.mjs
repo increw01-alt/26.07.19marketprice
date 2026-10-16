@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20261016-coupang1';
+const ASSET_VERSION = '20261016-coupang2';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -1074,6 +1074,17 @@ function coupangPanel(data) {
       // 파트너스 링크생성으로 만든 단축 URL 만 허용 — 일반 상품 URL 은 정산이 되지 않습니다.
       if (!url.startsWith('https://link.coupang.com/')) {
         throw new Error(`coupang.json: 파트너스 단축 URL(link.coupang.com)이 아닙니다: ${url}`);
+      }
+      const banner = String(item.banner || '');
+      if (banner) {
+        // 쿠팡 파트너스가 제공하는 공식 배너(iframe) — 이미지·가격을 쿠팡이 직접 그려 항상 최신입니다.
+        if (!banner.startsWith('https://coupa.ng/')) {
+          throw new Error(`coupang.json: 배너 주소는 https://coupa.ng/ 로 시작해야 합니다: ${banner}`);
+        }
+        return `<li class="cp-card cp-card-banner">
+  <iframe class="cp-frame" src="${safeHttpUrl(banner)}" width="120" height="240" frameborder="0" scrolling="no" referrerpolicy="unsafe-url" loading="lazy" title="쿠팡 상품 배너: ${esc(name)}"></iframe>
+  <a class="cp-link" href="${safeHttpUrl(url)}" target="_blank" rel="sponsored nofollow noopener">${esc(name)}</a>
+</li>`;
       }
       return `<li class="cp-card">
   <span class="cp-brand">coupang</span>
