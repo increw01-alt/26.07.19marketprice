@@ -1,9 +1,75 @@
 {
-  "updatedAt": "2026-10-17T01:38:42+09:00",
+  "updatedAt": "2026-10-17T04:57:40+09:00",
   "deals": [
     {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108106",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-16T19:06:31.000Z"
+    },
+    {
+      "title": "일일적립, 클릭 39원, 라이브예고 3원",
+      "mall": "네이버페이",
+      "price": 3,
+      "cat": "쿠폰·상품권",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108105",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-16T17:43:34.000Z"
+    },
+    {
+      "title": "펩시콜라 제로슈거 라임향 355ml 48캔",
+      "mall": "롯데온",
+      "price": 25760,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740836",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T17:28:02.000Z"
+    },
+    {
+      "title": "1+1 샤오미 미지아 자동 거품 손세정기 1S",
+      "mall": "옥션",
+      "price": 32500,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740835",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T17:16:37.000Z"
+    },
+    {
+      "title": "알뜰요금제 11gb +2gb+3mbps +밀리의서재 유심무료",
+      "mall": "비즈인알뜰요금제",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740834",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T17:07:10.000Z"
+    },
+    {
+      "title": "아이더 남녀 후드 탈부착 패딩",
+      "mall": "G마켓",
+      "price": 72250,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740833",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T16:55:03.000Z"
+    },
+    {
       "title": "양반 김부각 3종 새우김부각 마늘김부각 김부각 총 6개",
-      "mall": null,
+      "mall": "G마켓",
       "price": 12150,
       "cat": "식품",
       "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740832",
@@ -143,50 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-16T15:22:13.000Z"
-    },
-    {
-      "title": "삼다수 2L 24페트+500mL 20페트 증정",
-      "mall": "롯데온",
-      "price": 21700,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740821",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T15:16:48.000Z"
-    },
-    {
-      "title": "skt망 100GB+5Mbps",
-      "mall": "A모바일",
-      "price": 2900,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740820",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T15:12:31.000Z"
-    },
-    {
-      "title": "국내가공 주문진 백진미 오징어채 800g",
-      "mall": "오늘의집",
-      "price": 16836,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740819",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T15:10:21.000Z"
-    },
-    {
-      "title": "퍼실 딥클린 라벤더 액체세제 2.5L 4개 + 300ml 증정",
-      "mall": "오늘의집",
-      "price": 45280,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740818",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T15:10:06.000Z"
     },
     {
       "title": "매일두유 8종 99.9/고단백 등 48개 골라담기 23000원대",
@@ -561,28 +583,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-15T15:10:01.000Z"
-    },
-    {
-      "title": "Agent A - 숨겨진 퍼즐",
-      "mall": "에픽모바일",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108077",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-15T15:01:14.000Z"
-    },
-    {
-      "title": "Agent A - 숨겨진 퍼즐",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108076",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-15T15:00:02.000Z"
     },
     {
       "title": "이니스프리 그린티 씨드 히알루론산 보습 속건조 수분크림 50ml, 1개, [더블구성] 이니스프리 그린티 씨드 히알루론산 보습 속건조 수분크림 50ml, 2개",
