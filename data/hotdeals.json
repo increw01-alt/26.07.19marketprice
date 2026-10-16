@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-17T04:57:40+09:00",
+  "updatedAt": "2026-10-17T07:51:10+09:00",
   "deals": [
+    {
+      "title": "iOS 일시무료 Dog Weather",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81762",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-16T22:44:51.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Treser",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81761",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-16T22:36:52.000Z"
+    },
+    {
+      "title": "식재료에 따라 나눠쓰는 파스텔 주방가위 4개",
+      "mall": "SK스토아",
+      "price": 13410,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740838",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T22:33:51.000Z"
+    },
+    {
+      "title": "번개표 개별형 멀티탭, 화이트, 3구, 1.5m",
+      "mall": "토스",
+      "price": 5300,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740837",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-16T21:29:10.000Z"
+    },
     {
       "title": "라방 랜덤 5원",
       "mall": "네이버페이",
@@ -44,28 +88,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-16T17:16:37.000Z"
-    },
-    {
-      "title": "알뜰요금제 11gb +2gb+3mbps +밀리의서재 유심무료",
-      "mall": "비즈인알뜰요금제",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740834",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T17:07:10.000Z"
-    },
-    {
-      "title": "아이더 남녀 후드 탈부착 패딩",
-      "mall": "G마켓",
-      "price": 72250,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740833",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-16T16:55:03.000Z"
     },
     {
       "title": "양반 김부각 3종 새우김부각 마늘김부각 김부각 총 6개",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-14T21:44:28.000Z"
-    },
-    {
-      "title": "10-15 네이버페이 78원 + 랜덤 포인트",
-      "mall": null,
-      "price": 78,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/81662",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-14T15:27:54.000Z"
-    },
-    {
-      "title": "iOS 일시무료 Duocamly",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81658",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-14T13:55:53.000Z"
     }
   ]
 }
