@@ -15,7 +15,7 @@ const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20260928-car-refresh42';
+const ASSET_VERSION = '20261016-coupang1';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -932,6 +932,14 @@ const [markets, dept, manualGift, lotto, oil, rates, hotdeals, realestate, carSa
   readJson('data/used-car-sales.json'),
 ]);
 
+// 쿠팡 파트너스 코너(핫딜 페이지) — 파일이 없거나 항목이 비면 코너를 렌더하지 않습니다.
+let coupang = { items: [] };
+try {
+  coupang = await readJson('data/coupang.json');
+} catch {
+  coupang = { items: [] };
+}
+
 for (const [label, value, key] of [
   ['markets', markets, 'items'],
   ['giftcards-dept', dept, 'items'],
@@ -1051,6 +1059,39 @@ const manualNote = pricedManual.length
   ? `수동 관리 데이터입니다. 최종 갱신: ${formatStamp(manualGift.updatedAt)}`
   : '문화상품권·해피머니·온라인 캐시 등은 업체가 시세를 공개하지 않아 수동으로 입력합니다. 현재 확인 가능한 시세가 없습니다.';
 
+/** 쿠팡 파트너스 코너 — 고지문은 공정위 심사지침에 따라 링크 바로 위에 둡니다. */
+function coupangPanel(data) {
+  const items = Array.isArray(data?.items) ? data.items : [];
+  if (!items.length) return '<!-- 쿠팡 파트너스 상품 없음 -->';
+  const disclosure = String(
+    data.disclosure || '이 포스팅은 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다.',
+  );
+  const cards = items
+    .map((item) => {
+      const name = String(item.name || '').trim();
+      const url = String(item.url || '');
+      if (!name) throw new Error('coupang.json: 상품명이 비어 있습니다.');
+      // 파트너스 링크생성으로 만든 단축 URL 만 허용 — 일반 상품 URL 은 정산이 되지 않습니다.
+      if (!url.startsWith('https://link.coupang.com/')) {
+        throw new Error(`coupang.json: 파트너스 단축 URL(link.coupang.com)이 아닙니다: ${url}`);
+      }
+      return `<li class="cp-card">
+  <span class="cp-brand">coupang</span>
+  <strong class="cp-name">${esc(name)}</strong>
+  <a class="cp-btn" href="${safeHttpUrl(url)}" target="_blank" rel="sponsored nofollow noopener">쿠팡에서 보기</a>
+</li>`;
+    })
+    .join('\n');
+  return `<section class="panel coupang-panel" aria-labelledby="coupang-title">
+  <h2 id="coupang-title">쿠팡 추천 상품 <span class="tag">쿠팡 파트너스</span></h2>
+  <p class="cp-disclosure">${esc(disclosure)}</p>
+  <ul class="cp-grid">
+${cards}
+  </ul>
+  <p class="note">가격·재고는 쿠팡에서 실시간으로 확인하세요. 파트너스 링크로 구매해도 구매자에게 추가 비용은 없습니다.</p>
+</section>`;
+}
+
 const renderPlan = {
   'index.html': [
     ['hero-live', HOME_RENDER.heroLive(homeData)],
@@ -1092,6 +1133,7 @@ const renderPlan = {
     ['gift-rows', manualGiftRows(manualGift)],
     ['giftcard-faq', giftCardFaqHtml()],
   ],
+  'hotdeal.html': [['coupang', coupangPanel(coupang)]],
 };
 
 const shellPlan = {
