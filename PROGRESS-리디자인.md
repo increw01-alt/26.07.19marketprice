@@ -63,8 +63,9 @@
 - 승인용 스크린샷: Chrome 헤드리스로 라이브 /hotdeal 캡처(`coupang-partners-screenshot.png`, git 제외).
 
 ## ✅ 상품권 페이지 개선 P1 완료 (2026-10-16)
-- **수집 거래소 2→10곳**: 씨티페이·최고·미래·명인(파서 수리)·우천(EUC-KR)·월드티켓·엑스이·중앙(아임웹)·
-  우리에스티(EUC-KR)·상품권백화점. `scripts/fetch-giftcards-dept.mjs` SHOPS 에 `encoding` 옵션,
+- **수집 거래소 2→7곳(러너 기준)**: 씨티페이·최고·미래·월드티켓·엑스이·중앙(아임웹)·상품권백화점.
+  파서는 10곳분 있으나 명인(봇 차단 JS 챌린지)·우천·우리에스티(호스팅 해외 IP 차단)는 GitHub 러너에서
+  차단 페이지를 받아 SHOPS 에서 주석 처리(한국 IP 로컬에선 정상 — 정책 변경 시 해제). `scripts/fetch-giftcards-dept.mjs` SHOPS 에 `encoding` 옵션,
   `lib.getText(url, { encoding })`. 제외: 고고상품권(robots.txt 로 AI 봇 차단), 어즈티켓(Wix·불안정), 퍼스트티켓(도메인 사망).
 - **거래소×상품권 매트릭스**: `assets/giftcard-render.js`(프리렌더·브라우저 공용) — 셀마다 살 때/팔 때,
   열별 최저 판매·최고 매입 강조, 액면가 전환 시 재렌더(`?face=`), 업체명 링크.

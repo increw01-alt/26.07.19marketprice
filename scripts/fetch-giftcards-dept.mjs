@@ -10,12 +10,15 @@ const SHOPS = [
   { id: 'citypay', name: '씨티페이', site: 'https://city-pay.co.kr/', url: 'https://city-pay.co.kr/', parse: parseCitypay },
   { id: 'choigo', name: '최고상품권', site: 'https://www.choigoticket.com/', url: 'https://www.choigoticket.com/html/sub0101.php', parse: parseTable3 },
   { id: 'meee', name: '미래상품권', site: 'https://meee.co.kr/', url: 'https://meee.co.kr/', parse: parseMeee },
-  { id: 'mingren', name: '명인상품권', site: 'https://mingren.co.kr/', url: 'https://mingren.co.kr/', parse: parseMingren },
-  { id: 'wooticket', name: '우천상품권', site: 'http://www.wooticket.com/', url: 'http://www.wooticket.com/price_status.php', encoding: 'euc-kr', parse: parseWooticket },
+  // 봇 차단 JS 쿠키 챌린지(해외 IP) — GitHub 러너에서 수집 불가(한국 IP 에선 정상). 정책이 바뀌면 주석 해제.
+  // { id: 'mingren', name: '명인상품권', site: 'https://mingren.co.kr/', url: 'https://mingren.co.kr/', parse: parseMingren },
+  // 호스팅 해외 IP 차단 — GitHub 러너에서 수집 불가(한국 IP 에선 정상). 정책이 바뀌면 주석 해제.
+  // { id: 'wooticket', name: '우천상품권', site: 'http://www.wooticket.com/', url: 'http://www.wooticket.com/price_status.php', encoding: 'euc-kr', parse: parseWooticket },
   { id: 'worldticket', name: '월드티켓상품권', site: 'https://myeongdongworldticket.co.kr/', url: 'https://myeongdongworldticket.co.kr/sub/sub01_01.php', parse: parseWorldticket },
   { id: 'xegift', name: '엑스이상품권', site: 'http://xegift.co.kr/', url: 'http://xegift.co.kr/html/sub0101.php', parse: parseXegift },
   { id: 'centralgift', name: '중앙상품권', site: 'https://centralgift.imweb.me/', url: 'https://centralgift.imweb.me/', parse: parseCentralgift },
-  { id: 'woorist', name: '우리에스티', site: 'http://woorist.co.kr/', url: 'http://woorist.co.kr/happyshop/show_pricelist_woori.php', encoding: 'euc-kr', parse: parseWoorist },
+  // 호스팅 해외 IP 차단 — GitHub 러너에서 수집 불가(한국 IP 에선 정상). 정책이 바뀌면 주석 해제.
+  // { id: 'woorist', name: '우리에스티', site: 'http://woorist.co.kr/', url: 'http://woorist.co.kr/happyshop/show_pricelist_woori.php', encoding: 'euc-kr', parse: parseWoorist },
   { id: 'giftdept', name: '상품권백화점', site: 'http://www.xn--zf0bt1zcnd5pj69p6qc.com/', url: 'http://www.xn--zf0bt1zcnd5pj69p6qc.com/', parse: parseGiftdept },
 ];
 
