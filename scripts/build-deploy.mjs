@@ -10,6 +10,10 @@ const staging = path.join(root, '.dist-build');
 const backup = path.join(root, '.dist-backup');
 const checkOnly = process.argv.includes('--check');
 const INLINE_HASH_PLACEHOLDER = '__INLINE_SCRIPT_HASHES__';
+// 브라우저가 실행하는 스크립트 타입만 CSP 해시 대상입니다.
+const JS_SCRIPT_TYPES = new Set(['text/javascript', 'application/javascript', 'module', 'text/ecmascript', 'application/ecmascript']);
+// Cloudflare Pages _headers 는 한 줄 2,000자 초과 시 그 헤더를 조용히 버립니다.
+const HEADERS_LINE_LIMIT = 2000;
 // CSP 템플릿(플레이스홀더 보유)과 서빙본(_headers, 해시 렌더링됨)을 분리합니다.
 // Cloudflare Pages 가 저장소 루트를 서빙하므로 루트 _headers 도 렌더링본이어야 하고,
 // 다음 빌드가 다시 치환할 수 있도록 원본 플레이스홀더는 이 템플릿에 남습니다.
@@ -167,6 +171,11 @@ async function createTransforms(manifest) {
     const html = await readFile(absolute, 'utf8');
     for (const match of html.matchAll(inlineScript)) {
       if (/\bsrc\s*=/i.test(match[1]) || !match[2].trim()) continue;
+      // JSON-LD 같은 데이터 블록은 실행되지 않아 CSP 해시가 필요 없습니다.
+      // (페이지마다 달라 해시가 수십 개로 불어나면 Cloudflare 의 줄 길이 한도를 넘깁니다)
+      const typeMatch = /\btype\s*=\s*["']?([^"'\s>]+)/i.exec(match[1]);
+      const type = (typeMatch?.[1] || '').toLowerCase();
+      if (type && !JS_SCRIPT_TYPES.has(type)) continue;
       const digest = createHash('sha256').update(match[2], 'utf8').digest('base64');
       hashes.add(`'sha256-${digest}'`);
     }
@@ -180,6 +189,13 @@ async function createTransforms(manifest) {
     INLINE_HASH_PLACEHOLDER,
     [...hashes].sort().join(' ')
   );
+  for (const line of renderedHeaders.split('\n')) {
+    if (line.length > HEADERS_LINE_LIMIT) {
+      throw new Error(
+        `_headers 줄이 ${line.length}자로 Cloudflare 한도(${HEADERS_LINE_LIMIT})를 넘습니다 — 배포되면 이 헤더가 통째로 무시됩니다: ${line.slice(0, 60)}…`,
+      );
+    }
+  }
   if (renderedHeaders.includes(INLINE_HASH_PLACEHOLDER)) {
     throw new Error('Inline CSP hash placeholder was not fully rendered.');
   }
