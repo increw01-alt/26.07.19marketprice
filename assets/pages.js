@@ -568,15 +568,24 @@ function renderDept() {
       </article>`;
     })
     .join('');
+
+  // 거래소 × 상품권 매트릭스 — 프리렌더와 같은 렌더러(giftcard-render.js)
+  const R = globalThis.MODOO_GIFT_RENDER;
+  const matrix = $('#dept-matrix');
+  if (R && matrix) matrix.innerHTML = R.deptMatrix(dept.items, dept.shops, face);
 }
 
 function renderManualGift(data) {
   const priced = data.items.filter((i) => typeof i.rate === 'number');
-  $('#gift-note').textContent = priced.length
-    ? `수동 관리 데이터입니다. 최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`
-    : '문화상품권·해피머니 등은 업체가 시세를 공개하지 않아 수동으로 입력합니다. data/giftcards.json 의 rate 값을 채우면 표시됩니다.';
+  const section = $('#manual-gift');
+  if (!priced.length) {
+    section?.remove(); // 확인 가능한 시세가 없으면 빈 표를 보여주지 않습니다
+    return;
+  }
+  if (!section) return; // 프리렌더에 없던 항목은 다음 빌드에서 반영됩니다
+  $('#gift-note').textContent = `수동 관리 데이터입니다. 최종 갱신: ${new Date(data.updatedAt).toLocaleString('ko-KR')}`;
 
-  $('#tbl-gift tbody').innerHTML = data.items
+  $('#tbl-gift tbody').innerHTML = priced
     .map((i) => {
       const has = typeof i.rate === 'number';
       return `<tr>

@@ -7,7 +7,12 @@ export async function getJSON(url, init = {}) {
 }
 
 export async function getText(url, init = {}) {
-  return (await get(url, init)).text();
+  const res = await get(url, init);
+  // EUC-KR 등 비 UTF-8 페이지: init.encoding 으로 디코더를 지정합니다.
+  if (init.encoding && init.encoding.toLowerCase() !== 'utf-8') {
+    return new TextDecoder(init.encoding).decode(new Uint8Array(await res.arrayBuffer()));
+  }
+  return res.text();
 }
 
 async function get(url, init = {}, tries = 3) {

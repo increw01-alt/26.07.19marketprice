@@ -5295,3 +5295,41 @@ body[data-page='hotdeal'] .deal.internal-tilt-card:is(:hover, :focus-within) .de
 @media (max-width: 420px) {
   .cp-grid:has(.cp-card-banner) { justify-content: center; }
 }
+
+/* ============================================================
+   상품권 페이지 — 거래소 × 상품권 매트릭스 (2026-10)
+   ============================================================ */
+.dept-matrix { margin-top: 22px; }
+.mx-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px 10px;
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-weight: 800;
+}
+.mx-title small { font-size: 12px; font-weight: 500; color: var(--color-muted-fg); }
+.mx-table th[scope="row"] {
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap;
+  position: sticky;
+  left: 0;
+  background: var(--color-surface);
+  z-index: 1;
+}
+.mx-table thead th:first-child { position: sticky; left: 0; background: var(--color-surface); z-index: 2; }
+.mx-table tbody tr:hover th[scope="row"] { background: var(--color-surface-2); }
+.mx-table td.num { white-space: nowrap; font-variant-numeric: tabular-nums; vertical-align: top; }
+.mx-sell, .mx-buy {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+  gap: 6px;
+  line-height: 1.4;
+}
+.mx-sell small, .mx-buy small { font-size: 10.5px; font-weight: 600; color: var(--color-muted-fg); }
+.mx-sell.is-best, .mx-buy.is-best { color: var(--color-accent-strong); font-weight: 800; }
+.mx-na, .mx-empty { color: var(--color-muted-fg); }
+.mx-note { margin-top: 8px; }

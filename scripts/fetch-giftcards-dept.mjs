@@ -169,7 +169,7 @@ async function main() {
 
   for (const shop of SHOPS) {
     try {
-      const html = await getText(shop.url);
+      const html = await getText(shop.url, shop.encoding ? { encoding: shop.encoding } : {});
       const parsed = shop.parse(html);
       if (!parsed.length) throw new Error('파싱 결과 0건 — 페이지 구조가 바뀌었을 수 있습니다');
 

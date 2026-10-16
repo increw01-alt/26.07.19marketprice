@@ -14,8 +14,9 @@ const require = createRequire(import.meta.url);
 const SITE_CONFIG = require('../assets/site-config.js');
 // 홈 화면 렌더러 — 프리렌더와 브라우저 하이드레이션이 같은 코드를 씁니다.
 const HOME_RENDER = require('../assets/home-render.js');
+const GIFT_RENDER = require('../assets/giftcard-render.js');
 const checkOnly = process.argv.includes('--check');
-const ASSET_VERSION = '20261016-coupang2';
+const ASSET_VERSION = '20261016-gift1';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
 
 const esc = (value) =>
@@ -1059,6 +1060,24 @@ const manualNote = pricedManual.length
   ? `수동 관리 데이터입니다. 최종 갱신: ${formatStamp(manualGift.updatedAt)}`
   : '문화상품권·해피머니·온라인 캐시 등은 업체가 시세를 공개하지 않아 수동으로 입력합니다. 현재 확인 가능한 시세가 없습니다.';
 
+/** 기타 상품권(수동 입력) — 확인 가능한 시세가 있을 때만 섹션을 렌더합니다. */
+function manualGiftSection(data) {
+  const priced = (data?.items || []).filter((item) => typeof item.rate === 'number');
+  if (!priced.length) return '<!-- 기타 상품권: 확인 가능한 시세 없음 -->';
+  return `<section class="panel" id="manual-gift">
+  <h2>기타 상품권 <span class="tag">수동 입력</span></h2>
+  <p class="note" id="gift-note">${esc(manualNote)}</p>
+  <div class="table-scroll">
+    <table class="tbl" id="tbl-gift">
+      <thead><tr><th>상품권</th><th class="num">액면가</th><th class="num">매입률</th><th class="num">실수령 예상</th></tr></thead>
+      <tbody>
+${manualGiftRows({ items: priced })}
+      </tbody>
+    </table>
+  </div>
+</section>`;
+}
+
 /** 쿠팡 파트너스 코너 — 고지문은 공정위 심사지침에 따라 링크 바로 위에 둡니다. */
 function coupangPanel(data) {
   const items = Array.isArray(data?.items) ? data.items : [];
@@ -1139,9 +1158,9 @@ const renderPlan = {
     ['dept-note', deptNote],
     ['face-seg', faceButtons],
     ['grid-dept', deptCards(dept.items, defaultFace)],
+    ['dept-matrix', GIFT_RENDER.deptMatrix(dept.items, dept.shops, defaultFace)],
     ['dept-sources', sourceRows],
-    ['gift-note', manualNote],
-    ['gift-rows', manualGiftRows(manualGift)],
+    ['manual-gift', manualGiftSection(manualGift)],
     ['giftcard-faq', giftCardFaqHtml()],
   ],
   'hotdeal.html': [['coupang', coupangPanel(coupang)]],
