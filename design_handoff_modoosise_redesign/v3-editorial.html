@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=1440" />
+<title>모두의시세 · Editorial</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,900&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#f6f2ea;
+  --paper-2:#efe9dd;
+  --paper-3:#e8e1d1;
+  --ink:#1a1614;
+  --ink-2:#3a342e;
+  --dim:#7a726a;
+  --dim-2:#a49b90;
+  --line:#d9d0be;
+  --line-2:#c4b8a2;
+  --accent:#c8321f;     /* FT-like red */
+  --accent-dark:#8a1e10;
+  --up:#0a7a4a;
+  --down:#c8321f;
+  --gold:#a8811a;
+  --serif: 'Fraunces', 'Georgia', serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+}
+*{box-sizing:border-box; margin:0; padding:0}
+html,body{background:var(--paper); color:var(--ink); font-family:var(--sans); font-size:14px; line-height:1.5; -webkit-font-smoothing:antialiased}
+body{
+  background-image:
+    repeating-linear-gradient(0deg, transparent 0px, transparent 2px, rgba(0,0,0,0.008) 2px, rgba(0,0,0,0.008) 4px);
+}
+button{font:inherit; color:inherit; background:none; border:none; cursor:pointer}
+a{color:inherit; text-decoration:none}
+.up{color:var(--up)}
+.down{color:var(--down)}
+.mono{font-family:var(--mono)}
+
+/* TOP STRIP */
+.topstrip{
+  display:flex; align-items:center; height:32px; padding:0 32px;
+  background:var(--ink); color:var(--paper);
+  font-family:var(--mono); font-size:11px; letter-spacing:0.05em;
+  gap:24px;
+}
+.topstrip .brand-tag{color:var(--paper); font-weight:600; letter-spacing:0.15em}
+.topstrip .item{color:var(--dim-2)}
+.topstrip .right{margin-left:auto; display:flex; gap:20px}
+.topstrip a:hover{color:var(--paper-2)}
+
+/* MASTHEAD */
+.masthead{
+  padding:24px 32px 20px; border-bottom:2px solid var(--ink);
+  display:flex; align-items:end; gap:32px;
+}
+.masthead-title{
+  font-family:var(--serif); font-weight:900; font-size:56px;
+  letter-spacing:-0.03em; line-height:0.9; color:var(--ink);
+}
+.masthead-title .sub{
+  display:block; font-family:var(--sans); font-weight:500; font-size:12px;
+  color:var(--dim); letter-spacing:0.2em; text-transform:uppercase;
+  margin-top:8px;
+}
+.masthead-meta{
+  margin-left:auto; text-align:right; font-family:var(--mono); font-size:11px; color:var(--ink-2);
+  line-height:1.6;
+}
+.masthead-meta .date{font-size:13px; color:var(--ink); font-weight:600}
+.masthead-meta .edition{color:var(--accent); font-weight:600; letter-spacing:0.1em}
+
+/* NAV */
+.nav{
+  display:flex; align-items:center; padding:0 32px; height:44px;
+  border-bottom:1px solid var(--ink); background:var(--paper-2);
+  gap:2px; overflow-x:auto;
+}
+.nav-tab{
+  padding:0 14px; height:100%; display:flex; align-items:center;
+  font-size:13px; font-weight:500; color:var(--ink-2);
+  border-right:1px solid var(--line-2); white-space:nowrap;
+  position:relative;
+}
+.nav-tab:hover{background:var(--paper)}
+.nav-tab.active{background:var(--ink); color:var(--paper); font-weight:600}
+.nav-tab.active::after{content:''; position:absolute; bottom:-1px; left:0; right:0; height:2px; background:var(--accent)}
+.nav-search{margin-left:auto; padding:0 16px; font-family:var(--mono); font-size:11px; color:var(--dim); display:flex; align-items:center; gap:8px}
+
+/* TICKER STRIP (subtle) */
+.ticker-band{
+  background:var(--paper-3); border-bottom:1px solid var(--line-2);
+  height:34px; overflow:hidden; position:relative; display:flex; align-items:center;
+}
+.ticker-band .label{
+  padding:0 12px; height:100%; display:flex; align-items:center;
+  background:var(--accent); color:var(--paper);
+  font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:0.15em;
+  z-index:2;
+}
+.ticker-band .track{
+  display:inline-flex; animation:tk 100s linear infinite; white-space:nowrap;
+  padding-left:16px;
+}
+.ticker-band .ti{
+  display:inline-flex; align-items:center; gap:8px; padding:0 18px;
+  border-right:1px solid var(--line);
+  font-size:12px; height:34px;
+}
+.ticker-band .ti .n{color:var(--dim); font-weight:500}
+.ticker-band .ti .v{font-family:var(--mono); color:var(--ink); font-weight:500}
+.ticker-band .ti .c{font-family:var(--mono); font-weight:600; font-size:11px}
+@keyframes tk{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
+}
+
+/* MAIN LAYOUT */
+.container{max-width:1400px; margin:0 auto; padding:32px}
+
+/* HERO STORY (like FT front page) */
+.hero{
+  display:grid; grid-template-columns: 2fr 1fr 1fr; gap:32px;
+  padding-bottom:32px; border-bottom:1px solid var(--line);
+  margin-bottom:32px;
+}
+
+.hero-lead{
+  padding-right:32px; border-right:1px solid var(--line);
+}
+.hero-lead .kicker{
+  font-family:var(--mono); font-size:11px; color:var(--accent);
+  font-weight:700; letter-spacing:0.15em; margin-bottom:12px;
+}
+.hero-lead .head{
+  font-family:var(--serif); font-weight:700; font-size:44px;
+  line-height:1.05; letter-spacing:-0.02em; margin-bottom:16px;
+  color:var(--ink);
+}
+.hero-lead .head em{font-style:italic; font-weight:500; color:var(--accent)}
+.hero-lead .lede{
+  font-size:15px; color:var(--ink-2); line-height:1.6; margin-bottom:20px;
+  max-width:56ch;
+}
+.hero-price-block{
+  display:flex; align-items:baseline; gap:14px; margin-bottom:16px;
+  padding:16px 0; border-top:1px solid var(--ink); border-bottom:1px solid var(--line);
+}
+.hero-price{font-family:var(--serif); font-weight:600; font-size:42px; letter-spacing:-0.02em; color:var(--ink)}
+.hero-unit{font-family:var(--mono); font-size:12px; color:var(--dim)}
+.hero-chg{font-family:var(--mono); font-size:14px; font-weight:600; padding:4px 8px; border:1px solid var(--up); color:var(--up)}
+.hero-chg.down{border-color:var(--down); color:var(--down)}
+.hero-chart{height:120px}
+
+.hero-side{padding-right:24px; border-right:1px solid var(--line)}
+.hero-side:last-child{border-right:none; padding-right:0}
+.side-kicker{font-family:var(--mono); font-size:10px; color:var(--dim); letter-spacing:0.12em; margin-bottom:10px; padding-bottom:8px; border-bottom:1px solid var(--line-2)}
+.side-headline{font-family:var(--serif); font-weight:600; font-size:22px; line-height:1.15; letter-spacing:-0.01em; margin-bottom:10px}
+.side-num{font-family:var(--serif); font-weight:600; font-size:32px; letter-spacing:-0.02em; margin-bottom:2px}
+.side-num-sub{font-family:var(--mono); font-size:11px; color:var(--ink-2)}
+.side-num-chg{font-family:var(--mono); font-size:12px; font-weight:600; margin-top:2px}
+.side-body{font-size:13px; color:var(--ink-2); line-height:1.55; margin-top:10px}
+.side-list{margin-top:14px; padding-top:12px; border-top:1px dashed var(--line-2)}
+.side-list-row{display:flex; justify-content:space-between; align-items:baseline; padding:4px 0; font-family:var(--mono); font-size:12px}
+.side-list-row .k{color:var(--dim)}
+
+/* SECTION HEADERS */
+.section-head{
+  display:flex; align-items:baseline; padding-bottom:12px; margin-bottom:20px;
+  border-bottom:2px solid var(--ink);
+}
+.section-head .num{
+  font-family:var(--mono); font-size:11px; color:var(--accent);
+  font-weight:700; letter-spacing:0.15em; margin-right:12px;
+}
+.section-head .title{font-family:var(--serif); font-weight:700; font-size:28px; letter-spacing:-0.02em}
+.section-head .sub{font-size:13px; color:var(--dim); margin-left:14px}
+.section-head .right{margin-left:auto; display:flex; gap:6px}
+.chip{padding:4px 10px; background:var(--paper-2); border:1px solid var(--line); font-size:11px; color:var(--ink-2); font-family:var(--mono)}
+.chip.on{background:var(--ink); color:var(--paper); border-color:var(--ink)}
+
+/* SECTION BLOCK */
+.section{margin-bottom:48px}
+
+/* GIFTCARD FEATURED (front page style) */
+.gc-feature{
+  background:var(--paper-2); border:1px solid var(--line);
+  padding:24px; margin-bottom:32px;
+  position:relative;
+}
+.gc-feature::before{
+  content:'STAR SECTION';
+  position:absolute; top:-1px; left:-1px; padding:4px 10px;
+  background:var(--accent); color:var(--paper);
+  font-family:var(--mono); font-size:10px; font-weight:700; letter-spacing:0.15em;
+}
+.gc-feature-head{padding-top:16px; padding-bottom:20px; border-bottom:1px solid var(--line); margin-bottom:20px}
+.gc-feature-title{font-family:var(--serif); font-weight:700; font-size:32px; letter-spacing:-0.02em}
+.gc-feature-lede{font-size:14px; color:var(--ink-2); margin-top:6px}
+.gc-grid{display:grid; grid-template-columns: repeat(4,1fr); gap:16px}
+.gc-card{
+  background:var(--paper); border:1px solid var(--line); padding:16px;
+  transition:all 0.15s;
+}
+.gc-card:hover{border-color:var(--ink); box-shadow:2px 2px 0 var(--ink)}
+.gc-name-row{display:flex; justify-content:space-between; align-items:baseline; margin-bottom:12px; padding-bottom:8px; border-bottom:1px dashed var(--line-2)}
+.gc-cname{font-family:var(--serif); font-weight:600; font-size:16px}
+.gc-face{font-family:var(--mono); font-size:10px; color:var(--dim)}
+.gc-big-rate{display:flex; align-items:baseline; gap:6px; margin-bottom:12px}
+.gc-big-rate .n{font-family:var(--serif); font-weight:600; font-size:32px; letter-spacing:-0.02em; color:var(--ink)}
+.gc-big-rate .u{font-size:14px; color:var(--dim)}
+.gc-big-rate .d{margin-left:auto; font-family:var(--mono); font-size:12px; font-weight:600}
+.gc-detail{display:flex; justify-content:space-between; font-family:var(--mono); font-size:11px; color:var(--ink-2); padding:3px 0}
+.gc-detail .buy{color:var(--up); font-weight:600}
+.gc-detail .sell{color:var(--down); font-weight:600}
+
+/* MARKETS GRID */
+.markets-grid{
+  display:grid; grid-template-columns: repeat(2, 1fr); gap:0;
+  border-top:1px solid var(--ink);
+}
+.mkt-block{
+  padding:20px 0; border-bottom:1px solid var(--line);
+  padding-right:32px;
+}
+.mkt-block:nth-child(2n){padding-right:0; padding-left:32px; border-left:1px solid var(--line)}
+.mkt-head{
+  display:flex; align-items:baseline; margin-bottom:14px;
+  padding-bottom:10px; border-bottom:1px dashed var(--line-2);
+}
+.mkt-title{font-family:var(--serif); font-weight:700; font-size:20px; letter-spacing:-0.01em}
+.mkt-sub{font-family:var(--mono); font-size:10px; color:var(--dim); margin-left:8px; letter-spacing:0.05em}
+.mkt-source{margin-left:auto; font-family:var(--mono); font-size:10px; color:var(--accent); letter-spacing:0.1em}
+
+/* TABLES (editorial style) */
+.etable{width:100%; border-collapse:collapse}
+.etable th{
+  text-align:left; padding:8px 0; font-family:var(--mono); font-size:10px;
+  color:var(--dim); font-weight:600; letter-spacing:0.1em;
+  border-bottom:1px solid var(--line);
+}
+.etable th.num{text-align:right}
+.etable td{padding:9px 0; border-bottom:1px dotted var(--line-2); font-size:13px; vertical-align:middle}
+.etable td.num{text-align:right; font-family:var(--mono); font-weight:500}
+.etable tr:last-child td{border-bottom:none}
+.etable .sym{font-weight:600; font-family:var(--serif); font-size:14px}
+.etable .desc{font-size:11px; color:var(--dim); margin-top:1px}
+.pct-cell{font-family:var(--mono); font-weight:600; font-size:12px}
+
+/* HEATMAP FX */
+.fx-heatmap{display:grid; grid-template-columns: repeat(3,1fr); gap:1px; background:var(--line); border:1px solid var(--line)}
+.fx-cell{
+  background:var(--paper); padding:12px;
+  display:flex; flex-direction:column; gap:2px;
+}
+.fx-cell .flag{font-size:16px; margin-bottom:2px}
+.fx-cell .code{font-family:var(--mono); font-size:10px; color:var(--dim); letter-spacing:0.05em}
+.fx-cell .val{font-family:var(--serif); font-weight:600; font-size:18px; letter-spacing:-0.01em}
+.fx-cell .chg{font-family:var(--mono); font-size:11px; font-weight:600}
+
+/* CHART BOX */
+.chart-box{margin:14px 0; padding:14px; background:var(--paper-2); border:1px solid var(--line)}
+.chart-box svg{width:100%; height:180px}
+
+/* LOTTO */
+.lotto-feature{
+  display:grid; grid-template-columns: 1.4fr 1fr; gap:32px;
+  padding:24px; background:var(--ink); color:var(--paper);
+  border:1px solid var(--ink); margin-bottom:32px;
+}
+.lotto-feature .kicker{font-family:var(--mono); font-size:11px; color:var(--accent); letter-spacing:0.15em; font-weight:700; margin-bottom:10px}
+.lotto-feature .h{font-family:var(--serif); font-weight:700; font-size:32px; letter-spacing:-0.02em; margin-bottom:8px}
+.lotto-feature .sub{font-family:var(--mono); font-size:11px; color:var(--dim-2)}
+.lotto-balls-h{display:flex; gap:8px; align-items:center; margin:20px 0}
+.lball-h{
+  width:44px; height:44px; border-radius:50%;
+  display:flex; align-items:center; justify-content:center;
+  font-family:var(--serif); font-weight:700; font-size:18px; color:var(--ink);
+}
+.lb-y{background:#f0c848}
+.lb-b{background:#7dd3fc}
+.lb-r{background:#fb7185}
+.lb-g{background:#86efac}
+.lball-h.plus{background:transparent; color:var(--dim-2); font-size:24px}
+.lotto-stats{border-left:1px solid var(--dim); padding-left:24px}
+.lotto-stat-row{display:flex; justify-content:space-between; padding:8px 0; border-bottom:1px solid var(--dim); font-family:var(--mono); font-size:12px}
+.lotto-stat-row .k{color:var(--dim-2)}
+.lotto-stat-row .v{color:var(--paper); font-weight:600}
+.lotto-stat-row .v.hi{color:var(--accent); font-size:14px}
+
+/* NEWS EDITORIAL */
+.news-feature{display:grid; grid-template-columns: 2fr 1fr 1fr; gap:32px; padding-bottom:32px; border-bottom:1px solid var(--line)}
+.news-lead .kicker{font-family:var(--mono); font-size:10px; color:var(--accent); letter-spacing:0.15em; font-weight:700; margin-bottom:8px}
+.news-lead .h{font-family:var(--serif); font-weight:700; font-size:26px; line-height:1.15; margin-bottom:10px}
+.news-lead .b{font-size:13px; color:var(--ink-2); line-height:1.55; margin-bottom:10px}
+.news-lead .m{font-family:var(--mono); font-size:11px; color:var(--dim)}
+.news-item2{padding:10px 0; border-bottom:1px dashed var(--line-2)}
+.news-item2:last-child{border-bottom:none}
+.news-item2 .k{font-family:var(--mono); font-size:10px; color:var(--accent); letter-spacing:0.1em; margin-bottom:4px}
+.news-item2 .t{font-family:var(--serif); font-weight:600; font-size:15px; line-height:1.3}
+.news-item2 .m{font-family:var(--mono); font-size:10px; color:var(--dim); margin-top:4px}
+
+/* FOOTER */
+.footer{
+  padding:48px 32px 32px; margin-top:48px;
+  background:var(--ink); color:var(--paper-2);
+  text-align:center;
+}
+.footer-brand{font-family:var(--serif); font-weight:700; font-size:22px; letter-spacing:-0.01em; margin-bottom:8px}
+.footer-copy{font-size:12px; color:var(--dim-2); margin-bottom:16px}
+.footer-src{display:flex; justify-content:center; gap:20px; flex-wrap:wrap; font-family:var(--mono); font-size:11px; color:var(--dim-2); letter-spacing:0.05em; padding-top:16px; border-top:1px solid var(--ink-2)}
+
+</style>
+</head>
+<body>
+
+<!-- TOP STRIP -->
+<div class="topstrip">
+  <span class="brand-tag">MODOOSISE</span>
+  <span class="item">한국판 · 서울</span>
+  <span class="item">SUN 31 AUG 2026</span>
+  <span class="item">₩ 1,384.20 / $</span>
+  <div class="right">
+    <a>APP</a><a>알림</a><a>구독</a><a>API</a>
+  </div>
+</div>
+
+<!-- MASTHEAD -->
+<div class="masthead">
+  <div>
+    <div class="masthead-title">
+      모두의시세
+      <span class="sub">All Korean Markets, One Page.</span>
+    </div>
+  </div>
+  <div class="masthead-meta">
+    <div class="date">2026년 8월 31일 일요일</div>
+    <div>Vol. II · No. 243</div>
+    <div class="edition">EVENING EDITION · 17:56 KST</div>
+  </div>
+</div>
+
+<!-- NAV -->
+<nav class="nav">
+  <button class="nav-tab active">전체</button>
+  <button class="nav-tab">코인</button>
+  <button class="nav-tab">주식</button>
+  <button class="nav-tab">코스닥</button>
+  <button class="nav-tab">환율</button>
+  <button class="nav-tab">금·은</button>
+  <button class="nav-tab">유가</button>
+  <button class="nav-tab">지표</button>
+  <button class="nav-tab">상품권</button>
+  <button class="nav-tab">핫딜</button>
+  <button class="nav-tab">부동산</button>
+  <button class="nav-tab">로또</button>
+  <div class="nav-search">검색 · 종목 · 지역 · 상품권</div>
+</nav>
+
+<!-- TICKER -->
+<div class="ticker-band">
+  <div class="label">MARKETS ▸</div>
+  <div style="overflow:hidden; flex:1"><div class="track">
+    <span class="ti"><span class="n">BTC</span><span class="v">108,265,000</span><span class="c up">+0.22%</span></span>
+    <span class="ti"><span class="n">ETH</span><span class="v">4,752,000</span><span class="c up">+1.14%</span></span>
+    <span class="ti"><span class="n">KOSPI</span><span class="v">2,691.55</span><span class="c down">−0.34%</span></span>
+    <span class="ti"><span class="n">KOSDAQ</span><span class="v">778.42</span><span class="c up">+0.18%</span></span>
+    <span class="ti"><span class="n">USD/KRW</span><span class="v">1,384.20</span><span class="c down">−0.08%</span></span>
+    <span class="ti"><span class="n">JPY/KRW</span><span class="v">942.55</span><span class="c up">+0.24%</span></span>
+    <span class="ti"><span class="n">EUR/KRW</span><span class="v">1,502.80</span><span class="c up">+0.11%</span></span>
+    <span class="ti"><span class="n">금 /g</span><span class="v">156,720</span><span class="c up">+0.62%</span></span>
+    <span class="ti"><span class="n">은 /g</span><span class="v">1,890</span><span class="c down">−0.42%</span></span>
+    <span class="ti"><span class="n">WTI</span><span class="v">$71.42</span><span class="c up">+1.08%</span></span>
+    <span class="ti"><span class="n">휘발유 /L</span><span class="v">1,672원</span><span class="c up">+0.05%</span></span>
+    <span class="ti"><span class="n">문화상품권</span><span class="v">88.20%</span><span class="c down">−0.10</span></span>
+    <span class="ti"><span class="n">신세계</span><span class="v">95.40%</span><span class="c up">+0.30</span></span>
+    <!-- dup -->
+    <span class="ti"><span class="n">BTC</span><span class="v">108,265,000</span><span class="c up">+0.22%</span></span>
+    <span class="ti"><span class="n">ETH</span><span class="v">4,752,000</span><span class="c up">+1.14%</span></span>
+    <span class="ti"><span class="n">KOSPI</span><span class="v">2,691.55</span><span class="c down">−0.34%</span></span>
+    <span class="ti"><span class="n">KOSDAQ</span><span class="v">778.42</span><span class="c up">+0.18%</span></span>
+    <span class="ti"><span class="n">USD/KRW</span><span class="v">1,384.20</span><span class="c down">−0.08%</span></span>
+    <span class="ti"><span class="n">JPY/KRW</span><span class="v">942.55</span><span class="c up">+0.24%</span></span>
+    <span class="ti"><span class="n">EUR/KRW</span><span class="v">1,502.80</span><span class="c up">+0.11%</span></span>
+    <span class="ti"><span class="n">금 /g</span><span class="v">156,720</span><span class="c up">+0.62%</span></span>
+    <span class="ti"><span class="n">은 /g</span><span class="v">1,890</span><span class="c down">−0.42%</span></span>
+    <span class="ti"><span class="n">WTI</span><span class="v">$71.42</span><span class="c up">+1.08%</span></span>
+    <span class="ti"><span class="n">휘발유 /L</span><span class="v">1,672원</span><span class="c up">+0.05%</span></span>
+    <span class="ti"><span class="n">문화상품권</span><span class="v">88.20%</span><span class="c down">−0.10</span></span>
+    <span class="ti"><span class="n">신세계</span><span class="v">95.40%</span><span class="c up">+0.30</span></span>
+  </div></div>
+</div>
+
+<div class="container">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-lead">
+      <div class="kicker">TODAY'S MARKET · 헤드라인</div>
+      <h1 class="head">비트코인 <em>1억 800만원</em> 재돌파, ETF 순유입 지속</h1>
+      <p class="lede">아시아 세션 오후 반등에 힘입어 BTC/KRW가 1억 800만원선을 회복했다. 김치 프리미엄은 −0.4%로 좁혀졌고, 이더리움도 1% 이상 상승 마감. 코스피는 외국인 매도세에 약보합.</p>
+      <div class="hero-price-block">
+        <div>
+          <div style="font-family:var(--mono); font-size:11px; color:var(--dim); letter-spacing:0.1em">BTC/KRW · UPBIT</div>
+          <div style="display:flex; align-items:baseline; gap:12px; margin-top:4px">
+            <span class="hero-price">108,265,000</span>
+            <span class="hero-unit">원</span>
+            <span class="hero-chg">▲ 0.22%</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-chart">
+        <svg id="heroChart" viewBox="0 0 700 120" preserveAspectRatio="none" style="width:100%;height:100%"></svg>
+      </div>
+    </div>
+
+    <div class="hero-side">
+      <div class="side-kicker">KOSPI · 대표 지수</div>
+      <div class="side-num">2,691.55</div>
+      <div class="side-num-sub">전일 대비 −9.20p</div>
+      <div class="side-num-chg down">▼ 0.34%</div>
+      <p class="side-body">외국인 3거래일 연속 순매도. 반도체 대형주 부진에 지수 하락. 개인 매수세로 낙폭 제한.</p>
+      <div class="side-list">
+        <div class="side-list-row"><span class="k">KOSDAQ</span><span>778.42 <span class="up">+0.18%</span></span></div>
+        <div class="side-list-row"><span class="k">삼성전자</span><span>72,400 <span class="down">−0.55%</span></span></div>
+        <div class="side-list-row"><span class="k">SK하이닉스</span><span>184,500 <span class="down">−1.20%</span></span></div>
+        <div class="side-list-row"><span class="k">LG에너지솔루션</span><span>412,000 <span class="up">+0.88%</span></span></div>
+      </div>
+    </div>
+
+    <div class="hero-side">
+      <div class="side-kicker">USD/KRW · 환율</div>
+      <div class="side-num">1,384.20</div>
+      <div class="side-num-sub">전일 대비 −1.10원</div>
+      <div class="side-num-chg down">▼ 0.08%</div>
+      <p class="side-body">달러 인덱스 소폭 약세. 원화 강세로 1,385원 하회. 한은 기준금리 3.50% 동결.</p>
+      <div class="side-list">
+        <div class="side-list-row"><span class="k">100¥/₩</span><span>942.55 <span class="up">+0.24%</span></span></div>
+        <div class="side-list-row"><span class="k">EUR/₩</span><span>1,502.80 <span class="up">+0.11%</span></span></div>
+        <div class="side-list-row"><span class="k">CNY/₩</span><span>190.42 <span class="down">−0.05%</span></span></div>
+        <div class="side-list-row"><span class="k">DXY</span><span>102.84 <span class="down">−0.12%</span></span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GIFTCARD SPOTLIGHT -->
+  <section class="section">
+    <div class="gc-feature">
+      <div class="gc-feature-head">
+        <div style="display:flex; align-items:baseline; gap:12px">
+          <div style="font-family:var(--mono); font-size:11px; color:var(--accent); letter-spacing:0.15em; font-weight:700">GIFTCARD DESK</div>
+          <div class="mono" style="font-size:11px; color:var(--dim)">매입 · 판매 시세 · 6초 전 업데이트</div>
+        </div>
+        <h2 class="gc-feature-title">상품권 시세 — 매입가 대비 액면가율</h2>
+        <p class="gc-feature-lede">즐겨보시는 8개 상품권의 실시간 매입가·판매가. 시장 최고가 대비 스프레드까지.</p>
+      </div>
+      <div class="gc-grid">
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">신세계상품권</div><div class="gc-face">10만원</div></div>
+          <div class="gc-big-rate"><span class="n">95.40</span><span class="u">%</span><span class="d up">+0.30</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">95,400원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">97,200원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">문화상품권</div><div class="gc-face">1만원</div></div>
+          <div class="gc-big-rate"><span class="n">88.20</span><span class="u">%</span><span class="d down">−0.10</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">8,820원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">9,150원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">해피머니</div><div class="gc-face">1만원</div></div>
+          <div class="gc-big-rate"><span class="n">78.40</span><span class="u">%</span><span class="d up">+1.20</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">7,840원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">8,650원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">롯데백화점</div><div class="gc-face">10만원</div></div>
+          <div class="gc-big-rate"><span class="n">94.80</span><span class="u">%</span><span class="d up">+0.10</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">94,800원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">96,500원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">현대백화점</div><div class="gc-face">10만원</div></div>
+          <div class="gc-big-rate"><span class="n">95.10</span><span class="u">%</span><span class="d up">+0.20</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">95,100원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">96,800원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">도서문화</div><div class="gc-face">1만원</div></div>
+          <div class="gc-big-rate"><span class="n">86.50</span><span class="u">%</span><span class="d down">−0.40</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">8,650원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">9,240원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">GS25 편의점</div><div class="gc-face">1만원</div></div>
+          <div class="gc-big-rate"><span class="n">92.30</span><span class="u">%</span><span class="d up">+0.20</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">9,230원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">9,650원</span></div>
+        </div>
+        <div class="gc-card">
+          <div class="gc-name-row"><div class="gc-cname">스타벅스</div><div class="gc-face">3만원</div></div>
+          <div class="gc-big-rate"><span class="n">88.60</span><span class="u">%</span><span class="d">0.00</span></div>
+          <div class="gc-detail"><span>매입</span><span class="buy">26,580원</span></div>
+          <div class="gc-detail"><span>판매</span><span class="sell">28,200원</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKETS SECTION -->
+  <section class="section">
+    <div class="section-head">
+      <span class="num">§ 02</span>
+      <span class="title">Markets</span>
+      <span class="sub">암호화폐 · 주식 · 원자재</span>
+      <div class="right">
+        <span class="chip on">24H</span>
+        <span class="chip">1W</span>
+        <span class="chip">1M</span>
+        <span class="chip">YTD</span>
+      </div>
+    </div>
+
+    <div class="markets-grid">
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Cryptocurrency</span>
+          <span class="mkt-sub">/ UPBIT · KRW</span>
+          <span class="mkt-source">UPBIT</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>SYMBOL</th><th class="num">PRICE (₩)</th><th class="num">24H</th><th class="num">VOL (₩)</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sym">BTC</div><div class="desc">Bitcoin</div></td><td class="num">108,265,000</td><td class="num pct-cell up">+0.22%</td><td class="num">2.14조</td></tr>
+            <tr><td><div class="sym">ETH</div><div class="desc">Ethereum</div></td><td class="num">4,752,000</td><td class="num pct-cell up">+1.14%</td><td class="num">1.02조</td></tr>
+            <tr><td><div class="sym">SOL</div><div class="desc">Solana</div></td><td class="num">238,400</td><td class="num pct-cell up">+3.42%</td><td class="num">6,420억</td></tr>
+            <tr><td><div class="sym">XRP</div><div class="desc">Ripple</div></td><td class="num">824</td><td class="num pct-cell down">−1.08%</td><td class="num">5,210억</td></tr>
+            <tr><td><div class="sym">DOGE</div><div class="desc">Dogecoin</div></td><td class="num">184</td><td class="num pct-cell up">+2.24%</td><td class="num">4,180억</td></tr>
+            <tr><td><div class="sym">ADA</div><div class="desc">Cardano</div></td><td class="num">628</td><td class="num pct-cell down">−0.42%</td><td class="num">3,040억</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Korean Equities</span>
+          <span class="mkt-sub">/ KOSPI 시가총액 상위</span>
+          <span class="mkt-source">KRX</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>종목</th><th class="num">종가</th><th class="num">등락</th><th class="num">거래량</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sym">삼성전자</div><div class="desc">005930</div></td><td class="num">72,400</td><td class="num pct-cell down">−0.55%</td><td class="num">14.2M</td></tr>
+            <tr><td><div class="sym">SK하이닉스</div><div class="desc">000660</div></td><td class="num">184,500</td><td class="num pct-cell down">−1.20%</td><td class="num">5.8M</td></tr>
+            <tr><td><div class="sym">LG에너지솔루션</div><div class="desc">373220</div></td><td class="num">412,000</td><td class="num pct-cell up">+0.88%</td><td class="num">0.9M</td></tr>
+            <tr><td><div class="sym">현대차</div><div class="desc">005380</div></td><td class="num">248,500</td><td class="num pct-cell up">+0.61%</td><td class="num">2.1M</td></tr>
+            <tr><td><div class="sym">삼성바이오로직스</div><div class="desc">207940</div></td><td class="num">942,000</td><td class="num pct-cell down">−0.32%</td><td class="num">0.2M</td></tr>
+            <tr><td><div class="sym">기아</div><div class="desc">000270</div></td><td class="num">108,400</td><td class="num pct-cell up">+0.28%</td><td class="num">1.8M</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Precious Metals</span>
+          <span class="mkt-sub">/ 원/g</span>
+          <span class="mkt-source">KRX · LBMA</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>상품</th><th class="num">시세</th><th class="num">변동</th><th class="num">USD</th></tr></thead>
+          <tbody>
+            <tr><td><div class="sym">금 999.9</div></td><td class="num">156,720</td><td class="num pct-cell up">+0.62%</td><td class="num">$2,684</td></tr>
+            <tr><td><div class="sym">금 24K</div></td><td class="num">155,880</td><td class="num pct-cell up">+0.58%</td><td class="num">—</td></tr>
+            <tr><td><div class="sym">금 18K</div></td><td class="num">116,540</td><td class="num pct-cell up">+0.62%</td><td class="num">—</td></tr>
+            <tr><td><div class="sym">은 999</div></td><td class="num">1,890</td><td class="num pct-cell down">−0.42%</td><td class="num">$32.4</td></tr>
+            <tr><td><div class="sym">백금</div></td><td class="num">45,120</td><td class="num pct-cell up">+0.18%</td><td class="num">$978</td></tr>
+            <tr><td><div class="sym">팔라듐</div></td><td class="num">48,240</td><td class="num pct-cell down">−1.24%</td><td class="num">$1,042</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Energy · Oil</span>
+          <span class="mkt-sub">/ 전국 주유소</span>
+          <span class="mkt-source">OPINET</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>지역</th><th class="num">휘발유(원/L)</th><th class="num">경유</th><th class="num">LPG</th></tr></thead>
+          <tbody>
+            <tr><td class="sym">전국평균</td><td class="num">1,672</td><td class="num">1,548</td><td class="num">1,062</td></tr>
+            <tr><td class="sym">서울</td><td class="num">1,742</td><td class="num">1,624</td><td class="num">1,102</td></tr>
+            <tr><td class="sym">부산</td><td class="num">1,668</td><td class="num">1,542</td><td class="num">1,058</td></tr>
+            <tr><td class="sym">경기</td><td class="num">1,684</td><td class="num">1,556</td><td class="num">1,068</td></tr>
+            <tr><td class="sym">제주 (최고)</td><td class="num up">1,724</td><td class="num">1,608</td><td class="num">1,088</td></tr>
+            <tr><td class="sym">최저가 지역</td><td class="num down">1,592</td><td class="num">1,468</td><td class="num">1,024</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- FX HEATMAP -->
+  <section class="section">
+    <div class="section-head">
+      <span class="num">§ 03</span>
+      <span class="title">Foreign Exchange</span>
+      <span class="sub">주요국 환율 · 매매기준율</span>
+    </div>
+    <div class="fx-heatmap">
+      <div class="fx-cell">
+        <div class="flag">🇺🇸</div>
+        <div class="code">USD / KRW</div>
+        <div class="val">1,384.20</div>
+        <div class="chg down">▼ 0.08% · −1.10</div>
+      </div>
+      <div class="fx-cell">
+        <div class="flag">🇯🇵</div>
+        <div class="code">JPY / KRW · 100¥</div>
+        <div class="val">942.55</div>
+        <div class="chg up">▲ 0.24% · +2.28</div>
+      </div>
+      <div class="fx-cell">
+        <div class="flag">🇪🇺</div>
+        <div class="code">EUR / KRW</div>
+        <div class="val">1,502.80</div>
+        <div class="chg up">▲ 0.11% · +1.65</div>
+      </div>
+      <div class="fx-cell">
+        <div class="flag">🇨🇳</div>
+        <div class="code">CNY / KRW</div>
+        <div class="val">190.42</div>
+        <div class="chg down">▼ 0.05% · −0.10</div>
+      </div>
+      <div class="fx-cell">
+        <div class="flag">🇬🇧</div>
+        <div class="code">GBP / KRW</div>
+        <div class="val">1,758.90</div>
+        <div class="chg up">▲ 0.18% · +3.15</div>
+      </div>
+      <div class="fx-cell">
+        <div class="flag">🇦🇺</div>
+        <div class="code">AUD / KRW</div>
+        <div class="val">908.42</div>
+        <div class="chg down">▼ 0.14% · −1.28</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOTTO + REALESTATE + MACRO -->
+  <section class="section">
+    <div class="section-head">
+      <span class="num">§ 04</span>
+      <span class="title">Lotto · Real Estate · Rates</span>
+    </div>
+
+    <div class="lotto-feature">
+      <div>
+        <div class="kicker">LOTTO 6/45 · 1188회</div>
+        <div class="h">2026년 8월 30일 추첨 결과</div>
+        <div class="sub">SATURDAY · 20:35 KST · LIVE DRAW</div>
+        <div class="lotto-balls-h">
+          <div class="lball-h lb-y">7</div>
+          <div class="lball-h lb-y">12</div>
+          <div class="lball-h lb-r">21</div>
+          <div class="lball-h lb-b">28</div>
+          <div class="lball-h lb-b">34</div>
+          <div class="lball-h lb-r">40</div>
+          <div class="lball-h plus">+</div>
+          <div class="lball-h lb-g">18</div>
+        </div>
+        <div style="font-family:var(--mono); font-size:12px; color:var(--dim-2)">보너스 번호 · 다음 회차 D+2 (수요일 마감)</div>
+      </div>
+      <div class="lotto-stats">
+        <div class="lotto-stat-row"><span class="k">1등 당첨금</span><span class="v hi">28억 4,120만원</span></div>
+        <div class="lotto-stat-row"><span class="k">1등 당첨자</span><span class="v">9명</span></div>
+        <div class="lotto-stat-row"><span class="k">2등 당첨자</span><span class="v">78명</span></div>
+        <div class="lotto-stat-row"><span class="k">3등 당첨자</span><span class="v">3,244명</span></div>
+        <div class="lotto-stat-row"><span class="k">총 판매액</span><span class="v">1,182억원</span></div>
+        <div class="lotto-stat-row"><span class="k">차기 예상 1등</span><span class="v">약 24억</span></div>
+      </div>
+    </div>
+
+    <div class="markets-grid">
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Real Estate · 서울</span>
+          <span class="mkt-sub">/ 아파트 실거래가</span>
+          <span class="mkt-source">국토교통부</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>구역</th><th class="num">평균가</th><th class="num">전월비</th><th class="num">거래</th></tr></thead>
+          <tbody>
+            <tr><td class="sym">서울 전체</td><td class="num">42.8억</td><td class="num pct-cell up">+0.42%</td><td class="num">3,842</td></tr>
+            <tr><td class="sym">강남3구</td><td class="num">68.2억</td><td class="num pct-cell up">+0.68%</td><td class="num">1,124</td></tr>
+            <tr><td class="sym">마용성</td><td class="num">28.4억</td><td class="num pct-cell up">+0.32%</td><td class="num">642</td></tr>
+            <tr><td class="sym">노도강</td><td class="num">14.2억</td><td class="num pct-cell down">−0.12%</td><td class="num">384</td></tr>
+            <tr><td class="sym">전세지수</td><td class="num">104.2</td><td class="num pct-cell up">+0.12%</td><td class="num">—</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="mkt-block">
+        <div class="mkt-head">
+          <span class="mkt-title">Macro · Rates</span>
+          <span class="mkt-sub">/ 국내 금리 지표</span>
+          <span class="mkt-source">한국은행</span>
+        </div>
+        <table class="etable">
+          <thead><tr><th>지표</th><th class="num">현재</th><th class="num">전일비</th><th class="num">1M</th></tr></thead>
+          <tbody>
+            <tr><td class="sym">기준금리</td><td class="num">3.500%</td><td class="num">0.00</td><td class="num">0.00</td></tr>
+            <tr><td class="sym">CD (91일)</td><td class="num">3.520%</td><td class="num pct-cell down">−0.01</td><td class="num pct-cell down">−0.04</td></tr>
+            <tr><td class="sym">국고채 3Y</td><td class="num">3.084%</td><td class="num pct-cell down">−0.02</td><td class="num pct-cell down">−0.08</td></tr>
+            <tr><td class="sym">국고채 10Y</td><td class="num">3.212%</td><td class="num pct-cell down">−0.01</td><td class="num pct-cell down">−0.05</td></tr>
+            <tr><td class="sym">회사채 AA-</td><td class="num">3.812%</td><td class="num pct-cell up">+0.01</td><td class="num pct-cell down">−0.02</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSFEED (like FT front page) -->
+  <section class="section">
+    <div class="section-head">
+      <span class="num">§ 05</span>
+      <span class="title">Market Intelligence</span>
+      <span class="sub">주요 시장 뉴스 · 실시간</span>
+    </div>
+
+    <div class="news-feature">
+      <div class="news-lead">
+        <div class="kicker">TOP STORY · 17:52 KST</div>
+        <h3 class="h">비트코인 108M 재돌파, 미국 현물 ETF 순유입 3거래일 연속 이어져</h3>
+        <p class="b">미국 시장 마감 후 현물 ETF에 총 8.4억 달러 순유입이 집계되며 아시아 세션에서 매수세 유입. 국내 프리미엄은 −0.4% 수준으로 좁혀졌으며, 김치 프리미엄 지표는 3주 만에 최저치를 기록했다. 시장은 다음주 FOMC 회의록 공개에 주목하고 있다.</p>
+        <div class="m">SOURCE · Yahoo Finance, UPBIT, Bloomberg</div>
+      </div>
+
+      <div>
+        <div class="news-item2">
+          <div class="k">MACRO · 17:44</div>
+          <div class="t">한은, 기준금리 3.50% 동결 컨센서스 부합</div>
+          <div class="m">한국은행 · 통화정책방향</div>
+        </div>
+        <div class="news-item2">
+          <div class="k">EQUITY · 17:31</div>
+          <div class="t">코스피, 외국인 매도세에 2,700선 하회 마감</div>
+          <div class="m">KRX 마감브리핑</div>
+        </div>
+        <div class="news-item2">
+          <div class="k">GIFT · 17:18</div>
+          <div class="t">문화상품권 매입가 하락, 시장 매물 증가 영향</div>
+          <div class="m">모두의시세 자체</div>
+        </div>
+      </div>
+
+      <div>
+        <div class="news-item2">
+          <div class="k">ENERGY · 16:52</div>
+          <div class="t">국제유가 WTI $71 회복, OPEC+ 감산 연장 시사</div>
+          <div class="m">Reuters · OPEC 성명</div>
+        </div>
+        <div class="news-item2">
+          <div class="k">REAL ESTATE · 16:24</div>
+          <div class="t">8월 서울 아파트 거래 3,842건, 전월비 12% 증가</div>
+          <div class="m">국토교통부 실거래가</div>
+        </div>
+        <div class="news-item2">
+          <div class="k">METAL · 15:48</div>
+          <div class="t">금값, 지정학 리스크에 사상 최고치 근접</div>
+          <div class="m">LBMA · KRX</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-brand">모두의시세</div>
+  <div class="footer-copy">대한민국 모든 시세를 한 페이지에서. 매시간 자동 업데이트.</div>
+  <div class="footer-src">
+    <span>UPBIT</span>
+    <span>YAHOO FINANCE</span>
+    <span>KRX</span>
+    <span>한국은행</span>
+    <span>국토교통부</span>
+    <span>오피넷</span>
+    <span>동행복권</span>
+    <span>LBMA</span>
+  </div>
+  <div style="margin-top:20px; font-family:var(--mono); font-size:10px; color:var(--dim); letter-spacing:0.1em">
+    © 2026 MODOOSISE · 모든 시세는 참고용입니다 · EDITION No.243
+  </div>
+</footer>
+
+<script>
+// Hero chart
+(function(){
+  const svg = document.getElementById('heroChart');
+  if(!svg) return;
+  const W=700, H=120, N=60;
+  let s=7;
+  function r(){ s=(s*9301+49297)%233280; return s/233280; }
+  const pts=[]; let p=100;
+  for(let i=0;i<N;i++){ p += (r()-0.42)*2; pts.push(p); }
+  const min=Math.min(...pts)-1, max=Math.max(...pts)+1;
+  const px = i=>(i/(N-1))*W;
+  const py = v=>H - ((v-min)/(max-min))*(H-10) - 5;
+  let d = `M ${px(0)},${py(pts[0])}`;
+  for(let i=1;i<N;i++) d += ` L ${px(i)},${py(pts[i])}`;
+  let fill = d + ` L ${W},${H} L 0,${H} Z`;
+  svg.innerHTML = `
+    <defs>
+      <pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="4" stroke="#c8321f" stroke-width="1" opacity="0.15"/>
+      </pattern>
+    </defs>
+    <path d="${fill}" fill="url(#hatch)"/>
+    <path d="${d}" fill="none" stroke="#1a1614" stroke-width="1.5"/>
+    <circle cx="${px(N-1)}" cy="${py(pts[N-1])}" r="3" fill="#c8321f"/>
+  `;
+})();
+
+// Tabs
+document.querySelectorAll('.nav-tab').forEach(t=>{
+  t.addEventListener('click', ()=>{
+    document.querySelectorAll('.nav-tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active');
+  });
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>모두의시세 리디자인 · 시안 비교</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0a0a0b;
+  --panel:#141416;
+  --line:#26272a;
+  --line-2:#3a3b3f;
+  --text:#f0f0f2;
+  --dim:#8b8c92;
+  --accent:#00e5a8;
+}
+*{box-sizing:border-box; margin:0; padding:0}
+html,body{background:var(--bg); color:var(--text); font-family:'Inter',-apple-system,sans-serif; height:100%; overflow:hidden}
+button{font:inherit; color:inherit; background:none; border:none; cursor:pointer}
+
+.layout{display:flex; flex-direction:column; height:100vh}
+
+.topbar{
+  height:64px; padding:0 20px; background:var(--panel);
+  border-bottom:1px solid var(--line);
+  display:flex; align-items:center; gap:24px;
+}
+.brand{display:flex; align-items:center; gap:12px}
+.brand-mark{
+  width:36px; height:36px; border-radius:9px;
+  background:linear-gradient(135deg, var(--accent) 0%, #60a5fa 100%);
+  display:flex; align-items:center; justify-content:center;
+  color:#001510; font-weight:800; font-size:16px;
+}
+.brand-text{line-height:1.2}
+.brand-text .t{font-weight:700; font-size:15px}
+.brand-text .s{font-size:11px; color:var(--dim); font-family:'JetBrains Mono',monospace; letter-spacing:0.05em}
+
+.tabs{display:flex; align-items:center; gap:4px; margin-left:8px; background:#000; padding:5px; border-radius:10px; border:1px solid var(--line)}
+.tab{
+  padding:8px 16px; font-size:13px; font-weight:500; color:var(--dim);
+  border-radius:6px; display:flex; align-items:center; gap:8px;
+  transition:all 0.15s; min-width:170px;
+}
+.tab:hover{color:var(--text); background:rgba(255,255,255,0.04)}
+.tab.active{background:var(--accent); color:#001510; font-weight:600}
+.tab-num{font-family:'JetBrains Mono',monospace; font-size:11px; opacity:0.7; letter-spacing:0.05em}
+.tab .desc{font-size:11px; color:currentColor; opacity:0.7; font-weight:400}
+.tab.active .desc{opacity:0.85}
+
+.info{margin-left:auto; display:flex; align-items:center; gap:16px}
+.info-text{font-size:12px; color:var(--dim); text-align:right; line-height:1.4; max-width:280px}
+.link-btn{
+  padding:8px 14px; font-size:12px; font-weight:600;
+  border:1px solid var(--line-2); border-radius:8px; color:var(--text);
+  display:flex; align-items:center; gap:6px;
+}
+.link-btn:hover{background:var(--panel); border-color:var(--accent); color:var(--accent)}
+
+/* SUBHEAD */
+.subhead{
+  height:44px; padding:0 20px; background:#000;
+  border-bottom:1px solid var(--line);
+  display:flex; align-items:center; gap:20px;
+  font-size:12px; color:var(--dim); font-family:'JetBrains Mono',monospace;
+}
+.subhead .badge{
+  padding:3px 8px; background:var(--accent); color:#001510;
+  font-weight:700; font-size:10px; border-radius:4px; letter-spacing:0.1em;
+}
+.subhead .divider{width:1px; height:14px; background:var(--line-2)}
+.subhead .meta{font-size:11px; letter-spacing:0.05em}
+.subhead .right{margin-left:auto; display:flex; gap:16px; align-items:center}
+
+.viewport{
+  flex:1; background:#0a0a0b; position:relative; overflow:hidden;
+}
+.frame{
+  position:absolute; inset:0;
+  border:none;
+  opacity:0; pointer-events:none; transition:opacity 0.25s;
+}
+.frame.on{opacity:1; pointer-events:auto}
+
+/* device switcher (visual only) */
+.device{display:flex; gap:2px; padding:3px; background:#000; border:1px solid var(--line); border-radius:8px}
+.device button{padding:6px 10px; font-size:11px; color:var(--dim); border-radius:5px}
+.device button.on{background:var(--panel); color:var(--text)}
+
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">M</div>
+      <div class="brand-text">
+        <div class="t">모두의시세 · Redesign</div>
+        <div class="s">DESIGN REVIEW · 3 VARIANTS</div>
+      </div>
+    </div>
+
+    <div class="tabs" role="tablist">
+      <button class="tab active" data-src="v1-terminal.html">
+        <span class="tab-num">V1</span>
+        <div style="text-align:left">
+          <div>Terminal Classic</div>
+          <div class="desc">블룸버그 순정 · 다크</div>
+        </div>
+      </button>
+      <button class="tab" data-src="v2-modern.html">
+        <span class="tab-num">V2</span>
+        <div style="text-align:left">
+          <div>Modern Trading</div>
+          <div class="desc">네이비 · 그린 액센트</div>
+        </div>
+      </button>
+      <button class="tab" data-src="v3-editorial.html">
+        <span class="tab-num">V3</span>
+        <div style="text-align:left">
+          <div>Editorial Data</div>
+          <div class="desc">라이트 · 매거진 감성</div>
+        </div>
+      </button>
+    </div>
+
+    <div class="info">
+      <a class="link-btn" href="https://modoosise.com" target="_blank">
+        원본 사이트
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="subhead">
+    <span class="badge">LIVE</span>
+    <span class="meta" id="variantMeta">V1 · TERMINAL CLASSIC</span>
+    <span class="divider"></span>
+    <span class="meta">공통 컨셉 · 티커 스트림 헤더 · 탭 전환 · 상품권 우선 · 데이터 밀도 극대화</span>
+    <div class="right">
+      <span>키보드 · ← → 로 시안 전환</span>
+    </div>
+  </div>
+
+  <div class="viewport">
+    <iframe class="frame on" data-key="v1" src="v1-terminal.html"></iframe>
+    <iframe class="frame" data-key="v2" src="v2-modern.html"></iframe>
+    <iframe class="frame" data-key="v3" src="v3-editorial.html"></iframe>
+  </div>
+
+</div>
+
+<script>
+const tabs = document.querySelectorAll('.tab');
+const frames = document.querySelectorAll('.frame');
+const meta = document.getElementById('variantMeta');
+const metaText = {
+  'v1-terminal.html': 'V1 · TERMINAL CLASSIC · 블룸버그 순정 다크 · 앰버/시안 액센트',
+  'v2-modern.html': 'V2 · MODERN TRADING · 네이비 다크 · 그린 액센트 · 카드+데이터 밸런스',
+  'v3-editorial.html': 'V3 · EDITORIAL DATA · 라이트 · 세리프 헤드라인 · FT/Economist 감성',
+};
+
+function switchTo(idx){
+  tabs.forEach((t,i)=>t.classList.toggle('active', i===idx));
+  frames.forEach((f,i)=>f.classList.toggle('on', i===idx));
+  const src = tabs[idx].dataset.src;
+  meta.textContent = metaText[src];
+  try{ localStorage.setItem('modoosise_variant', String(idx)); }catch(e){}
+}
+
+tabs.forEach((t,i)=>{
+  t.addEventListener('click', ()=>switchTo(i));
+});
+
+// Restore last position
+try{
+  const saved = parseInt(localStorage.getItem('modoosise_variant')||'0',10);
+  if(!isNaN(saved) && saved>=0 && saved<tabs.length) switchTo(saved);
+}catch(e){}
+
+// Keyboard nav
+document.addEventListener('keydown', (e)=>{
+  const active = [...tabs].findIndex(t=>t.classList.contains('active'));
+  if(e.key === 'ArrowRight') switchTo((active+1)%tabs.length);
+  else if(e.key === 'ArrowLeft') switchTo((active-1+tabs.length)%tabs.length);
+  else if(e.key >= '1' && e.key <= '3') switchTo(parseInt(e.key,10)-1);
+});
+</script>
+
+</body>
+</html>
