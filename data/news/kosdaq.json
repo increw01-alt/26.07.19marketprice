@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-16T14:52:14+09:00",
+  "updatedAt": "2026-10-16T16:22:06+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "[마감] 코스피, 8거래일 만에 상승… 코스닥 4.5% 급등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9zUkl1Uk41dk8zNF9VY0dqZVo1X083b3lBU2FranFGQ2F0Z1ZYZ050NXVjTGJrd2ZsYUREQkFCSl9JNExPaEZNUmNRSG5hY2dhZGs4NFFxQXZIS3FSaDhjRGZuNlJFU1hYejRDSm54WnTSAXRBVV95cUxNeHYtSzJNeE0zLTFKamlRYWtqd2MxMXh0RERTM1dPZ2lNeFVrT2JpdFFkbFZOdE1DczFzUlFHQjVoSk5aa2xGTEVEWFJ5MnYtbU01aENRZDlvVGNyUkEyak0xQmhJMTdWdW5VMVlPaF92WF9nTg?oc=5",
+      "source": "IT조선",
+      "date": "2026-10-16T07:13:42.000Z"
+    },
+    {
+      "title": "코스피, AI 투자 우려 완화·저가 매수세에 '5660선 회복'…코스닥 4.46%↑",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1KMDJOekE3Q0hLWFJ1Q19iR2k1NVl2M0F3anpwS2FvV0tYQ1ZzM0RadmpQblYxRXRiT1VwdGpRS2dJbUQ1YUxIUHBnbmROUG45MEh6OENhbjVMRW83RkdOdjBFbXQ3dw?oc=5",
+      "source": "프라임경제",
+      "date": "2026-10-16T07:11:40.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피, 8거래일 만에 반등…코스닥 4.46% 급등",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1tdGtmVFltWV9IS1o3WnBocHdpdGdBN3lWRkhzTm1YQUFzVjBJUjFuQldVeExDSnlvYjVpN2htMDZwTDJOTkN3ZkZqQVlUQVVIQkdjLUlnd3lLak54NExBMS10eUsyd0xRM1doX1NBUFQ?oc=5",
+      "source": "신아일보",
+      "date": "2026-10-16T07:08:59.000Z"
+    },
+    {
+      "title": "폭락 하루 만에 반등, 코스피 5600선 회복…코스닥은 매수 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4wd1VnOERLYXRvZ0hQekFFUjlhWGlaNEJ6TExzU1RrZlAxQ2RLa1FjTUt1c0YxWEVHMnpIUnM2R2ZRRjJYa2h3QkJyZVl5QnhBWExyRlZDd2VOYzQxUnM2Z1ctZS0?oc=5",
+      "source": "디지털데일리",
+      "date": "2026-10-16T07:06:17.000Z"
+    },
+    {
+      "title": "코스피, 8거래일 만에 반등…코스닥도 4.46%↑ [MTN 마감시황]",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1LSDVFN1V5NlZDMkhUbmxvc3ZzclpUakFKcHA2NkxWUlY1aFFDN2gtRDlpM2Rna25SaEttOVByTTBOajBuRURDeWdTNmhsTVlsUFN0eTF3TnVmaFQ2X0lB?oc=5",
+      "source": "MTN 머니투데이방송",
+      "date": "2026-10-16T07:01:38.000Z"
+    },
+    {
+      "title": "코스닥 상승 마감",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBTM3NPaEc0WFJRbzNjdF9INmY1bDM1TjRkbTdNN3pVV1A4T3dUams2eUFoZ0xBNi14UEw4SjFKT2cwSko3eFR4OXM3UQ?oc=5",
+      "source": "뉴스1",
+      "date": "2026-10-16T06:54:36.000Z"
+    },
+    {
+      "title": "되살아난 바이오주…코스피 2% 오를 때 코스닥 4% 급반등",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBudlZBN2xuNFE2aGtEUU9adWlvbXYwUGJ4c0xzREpONmFkQnhjNXdVSDdqb1l6RTRjSDItd2NaWTVMa2hnbmxkUlBjWF84cjhCSnEtSldIUW1tUlk?oc=5",
+      "source": "뉴스1",
+      "date": "2026-10-16T06:53:08.000Z"
+    },
+    {
+      "title": "코스피, 2.05% 상승한 5668.05 마감…코스닥 4.46%↑",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNVVhOSFpIb1lhTGd3VWcya200cGcyM2s2M0tlSy1JS0dpZmFPR2x6Q1N5TXhIemlua3FSa2FCdjRwQWlZajRGUDBEUElXam81QTRqRlE3VDRiR3h5eVR6cVNpbDJ2ZWY3X0tiM25xeHJzVmx5eXfSAWZBVV95cUxPcTQybDlhRjcxV1hiNmhKbC1oUXI0blhvamRzLTJUZ2VRc3o0TklrZVZzQmdnYVFDV0N0WXBvV1pWTFJjM3pBZVZGaHpIa09wTzhyeVB6QWNrSWp2T0FkX1BJVkwwUGc?oc=5",
+      "source": "동아일보",
+      "date": "2026-10-16T06:41:31.000Z"
+    },
     {
       "title": "코스닥, 5%대 급등에 '매수 사이드카'…바이오·반도체株 강세",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90NGUzME5oTXIxcGxpNy1QTTdwNktRQ1c2TnE2eFZERkdEM0xlYmdscEpLdDFVX3o0S1R4SkRiS3dwXzZEWTc2VUd1SGhHUF9sbTRkSkVkSVRKd1Bo?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwUWVXVW1wQ2J6ZUZZcGZQeTAxVG1QMlA5VmxXekdMMklKZXg4dGJIckhvb1FUNzJrOFpvTVlrZ2NMTzNtbjhIaHA3bzNPQWR5cEwyTzRKakVBT3M?oc=5",
       "source": "경기일보",
       "date": "2026-10-13T08:14:56.000Z"
-    },
-    {
-      "title": "증권사·투자자 울린 코스닥 종목…주가 급락에 거래도 말랐다",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBnOUR6M0dzR1hjT3RZeVZwM25odmpJTE1jRThaTl83YUlpSUVmTWw4a0EwUXYyaWg2WnNuVWFLYWw1ajBCazlMczg1WmFPRFI2YlkzRTNBb040dDhzNTRLc19WX0dBM3FucHRUbVRxTVBVcXc?oc=5",
-      "source": "마켓인",
-      "date": "2026-10-13T07:36:47.000Z"
-    },
-    {
-      "title": "[특징주] 라온시큐어, 코스닥 급락 속 14%대 급등…장중 1만9천930원",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9YajZZRHVqVlFfV3ZhdUFkV1RDV1lrNGlTaTVGWkI4NDhKQU00dUYtS0V2T0tqS0wtMUxHMG5vUkhJbENhQU9yUGNYYjI4T3FiOEJIWEJPN0tuWG5oX2gySDVJZkl0eDg5R095btIBcEFVX3lxTE1mT0tyVGxiaEk1Z3lCN29aYlBTRDNFRE5Nd0NfTlEyU1RwOXJ5bVBwWFMxOW5wY0EzQmFZdWhaSXhtQkJxaGYxeW5QTjVkaDJNcW12djQtTjBfWW9WUVU2MFpLeGZsRXB1aFJVWkQ1WlE?oc=5",
-      "source": "남도일보",
-      "date": "2026-10-13T02:59:57.000Z"
-    },
-    {
-      "title": "에코프로비엠·에코프로 등 그룹주 일제히 급락…코스피·코스닥 양대지수도 '휘청'",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPTkdsdVlSdWYxc1hXekR3bDFZUEJyTUZzS2k4WnJQQUllbzkxTjVXYWh5cUlQdkpOTGxnN2FMMVZQdHlJZHl1WDk5X3ZSNDlWaDMya1ZhU0xselZfOUowdE1oUXBTbFJa?oc=5",
-      "source": "CBC뉴스",
-      "date": "2026-10-13T02:45:16.000Z"
-    },
-    {
-      "title": "죽어도 내년 코스피 6천 안 무너진단 증권사",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5mTTF6WkdsNk9zX0tRTkp3RDk2NkJUTFVSeHRqcjdTRHJsSzF4NWkyY1lqZWZSN05sdEtFa2RXRkRhNEpyVGxnRDhHUUJZcGZj?oc=5",
-      "source": "문화일보",
-      "date": "2026-10-13T02:16:15.000Z"
-    },
-    {
-      "title": "신재생에너지 첨단소재 ‘제이앤티지’, 코스닥 상장 예비심사 통과",
-      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9ZdVJQcmo0cTI0ckxKeG5leG4zbFpzVjZEOTQ2YUl4S2p4dmxzTkI5aUFqbXNTXzVRTWxLYmZFTjBYVlNpcUIyUmo0dExENTA?oc=5",
-      "source": "와우테일",
-      "date": "2026-10-13T02:12:21.000Z"
-    },
-    {
-      "title": "제이앤티지, 코스닥 상장 예비심사 승인",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1XZHppVmJxUUFQa2JGemVKdEFiSWN4NWdpaTNMb2NrOGo0akZZSDJOa2lfYlAweUhSdE9NMURvLUN4NzJ1RUZvOERRUUZLVVdyalozZ0hvRWlkTWQyVUozStIBeEFVX3lxTE12WWxmNjV2RTVaX2cxWkpHSW5KSUpIZ2pQREQ2UTRHV3IyMllYQkV3Uk1LY2doLUdoSFBpd0hwbGpWWjhEMzlMTWE4akl5TWlpdVgzb3ljXy1jWS12MmNoTDRXdVZJZEdkdjg3ZF84YVh1Z0ljS0xoSQ?oc=5",
-      "source": "뉴시스",
-      "date": "2026-10-13T01:43:42.000Z"
-    },
-    {
-      "title": "제이앤티지, 코스닥 상장 예심 승인…대신·NH證 주관",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1JM2JsMG9VdFB1aHZ2ZXZUWEtQN3JZUkphVEw4UE9JR2dkSHFUSkF1YTVSZ1kzNDZHTlk5X3h4d01pNFBSYWE5bk1RT09kNFMwYk1LMzZTa3kxd29zU0U2a2hqX1FJdVV4?oc=5",
-      "source": "뉴스포스트",
-      "date": "2026-10-13T01:41:36.000Z"
-    },
-    {
-      "title": "[속보] 코스피, 외인 매도 확대에 6% 폭락…6000선 무너져",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iYVpDYllDOEdwdHdfOHQ2T1dkRnJCYXZ6eVpZSFpDZUFrbXF2aHZrWk5qMEN4eW5VbHhNRUtWWUxoYjVCNVBQX1NJdmlxWmo5dGpTbzFTeHZKdw?oc=5",
-      "source": "한국경제",
-      "date": "2026-10-13T01:32:48.000Z"
     }
   ]
 }
