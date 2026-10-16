@@ -383,8 +383,8 @@
     }
   ],
   "giftcard": {
-    "shop": "현대",
-    "buy": 96350
+    "shop": "신세계",
+    "buy": 96400
   },
   "lotto": {
     "round": 1245,
@@ -438,8 +438,8 @@
       "color": "#c8102e",
       "href": "/giftcard/shinsegae",
       "name": "신세계상품권 10만원권",
-      "value": 96300,
-      "changePct": -0.05189413596263622
+      "value": 96400,
+      "changePct": 0.05189413596263622
     },
     {
       "chip": "롯데",
@@ -454,8 +454,8 @@
       "color": "#00805a",
       "href": "/giftcard/hyundai",
       "name": "현대상품권 10만원권",
-      "value": 96350,
-      "changePct": 0
+      "value": 96400,
+      "changePct": 0.05189413596263622
     }
   ],
   "seoul": {
