@@ -735,9 +735,12 @@ async function main() {
 
   for (const shop of SHOPS) {
     try {
-      const html = await getText(shop.url, shop.encoding ? { encoding: shop.encoding } : {});
+      const html = await getText(shop.url, {
+        ...(shop.encoding ? { encoding: shop.encoding } : {}),
+        headers: { 'accept-language': 'ko-KR,ko;q=0.9,en;q=0.5' },
+      });
       const parsed = shop.parse(html);
-      if (!parsed.length) throw new Error('파싱 결과 0건 — 페이지 구조가 바뀌었을 수 있습니다');
+      if (!parsed.length) throw new Error(`파싱 결과 0건 — 응답 ${html.length}자: ${clean(html).slice(0, 120)}`);
 
       for (const p of parsed) items.push({ shopId: shop.id, shop: shop.name, ...p });
       shops.push({ id: shop.id, name: shop.name, site: shop.site, url: shop.url, ok: true, count: parsed.length });
