@@ -53,6 +53,15 @@
 - 등락 기준: **최근 3일 내 직전 기록 대비** (패널에 명시). 오늘 이전 기록에만 의존해
   빌드 순서와 무관하게 결정적이고, 같은 날 재실행은 멱등(--check 안전).
 
+## ✅ 쿠팡 파트너스 코너 (2026-10-16) — 핫딜 페이지
+- `data/coupang.json` 의 items(name·url·banner)로 핫딜 페이지 상단에 프리렌더. url 은 반드시
+  `https://link.coupang.com/`(파트너스 링크생성 단축 URL — 일반 상품 URL 은 정산 불가, 빌드가 거부),
+  banner 는 `https://coupa.ng/` 공식 배너(iframe) 주소. banner 있으면 이미지 카드, 없으면 텍스트 카드,
+  items 비면 코너 자체 미렌더.
+- 고지문("이 포스팅은 쿠팡 파트너스 활동의 일환으로…")은 링크 바로 위 고정. 가격은 표시하지 않음.
+- CSP frame-src 에 배너 리다이렉트 체인 3도메인만 허용(coupa.ng → ads-partners.coupang.com → partners.coupangcdn.com).
+- 승인용 스크린샷: Chrome 헤드리스로 라이브 /hotdeal 캡처(`coupang-partners-screenshot.png`, git 제외).
+
 ## ⏭️ 남은 아이디어 (선택)
 - 시가총액·도미넌스: 외부 소스(CoinGecko 등) 필요 — 현재 생략.
 - 차트 키보드/터치 드래그 접근성 (현재 마우스 전용, 요약 수치는 별도 제공됨).
@@ -71,6 +80,10 @@
 3. **빌드 파이프라인 순서**: fetch류 → build-rss → build-static(+--check) → 보안 테스트(node:sqlite,
    **Node 24 필요**) → build-deploy(+--check, `_headers` 루트 렌더링 포함) → data/ `_headers` 등 커밋.
 4. `_headers` 는 렌더링본(루트 서빙), `_headers.template` 이 원본(플레이스홀더) — 직접 수정은 template 에.
+5. **Cloudflare `_headers` 한 줄 2,000자 한도** — 넘으면 그 헤더(CSP)가 조용히 통째로 무시된다.
+   2026-10-16 에 JSON-LD 블록까지 해시해 26개(2,118자)가 되어 사이트 전체 CSP 가 빠져 있던 걸 발견.
+   build-deploy 가 실행 스크립트만 해시하고(6개·1,038자), 초과 시 빌드를 실패시킨다.
+   배포 후 `curl -sD- https://modoosise.com/ | grep -i content-security` 로 헤더 존재를 확인할 것.
 
 ## 검증 명령 모음
 ```bash
