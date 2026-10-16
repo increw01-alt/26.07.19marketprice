@@ -1,6 +1,30 @@
 # 인계 메모 — 2026-08 사이트 리디자인 (라이트 테마 + 홈 개편)
 
-> 다음 세션은 이 문서부터 읽으면 바로 이어서 작업 가능.
+> 다음 세션은 이 문서부터 읽으면 바로 이어서 작업 가능. (Claude 의 장기 메모리는 PC 마다 따로라 이 문서가 기준)
+
+## 🏠 다른 컴퓨터에서 시작하기 (2026-10-16 기준)
+1. 준비: git · Node **24** 이상(보안 테스트가 node:sqlite 사용) · GitHub 로그인(increw01-alt) · `gh` CLI(워크플로 확인용, 선택)
+2. 받기: `git clone https://github.com/increw01-alt/26.07.19marketprice.git` (이미 있으면 `git checkout main && git pull`)
+3. Claude Code 를 그 폴더에서 열고: **"PROGRESS-리디자인.md 읽고 이어서 작업"**
+4. 로컬 미리보기: `python -m http.server 4173` 후 http://localhost:4173 (Functions(/api/*) 는 로컬에 없음 — BTC 차트는 정적 폴백)
+5. 배포 = main 에 push (Cloudflare Pages 자동). 매시간 크론과 push 가 자주 경합함 → 아래 운영 수칙 2번.
+6. 인증키는 GitHub Secrets 에만 있음 — 로컬로 옮길 것 없음.
+
+### 현재 상태 스냅샷
+- 라이브 정상: 시세 파이프라인 매시간 success, CSP 헤더 복구됨(10/16), 쿠팡 코너·상품권 매트릭스 배포 완료.
+- **쿠팡 파트너스**: 핫딜 페이지 코너 라이브. 승인용 스크린샷 파일은 PC 에만 있음(필요하면 Chrome 헤드리스로 재생성:
+  `chrome --headless=new --screenshot=out.png --window-size=1440,1400 https://modoosise.com/hotdeal?x=1`).
+  파트너스 '내 정보 › 스크린샷 ↑' 업로드·저장은 사용자가 직접. 초기 심사 1~3영업일, 최종 승인은 첫 실적 후 별도.
+- **결정 대기 2건**
+  - 상품권 P2(아래 '남은 P2' 참고) — 바로 착수 가능.
+  - V1 터미널 디자인: 브랜치 `design/v1-terminal` 에 평가용 `terminal.html` + 시안 폴더 `design_handoff_modoosise_redesign/`
+    (원격에 push 해 둠). 보려면 `git checkout design/v1-terminal` 후 로컬 서버에서 /terminal.html. 채택 시 최신 main 위로 rebase.
+- 제안 칩으로 남긴 소소한 정리: 핫딜 페이지가 없는 `data/news/hotdeal.json` 을 요청해 404 콘솔 에러(기능 영향 없음).
+
+### 검증 명령 (push 전 항상)
+```bash
+node scripts/build-static.mjs --check && node scripts/build-deploy.mjs --check && node --test scripts/security-sanitizers.test.mjs functions/api/lotto/security.test.mjs functions/security-routes.test.mjs
+```
 > 시안 원본: `~/Downloads/모두의시세 홈 화면 디자인.zip` (README = 완전한 구현 스펙, .dc.html = 픽셀 레퍼런스)
 
 ---
