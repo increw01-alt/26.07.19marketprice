@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-18T00:33:40+09:00",
+  "updatedAt": "2026-10-18T03:30:47+09:00",
   "deals": [
+    {
+      "title": "삼육두유 베지밀 모음전 72팩",
+      "mall": "네이버",
+      "price": 28900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740988",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-17T17:11:07.000Z"
+    },
+    {
+      "title": "유한락스 NEW 욕실청소용 600ml 4개 + 욕실청소용 715ml 증정",
+      "mall": "오늘의집",
+      "price": 11610,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740987",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-17T15:58:07.000Z"
+    },
+    {
+      "title": "국산 면양말 10켤레",
+      "mall": "G마켓",
+      "price": 6800,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740986",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-17T15:38:06.000Z"
+    },
+    {
+      "title": "콘푸라이트 600g 3개 +그래놀라 저당렌틸오트 30g 3개",
+      "mall": "옥션",
+      "price": 9500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740985",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-17T15:37:20.000Z"
+    },
     {
       "title": "토종순대 얼큰술국 1KG x 3팩",
       "mall": "토스쇼핑",
@@ -154,50 +198,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-17T14:09:58.000Z"
-    },
-    {
-      "title": "폴햄 가을 트레이닝 팬츠 7종",
-      "mall": "지마켓",
-      "price": 13490,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740973",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-17T14:02:25.000Z"
-    },
-    {
-      "title": "제스프리 썬골드키위 3.1kg 155g 내외 20입",
-      "mall": "롯데온",
-      "price": 24910,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740972",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-17T13:54:31.000Z"
-    },
-    {
-      "title": "크라운 쿠크다스 4개 골라담기",
-      "mall": "지마켓",
-      "price": 12880,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740971",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-17T13:54:19.000Z"
-    },
-    {
-      "title": "감홍사과 5kg 꼬마과",
-      "mall": "오늘의집",
-      "price": 14960,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=740970",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-17T13:53:17.000Z"
     },
     {
       "title": "베키아에누보 치아바타 샌드위치 9개",
