@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-18T03:30:47+09:00",
+  "updatedAt": "2026-10-18T06:28:14+09:00",
   "deals": [
+    {
+      "title": "iOS 일시무료 Travori",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81796",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-17T21:22:51.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Vehicle & Fleet Manager",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81795",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-17T21:10:18.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108119",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-17T18:44:40.000Z"
+    },
     {
       "title": "삼육두유 베지밀 모음전 72팩",
       "mall": "네이버",
@@ -574,17 +607,6 @@
       "date": "2026-10-16T02:13:34.000Z"
     },
     {
-      "title": "BHC 뿌링팝콘 60g 12개 (9,400 / 무배)",
-      "mall": "토스쇼핑",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108090",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-16T02:04:24.000Z"
-    },
-    {
       "title": "알리익스프레스 - 10월 다반사",
       "mall": null,
       "price": null,
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-15T15:36:15.000Z"
-    },
-    {
-      "title": "이니스프리 그린티 씨드 히알루론산 보습 속건조 수분크림 50ml, 1개, [더블구성] 이니스프리 그린티 씨드 히알루론산 보습 속건조 수분크림 50ml, 2개",
-      "mall": "네이버",
-      "price": null,
-      "cat": "패션·뷰티",
-      "link": "https://damoang.net/economy/81688",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-15T01:28:56.000Z"
-    },
-    {
-      "title": "벤딕트 TPE 카매트 자동차 용품 차량 발매트 바닥 1열+2열 에어핏",
-      "mall": "네이버",
-      "price": null,
-      "cat": "생활",
-      "link": "https://damoang.net/economy/81686",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-15T01:03:59.000Z"
     }
   ]
 }
