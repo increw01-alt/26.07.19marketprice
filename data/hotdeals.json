@@ -1,6 +1,83 @@
 {
-  "updatedAt": "2026-10-19T05:42:15+09:00",
+  "updatedAt": "2026-10-19T08:11:29+09:00",
   "deals": [
+    {
+      "title": "매운 볶음김치 1kg",
+      "mall": "네이버",
+      "price": 9900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741158",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-18T23:03:36.000Z"
+    },
+    {
+      "title": "베라 무해력 4ZERO 클래식, 3겹, 30롤, 25m, 2팩",
+      "mall": "토스",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741157",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-18T22:37:32.000Z"
+    },
+    {
+      "title": "김소형원장 원방 마가목 산삼배양근침향단 (3.75g*60환)",
+      "mall": "CJ온",
+      "price": 33070,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741156",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-18T22:34:12.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Walky Alarm",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81823",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-18T21:55:50.000Z"
+    },
+    {
+      "title": "와퍼주니어+비프불고기버거+콜라R*2+프렌치프라이R",
+      "mall": "지마켓",
+      "price": 7980,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741155",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-18T21:29:14.000Z"
+    },
+    {
+      "title": "슈퍼오닝 평택 꿈마지쌀 10kg 특등급 외",
+      "mall": "팔도감",
+      "price": 31500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741154",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-18T21:16:51.000Z"
+    },
+    {
+      "title": "오리온 초코칩쿠키 256g X5개",
+      "mall": "지마켓",
+      "price": 12730,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108138",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-18T21:09:07.000Z"
+    },
     {
       "title": "라방 랜덤 5원",
       "mall": "네이버페이",
@@ -11,28 +88,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-18T19:03:50.000Z"
-    },
-    {
-      "title": "11gb 일2gb 3mbps 밀리의서재",
-      "mall": "비즈인모바일",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741153",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-18T16:30:00.000Z"
-    },
-    {
-      "title": "랑카스 하이올레익 땅콩버터 100%, 스무스, 200g, 2개(5,500,무배)",
-      "mall": "토스몰",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741152",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-18T16:07:19.000Z"
     },
     {
       "title": "암바사 제로 1.5L 12개 / 14,840원",
@@ -200,28 +255,6 @@
       "date": "2026-10-18T15:10:20.000Z"
     },
     {
-      "title": "메가커피 아이스아메리카노 외 할인",
-      "mall": "카카오톡",
-      "price": 1600,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741139",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-18T15:10:10.000Z"
-    },
-    {
-      "title": "포스트 크리치오 마시멜로 400g 3개",
-      "mall": "네이버",
-      "price": 13290,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741138",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-18T15:09:33.000Z"
-    },
-    {
       "title": "카페 2천원 이상 결제시 500원 적립 (10/19~25)",
       "mall": "네이버페이",
       "price": 500,
@@ -231,17 +264,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-18T15:07:33.000Z"
-    },
-    {
-      "title": "무표 물티슈 82평량 70매 20팩",
-      "mall": "오늘의집",
-      "price": 16920,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741137",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-18T15:05:29.000Z"
     },
     {
       "title": "니엔텀 오퍼스제로 20% 할인/ ₩ 18,400원",
@@ -552,17 +574,6 @@
       "date": "2026-10-17T01:15:52.000Z"
     },
     {
-      "title": "피규어라이즈 스탠다드 AMPLIFIED 매그너가루몬 72,000원",
-      "mall": "반다이몰",
-      "price": 72000,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108108",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-17T00:18:01.000Z"
-    },
-    {
       "title": "iOS 일시무료 OfflineMusicPlayer",
       "mall": null,
       "price": null,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-15T23:21:20.000Z"
-    },
-    {
-      "title": "Agent A - 숨겨진 퍼즐 무료배포",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81704",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-15T16:17:30.000Z"
     }
   ]
 }
