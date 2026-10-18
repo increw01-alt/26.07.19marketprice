@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-10-19T02:23:11+09:00",
+  "updatedAt": "2026-10-19T05:42:15+09:00",
   "deals": [
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108137",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-18T19:03:50.000Z"
+    },
     {
       "title": "11gb 일2gb 3mbps 밀리의서재",
       "mall": "비즈인모바일",
@@ -550,17 +561,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-17T00:18:01.000Z"
-    },
-    {
-      "title": "매일두유 99.9 190ml 48팩외 맛다양",
-      "mall": "롯데온",
-      "price": 23930,
-      "cat": "식품",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108107",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-17T00:04:43.000Z"
     },
     {
       "title": "iOS 일시무료 OfflineMusicPlayer",
