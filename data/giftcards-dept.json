@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18T13:31:40+09:00",
+  "updatedAt": "2026-10-18T18:37:20+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -295,8 +295,8 @@
       "label": "롯데상품권",
       "face": 100000,
       "method": null,
-      "buy": 95600,
-      "buyRate": 4.4,
+      "buy": 95700,
+      "buyRate": 4.3,
       "sell": 95750,
       "sellRate": 4.25
     },
@@ -307,8 +307,8 @@
       "label": "신세계상품권",
       "face": 100000,
       "method": null,
-      "buy": 96200,
-      "buyRate": 3.8,
+      "buy": 96300,
+      "buyRate": 3.7,
       "sell": 96450,
       "sellRate": 3.55
     },
@@ -367,10 +367,10 @@
       "label": "롯데 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 95600,
-      "buyRate": 4.4,
-      "sell": 95750,
-      "sellRate": 4.25
+      "buy": 95700,
+      "buyRate": 4.3,
+      "sell": 95900,
+      "sellRate": 4.1
     },
     {
       "shopId": "worldticket",
@@ -381,8 +381,8 @@
       "method": null,
       "buy": 96300,
       "buyRate": 3.7,
-      "sell": 96450,
-      "sellRate": 3.55
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "worldticket",
@@ -391,10 +391,10 @@
       "label": "현대 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96550,
-      "sellRate": 3.45
+      "buy": 96350,
+      "buyRate": 3.65,
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "worldticket",
@@ -405,8 +405,8 @@
       "method": null,
       "buy": 96200,
       "buyRate": 3.8,
-      "sell": 96600,
-      "sellRate": 3.4
+      "sell": 96550,
+      "sellRate": 3.45
     },
     {
       "shopId": "worldticket",
@@ -523,8 +523,8 @@
       "label": "현대상품권(50/10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96600,
       "sellRate": 3.4
     },
