@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T08:11:21+09:00",
+  "updatedAt": "2026-10-19T10:16:12+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -165,8 +165,8 @@
       "method": null,
       "buy": 478500,
       "buyRate": 4.3,
-      "sell": 479250,
-      "sellRate": 4.15
+      "sell": 479500,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -177,8 +177,8 @@
       "method": null,
       "buy": 95700,
       "buyRate": 4.3,
-      "sell": 95850,
-      "sellRate": 4.15
+      "sell": 95900,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -189,8 +189,8 @@
       "method": null,
       "buy": 47850,
       "buyRate": 4.3,
-      "sell": 47925,
-      "sellRate": 4.15
+      "sell": 47950,
+      "sellRate": 4.1
     },
     {
       "shopId": "choigo",
@@ -633,8 +633,8 @@
       "method": null,
       "buy": 95700,
       "buyRate": 4.3,
-      "sell": 95800,
-      "sellRate": 4.2
+      "sell": 95900,
+      "sellRate": 4.1
     },
     {
       "shopId": "giftdept",
@@ -645,8 +645,8 @@
       "method": null,
       "buy": 96300,
       "buyRate": 3.7,
-      "sell": 96400,
-      "sellRate": 3.6
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "giftdept",
