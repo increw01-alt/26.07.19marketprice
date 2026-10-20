@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-10-21T04:16:02+09:00",
+  "updatedAt": "2026-10-21T07:20:13+09:00",
   "deals": [
+    {
+      "title": "iOS 일시무료 FavPicks",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81888",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-20T22:04:44.000Z"
+    },
+    {
+      "title": "코카콜라외 190ml 30캔 탄산음료 모음 13000원 무배",
+      "mall": "G마켓",
+      "price": 13000,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741795",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-20T22:01:56.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108201",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-20T19:42:29.000Z"
+    },
     {
       "title": "글로벌나이프 G-2 쿡스나이프 (카카오페이 57,967/무배)",
       "mall": "오늘의집",
@@ -220,17 +253,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-20T15:17:35.000Z"
-    },
-    {
-      "title": "씨없는 홍시용 청도반시 5kg (7,920/무배)",
-      "mall": "오늘의집",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=741779",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-20T15:16:11.000Z"
     },
     {
       "title": "앱에서 5종 세트 구입시 콤보 증정 (10/21~25)",
@@ -530,17 +552,6 @@
       "date": "2026-10-19T23:54:51.000Z"
     },
     {
-      "title": "배트맨:아캄나이트 할인",
-      "mall": "스팀",
-      "price": 4200,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108170",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-19T22:17:47.000Z"
-    },
-    {
       "title": "10-20 네이버페이 67원 + 랜덤 포인트",
       "mall": null,
       "price": 67,
@@ -682,17 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-16T22:44:51.000Z"
-    },
-    {
-      "title": "iOS 일시무료 Treser",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81761",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-16T22:36:52.000Z"
     }
   ]
 }
