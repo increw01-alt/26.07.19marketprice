@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T13:49:18+09:00",
+  "updatedAt": "2026-10-20T19:03:33+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -199,10 +199,10 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 481500,
-      "buyRate": 3.7,
-      "sell": 482500,
-      "sellRate": 3.5
+      "buy": 481000,
+      "buyRate": 3.8,
+      "sell": 482250,
+      "sellRate": 3.55
     },
     {
       "shopId": "choigo",
@@ -211,10 +211,10 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96500,
-      "sellRate": 3.5
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96450,
+      "sellRate": 3.55
     },
     {
       "shopId": "choigo",
@@ -223,10 +223,10 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48150,
-      "buyRate": 3.7,
-      "sell": 48250,
-      "sellRate": 3.5
+      "buy": 48100,
+      "buyRate": 3.8,
+      "sell": 48225,
+      "sellRate": 3.55
     },
     {
       "shopId": "choigo",
@@ -297,8 +297,8 @@
       "method": null,
       "buy": 95700,
       "buyRate": 4.3,
-      "sell": 96000,
-      "sellRate": 4
+      "sell": 95850,
+      "sellRate": 4.15
     },
     {
       "shopId": "meee",
@@ -307,10 +307,10 @@
       "label": "신세계상품권",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96450,
-      "sellRate": 3.55
+      "buy": 96100,
+      "buyRate": 3.9,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "meee",
@@ -379,8 +379,8 @@
       "label": "신세계 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96250,
+      "buyRate": 3.75,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -583,10 +583,10 @@
       "label": "신세계 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96250,
-      "buyRate": 3.75,
-      "sell": 96450,
-      "sellRate": 3.55
+      "buy": 96300,
+      "buyRate": 3.7,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "centralgift",
@@ -595,8 +595,8 @@
       "label": "현대 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96700,
       "sellRate": 3.3
     },
