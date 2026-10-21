@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-21T10:35:19+09:00",
+  "updatedAt": "2026-10-21T16:38:47+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "[오늘증시] 코스피 3%대 급등하며 5700선 회복…외국인, 삼성전자·SK하이닉스 대거 매수",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9TaDlYTHMzdzREbUJRUVRraldDRHVVVGZ3OVo2NDFRVjlBZ0FYNXlTMHQzV3FKbTRxNERRUENxYTY3THZRa1JvWkZLbUUzMzJqYlloMzc2c1FzdWpRRTh0aEpQb24xVzV0Snc?oc=5",
+      "source": "Queen 이코노미퀸",
+      "date": "2026-10-21T07:24:33.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피, 반도체 반등에 3.29% 급등…5700선 회복",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hY3RHT3VsdXpVaV9xVU42MXRhVENtbmtYN3V5dkhKZWQ5LVhWNWJzODJmUWo0a3FWelkzd0w3eEZCbkkwY2h2ODRCSWtNdVJTQXZtWldSTmN6SzNLcVlMZ2FqaEh6RlVEeFBYX1V0MFg?oc=5",
+      "source": "신아일보",
+      "date": "2026-10-21T07:18:47.000Z"
+    },
+    {
+      "title": "국내 양대증시 강세 마감…코스피 올들어 25번째 매수 사이드카",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFByX0Y5dmM5cXZqQnBENnZOQjREdlE5SGhrcFd3QllUMHRvTUdhWE5fRll5VW53di1IeF9WcDRReU8yNmprb2ZJQ0gzYkVuLTlic25jMmdyUFZTZDk1NXh2SmtUR1k2S2lC?oc=5",
+      "source": "머니투데이",
+      "date": "2026-10-21T07:08:22.000Z"
+    },
+    {
+      "title": "[마감] 코스피 3% 상승, 美 실적 기대감… 돌아온 외인 매수",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5DMUc0NkIxeHQtUS0yLVBtRHloalB4ZUlDdGJ3WUdDdndNSmxZeVVJTXQzMUhzc2wwRVVqVU41S0JFQ3pndlBzb2Z1U3gtUUpBOGYxZU41S3E5anpkYWxMMGxGVXBDekZCN29zbXBOd2TSAXRBVV95cUxQSjdMSGdzWjFBazhXeFBqa01jdFZjb0JSTTJ4aXktZlU5em8zSXNkNWlzOUtyMFg0VmlZQ1FhVFpjMVFLSTNMRDNHWUZjYkRsQW9EYl9TRTlndEFIZ3NNSGZDSmNnZjdjMTdfT0Z0dEpIUnp6Tw?oc=5",
+      "source": "IT조선",
+      "date": "2026-10-21T07:07:32.000Z"
+    },
+    {
+      "title": "[증시-마감] 코스피 3.3% 급반등해 5,735…'삼전닉스' 6%↑",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uVzhTeW0wdlZ4b19HZE9xUjNqYndRZFlCZ0wtb2xqbkduTWhWaXJSRk10eTd4N1M5Z1ZpUHJIdmUtb00wREgzOTV0bHhERV9HUHlubEZRLWc5VENHS0hIWHpzcGlIQldGVTRCOV9XclQ?oc=5",
+      "source": "연합인포맥스",
+      "date": "2026-10-21T07:05:48.000Z"
+    },
+    {
+      "title": "코스피, 반도체주 반등에 3.3% 강세 마감…코스닥도 1.4% 올라",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE43LUhEdTR5em5IN0lHd0wydkMwaUY0b0dZenYzWl8zQzFwS1JoUkFiTzFjM052b0dhc1BlMXJlNXRqc0FxWFlNYmVSeTFQZEtyNVE?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-10-21T07:02:10.000Z"
+    },
+    {
+      "title": "[마감시황] 반도체주 강세에 코스피 3.3% 상승…매수 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE93ZWZtUldqeUpNSDZkM1oxX2xGSXVFN3JJT2NwcVlmTWl6OEJlN2wyTENKUklGc3M1RVBlTk5OWE1XWHItNHVzMDg0eUV6dEQ1enFqWUo3bkxUUlps?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-21T07:02:00.000Z"
+    },
+    {
+      "title": "코스피, 하루 만에 3%대 급반등",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RS3ltdXVxYkhNdDQ2VG1IT1JBNDJBdlJyTzBQMTB1TWhMbXd2ZFduSWNWR0xmUl90UHlBMGJ3bTRZNmprRXBNZWN0dGxiVUFWVXVBdGtOT3Fza2FFYjNYa2lfTmxhS1E1RGE2dFZB?oc=5",
+      "source": "더리포트",
+      "date": "2026-10-21T07:01:59.000Z"
+    },
     {
       "title": "반발 매수 유입에 코스피 5710대로 외국인 투심 개선…삼성전자 4%↑",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1nencwYTZxcXU3UWIydXctM2d6WnF1ZkpyUUNFMTMzQzA1b1VfR0pDUFNGREVFVkk5aUlMQld5RjQyN1ZNem1KNlpFQ2d1c0h3YkxvRFo4UjlON1ZZd0JaQXlhbFFiLWI1d3AtUQ?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcjJGdjdfRFgyekNiMW13X3FURjVhSHV0SHd5RTlGeWxTcjFxTno5TUNqQmdwMnhCVmRaeml1eXF1WkJ5T0ZteVRjcHpxcFFrLUZUaWEzdzdOd0RvRTdicVVOVjhvZjRJREswXzhPcVNBb2Z1ZS16dmp2M1I5aEZOU1k2OUx2Yzdn?oc=5",
       "source": "글로벌이코노믹",
       "date": "2026-10-18T03:00:00.000Z"
-    },
-    {
-      "title": "[주간증시전망] \"폭락장에 주식 팔지 마라\"…코스피 반등 이끌 '세 가지 변수'는",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EekhxVU9IZ2hEYVZKZGxvMmZhRGJ1V2pyaF81M0U5OHl2X2pQVTkzZk1EQVBJX2V3a1lYZG9LaDNOVlcyVEtOVlg3czFFY1RmdlR1aEE0eUhJMGhlRDRCWThFX3BqN09V?oc=5",
-      "source": "www.ebn.co.kr",
-      "date": "2026-10-18T02:33:20.000Z"
-    },
-    {
-      "title": "코스피·코스닥 급락에 등 돌린 개미들…미국 주식 순매수 급증",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcldZWEVOei00RlM4SkNzVS1RSS1WaVAzMWx3ZFNtQXJCRHVLaFpkYXZ1NmIxZjRUYTQtellCSndlOHJkd0VtM3N1SXRNZjJ1eXR1c2RvQ2lrRkdGRnFHZDczenpwRVVjZzZmVktvUmthTkZXemwxcV9JdW1acmpPaWN3MVQxMFND?oc=5",
-      "source": "글로벌이코노믹",
-      "date": "2026-10-18T02:07:00.000Z"
-    },
-    {
-      "title": "[주간증시전망] 美 빅테크 실적 발표… ‘AI 과열론’은 지속 - 조선비즈",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUEkwd19OaG5zWVA2T0x1cjEyWW4zcFMySmlwTENpSS1HOEo5Um1wN29rRUFUX0NndjBXS0E1b2hEaVhuXzVGbDZVX3UtSW1uVHhIMXNPcG1SYXIzRVJ1NDhzMDR1dFRLc0ZZVmRxOWFTYjM5ZGtvaVkyX2daZjdEMXZWa3hxQUhj0gGcAUFVX3lxTE9vV3R1NGRCaG55OVFBYnlHeHFUMlRrd29jdWhQVFBiTWQ2R3psWS1feFp3TFJiR1ZTWmpfZ0JhZE1xX3hhc2piQ2xORGpVNEpBTFJZQzRZR2I3TlFfTUZWbTFJTFpaVmE4d2FOZndMNk1hUkNmTDZSR0dqdmM4cmdlc1FwNmxGMlBlVGI4cXRTZG1VYTZDbDhOYUNkVQ?oc=5",
-      "source": "Chosunbiz",
-      "date": "2026-10-18T02:03:45.000Z"
-    },
-    {
-      "title": "코스피 반등에도 증권가 눈높이는 ‘뚝’…추세 회복 ‘산 넘어 산’[주간증시]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83RkZ4OHZHb1czbnlmZWNIUUZYMU5SUjFNZ3RGQ2FqM1VYWG96T1RNaS1STndDOUtsc2k4VFlCX3hpcllaNFV2X3hZYWppdHlFVDY3YmtvLWs0aU0?oc=5",
-      "source": "에너지경제신문",
-      "date": "2026-10-18T01:11:00.000Z"
-    },
-    {
-      "title": "코스피 폭락에 반대매매 3000억 육박…해외선 '3배 ETF' 매수 몰려",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBYOHQ5MnhzVUhYdnNpWFdYV3BZYm5NdldQVkVIeXFydko2MV85Z21fVVQwek5wa2xPM19rUzZEU1pQNk1mNG1SVC1wRDVwSjJE?oc=5",
-      "source": "블루밍비트",
-      "date": "2026-10-18T00:57:18.000Z"
-    },
-    {
-      "title": "[글로벌 주간 브리핑] AI 의심하자 코스피가 무너졌다…‘반도체 쏠림’ 드러낸 한국 증시",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE52U2hoMjgwYmdMdXlzQnhoTWdGZmVuODYwQWpFTlE4UGF3WVZzVkc3UWF2NE5GM0ZGcTM4Um1hOUViS1hwWFBjVjR0d2Q3WGFMYjhpd0prcG4tdW0wTDJjYVowNkNLb0RRRFE?oc=5",
-      "source": "월요신문",
-      "date": "2026-10-17T23:05:00.000Z"
-    },
-    {
-      "title": "코스피, 급락 후 반등 이어갈까…美 빅테크 실적에 쏠리는 눈 [주간전망]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE05ajFpRkJYSzRyTWRXTHlwX1A0VU1wWW1ybjJjdmtpY3BDUjFWeWZ2cUY2Y29PcWFpMy1VRm1pUUQ4bllQdGJSX01yc2xBaTZ6aVMyNU9hSENnUQ?oc=5",
-      "source": "한국경제",
-      "date": "2026-10-17T23:00:07.000Z"
-    },
-    {
-      "title": "코스피·코스닥 반등 뒤 뉴욕증시 하락, 삼성전자·현대차·알테오젠 등 상위주들 흐름은?…새 주 회복력 시험대",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zeGZOR0E0VlAycWdmWWFTSk5MRXBDY3h5RHBFN2taQjhMaFZ2cXV6N0k5MW1RTXpnZExmaHJybzBlVUN2cnNCb2tlRkdlVTc3TEpwWHVlU3l0QVg4dkU5OEo3OW1wMEdp?oc=5",
-      "source": "CBC뉴스",
-      "date": "2026-10-17T22:08:00.000Z"
     }
   ]
 }
