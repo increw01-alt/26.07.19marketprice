@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-22T03:38:33+09:00",
+  "updatedAt": "2026-10-22T07:20:56+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "\"코스피 단기 반등했지만 바닥 아니다\"…김영익 교수의 경고",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IcGRaSGZfamNYWFNFLUwxX1R0Z3dhb2xnOWJnbkJzcnVRcXB5QXVoNlRHZjZhZ2pSY25rOUx4eGs4VEx2WnNqa0dFOEI2ZWtnTWltMGNsanlldXAySEREYdIBeEFVX3lxTE1zZU01bGlWNVNEeDhuSnhGdjRucTJNMzFFZm1RN1NfQ1diNkxEbTRVVG84OXJtSm5Ed01ZMGpNeTZiRktnaE5na1ZWSThVU1dDTG9GR2lOcDFNWHdVY3NMVGhjcXpMTDZza1NsY19VLW41NXNTS3Y0eA?oc=5",
+      "source": "뉴시스",
+      "date": "2026-10-21T15:00:00.000Z"
+    },
     {
       "title": "\"코스피 단기 반등했지만 바닥 아니다\"…김영익 교수의 경고",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IcGRaSGZfamNYWFNFLUwxX1R0Z3dhb2xnOWJnbkJzcnVRcXB5QXVoNlRHZjZhZ2pSY25rOUx4eGs4VEx2WnNqa0dFOEI2ZWtnTWltMGNsanlldXAySEREYQ?oc=5",
@@ -37,6 +43,12 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02dTRCY3FvOGotSlkxdEFncDdwYlBzQUJLaVZ6eE1BR3RadmlZajE5SzZ3eUJRa3VZM0tBVlJoeEVSN2hOTTJ2U2NMVTVYRnQwOGNsZXJRMC1rS25QZ0w0YzFMZUFqdG5tMUpPd3hVVjM?oc=5",
       "source": "Investing.com 한국어",
       "date": "2026-10-21T08:32:05.000Z"
+    },
+    {
+      "title": "하루 만에 182포인트 뛰었다…코스피, 반도체 쌍끌이에 5700선 탈환",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8yRmJQc0xnMTVPOHZwRWZUVlZvd3l4TXVQMmNWdmgyZWV2dEdZRW1tVnBzZDY2dGZvU3Itc3AtMFQ2TXQtWExqOWE3VG84YmpwN3hMMHozRExYOVNBQ24yQg?oc=5",
+      "source": "https://www.theconnectmoney.com/",
+      "date": "2026-10-21T08:31:00.000Z"
     },
     {
       "title": "[1021마감체크] 코스피, 외인 순매수에 5700선 회복... 삼전닉스 급등",
@@ -589,18 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOS2EyNGh1RXpVd282V3ZoZXJ2X0FCb1lmQ2NyV0RTR1QxbGx5dFNIX1FveC1JbTlTQmlpYy05czJqQXFHb0lfYW1OX016cU5hUDhaOXI2UUcxQ3hXVFNyMElfUTNNdnVTcnFWeGszbGtSWW9EYS1UOE1qYkxuaXBpdG1nZ3ljdXh5XzBweVRnVzRiMi1ITnpZOWlEcjliRFpaM2tHbVJMZjlTYmRFNkJwYWN3?oc=5",
       "source": "데일리바이트(DAILY BYTE)",
       "date": "2026-10-18T15:00:20.000Z"
-    },
-    {
-      "title": "코스피 겨우 반등했는데 美반도체 3.8% 또 급락…월요일 '삼전닉스' 다시 시험대",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE81cnBLdXdOc0hka1pzbm1xXzFmbjRydW9XTlJDdGdfLVNwaVBTYjJER29kV1JscFZJVWEtdkpKTVZLMGsxZjdZSGY4bWhHUF9FWUpoZzZ2LTNYLUhpUHhHTjlsSQ?oc=5",
-      "source": "녹색경제신문",
-      "date": "2026-10-18T13:13:42.000Z"
-    },
-    {
-      "title": "코스피, 7거래일 급락 끝 반등...외국인 복귀·AI 투자 불안이 변수",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1nbTRDTGd2OURVczVEQzhjMDA3bEFsekNDVHdvWWx5cUNRSzVqUnBaU1h6RWYyQl9jOENpMlNId0NEam9BdUFOeDA1azJUT1BHdnJIY29meG1vR3dtSmFDdHYyMGVHMXIzVHBIblp1eUQ1R3PSAXdBVV95cUxPcEtDZ0tTeTlYcTg3d3BjVWxwM1FsZDJnd0syMi0tekVLOWJZZWtwN2tlaHd1QndFLURCczZFZFBVZmF0SzNPb3YxMW1ZVVcwZllSeFdISk1NUkhaVzgtTk84V2xEQjg2eVRMU1lsdGdEVFZzckRNNA?oc=5",
-      "source": "핀포인트뉴스",
-      "date": "2026-10-18T12:00:38.000Z"
     }
   ]
 }
