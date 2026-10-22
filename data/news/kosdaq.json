@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-22T16:34:36+09:00",
+  "updatedAt": "2026-10-22T22:47:45+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "[속보] 뉴인텍, 주가 미달로 코스닥 상장폐지 결정",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4wNFRscmczLXdvdEo5ak9MUFNXNlpWQTNQTUFhNTJ4UFdWRE82amN0cmdmQ0o4NVNIdTBxb1NkUUYwSkF0MkpxRDRLT0F6SzcxVkhlOXlJNjBiYWhZd2NRMFI2WHF2VklW?oc=5",
+      "source": "CBC뉴스",
+      "date": "2026-10-22T12:59:00.000Z"
+    },
+    {
+      "title": "한국거래소, 코스닥 승강제 최상위에 절대평가제 도입 검토 - 조선비즈",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmwwUHBSNjJHcnFQNXRzQnlhREV6d1RkRlRHWmNpSWpDc190eFFsdmdKbW9zUXl4U19TVHR4RVhaY0VudTNDNjBrR25wMkxOdElQSzdHbGJFWWRhak15TEg4aW1Gak1abU5UQ3dpQkhxdDdpT3lqRVAxRlRGTmwyTllsWFBZeHPSAZsBQVVfeXFMTWZaU0NHdHB5alVLVXBpZ3AtbXpPTGZhcUdwaFoxeHl2V1FsU3RjZkRBYUo4blE4MjAwdXBOYkpmV0lSSWZQcUxtSnhaWXkzRlp4Y2V6d1BiSUhZWldjcWVYTm1ZNHFHcjF2b0FHeG51aU1uSi1UZGtMZHpQNDBDTWh5UExnYThvbEg3MnpmS3VjbUlLcXBOcWpwUFU?oc=5",
+      "source": "Chosunbiz",
+      "date": "2026-10-22T11:39:00.000Z"
+    },
+    {
+      "title": "거래소 \"코스닥 승강제 절대평가 도입, 확정된 바 없어\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RWURpUlRSa0d0Z2h6bXdXamU0Mnh5NUdRT2tqSFo3azMzUldiTG5UMWlwckQwQUlhWVNzdmJYMUs3akpxNC13bkt1TU5wSnFYb2pGQnYwZzhNb1VCaFQtbtIBeEFVX3lxTE94aEFxWmlNRUFNTWVXLWRsVWsyenREWm03R2RpQlZEUXV0OHdyTUk5TTlacUN5dW8xUVZyMGNTUnFrTnl5c3JGZmV1LWkxYnNsQ1BjU2JueExEU2RtVWtSNmFLTTJfTnFieldEeWJhLXFZRlJGdlNhSw?oc=5",
+      "source": "뉴시스",
+      "date": "2026-10-22T11:27:19.000Z"
+    },
+    {
+      "title": "코스닥 영업익 60% 증가…분석기업 41.7%는 이자 충당 못해",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tYmxmUktGa3RqZ1ZyQjAtMVVobTZTSmtXZXZXc0FJeW1nQlNSMUp0TFhnX240NC05WldXN3JwS2w5bkRxd0xiOHlzT2tXSFZNclh0ZEdZWDdrNkVzNmh0VTJZVFIyOGhwckkxanlBRzc?oc=5",
+      "source": "코리아리포트",
+      "date": "2026-10-22T11:26:38.000Z"
+    },
+    {
+      "title": "거래소, 코스닥 승강제 '절대평가' 검토…\"확정은 아냐\"",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9aN3lUZnd5ejU2cmdQRWlDZVNBNjZJcl9JLWRFdDhodDhTYTNkLWFhRzZOeXBPclFsYkVFby1Qc0xtZzFPTE05U2FXN2I0dldBMUVOY3VDMGEtQjJoNXJpVA?oc=5",
+      "source": "아시아경제",
+      "date": "2026-10-22T11:19:11.000Z"
+    },
+    {
+      "title": "코스닥 승강제 최상위 리그…자격되면 숫자 제한 안둔다",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE84LVpsQmRNakowRHpEYXpLNzNWdXVpU3dRX1BJZ0IwdEVINU54WnJjeDZsS2FkTFl3UWs1UWVQbEVnNFAzVjUzblFuLWFVYVFFVlE?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-10-22T11:08:23.000Z"
+    },
+    {
+      "title": "[특징주] 엠에스바이오, 코스닥 입성 첫날 70.77% 상승",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5MNWJIVGlLMVdYMlEyN0FXQ2EzLTFHV0JrRU55X1JZdXhxRXpqSjRZRlVmY3FjZnBsLU9HYTl4SktKaWtBdHRIUTctcl9uQTdmVlRMdFRJYUtDbFgyYWN5OTZzUGhwN0psVmZlTQ?oc=5",
+      "source": "바이오타임즈",
+      "date": "2026-10-22T09:26:41.000Z"
+    },
+    {
+      "title": "[2026 국감] 코스닥 시총 요건 도마…野 \"흑자 기업 상폐 막아야\"",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBkLXNuUmo5Z1o5aGF5U3BBbWlpY1JrS3d6d01LcmQzSmxzSF95NjFOR0RBblIyR1BDQ1RWU2RDMzVLZVR0NG9abC13ZmdKNTcwR0tmeXdjbmo0bFdXd2RPZ0tCRkJlY0pZWENoYmVvUdIBc0FVX3lxTE5nb2x2VmZVaWFEbkR5THdjd0haZ2ZzeWdUb0Rtc29JSzhtUnpEYk5BVW12RERxdHFPTUxRdHVmd1hyd3V1QnU4VUJhNzZmSnQtV1RDRS0yY3RaZV94NWNRd2xqLVJfNjluT1Y0ZlZTUHV1OW8?oc=5",
+      "source": "뉴스웍스",
+      "date": "2026-10-22T09:10:55.000Z"
+    },
     {
       "title": "바른손·형지글로벌 등 코스닥 5곳, '동전주 상폐' 첫 사례되나",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNQWlFNGhCOWFSRlpkTlBIeG5NT2NCUmFSWmtlelNwNUZ4UmY3WVlWSGdSdC1jU2E5eGRhTXY0eEQ1eGdVc25iNGVLN05LOVBmbFJvOUt3QXRyOUt1OWpYazRPX3VFQjV0SnRPekhlRzJoNm40V0xkVjkzTGhUeVRZbU8zSXJxbXVu?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15NEFCZDI4TTQtd2dGMmoyUC1PbGc5eHJPVFJLUm1RS3gxbGJNSUx6SktRWEZJOU44T0lxTDZBZ20wYWFkOVVuYTFlWmhqX0ZfWDhmTXQ2VFVGRUpYbkpZT1RyYWdvTm5pWHFB?oc=5",
       "source": "한강타임즈",
       "date": "2026-10-19T00:28:55.000Z"
-    },
-    {
-      "title": "외국인·기관 동반 매수에도 코스닥 약보합… 시총 상위주 혼조",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wVDhCbE5oVFBrRHBDSEFDR2kwQ0NyeHBkUGdVSEpKSHlCWVNCQW1TZDBSdEl0N29oak11UmJ6ODhmZTl4aVdoakNnanNfWFRJbENNQ2hvc1BXWDNDRDlaZXZReDFVZUs1cDQyeFJMelRrbHhFUXpqUm96dzRPdw?oc=5",
-      "source": "서울신문",
-      "date": "2026-10-19T00:26:54.000Z"
-    },
-    {
-      "title": "코스피·코스닥 전 거래일(16일) 주요공시는...제넥신, 30억원 제3자배정 유상증자",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEdWI4Wi1OdF9ZdmhIZXNNdHV2ZDJOWjlzLS1jcG1VS2pLY2NLSDQxMFlvNG5DOTlrdmpTREtFd29jYW1GTTc3VDZaWXduMUxRTFRDcUhZT1RyMWJoNDV2UDVQQkJuYXhoNlNKOGE5VWZubVHSAXdBVV95cUxNUFRIbVpFOWd2d2NPZ0dGWC1RTVJHTFJVS1RPXzB0MUo5RW5CdmNNYy1lY3R2UTJZbHZaUUMzWlBSTVM3d3dOeGVENWZ3SDhWRThsY082WGc2am9VYUpHYm16dkduaDNtRERLakJyTmRfdjhxMUw3NA?oc=5",
-      "source": "핀포인트뉴스",
-      "date": "2026-10-18T21:27:01.000Z"
-    },
-    {
-      "title": "[위클리분석] 코스닥 6곳 과천 건물 계약, 3곳은 자산총액 초과",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaS2NvMTE0MzFTY25fMGFxOFRxNmRSdEJyVDVlTnpDTUo2a3Q0UkN5SDBpamhpMm55TGhzbmU3dkotN0ZPbmszbGRrWkZSbWk5bFNIQ05PMUtaMTdtOGtnQXpSY0Z5VFR2NnBFemdURk5UQQ?oc=5",
-      "source": "데이터투자",
-      "date": "2026-10-18T21:10:00.000Z"
-    },
-    {
-      "title": "상장 제약·바이오사 상반기 평균 총차입금 코스피 3112억원, 코스닥 626억원",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5uU1Ixb3d3bl9DeTVGTTRPRFZQRFBiZVNpSDl0Q1Y0dzhRUmpCc3ppRVpPNmJUZGZNR1Z5aThQYXNyZTRZcmlKM0gwQWVMYXdQQTRxWnlsSi1qSjVmNkI0bVFlMm9XQQ?oc=5",
-      "source": "약업신문",
-      "date": "2026-10-18T21:01:00.000Z"
-    },
-    {
-      "title": "[주간IPO] 시총 1조 기대주 '엘리스그룹' 코스닥 입성…엠에스바이오·디티에스 상장",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3RUZYSlludDY1WDY4YnZRdzRwUE1wYjhvZmNHVkpzajdzenJSMl9yYTd3MHpZN1JPOXZ0c2wwRTJWalVaYnR1bnljVzJ3a2p5MVdwRW9IazhzT2JB?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-10-18T21:00:00.000Z"
-    },
-    {
-      "title": "[IPO 워치] 엘리스그룹 등 3곳 코스닥 입성…수요예측 8곳",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9FQmJZNW1iYlVQb05KWS05TE5jSEJYdzNuVmp3Q29JbUExZWRCQlJFVjJXUnN5STJFcDdjdDBEMEd1VkptTVNBZThUaTB2Yk13Z0tRZVZjQWg5OTdMeVE?oc=5",
-      "source": "뉴스투데이",
-      "date": "2026-10-18T19:13:06.000Z"
-    },
-    {
-      "title": "[산업전망] ‘세미콘 웨스트’서 확인된 K-소부장의 대변혁...코스닥 반도체주, 3대 구조적 기회 맞는다",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE16bEpYRkRWTjc2ZnlHY0VwbmR5R21VMUR6Z1I2NGlJLTlRNFZobWRvcXEwM0Z4RXd1b3hNREcydFE3dXk5cVdvVGdsVThHWVBCZTZqUWtmWFRkbFk5Smk4VHNROURjdEk?oc=5",
-      "source": "산경e뉴스",
-      "date": "2026-10-18T13:02:17.000Z"
-    },
-    {
-      "title": "[산업이슈] 미 ‘세미콘 웨스트 2026’ 흔든 K-소부장...코스닥 반도체주, '탈중국·공급망 재편' 타고 북미 수주 가시화",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zTzA3RkRrRWVMVXFacXkwdThTSW5mRlhXb3FtX3dxWlYwa0RJU0tlYkIyQnVwTFZBYWEydHMya0dHbTFlTFpZLVRGbl8tZXdZMHZhbGxJUUNCNDVYaVNIMXM4N1RWMnc?oc=5",
-      "source": "산경e뉴스",
-      "date": "2026-10-18T12:52:32.000Z"
     }
   ]
 }

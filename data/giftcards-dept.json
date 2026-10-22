@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22T16:34:16+09:00",
+  "updatedAt": "2026-10-22T22:47:26+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -295,8 +295,8 @@
       "label": "롯데상품권",
       "face": 100000,
       "method": null,
-      "buy": 95800,
-      "buyRate": 4.2,
+      "buy": 95950,
+      "buyRate": 4.05,
       "sell": 96200,
       "sellRate": 3.8
     },
@@ -307,10 +307,10 @@
       "label": "신세계상품권",
       "face": 100000,
       "method": null,
-      "buy": 96000,
-      "buyRate": 4,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 95900,
+      "buyRate": 4.1,
+      "sell": 96280,
+      "sellRate": 3.72
     },
     {
       "shopId": "meee",
