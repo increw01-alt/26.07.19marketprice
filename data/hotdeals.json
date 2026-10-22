@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-10-23T03:32:13+09:00",
+  "updatedAt": "2026-10-23T07:20:13+09:00",
   "deals": [
+    {
+      "title": "iOS27 일시무료 Shortboard",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81987",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-22T21:59:36.000Z"
+    },
+    {
+      "title": "질레트 포오미 센서티브 175G 4개 9940원. 8개 17820원 무배 카드사할인시",
+      "mall": "G마켓",
+      "price": 17820,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742409",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-22T21:55:41.000Z"
+    },
+    {
+      "title": "드리미 l50s 울트라 대린가",
+      "mall": "카카오",
+      "price": 598920,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742408",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-22T21:53:27.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Tapewind",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/81986",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-22T21:52:50.000Z"
+    },
+    {
+      "title": "스위치2 하늘의 궤적 the 2nd (87,300/2,500)",
+      "mall": "네이버",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108266",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-22T21:45:56.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108265",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-22T19:02:42.000Z"
+    },
     {
       "title": "질레트 프로글라이드 핸들 + 면도날 12입",
       "mall": "롯데온",
@@ -198,28 +264,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-22T15:12:25.000Z"
-    },
-    {
-      "title": "말표 에너지드링크 제로슈가 다크홀스 24캔+에베레스트 24캔",
-      "mall": "G마켓",
-      "price": 29540,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742390",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-22T15:11:56.000Z"
-    },
-    {
-      "title": "국내산 볶음김치 1kg+1kg",
-      "mall": "G마켓",
-      "price": 9990,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742389",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-22T15:10:43.000Z"
     },
     {
       "title": "Brave Squad 무료",
@@ -497,17 +541,6 @@
       "date": "2026-10-22T02:10:37.000Z"
     },
     {
-      "title": "마이카방문 3종 추가",
-      "mall": "네이버페이",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108238",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-22T02:02:36.000Z"
-    },
-    {
       "title": "애플 뮤직 구독할인 이벤트",
       "mall": "신한카드",
       "price": null,
@@ -517,17 +550,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-22T01:58:56.000Z"
-    },
-    {
-      "title": "농심 생생우동 16봉",
-      "mall": "롯데온",
-      "price": 23990,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108237",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-22T01:49:37.000Z"
     },
     {
       "title": "데스크탑 CNC - tooldance X1 2999$",
@@ -671,28 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-20T22:04:44.000Z"
-    },
-    {
-      "title": "10-21 네이버페이 68원 + 랜덤 포인트",
-      "mall": null,
-      "price": 68,
-      "cat": "쿠폰·상품권",
-      "link": "https://damoang.net/economy/81877",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-20T15:26:44.000Z"
-    },
-    {
-      "title": "까기쉬운 칼집 약단밤 칼집밤 1kg",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81872",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-20T03:02:13.000Z"
     }
   ]
 }
