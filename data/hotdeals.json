@@ -1,6 +1,28 @@
 {
-  "updatedAt": "2026-10-24T03:20:37+09:00",
+  "updatedAt": "2026-10-24T07:10:13+09:00",
   "deals": [
+    {
+      "title": "수향미 쌀10kg 26년산 햅쌀 상등급 당일도정",
+      "mall": "지마켓",
+      "price": 37900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742659",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-23T21:51:02.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108292",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-23T19:29:48.000Z"
+    },
     {
       "title": "후드 남성 바람막이 점퍼 4종",
       "mall": "옥션",
@@ -187,17 +209,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-23T15:10:29.000Z"
-    },
-    {
-      "title": "간장 깐새우장 300g+양념 깐새우장 300g",
-      "mall": "네이버",
-      "price": 11980,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742644",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-23T15:10:02.000Z"
     },
     {
       "title": "언더테일",
@@ -572,17 +583,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-22T15:30:21.000Z"
-    },
-    {
-      "title": "The Green Light 무료",
-      "mall": "itch.io",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108262",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-22T15:27:52.000Z"
     },
     {
       "title": "안흥 찐빵 10개 안흥찐빵",

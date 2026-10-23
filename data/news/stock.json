@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-10-24T03:20:49+09:00",
+  "updatedAt": "2026-10-24T07:10:25+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "[아! 코스피] ④ 국민연금 보유주식 평가액 182조 줄어…반도체 쏠림에 부담↑",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1CSng5RkxMN0dEdjZyd29YVTVQT1FBdG1felc1c3d6NHpMeEstU2NUeHh0blJkX1VRZW9yWEk1eGlabWhtbWNMNmR6UUU2VGRvaEgybERmOENoeWxN?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-23T22:00:00.000Z"
+    },
+    {
+      "title": "하루 오르면 하루 빠지고…롤러코스피 속 살아남은 종목은?[김근희의 증시랩업] - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5ja20wbjZfejNDVEpna2dFNjVwYl9KRDhpUS1kSTAxODdRSFh6MlJKQ2V4MFhFSEg0bG4zWGt1eEZhdktaM0hSRHQ3T2YwWlNxaUFpRVdEUjh5cUlucTdJb194S2FoRlRGNVdIaGJGTnRSZXlGX3fSAXtBVV95cUxQd2N3STAzaUgxVER2c2NtS2VrYUdvOWVWT3EwcG44V0dyRVBCUWhxWEVhaWl1NjFlWVJ0Sk5WbWUtRldNWFVsb2t3Q20tWTFSNDJzbno4d3lULXdvV3ExRG12aHI1WE5KV0tHVy14empGRTE0ZmZLSThXWmc?oc=5",
+      "source": "머니투데이",
+      "date": "2026-10-23T21:18:00.000Z"
+    },
     {
       "title": "[마감시황] 솔리다임 철회 SK하이닉스 반등…코스피 5550",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1sQ2JFN2daS3pCQ3E4dUNMTGRVVWtURzRoWlEtZGtxRjFaMlEycDZDMzdSXzlZY1lPczVJRC1BNUtRSmFRQno0UDdKa1FHMmxYaVV4MklZX3MzZ1lQYVlSRU03UVU2RWc?oc=5",
@@ -13,6 +25,12 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4SjdDbkIwaThqR25scjlVaFJkYWswc2tuQTU4MTd4Uk1jOHZLQ3VzZ1lhMmtEYTRpWFMzV0VZSjBTZWtmc204ckFzSjZmcXd5bG1tTTNsVlYweHlsQ2QzTnI2ajU5TTBDckhJbg?oc=5",
       "source": "프리진경제",
       "date": "2026-10-23T10:48:20.000Z"
+    },
+    {
+      "title": "코스피, 4% 급락 딛고 반등해 5550.30 마감 : 한국증시",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1TSHRMcGFYdUVTNHlkRGJqTDltNlRoQl9CTVU2dHhGRWdseThoRVhvLWloM01BTS01ZEowYW5vWFIxbUZOS1UtZGpaVQ?oc=5",
+      "source": "재경일보",
+      "date": "2026-10-23T09:14:37.000Z"
     },
     {
       "title": "[머니워치] 코스피, 5500선 회복 마감…다음주 실적 발표 주목",
@@ -583,24 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9hTnd6YkhIMVdPWFp3M2pRUGdsVzJsTXMzTzc2RjduNGhiYUE1VTZWMUpldVhlS292My11UVk0YlZYX3p2alJHQ3Bxb1ZEaWVBaF96elI0NVhpa19KZWhQUW9pQjBKQU5YSFE?oc=5",
       "source": "서울파이낸스",
       "date": "2026-10-20T08:10:19.000Z"
-    },
-    {
-      "title": "코스피 장중 5500선 무너져… 한·미 금리 셈법 복잡해졌다",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBoWDVOc19FQUpYc0N0TTVPdTV4RTZHc1kzLXdldHAyeUE0emdrZ2taQzNmLWxJNW1OYWM3T3hSS2UxS2gyOEtaSml5MndST0xR?oc=5",
-      "source": "문화일보",
-      "date": "2026-10-20T03:01:30.000Z"
-    },
-    {
-      "title": "또다시 눌린 코스피…佛정세불안 유탄•AI 부채우려 재부각",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84OE1UbnNOeDlnZXNaeGZ4aFJ3U3BGR1JEb21tOWE3VVFNSXdoTnhzeUx5WTlXS21LYm5fWTNRS3lTSGttUDZSLVhzMjg3VXpSMU1LQzV6RVpVcGPSAWBBVV95cUxOOE5zN1ZHYm9MWlNaUUt5VXVVbXlIOFRTUmRxdGE2Qm5oOHNpVVFGejJzalh2WGUtVkhpdXpRMkVzOTJ4STJBWGxMWUdtXzFPQy1fQXFsdnByNWZVX3o2Ykw?oc=5",
-      "source": "연합뉴스",
-      "date": "2026-10-20T02:45:50.000Z"
-    },
-    {
-      "title": "코스피 2%대 ↓...SK하이닉스 장중 한때 7% 급락",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9uWHBmNnhiZHNXMGFnU3o5QTMwak1xM21wejZCelJoWlJtakw5bWVCTDlSR2FsMGNPZ3ZnaERfUmdqajlKT3JSN0hpM3k5OGdObmtnSjNLMkhpZnhGYUE?oc=5",
-      "source": "YTN",
-      "date": "2026-10-20T02:43:00.000Z"
     }
   ]
 }
