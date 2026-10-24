@@ -1,6 +1,50 @@
 {
-  "updatedAt": "2026-10-25T05:48:09+09:00",
+  "updatedAt": "2026-10-25T08:13:13+09:00",
   "deals": [
+    {
+      "title": "10-25 네이버페이 56원 + 랜덤 포인트",
+      "mall": null,
+      "price": 56,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/82049",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-24T22:51:51.000Z"
+    },
+    {
+      "title": "iOS 일시무료 불타는 내 인생",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82048",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-24T22:29:08.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Trigger Keeper",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82047",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-10-24T22:20:16.000Z"
+    },
+    {
+      "title": "종근당 락토핏 골드 50포 3통 + 30포 증정",
+      "mall": "CJ온",
+      "price": 28200,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742826",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-24T22:01:18.000Z"
+    },
     {
       "title": "하늘의 궤적 the 1st 디지털 디럭스 (57,250)",
       "mall": "한국eshop",
@@ -220,17 +264,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-10-24T15:07:32.000Z"
-    },
-    {
-      "title": "프링글스 오리지날 110g 외 3개+3개+3개",
-      "mall": "네이버",
-      "price": 13020,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=742810",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-24T15:05:46.000Z"
     },
     {
       "title": "플레이스테이션 기프트 카드 5만원",
@@ -660,39 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-10-21T22:50:38.000Z"
-    },
-    {
-      "title": "달리기, 자전거, 트래킹 기록앱 Gyeol 결 입니다. (iPhone Duo 지원 기념) 리딤코드 100개",
-      "mall": "iOS",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81922",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-21T22:14:59.000Z"
-    },
-    {
-      "title": "iOS 일시무료 HabitWing",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81921",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-21T22:11:08.000Z"
-    },
-    {
-      "title": "iOS 일시무료 Chill",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/81920",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-10-21T22:09:25.000Z"
     }
   ]
 }
