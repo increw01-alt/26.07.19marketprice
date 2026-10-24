@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T09:41:08+09:00",
+  "updatedAt": "2026-10-24T14:52:06+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -67,10 +67,10 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "이체",
-      "buy": 95900,
-      "buyRate": 4.1,
-      "sell": 96200,
-      "sellRate": 3.8
+      "buy": 96100,
+      "buyRate": 3.9,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "citypay",
@@ -79,10 +79,10 @@
       "label": "롯데백화점 10만원권",
       "face": 100000,
       "method": "현금",
-      "buy": 95700,
-      "buyRate": 4.3,
-      "sell": 96200,
-      "sellRate": 3.8
+      "buy": 95800,
+      "buyRate": 4.2,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "citypay",
@@ -163,8 +163,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480500,
-      "buyRate": 3.9,
+      "buy": 480750,
+      "buyRate": 3.85,
       "sell": 482500,
       "sellRate": 3.5
     },
@@ -175,8 +175,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
+      "buy": 96150,
+      "buyRate": 3.85,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -187,8 +187,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48050,
-      "buyRate": 3.9,
+      "buy": 48075,
+      "buyRate": 3.85,
       "sell": 48250,
       "sellRate": 3.5
     },
@@ -199,8 +199,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480250,
-      "buyRate": 3.95,
+      "buy": 480500,
+      "buyRate": 3.9,
       "sell": 481750,
       "sellRate": 3.65
     },
@@ -211,8 +211,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96050,
-      "buyRate": 3.95,
+      "buy": 96100,
+      "buyRate": 3.9,
       "sell": 96350,
       "sellRate": 3.65
     },
@@ -223,8 +223,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48025,
-      "buyRate": 3.95,
+      "buy": 48050,
+      "buyRate": 3.9,
       "sell": 48175,
       "sellRate": 3.65
     },
@@ -235,8 +235,8 @@
       "label": "현대 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 481500,
-      "buyRate": 3.7,
+      "buy": 481750,
+      "buyRate": 3.65,
       "sell": 483000,
       "sellRate": 3.4
     },
@@ -247,8 +247,8 @@
       "label": "현대 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -259,8 +259,8 @@
       "label": "현대 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48150,
-      "buyRate": 3.7,
+      "buy": 48175,
+      "buyRate": 3.65,
       "sell": 48300,
       "sellRate": 3.4
     },
@@ -379,10 +379,10 @@
       "label": "신세계 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96150,
-      "buyRate": 3.85,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "worldticket",
@@ -571,8 +571,8 @@
       "label": "롯데 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 95800,
-      "buyRate": 4.2,
+      "buy": 96100,
+      "buyRate": 3.9,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -583,8 +583,8 @@
       "label": "신세계 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96150,
-      "buyRate": 3.85,
+      "buy": 96200,
+      "buyRate": 3.8,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -643,10 +643,10 @@
       "label": "신세계 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96400,
+      "sellRate": 3.6
     },
     {
       "shopId": "giftdept",
