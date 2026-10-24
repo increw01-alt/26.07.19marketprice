@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24T23:31:32+09:00",
+  "updatedAt": "2026-10-25T03:08:24+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 108120000,
-      "change": -759000,
-      "changePct": -0.69710412,
-      "volume": 62085136104.31908,
+      "price": 107945000,
+      "change": -934000,
+      "changePct": -0.85783301,
+      "volume": 77248389215.20766,
       "spark": [
         102989000,
         104852000,
@@ -156,7 +156,7 @@
         111977000,
         108903000,
         108879000,
-        108190000
+        107919000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 1.51,
+      "price": 1.62,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -439,7 +439,7 @@
       "href": "/giftcard/shinsegae",
       "name": "신세계상품권 10만원권",
       "value": 96200,
-      "changePct": 0.05200208008320333
+      "changePct": 0
     },
     {
       "chip": "롯데",
