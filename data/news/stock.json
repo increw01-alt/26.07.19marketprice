@@ -1,12 +1,30 @@
 {
-  "updatedAt": "2026-10-26T04:06:11+09:00",
+  "updatedAt": "2026-10-26T06:47:21+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "삼성전자",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRDA0eDA2T1lnRkpiOWlyTDlKcU56czVabDk2QnZzM2xaQllHSVN3ZHhFNUpSN0NpQ09KOTZWMmJ4bEhmTmlfSGwzamJaZlB2SzBQRnNqYTVHMUt4VE1POGhfRmJqSFVHN2x6alVtSDFpNUI5dmNJUk53WDdTR19zb3V3SmJiajZSTjVDX0I4dmZfQTM3LUNj?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-10-25T21:07:40.000Z"
+    },
+    {
+      "title": "[미리보는 증시재료] 실마리 못 찾는 코스피…삼전닉스·美 빅테크 실적에 반등 기대",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBWU0dvbnJERWs1cmV1cmg2S1pfWnZ6UVlwYmdrd0twUDFNQWlmVTloeVdMMFVpZkxJenhRNXVBWmRmWFZNNVZ6QXpOSGw4REE2LTVqNnFRMEN2VFJn?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-25T21:00:00.000Z"
+    },
     {
       "title": "FOMC·삼전닉스 실적 발표… 코스피 '빅이벤트' 버텨낼까 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5tWGtteEtEVURNUWh4QlZpMUszQVAybE54eWZSemJkQktmdUQwUXRXd3NYX1c3S1A4UFJmX1Rkd0pDcG1Ya21wRUFYa0swb04xV3hkUWtWeHFlYzB4ZHRyY21NWGlFU29MZHdmdEx0WUdKSUdHOHfSAXtBVV95cUxNeDBGYTdaTHRoeUhHRDJoZW92Sm1aaFBFaVBWeTRlVDdzR21kdUhVaEh1MTMyVFEzUkFaQnNDRGYwTGxkbDRKaHg0eEV4c0FvcXBLUXVQZUs4Y05GZmFVd3h4U0xDZURwNWZYaGNZX3BpRFM4UmVLR1VlTjQ?oc=5",
       "source": "머니투데이",
       "date": "2026-10-25T18:28:00.000Z"
+    },
+    {
+      "title": "골드만삭스, 코스피 목표 1만2000→9000으로 하향",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbjJEWG9aM2FaRWZMd056V3dCTE8xTXlDNVJLakhvQWJwLVZsZHdsS2xSbzJVdEo1MDUzTFlKdTh2bGZUZzNWMnB3LUFPNmNBZnRlOFBqUkwtRGxLYVBqUHo0QWY4NlQ1YktrUGktU3NtNmVUaXZXdGxQTlE2eTJGSUw4Q21zOXBr?oc=5",
+      "source": "글로벌이코노믹",
+      "date": "2026-10-25T16:00:00.000Z"
     },
     {
       "title": "삼전닉스 197조 던진 외국인…조용히 쓸어담은 '종목' 뭐길래",
@@ -19,6 +37,12 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hOG4xT2lWbmx3NlBvbTFyT0NFM3dSZHZxVnYtay1fOWpKdXU3aUVlcTh0XzIteTRNTk5zb2V0LWtXdHhBbkNlTUY1bldCQUwyb0pSUTltVHpJbThWZXhSVg?oc=5",
       "source": "KBC광주방송",
       "date": "2026-10-25T14:40:01.000Z"
+    },
+    {
+      "title": "골드만삭스, 코스피 목표 9000으로 낮춰…“주가 저평가는 여전”",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4yUktJdXJNdjRfcHZJVnZod3VOd2tXbEIyT1BtR01jeGFfSFQ1bjRvbk0wbU5nMlotMUY5VnVobTRRY084N25vWjBtZzlnQXBzdU9CU01xQ09pXzZ4Rl9Ebw?oc=5",
+      "source": "메트로신문",
+      "date": "2026-10-25T14:25:55.000Z"
     },
     {
       "title": "골드만삭스, 코스피 목표 9000으로 25% 낮췄다",
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IcGRaSGZfamNYWFNFLUwxX1R0Z3dhb2xnOWJnbkJzcnVRcXB5QXVoNlRHZjZhZ2pSY25rOUx4eGs4VEx2WnNqa0dFOEI2ZWtnTWltMGNsanlldXAySEREYdIBeEFVX3lxTE1zZU01bGlWNVNEeDhuSnhGdjRucTJNMzFFZm1RN1NfQ1diNkxEbTRVVG84OXJtSm5Ed01ZMGpNeTZiRktnaE5na1ZWSThVU1dDTG9GR2lOcDFNWHdVY3NMVGhjcXpMTDZza1NsY19VLW41NXNTS3Y0eA?oc=5",
       "source": "뉴시스",
       "date": "2026-10-21T15:00:00.000Z"
-    },
-    {
-      "title": "\"코스피 단기 반등했지만 바닥 아니다\"…김영익 교수의 경고",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IcGRaSGZfamNYWFNFLUwxX1R0Z3dhb2xnOWJnbkJzcnVRcXB5QXVoNlRHZjZhZ2pSY25rOUx4eGs4VEx2WnNqa0dFOEI2ZWtnTWltMGNsanlldXAySEREYQ?oc=5",
-      "source": "뉴시스",
-      "date": "2026-10-21T15:00:00.000Z"
-    },
-    {
-      "title": "국내 증시 저평가 이유는…“반도체 쏠림·고금리가 직접적 원인”",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBaZnBYTVMtd3FQSl9sQnpNVHFJQjlGbnJNdlNVMWZwbGVYRlZJZ0ZNZmRlWGY5MTRfSnFFN1YtWHNIeWM0TncwenIxQUVQaFJKXzRRUjZDdjRRWWRLMHBTazR5QWNfQTQ?oc=5",
-      "source": "한겨레",
-      "date": "2026-10-21T10:10:00.000Z"
-    },
-    {
-      "title": "[마감시황] 코스피, 외국인 매수에 5730선 회복…반도체주 5%대 급등",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92ZmlIUEpFY29BMHJ4ZDRmOFF6SmUwMjBxelhkQXgzMVZmV241UlVQN2JDWjRoUlY1N0JBMER5VXFSVGFudW1IWDNsdzRYNDhHRk80RktWS25NdEVqTVFWVzlMQmttb2dxNGlldnA0akVQdw?oc=5",
-      "source": "한양경제",
-      "date": "2026-10-21T09:02:41.000Z"
-    },
-    {
-      "title": "한국투자증권, 코스피200·주요 종목 기초자산 ELW 224종 신규 상장",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tLXNpekxISkhIRDQtcXlVbFlLNU9idFpRWXp1S29UdEVnSkFxVExQck5WZGpuZEhDblQxX2VBRVMySVFhMWtXcE5JOHNXY2p6dXZ0X2ItYVF3bmN6SXllSWlqdlA?oc=5",
-      "source": "열린뉴스통신",
-      "date": "2026-10-21T08:43:59.000Z"
     }
   ]
 }
