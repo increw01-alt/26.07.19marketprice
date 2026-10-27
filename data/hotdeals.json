@@ -1,6 +1,61 @@
 {
-  "updatedAt": "2026-10-28T01:37:47+09:00",
+  "updatedAt": "2026-10-28T06:18:39+09:00",
   "deals": [
+    {
+      "title": "rTG 오메가3 프로 60캡슐 4통 8개월분",
+      "mall": "11번가",
+      "price": 39900,
+      "cat": "건강",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743595",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-27T21:03:30.000Z"
+    },
+    {
+      "title": "프로프룻 시나노골드, 특품, 난좌포장, 3kg, 1박스",
+      "mall": "토스",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743594",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-27T20:28:46.000Z"
+    },
+    {
+      "title": "유한락스 NEW 욕실청소용 600ml 4개 + 후레쉬 500ml 증정",
+      "mall": "오늘의집",
+      "price": 11610,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743593",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-27T20:06:49.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108420",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-10-27T19:29:48.000Z"
+    },
+    {
+      "title": "평생 알뜰요금제 통화기본 150gb 5mbps",
+      "mall": "시월모바일",
+      "price": 26950,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743592",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-10-27T16:58:05.000Z"
+    },
     {
       "title": "26년 햅쌀 고시히카리 10kg",
       "mall": "팔도감",
@@ -178,17 +233,6 @@
       "date": "2026-10-27T15:19:07.000Z"
     },
     {
-      "title": "슈퍼 비타민C 3000 100포 x 3박스",
-      "mall": "옥션",
-      "price": 23900,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743579",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-27T15:18:19.000Z"
-    },
-    {
       "title": "선착순 뚜레쥬르 포장 18000원 구입시 9천원 할인 (10/28)",
       "mall": "요기요",
       "price": 18000,
@@ -209,39 +253,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-27T15:08:46.000Z"
-    },
-    {
-      "title": "히트키퍼 틈새 문풍지 1+1",
-      "mall": "오늘의집",
-      "price": 15717,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743578",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-27T15:08:45.000Z"
-    },
-    {
-      "title": "스륵앤 식물성 멜라토닌 5mg 30정",
-      "mall": "네이버",
-      "price": 5180,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743577",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-27T15:07:51.000Z"
-    },
-    {
-      "title": "메가MGC커피 할메가미숫커피 아이스",
-      "mall": "네이버",
-      "price": 2170,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=743576",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-10-27T15:07:43.000Z"
     },
     {
       "title": "메가커피 메뉴 22%+멤버십 10% 추가 할인 1차 (10/28)",
@@ -495,17 +506,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-10-27T01:04:29.000Z"
-    },
-    {
-      "title": "아웃라스트1 - 90% / 1650원",
-      "mall": "스팀",
-      "price": 1650,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108391",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-10-27T00:32:08.000Z"
     },
     {
       "title": "난각번호1번 계란 유정란 20구 무항생제 자연방사",
