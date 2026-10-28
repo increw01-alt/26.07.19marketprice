@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-28T06:18:50+09:00",
+  "updatedAt": "2026-10-28T10:20:47+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피, SK하이닉스에 반색..4%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5YVzFOQkNjUEtMcHBZV3BhLW9RVWdKZkxBaThsOEhyMUxSYTRXR3pWZEd3LTBnX0paeUwwMG5VNnRnM3BPdjhieEpSRW9qZE14YklZdHVsTnlQVnZYMzU4?oc=5",
+      "source": "스마트투데이",
+      "date": "2026-10-28T01:13:00.000Z"
+    },
+    {
+      "title": "[속보] 코스피 4%대 급등에 매수 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE13aUtmTkladmNqcDhpalZ3QjdGVWtfY3dnMldNSXdlS19SajRWSkdFdjdXdExkZWlOYWtuQW1CNjE4em9uUnF5c2U3c1RQOUZDbGFFWERjNVMyeVZlYmFtQ1BWWVp1dHFJZ0E?oc=5",
+      "source": "천지일보",
+      "date": "2026-10-28T01:00:49.000Z"
+    },
+    {
+      "title": "[속보] SK하이닉스 강세에 코스피 급등…매수 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBpU2ppUmxXQ0hPSDZ6WW54cS1hS2dmc2RZQkhEMXpjRi1BX1Z1REFNQVFjZ2VReHcyb19KcXRyT0FNS2dOTzExMlFvRlpGRkJBOWZ0ZnJFRXpWemhyUnd5QjA5X2E4TnZjOWRyMVY1VlpLaHc?oc=5",
+      "source": "오늘경제",
+      "date": "2026-10-28T00:58:35.000Z"
+    },
+    {
+      "title": "코스피, 美 기술주 강세에 2%대 상승 출발···5800선 근접",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGQ0h2QzIydXZTS0M4Sm9HbTE1N1kzVzNHUS01X3NTTUMyaFFqT2Joc1RYWVZJTTIyeUpBd19LUC0yU3k2NjB6bklkNlNEdzdFYkItRFc3ZjNWUTdTeHhJLXhFcTd5YkRXZ0VnWg?oc=5",
+      "source": "스마트비즈",
+      "date": "2026-10-28T00:30:43.000Z"
+    },
+    {
+      "title": "뉴욕증시 훈풍에 코스피 2.79% 상승…5800선 넘봐",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBETVp0YmMyc01yS1daSEpLaUpxYllhLXJUTFpqUXpTcjNESDZ0MFR3VlN3SUtPVEdnNFdFQzdkY05ZZTZlYnZGMHlTb3pKZzMxbDNJR2Z0cVBoNnFNNE43bzE4OExRQmp1cy1sZWhrVWpHdw?oc=5",
+      "source": "인더스트리뉴스",
+      "date": "2026-10-28T00:30:02.000Z"
+    },
+    {
+      "title": "코스피 2%대 급등하며 5760선 회복…美 AI 훈풍에 반도체주 '활짝'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjVkpQRVdna3VDUnZMV3hZV2ROVVhVUlVHZDBUVGlHN0NfMFRjTkN0YXZVaW0xWHJmNXNjZkV5TzNzazdzQVZ3R25WcjFJZDhuZ25kSk9OVzNLd9IBVEFVX3lxTE5Ga1UzLU5nR3RVTG9veGpzck9uUnh5RHJZY0NXUnFMRkRQeUR0dE1iZ2FjSXJ0bGNKbGpSOUE3eXREU01jSm5jaV9tMFpNNmlQeDZvMQ?oc=5",
+      "source": "더팩트",
+      "date": "2026-10-28T00:17:44.000Z"
+    },
+    {
+      "title": "코스피, 2%대 상승해 5700선 회복…삼전닉스 동반 강세",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5iRWtqUWhYUXo5RjlWYzB2dnU5UEFlQW8wUmJuLUk0NDlIOF95THdZdXozN25nVVBGZXAxdjJWVUdobmhwMXhCV25IMjJfeko0TDhWUnlQd1Vqdw?oc=5",
+      "source": "한국경제",
+      "date": "2026-10-28T00:10:40.000Z"
+    },
+    {
+      "title": "[개장시황] 코스피, 125.51포인트(+2.23%) 오른 5763.85 출발",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE01bzd4bGF1Wi1QZk51N1ZxZS02dk9PMUFSTUZZcEpVVUVKQ181d2ZFSUMyRGVZQnJCRWhuMmNmTHNOUDh5M2xkRVFiVjRabE5waE9zcG1ON25teVgzNENENjRleHF2bVcwTUVB?oc=5",
+      "source": "라이센스뉴스",
+      "date": "2026-10-28T00:06:37.000Z"
+    },
     {
       "title": "[아! 코스피] ⑨ 코스피 5000은 바닥인가…반등 조건과 추가 하락의 위험",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBxR0g2bnItQUFaTnFyMWIyY0VTeXVkR3RZV1B0cmdjSFZjell0SlVtNzNfVkxOV1JiTTFzMTZTcXlkU0JZQjI5Z2ZDbXRSWG5QUkd1a1Z5VTZ5d0Zt?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9PZ1dvLWNCdEVvaUVBWEZNTU5XNkRPU0Y4VEdqdTZyQnZzaDdjNDFMak01SXZhZHZSOXVFMmxQNTVzbXB2c3l4NlZacHZZNnF3NEhJUlN1Z1VKc1J1bGZNTk1FTVItT09GXzFWd2tyVlLSAXRBVV95cUxQVHE5ZVA1YmduVzd6X1JOMnZpdDVSVlhzYjRpcVFJMmpNb0hGelU4dTktXzcyc3pqYlIzMXI2VzJVcHVkZWVCMGhsZXJNNF9SZHYxZEMtVW5jV0htQXdKX3B6Qm9YMnBaUmphMkdieTNNbVVKRA?oc=5",
       "source": "IT조선",
       "date": "2026-10-24T21:10:00.000Z"
-    },
-    {
-      "title": "'코스피 50%' 붕괴된 삼전닉스…대안 없는 코스피 '수급 공백' 비상",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tSjdqOFNCdkd1MnNNUF9IRExsU3RzdnVfOFJZLVBwdUMwQXZoNE10d2ctVldJTnhDaVhQUTF5U3M3RktESUdPZjdoakYyamJsY3pzUHRQb0c4dw?oc=5",
-      "source": "파이낸셜뉴스",
-      "date": "2026-10-24T21:02:44.000Z"
-    },
-    {
-      "title": "[마켓인사이트] 솔리다임 상장중단에 반전한 코스피…금주 향방은",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9HQjNGNUJTTnhvYzRLYzRsUnlXSHlJaXM2UmozV0hyV28tUjVMdG9vMk9KSW1VTnVvVlNHY1BWLUtFSGdzd0ppcG5JanZBMkQtalE?oc=5",
-      "source": "매일경제 마켓",
-      "date": "2026-10-24T21:00:07.000Z"
-    },
-    {
-      "title": "(주간증시전망)솔리다임 상장 철회 촉각…코스피 반등 시험대",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFB6eTJRXzZEYVE1QndVd3Jqai1QaS1nMVI1RWx2c2xCTEV2NF9IWnZzRDYtVU1HNVNtTVVpYzVZM0lrbzF3OTFrWmNhczVuZWpoRGsxVzJnT3UwOFQ0RjN3?oc=5",
-      "source": "뉴스토마토",
-      "date": "2026-10-24T21:00:03.000Z"
-    },
-    {
-      "title": "“코스피 겨우 5500 지켰는데”…월요일 증시 덮칠 ‘117달러 쇼크’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02X3ljU082QVk5Y3ZXeXV4NTlFTXBzUkNrZ2ZDSHNJTlU3MmpwaTJnQnBQTEctdEdndDFVci00M2FSb3dHeXQ0S0RSa0ZLMTlIM3F5WVFyQ01NdWgzamlSSkVTRDVsTGM2TjViMQ?oc=5",
-      "source": "데일리25",
-      "date": "2026-10-24T19:41:02.000Z"
-    },
-    {
-      "title": "[증시 UP&DOWN] 11월 분수령 앞둔 코스피…믿을 구석은 '실적주'",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1zMndTemtFNzdEZTN2aHFkZ1NTTkx2LXd1ZHFNN3FORzFjVkh6Q2ZCRnlLOW1vOFRpbHhPZXFPOXh5bVNTUHFLZGduSUVDd2ZfdU9jYVJwTHl6LVRwbmJjR0RWTnY5aUFzYVdnN0dtcEfSAXRBVV95cUxPdWlhR2U4T0dWZVp1RzBoYlNpVGtRcVcxNmF4eTdQbHM1bnpYaGNFMl9HQmVKWm5xeU9YM18xUFZPS1djczhyNmJFeF9ueEcyQWJIdXN6MWw2Z0g1VUlPMU9MdjRSWU4zOG5sbnpLWEhQd1FHUw?oc=5",
-      "source": "포인트데일리",
-      "date": "2026-10-24T19:00:00.000Z"
-    },
-    {
-      "title": "5500선 밀린 코스피…삼전·SK하닉, 반등 돌파구 열까 [증시전망대]",
-      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5odzByVkJ1Y1pQTms0bmNGa3FEdkJsU0JLRnZ1SWpUdUJVMVA0Rml6QjNKTFlGQUlsRVpwdzJ6MWxaaEVzbGM3RHQxLUhKUQ?oc=5",
-      "source": "www.dt.co.kr",
-      "date": "2026-10-24T15:03:00.000Z"
-    },
-    {
-      "title": "\"외인 놀이터 된 코스피, 못 버티겠다\"…개미 떠나자 50조 증발 [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBpdFRDNXlKVF94VzFxVG5JY3RzMkVycGFnZzZqVzJrV0hRZ0F4V09QQlJZODhQNWN1b2dSMVpRckkzVVQ1clhacHVRcFo1TWJP?oc=5",
-      "source": "블루밍비트",
-      "date": "2026-10-24T13:29:11.000Z"
-    },
-    {
-      "title": "\"외인 놀이터 된 코스피, 못 버티겠다\"…개미 떠나자 50조 증발 [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41VzdNX3A4a2lDak9Ub3A0elgxSjdLN3I5SUxCM28tZkd5T2VaSGhUZUxrR2N1SUZBR1lzTjRTNklxa2RRdE16VHY3NUd4dS1DNUxoMVI1WnU5QQ?oc=5",
-      "source": "한국경제",
-      "date": "2026-10-24T13:03:22.000Z"
     }
   ]
 }
