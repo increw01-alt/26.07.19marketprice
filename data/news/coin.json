@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-10-30T04:42:23+09:00",
+  "updatedAt": "2026-10-30T08:57:07+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "암호화폐 시장에 타격을 줄 수 있는 잠재적 수십억 달러 규모 바이낸스 해킹",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGM1b2RUeUtWM3lZMVRiRnZVZHdtQXRoaFJ3Z1hPaU9VUnlvYUxSVGhsYWVZWHZYdjBDdlRyY0ZjbzJ2RTJtMWtEUjNlbVI4TDZRWkw1Tk5oMjVfU2ZRbk5yNkZiUms4TjV0TmtCMmRvN3pFQ0JjTUVoTjRhNkw0VzNHaHF3REN0MmRnelRQNmhHRktCcjh1T1B1OEkzcEZ6X0o1dkNMcTVqLUE?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-10-29T21:12:45.000Z"
+    },
     {
       "title": "비트코인 선물 543억달러…9만5000달러 콜은 가격 목표 아니다",
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDR1RHOXQ4YXFoZTFyUXYzUkUwaVd3ZHpQOE9zeDM3YnRGSGdHWEJzUXdzRzVCNDVWX0JxV0RJV2tXa1hCaFRBeE9ubUwwWFRXRmFYMkNweHhtaXAtR3JiZdIBZkFVX3lxTE1yY0RoVjg5TGRSOThZc1U3VFhiNDhBRXo3UUNoMzZYelZINXZTU21zVXdJY1dMX0hNVmtpYWJKX1VhSTYydXVVVVhudGZ6dWd0dEVnZ2FlTmpvVThpM0NiNGpvVndRZw?oc=5",
@@ -21,10 +27,22 @@
       "date": "2026-10-29T15:06:52.000Z"
     },
     {
+      "title": "체인링크, 토큰화 자산 주말 가격 제공 시작… 출시 파트너로 아베 참여",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxORElDWDMzR2wybi00dUQxU0pybHhYTmZOalN6ZE85TklMT0hmYmpVdzVuWE05akkxNVo0dXctVklGZVc0cW1BRkhRTTNQNWlnR0dKblJidGpHcEV1Vjd4X0pqNTVTLXRCS1lqdXNEd3FCQUV4TkdtdTdSRTBYelF6aFo5V1dwMjVYOTBMYV9pLUZvTDNqVTVQUFhnZjF5bUs3Ui1MMl9PQlRSaGxJZGxCZEExcl9YQzRfeEt6U3lZTmU?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-10-29T14:15:00.000Z"
+    },
+    {
       "title": "비트코인 옵션 100억 달러 만기, 시세 움직임에서 포착되는 신호",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9aajY0aFJ4aDN3VWZWZFEtUEtaV2g4Z1draHZRb3JrekN1STk5STFLRWRfRDAzTXNLQldOLTA4QWZ5ZHJ0ekJIU0lKUlNqZEhkRmdYcHI5Q0d4bVNLak5tSkpZTWE3NzloTlFWTw?oc=5",
       "source": "민심뉴스",
       "date": "2026-10-29T12:13:11.000Z"
+    },
+    {
+      "title": "비트코인 옵션 100억 달러 만기 임박, 시세에서 나타나는 신호: Crypto Daily",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNak1UQXp5eWJCN0xIX2hZV3dJRXEwdVZraEVCa3FyZktmSTZFRnR6YVZSS2szdzhWNzhveVJMWjlrLWNTb2dIVEZFUDQ2aVcxczhRVDVSU2hRYWJ5MS1LdEJRMXZTbTc5WWd2YW1qZGZhUHoweXJKaWV2d050ZTcyejZxTHZmZlFSNC1FY3VzbXU2WG1vUllVVXFFNVRSZ05qR2xhTEh3NE9pQVphVDhnU0xkMUZXZ1hJZlR0ZHBSbE5pdw?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-10-29T12:10:03.000Z"
     },
     {
       "title": "[저녁 시세브리핑] 암호화폐 시장 하락세… 비트코인 79,859달러, 이더리움 2,310달러",
@@ -37,6 +55,12 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9BUmV0Z1Vtd1lTbmVkSC1GMDU0VzRlMldfZjVxR1dHLVVhRXF0elFDYjhHT3NMT3NsZ2NhcHRodng1NkxDRFRtTTFWLW5QRHQ3RWdFTEdKTUrSAV5BVV95cUxNbktRcUxZbUFWZ29UY2xOMlRFaTZkbnVOakNvVl9aQS1GcVhhSEhmMDVaWUFNVHRNM2wzSEh4emFoZ25pTnpBQUtlNDlmOXhJU0NYQUZLbDgycVRueUNR?oc=5",
       "source": "토큰포스트",
       "date": "2026-10-29T04:34:29.000Z"
+    },
+    {
+      "title": "비트코인 8만 달러 이하로 하락, 크립토 롱 포지션 3억 5600만 달러 청산",
+      "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZTl4MTJzaVhjcXhvMkZuYWJjZ0otQmdsTlFPTHJDZXVtN3ZDSFVqeENTRXpSSXlDRl9SclJzVUNNOHNPdjd2STFXMDNab0o5akdEZ1ZNX29OVXpKRi1JYXppQjN1WUV4OC1JTDNlc2NXZzZmb3ZLblJuUkNfV2E2eG00aTZmNzA5bFc4OEY1eUlWVFZnUzlPd0hrZGplUGZYcXVnZmZJeUZZWDR1MlZuWldLYmFXeHpsUFVFcENlTFZnekwyd2lWOHpLb08xMnBmWVAzNHNSY1p3SUNvS0Vj?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-10-29T03:34:00.000Z"
     },
     {
       "title": "비트코인 담보 모기지가 캐나다에 도입되지만, 차입자들은 여전히 비용에 대해 잘 알지 못하고 있다",
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOQjdzWndxeVotSnFlR2dZUWZnMy1jZkhXVTVHYzJpNHdYdVdJV3hPY0k2WUxfN213M1FnNVJ0Q1doTThkTHBmdk9oanB0eVNmNTVaZ2RndldRbWRraVM1dVpMMnNPVjg1UjFKZkxGQjFodVpaajgwR0M3SzMyMkVFVVh4OER5TEFsZFdleFU4cnEzSEpkeTRRU1VR?oc=5",
       "source": "Calgary Roughnecks",
       "date": "2026-10-19T19:31:22.000Z"
-    },
-    {
-      "title": "암호화폐전망 게임 설명과 이용 환경 안내",
-      "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNbXdoaW9EYWlhQldvR0stRjlJNmlZWllRWTlrUGNWbUd4Q003TXpNTVlFbE5JSzF3TmtMYV93WHMyNkxJTkRLaGZEbGwyWFI1WE1qRXpQbDE3Wi1HT29sNVRKZ1BXTzBSZDR4MzRDeEh2QW1Sa2JPWElaRmJWalkzZnpiSWtwa0RfUkdKaXdnU1ZvTG44bmdHMWR1TzU3LVlxa3V4Tnd0VGsxcE9WRWZIR1FSTTF0VTgxTEhVc0c4QnlJaWRCekpmUWIxRVp6QklSd2J5U1VYTV93NExYLWhMbE45TWpHN290OUpIa25IZGtyRktjeFNoZ21LaVd5ZG8zOVV0UXhUX2xnWmRDZ2dpazFDYlAyYjRnQXJ2ag?oc=5",
-      "source": "Calgary Roughnecks",
-      "date": "2026-10-19T19:15:07.000Z"
-    },
-    {
-      "title": "기능 개수보다 작동 방식을 보는 정선 강원도 카지노 비교",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPOFVBQVZkaDU5UHpaT1VyMXQxU3ptcjFlZTRMTE9ZczRYb2lGYzE0NVRRX2RtQ1VMdmNLNU9XUmx5Z1FHWXlOZnR5NTdnakZaeGpQUXpFRTFBT09hWTI2dzEtbms4RlpaQmdoNzRJYk0yODAwanFDU1R0LTBOZlhmenNNOFhSNEV2WWxidTg5Y1FkWFVpcHZnWGY5S3ExWkowSjFQX0xNd0RIeDZFZTN0d2xwOXhqUjNZUWRQUE1nNnUxVUVyNHc?oc=5",
-      "source": "Calgary Roughnecks",
-      "date": "2026-10-19T18:31:46.000Z"
-    },
-    {
-      "title": "암호화폐전망 - 암호화폐 전망 2025",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOS2xGaVhHb3VqUHlsXy1kYkdqTUtmdXR2ZTZCOTladlJJUm5WUkpCLW1mZWdkWE5IN1lUVUtaZ2hBLTlUakMtQ3dpOEdmU3JBa0RtVDc1dFFtRmVpTlUtczdKVkFxME12cGRlS1pYSV94UlQxczVOcDgtN0Y5N0FNem9ETHZ2ZTlWb2Naa0FvQ2tMaDFnc1VYNUcwYlpFbllsbXVnZUxKcVpOcW9UNHlXQkdCNVhrTEFxc2t1OFNlT3dIcGJxUXNPOVBR?oc=5",
-      "source": "Calgary Roughnecks",
-      "date": "2026-10-19T17:42:21.000Z"
-    },
-    {
-      "title": "게임 소개를 넘어 규칙까지 보는 네이버 암호 화폐",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5VVXVSQ05uZFlkc21ibHNTU1B5YWdBbk9xZ2JEUVdUcV83cHVEb1E1R0RrQUtjTmh0QWxHTjUwdVRnSjdPRXE2Ny1BNG8xMHZacGhtbnRTUHFfQkJDYVNtX0lrRTd0cWpadjduSg?oc=5",
-      "source": "Calgary Roughnecks",
-      "date": "2026-10-19T02:35:23.000Z"
     }
   ]
 }

@@ -1,11 +1,53 @@
 {
-  "updatedAt": "2026-10-30T04:42:23+09:00",
+  "updatedAt": "2026-10-30T08:57:07+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "[모닝 리포트] \"코스피, 美 빅테크 실적 엇갈림에 약세 전망\"",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5vSERDQ2ZUNkZpTEtIRkRNMnUteVpVOUVPTHZtajY3NGFkNHdVYjNMSUw1dnkxcUoxVk5GZ2VMUDJPcm9lLUlSNHdSWkRtc3UtRWVwNjIwQmNLYzZm?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-29T23:45:00.000Z"
+    },
+    {
+      "title": "알파벳 12% 급락 충격…코스피 하락 출발 전망",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ISlBCN3JWelRleFdaajdDUUhsUkg1OTJmOHlnZXg5M245emNSNHNyNmNiWTNoM0tHajN6amdUUEMxUWEtRkplN2FQcHh1T29MTHlVQWtUX2Zqdw?oc=5",
+      "source": "경북매일",
+      "date": "2026-10-29T23:13:00.000Z"
+    },
+    {
+      "title": "[AI MY 증시전망] 美 기술주 급락…코스피에도 영향, 하락 출발 전망",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBpblFwbzE4alVJRlczYl94ajFVbDBMWkZBVHVvU01naHpxdU9EYjVJM0gzQklPTmo2WHJib3RNcnJyX2xOa08yMEw2SFhna09zajJEcVFLQ2U3MGpY?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-10-29T23:02:00.000Z"
+    },
+    {
+      "title": "[오늘의 증시]'알파벳 충격'에 뉴욕증시 털썩…코스피, 위기감 고조",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5MenY2S2tfMWREZl9iVkZkR1FhaElIc2s2THVGYlBzWDRkVjBvSVlrVkJvT2J5UXNaYkRwTVBPOTQ5bU5hMmRhVUpZMmRDMW1vRlZ3bm4yTGc2TjI3TEs5NdIBeEFVX3lxTE1YS2gyNGtPcVpLWnhFSFpvUDlYd3F4QnhuRGdiMVhDRlBQUzlHN2lIRVdnVW5acDJrUUhsYzBaajhvQnN6VjRVRmlMbjdPNmtWbExVZWc3Vk5wYzk0bk85bS0xbzdVZzRvZ0l0RWY3VE9qVklTYXVLZg?oc=5",
+      "source": "뉴시스",
+      "date": "2026-10-29T22:56:55.000Z"
+    },
+    {
+      "title": "[AI 카드뉴스] 증시 책갈피 | AI가 숫자로 답했다…코스피 6000 탈환 후 숨 고르기",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmWS1aSUJHOFAzRmJkQjFodW5ENjZReUxyQ1JEa2E4MlFNOXE0cHpVbkt1NkdNdjUtRWEyT3ZhOEdMMTJNTURlV0xnaWJPYWNRY1J5VE9hT1FMTHRWc2JIeA?oc=5",
+      "source": "메트로신문",
+      "date": "2026-10-29T22:41:28.000Z"
+    },
+    {
+      "title": "알파벳 실적 쇼크에 AI주 흔들…코스피 반도체 변동성 경고등",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1ac1lWRk81bF9xRFNZb1ZULXBJNmtqUGY3Y2stbk9QcF8zUmY1YTVxQjEzc3N0RjB0Y2FOVElyYk5vRGZFdmRKbnFjejJ0aEplazNtYUNrYmZjUTRKOGRqVkVickFvVVJT?oc=5",
+      "source": "www.ebn.co.kr",
+      "date": "2026-10-29T22:32:36.000Z"
+    },
     {
       "title": "[증시 마감] 코스피, 하루 만에 '6천피' 반납…실망 매물 쏟아진 삼성전자 4.1% 급락",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pcWVIdnl3SVdRTzRHaTUybFNsWnFSdXNEc2lVcEtXNGRRVmY2TnVvd296QTMxMmhBc3ZiQXMwZGpDdmhnNmRpTlBmRkJtSElqb3dvZWJJUFEzQnNUZkc2SzFxRURualdB?oc=5",
       "source": "CBC뉴스",
+      "date": "2026-10-29T15:00:00.000Z"
+    },
+    {
+      "title": "[증시 프리즘] “개인만 받았다”…외인·기관 ‘팔자’에 코스피 6000선 무너져",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9kXzNVaElrRmM2M1hSU3oyYW1BWTlxSVNJa1BFM2Fka2wwTWNEclNiVjNWUUxlR3Y0ekp5ZXRoU29CWWNGdTZ2Y19wM0dWQmEzZlNyOG9ZdG5zcHZxWDZ4bU9FUVRfZnZJQldRdTBfM3PSAXRBVV95cUxNLTczMjQyR2NRMlZJb0RZel9rX3NuWC0yNzN6SVhFbkFkamlwOFRodnZzX3NheEZuamxZRmRmOExOTldKeHRmblRRMmpEMWFoNDFuRS1tb2tDaThCeWVOeVlOeEtNdDRJZ2lVa3JKNmF1UzlRag?oc=5",
+      "source": "더페어",
       "date": "2026-10-29T15:00:00.000Z"
     },
     {
@@ -559,48 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5GUElBSTFxYmNyWkdYWks1OHVCVHZPUmswcnVzaTRtSlZvZm5GNVJxY1lTODVpcGdaYzZpSmRibGhPcFloYnNyUVJlZUdjdEpWNXRveHRqMkpZbjZpVjEwOFZJOVAwbEt1bEE?oc=5",
       "source": "Queen 이코노미퀸",
       "date": "2026-10-26T07:53:48.000Z"
-    },
-    {
-      "title": "[만평]코스피 '변동성 심각' ... 글로벌 증시 AI 관련주 급락",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE82ZnV0b3V2UGE1RmllNkFnWHV3dXV2M3lYSDhCMXhCZEtqR0JuMzc5OVpRYVJFaERlb2RwWm9BVUdMcUlGWHlPWC03SXpJMDUzZTJpTEFNN0R4WFBKZU9zcjJjOA?oc=5",
-      "source": "매일산업뉴스",
-      "date": "2026-10-26T06:02:10.000Z"
-    },
-    {
-      "title": "[친절한 경제] 코스피 올해 31.4% 올랐다는데…내 계좌는 왜 손실일까",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5QUVd6R1pDcUZaZS1CWDJSd1ZoM2d1Y1V2Q2xhTGk1WVZXaFd1Q0U3WWlWMHU4U0Vnd3BMZlMzQk9JNU9nY0dWLW14WVNJVnVma0tmRFh0bEdWZHpXbC1LUkxSVEttOHByRTBn?oc=5",
-      "source": "https://www.standingout.kr/",
-      "date": "2026-10-26T05:39:30.000Z"
-    },
-    {
-      "title": "\"코스피 W자 바닥 막바지\"...반도체 실적·FOMC가 반등 변수",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ia0hseGZZVUtoZHdQRVVNUGtKNzJoWk5iYzljSUVnR2ZMUzZNSU1pRjRYcm1KUHhMMUJQUURsb1RFNHB6OFZ1ZTkwQ25XV1hmN29PM1VHSmNoUEhtLUY5LUVXamc?oc=5",
-      "source": "매일일보",
-      "date": "2026-10-26T04:43:25.000Z"
-    },
-    {
-      "title": "“코스피 팔고 엔화 매수?”…AI 흔들리자 달라진 골드만의 태도",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uRzRIT25LYUJ5eFRFUUpVTzJHakNZclZzcTlpdDVZbGhHRlQ4Z2lLSVRYamdvN0N4MlFLUWlzWG9yZE9QODFucGQwSkRjTEZURFJKNHJvLVBaM2c?oc=5",
-      "source": "에너지경제신문",
-      "date": "2026-10-26T04:13:17.000Z"
-    },
-    {
-      "title": "코스피·코스닥 하락세…신한투자증권 \"주요 이벤트 앞두고 관망\"",
-      "link": "https://news.google.com/rss/articles/CBMijgNBVV95cUxNck82WklSNkFReDM4dWtxQ193Q0hXUjhBVGEyTU1oeVNQcURtSmRTQUZDSy1tVG5BWnNBTE5zMFE2Y0xMMUJkQmhwczFuUXU1cTdiY2ZCblBEdVdMbEp0TEphUHVSeXZtYVZRaFpOZHlrQjRUdVA1X0lQLU9aRmYzbGlBNWJQbjk2Ymo4a2ZMbjFBVXRDN0x5SlR3V001eVVLTjBzNUZNd3ItQTQ3Z3RsVEt0RTdKcVdrV2tOV0VSbEN5SUgxUzdKTVZoR25yd0x2MldLdXNxM0p1N1RYSTFBR2hkSml6YWFkNndDdnJVbDlZRlBUdC1VNjNTMHhMQXcwa3dBeHdHRGxfOC1SY3p5bzJwQVlwenQxeGllS2hGN183bF80RFV3VWdza19md3RXbkJqNUhfM05aSGFqdGQ3VXR5aUhQbDJUTjRkUnFSVWpnb2VLbWY4MlBqd3Q2Y1hOajVZb3VqeWNPTVU3WFRVZUhHZ2JxWVdLV3lwNmFnNkY2UHNiNURhSXIybDA2Zw?oc=5",
-      "source": "중앙신문",
-      "date": "2026-10-26T03:51:26.000Z"
-    },
-    {
-      "title": "\"코스피 1만2천 간다더니\" 돌변…전망치 낮춘 골드만삭스 [지금이뉴스]",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1HUXVkTmxhdGo5NWY2RGlKemFpbGU4NVEyQmpKa3pnV0lHTkRwR25LVXJOaGlRck5sV1FxRnBBLWdlTHpvSDN2UGFiTVhxS2dQa3UtNThmT1V6SkdxWUE?oc=5",
-      "source": "YTN",
-      "date": "2026-10-26T03:20:00.000Z"
-    },
-    {
-      "title": "버팀목 사라진 코스피, 28일 하이닉스 '환원 성적표'가 새 버팀목 될까",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kcFB4c1BPUXRZbEpBWjU3M2NreDllLVJuWXBEQXFGZzVyd0d4ZUNGNi1pOFk3X0wtRjYxajFubFByWllWTlJDWDJJNVZwQ0NzVVdYMkkxdjR5UVhyQ2JuSjlac2lIb2VDVU84?oc=5",
-      "source": "ISSUE ON (이슈온)",
-      "date": "2026-10-26T03:18:30.000Z"
     }
   ]
 }
