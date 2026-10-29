@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T09:55:03+09:00",
+  "updatedAt": "2026-10-29T16:03:55+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -163,8 +163,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480250,
-      "buyRate": 3.95,
+      "buy": 480000,
+      "buyRate": 4,
       "sell": 481750,
       "sellRate": 3.65
     },
@@ -175,8 +175,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96050,
-      "buyRate": 3.95,
+      "buy": 96000,
+      "buyRate": 4,
       "sell": 96350,
       "sellRate": 3.65
     },
@@ -187,8 +187,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48025,
-      "buyRate": 3.95,
+      "buy": 48000,
+      "buyRate": 4,
       "sell": 48175,
       "sellRate": 3.65
     },
@@ -199,8 +199,8 @@
       "label": "신세계 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 482000,
-      "buyRate": 3.6,
+      "buy": 481750,
+      "buyRate": 3.65,
       "sell": 483000,
       "sellRate": 3.4
     },
@@ -211,8 +211,8 @@
       "label": "신세계 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -223,8 +223,8 @@
       "label": "신세계 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48200,
-      "buyRate": 3.6,
+      "buy": 48175,
+      "buyRate": 3.65,
       "sell": 48300,
       "sellRate": 3.4
     },
@@ -297,8 +297,8 @@
       "method": null,
       "buy": 95900,
       "buyRate": 4.1,
-      "sell": 96350,
-      "sellRate": 3.65
+      "sell": 96300,
+      "sellRate": 3.7
     },
     {
       "shopId": "meee",
@@ -309,8 +309,8 @@
       "method": null,
       "buy": 96000,
       "buyRate": 4,
-      "sell": 96550,
-      "sellRate": 3.45
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "meee",
@@ -369,8 +369,8 @@
       "method": null,
       "buy": 96000,
       "buyRate": 4,
-      "sell": 96400,
-      "sellRate": 3.6
+      "sell": 96300,
+      "sellRate": 3.7
     },
     {
       "shopId": "worldticket",
@@ -379,10 +379,10 @@
       "label": "신세계 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
-      "sell": 96650,
-      "sellRate": 3.35
+      "buy": 96300,
+      "buyRate": 3.7,
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "worldticket",
@@ -451,10 +451,10 @@
       "label": "롯데상품권(50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480500,
-      "buyRate": 3.9,
-      "sell": 481750,
-      "sellRate": 3.65
+      "buy": 480000,
+      "buyRate": 4,
+      "sell": 481500,
+      "sellRate": 3.7
     },
     {
       "shopId": "xegift",
@@ -463,10 +463,10 @@
       "label": "롯데상품권(10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
-      "sell": 96350,
-      "sellRate": 3.65
+      "buy": 96000,
+      "buyRate": 4,
+      "sell": 96300,
+      "sellRate": 3.7
     },
     {
       "shopId": "xegift",
@@ -475,10 +475,10 @@
       "label": "롯데상품권(5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48050,
-      "buyRate": 3.9,
-      "sell": 48175,
-      "sellRate": 3.65
+      "buy": 48000,
+      "buyRate": 4,
+      "sell": 48150,
+      "sellRate": 3.7
     },
     {
       "shopId": "xegift",
@@ -571,8 +571,8 @@
       "label": "롯데 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
+      "buy": 95900,
+      "buyRate": 4.1,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -643,8 +643,8 @@
       "label": "신세계 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96500,
-      "buyRate": 3.5,
+      "buy": 96300,
+      "buyRate": 3.7,
       "sell": 96700,
       "sellRate": 3.3
     },
