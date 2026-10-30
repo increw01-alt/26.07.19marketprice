@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-30T14:46:57+09:00",
+  "updatedAt": "2026-10-30T21:54:15+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "미 AI 투자 우려에 반도체주 '휘청'...코스피 또 급락",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1BWVhoTW9pQXljbnp3WG44UnljTVUyRlpCNlphX1RNeTVZZVo0RUxCSVdfYl9rNHhTUkdVbXpIMUxNVEduQktDNDNuaVAyaUhibVlQSnpzSXpJVTFIaUE?oc=5",
+      "source": "YTN",
+      "date": "2026-10-30T11:01:00.000Z"
+    },
+    {
+      "title": "SK하이닉스 주가 하락…코스피 장중 약세 흐름 : 한국증시",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1UOGRUVE1ySlJPRVltWFh4ajB4R05ONWpGYlFNQUpPWXQ0dE1TX2ZSWmdvZ3dIS1laZ2N4cnBQOHFUYUVRaTRtcEJxOA?oc=5",
+      "source": "재경일보",
+      "date": "2026-10-30T09:44:55.000Z"
+    },
+    {
+      "title": "코스피 ‘알파벳 쇼크’...삼성전자 6%대↓, SK하이닉스 8%대↓",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE11REUyMndMTTI0ZXA4dVlyMjFXZXlxNC1XRWhPR1Q5bWlDd2RlUk9nb2tTWkFJaFdWeDNVYTBwUV9ZSEJZQ0RTZ3NkaU1ncGc3NEw1bXhjMnc1bWRBbzdpQXFmWGlHVTJSMl9CWndpVFR2Zw?oc=5",
+      "source": "한겨레",
+      "date": "2026-10-30T09:04:00.000Z"
+    },
+    {
+      "title": "\"외국인 1.6조 던졌다\"…미국서 날아온 악재에 '비명'",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB4cjB1am05LVE2VmFDX1BlZVh4aUhZeUd0ZWdxZkJXQlYtbmhpZlIxbHBLMjVPSHNQNHRjd3pPeFM2UnNzNEI5eUNuMXJCbW1nbEV2LWs3TVlIZw?oc=5",
+      "source": "한국경제",
+      "date": "2026-10-30T08:56:17.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피, 美 빅테크 쇼크에 3%대 ‘뚝’",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBqZWZGOHFLSFF1ZHFWODJXU1NSajNrNHQ1RzR3ZTAzRlIydy14OTNfTjJVbkxGdHkzX3FyVmF0d1JVdVFfZ1VuZjZ5OTQ4X1RidmNKbjRQRWhkbzZaUFJOMHd6Z2NTSW1xRW9Ga1A0XzZtZw?oc=5",
+      "source": "한양경제",
+      "date": "2026-10-30T08:54:06.000Z"
+    },
+    {
+      "title": "코스피 긴 호흡으로 볼때 … 반도체 소부장·증권주 주목",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9SdHJZbFNmbUxVRTJVc09JTHRyWUJsUDRrUWpLY0taanVMSUVsRUpvbjJURG1IRmM3RmVtQUtESTZZMXE2Q0FDd2htc3FlYzhJWWc?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-10-30T08:42:49.000Z"
+    },
+    {
+      "title": "코스피 3%·닛케이 2% 뚝 … 亞증시 '휘청'",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA2ZG9oOEpUZk0wNVRwUXhDeEdOTENjMHNGZkRSSkhvRTBFMmltR0xSaV8zRFhEdXE4ZTBvQW5OLW0zVU5tRWJOaFQxYmZNdWJNcUE?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-10-30T08:36:08.000Z"
+    },
+    {
+      "title": "美 기술주 충격에 코스피 3.48% 급락…5,730선 밀려나",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE50LV8wU0ZfakdGWjBpNmU1WnFiemdTTjZxa1p1aGZlaXBMYTQ5dVV5dXNzd1dKUTliX040MWs3R2pyUXZRQ2JQdUVtNldLMVZqQlhkWUxIMHRRR3UyZG1pakZpS09tMkpRSjdWNA?oc=5",
+      "source": "프리진경제",
+      "date": "2026-10-30T08:35:00.000Z"
+    },
     {
       "title": "미 AI 투자 우려에 코스피 급락세...장중 매도 사이드카",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE82N3RXQjlfS3RyVHI2X0JiQzV1Tkd3SmZwNzhzMnh0bWFMTTRJS0h5ZzJDNzl6ZXhzQ2tjVnh3RVdsQUVURlhhYWtmMzNEaWU2V2pJUHNLa3NLNk9NdWc?oc=5",
@@ -19,12 +67,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1iOUlBb3NsbUpnc2QwSjNPeldZYzM0U0NmWjI3Y0hRNkJkc1dsUUVFSHJOeVl3TWtiS0pLWjRQOXhCblpjMzMzeUdJTm51NkpXQlBIQjY2RW16QWlGelZfV1F3?oc=5",
       "source": "시사매거진",
       "date": "2026-10-30T04:54:16.000Z"
-    },
-    {
-      "title": "코스피 ‘알파벳 쇼크’...삼성전자 6%대↓, SK하이닉스 8%대↓",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE11REUyMndMTTI0ZXA4dVlyMjFXZXlxNC1XRWhPR1Q5bWlDd2RlUk9nb2tTWkFJaFdWeDNVYTBwUV9ZSEJZQ0RTZ3NkaU1ncGc3NEw1bXhjMnc1bWRBbzdpQXFmWGlHVTJSMl9CWndpVFR2Zw?oc=5",
-      "source": "한겨레",
-      "date": "2026-10-30T04:52:00.000Z"
     },
     {
       "title": "코스피 4% 급락에 주가 흔들…매도 사이드카 발동 : 한국증시",
@@ -559,48 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1NZmtuMHpnaGVfeVkzcUVjVjR5U3dQbWExbDRqQzRXVkVhb1ozVEw4Q3UxbllUUWlnc2RxZFBXb3YyaUxJVzhKUFlMczV3UzB1My11VFJfbmlxd9IBWEFVX3lxTE9NYnNCcVlNbUNTUmZ4WldRWVYwZ1E1RnE3TkgxVDV4SXZ5dkh4LTNhbDZ5azdUMW4yalVqVjA0ZDVHeE9DZldEM184TjdvQi1nVEtBM2hDNWg?oc=5",
       "source": "아주경제",
       "date": "2026-10-26T23:24:39.000Z"
-    },
-    {
-      "title": "\"내년 코스피 최대 8200\"...대신증권 \"반도체 저평가 지나쳐\"",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBBRURvM1hsR0JtaU1lOWtaX0RzdlV6VnU0eUZZcTRwLWswR3VKd0FiTXlWTmJoZUtsbTBiSnU0a19adGtDMk4xODBaZzBkRmt4WU9vT2l6UTM4Zw?oc=5",
-      "source": "한국경제",
-      "date": "2026-10-26T23:11:30.000Z"
-    },
-    {
-      "title": "[AI MY 증시전망] 美 증시 반등에 코스피 상승 출발 전망",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1YbGFxeXZFOGg1aUlzV0lyUzlNS2ZiejEyOWVOU0U4SzJvV2x3NXk4czV6TWtSdk95bHBlcDAxbmNKVk1GdmtsQmpYa0NUWm5LWXRNdEJOYVpuQ1Bt?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-10-26T23:08:00.000Z"
-    },
-    {
-      "title": "[오늘의 증시]코스피 반등 기대감…앤트로픽 IPO에 美반도체지수 2.8%↑",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9YS0hOcFE0T0lKSnFtc2RZZi00QU9OclcyOGlXazBOOVNFWG1sYXB1ZGhiSGRYVTFodEpuZWozQU4wQmJManZhMTdoakF1dWRFY2J6Y1BVYUJhSFgwR09NcNIBeEFVX3lxTE42NmZ6TjVGUGd4NFBMTXVTRWZqOHlnS0tTVVVab1VnY09mRmN5d1JyT25yRG1GWDdEOExreERibmFucEZ3aHhyYVlKTEVxR3B3bEVCRG9WX2pqM2Z6U2thX1EyZU55UnF4Q0JTWGdsSU1rXzVhZDNZdw?oc=5",
-      "source": "뉴시스",
-      "date": "2026-10-26T22:39:00.000Z"
-    },
-    {
-      "title": "[아! 코스피] ⑦ 금리·전쟁·환율 충격 같은데…한국 증시, 왜 더 흔들렸나",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE54XzM4VEhUSGJ5MmJzd09JZkN1dy1oMTJEbDJZa3V2UUxjNXZuVUJhWHBuY1EwRzEyMGFoNXJidDdMb09TZUdGRmJhZ0VtOTViZVdYQUhnM0lwQksz?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-10-26T21:00:00.000Z"
-    },
-    {
-      "title": "[아! 코스피] ⑧ 외국인이 결정한 코스피 하락세…개인·기관 매수도 못 막았다",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1hUWd2Wnc1d3A4ZklkbnU5Tmtjb0JNRUFGa2lhdE1fbjFLbzlPTWlHVVhvSjQwZkJQSlMwS2t2UW8zWmRzQ3hja05ma2RNYXN5Uk8xdTNVOW1yRnR3?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-10-26T21:00:00.000Z"
-    },
-    {
-      "title": "'매도 클라이맥스' 왔나…수급 공백 속 코스피 바닥론 솔솔",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1uUmpqTS1iZXFWOW11N213WFFSM3dRaDVUZXJ5YWRRakZaYjlYSS1JTnNKMmRPSlltVXJfTjQwNEFZM3RfRWxFQWluMXE0dmcwWlQzTFIyUHlnWDJqYjRoddIBeEFVX3lxTE5nNG5US1gxRXBFT1VaN0xfOVdVTjkwVTF2RzFXazQ5QXBWaEE0ckdqNkZQbDZqTDRzN2NkTEhaaEVaaXo0YmtQZjRCWmtRZmw4LThOTF96N25EN1F3ZjJGX2J3akFlTUd5eThad0NzdWJ4OGZfMHVaaw?oc=5",
-      "source": "뉴시스",
-      "date": "2026-10-26T21:00:00.000Z"
-    },
-    {
-      "title": "폭락장에 피눈물 흘리는데…'9천피' 대반전 시나리오 떴다 [분석+]",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9IQWtkcHBBdDFOTmlfVGdqbmdQdzNON1RWeTdxVVJmLXlFRlZkMFc0SnMwY05Zc1ZQSWs2aVYxc1lxRW9RaHVQZlNDMVFVTmMtNGtDaTV0dlFGdw?oc=5",
-      "source": "한국경제",
-      "date": "2026-10-26T13:00:01.000Z"
     }
   ]
 }
