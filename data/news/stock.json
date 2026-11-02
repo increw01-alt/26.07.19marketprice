@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-02T07:49:13+09:00",
+  "updatedAt": "2026-11-02T11:30:35+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피, AI주 급락 여진 딛고 1%대 상승 반전…기관 6500억 순매수",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOcEstRGpmMEhxaFlnanNMdVhrYzdMYjJ6VnJGV2E3WVR6a05yTjN3Q18xOTVHM0dhbEFwVFhfX0ktQWVNMHM4QVBwTkgzWnJaMktoeHM1dFV1YnlSLU9qaUY5UUhVMVV3TXM2UGJFQ0R2Y2JzdmVIV0dkRTVKa0VEaA?oc=5",
+      "source": "이데일리",
+      "date": "2026-11-02T02:11:33.000Z"
+    },
+    {
+      "title": "“이제 국장 떠납니다”...코스피 약세에 ‘서학개미’ 순매수 최대",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmVWp4M2hmaG10S0ltR3hpeVRGTFl5MjJYdGJ4OGx3M2FLNkJSY1B3SlRTNHZPOHUyRnlsWkpKZ182eWpUbkRlbC1IN251WDhKd2R3dw?oc=5",
+      "source": "매일경제",
+      "date": "2026-11-02T02:04:29.000Z"
+    },
+    {
+      "title": "[장중시황]상승 전환한 코스피, W 반등 분기점?…공포의 끝은 새로운 시작",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1RMWpPTDJPbEpiQWI2TW9lYmlBS0t0XzBaVE4xZE92dml0Sl9RUkpuOTVQZGwyRzlLcXZTcXFrQmwzWnpDNWtBSnNSNmtyTlg1WVllNEVXbVVOUdIBWEFVX3lxTE5LTmpjWF9RYktuVGxIR3VCXzNpWU43UmwyLTdyR0VNRU84TXFjaGdFbzBINzBaa2tNdWs0RjYwYzdKeURKNGNZMlk0dUp1Z1N3ZDBDS1VHN1g?oc=5",
+      "source": "아주경제",
+      "date": "2026-11-02T01:51:01.000Z"
+    },
+    {
+      "title": "미국발 삭풍 피한 코스피 5790대로 자사주 매입…SK하이닉스 1.5%↑",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5TSEloV2dyTklFWlhSYkR1WmJ6NC1UeTV5WnFwQzU0U2V0eHJ5ZnlDV1dBN0R6aFk1OWNqM2R2LU5uWDdCSnRCbk5QSTFZclRKazVlaXBHaDQtS25XbW1DUnZFNG5MdmNCTFZkSw?oc=5",
+      "source": "중소기업신문",
+      "date": "2026-11-02T01:46:34.000Z"
+    },
+    {
+      "title": "[오늘증시] '美반도체 쇼크'에도 코스피 5800선 탈환…외인 매도는 여전",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9QSEpqaFVTUmJZV1ZBS09zLXZsOU83cGExMjE2enpmLTgwamJqU1NHeHBPTkFJWjNRRTY5azRQOVFWS2p3STRnWm11T0NwSVpZeFVCd291cmgyYWQyN1ZUMlFhZVBUcE5UQmJRT3ZWV0d3eVU?oc=5",
+      "source": "오늘경제",
+      "date": "2026-11-02T01:42:57.000Z"
+    },
+    {
+      "title": "한국투자증권, 코스피 올해 4분기 저점 통과...내년 목표치 8,300 제시",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8zRkpnZ1pQUS1PQlJOemhZd3VIQVpXR2NrWnJiOG9sU1dma2EyUHBES0NmeTREMVYyQ0JTMUFzY09EaHZyX05MV3BCSTkwNWFEaXJQc0l3NElIZWwzOWdXRg?oc=5",
+      "source": "증권일보",
+      "date": "2026-11-02T01:40:00.000Z"
+    },
+    {
+      "title": "'블랙먼데이'는 없었다…美증시 급락에도 코스피 상승",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1nNERYY01IaUVNSzdSS3UxNFNOYjdfWGVNd2RiTng4VkpJWUdkUGlWQjVwY1paUUJselk2bGYwY3ZJaThFdENUeWxTWjhHdldNenNXN3JXOXkzNE9XUDJoVA?oc=5",
+      "source": "아시아경제",
+      "date": "2026-11-02T01:38:49.000Z"
+    },
+    {
+      "title": "한투증권, 내년 IT 최선호…“내년 코스피 영업이익 38.4% 증가” : 금융",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1GbktGS0Mxck9kcWRKY0traWIzYUtTZVNXNFhvc21sTHNvUUFzdGxaWUNoRlFMYWtGZ3NzS3ZzRzQzS2JyQ1dXS1VqNA?oc=5",
+      "source": "재경일보",
+      "date": "2026-11-02T01:33:00.000Z"
+    },
     {
       "title": "韓 증시 어디로...증권가도 엇갈리는 내년 코스피 전망",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NQVgtVGd2WHVvVGV4V24tVnNkd1NrWEM1YmRidGY2NFJLYlRESUFQOThvSkVkdXNrcTFOVWtjNUtiVjc4bGNJRDBOTnplaGQyb1pEcTNORXZrY19CS05jODZ1ZEtiQnJyUUlVSW9pNkpPU0U?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1HODlRN2RFWVVyYjh3ZzR6MGI0azZKSlNYejd1bWkxajlwbU9TeklUY3VvNGtWS1Y4ZHo4a1Z3NnE0TDhPMUMyclF0YXNLUU1Xak5ndWlOSnlQYUpEU2hxWg?oc=5",
       "source": "증권일보",
       "date": "2026-10-29T00:40:00.000Z"
-    },
-    {
-      "title": "코스피, 신중 흐름 속 6000선 안착 시도…외인 이틀째 '사자'",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBqOElUanQ2TEZ6NTJ2V3lVb0hMYXF4WFE5VEk0YjJmOGRzZXBXeXlUQTJkQTZmUmJrckRIYVBCTTY4bFBNLW9uOUw2ZmgxakEwUG5ua1JUemo2UdIBVEFVX3lxTFB6bDllcVF1dGdDbC12SGxOR0Fra1M2ckNjXzF4eFJqVXhQaWpieDZ3RGVaMDdKU3hHcXNUT0tVSzBPaWxncHhJcDFCclVlaFctQS13WQ?oc=5",
-      "source": "더팩트",
-      "date": "2026-10-29T00:22:46.000Z"
-    },
-    {
-      "title": "코스피, 반도체주 강세에 6040선 상승...SK하이닉스 3%대 강세",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB1V0tRVzY0dDd2OUswaWtQM2xpeVVZN1FYNlVGQzd2YnF2MWRrVlVTWXFnRl94ZTRDOURqNE9XdHZpNUNoZjhHWE1HOW9KYnlFbGwxUlNTQkZWR19xZFVicUkzNlQ4c0NxUDlMdXdvTEpuV2_SAXdBVV95cUxPeFFDM3pvVW85cllMeE45eG03a3lYSHlRVnF2SXFDd0wzREE2ejhEc2dTcmhDQVhtWEY0SHJzZndjZlZDM0hFSVI2UEliYTBBOEZSS1FsYXRJZ2o1UTlZWnc0OEJ6TlJGN3FJSGR1eGpwSUota19VOA?oc=5",
-      "source": "핀포인트뉴스",
-      "date": "2026-10-29T00:17:30.000Z"
-    },
-    {
-      "title": "코스피, 6천선 위 상승 출발…외국인 매수에 0.6%↑",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40YzF4aUdJalFiQ0dVUXFWXzk4czVfYmtFSnRtLUdWSGp0OWtQN3htZnNWeTZFaV8xS1NfMl9ZOWE2VjlWUTgwZERHbVR3U0JHbTlBSWZGYTRpR2RwUEplYkhxSGN3Y3I4UnVSM2pEVDQ?oc=5",
-      "source": "연합인포맥스",
-      "date": "2026-10-29T00:15:00.000Z"
-    },
-    {
-      "title": "[개장시황] 코스피, 4.78포인트(+0.08%) 오른 6017.22 출발",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5VR1BGbjVvZTRNZ1ZGck53b0hhcWx4RDIybk5Ydk1HOHMwTTgwVkJZanBZdmpwUEMtTXhONGRFRUVhaHAwRmNmQ25mUVpOTXlvY2lYVFlMOXR4WUo5RWNiZ1YzRFk1YXUya2Jn?oc=5",
-      "source": "라이센스뉴스",
-      "date": "2026-10-29T00:08:24.000Z"
-    },
-    {
-      "title": "코스피, AI 훈풍에 연일 상승세...오늘 증시는?",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9wRGlzX2JVakQ4aDdzSHUySWF0X1RWLUQxMEQtU2dfMy1wMk14ZXFqWE9mX1ljUjYyUElDelhSWWp0ZWpVVk1rR1U1dkdpeHNmYlAxR0xrRHFnZ2RxcEE?oc=5",
-      "source": "YTN",
-      "date": "2026-10-29T00:08:00.000Z"
-    },
-    {
-      "title": "코스피 6017.22 상승 출발…삼성전자 제치고 압도적 거래 1위, 어디?",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE14Vm1ULXhSQjNkZURTYmd2X2F6bHd3OTJMcm9nelRPb2hVcUQwNldnVFBNcDVfc2pPVmpNcVgzNlg0eW9IQlBwc2k5RE05dlV6NXVyMnZ3?oc=5",
-      "source": "위키트리",
-      "date": "2026-10-29T00:05:00.000Z"
-    },
-    {
-      "title": "[증시 자금동향] 코스피 6천 회복하자 대기자금 90조 돌아왔다…빚투는 30조 아래로",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5djFCUkpEZEdUd1VOSVFvdjRyRUE4NGMzVEdYS0hHYk5aM29jM25VTWJhQmRoaDMyOFVSM3ZrY2dmOHlVQjZjSXR3MF9UdVJfc3RRNWVLR2R4Q1hVbjY2UUZMYUZlNUdq?oc=5",
-      "source": "CBC뉴스",
-      "date": "2026-10-28T15:07:00.000Z"
-    },
-    {
-      "title": "[증시 프리즘] 외인·기관 ‘쌍끌이 2.1조’ 폭풍 매수…코스피, 반도체 훈풍에 6000선 대승",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5ZRkNDaW9mbHE2eUxfU0o2cXJlQ2dETUtGU3NKOVl3S3F5YmJybGtkcnVhZUhZdlBIOVpmMTZ5Z0JMejdrdFlaUmdyYVhzUF9pcE4yQklTd2ZuYVBPdVBCckk4R3ZpYV9hSi01NWxYcnrSAXRBVV95cUxQQWwxYW9mWUN4SFg4QkpNN2h3ZU1SVHIzZldjOFQ5OFpMYlVVYUlaLTFjY0J5LU9uZEJHR3NHWmx6cFViSzhvZzhJQTY4UU11T3BRVE1pVTRldnRvbG8wUXM2TzlnOHdYaXpMUElBeHBTQVhZZw?oc=5",
-      "source": "더페어",
-      "date": "2026-10-28T15:00:00.000Z"
     }
   ]
 }
