@@ -1,7 +1,31 @@
 {
-  "updatedAt": "2026-11-02T20:02:51+09:00",
+  "updatedAt": "2026-11-03T05:46:32+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "비트코인 '변동성 곡선'에 중기적 상승세",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdk9XTFkwaWRqUEwySGRxdElYd3lxU1pqaDJCdkhPcEt5UDdrcW5RT2M2c084RjhLb3dBVk15V0R1NFozMEVVcmQ5aTA2NnUtT1lXNENQXzNJOENiZzdvSU9FOFlIaFZFS2pUdEtGSEJMWHVRTVpIS21ZZXoxX3lvRElUUTFLRW9QY29lYmI3aUxfZlBqNC1rVHRJUQ?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-11-02T12:35:26.000Z"
+    },
+    {
+      "title": "바이낸스 출금 재개에 비트코인 78,000달러 부근 유지: 오늘의 암호화폐 시장",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcmpUdWgzT253dTA5Z0N4YXBfRnF4TkFaVC1yZVFpaFVvZjFNYWR0NW5aMnRabjFHMy1RSHhjNHVWMWpBU1NhUVN5YnIxTjA3OVJ3cm92ckFEZm1uN1g1MnlLZ3FMNXlMQ2d1enl4and5aWxEY0lQbWRzMXRFYTlSOTd5SWgzcTZ1MDBCVUNtVENKYlpGR3dhbmFZQjVCaE5nZkdKaFF1dk1LTlV6am1wNUxLc0JzdkVvVEJrdWxqLVRadjhjd2llNmJrTkhoaW5qdG9GTVpR?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-11-02T11:30:00.000Z"
+    },
+    {
+      "title": "비트코인·리플, 미국 중간선거 앞두고 흐름은?…과거 4차례 급락에 시장 '긴장'",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBxN0kycFJ1a25FYUxYMWNZVHlPN2xIZW9ZZnM3ZGhfdllfcHN4b0p3N0dSZlpYTTYtOFhHZW1IZ2h5UWRpYkdQZmNSWmdVZ1Q0dXFHMUo3R2xhTkY2Y1A0a1lsZjhlNTRh?oc=5",
+      "source": "CBC뉴스",
+      "date": "2026-11-02T09:25:02.000Z"
+    },
+    {
+      "title": "중국 공산당, 암호화폐 및 블록체인을 이용한 부패 단속 촉구",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOWkctbGJnMGFGdGp6Q1VjZ1dLV1dreXY2alIxZTFQVW9tY3lteDhBVzBfd3FDODVjUkl4S1FTNUxUZm42TXd6Z3R1aWlOU3FUWVk5S0ZwSkcwbmJuQ1lHaEtyYTJDZ3BwRnBFb2tiOVE3REVUU3JBcENjTExDVGpnRURuaDByMWREbGhoZ0ZYdWh0MUpzam5zOWJYajEyNjhRVTVoRHkxdjZfNnhubUg1NFRiNmJ1bFI3bUg5NmxPYVBoU1IzNXQxeENubGx2Qk94ODloNg?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-11-02T08:41:28.000Z"
+    },
     {
       "title": "주요 암호화폐 3종 가격 전망: 비트코인, 이더리움, 리플 – 10월 하락 마감 후 11월 들어 BTC, ETH, XRP 반등",
       "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNY3d0aTNvbVpINmdMbjZoNkdMdFVvR3E2ZDNLVG4teThHa05paEtxTGhnSzVLbXBtMS1wcU80Q2FLT0dPTzQwTm55VVllUUVVZXJKMWVHck8ya3BscEpUM0h4V1VnMGxob0lDR2FzWDJiNmJrSzQ2NWVWZURmbUhhRVpmYnJtNmdZWXZNNE1yRU9SWVdlMW03VTlEN3o2MFFJcHJWREp2YVB3Qm5rajJRSWM5dDBHTDVPY3V5QTJyY09laVhpMWx5TFp0ZFlvbEh3aFMtRDJUQlhlSkdPaWZfWGdrOEg5WC1SZU1jQlNzcE1qUUR1cnNJRUVka1BjQ01xd1U3aE1mMkFpMkU?oc=5",
@@ -577,30 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdmFHZ003Nmp3OGpxeXlYdGREQ2hURW05eklIQkNrOGxTS01JblJCVVFac0hvOE9Yc3R0cjA2WHRVbTZ1M2pPdHpJMmdDSDVFaGdoRkFtaHppbDVvOUEzVHZPMGdlbEp1QVQ5c0NqUExoTElOQjlkZ0JhMnBraWFPWHRnbHB3NnF5eWZ0ZGU4RTY4dG1ncXdDNG9hSzktanYzTm5PUHNLeXdQRFBISk9qZzdUc1l6R2p2Q3lPOERjMTBEXzJuQVUzcGRZcVpaVm9ITDgtRU9saGhtUlV5Nnc?oc=5",
       "source": "CoinDesk",
       "date": "2026-10-23T11:26:54.000Z"
-    },
-    {
-      "title": "비트코인(BTC) 가격, 밈코인 주도 속 알트코인 반등에 81,700달러 회복",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQekRsZHNjV3BvZ3hTdUYtRWxjUnFudzMyR3MydTAyNWhVVW44V3VxN1V6Rm8tQzV4Z1k4TUhfVXR4VWE0Q0xTbi1Xa2FZS2o5NlFWb2Znckw0ZkQtZDA1N3NjSWRuRnRvaENaWFRma285QUk2LXNpUFZpM3k3WWRtYmFGanNKUlVYdDc4Mk9TWV9qSW1SY3MtZWtBWmNBMWlaMkUyM1hJQlE5X2daX3Z5SWRsQQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-10-23T10:54:41.000Z"
-    },
-    {
-      "title": "비트코인의 중기 저점 형성 패턴이 QQQ의 혼조세 수익률로 시험대에 올랐다",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNd3U5c0Y5NG5zSDJuOWFIOWMzLUNqakxhelpsSjNZUTFJZmJEVU1aZGJfZzQ4TmpFUHdiMUxndXJYTGM1d2cwZl90Q0VFbnBJckVFem1PVS1jMGs3dmtQbF9GSTZaUWdJNEFQUTZSWVhtWVZrdWtsTDZ0VWJxYVVvZ0MweEVycmd6Ulh2RURXTGRZTEo4RkpRVXQtSlJHbi1MVDI1WGRmX2ExNk5aZFpYSkM3NGdKTFg2RlNaR2hWSQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-10-23T10:53:09.000Z"
-    },
-    {
-      "title": "비트코인 가격 US$82.000 회복, 금은 트로이 온스당 US$4.020 상승",
-      "link": "https://news.google.com/rss/articles/CBMizgJBVV95cUxQclg2NkRDMHpKcTRHZlBBUy1kZk9NR1k0cEtEVktDUmRMVXB6VzNmeHhrV1NYVFh3dTlqYjl6elk0dWhObmlGdTdZRVh3OXNMWEFFUVhoQ2llbGtmX0p5eFlsdVhvTDZ1cV9qdWdoU3RORlZqbkJmQ2QxcjBjbW9uYUpZZzBiUUZhMTZrUFItMS1MVEJBYjQ5Q2ZNZTlDdnVGQm9HM2xYOHZROC1sbEx6ZEZqTU96N2NLWVhUd29VcXNlSEwtQVJ5dmxlSHlOS3NqdHgyamE3Q3RaN1p5TlJBbmJxTVAxbmtlRnJCci1sbjFFTEY5NjNlbEZBSElmSDF0V3ZZYzMtM2dHb0hLaDdrVGExeVVHMUtGTW1mTjJDSEgzc0E0bnFpQnVaaWlVUDlPOUtwOWFpR3RMb1ZtUmZCUWpvcEljcC1UblNnZUln?oc=5",
-      "source": "IDNFinancials",
-      "date": "2026-10-23T09:20:00.000Z"
-    },
-    {
-      "title": "[저녁 시세브리핑] 암호화폐 시장 약세… 비트코인 81,779달러, 이더리움 2,407달러",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBYaUpLNHpjYkROMTJRa25QSnM2T0kwRGJKa2FfUzRkbmM1dlRJRHczaDYzM2pZQnYwMzMxaHJoWXpLQk11eXZxZkRVb2VIWjZWeWlteDZ2SXjSAV5BVV95cUxOSllGUmNRRzI1VERLVXdFREtmNFVZbVByeEttVzJacmhwVF8zeUxfeGVzTl96Zk1VOVVKR3lBcjA4QnU1M2VObEZLc3pNcC1Ma1ZPWUw2Zy0tT1dOZC13?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-10-23T07:16:47.000Z"
     }
   ]
 }
