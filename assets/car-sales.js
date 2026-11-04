@@ -2,6 +2,8 @@
 
 (function initCarSalesPage() {
   const VIEW = document.body.dataset.carView || 'all';
+  const overview = document.querySelector('.car-overview');
+  const placeholderImage = '/assets/car-placeholder.svg';
   const VIEW_META = {
     all: { key: 'total', label: '전체', color: '#2563eb' },
     domestic: { key: 'domestic', label: '국산차', color: '#2563eb' },
@@ -145,7 +147,12 @@
 
   function brandRanking(items) {
     const max = Math.max(...items.map((item) => item.sales));
-    return `<ol class="car-brand-ranks">${items.map((item) => `<li><span class="car-rank-number">${item.rank}</span><div><div class="car-rank-line"><strong>${escapeHTML(item.name)}</strong><span>${integer.format(item.sales)}대 · ${oneDecimal.format(item.share)}%</span></div><div class="car-rank-bar"><span style="width:${Math.max(4, item.sales / max * 100)}%"></span></div></div></li>`).join('')}</ol>`;
+    return `<ol class="car-brand-ranks" role="list">${items.map((item) => {
+      const bar = overview
+        ? `<meter class="car-rank-meter" min="0" max="${Math.max(1, max)}" value="${Number(item.sales)}" aria-hidden="true"></meter>`
+        : `<div class="car-rank-bar"><span style="width:${Math.max(4, item.sales / max * 100)}%"></span></div>`;
+      return `<li><span class="car-rank-number">${escapeHTML(item.rank)}${overview ? '위' : ''}</span><div><div class="car-rank-line"><strong>${escapeHTML(item.name)}</strong><span>${integer.format(item.sales)}대 · ${oneDecimal.format(item.share)}%</span></div>${bar}</div></li>`;
+    }).join('')}</ol>`;
   }
 
   function modelRanking(items) {
@@ -162,9 +169,38 @@
     }).join('')}</tbody></table></div>`;
   }
 
+  function modelCards(items, start = 1) {
+    return `<ol class="car-model-grid" role="list" start="${start}">${items.map((item) => {
+      const image = item.image ? safeHttpUrl(item.image, placeholderImage) : placeholderImage;
+      const href = item.detailUrl ? safeHttpUrl(item.detailUrl, '') : '';
+      const change = Number.isFinite(item.change) ? item.change : null;
+      const changeLabel = change == null ? '—' : `${change > 0 ? '+' : ''}${integer.format(change)}대`;
+      const loading = start === 1 ? 'eager' : 'lazy';
+      const content = `
+        <span class="car-model-visual"><span class="car-model-rank">${escapeHTML(item.rank)}위</span><span class="car-model-brand">${escapeHTML(item.brand)}</span><img src="${image}" alt="" width="360" height="180" loading="${loading}" decoding="async" referrerpolicy="no-referrer"></span>
+        <span class="car-model-info">
+          <strong>${escapeHTML(item.name)}</strong>
+          <span class="car-model-sales">${integer.format(item.sales)}<small>대</small></span>
+          <span class="car-model-change ${direction(change)}">전월 대비 <span>${changeLabel}</span></span>
+        </span>`;
+      const tile = href
+        ? `<a class="car-model-tile" href="${href}" target="_blank" rel="noopener noreferrer nofollow">${content}</a>`
+        : `<span class="car-model-tile">${content}</span>`;
+      return `<li class="car-model-card">${tile}</li>`;
+    }).join('')}</ol>`;
+  }
+
   function rankingMarketCard(market, data) {
     const label = market === 'domestic' ? '국산차' : '수입차';
-    return `<article class="car-ranking-market car-ranking-${market}"><header><div><span>${market === 'domestic' ? 'DOMESTIC' : 'IMPORTED'}</span><h3>${label} 판매 순위</h3></div><p>분류 합계 <strong>${integer.format(data.total)}대</strong></p></header><section><h4>브랜드 TOP 5</h4>${brandRanking(data.brands)}</section><section><h4>차종 TOP 10</h4>${modelRanking(data.models)}</section></article>`;
+    const header = `<header><div><span>${market === 'domestic' ? 'DOMESTIC' : 'IMPORTED'}</span><h3>${label} 판매 순위</h3></div><p>분류 합계 <strong>${integer.format(data.total)}대</strong></p></header>`;
+    const brands = `<section class="car-ranking-brands"><h4>브랜드 TOP 5</h4>${brandRanking(data.brands)}</section>`;
+    const models = overview
+      ? `<section class="car-ranking-models"><h4>차종 TOP 3</h4>${modelCards(data.models.slice(0, 3))}</section>`
+      : `<section><h4>차종 TOP 10</h4>${modelRanking(data.models)}</section>`;
+    const sections = overview
+      ? `${models}${brands}<details class="car-model-more"><summary>차종 4~10위 보기</summary>${modelCards(data.models.slice(3, 10), 4)}</details>`
+      : brands + models;
+    return `<article id="car-${market}-ranking" class="car-ranking-market car-ranking-${market}">${header}${sections}</article>`;
   }
 
   function renderRankingMonth(data, month) {
@@ -173,8 +209,8 @@
     const target = document.querySelector('#car-rankings');
     target.classList.toggle('is-single', markets.length === 1);
     target.innerHTML = markets.map((market) => rankingMarketCard(market, row[market])).join('');
-    target.querySelectorAll('.car-model-main img').forEach((image) => image.addEventListener('error', () => {
-      if (!image.src.endsWith('/assets/car-placeholder.svg')) image.src = '/assets/car-placeholder.svg';
+    target.querySelectorAll('.car-model-main img, .car-model-tile img').forEach((image) => image.addEventListener('error', () => {
+      if (image.getAttribute('src') !== placeholderImage) image.src = placeholderImage;
     }, { once: true }));
   }
 
@@ -182,11 +218,19 @@
     const selector = document.querySelector('#car-ranking-month');
     selector.innerHTML = [...data.rankings].reverse().map((row) => `<option value="${row.month}">${monthLabel(row.month, true)}</option>`).join('');
     selector.value = data.latestMonth;
-    document.querySelector('#car-ranking-basis').textContent = data.basisNotice;
+    const basis = document.querySelector('#car-ranking-basis');
+    basis.textContent = overview ? data.basisNotice.replace('상단 총판매량', '월별 판매량 통계') : data.basisNotice;
+    if (overview) {
+      basis.insertAdjacentHTML('beforeend', ` <a href="${safeHttpUrl(data.source.url)}" target="_blank" rel="noopener noreferrer">순위 출처</a>`);
+      basis.hidden = false;
+      selector.disabled = false;
+      overview.querySelector('.car-ranking-jumps').hidden = false;
+    }
     renderRankingMonth(data, selector.value);
     selector.addEventListener('change', () => renderRankingMonth(data, selector.value));
     document.querySelector('#car-ranking-loading').hidden = true;
     document.querySelector('#car-rankings').hidden = false;
+    if (overview) return;
     const sources = document.querySelector('#car-sources');
     sources.insertAdjacentHTML('beforeend', `<li><div><a href="${safeHttpUrl(data.source.url)}" target="_blank" rel="noopener noreferrer">${escapeHTML(data.source.name)}</a><span>KAMA·KAIDA 자료 재구성 · 브랜드/차종 순위</span></div><time datetime="${escapeHTML(data.updatedAt)}">확인 ${new Date(data.updatedAt).toLocaleDateString('ko-KR')}</time></li>`);
   }
@@ -210,6 +254,7 @@
   }
 
   renderShell();
+  if (overview) loadRankings();
   fetchJSON('/data/car-sales.json')
     .then(validate)
     .then((data) => {
@@ -222,7 +267,7 @@
       renderSources(data);
       document.querySelector('#car-content').hidden = false;
       document.querySelector('#car-loading').hidden = true;
-      loadRankings();
+      if (!overview) loadRankings();
     })
     .catch((error) => {
       console.error(error);

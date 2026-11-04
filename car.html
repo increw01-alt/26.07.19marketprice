@@ -5,20 +5,21 @@
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-D5NLQZ3DST"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-D5NLQZ3DST');</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>자동차 판매량 — 국산차·수입차 월별 비교 | 모두의 시세</title>
-<meta name="description" content="최근 24개월 국산차와 수입차 판매량을 월별로 비교합니다. 총판매량, 전월·전년 대비, 수입차 비중과 공식 출처를 함께 확인하세요.">
+<title>국산차·수입차 판매 순위와 월별 판매량 | 모두의 시세</title>
+<meta name="description" content="국산차·수입차 브랜드와 모델별 월간 판매 순위를 비교하세요. 차량 사진과 전월 대비 판매 대수, 최근 24개월 판매 추이, 집계 출처를 함께 확인할 수 있습니다.">
 <link rel="canonical" href="https://modoosise.com/car">
 <meta name="theme-color" content="#f4f6fb">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <meta property="og:type" content="website"><meta property="og:site_name" content="모두의 시세"><meta property="og:locale" content="ko_KR">
-<meta property="og:title" content="자동차 판매량 — 국산차·수입차 월별 비교 | 모두의 시세"><meta property="og:description" content="최근 24개월 국산차와 수입차 판매량, 증감률과 시장 비중을 한눈에 비교합니다."><meta property="og:url" content="https://modoosise.com/car"><meta property="og:image" content="https://modoosise.com/assets/og.png">
+<meta property="og:title" content="국산차·수입차 판매 순위와 월별 판매량 | 모두의 시세"><meta property="og:description" content="국산차·수입차 브랜드와 모델별 판매 순위, 차량 사진, 월별 판매량과 증감률을 비교합니다."><meta property="og:url" content="https://modoosise.com/car"><meta property="og:image" content="https://modoosise.com/assets/og.png">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="/assets/style.css?v=20261016-gift1">
+<link rel="stylesheet" href="/assets/car-overview.css?v=20261104-car2">
 <script>if(location.host==='www.modoosise.com'||location.host==='26-07-19marketprice.pages.dev')location.replace('https://modoosise.com'+location.pathname+location.search);try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"국산차·수입차 월별 판매량","description":"최근 24개월 자동차 판매량 월별 비교 자료","url":"https://modoosise.com/car","temporalCoverage":"2024-08/2026-07","creator":{"@type":"Organization","name":"모두의 시세"},"isBasedOn":"https://www.kaida.co.kr/ko/statistics/kaidaShareList.do"}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Dataset","name":"국산차·수입차 월별 판매량","description":"최근 24개월 자동차 판매량 월별 비교 자료","url":"https://modoosise.com/car","creator":{"@type":"Organization","name":"모두의 시세"},"isBasedOn":"https://www.kaida.co.kr/ko/statistics/kaidaShareList.do"}</script>
 </head>
 <body data-page="car" data-car-view="all">
 
@@ -68,48 +69,66 @@
 </nav>
 </div>
 <!-- static-shell:header:end -->
-<main id="main" class="wrap car-page">
-  <header class="car-hero">
-    <div><span class="car-eyebrow">자동차 판매량</span><h1>국산차와 수입차,<br><em>24개월 흐름을 한눈에</em></h1><p>월별 판매 대수와 증감률, 시장 구성을 같은 화면에서 비교합니다.</p></div>
-    <div class="car-hero-stamp"><span>현재 자료 범위</span><strong>2024.08 — 2026.07</strong><small>매월 새 자료로 한 달씩 이동</small></div>
+<main id="main" class="wrap car-page car-overview">
+  <header class="car-overview-hero">
+    <div>
+      <p class="car-overview-kicker">모두의 시세 / 자동차</p>
+      <h1>국산차·수입차 판매 순위</h1>
+      <p class="car-overview-intro">브랜드별 판매량과 인기 모델을 한눈에 비교하세요.</p>
+    </div>
+    <nav class="car-overview-nav" aria-label="이 페이지에서 바로 보기">
+      <a href="#car-sales-rankings">판매 순위</a><a href="#car-monthly-trend">월별 추이</a><a href="#car-data-sources">출처</a>
+    </nav>
   </header>
+  <section id="car-sales-rankings" class="car-ranking-panel car-overview-rankings" aria-labelledby="ranking-heading">
+    <div class="car-section-head">
+      <div><span>MONTHLY RANKING</span><h2 id="ranking-heading">브랜드·차종별 판매 순위</h2></div>
+      <label class="car-month-select">기준월<select id="car-ranking-month" disabled><option value="">불러오는 중</option></select></label>
+    </div>
+    <nav class="car-ranking-jumps" aria-label="시장별 판매 순위" hidden><a href="#car-domestic-ranking">국산차 순위</a><a href="#car-imported-ranking">수입차 순위</a></nav>
+    <p id="car-ranking-loading" class="car-ranking-loading" role="status">브랜드·차종 순위를 불러오는 중입니다.</p>
+    <div id="car-rankings" class="car-rankings-grid" hidden></div>
+    <p id="car-ranking-basis" class="car-ranking-basis" hidden></p>
+    <noscript><p>판매 순위를 보려면 브라우저에서 JavaScript를 켜 주세요.</p></noscript>
+  </section>
   <nav class="car-tabs" aria-label="자동차 판매량 구분"><a href="/car" aria-current="page">전체 판매량</a><a href="/car/domestic">국산차 판매량</a><a href="/car/imported">수입차 판매량</a></nav>
   <aside class="car-preview-notice"><strong>공개자료 시안</strong><span>현재 KAIDA 공개 통계로 구성한 초안입니다. 동일한 신규등록 기준의 공공 API 연결 전까지 집계기준을 구분해 표시합니다.</span></aside>
+  <p id="data-refresh-status" class="data-refresh-status" role="status"></p>
   <p id="car-loading" class="car-loading">자동차 판매량 자료를 불러오는 중입니다.</p><p id="car-error" class="car-error" hidden></p>
   <div id="car-content" hidden>
     <section aria-labelledby="car-kpi-title"><div class="car-section-head"><div><span>최근 요약</span><h2 id="car-kpi-title">전체 자동차 판매량</h2></div><p>대수 기준</p></div><div id="car-kpis" class="car-kpi-grid"></div></section>
-    <section class="car-panel" aria-labelledby="car-chart-heading"><div class="car-section-head"><div><span>MONTHLY TREND</span><h2 id="car-chart-heading">월별 판매량 추이</h2></div><p>막대에 마우스를 올리면 상세 대수를 볼 수 있습니다</p></div><div id="car-chart"></div></section>
+    <section id="car-monthly-trend" class="car-panel" aria-labelledby="car-chart-heading"><div class="car-section-head"><div><span>MONTHLY TREND</span><h2 id="car-chart-heading">월별 판매량 추이</h2></div><p>월별 상세 표에서 정확한 대수를 확인할 수 있습니다</p></div><div id="car-chart"></div></section>
     <section class="car-analysis-grid" aria-label="판매량 분석"><article id="car-composition" class="car-panel car-mini-panel"></article><article id="car-insight" class="car-panel car-mini-panel"></article></section>
     <section class="car-panel" aria-labelledby="car-table-heading"><div class="car-section-head"><div><span>MONTHLY DATA</span><h2 id="car-table-heading">월별 상세 자료</h2></div><p>최신 월부터 표시</p></div><div class="table-scroll"><table class="car-table"><thead><tr><th scope="col">기준월</th><th scope="col">국산차</th><th scope="col">수입차</th><th scope="col">참고 합계</th><th scope="col">수입차 비중</th><th scope="col">전년 동월 대비</th></tr></thead><tbody id="car-table-body"></tbody></table></div></section>
-    <section class="car-panel car-ranking-panel" aria-labelledby="ranking-heading"><div class="car-section-head"><div><span>BRAND &amp; MODEL</span><h2 id="ranking-heading">브랜드·차종별 판매 순위</h2></div><label class="car-month-select">기준월<select id="car-ranking-month" aria-label="브랜드와 차종 순위 기준월"></select></label></div><p id="car-ranking-basis" class="car-ranking-basis"></p><p id="car-ranking-loading" class="car-ranking-loading">브랜드·차종 순위를 불러오는 중입니다.</p><div id="car-rankings" class="car-rankings-grid" hidden></div></section>
-    <section class="car-panel car-source-panel" aria-labelledby="source-heading"><div class="car-section-head"><div><span>DATA SOURCE</span><h2 id="source-heading">출처와 집계기준</h2></div><span class="car-source-badge">출처 공개</span></div><p id="car-basis-notice" class="car-basis-notice"></p><dl id="car-definitions" class="car-definitions"></dl><ul id="car-sources" class="car-source-list"></ul></section>
+    <section id="car-data-sources" class="car-panel car-source-panel" aria-labelledby="source-heading"><div class="car-section-head"><div><span>DATA SOURCE</span><h2 id="source-heading">출처와 집계기준</h2></div><span class="car-source-badge">출처 공개</span></div><p id="car-basis-notice" class="car-basis-notice"></p><dl id="car-definitions" class="car-definitions"></dl><ul id="car-sources" class="car-source-list"></ul></section>
   </div>
 </main>
-<script src="/assets/site-config.js?v=20261016-gift1"></script><!-- static-shell:footer:start -->
-<script src="/assets/site-config.js?v=20261016-gift1"></script><footer class="site-footer">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>  <div class="wrap foot-grid">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <div class="foot-brand">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <span class="brand-mark">모두의 시세</span>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <p>대한민국의 금융·생활·자동차 지표를 한눈에 제공하는 시장 정보 서비스입니다.</p>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    </div>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <nav class="foot-col" aria-label="서비스 메뉴">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <strong>서비스</strong>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    </nav>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <nav class="foot-col" aria-label="안내">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <strong>안내</strong>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>      <div class="foot-menu"><a href="/about">모두의 시세 소개</a><a href="/rss.xml">RSS 피드</a></div>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    </nav>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>  </div>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>  <div class="wrap foot-legal">
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>    <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
-<script src="/assets/site-config.js?v=20261016-gift1"></script>  </div>
-<script src="/assets/site-config.js?v=20261016-gift1"></script></footer>
-<script src="/assets/site-config.js?v=20261016-gift1"></script><!-- static-shell:footer:end -->
+<script src="/assets/site-config.js?v=20261016-gift1"></script>
+<!-- static-shell:footer:start -->
+<footer class="site-footer">
+  <div class="wrap foot-grid">
+    <div class="foot-brand">
+      <span class="brand-mark">모두의 시세</span>
+      <p>대한민국의 금융·생활·자동차 지표를 한눈에 제공하는 시장 정보 서비스입니다.</p>
+    </div>
+    <nav class="foot-col" aria-label="서비스 메뉴">
+      <strong>서비스</strong>
+      <div class="foot-menu"><a href="/coin">암호화폐 시세</a><a href="/stock">주식시세</a><a href="/kosdaq">코스닥시세</a><a href="/fx">환율시세</a><a href="/metal">금시세</a><a href="/energy">유가</a><a href="/macro">경제지표</a><a href="/giftcard">상품권시세</a><a href="/realestate">부동산시세</a><a href="/car">자동차 판매량</a><a href="/hotdeal">핫딜</a><a href="/lotto">로또</a></div>
+    </nav>
+    <nav class="foot-col" aria-label="안내">
+      <strong>안내</strong>
+      <div class="foot-menu"><a href="/about">모두의 시세 소개</a><a href="/rss.xml">RSS 피드</a></div>
+    </nav>
+  </div>
+  <div class="wrap foot-legal">
+    <p>시세는 참고용이며 실제 거래가와 다를 수 있습니다. 투자 판단의 근거로 사용하지 마세요.</p>
+    <p class="src">출처: 동행복권 · 네이버 금융 · Yahoo Finance · 업비트 · 각 상품권 업체 · 국토교통부 · 한국은행 · 오피넷 · KAIDA</p>
+    <p class="copyright">© 2026 MODOOSISE. All rights reserved.</p>
+  </div>
+</footer>
+<!-- static-shell:footer:end -->
 
 <script src="/assets/data-refresh.js?v=20261016-gift1"></script>
-<script src="/assets/app.js?v=20261016-gift1"></script><script src="/assets/car-sales.js?v=20261016-gift1"></script><script src="/assets/car-news.js?v=20261016-gift1"></script>
+<script src="/assets/app.js?v=20261016-gift1"></script><script src="/assets/car-sales.js?v=20261104-car2"></script><script src="/assets/car-news.js?v=20261016-gift1"></script>
 </body>
 </html>

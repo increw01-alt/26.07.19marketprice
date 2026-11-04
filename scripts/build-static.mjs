@@ -18,6 +18,7 @@ const GIFT_RENDER = require('../assets/giftcard-render.js');
 const checkOnly = process.argv.includes('--check');
 const ASSET_VERSION = '20261016-gift1';
 const USED_CAR_ASSET_VERSION = ASSET_VERSION;
+const CAR_OVERVIEW_ASSET_VERSION = '20261104-car2';
 
 const esc = (value) =>
   String(value ?? '')
@@ -1226,7 +1227,10 @@ for (const [file, shell] of Object.entries(shellPlan)) {
   );
   document.next = document.next.replace(
     /((?:\/)?assets\/(?:style\.css|site-config\.js|data-refresh\.js|app\.js|pages\.js|car-sales\.js|used-car-sales\.js|car-news\.js))\?v=[^"']+/g,
-    `$1?v=${assetVersion}`,
+    (_, asset) => {
+      const version = file === 'car.html' && asset.endsWith('/car-sales.js') ? CAR_OVERVIEW_ASSET_VERSION : assetVersion;
+      return `${asset}?v=${version}`;
+    },
   );
 }
 

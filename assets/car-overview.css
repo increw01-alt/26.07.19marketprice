@@ -1,0 +1,599 @@
+/* /car — 판매 순위는 남색, 월별 통계는 사이트 테마를 따릅니다. */
+body[data-page='car'] {
+  --car-canvas: color-mix(in srgb, var(--color-foreground) 65%, black);
+  --car-panel: color-mix(in srgb, var(--color-foreground) 91%, black);
+  --car-raised: color-mix(in srgb, var(--color-foreground) 95%, white);
+  --car-border: color-mix(in srgb, var(--color-foreground) 86%, white);
+  --car-ink: color-mix(in srgb, var(--color-foreground) 7%, white);
+  --car-muted: color-mix(in srgb, var(--color-foreground) 27%, white);
+  --car-blue: color-mix(in srgb, var(--color-secondary) 74%, white);
+  --car-amber: color-mix(in srgb, var(--color-accent) 25%, orange);
+  --car-up: color-mix(in srgb, var(--color-up) 48%, white);
+}
+
+:root[data-theme='dark'] body[data-page='car'] {
+  --car-canvas: var(--color-background);
+  --car-panel: var(--color-surface);
+  --car-raised: var(--color-surface-2);
+  --car-border: var(--color-border);
+  --car-ink: var(--color-foreground);
+  --car-muted: var(--color-muted-fg);
+  --car-blue: var(--color-primary);
+  --car-amber: var(--color-accent);
+  --car-up: var(--color-up);
+}
+
+body[data-page='car'][data-car-view='all'] > .internal-hero-backdrop {
+  height: clamp(252px, 27vw, 350px);
+  background: linear-gradient(116deg, var(--car-canvas) 32%, var(--car-raised));
+}
+
+body[data-page='car'][data-car-view='all'] > .internal-hero-backdrop::after {
+  background: repeating-linear-gradient(
+    114deg,
+    transparent 0 46px,
+    color-mix(in srgb, var(--car-blue) 7%, transparent) 46px 47px
+  );
+  mask-image: linear-gradient(90deg, transparent 28%, black);
+}
+
+.car-overview {
+  max-width: 1240px;
+}
+
+.car-overview :is(#car-sales-rankings, #car-domestic-ranking, #car-imported-ranking, #car-monthly-trend, #car-data-sources) {
+  scroll-margin-top: var(--space-md);
+}
+
+.car-overview .car-overview-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: end;
+  gap: var(--space-xs) var(--space-lg);
+  padding: clamp(16px, 1.5vw, 20px) 0 clamp(15px, 1.8vw, 23px);
+  color: var(--car-ink);
+}
+
+.car-overview .car-overview-kicker {
+  margin: 0 0 var(--space-xs);
+  color: var(--car-blue);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .08em;
+}
+
+.car-overview .car-overview-hero h1 {
+  margin: 0;
+  color: var(--car-ink);
+  font-size: clamp(27px, 4vw, 46px);
+  font-weight: 850;
+  letter-spacing: -.055em;
+  line-height: 1.15;
+  word-break: keep-all;
+}
+
+.car-overview .car-overview-intro {
+  margin: var(--space-sm) 0 0;
+  color: var(--car-muted);
+  font-size: clamp(13px, 1.5vw, 16px);
+  word-break: keep-all;
+}
+
+.car-overview .car-overview-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.car-overview :is(.car-overview-nav, .car-ranking-jumps) a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding-inline: 12px;
+  border: 1px solid var(--car-border);
+  border-radius: var(--radius-sm);
+  color: var(--car-ink);
+  background: var(--car-panel);
+  font-size: 13px;
+  font-weight: 750;
+  text-decoration: none;
+  transition: background-color var(--transition), border-color var(--transition);
+}
+
+.car-overview :is(.car-overview-nav, .car-ranking-jumps) a:hover {
+  border-color: var(--car-blue);
+  background: var(--car-raised);
+}
+
+.car-overview .car-overview-nav a:first-child {
+  border-color: var(--car-blue);
+  background: var(--car-blue);
+  color: var(--car-canvas);
+}
+
+.car-overview :is(.car-overview-nav, .car-overview-rankings) :is(a, select, summary):focus-visible {
+  outline-color: var(--car-blue);
+}
+
+.car-overview .car-overview-rankings {
+  --color-primary: var(--car-blue);
+  --color-on-primary: var(--car-canvas);
+  --color-surface: var(--car-panel);
+  --color-surface-2: var(--car-raised);
+  --color-foreground: var(--car-ink);
+  --color-muted-fg: var(--car-muted);
+  --color-border: var(--car-border);
+  --color-ring: var(--car-blue);
+  margin-bottom: 18px;
+  padding: clamp(16px, 3vw, 30px);
+  border: 1px solid var(--car-border);
+  border-radius: 18px;
+  background: var(--car-panel);
+  box-shadow: 0 18px 38px color-mix(in srgb, var(--car-canvas) 24%, transparent);
+  color: var(--car-ink);
+  color-scheme: dark;
+}
+
+.car-overview .car-overview-rankings .car-section-head {
+  align-items: center;
+}
+
+.car-overview .car-overview-rankings .car-section-head h2 {
+  font-size: clamp(18px, 2.3vw, 26px);
+  word-break: keep-all;
+}
+
+.car-overview .car-month-select {
+  width: auto;
+  font-size: 12px;
+}
+
+.car-overview .car-month-select select {
+  min-width: 128px;
+  min-height: 44px;
+  padding: 8px 12px;
+  border-color: var(--car-border);
+  background: var(--car-raised);
+  font-size: 13px;
+}
+
+.car-overview .car-ranking-basis {
+  margin: var(--space-md) 0 0;
+  font-size: 12px;
+  word-break: keep-all;
+}
+
+.car-overview .car-ranking-basis a {
+  display: inline-block;
+  color: var(--car-blue);
+  text-underline-offset: 3px;
+}
+
+.car-overview .car-ranking-loading.is-error {
+  color: var(--car-up);
+}
+
+.car-overview .car-ranking-jumps,
+.car-overview .car-rankings-grid[hidden] {
+  display: none;
+}
+
+.car-overview .car-rankings-grid {
+  align-items: start;
+  gap: var(--space-md);
+}
+
+.car-overview .car-ranking-market {
+  --market-accent: var(--car-blue);
+  --market-scene-position: 34%;
+  background: var(--car-canvas);
+  font-variant-numeric: tabular-nums;
+}
+
+.car-overview .car-ranking-imported {
+  --market-accent: var(--car-amber);
+  --market-scene-position: 70%;
+}
+
+.car-overview .car-ranking-market > header {
+  align-items: center;
+  padding: 14px clamp(12px, 1.7vw, 20px);
+  border-inline-start: 3px solid var(--market-accent);
+  background: var(--car-raised);
+}
+
+.car-overview .car-ranking-market > header span {
+  color: var(--market-accent);
+  font-size: 11px;
+}
+
+.car-overview .car-ranking-market > header h3 {
+  margin-top: 1px;
+  font-size: clamp(17px, 2.1vw, 23px);
+  letter-spacing: -.04em;
+  line-height: 1.25;
+}
+
+.car-overview .car-ranking-market > header p {
+  text-align: right;
+  font-size: 11px;
+}
+
+.car-overview .car-ranking-market > header p strong {
+  display: block;
+  margin-top: 1px;
+  font-size: clamp(15px, 2vw, 21px);
+  font-weight: 850;
+  line-height: 1.25;
+  white-space: nowrap;
+}
+
+.car-overview .car-ranking-market > section {
+  padding: clamp(10px, 1.7vw, 20px);
+}
+
+.car-overview .car-ranking-market h4 {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.car-overview .car-model-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.car-overview .car-model-card {
+  min-width: 0;
+}
+
+.car-overview .car-model-tile {
+  --scene-zoom: 1;
+  --car-drive: 0%;
+  --car-zoom: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 1px solid var(--car-border);
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--market-accent) 7%, var(--car-raised));
+  color: var(--car-ink);
+  text-decoration: none;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+
+.car-overview a.car-model-tile:is(:focus-visible, :active) {
+  --scene-zoom: 1.08;
+  --car-drive: -2%;
+  --car-zoom: 1.035;
+  border-color: var(--market-accent);
+  background: color-mix(in srgb, var(--market-accent) 14%, var(--car-raised));
+  outline-color: var(--market-accent);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .car-overview a.car-model-tile:hover {
+    --scene-zoom: 1.12;
+    --car-drive: -3%;
+    --car-zoom: 1.055;
+    border-color: var(--market-accent);
+    background: color-mix(in srgb, var(--market-accent) 14%, var(--car-raised));
+  }
+}
+
+.car-overview .car-model-visual {
+  position: relative;
+  isolation: isolate;
+  aspect-ratio: 1.38;
+  overflow: hidden;
+  border-radius: calc(var(--radius) - 1px) calc(var(--radius) - 1px) 0 0;
+  background: color-mix(in srgb, var(--market-accent) 32%, var(--car-canvas));
+}
+
+.car-overview .car-model-visual::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  background:
+    linear-gradient(0deg, var(--car-canvas), transparent 30%),
+    linear-gradient(132deg, color-mix(in srgb, var(--market-accent) 30%, transparent), transparent 62%),
+    url('/assets/car-city-stage.webp') var(--market-scene-position) 54% / cover;
+  transform: scale(var(--scene-zoom));
+  transform-origin: center 66%;
+  transition: transform 300ms ease-out;
+}
+
+.car-overview .car-model-visual > img {
+  position: absolute;
+  inset: auto 0 4%;
+  display: block;
+  width: 100%;
+  height: 76%;
+  object-fit: contain;
+  object-position: center bottom;
+  filter: drop-shadow(0 6px 5px color-mix(in srgb, black 65%, transparent));
+  transform: translateX(var(--car-drive)) scale(var(--car-zoom));
+  transform-origin: center 78%;
+  transition: transform 260ms ease-out;
+}
+
+.car-overview .car-model-visual > img[src$='/assets/car-placeholder.svg'] {
+  inset: auto 14% 9%;
+  width: 72%;
+  height: 56%;
+}
+
+.car-overview .car-model-rank {
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 5px;
+  min-width: 25px;
+  padding: 3px 6px;
+  border-radius: 6px;
+  background: var(--market-accent);
+  box-shadow: 0 2px 8px color-mix(in srgb, var(--car-canvas) 54%, transparent);
+  color: var(--car-canvas);
+  font-size: 11px;
+  font-weight: 900;
+  line-height: 1.4;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.car-overview .car-model-brand {
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  right: 5px;
+  max-width: calc(100% - 40px);
+  padding: 3px 6px;
+  overflow: hidden;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--car-canvas) 88%, transparent);
+  color: var(--car-ink);
+  font-size: clamp(10px, .9vw, 12px);
+  font-weight: 850;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.car-overview .car-model-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: clamp(7px, 1vw, 12px);
+  border-top: 1px solid color-mix(in srgb, var(--market-accent) 25%, var(--car-border));
+  line-height: 1.35;
+}
+
+.car-overview .car-model-info small {
+  color: var(--car-muted);
+  font-size: 11px;
+}
+
+.car-overview .car-model-info strong {
+  margin-bottom: 7px;
+  font-size: clamp(12px, 1.4vw, 16px);
+  font-weight: 820;
+  overflow-wrap: anywhere;
+}
+
+.car-overview .car-model-sales {
+  margin-top: auto;
+  font-size: clamp(13px, 1.6vw, 20px);
+  font-weight: 850;
+  letter-spacing: -.045em;
+  white-space: nowrap;
+}
+
+.car-overview .car-model-change {
+  color: var(--car-muted);
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+
+.car-overview .car-model-change > span {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.car-overview .car-model-change.up {
+  color: var(--car-up);
+}
+
+.car-overview .car-model-change.down {
+  color: var(--car-blue);
+}
+
+.car-overview .car-brand-ranks {
+  gap: 10px;
+}
+
+.car-overview .car-brand-ranks li:first-child .car-rank-number {
+  background: var(--market-accent);
+}
+
+.car-overview .car-rank-line {
+  flex-wrap: wrap;
+  gap: 0 var(--space-sm);
+}
+
+.car-overview .car-rank-meter {
+  display: block;
+  width: 100%;
+  height: 6px;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: var(--car-raised);
+  appearance: none;
+}
+
+.car-overview .car-rank-meter::-webkit-meter-bar {
+  height: 100%;
+  border: 0;
+  border-radius: inherit;
+  background: var(--car-raised);
+}
+
+.car-overview .car-rank-meter::-webkit-meter-optimum-value {
+  border-radius: 999px;
+  background: var(--market-accent);
+}
+
+.car-overview .car-rank-meter::-moz-meter-bar {
+  border-radius: 999px;
+  background: var(--market-accent);
+}
+
+.car-overview .car-model-more {
+  padding-inline: clamp(10px, 1.7vw, 20px);
+  border-top: 1px solid var(--car-border);
+}
+
+.car-overview .car-model-more summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-sm);
+  min-height: 44px;
+  border-radius: var(--radius-sm);
+  color: var(--market-accent);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 800;
+  list-style: none;
+}
+
+.car-overview .car-model-more summary::-webkit-details-marker {
+  display: none;
+}
+
+.car-overview .car-model-more summary::after {
+  content: '';
+  width: 7px;
+  height: 7px;
+  margin-inline-end: 3px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  rotate: 45deg;
+}
+
+.car-overview .car-model-more[open] summary::after {
+  rotate: 225deg;
+}
+
+.car-overview .car-model-more .car-model-grid {
+  padding-bottom: var(--space-md);
+}
+
+.car-overview .car-tabs {
+  margin-block: var(--space-lg) var(--space-md);
+}
+
+.car-overview .car-tabs a {
+  display: grid;
+  place-items: center;
+  min-height: 44px;
+  min-width: 0;
+}
+
+.car-overview #data-refresh-status:empty {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  body[data-page='car'][data-car-view='all'] > .site-nav-panel {
+    display: none;
+  }
+}
+
+@media (max-width: 820px) {
+  .car-overview .car-overview-hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .car-overview .car-overview-nav {
+    margin-top: var(--space-xs);
+  }
+
+  .car-overview .car-ranking-jumps:not([hidden]) {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-sm);
+    margin-bottom: var(--space-md);
+  }
+
+  .car-overview .car-ranking-jumps a:first-child {
+    color: var(--car-blue);
+  }
+
+  .car-overview .car-ranking-jumps a:last-child {
+    color: var(--car-amber);
+  }
+}
+
+@media (max-width: 600px) {
+  .car-overview .car-overview-rankings {
+    padding: 12px;
+  }
+
+  .car-overview .car-overview-rankings .car-section-head {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-sm);
+  }
+
+  .car-overview .car-month-select {
+    flex: none;
+    gap: 3px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .car-overview .car-month-select select {
+    min-width: 103px;
+  }
+
+  .car-overview .car-model-grid {
+    gap: 6px;
+  }
+
+  .car-overview .car-model-rank {
+    min-width: 20px;
+    padding: 2px 4px;
+  }
+
+  .car-overview .car-model-brand {
+    max-width: calc(100% - 34px);
+    padding: 2px 4px;
+  }
+
+  .car-overview .car-model-change > span {
+    display: block;
+  }
+
+  .car-overview .car-tabs a {
+    padding-inline: 4px;
+    font-size: 12px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .car-overview :is(.car-overview-nav a, .car-ranking-jumps a, .car-model-tile) {
+    transition: none;
+  }
+
+  .car-overview .car-model-visual::before,
+  .car-overview .car-model-visual > img {
+    transform: none;
+    transition: none;
+  }
+}
