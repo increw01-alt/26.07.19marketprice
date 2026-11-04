@@ -1,6 +1,72 @@
 {
-  "updatedAt": "2026-11-04T14:58:36+09:00",
+  "updatedAt": "2026-11-04T15:18:42+09:00",
   "deals": [
+    {
+      "title": "가쯔 전기 모기채 1+1",
+      "mall": "네이버",
+      "price": 3900,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745782",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T06:10:09.000Z"
+    },
+    {
+      "title": "유로 목재 펠릿 15kg 캠핑 화목난로 연료",
+      "mall": "네이버",
+      "price": 8900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745781",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T06:05:29.000Z"
+    },
+    {
+      "title": "모바 P70 Pro Ultra 로봇청소기",
+      "mall": "지마켓",
+      "price": 504990,
+      "cat": "디지털·가전",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745780",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T06:03:57.000Z"
+    },
+    {
+      "title": "해남 황토밭 꿀고구마특상3kg",
+      "mall": "옥션",
+      "price": 9240,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745779",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T06:02:53.000Z"
+    },
+    {
+      "title": "국내산 영암군 무화과로 만든 무화과잼 200g 3개",
+      "mall": "영암몰",
+      "price": 20300,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745778",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T06:00:22.000Z"
+    },
+    {
+      "title": "스너글 초고농축 섬유유연제 오리지널 2L + 2.6L",
+      "mall": "g마켓",
+      "price": 16750,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745777",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-04T05:59:01.000Z"
+    },
     {
       "title": "26년 햇 영암 대봉감 곶감용 홍시용 2.5kg 12과내외 중소과",
       "mall": "롯데온",
@@ -156,61 +222,6 @@
       "date": "2026-11-04T05:03:09.000Z"
     },
     {
-      "title": "맥심 모카골드 커피믹스 400개입 + 네이버페이",
-      "mall": "네이버",
-      "price": 49900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745766",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T05:01:39.000Z"
-    },
-    {
-      "title": "실키온 BLDC 헤어드라이기 6세대",
-      "mall": "G마켓",
-      "price": 39130,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745765",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T05:01:11.000Z"
-    },
-    {
-      "title": "해피콜 플렉스팬 IH 와이드 인덕션 후라이팬 20/22cm(매트블랙/피스타치오 그린)",
-      "mall": "G마켓",
-      "price": 12520,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745764",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T04:51:57.000Z"
-    },
-    {
-      "title": "제주 감귤 꼬마~소사이즈 10kg",
-      "mall": "g마켓",
-      "price": 8990,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745763",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T04:51:35.000Z"
-    },
-    {
-      "title": "아이닉 올케어 2 IN 1 분유포트 자동출수+주전자",
-      "mall": "키디키디",
-      "price": 117550,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745762",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T04:47:55.000Z"
-    },
-    {
       "title": "멤버십 부르르X택이 제로콜라 350ml 48캔",
       "mall": "네이버",
       "price": 25470,
@@ -220,17 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-04T04:46:23.000Z"
-    },
-    {
-      "title": "삼성 스마트모니터 M5 32인치 S32DM501+VI201S 삼탠바이미 화이트",
-      "mall": "지마켓",
-      "price": 345150,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=745759",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-04T04:29:40.000Z"
     },
     {
       "title": "PS5 고스트 오브 요테이 컴플리트 에디션 59,400원",
@@ -253,6 +253,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-04T03:27:10.000Z"
+    },
+    {
+      "title": "1KG 건어물도매 업소용 프리미엄 참쥐포 두꺼운쥐포 AA급",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82518",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-04T03:24:48.000Z"
     },
     {
       "title": "노브랜드 버거 모바일 상품원 3만원",
@@ -299,6 +310,28 @@
       "date": "2026-11-04T03:02:29.000Z"
     },
     {
+      "title": "돼지고기 목전지 1kg 제육용 불고기용 찌개용 구이용",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82516",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-04T02:47:57.000Z"
+    },
+    {
+      "title": "명장김치찌개&김치찜 250g 간편식 2개",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82515",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-04T02:38:38.000Z"
+    },
+    {
       "title": "그릭요거트 450g 2개/3개 골라담기",
       "mall": "롯데온",
       "price": 10750,
@@ -330,6 +363,17 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-04T02:02:49.000Z"
+    },
+    {
+      "title": "기모 깔깔이 남자퀄팅패딩 겨울작업잠바",
+      "mall": "네이버",
+      "price": null,
+      "cat": "패션·뷰티",
+      "link": "https://damoang.net/economy/82513",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-04T01:51:23.000Z"
     },
     {
       "title": "코카콜라/코카콜라제로 490ml x 24캔",
@@ -442,6 +486,17 @@
       "date": "2026-11-03T17:35:12.000Z"
     },
     {
+      "title": "2026-11-04 네이버페이 115원 + 랜덤 포인트",
+      "mall": null,
+      "price": 115,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/82482",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-03T15:54:32.000Z"
+    },
+    {
       "title": "갤럭시 스토어 5천원 할인 (11/4~7)",
       "mall": "KT콘텐츠페이",
       "price": null,
@@ -473,6 +528,171 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-03T15:17:24.000Z"
+    },
+    {
+      "title": "드웰러 초고속블렌더/핸드블렌더/ 알텐바흐 디펜더스 후라이팬 (다양 )",
+      "mall": "뽀큐트몰",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82471",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-03T10:43:52.000Z"
+    },
+    {
+      "title": "국내산 전라도 배추김치 포기 김장 김치 2kg",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82447",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-03T01:33:05.000Z"
+    },
+    {
+      "title": "민물장어 국산 자포니카 홈파티 캠핑음식 손질 또는 초벌 선택",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82440",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-03T00:26:08.000Z"
+    },
+    {
+      "title": "락토랩 장건강 프로바이오틱스 19종 유산균 프리바이오틱스 30포, 1개",
+      "mall": "네이버",
+      "price": null,
+      "cat": "건강",
+      "link": "https://damoang.net/economy/82439",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T23:56:36.000Z"
+    },
+    {
+      "title": "iOS 일시무료 세끼",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82426",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T21:59:00.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Pastekit",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82425",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T21:54:13.000Z"
+    },
+    {
+      "title": "2026-11-03 네이버페이 105원 + 랜덤 포인트",
+      "mall": null,
+      "price": 105,
+      "cat": "쿠폰·상품권",
+      "link": "https://damoang.net/economy/82416",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T15:28:33.000Z"
+    },
+    {
+      "title": "아이리버 IBE-NS20L 백헤드 오픈형 이어폰",
+      "mall": "네이버",
+      "price": 6900,
+      "cat": "디지털·가전",
+      "link": "https://damoang.net/economy/82413",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T13:01:46.000Z"
+    },
+    {
+      "title": "QCY C50I",
+      "mall": "옥션",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82411",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T12:26:25.000Z"
+    },
+    {
+      "title": "견과류가 가득한 쑥 호두 콩달떡 찹쌀떡 모찌 개별포장 쑥떡",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82406",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T09:29:17.000Z"
+    },
+    {
+      "title": "++1 투뿔한우 곰탕용 몸보신세트(사골, 모둠뼈, 우족, 소꼬리) 마장동",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82405",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T09:29:06.000Z"
+    },
+    {
+      "title": "마이핫 보온대 대용량 군용 핫팩 160g, 40개",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82397",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T07:02:16.000Z"
+    },
+    {
+      "title": "데카트론 퀘차 NH100 10L 등산 백팩",
+      "mall": "네이버",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/82394",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T05:33:22.000Z"
+    },
+    {
+      "title": "양념 오리불고기 오리 주물럭 생 오리고기 캠핑음식 오리로스",
+      "mall": "네이버",
+      "price": null,
+      "cat": "식품",
+      "link": "https://damoang.net/economy/82389",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T04:07:14.000Z"
+    },
+    {
+      "title": "벨킨 부스트업 브레이디드 100W C to C타입 초고속 충전 케이블 PD 2미터 CAB014bt2M 아이폰18 갤럭시 S26 아이패드 맥북 노트북 충전",
+      "mall": "네이버",
+      "price": null,
+      "cat": "디지털·가전",
+      "link": "https://damoang.net/economy/82383",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-02T03:16:46.000Z"
     }
   ]
 }

@@ -1,12 +1,48 @@
 {
-  "updatedAt": "2026-11-04T14:58:46+09:00",
+  "updatedAt": "2026-11-04T15:18:52+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "BTC 1시간 1.45% 상승…7만6976달러(약 1억345만6000원)",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE55U01LSUpVV3VLQnRrN2V2VXdXM2tma1hOdl9hQk4xZm1qZEd2RzBxc1RxaEdxUVhKRURmYldhbnM4amZsX1hjUDJrWkdhT1IwVko5eWNNcHrSAV5BVV95cUxNRHZLeUUwd2EyU3ZzMHY3MjBWN09IQ0JmQUFVX1FnR0NaSEIzejQxejkxVjk0TW1sWVExNmxLNEFMdEpEN3RVNWtTVkIxYm5QT3l4RERmVU1EZ3JHbW13?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-04T04:23:30.000Z"
+    },
+    {
+      "title": "비트코인, 1시간 새 1.48% 급락해 7만5968달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84UWxQZlRUaWNrclhmWEg1VjFzUGdBMjNxZ2Y5cEhyQ0dKQjN2OUxaOUJsQ2U3ZGdnUGU2Y1RjSHpTRklWV083MndMRFNhdlpkR011c1BhSXHSAV5BVV95cUxPdUhtSEEzQ29ZZ0Nzb0ljRTc5T2lhZVhNN0U1b1pTbHNVellldlFYdXNoODZxM0NwXzJ0VFdrb2xVQWtBdWNIeWgteVROa0JKbXpnUXU2bU5aUWRvRl9n?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-04T03:15:45.000Z"
+    },
+    {
+      "title": "비트코인 롱 2925만달러 청산…1시간 새 가격 1.48% 하락",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBkTnBQR2ZhV1N2RTYzQW91Z0tkOWRHTVpXM3RSTWZzNDRzWGVmS29Kb08xSi1JUkdDNEFlSFFhMHk5aGllbE85V1kwbUhOQWZiLVNDeU8ySnPSAV5BVV95cUxOU3ItUEZ1aXRvYVc2ZHFDLU5IcXNWaEd3dV9hTnd2b1I4UVEybWhrZmdyeF9BYTduVkhnSzRTVjFVbnJpdWxnWTdlWDhkSDZjQ0pUMV9sTDF5Wnpnenpn?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-04T03:15:24.000Z"
+    },
+    {
+      "title": "[오후 시세브리핑] 암호화폐 시장 약세… 비트코인 76,015달러, 이더리움 2,237달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1vNkFON1AtYkJMZlBLWTF3bDVtckk3NnZOelhfTlhEWkVheTlSM1dEZENJenRjM0NKc2xDcTE0d0FCX3ZrNzR2WU1WX3NSTFRBWnQyZEIyN1fSAV5BVV95cUxOWGVkVkFKTnhqOEZVenJjVkhDWi1USTR0QnN5VE13a3dUZGt1S1JscmNVOGN5TTdLMklMWFlvQ3pxSVBHdHRqWk1Kb2xWOERfWThBX0U3YVg0UXpoN3lR?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-04T03:02:33.000Z"
+    },
+    {
+      "title": "[모닝 시세브리핑] 암호화폐 시장 혼조세… 비트코인 77,527달러, 이더리움 2,284달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA4Q1dmeWVmVDVZV2JLZHJSS0stVWRSMUtrQjVhQmFjdHNGUzYzZnp5MHh2OXFLbjhCWmwwOUVGaWZ1SUdRbld5UlR0WmdBRC02bC1aMk1zOUvSAV5BVV95cUxOUnY5WTZnT0o1NDl3T1Q4b0tVajQ2ZXBSUnlwaUZjTDZyaVpTSU5TRi1fZWJVTUFobHZhUnVjdDh1Q3gzM2l6eTZhMVlHQWlIRHI3OXFWaGNyZkJaMHRn?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-03T20:02:34.000Z"
+    },
     {
       "title": "[자정 시세브리핑] 암호화폐 시장 혼조세… 비트코인 77,276달러, 이더리움 2,284달러",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TdDVwRzkzaWZsTVdSX1ZnRktQb296U2g0TDl6aU1wcHIzeTVmUnRieXZwLW9ibzlWUVJpTGRFWFZ0cjhHaTlELUIwWFNnd0JBZ3dacDE5dEnSAV5BVV95cUxQdmN1UENiMzB0bkJoenM2VjhWb2lGRm9jMXhfR1M2RDdkZXNlYVdDamVSRFhwd2trVXlRX2dxWjktQUgyVXU0NFhNUTZucUtNbEZSOHdyb0hfM2dvV0hB?oc=5",
       "source": "토큰포스트",
       "date": "2026-11-03T15:04:03.000Z"
+    },
+    {
+      "title": "비트코인 연말 9만4212달러 구간값 보도…예측 가격은 아니다",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9fZWlXQnFYWXJGTUY5dHM1azRRQms5SEhJa1N1MXo0a2ZSVUlnZ0JIMjRuRTZmVXk2VDVObGhIdEI2SHlXM1NPQjBJekpELW1DY19KdXNtRkRzR2Njemg3NtIBZkFVX3lxTE45VXdGMTNPOXZKdURwSkJqUk94bTR0YlAta2F6bTJIamJvM2JNZ0o3R3VoTVA3SnlaQzdJVUJvV1B2ZTFPWGxDdUc2bTBVUFJndnBkeXU3WmZHRFg1WWZyOGRQWEtqUQ?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-03T13:35:48.000Z"
     },
     {
       "title": "비트코인 200일선 5.2% 위…중간선거 과거 3회와 달라",
@@ -565,42 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TVzRGeG9vc25HVmRiUnVkQjlaWl9Xemg3WGVhcEo3S21KcmIyQ1NzaFA5Y3FzRkJ1cDJwVWZ4bDJPSzZwNTlSX0YweGJoMXFYY0NsdTBNbnrSAV5BVV95cUxOWFh0X0RGRTh2R0lDc2x6a2ZrLVVBcTRqUzlRM2ZVLWFwXzV6MDhPT1hxeElISlVmNmxIblB3ckc3UE9ZMU04amtHVDYzMUVSZTQ5Y1pWbEROTTVEWWdR?oc=5",
       "source": "토큰포스트",
       "date": "2026-10-26T15:11:53.000Z"
-    },
-    {
-      "title": "비트코인 가격이 8만 달러 아래로 떨어졌습니다.",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5oRHVteGtaczYtSVF5NVhnbmVyWE12LS04OXBTaHlnc280ZUxISkU1NERKN09HLU5yTkQwLUlubWpWNktGOWowOENBcGlkS2FVUGZlN2VKbGZ4Q2hNeENNMWdibmN6VDFNVUJlaGpB?oc=5",
-      "source": "Vietnam.vn",
-      "date": "2026-10-26T13:14:22.000Z"
-    },
-    {
-      "title": "6,800만 달러 규모의 비트코인 베팅이 중간선거 이후 9만 달러 돌파를 겨냥하고 있습니다",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQRl9LNlNmNXhRbm5WaWszYWFXVGlXRDBhOGY4WDE2ZHZ5X3VMemZBU0J5VUk1TnVFVW5kaEE4ampEUEhKUHpFbnU1VUdST3VVTXZPMU13TUFHekZOcERWa1NLS215VXQtMW1DOVRDOXRIc3VaVHpyRHMySVZLWVFUNUtMai1PLW5ILTVfTTRuVVpCZ3p3RVBmSFhHM2xTN3hRSzhmS3EzbnlrdDhRYkNWbmFtNS1jTFBINkNaYlJCcEt3SV9KcXBCQUZxVUpSelJnaVE?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-10-26T12:01:23.000Z"
-    },
-    {
-      "title": "유가는 하락하고 연준(Fed) 결정이 다가오는 가운데 비트코인은 80,000달러 부근에서 보합세를 유지",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNZG1WbGJKbDN1ZE1qUzFIVzJKQ1ZCOUd2YzM2V1l6Mnl1ZFNtSkNseWV3SkJNY0V2X2ZJLTZGb0dUYW9MTmJuNkVpQWpwLXlJQVJ0ZE9YS3JZUXVJUlRSZFp3LWJqLTlsVTNWcC00SFg5anlmdWw4bzZQaHN4UGhZV1NVRERTZGxCNUItSmRqVTB6N3dRZVEzdjdsaTZCRlptdi1tN21FdE5CTDV3bWlzaExWS2FZV3dwU0E?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-10-26T11:24:33.000Z"
-    },
-    {
-      "title": "비트코인 가격이 연준 회의를 앞두고 8만 달러 아래로 떨어졌습니다.",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOeFJ4NDM5bUJFek9lSVJzLVNEYWJITTlWejdMdUJYbkN3XzFfOWswLU1JOWx3eFMxTGpLMWVITFU4OWNrU3BkRDhhUGFMX1V4eUFkQnREelRqVWp4cWNuUUx1QWxIc2p2NklZV2dTQWdsSmFIbWk3WnQ5RUE3YlpGUVFmYw?oc=5",
-      "source": "Vietnam.vn",
-      "date": "2026-10-26T10:51:49.000Z"
-    },
-    {
-      "title": "비트코인, 공급은 금과 닮았지만 가격은 주식과 함께 움직인 시기 있어",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1jYWJUMDN0RFlrOEFhTTF1ak4xMjVlUWhFT1U2V0hiXzBKTGl3dkViREtTVFZlZHhiOEs5eFZQaG9ueWhvcXVsR3dLVlpQTVFJMUlhWXl3UzJmZ2JKcFZvLdIBZkFVX3lxTE5ydlRlUVJnNjJiaVVUMVdXR1lkSzBiOThiU21yeVE0d3VuSVc0Q1RHVzByNFRXNEh4QVdDOUx3aEZhOE14UkFYY1F0M3lKM0JGOUhGdmRHZ1FYVXVxbmU4OFU0cTBMdw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-10-26T08:54:58.000Z"
-    },
-    {
-      "title": "1100만 개 이상의 비트코인이 알려진 소유자가 없습니다. 이것이 의미하는 바는 무엇일까요",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPUkVROFBNTjJsRXQzMjlYWWNGUm5iUkxpVGJtZVhaWVhISWZyNlRmYm1NVDRiRTJGVEl1NjU2cGlrQ3ViaFVGcDdJRzlpWGhILW11b3hJSzRLd0o1dVp1TDJDQ040X0M4bVdHV1k5Uko4MGRFTGlaTWVvZ2stRXNHMjhDMlEtallfR1hkdkN0bkFyamJBY1p1bllkZk5vVUZPS0M0eVBwUzNBeTNEamJMNGhmbXBnVnpENzZUOVAyRmRHX1ctc28taUFHYw?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-10-26T07:18:24.000Z"
     }
   ]
 }
