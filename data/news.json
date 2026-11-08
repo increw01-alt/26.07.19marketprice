@@ -1,7 +1,13 @@
 {
-  "updatedAt": "2026-11-08T07:45:17+09:00",
+  "updatedAt": "2026-11-08T11:28:53+09:00",
   "topics": {
     "coin": [
+      {
+        "title": "[11월 8일 코인 가격] 비트코인 0.17%↓, 펌프펀 6.88% 급락",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9UNW04c2IyOWQ4XzZCQ1lnVE9DWXNDMm0yVzEtU1VYdWJjbkM0dFM3NFUzN3lwT055TWVoQW1KbjUyazEyandKX2psRlJiN09WbU9Gb2NSRXM5VE1laGxBRFZVdlZZa0Uz?oc=5",
+        "source": "IT타임스",
+        "date": "2026-11-08T01:47:09.000Z"
+      },
       {
         "title": "[모닝 시세브리핑] 암호화폐 시장 약세… 비트코인 75,694달러, 이더리움 2,232달러",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1TaEd0cHNRWkd1Q1c4WGxZcnNkVXR6XzNScW96eFBCZ3hiUnM5amF3ZmpreTZKSk4tQVEtQ2dtZThyNVRYOTJEN0I3XzdZd3RYYVJ1REthc2_SAV5BVV95cUxOMnpwN2NaTE9RUlFkcTJqTWJhZlJrRU9PYXpUTWJDTC1OUlVueC05MmtZX01Nd3lVQ1VLam9oN1N1Y1ppMlIzRE51SzlwLXc5dkI4V3FPV2JBUWx4ZEV3?oc=5",
@@ -43,65 +49,83 @@
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1JbkhlV2ljcVU2VFdmVjhKUlBLMm1zQndzUDBHdDBELW00OVdUc0VpLWp6QXJiVEtpX3F2MGJNbERFTHdBd1pPMUlDYUpRX0dOSDhPbzFRMF_SAV5BVV95cUxNc1RhbFVtcHlGVEl3UXhQbzAybjdxajNuXzRnWTl1SXM0UXBGVHg0eU1pdHhzTlk4NnhZRnJGUnA0empIaFloMzgyYjdsX2xEa2RwS0hzRm10SWFBV0pn?oc=5",
         "source": "토큰포스트",
         "date": "2026-11-07T03:01:55.000Z"
-      },
-      {
-        "title": "[11월 7일 코인 가격] 비트코인 0.19%↓, 이더리움 1.03%↑",
-        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qMnk2T0xmU1FOVk92dVVCemJDWEFtS2xoZHdsT0JFYlRkTlRIbDc0alIzc0FhUUlBVVJ4UmQ3aXV5N2xNNWpuR05vbnIxaU5qcjByY1VuOG1TLXZLb1hGMWNuVnRUUDNO?oc=5",
-        "source": "IT타임스",
-        "date": "2026-11-07T01:43:04.000Z"
       }
     ],
     "stock": [
       {
-        "title": "[주간증시전망]폭락했던 美 나스닥 진정세…코스피, 이번주 반등할까",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9xUzNsUEZCUm40MUduNXNJYWE4c2pBeWdjM3d0OWZPZlFiZG1hVU1ZNHhnY2llcVU2MkQ5VUtTa2VMY0xSUVdEYTRUdEpPdUJnb2dVUmlzNVFFdU9kazJDWtIBeEFVX3lxTE1DNFNIWjZWQWNhdW53UW02MThTTkNITDlsTlhKSlhOb1J5V1BTMTFoelVqQTZWLVpMcm5GaGFpYURpOVpDU0xfcmxuYWRkOUpGX2UtUDFYRllxS2p4YzFCVDlCRGJ1SGhWcHZjWWZlSFQ1NXIzNHV6Vg?oc=5",
-        "source": "뉴시스",
-        "date": "2026-11-07T22:00:00.000Z"
+        "title": "'블루 쓰나미'에 증시 직격탄…상장사 3곳 중 1곳 연중 '신저가'",
+        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZk9PMWpBeV9mNUZudzQtcTAyTHhGZGwycGlMR292aTdsS2FGa19lR3Qzc2dvXzExdlZVVnNUcU9VNktZMDNsUFFjcmszR2RxcFp3RHo2b0JuUEE?oc=5",
+        "source": "뉴스1",
+        "date": "2026-11-08T01:44:39.000Z"
       },
       {
-        "title": "한 주 새 11.7% 빠진 코스피…美 반도체 반등에 5000선 지킬까 [선데이 머니카페]",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lbTRiZDNfNmN2eVJteHdMRnd4TWhjcHNsRjh6dmYyY2twRjZmTmNPdnlsQkpIU3JYcHNDQXJ6ZnpWakFtdGpZTEdmRmV2YjFzN0HSAVNBVV95cUxQdkg1Y1g5VllLamRWNGlkM0I0c2NabE5jMEVmendnRjBLdnpiREQ4R3ZydVlGMDVya2p0bF9JbEFQbjVERjhya2x1N2FyeWJoOVhPTQ?oc=5",
-        "source": "서울경제",
-        "date": "2026-11-07T22:00:00.000Z"
+        "title": "증시 급락에 국내 ETF 시장 시총 7개월 만에 400조원 아래로",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3dBV1F1SUw1SmZuN291akl6WUJjUkJUYWdUd3BvUXE0Qy1ZeFFHSTh6eDRzSjZyZU1Walc1YW04T2MyOU1WbmkzbHI3bUwtaXJubi0ySDU2bGZBbDRMUmdiVkVaVDBSeWRTZXRONi1GLVFEQUx5a1JTZFdOcHlUWQ?oc=5",
+        "source": "조선일보",
+        "date": "2026-11-08T01:36:00.000Z"
       },
       {
-        "title": "코스피 5000선 무너지고 신저가 844개…증시 덮친 투매 공포",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFAtRTdqNl9neWxQLUxad21UdlRLbVFFTFpiYTYtQmRxVUlTSnRBYUh6ODBKRVdrYWRYT2JJRHVfMEE2eHBVUzlDMVZDcXN5eXQ5eE9FV0J6Q2hzTGJGMlVadGNkTlpWR2l1aXBSYzQ2NFhjd3fSAXdBVV95cUxPdFplUW1QUzZubGhsU2RZTHFoZjc5dVB1ZlB5TzJxR1VJU0hEQzREX3BQSTRzLVpWemsyd3pUd3BQSUNxSXFZbmoyZ3l2cmhHVVc5WmdxcTFOMXVLOHBmOHF4RTNLeVBIZkw3N3VqVmQtQzBKV2NhSQ?oc=5",
-        "source": "핀포인트뉴스",
-        "date": "2026-11-07T21:40:46.000Z"
+        "title": "[주간증시전망] 5000선 턱걸이한 코스피, ‘AI 수익성·美 물가’가 반등 가른다",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YWEZDMWhWVTdUWUQ4eVN2QXZqaWgwNVZ3SmNsTFBBQUUzLWZlYmR6MmVLZDlRUExWNFdhdHV6VjlOTGlMWEJhX1JSdlNQcmhETDR2anV3ZVBCdw?oc=5",
+        "source": "브릿지경제",
+        "date": "2026-11-08T01:17:00.000Z"
       },
       {
-        "title": "급락장 지나도 안심 못 한다…코스피 반등 vs 추가 하락 ‘안갯속’ [주간 증시 전망]",
-        "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxQcERfX2FJdmlwOWRMQndTTm0tbzgxcVNYYUplbHYzX2IyNjFwb3k2MHlVeFdockZBLWNIb1ZKVmZvd2dtWmoyWlV4dHBSdElzTVVTYklJcjVGaU8zRlN6bmN6dThHaDhMNFJBT1BMTlJBSGJxZzV3VUMwUC1WNXF4eWhKM2hYYlpucE5TZzJNT2staC1DUXEybUtQaVpLWlB3OWpTdGpCUXhMQkZHR0JvSjRsZHQyclN1ZW1kZnZkajJSTjNxUlN1ZUpaakhQNmRSZ2hpVC16bDAxcFFsSDRBZVRuUUdYZW1CcUxPSkx1SGFlUFhmX2tnRldhNVREb0R5TG5LVUI5THRxQjdsdHVlcHRIU2ZFajFN?oc=5",
-        "source": "데일리안",
-        "date": "2026-11-07T21:30:00.000Z"
+        "title": "’블루 쓰나미’에 휘청했던 코스피, 美증시 반등에 회복할까",
+        "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tY25NbGg4Vlp1Q2pYVFNqUVA0QWhZNDl6U21sbWt4dElZTEswdjJIZ0pxRlpON2l4X3dneW5sQUpOOHBtdlVXa2tXaXBkWWU0QW9Ia0pIOXRNbk43ZkFqVGhDT2tVUnM?oc=5",
+        "source": "연합뉴스TV",
+        "date": "2026-11-08T01:08:00.000Z"
       },
       {
-        "title": "AI 데이터센터 규제 우려 과도했나…이번 주 코스피 반등 시험대",
-        "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Qa2RMZUZqZjBST1dkVk9tOVVDem1lWk1HeTFKbEM1SkxEZVRNNTkydVJxQW4tQ3JrYksyWGVkcGFzdFJMdEJ6N3AzbHlwam5rdU9EaHlwSnZHZVZmUm5Mc1VTeUxUOGVrVW01eEZrcklxOVHSAXdBVV95cUxPbXJuVWhvOGpvZ3VCTG5qam5weG9EOVFHRjhMb3gxRWc3WVI1Z19tcUI3NlE1RjVrZGFuV2tCTTRPV1BnaDBXMkZFejU2UERNX1p5dHZCbjI2TlRRZGY2cmpTME5xX0F2VDhFeU82RUFtWkM1SHVkWQ?oc=5",
-        "source": "핀포인트뉴스",
-        "date": "2026-11-07T21:12:57.000Z"
+        "title": "“코스피, 앞으로 이렇게 됩니다”...최태원이 건넨 ‘섬뜩한 경고’",
+        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1icDZ5RWNxMUx0RVlQc0h6ZU5odkxBQkhpZ0ptQjB0Slo3N0JNM2NMb0E3Nm1tVFNQVmtsMGpRRE9HcW0tR0YzY0lBaVR2dS1qS1ZlOFNSRFZjZEI1V0wtQ2FiVlhOZndHTldKVQ?oc=5",
+        "source": "한경매거진",
+        "date": "2026-11-08T00:33:00.000Z"
       },
       {
-        "title": "美 선거로 AI 규제 논란… 코스피, 반등 여부 주목 [주간증시전망]",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QQ2xRZ1FwWVR2S0g5ei1WVDJnMjNIM3dhcjZHS202TllhaE5mSjBvWDdNa3VpZW9HYXFfVzlNeE8wbGpyRTNpMzVaSVEtYzFyWnJYSnNFeU9PN3QxUE5Xb2YyaW1WZmpBdHBxQnYtYjXSAXRBVV95cUxQWTZpLUpUNndfZjlneHRSVlJWM0E3SkZnWTl3cG9Jakx0aXZLUG04MVJuQlVsU2NVRjV0MUx6YVNXLUJJZ0NEOExOdWJNWEtnWlVWdU5oRWFqUGoxX0NKZDVJa1REUk9CZUxHcmlYSkpDLUt6TQ?oc=5",
-        "source": "IT조선",
-        "date": "2026-11-07T21:10:00.000Z"
+        "title": "'블루쓰나미'에 무너진 코스피…'언더슈팅' 딛고 5000선 사수할까[주간증시전망]",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY3RkTzZtUEJtcndSLUZGVW1sN2ZxOFU1QjdKdE9QUnlJODYxM1ZTMUtXNkRUdi1CNGRJTTRfUmxuX1J6Z3I0aWxpeFFfNHBId280WFBLdDRvQS00VW15UmJibktaVFJFSXpHa2kzdU05eWktWmhMLVJWZDJHbG8wRA?oc=5",
+        "source": "이데일리",
+        "date": "2026-11-08T00:09:16.000Z"
       },
       {
-        "title": "'블루 쓰나미'에 휘청 코스피, 美증시 반등에 충격 벗어날까",
-        "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwN3dPNUlneHp3eXZwUmFFbVlsSG5jTVlSZDNhV1ZuQjJTNXc0WGtGTmVZUDFNQzZMclFCYm96X3hpUGlvMy1pRUpsc2VsbHg1eXdXa2JBZV85VWPSAWBBVV95cUxNVDU0a1hFSlczZzJjNkxfY2VWRlY3TGJ2UDJzQjIyMGJXd3J6djFlUmdVaDBKUUtjeEIzUFRva2l4cUFvMGNETnp0VWcySEF6Nl82bjd2eExtRkNFTEg2UW0?oc=5",
-        "source": "연합뉴스",
-        "date": "2026-11-07T21:00:06.000Z"
+        "title": "(주간증시전망) 'AI 공포' 덮친 코스피…반등 시도에도 약세 전망",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmd0RERkxwejVpVlZ5cnFBdnRjNVRYY2k2aWF6dTIzQ3RSbGJ0c0J4Z3Z6ZkFaNWVvZkFaZkdCdXBET2VUb2JOQUpXbS1rcjY5YUJIeGtkTFNxTENHb0Uzaw?oc=5",
+        "source": "뉴스토마토",
+        "date": "2026-11-08T00:00:00.000Z"
       },
       {
-        "title": "증시 급락에 '반대매매 유예'로 숨통…'빚투' 개미 한숨 돌리나",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB5Y1MtbU1WNTdXa1ZCaWZlU01mT24zLVZNTnh0ODVXRGRGZVFuZTNOYTRnR2VQb002M29qaUNxaGlnUzB3ZzN4RG9oTGg3VDZadklyNDFwdmZDcV9OQ0w5bdIBeEFVX3lxTE9oblRvWW5fY0hHZzk1Sm5XNzRKUVd3d05laGZGdTJXZFRiVzlPc1VGYmxxUms1R1MxQkMxQk9RVnhkc0VuWFNBNzFYc2o2RXV0MzBxWktYS3VSdHFVYktfUXF0eTBJWC1NU0pUWlZJeUpjQjFpbERVZA?oc=5",
-        "source": "뉴시스",
-        "date": "2026-11-07T21:00:00.000Z"
+        "title": "코스피 폭락 진정될까…외국인 수급·AI 불안에 촉각 [주간증시]",
+        "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42dU5OZmtwZE1ndXRtUk14MmN1RTN2OURiUDZSM1RmQmZobkp2cGZjLVE2aFVMcmwtMmR3akRKWk1ScDlITzFOR0ppSi04Y2I2T2U5Q2NnbmdLSXBYZ0xOeGlLdw?oc=5",
+        "source": "에너지경제신문",
+        "date": "2026-11-08T00:00:00.000Z"
       }
     ],
     "kosdaq": [
+      {
+        "title": "국내 증시 추락에 상장사 3곳 중 1곳 올해 최저가",
+        "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQelVDTVFFWXJJOFp2azUxZ3pLdkVwZFZvQndDWExqcjQzVDNjaHVXaTJVak90TzJBUlNmTlNzdm5SRm5pbndpVUt3NUh0T3ppTHhvRi16TFp6M2hJeWI5a0lOMW1xbTJBS3puMVpQVlRHMVZHdFhteE5fMlZkdXZQWQ?oc=5",
+        "source": "조선일보",
+        "date": "2026-11-08T01:48:00.000Z"
+      },
+      {
+        "title": "IBK기업은행, 코스닥협회와 MOU…시장·상장사 성장 지원 박차",
+        "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5YdndwbXhkVWNHMnU3cDk5T3V4NXhCd2llRFhLOUtRNlRDMDhUMjg2MnJDdFFzNlFHa1p3QjhnamFlYTB5WlVTR1ZKR3ZXNV9pU3FUcWF1ZUxiLXpRamhYNDZuZ3dXRXhPY3c00gFvQVVfeXFMT1NZTXlDUHlQQkN1aWVFOUFnWTFGcGhmRHBKRlAxaUxyb3ZucmxYRmhhX2tMRE03VkItaXdSVGJWdXBScVIybHluVmhtWXluVlVUTVVya2tUbUJ1OWV3R29UZEJ2YUdWLVotUjVqTDBJ?oc=5",
+        "source": "더퍼블릭",
+        "date": "2026-11-08T01:38:10.000Z"
+      },
+      {
+        "title": "지난주 국내증시 상장사 3분의 1이 '올해 최저가'",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ZN2RNVllvMDZVMkRFeDNIYlJuSGtLbXBFZjJzQWZOWGtwNmhtc1V4NlR1M3h4NmVkZFRuTzRjQUkyVS1xN1BNLVFudEVMOFBIWHpqLWlLNGw4OHVYS0tXUNIBeEFVX3lxTFBpbDBobnZlNWgweEtFclpEZlFQSmlzQTJqTTEtLUlrNEJ3ZzdudlBXSjhHdmJhalhCd1M5S0d6TnR6blJDMzFmbDV2ZXN6Wl9kNUQ2R2NNU09GT2xpYzdxY3JzOHZ0NWkyMVBXMlB1akJ2OXhUaXNpdQ?oc=5",
+        "source": "뉴시스",
+        "date": "2026-11-08T01:03:28.000Z"
+      },
+      {
+        "title": "동원파츠·바로팜·넥스아이…다음주 코스닥 3곳 데뷔 - 머니투데이",
+        "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE04QmozNnhLYUNTUE56MTNiNVV3d21GVjNEcFRCaVhTVkVZUDE4cVZPb1YzclU5U1NQUldfX3dkWUhCZ2w4WDFKbGZmREhZeVRtZXlfc2xibDNOUlRfSXF0azFGNUs0dlMw0gFuQVVfeXFMUHVycllLSGltV0tCTVMwMFJXYUc5TDRucWJ5QmZOX2xyUk5ZY0xOT0MxbWpXUlRiTlhVY1piZzNtckVmMjBraGo1dFhXUUVqN1pZMXVoYkowVFBGY2k3UVFLbWpWNExURXVTWC1SQVE?oc=5",
+        "source": "머니투데이",
+        "date": "2026-11-07T23:00:00.000Z"
+      },
       {
         "title": "3개월 만에 700선 내준 코스닥···외국인 수급 회복이 변수",
         "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE12a0hnTEpGdmdQT0R1X2Z2LUJpb1RmeUpGNXJCX2otN0IxR3M2Vkd1LVBERVRENVlhbWJsUWZ1VFlqTkZhbUtfcnpCOV9acWtta3pNdmlybGt5SHkwbERGdVVuODFTRlRsREE?oc=5",
@@ -125,38 +149,26 @@
         "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1HRE9vZjBGR0ZDZVltVFpoSmxNN3NyYUhfZUNXdHZtTHI3UW9lVFUwbVhnc1V3VFE1Z2dnSGpaNFF0djdReVdTRzNRS24tNFRBSFlSci0yby16SlJMSlJYU0lqWUw?oc=5",
         "source": "매일일보",
         "date": "2026-11-07T12:26:57.000Z"
-      },
-      {
-        "title": "비상계엄 직후 수준으로...코스닥 ‘충격’",
-        "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5tMG9NaGlRektZVEV5MUYzd1dBX2JXWlo5MDFaLS1JQUVqdzRQRDRmMHlkYWpXYzdhT1B3aTA3RzJoMXhTWXh3RDVVYS1DSGFSNE8yS0o1ZERITUwxbU1UUVlDTUFCdV9EUGVvWQ?oc=5",
-        "source": "한경매거진",
-        "date": "2026-11-07T02:24:00.000Z"
-      },
-      {
-        "title": "[11월 첫째 주 세계경제동향 브리핑] 코스피·코스닥 11%대 동반 폭락…美 증시도 급락",
-        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9qUlZmY2NFbEFiYmEwcFhFS1dqeXdsT0d0NDdtQXpSRDNsemxxYVVWNnp2cWpRdVVVZElXMW9CNHNUcXBrd3JOcUFQQWpaV2lWWUMxN1REQ0NjVUNzV1NNd3ZHNUxjdmtVbFNYaTJvbw?oc=5",
-        "source": "기호일보",
-        "date": "2026-11-07T01:45:31.000Z"
-      },
-      {
-        "title": "[위클리 PICK 3] 美 중간선거 민주당 승리부터 코스피-코스닥 동시 폭락까지",
-        "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XazFyaDJOXzNwR3AtQmVEbDJSZFhWR3E0b2tyUWNqMERJYTdVZl9zZ3RCZk1lMVVraDROamE2d3JQVG04c1BGR2lzMnNoV1RXR180cmJkVTRfSnlKN2FhOHNIMzFzaWNjV1VnTEFHNFc?oc=5",
-        "source": "오피니언뉴스",
-        "date": "2026-11-07T00:00:00.000Z"
-      },
-      {
-        "title": "코스닥 640대로 후퇴…계엄 직후보다 내렸다 [코주부]",
-        "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QbHBvZU03cjdEYkxtZzhnLUN2aERGMkJvb3A0RktvTFVQbHh3ZVBzNnU3YVlWSURXZ3Vxa2VZeE5OSGl5YjZsNWxwNWRWMmdLd1HSAVNBVV95cUxOM2JLdU1uNzdwSnlBQnk1ZnA1Y2RNZ0k4Uzloc1dVTnFrMzNDeFFDUmctWUEzMFBmaXpRYlp3MDBHNEpyVktJVHdMWWpzNVM3aC01RQ?oc=5",
-        "source": "서울경제",
-        "date": "2026-11-06T22:00:00.000Z"
       }
     ],
     "fx": [
+      {
+        "title": "[경상흑자 신기록] 달러 벌어도 해외로…환율 하락 제약하는 투자자금",
+        "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBSWlBTa3RPdGhRZGhwMG5iS2RDQUNuVlRGRm5oeE96VTd6djJHd2oyU0RiTXl3YjdqQXp5Zm5YazVVam5Zbl9sVzhiR1k0MjVXcndSakFCMkcyUdIBWEFVX3lxTE8zWGpuX3E1R2ozWEg0eTQ4enFEeGxwM3dQLWl3Z3dfWHJQdDNRUGhFVmZNamFmQnJTczJUdXVaM2RkSWkyNFA5cmZGOXZPTndNbktObTVncUo?oc=5",
+        "source": "아주경제",
+        "date": "2026-11-07T23:54:16.000Z"
+      },
       {
         "title": "블루 쓰나미에 AI 불안…환율 1360원 재돌파 촉각[주간외환전망]",
         "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZGZ4dW0zWnczeTlpNXBuVFRmbTlnMmlHSXR3bUtTaEFDWjRFejdvSzhZWHhsSWZlaUF2Ym9NRUMxcm9Hdmlla01kdnhTSGU5YXVZZEFib0JoZjdvX2pNY0ZNY2VIQkdCaUxmSTh3THVMUW1ic1hmMWlLQmhsU19iWA?oc=5",
         "source": "이데일리",
         "date": "2026-11-07T22:00:04.000Z"
+      },
+      {
+        "title": "1350원대로 뛰며 ‘블루쓰나미’ 휩쓸린 환율…\"당분간 변동성 커질 듯\"",
+        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rdUs3ZkRwZGlmZ1Mzb29sYnQwcDQ2YnlsQ2l4YnQ4czFJeDFrRUd0cHBrMjF6a1RoaUl1S1BYSmFObDh2S01UWU9wODd4a3pLREh3WkRPZmPSAVRBVV95cUxNZWVqdENlZGE1YUladkpybDNnc3plV20zM1JTNmhLa3VZVGdDOHExWFpackdfNFpaQUJ5UnZmNlFzb2oxVFp2QnFfX092SkpWREI0Yk4?oc=5",
+        "source": "세계일보",
+        "date": "2026-11-07T20:52:07.000Z"
       },
       {
         "title": "美 ‘블루웨이브’에 1360원 뚫은 환율…원화 약세 어디까지?",
@@ -187,21 +199,15 @@
         "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBsWmdHVEdLREtJWGhaT082ejMwVEhrLTNjcTg5VXg1U2ktU0xibVZvN0wzdmFmY0tMTW9uOGUyS0lCalVZYWNXT1EzRGpMQkdmVmhkVEVvVnpYVE5p?oc=5",
         "source": "세계비즈",
         "date": "2026-11-06T22:00:00.000Z"
-      },
-      {
-        "title": "美 중간선거 이후 환율 한 주 새 22원↑…빗나간 '달러 약세' 예상",
-        "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5VWnUtdXdxaE10cVo3c1JSWDQxVDlIODVzcFNOd3dWN2tTMzY3b0ppNWdrZ0pFN3BGT2hBNmJoem5qV3B0bVc0bGtuSU5rX3dYU1NTTDFQVEhkTEJpd1ow?oc=5",
-        "source": "MTN 머니투데이방송",
-        "date": "2026-11-06T21:00:30.000Z"
-      },
-      {
-        "title": "1300원대 초반 바라보던 원·달러…'AI 리스크'에 다시 오르나",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5RbVdDMzNNdjZ1TWtpLWNNX2NUXzZEUGFONkkzMENOTjFDRURhSDdxVTJLYzRwMThJd2FKMVNNMVhEUWowdmFiQ1JjbDBpN3dRNm1MRHczeW5SZkg2LS03ctIBeEFVX3lxTE03Rm5yOW1BbWs2Vll2YjlCNGZCa21yeDF3Zk8xOUhQUTdLUmY4Y3BTNWRYTHRyaFlHVUFWRkp5WkNGa1NZTnowdGUwM1Z1VVhxRlI3bjBSSTZTd0hhVkFYc1JCai1Lbmg5V1o3QklPaGhMb3k5d0VzVQ?oc=5",
-        "source": "뉴시스",
-        "date": "2026-11-06T21:00:00.000Z"
       }
     ],
     "metal": [
+      {
+        "title": "주간 금시세(금값) 전망... 월가 분석가들이 진단한 이번 주 금가격 예측",
+        "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8zaHFlQ29nMmhNT2Q4VzE1VE1mU3BKcmJDblg3VEhwYi1Fd2lpam5KU0hKVEpSTEkwbWNnVnBxSF8xaWpDTUxsRU12TjFqajJXcmNEalZn?oc=5",
+        "source": "위키트리",
+        "date": "2026-11-08T00:25:00.000Z"
+      },
       {
         "title": "[금 시세] 금값 폭락에도 멈추지 않는다…\"지금이 저가 매수 기회?\" 파격적인 금 매입 행진",
         "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5odzBYZFRMeXU4ZG9oYmVERExveE9tSXJnRUtOOUhtQnByMzJFT0g0VG4wRExlOWk1TF9UMllkNmRqa2dqSFdLc3hPYThYQlRXU1NoaEpoaHU1bl9zQmtrMXM1RjRLZFRh?oc=5",
@@ -243,12 +249,6 @@
         "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hR2Mwc1o4TUpzeUF3TjlSSE9Cc2ZHYVNmSGtTRmlhWHlRWm9iQ0tYS0VxMUlFS2Z6a1lPTFdXbS1OdjN1djlpMnFicUdjeHRJdVBaY0hfOFFDQ1Y1U2RvWHJrSnMxMmxNOTMxYmQ4dknSAXRBVV95cUxPdXZPNmRxVUU2UUM2S3NteldyVWJMQVFQQXJkWjFmeV9jOXh2NDlDZV9WVGR3eGp1RVV1clIyVG9GRFBsQmxzclRoSldYZDd5cHpKb2pHcHlUSGdjUkVoZUF0aDhoX3YzQnhjemxKNGdQWWhGRg?oc=5",
         "source": "더페어",
         "date": "2026-11-07T01:21:28.000Z"
-      },
-      {
-        "title": "오늘(11월 7일) 금 가격: 갑작스러운 반전, 금값 상승세 꺾여.",
-        "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOUm9lNXVxM2ZfNHFROHRYX1plcDk4MzJsVzdjM3hIZWN0Y1BmLURsWDNtNXJYSmZwTHFmbzBjMnEyUGVhZ1hyNTFuTGJzWjJKMmFSSUVWZXU1MTQ4c1AzZjFJNG53NlV6WkE0a0ZTdXAyMUxpb0h5RHFOVUtlY0FNcExpTWZhQi03?oc=5",
-        "source": "Vietnam.vn",
-        "date": "2026-11-06T23:36:59.000Z"
       }
     ],
     "energy": [
@@ -345,10 +345,10 @@
         "date": "2026-10-07T07:00:00.000Z"
       },
       {
-        "title": "[환율 전망] 밸런스 게임, 美고금리 대 韓무역흑자",
-        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9RRFhzekY0cVd5T1lLUGJsYXV2cWJaXzlySXc1RkVUWHE4YUhGNkFMdHdCa3NyZnIwNGxiWmNZVVk4YU1VTU5ZalV0ZV9tN2xpeFNySFdVb3lHV2xDQ3BMQg?oc=5",
+        "title": "[환율 전망] 금리는 중력인데, 원화는 공중부양 중",
+        "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5kcDJiN2tCZS1ySjROZ0NXUzNDVmVsOVdVeldHMTlMM1BYcHBmLU9VTkR1Zkc4NG5tVDAzSmJpeG8zX3hPRHV0VHBwRmxXM2xZejA2TlZiaWVLQnlnY3J0cg?oc=5",
         "source": "KB Think",
-        "date": "2026-10-01T07:00:00.000Z"
+        "date": "2026-09-30T07:00:00.000Z"
       }
     ],
     "giftcard": [
@@ -389,10 +389,10 @@
         "date": "2026-09-28T07:00:00.000Z"
       },
       {
-        "title": "충북도, 착한가격업소 이용 시 ‘지역사랑상품권 캐시백 5% 추가’",
-        "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9wb2k3dDFQM3RJc2VfWndDajFCOGZMRmUyTENNZ1BTaGphbEZRNzIwM09WQW9sMHdrQ09TYnRKWE5YcHBhY1lRY2pqaEtYUXRTeWx6VHlNZ3Rtb0NiTm42UEpsSFpzOV9uNmhFNmVHMElNZw?oc=5",
-        "source": "굿모닝충청",
-        "date": "2026-09-02T07:00:00.000Z"
+        "title": "착한가격업소에서 연천사랑상품권 결제 시 5% 캐시백",
+        "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBMSFl1UTRDWVBXZU94dTF0YjJJUEtCRS0tTk9fQWNoTkZ5OTVqckJmUklLMnZhY0piSHVBTlFocWFRYzczUFdkQTJDMEQ0M25kY1ZzcWthZTQ0ajJkREZCRTJyTTdMVXotQlVNNE1Cdw?oc=5",
+        "source": "연천뉴스",
+        "date": "2026-09-28T07:00:00.000Z"
       },
       {
         "title": "충북도, 착한가격업소 이용 시 ‘지역사랑상품권 5% 추가 캐시백’ 지원",
@@ -402,6 +402,12 @@
       }
     ],
     "realestate": [
+      {
+        "title": "아파트 매물 33% 증가, 오피스텔 월세 100만원 육박 … 서울 주거비에 '숨이 턱'",
+        "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5LazRWVUR0alM2U25QdzNOMDJCRm5Gekd1Y3lMR3l1SURmN3pYdXZFUFBFX0l0UXpJcFJKcHJlTHlqOXMxNXhVUXM5dk1qWW9Vd0pMdm16anVnUXM1djZMWUJHdXZWZ2NORkx4UEFXUkd5clBXNnJZa0I2Y9IBgAFBVV95cUxNZFhXSnFCdk5LdFliTXFnaXBMUXJUdmZxMHdXREZOd2ZtaTRDaE5tSU5fNHRZR1QzM082b2xENWd3WENJeldsNzNWbmxCdk5MaUNxeW16QUpVbWFNclVsQTRXUUNxVldNUGh1Ylg0dlJrelpZSC1pR0w0MEFKcHR6bw?oc=5",
+        "source": "뉴데일리",
+        "date": "2026-11-08T01:36:00.000Z"
+      },
       {
         "title": "“강남 집값 하락률 4.8배 차이”…세입자도 집주인도 “어느 통계 믿나” 대혼란",
         "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1Jd3lBek1IY0ltXzRqb3JzNGc1dTUwd0E5RXlDenlmYkJ1RkphVi04cnFBeVJTd2EyV2NGUVJreHFNeDYyNVRaYlhiT24tUWhyZkxmWXRvTWY?oc=5",
@@ -439,16 +445,10 @@
         "date": "2026-11-07T02:01:17.000Z"
       },
       {
-        "title": "중랑구 신내동 라이프미성 59.6㎡ 5억 3800만원… 최근 3년 신고가 [MAI부동산]",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE94YTFVcU5fSG1zeGZWd1gyTW01NkY2d1dOZFFZeXllcTlVOE9vV0w4aEpBbXdSV2U4dEIza1dNUkNlczZRTDZCME9UbnE5ZXpPcmhUTC1OdTM?oc=5",
-        "source": "매일경제",
-        "date": "2026-11-07T02:01:17.000Z"
-      },
-      {
-        "title": "도봉구 창동 삼성래미안 66.48㎡ 9억 3천만원… 최근 3년 신고가 [MAI부동산]",
-        "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jODQteWZNcGVwdzBSSENlWDN1UXJhV2lOeW1mRXNDZ0ZPSU94VzE1NDYtUjBEc09vNm5oYVR5bDUwOC1ydGJoNXFlUkRjZVh6b2t6QXJGN28?oc=5",
-        "source": "매일경제",
-        "date": "2026-11-07T02:00:16.000Z"
+        "title": "李 대통령이 '놀라울 정도로 떨어지고 있다'는 강남3구…원베일리 71.5억→57억, 14.5억 '뚝'",
+        "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GQkhBblNfc3kxVnhkd0wyVWZKbnY4X3lsSDYwem9tR3BKTjZJZHVBb3FPUlp2SnBrelNmdThZNDFzZlFKWkgyY0Fxbmo1QQ?oc=5",
+        "source": "전자신문",
+        "date": "2026-11-07T01:40:41.000Z"
       }
     ],
     "lotto": [
@@ -457,12 +457,6 @@
         "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBkMTg5UWF6WDlSc2pwOFVFZDZEQW1NMHdENmhkbFlwTmFmdlNpVmpQYUZ4RThpMzNfVkk0bWo4d29YNlV3bnNVdkFZZUloajNYeElQeHJDLWluSEpYZC1DZThyWWZwUHNTTXlVdQ?oc=5",
         "source": "ER 이코노믹리뷰",
         "date": "2026-11-07T15:24:00.000Z"
-      },
-      {
-        "title": "로또 1249회 1등당첨번호조회 공식발표",
-        "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9yQ3JfVlBRYnduVldXQ3JnbEl0enpIcFpxczItdFZSUnJDWXA0TjNHMndlQ1hCdFFWSW9iY0ZGYWQ1SVU1QThBWHd0SlZnVm5jejYwWXE4dUxYYl9zRzBnNHpFMUJZWGdZQUJwd2dB?oc=5",
-        "source": "국제뉴스",
-        "date": "2026-11-07T12:05:26.000Z"
       },
       {
         "title": "1249회 로또당첨번호조회…1등 당첨번호·당첨지역·판매점(종합)",
@@ -499,6 +493,12 @@
         "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xMUoxOWxSWk9qcmpHWEg4TWlyaElOTlJieUhuRDJYQndFenlwSUpyTTIxOTdIaUhpd3FqSkVpckhkeFhmWnN6OXFOM09QamdEbXRhWHpwd1RHWVRmWGtJTkdScFQwaHVuUjBOWUZn?oc=5",
         "source": "국제뉴스",
         "date": "2026-11-04T08:00:00.000Z"
+      },
+      {
+        "title": "매주 사던 로또 대신 `이것` 샀다가 5억원 `잭팟`…`생각보다 덤덤`",
+        "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yR3M5R2dRQ0JiNHBlRmNiaDJ1aHV5Y0ZiLVhlWGEzZk95X1ZNSGVhdEpWbTNkbDY4aTNOTzJfQl9TMzMwNHhNTFdMM1FFQWZyeFR4bDFWd0dCemhzTWFoVzJn?oc=5",
+        "source": "매일신문",
+        "date": "2026-11-04T01:58:31.000Z"
       }
     ],
     "car": [
@@ -595,9 +595,9 @@
         "date": "2026-10-19T07:00:00.000Z"
       },
       {
-        "title": "엔카, 10월 중고차 시세 0.72% 하락, 스포티지·팰리세이드 등 SUV 약세",
-        "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1lOThkYWdSUHczc2pEM19mYWdUSEhnenBwVGxGTjRZb0pwZ2xXSzZFSHYxdExOZXlQWmMyekVjTzJRLURwalE?oc=5",
-        "source": "Daum",
+        "title": "그랜저부터 카니발까지…중고차 시장 인기 모델은",
+        "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQeTBMTjFBY0g4SENreno0UDJQQm91V056cFFaZEhTWnVnd0EtamY3TnNDbjhZSk81ajJvanJpV3YwU3E4dUxoeHlIRmswTXd0MGI0dmsxLXJLdlRyWVdFMWdlakFXeUNKeGRKR0FOU3pHSG1yNXRGSWJ1Zkl0RmtJM1RBZTljSzgtdnFYN2QwQUFyWGZJaUw1TmpGSDJNRXJLVy1lRzBYeThuWXpIR29aRDB5UzZMcHR0emlkNHZ3ZVBheTdZX1lOQmFlblZNS2ZMWVVCZEk5OEs2N3hxRjNKU2hEN0d2SG5JTVR3LVRNV2Z1NGhCTGZwV1p0MlpyYzg2SzNoSGdNQndXeE5PYnlwa3ZpWmJ3eWhtak5KSzBIcDZBLUE?oc=5",
+        "source": "데일리안",
         "date": "2026-10-18T07:00:00.000Z"
       }
     ]
