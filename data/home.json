@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T11:28:19+09:00",
+  "updatedAt": "2026-11-08T19:19:00+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 103458000,
-      "change": -242000,
-      "changePct": -0.23336548,
-      "volume": 20189562547.97696,
+      "price": 103518000,
+      "change": -182000,
+      "changePct": -0.17550627,
+      "volume": 17550633644.61226,
       "spark": [
         113740000,
         115657000,
@@ -156,7 +156,7 @@
         103257000,
         103381000,
         103700000,
-        103458000
+        103518000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 0.3,
+      "price": 0.15,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -454,8 +454,8 @@
       "color": "#00805a",
       "href": "/giftcard/hyundai",
       "name": "현대상품권 10만원권",
-      "value": 96450,
-      "changePct": 0
+      "value": 96400,
+      "changePct": -0.05184033177812338
     }
   ],
   "seoul": {
