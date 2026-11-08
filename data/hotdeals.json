@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-09T02:03:43+09:00",
+  "updatedAt": "2026-11-09T06:10:17+09:00",
   "deals": [
+    {
+      "title": "햇반 210g x 72개",
+      "mall": "CJ더마켓",
+      "price": 67684,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=747105",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-08T19:08:12.000Z"
+    },
+    {
+      "title": "헤드앤숄더 800ml / 850ml 3개 + 미니샴푸 2개 증정",
+      "mall": "오늘의집",
+      "price": null,
+      "cat": "생활",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=747104",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-08T18:38:24.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/108845",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-08T18:25:52.000Z"
+    },
     {
       "title": "농심신라면 120gx20개",
       "mall": "토스",
@@ -198,28 +231,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-08T15:14:59.000Z"
-    },
-    {
-      "title": "마이티펫 순살 닭가슴살 22g 100개입",
-      "mall": "지마켓",
-      "price": 15440,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=747089",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-08T15:14:02.000Z"
-    },
-    {
-      "title": "기모타이즈 1+1",
-      "mall": "지마켓",
-      "price": 6210,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=747088",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-08T15:12:41.000Z"
     },
     {
       "title": "메가커피 메뉴 22%&amp;금액권 11% 할인 (11/9~15)",
@@ -506,17 +517,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-07T13:17:54.000Z"
-    },
-    {
-      "title": "미에로화이바 스파클링제로슈가 250ml 30개",
-      "mall": "쿠팡",
-      "price": 13680,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/108816",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-07T12:50:51.000Z"
     },
     {
       "title": "3+3 싹다 3in1 초발수코팅 워셔액 에탄올 강력한 세정 광택 사계절 1.8L 6개",

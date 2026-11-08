@@ -1,7 +1,19 @@
 {
-  "updatedAt": "2026-11-09T02:03:53+09:00",
+  "updatedAt": "2026-11-09T06:10:27+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "'블루 웨이브'에 외인 10조 매도…코스피 5000 사수 가능할까",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1sYmlHdmhVY3ZTWk5EdVhGd3otNXVWWlpvb2wydlpnTjN2TkhRbEh2eEoyYUxPNF9RbkpFcHllV0xQX2VPaUR5VW9vYURnUmxkOGlZMGNvUGd5N05aME5n?oc=5",
+      "source": "MTN 머니투데이방송",
+      "date": "2026-11-08T21:00:30.000Z"
+    },
+    {
+      "title": "[N2 포커스] 코스피 5,000선마저 붕괴…증시 바닥은 어디",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBLSkM3YkpCVS1QTG1MNVV5RFVoZUVuMjFpdDlEUldzdkhhajVSX3dTYnZYdjFVS254MzVwbS1FSTlaRWJ5SmszS0cxb0d4SEZNV1NUbFozOXN2ZUNqZGc?oc=5",
+      "source": "뉴스투데이",
+      "date": "2026-11-08T19:21:22.000Z"
+    },
     {
       "title": "증시 급락에… 상장사 3분의 1, 주가 연중 최저",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQdDZZWkFDelQ2ZEhnTktNSVdnSVdpX3RVSG9NQ1lsQ3dtWUw5VUVUc0FBNm90dGRDeFFyOV9TWVFtek1VSUdVbnRsWmp2YXQ3a0s4T2FObHNBNGpWbkQ4VFZwVzZNX0xaM2JESHdBeHVIVE9uMVU1R3h6R0ljVVloWQ?oc=5",
@@ -13,6 +25,12 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5EUUt2Qjg2b21EYTJoZkJVd1hoYXplY3lJb3pGUktOc052SjJNQUh0R04zZ3hPQU5vM0htNk4tRk0tZXdOQ1ZLVVpUU3pxSzRCRl8yVlJBejIxNUZabENDWmdCck1MclNpV0l6YQ?oc=5",
       "source": "ER 이코노믹리뷰",
       "date": "2026-11-08T11:57:39.000Z"
+    },
+    {
+      "title": "미 반도체주 반등했지만…월요일 코스피도 한숨 돌릴까",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5abnJaTWRwWjI5SnlBWGNNM2wzV3Y3R3JqVENGWUtHcjBBWXpnVDZIczZVTXdDTVRqZi1uQTUwU3gxWFBkVzJsZkVjMmpBbko1MGhQMzlYY1VqNy11VFg5STdETEoxdm85YVHSAWZBVV95cUxNMmYzWU1HRlRPbTBYdkZmYXhkWjh6eWhGck9vcE5DYTNHWVJ2VDRfbU0weUE5WmRKRWFqNEF1QTV6My1OVnBlbVJ4cnBieVgtZVY1bVhma0llNnRkSUF4ZEpRclhTOHc?oc=5",
+      "source": "SBS 뉴스",
+      "date": "2026-11-08T11:15:34.000Z"
     },
     {
       "title": "'블루 쓰나미' 영향 코스피…미국 증시 반등에 살아날까",
@@ -583,24 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1OWExuMXE5NGJBS2YySXhwN2ZvR2pVYWdVaWlmSHNqUmFBLXFwVmo4N1VnbS1YVUl4Q0ZZeDdib2lvSFduRXMwMFhabGxxaFV5Q2cwbF9ZbDRKUVlIOG5GR3dLRjBqcEVEYk5VNDVlZ9IBc0FVX3lxTE1rMEhiXzRZeThHZjJfSEdGYm1OdTE4bHdPaUpSWmJOdElObjgtN3dIdVdDb09xakJXUnZHeXNZY1phV05sYVlFM1F0OUhJaDRrdzFTYWtKUjEwQWVUSkd3MzQtdUZOMUpfZ1gzMVBCOC1ubTA?oc=5",
       "source": "데일리한국",
       "date": "2026-11-05T01:47:11.000Z"
-    },
-    {
-      "title": "코스피, 5% 급락 '매도 사이드카' 발동…코스닥도 약세",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BUTlTUWhjemVwcE4xUEQyQy1ESFN1MmRWVjk2QmZ3Q2J2VTRIalZkc0tkc3JOdTA1NU1fVlhnWDJOZlMzbUZ4RDc4UmRTaGlsWE5zM0NyeHBRZVVvTEFNeGk5WnUtQ1lLa21ZVXFLWdIBc0FVX3lxTE9wVUtuMzEwMzQzeFJiZkMyekNVY1pJTWczdlRjTGlqYWpIUGFYNlVsQ0dNSkxhYk5jRFJsNUtfaGxrV0l1MWMyN1NqNExuUTJDQ1RaVzFDM09xOGlKbTZ0YUYtUHVibWdTZTd0cWxIM29MRnc?oc=5",
-      "source": "뉴스웍스",
-      "date": "2026-11-05T01:41:04.000Z"
-    },
-    {
-      "title": "코스피, 장중 4%대 급락에 매도 사이드카 발동....5500선 하회",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1xcTMxUU9UZ0hmTDRKb3JpRmF5ZDhSMkVZbzdkNGlQZXI0Qm5kQXdIQTJzeWRlam4tUW4tNi11SWFabW5RcGQ3X2Vmc1VfNHdGTUMxRW5FLVJITVNi?oc=5",
-      "source": "뉴스핌",
-      "date": "2026-11-05T01:39:00.000Z"
-    },
-    {
-      "title": "8천피 4천피 둘다 적정가입니다…‘모 아니면 도 증시’ 돈버는 전략은",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1XZmt3VFVzeEdtbG1BeFBRUGdadF9oV3dmRjYxTk8wWXBPY0hMWWk1QjJqVWdVTXFxbnlnSmFSTnpMYU1vLXJaVjlTRzY1UEE3YXc?oc=5",
-      "source": "매일경제 마켓",
-      "date": "2026-11-04T21:03:03.000Z"
     }
   ]
 }
