@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T03:48:54+09:00",
+  "updatedAt": "2026-11-10T11:07:28+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -23,9 +23,8 @@
       "name": "미래상품권",
       "site": "https://meee.co.kr/",
       "url": "https://meee.co.kr/",
-      "ok": false,
-      "count": 0,
-      "error": "The operation was aborted due to timeout"
+      "ok": true,
+      "count": 6
     },
     {
       "id": "worldticket",
@@ -288,6 +287,78 @@
       "buyRate": 5,
       "sell": 9700,
       "sellRate": 3
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "롯데",
+      "label": "롯데상품권",
+      "face": 100000,
+      "method": null,
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96550,
+      "sellRate": 3.45
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "신세계",
+      "label": "신세계상품권",
+      "face": 100000,
+      "method": null,
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96350,
+      "sellRate": 3.65
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "현대",
+      "label": "현대상품권",
+      "face": 100000,
+      "method": null,
+      "buy": 96200,
+      "buyRate": 3.8,
+      "sell": 96500,
+      "sellRate": 3.5
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "갤러리아",
+      "label": "갤러리아",
+      "face": 100000,
+      "method": null,
+      "buy": 96400,
+      "buyRate": 3.6,
+      "sell": 96500,
+      "sellRate": 3.5
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "국민관광",
+      "label": "국민관광",
+      "face": 100000,
+      "method": null,
+      "buy": 96400,
+      "buyRate": 3.6,
+      "sell": 96600,
+      "sellRate": 3.4
+    },
+    {
+      "shopId": "meee",
+      "shop": "미래상품권",
+      "card": "백화점 공통",
+      "label": "백화점 1만권 (롯,신,현,국광)",
+      "face": 10000,
+      "method": null,
+      "buy": 9500,
+      "buyRate": 5,
+      "sell": 9800,
+      "sellRate": 2
     },
     {
       "shopId": "worldticket",
@@ -560,8 +631,8 @@
       "label": "롯데 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96450,
+      "buyRate": 3.55,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -572,8 +643,8 @@
       "label": "신세계 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96400,
       "sellRate": 3.6
     },
