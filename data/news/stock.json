@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-10T11:07:47+09:00",
+  "updatedAt": "2026-11-10T18:48:32+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "반도체 훈풍에 얼어붙은 증시 해빙…코스피 4거래일 만에 반등",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVdDVFaE1wT2FGU0NXQVRCQURPRnktc0U1VXU5Q1gwRWVQT3VRRWFjd0tVUHh0aS13LW5aeEdHVThSajdqdDdtWkFkS09fb3F6b1RfdTZ3bDlLZ9IBWEFVX3lxTFBaTFliZFpmNjhMVUwxWElXSEt4aWpNN2hkMXlYN0V0V3dJbXp3TzEzSjJlWlFfaHptTDNqQUFzNGgzR0VGMHZyOHBnNnRmMTJVS25RMl9sRFk?oc=5",
+      "source": "아주경제",
+      "date": "2026-11-10T09:38:09.000Z"
+    },
+    {
+      "title": "[오늘증시] 코스피, 4%대 급등하며 5230선 회복…외국인 8거래일 만에 '사자'",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rVy1QaVBZZm9KQnhzY2puVHpLZzNQZWg2aExwbUdkT09velczTDlCdTI5LVI1VHdpUHFVZWM5SFZjTmtKTjhUMWhlUHRLVGp3LXRuWk12MFhEUWp3TFlkQXlLbnJBOTlKMVE?oc=5",
+      "source": "Queen 이코노미퀸",
+      "date": "2026-11-10T09:25:27.000Z"
+    },
+    {
+      "title": "外人 귀환에 한숨 돌린 코스피…반등 불씨 이어갈까",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFA3WlNkaGFLdll2YTYtZER3SGVLdmRMdTkwb2UyR2pLNmVNbDBkcnE2VWh1REpHSDhMTHJpQ0FLVzFfdU9vNXVBai1qdmtnNXNEV0HSAVNBVV95cUxPUHhqLWFwVUl4NW5wT2l1V3YwT3R1WUpPVzRzNjFCWGljSVZGNm9mZlZzQ0Zra1ZWTnRDaFRMZHFwTWY0bm1HcGFxa0hmb3ZrWWQ0bw?oc=5",
+      "source": "서울경제",
+      "date": "2026-11-10T09:21:38.000Z"
+    },
+    {
+      "title": "코스피·코스닥, 4%대 급등…매수 사이드카 발동",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE15NjlpcUNXOHNqR0tLdU9venE3YXFKalY0Mm9RTlVKNTdMY0xvZExkMGZDSGxkekcyZzZ4emw5dUdNdFZsWjZ3dFBhZVNoLWF2NzduSF9Sbm5PNU1rX0dUYjJ6QXJ6VTQ?oc=5",
+      "source": "연합뉴스TV",
+      "date": "2026-11-10T09:13:00.000Z"
+    },
+    {
+      "title": "韓·美 증시 ‘바로미터’ … 퀄컴→삼전닉스→코스피 연결고리 따져보니 [플러스 관심종목]",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9Od3YzaGRYOE5xclFFczduRVVBS2RXTDVpTmVWLUdWMFpLZFRDSExlNkU2SGQtRkFkRXE0eTNiMWdNWDUzQ3dmdXFZU3lYMUltQ3c?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-11-10T08:58:07.000Z"
+    },
+    {
+      "title": "증권학회 등 코스피 변동성, 韓 고유 요인 반도체 집중 구조 탓",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhNjVNWmVLVnlFZjVDeUxMckM0V0g5UmxOQk9TQjhxcWhxRnZEMmV0NFVWTUpmOXNJaUlCbTRka1JuLUNpaFlUUldQQmpsMjdyUGxj0gFYQVVfeXFMUGJvQ1JVRmxvU1BEQkt0QmdZZjc2aDBHc29wdFVuUkFJdkNsaHVWVjNkQ2VYTTdaLXlaZ2RGV2piTUEzeG9JaEZiRGZWR183THBDcjlqZEtIOQ?oc=5",
+      "source": "SBS Biz",
+      "date": "2026-11-10T08:52:00.000Z"
+    },
+    {
+      "title": "5200선 코스피 바닥 접근?…\"美 물가지수와 코어위브 실적 관건\" - 머니투데이",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB1V0tuYzBmWnlJWVZpOUcyYVdfS1Ywc280WjN0dHdCUzJ6Q1liSE9NYXo4NEZfVzlJSjY5dlNDSEFodlVLVTJudFZCZXlzQS1FWUtCbFFSSGx0SFQ5WWZzeXlRMmw3TW9j0gFuQVVfeXFMT2hJOWFUS0JRM3c3V3NSZjYzY0VUVXVoS1o5bmRGc3JXbzkwLUNiOUhDeWk0TlNmTG9RRGdWRGhWMnNhRW5zdFFsbEZJRlAxUE9fVGFrZEdGV1BxYmdKbXB2YlltZ1JPZ3N5RlBEVkE?oc=5",
+      "source": "머니투데이",
+      "date": "2026-11-10T08:30:51.000Z"
+    },
+    {
+      "title": "코스피 4.39% 급반등…외국인 8거래일 만에 순매수",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1YMXFtSmhJUXAxMEFRcGdyZHkzeGFaeTlacDFudVMzN2xiRFJLVzZwNFRGay1sRDJWSkpYT3VhLVhPRXhQaVF1Ym5GRXNkNGFpaU10aFRtQzJSMHRSY19iOTlXNWpBYjMzMWYw?oc=5",
+      "source": "애드뉴스인천",
+      "date": "2026-11-10T08:26:00.000Z"
+    },
     {
       "title": "[오늘증시] 사흘 내리 빠진 코스피 '반격'…반도체 강세에 5200선 회복",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6bTNxTldvZ2owNEZYZm1Qa05IRDRZREpTb3dIbEF2YVRESEpUXzJ5NTZDNlRhS2V0SFAweUZ0akEyQ2VoTU5OOHZ5a05kT1pWcXUxMFhXRWZxNzZ2eWo0VENWOGVCSWhnRU1ySEhVS1N4Y00?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wTjlhLWNzMHMtbnZHcG1VM3JPbDRfZlRsM3JhQWl2dnBkV1VhaGNTamlCVmVCT3ZLb3lwREpOWWpoTlo1cUJkbTBHeHk5aWlJZVVuYlgwTlNheVk?oc=5",
       "source": "KBS 뉴스",
       "date": "2026-11-06T12:03:00.000Z"
-    },
-    {
-      "title": "미 선거 충격에 ‘검은 금요일’…9달 전으로 돌아간 코스피",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5ncVpKZ0xVTGczSmdaeWR3VnlVY1Y1YW9yQ1huQnhJWHJxTG4wR09nMWV5RURwemQ0eHZWQ192RDBvMTZ2SjYwbk42TGVfckNkaWt0ZUxxeVVCaGpaby03dEtwQ08zRzJicTB5LUpB?oc=5",
-      "source": "KBS 뉴스",
-      "date": "2026-11-06T12:01:00.000Z"
-    },
-    {
-      "title": "[마감시황] 외국인 투매에 코스피 5000선 턱걸이",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBfcEJCM1lydmlncTFXc2NXNDdfRHBDVlJjejRrajM1b0JPekFtanBrUmxPNThHWk04UHotS205Sl9PT1Q5b1NTZUNnTVczVF94elhfbmJmbHVjNnc5SjNGd1kyYnY4dWM?oc=5",
-      "source": "자본시장뉴스",
-      "date": "2026-11-06T11:35:31.000Z"
-    },
-    {
-      "title": "'블루 쓰나미' 여파에 코스피 '검은 금요일'‥세계 증시도 동반 '충격'",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9taXVMcU1MSlp6cmJubmhQSGhhU05GRVZYS3o4TElvR1A0UUxjMWRfLXA1Z3pJS3l1bU9ucTBtc3RWaHQxcERtQWpQejFDRW42NG5qWXN5NGNOY2g2V3ByTEptMzJnelZlcHJJUlZTblA2TGxjUVVGVtIBeEFVX3lxTE1YcHh3OFU2N1lMVVh4bUx3ZGpIU1gzNkg0cjhwNkhMbExicVdtbUNHMWt6eTkxYTNvMzBXdDM3MjUwdFFDYjVaS0U5MUJxbEdLdlF4c0lrTlpEbE9KeFlRbzlBbVBzUFRnaV9wVTlrcGZPLVJScFdsRA?oc=5",
-      "source": "MBC 뉴스",
-      "date": "2026-11-06T10:45:47.000Z"
-    },
-    {
-      "title": "“1000만원어치 주식 샀어요”…코스피 폭락장에 매수 인증한 박용진",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1tWlQ3VGRWOFh5V1RHbmNvRHJiREVsWVBNa1h6VnhNUlM5UUlZdWVodmhNTC1VV1h6emE3TU1Sczd2c1hVRzdER2xRcFp2dXUyWHc?oc=5",
-      "source": "매일경제",
-      "date": "2026-11-06T10:19:08.000Z"
-    },
-    {
-      "title": "이번에도 통할까...'5만전자' 샀던 박용진, 코스피 급락에 1000만원 베팅",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kbWQ5RjVfeHppOWg2ZE5qVF9rWGFPb2oyVmdpTDF3WF81RVlWYWYtRGZOX1BvWEc3YkpOOFRKd2EwaDNEb2RCT2dHcFBZcVNFdm1RM0duQmtKS080N2Qw?oc=5",
-      "source": "조세일보",
-      "date": "2026-11-06T10:16:57.000Z"
-    },
-    {
-      "title": "데이터센터 규제 공포에 '검은 금요일'…투자자 패닉",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ZWXpvQU1WM0pxeVBQM0pXY1gxTXhadnhtSjRLbUpxT3FQQ2FyWVZndTdzZFc2ejNTWkhEcXdWVEFIbHEwcHhTYk4ycFFKbWE2NTNHRW5fTW1kQjBreXJja0tfOGo?oc=5",
-      "source": "서울경제TV",
-      "date": "2026-11-06T09:50:09.000Z"
-    },
-    {
-      "title": "박근배 신한證 상무 \"코스피 39% 올라도 지수 이긴 종목 8.4%뿐\"",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5qb1lzN1diZ0dXeDF3WXd1SE9wRjBTeHIwbHoybFU4b2xHLXlhYTlLdzRseDM2TF9VTkhDUWdubmJ6dEY2bDc2QW1tQ3JCdklKYlRaLXJ3YlRGeWFLcGZMcExqRzFxclVhYnBQdV9hQQ?oc=5",
-      "source": "뉴스톱",
-      "date": "2026-11-06T06:13:56.000Z"
-    },
-    {
-      "title": "코스피 5000 붕괴에...야권 \"정부가 판 키운 주식 도박판 때문\"",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBpWDUxNzlVajVKYnp0ZHdRazB0bGRYZE1iTGxiakpmS2h1WFlkNVdHWXROcEhvZWZrMThxbUxSWG9pNEFZU0hkT2cxRnJiWU5GWmI1a0Y3UWpzbUowRktCZXNlS1pxV3c0dFE?oc=5",
-      "source": "경북도민일보",
-      "date": "2026-11-06T06:09:01.000Z"
     }
   ]
 }
