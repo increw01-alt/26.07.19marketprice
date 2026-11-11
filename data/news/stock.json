@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-11T08:19:18+09:00",
+  "updatedAt": "2026-11-11T15:15:46+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "뉴욕증시 하락에도 코스피 상승 전환…삼성전자·SK하이닉스 강세",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ENkdmNE5LNkZvRk9MMjlSRXFBRWd6c3FjZ1RFNkNjYjhPaVRBaXNoS01CVkFxS3VzNjNabGYxSHJfcEQ1NENydmdINzY2cjV4MEhtODNEWHdFS0cxT1llMmhPV3dfQQ?oc=5",
+      "source": "비건뉴스",
+      "date": "2026-11-11T05:52:32.000Z"
+    },
+    {
+      "title": "코스피 2% 상승...삼전·닉스도 오름폭 키워",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00QkNXUlIwbWtLV3BYQm9zUWFDZklqS0FwMUxON29LZGswN012UFpYY1lldmt0NW9jZzNkb1JZV3dvc2RyVXpfcWozV2NFNFZVUHdaMjA2YnJPbS1OVFE?oc=5",
+      "source": "YTN",
+      "date": "2026-11-11T05:36:00.000Z"
+    },
+    {
+      "title": "코스피 5350선 돌파…SK하이닉스 5%·코스닥 5% 급등",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBaR2djbWZzQzlXT2c2VmcyT0hUbi14MHo2R2dtZHBQM3ZnWjZ6MlIxLUtkcy13M0RUcVZaWnVUallkOUtfbDdsR0g2cG9ORGMxRFpYVW5kemtmVTRjUmpVWUlXeDdqLVZiUVpoUkh0cmZiZw?oc=5",
+      "source": "톱스타뉴스",
+      "date": "2026-11-11T05:18:37.000Z"
+    },
+    {
+      "title": "불붙은 증시.. 코스닥 급등에 매수 사이드카, 코스피도 쑥 > 뉴스",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9SZnhkTzkyeUN4MTZGLURuSkZWdEtFWW9Lc05WN1dGQzJNaWF4Wl9pYzY2emJwSTByQ3h1bThoTjdGbVNrcnVpWXRQTHZFRzA1VEo4TDFEdVY4VF94cU0td3ZXS3FTVVBJMFhfaQ?oc=5",
+      "source": "지데일리",
+      "date": "2026-11-11T02:57:00.000Z"
+    },
+    {
+      "title": "\"선거 결과보다 美 경제 체력이 열쇠\"…전문가 \"코스피 향방, 글로벌 유동성에 달렸다\"",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE03OGlobWQzQVpYT1RycndNd1VzeFJzVWtXaFlDYlNWQTltaklmampUdWV3R3dKSXM1RkstQnNhMl96VXdfaUdqVWQ1Rm9lM1hkOW5DTTJmZTVWZF93MlRkMncwRTJCNWd5QkU5OQ?oc=5",
+      "source": "와이드경제",
+      "date": "2026-11-11T02:19:02.000Z"
+    },
+    {
+      "title": "코스피 미국 증시 하락에도 장중 5300대로 상승, 코스닥도 690선까지 올라",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBmVEdlRjROamNkVFFIT1MzVmV5X2tUbkNQelhSdzdWSVAxSXN6d0RDcFI1MVNwX0YxZV8wZ25lVTV6ZXNaaG5ybUFXNU01aFBwZG9YWGNHQV94X2VzaVJLbFJPZTJmal9INXM0R2MzcjF3OU0?oc=5",
+      "source": "비즈니스포스트",
+      "date": "2026-11-11T02:12:52.000Z"
+    },
+    {
+      "title": "코스피, 하락 출발 후 상승 전환…코스닥 4%대 강세",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0wdHVydlp5ajJleUI2RFhFNnlCa3NkUlZuMGQzNlB3QjdzcmEtdkktZzVFS3ItZTMzWjBwSXJ5Qy0xQlY3MnpwOXlHZDRvQ3FIUWZyeTJxWl9PREMx?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-11-11T02:09:00.000Z"
+    },
+    {
+      "title": "엔비디아 역풍에도 코스피 강세…ETF·반도체주 수급 분화될까",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44LVR0WkhuM1ZPc0V5clIyeHY5MFVhazhVLVVBQVFUTGlFOWJsUnZZN0FpZW1NRWU3dGZpOFRIZVcwdy1kY0loWjh5YkV2TFNNbEpKdThYTk5JUdIBVEFVX3lxTFBoZGhjbHNKNTVFdEFNV0kxeEJhNkZuLXVxNFZab3VSeVY4S3hfYTQ1S0d3dGJNLXdBNm1YT1RQY1pNNmVLM180c3Z1RkZEMm80amtXUg?oc=5",
+      "source": "더팩트",
+      "date": "2026-11-11T01:59:28.000Z"
+    },
     {
       "title": "[마켓뷰] 겨우 반등했는데…코스피, 美 '빅스텝' 우려에 다시 흔들리나",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9EWnJkVkJnMDJuVkVIekY3TnJLdFhmVFdJalJfMERsMlhuelRpRDNGYVZTUlI2aDVoVmlUWU9WM0lCQ0FhZnNXc2J5ZFkzTDJobGlGbzE4TExpNFHSAWBBVV95cUxNd0J4N1p4QUxkTFNpQzZrazl4cHh0YTNsbTVidm83d1VpQjJia0lleU1FR0RxVWd6UGRnSUtFbnptUUlTWHdCQmVMSTM5UlAtZW91LW90VnVmbkItTXBzUHE?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5UbE1QaDJEYkRsVEdCLUtERU9KM3NxLVNQWXRwejlLQzhsakt1YTlGUEIyYUhhNzc0eWxDRWVySkZNd0tvOUVneFlIRFhUMU90WVA5dU5RaGpSUQ?oc=5",
       "source": "한국경제",
       "date": "2026-11-07T03:00:06.000Z"
-    },
-    {
-      "title": "美 '블루웨이브' 충격에 코스피 장중 5000선 무너져",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9hTWNOMmdPZ0lCZmhhTGpxLXc3dk1vbEgza1piTWVMWEpSYjJuUVk0TzBSSkxuczNoa3VtVXBGMGd1ZnpiT0JlRWFqTkhFMEVnQkZQbkRLNVk?oc=5",
-      "source": "경북신문",
-      "date": "2026-11-07T02:35:26.000Z"
-    },
-    {
-      "title": "코스피 흔들리자 美증시로…서학개미, 일주일 새 3조원 매수",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4waWtsTHU5N3VURXJyU1FodWhMRUdRdXQ1Yi1UU0pPZ1V5Um1iVzB3TTZVSU1VUDVtVkRYNHNzZ0hYNXdhcVdFRjhqZ1pIcmxfNDctd1JVU3Y0ZTlTVC1IYVdmbktUT09aQzRj0gFvQVVfeXFMTWpOcUdRQnJBQjltVkZmUXJacV80RTFNUmRpdk5MRGhqRGVlT25CLVJBaUVBRmlNTlpMalhPYVdaNnN1N2k5cW1uMHNBRWRFQ185aVozN2otWFE4TGhlVWFXRURmb1RRS0ZrdWtNd3RV?oc=5",
-      "source": "한스경제",
-      "date": "2026-11-07T02:30:21.000Z"
-    },
-    {
-      "title": "\"'블루웨이브 쇼크'에 세계증시 시총 하루만에 4천800조원 증발\"",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9OVS1oekxNUVl4THZGOGVZTWdQOXlSdW5DT19aTlQ4OF9wQUdORWc3VTNRTFFtWnVoVXJwTXB2YXlNd2hFX09ITzNYd1dfNlJzT2ZlUF82MUd1aXfSAWBBVV95cUxQb1Q3NkhISmpIOVB1cm1GZmtZY0FfbVdLeVdMZ0JycEwwdzdtM29xMWZWdTkyZl9ROGJsYmstNzM0ZS0xOUJCOFdRZDRtOWpQYWxYbTk4TFpYSnNvWXU2Sko?oc=5",
-      "source": "연합뉴스",
-      "date": "2026-11-07T02:29:48.000Z"
-    },
-    {
-      "title": "코스피 5000선 흔들리자 AI 거품론 재점화…반도체 실적보다 투자 속도가 변수",
-      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5YTm5Fd2x2NDRtM0dRTXV3Y2VZZTRxd2hZYnRraGQ1R3dhQ1Z5ay1YUnA3Z21vY2Jab0FmdTZVU3g5cVlHWlNEOEtnNFU4OW5mWV82OXpkRUxuVUloNDNJVG96aWVRYlJkbTRsb3l3UGM4RkVsUTNB?oc=5",
-      "source": "하이뉴스",
-      "date": "2026-11-07T02:20:37.000Z"
-    },
-    {
-      "title": "AI 악재에 코스피 또 급락…반도체 쏠림에 취약성 부각",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAtZ2tKSG5nT3NOS2RDbGYzeUc0dTVTSlBzNGdrM19jRHl3bkpxa3RHRFJGN3JwWFhCOG9xbjFvRVF6X0lWcDgxYkdnbFU5VXRsWFllSUh6SFBLZE1MMXhxeF9UVnpFZzVzLUZXMg?oc=5",
-      "source": "스페셜경제",
-      "date": "2026-11-07T01:56:29.000Z"
-    },
-    {
-      "title": "코스피 급락에…서학개미, 미국 주식 3조원 쓸어담았다",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5yUEpOQVlXZTJ5ZUJtYm9kWGtqckxWNHpfSnVoYWt3UFVVUjhCU2hnMDJ2Q3A3T1RwWENRODNfdEt2ZXp2Tml5SWhFVC1rVG9rRnfSAVNBVV95cUxPdjRxb0dIdlRYTzJYdmh3N00tLWx3MFlvSVVreWhFb1VLNEFhZTZZb3JNUHgwOHJnNjROUHF1bVFYZXJjTlFiZmJ1UkwwVVo4Q0xEYw?oc=5",
-      "source": "서울경제",
-      "date": "2026-11-07T00:38:35.000Z"
-    },
-    {
-      "title": "美 중간선거 이후 코스피 급락…삼전닉스 덮친 AI 투자 한파",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1IWEQ5T1RRSFZqbUJ2X3BHOFhqdlRqQXZHeTVObEc2VTY0ZFlEaFIzWXFVaVpsbUNfS2hpM1o1am44WXJQQVNmV21NLXNMTGRoenZ3SWlWVUc3QVg1UUZ0b0dVcFZxZG9XT1Fj0gFvQVVfeXFMTUtldUctUmFTUTlJUEtQSUkyUG85eUdzbmRSTlNQbkprVlZ2Z2VCc1YxRkk5MUxNSlpNTHdRNk1LdFhha3ZwcU5uSHUtWjFHMWl4WGN2Q3kyd3ItQklwemhSTWZqbUs1c0dCUlpYdzZV?oc=5",
-      "source": "더퍼블릭",
-      "date": "2026-11-07T00:36:06.000Z"
-    },
-    {
-      "title": "“코스피 5000선 붕괴에도 1만 간다?”…증권사 낙관론 여전 [증시레이더]",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB4UGxuT2JRZjhmcmVSV05XWEs5bEJJMUtvaEJYZ2Q5eHEtbXlwcjB5NkVrbE0xbnVaNjQxMVNjVUo5YjJvYTQ1aEVHc1VfV2l0QXJQeXJpUjdaWnBBTTN2Qnl0TU8?oc=5",
-      "source": "디지털데일리",
-      "date": "2026-11-07T00:00:00.000Z"
     }
   ]
 }
