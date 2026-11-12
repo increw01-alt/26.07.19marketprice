@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-12T11:58:23+09:00",
+  "updatedAt": "2026-11-12T20:04:55+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "코스피·코스닥, 전일 급등 후 차익실현에 동반 하락",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBCSHVXOTRMeEkwdEJpZGNBQ3Awd2tPOEU3WUxQbkpkdjhoMVJJZWlBU1Z1Yk1XSk05SGlSTmZNQWZGaF9PYkNfaUFoVHhYc1NBamVaY05YcGpuT2ZCeXUtS1FkNkxVeXpIV3hSWEJB?oc=5",
+      "source": "더리포트",
+      "date": "2026-11-12T09:39:31.000Z"
+    },
+    {
+      "title": "[위클리오늘] 외국인 10월 국내 주식 193억달러 순매도···코스피 9월 말比 23.4% 하락",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDbWlXZ1BmUHVKbmpTOXZnQkRVSm4tYzI1cHBYMngxckJjSGxiX1hBVDZqMWYwUWJXcEJucWZmQng0QnlYRjZKYzRHRWFtUHdqOEY4Y1RFMUVUUHpBNTM4WjZDaFByZkE1YU1UczJR?oc=5",
+      "source": "위클리오늘",
+      "date": "2026-11-12T09:08:15.000Z"
+    },
+    {
+      "title": "주식 거래대금 62% 줄었다 … K증시 '썰물'",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyRFIyTlNpZW5DWUdneUJWWlhFWDVsbnRJOHpKVnkyUS1hT05FeE5kQkFreWJlOXpucFlZZjlqVTBlbFlFbVltdjFBdFdvdHBUTXc?oc=5",
+      "source": "매일경제 마켓",
+      "date": "2026-11-12T08:39:12.000Z"
+    },
+    {
+      "title": "[오늘증시] 코스피, 장중 5450선 돌파 후 하락 전환…엔비디아 불확실성·옵션 만기 부담에 5340선 마감",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAxaWZnNFVxZ3ZOTE1qeGV2OUpWZ2Frb2tFeS11aExfTFhHMXlZY01DZUtWVFFLTUxSTUlMbVZUX2E2d2tXV0E5Nl80QVlYcm5YXzV3bDV2QmlrZ1F3U1o4WEN3bTZOTnNB?oc=5",
+      "source": "Queen 이코노미퀸",
+      "date": "2026-11-12T08:37:24.000Z"
+    },
+    {
+      "title": "[1112마감체크] 젠슨 황 스캔들 여파에 반도체·금융 약세…코스피 5342.73 마감",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBaNEVrcksyZzc4Vk9wUTBzaEFYOEFvaXVnSzNOQzgxNmYyeldweFVvWDFlNjd5MGNOM1VfaGZEZThZUmFIRTh6VUc5bUhDeTVya2NEcEdtQTlwVXBtem52Q1pZMUZCVWh4QTE2cFJTck9wZ21GTGc?oc=5",
+      "source": "인포스탁데일리",
+      "date": "2026-11-12T08:06:56.000Z"
+    },
+    {
+      "title": "“코스피 5000~1만 전망, 누가 못하나”…증권사 뒷북 전망에 추천 서비스 수수료 ‘꼼수’까지",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBERU1HdXNnQ2dvRVdqeTAzNUZuUTJxYWQxWjJ6ZHNLd2dpVjJlN3JiYnBDX2txSm9HNkVuR0M1ak1IaDdQR3E3Nk1haGs3MFB4cUk5Mjl5OHpid1BQa2kzc2pn?oc=5",
+      "source": "이코노미스트",
+      "date": "2026-11-12T08:02:11.000Z"
+    },
+    {
+      "title": "[마감시황] 코스피 사흘 만에 하락…기관이 팔았다",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBHYlg2LXFTUkE4UHI3dUs1eU96TENBczhjVW9hQU41T0pjUUdkcHR2eXd6cWkxT1dpeGQ2Z0tqX0xYeHRBRVVHSy10OFZBTVl6RHJHaGVYUTR1OUVLV2J3S0FoaHZiQk0?oc=5",
+      "source": "자본시장뉴스",
+      "date": "2026-11-12T08:00:00.000Z"
+    },
+    {
+      "title": "코스피, 이틀 상승 끝 0.61% 하락…엔비디아 악재에 5,340선 후퇴",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uc0JFSTd3TkJFcGpZSmJ0b0VqZ3NFUUtEXzR5aWtqdExMdmZ5MkhBYW9tcVBvdFVaMmVjbDRvV1IwQlNuQW95OUgzUDU2Z1JhYjlzMmJZXzRndlVhczVDYXVvY2NBTGVncjVyZU5yV3LSAXRBVV95cUxORTNHYjZtS2xzaS1ZUTdRZ0FDVE9jVWhPdmI0VG5WQjdDYWZuRkhuZFJqSTVNZXFaVkJNNHk3NWE3LUNkSF9nS2w1MS1oVmt6QXRtUVQ1VHJLYVFjQUI2YTBJSHpwZ0NHVDF0UDY4X1l1VFEyUw?oc=5",
+      "source": "산경투데이",
+      "date": "2026-11-12T07:42:37.000Z"
+    },
     {
       "title": "코스피, 반도체 강세에 5,400선 회복…기관 매도에 상승폭 제한",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9wTFlfeGtwaXdRWXpLcnBhSmE3NGg5akRZWGpGSGxEa0dBTE9YX2pwdGM1SFJVSndzRGRDNmNGYUxGWHhjQm9CaWpncHF0ZWtUbHFlN1hmUk1KNWJaeGo2WWRCWGUtVWpRU2NMaDZHblDSAXRBVV95cUxQV0FLNzlNc0dVZFVaZ1lQRjY0WkstMTQzakpFMnQxQWZ5M2gzOENmdkdJclZXUy1XUVE2YmhkMW4xbmxoY0RaUll4Q0R1UHZEQlZqWS1VN2FoOGh3STdTSWhhQWFRU3dOQ2M2TXpwMUV0MjBpaA?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB5YnBYZUdxZUthN1lfQjFoQUVFVVBXck9td1A0c0lXX0czZmhXR1BSM0p6TjkxZFNDUnhqTV81YWU2MkJyTFh1Y2xwX2tLOUJmTWE4bjc2OUpWQnE2?oc=5",
       "source": "세계비즈",
       "date": "2026-11-08T05:27:43.000Z"
-    },
-    {
-      "title": "'블루 쓰나미'에 증시 직격탄…상장사 3곳 중 1곳 연중 '신저가'",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBwZk9PMWpBeV9mNUZudzQtcTAyTHhGZGwycGlMR292aTdsS2FGa19lR3Qzc2dvXzExdlZVVnNUcU9VNktZMDNsUFFjcmszR2RxcFp3RHo2b0JuUEE?oc=5",
-      "source": "뉴스1",
-      "date": "2026-11-08T01:44:39.000Z"
-    },
-    {
-      "title": "증시 급락에 국내 ETF 시장 시총 7개월 만에 400조원 아래로",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNa3dBV1F1SUw1SmZuN291akl6WUJjUkJUYWdUd3BvUXE0Qy1ZeFFHSTh6eDRzSjZyZU1Walc1YW04T2MyOU1WbmkzbHI3bUwtaXJubi0ySDU2bGZBbDRMUmdiVkVaVDBSeWRTZXRONi1GLVFEQUx5a1JTZFdOcHlUWQ?oc=5",
-      "source": "조선일보",
-      "date": "2026-11-08T01:36:00.000Z"
-    },
-    {
-      "title": "[주간증시전망] 5000선 턱걸이한 코스피, ‘AI 수익성·美 물가’가 반등 가른다",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5YWEZDMWhWVTdUWUQ4eVN2QXZqaWgwNVZ3SmNsTFBBQUUzLWZlYmR6MmVLZDlRUExWNFdhdHV6VjlOTGlMWEJhX1JSdlNQcmhETDR2anV3ZVBCdw?oc=5",
-      "source": "브릿지경제",
-      "date": "2026-11-08T01:17:00.000Z"
-    },
-    {
-      "title": "’블루 쓰나미’에 휘청했던 코스피, 美증시 반등에 회복할까",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1tY25NbGg4Vlp1Q2pYVFNqUVA0QWhZNDl6U21sbWt4dElZTEswdjJIZ0pxRlpON2l4X3dneW5sQUpOOHBtdlVXa2tXaXBkWWU0QW9Ia0pIOXRNbk43ZkFqVGhDT2tVUnM?oc=5",
-      "source": "연합뉴스TV",
-      "date": "2026-11-08T01:08:00.000Z"
-    },
-    {
-      "title": "“코스피, 앞으로 이렇게 됩니다”...최태원이 건넨 ‘섬뜩한 경고’",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1icDZ5RWNxMUx0RVlQc0h6ZU5odkxBQkhpZ0ptQjB0Slo3N0JNM2NMb0E3Nm1tVFNQVmtsMGpRRE9HcW0tR0YzY0lBaVR2dS1qS1ZlOFNSRFZjZEI1V0wtQ2FiVlhOZndHTldKVQ?oc=5",
-      "source": "한경매거진",
-      "date": "2026-11-08T00:33:00.000Z"
-    },
-    {
-      "title": "'블루쓰나미'에 무너진 코스피…'언더슈팅' 딛고 5000선 사수할까[주간증시전망]",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY3RkTzZtUEJtcndSLUZGVW1sN2ZxOFU1QjdKdE9QUnlJODYxM1ZTMUtXNkRUdi1CNGRJTTRfUmxuX1J6Z3I0aWxpeFFfNHBId280WFBLdDRvQS00VW15UmJibktaVFJFSXpHa2kzdU05eWktWmhMLVJWZDJHbG8wRA?oc=5",
-      "source": "이데일리",
-      "date": "2026-11-08T00:09:16.000Z"
-    },
-    {
-      "title": "(주간증시전망) 'AI 공포' 덮친 코스피…반등 시도에도 약세 전망",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBmd0RERkxwejVpVlZ5cnFBdnRjNVRYY2k2aWF6dTIzQ3RSbGJ0c0J4Z3Z6ZkFaNWVvZkFaZkdCdXBET2VUb2JOQUpXbS1rcjY5YUJIeGtkTFNxTENHb0Uzaw?oc=5",
-      "source": "뉴스토마토",
-      "date": "2026-11-08T00:00:00.000Z"
-    },
-    {
-      "title": "코스피 폭락 진정될까…외국인 수급·AI 불안에 촉각 [주간증시]",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE42dU5OZmtwZE1ndXRtUk14MmN1RTN2OURiUDZSM1RmQmZobkp2cGZjLVE2aFVMcmwtMmR3akRKWk1ScDlITzFOR0ppSi04Y2I2T2U5Q2NnbmdLSXBYZ0xOeGlLdw?oc=5",
-      "source": "에너지경제신문",
-      "date": "2026-11-08T00:00:00.000Z"
     }
   ]
 }
