@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-12T06:57:05+09:00",
+  "updatedAt": "2026-11-12T11:58:23+09:00",
   "topic": "realestate",
   "items": [
+    {
+      "title": "3분기 서울 아파트 매매거래량 43.9% 급감",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zMHpUQzdtbkpKUlM4ZkVLNlVuYlBab2FUbTBlTUxibXItdHBiTnhMeXFHaTJGWXR0X1JZVFhtWkNDUGdVSlREZ1dIb2dBYUhrTnk1czhmeGxDXzhCWjI3NXZLVVg4V1cx?oc=5",
+      "source": "www.2news.co.kr",
+      "date": "2026-11-12T02:16:00.000Z"
+    },
+    {
+      "title": "3분기 서울 아파트 거래 44% 급감…전국도 24.5% 줄었다",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5oaURHczNubHFiX2NSRGRjX0RZTGFDYjBmMTJmTHVyU3REeFVtc29iSkNtTHluZkdXY2REaGFJU0Y4VW1IU2pkallTUS1aakpqOXlZX1hVRHJpR2s?oc=5",
+      "source": "뉴스1",
+      "date": "2026-11-12T02:11:45.000Z"
+    },
+    {
+      "title": "3분기 전국 부동산 거래량·거래액 ‘뚝’…서울 아파트 거래액 반토막",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZTZUU2V5VnNnQTV6RnE5U1Rsai1nMS1fRFVqa3VYczh6RS13UV9xaUYweENlQXZNdUE5azQzRXR0Y1BNTFRDMXRNNGU0YTdtNXc5RGxBUXJRZmVvcFJPeXprel9zZzhSUFZoUXBNdno4RE81d05iQ2VoNGVKdDc2WnpzVk1sQllKZUp3Z3VDX3RoSjVrLTFredIBrAFBVV95cUxPNEdBSmVxdEhnOVhWR01IMVlIRUNGODRJUFFoZUxGTWs0OUdYZ21mSkRJX3BZWEJWbE5YQ24zN041ZmRjamJLTW9ROGRKUzd3eERaODJBNFctSjczSVVQLWppTFlTNWIxWlFKSFZXLWZGSEQ2c2I4c3pUMXVrOHNLTktWa20zdVFkTDNvUGN1WjAydHB6c05CWlFKdTZtZTNQTmdmeTFaU0NscTVU?oc=5",
+      "source": "Chosunbiz",
+      "date": "2026-11-12T02:06:00.000Z"
+    },
+    {
+      "title": "3분기 아파트 거래금액 33.4% 하락···서울은 49% 급감",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBNQjRXSmZyVkNyVGZEa1FLaXpTV3ZfWUdZOU9vQzNZYWFYdWpYU01oVXg0LVlDNmxQUWZRTVlpQ1cyOUIwbFJ0cXRkOEtHTzByXzMxQTFsWWthQ3cwQzhNNFNvYXdUdUU4M1pkV0h3?oc=5",
+      "source": "더리포트",
+      "date": "2026-11-12T01:35:00.000Z"
+    },
+    {
+      "title": "서울 아파트 전월세 갱신계약 46.5%...갱신권은 강남 줄고 강북서 더 썼다",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByTEN4MnpQZmVfd0FlanRIM1MtQ0c1OERSZGdkVmlWT29mSkYyLWFQSDlRd3NfRVMxOFA4Tno2Sm1Jd2xUWWxMb2hxRWFNVlFBQ2dQWU1zZ00?oc=5",
+      "source": "포커스타임즈",
+      "date": "2026-11-12T01:16:37.000Z"
+    },
+    {
+      "title": "[위클리오늘] 서울 아파트 전월세 재계약 46.5%…강북은 갱신권, 강남은 합의갱신 늘어",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1XdC1JbGkxbUFVZ1gyT29fTlVGMUc5R0hXSjRicG8xQnZiNzV6SThBc0NCNVNfOFV0YU44dzB3VU9mMzVtQkJXNjJURVJJQ0R0dTNpUnFrYzl5cUdJWHJ4bDZlbHFQUWxwdlBLcTh3?oc=5",
+      "source": "위클리오늘",
+      "date": "2026-11-12T01:08:40.000Z"
+    },
+    {
+      "title": "3분기 전국 부동산 거래액 27% 감소…아파트는 33% 줄어",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1wZDd4UnhJN2h6TmRSTjBySVhvcEVJeEhGanB0YWkySUtYc1k1QkczQ0VNWUVOR2t0Q0hWcGpaWlpSdEhQcEZNTHhULWxtM2pldXVhaG9ILTRZS1dJNUlzMtIBeEFVX3lxTE0wTzlFMk0wLWo0MlVjT0l5UXdxcXpBWjdLdmhjMDNxNkxFV0xZQS0yaXRCeXpDcFdOLXR5S1N4ZHJXc3VfRXk2RXNIaGRiYXh5REJNdk5ZT2xhRnhuazc4VFQxU1dnaFdhMXVEeE52MFhoWkRJNG1LUQ?oc=5",
+      "source": "뉴시스",
+      "date": "2026-11-12T00:55:16.000Z"
+    },
+    {
+      "title": "서울 아파트 거래금액 49% 급감⋯전국 부동산시장도 '꽁꽁'",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE44RWh6MFRYUUFWaG9wdXI5ekVyUEJIc1FhaE5pSkxvODhXRE9oQm5QSjJmdUgwSHBvU3lXVDZLTDJOUkNWNHNDOTBuNVE5d0tCN0JPZA?oc=5",
+      "source": "이투데이",
+      "date": "2026-11-12T00:30:00.000Z"
+    },
     {
       "title": "서울 집값 지난1년의 발자취와 가격한계를 보이는 20억 아파트 시사점",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMFhMQnkySlhCMXZLcmZDbkEwcVRpNDZ3eTM2Y0d2d3lwRnZ5b1dGUU1USXpUd3dxcl9MS3EzZDVoQmU0dUNsWmkxNXE3QUdrRnlzSm5LLW5peDFPY2dGY0NBRXY5YjlKTzdxOHhMM1Fjc2lyTUFXV2FZVXBRZUR6UElobzdxUUt3?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBaVXhDLXpwNlA1NVhON2lsTEZfNDFxOURPal9TUkE3TERvSWtDWTdUSUhJM2NnckttdnFoTDhlQ0lKRzk2Q1d2eUF6cGE0WV9LN0lnbzN6OGJSVWtNdXlrcjU1R0ZjV3dEaDlnMNIBcEFVX3lxTE80NDJKbFRXZi1FMFBSRTZUN0tQZTlCTlVlQmtrTjc4S1FNOC1uZWtwOUZxcW1ZMDFiREwxak1QOFdyZVFESUYzaWVkbDdYS2ZsUDZXR1JlamxsX2c0emFYSm1Fc0F5eUU4N1pvWW9COUc?oc=5",
       "source": "글로벌경제신문",
       "date": "2026-11-06T05:05:31.000Z"
-    },
-    {
-      "title": "“20억 하던 강남 아파트가 14억?”…강남 소형 아파트까지 가격 ‘뚝’",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGRnc5UmxvWHVYUUs2NkUwRUJoaGV6Z3U4d3h2UTduN0YxV1dteXR1YlV1Z1BKMktBeGp4ckM0WXJEaF9wRFc1TmUzTFhtNGREMlNaUjFUWWE?oc=5",
-      "source": "매일경제",
-      "date": "2026-11-06T04:59:01.000Z"
-    },
-    {
-      "title": "\"집값은 하나인데 통계는 세 갈래\"···한국부동산원 주간 통계 '손질 불가피'",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4yMG1LQi1uWEZ4bzRZQVJTSDMxNUhRUmZaeFpHZlVnaEluWk1NREVXMmpqb19KUkJDTHdReWtZU2pDbEpzWnZQVW9Id3MyclNDUGpzZThVM0FOekhGbnd5NFBuanBPLW95d2RRbQ?oc=5",
-      "source": "스마트비즈",
-      "date": "2026-11-06T04:48:52.000Z"
-    },
-    {
-      "title": "성북구 석관동 코오롱 59.94㎡ 8억 6천만원… 최근 3년 신고가 [MAI부동산]",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ybFNnSDdBZXVUXy1vOXYxbElNU0pJZ0tjVGJCNHpobEREbTVVbF90MU1xRVFqeDlNTUxEODhjNlpTaEJKMjZ0UmpFLXRUWkRLZEItVHFhTFQ?oc=5",
-      "source": "매일경제",
-      "date": "2026-11-06T00:01:17.000Z"
-    },
-    {
-      "title": "강남구 대치동 선경1차 51억원·압구정동 현대14차 51억원… 서울 아파트 실거래가 [MAI부동산]",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtS1VPVVRTNWdoWVNSSXhtaWE4OWI1YWV2YlF4TjhNc0RyMWRYbGs5aEkwRmx5TGNjSk1DSFo3MTZ1eTFYYVpoNGpXbmJQUjREQkd1VklOWFQ?oc=5",
-      "source": "매일경제",
-      "date": "2026-11-06T00:00:16.000Z"
-    },
-    {
-      "title": "[아파트값 상승 톱10] 서울 광진구 ‘광장현대파크빌10차’ 등",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xdHFRU182TS1Lb3RBRi1KUzI1N3k5bUN3ek9DUFFPdFRHUVoyMFozYWpuLUpxZUc0ODN1NHNNWV92TzE0ejAzN3ZvT2xGNWV0OFFmUA?oc=5",
-      "source": "이투데이",
-      "date": "2026-11-05T23:30:00.000Z"
-    },
-    {
-      "title": "“실거래가 떨어진다고?”…100주 상승 바라보는 서울 아파트값",
-      "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNWEVaUjdINEFIcWZwWEZUTEltOHFUTEh3TFpNNnBvZ3FvYkNtY0VDaW50VF9qMWVzcElwYWxVb3EzU2xmWG8wTlBoVHM5d3RzckJpcFVCUmJPT3hWbHRLbnAyUFl5emliR1hvMkhpWTFnTmNJanFoenpFNTlUQ21tcnBBZzhuNnVBdExudlVDSUJHR2twQWtaVldTU2l6ZkRzMTJETzF0cnRMM1l1dnkxLW5nRFdoU3F5cXdfbHQ2ekhUMWFHUG5udFNjQ0JvQjFUVG90dzloUUUtLVhXTy1kdDNRY3BXeUNwc3U1NmdCaWtLSUdDMHlhdG52bUIycGJXVjBKR1c5enpVemRjWmc?oc=5",
-      "source": "데일리안",
-      "date": "2026-11-05T22:00:00.000Z"
-    },
-    {
-      "title": "‘강남 집값 10주째 하락’ 실체 뜯어보니… 128억 신현대 92억 급락 속 외곽은 신고가",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5rNFlvenpuRGtXeXRJVXZpcVFlbmFuNndIeW1pSmpzaTh0cTVCVkFLWE9zVFlIY0pOTXNwTUU5dDRCXzE4QTlEeWxidm5sdnV3bFRLS2ZXeVrSAVRBVV95cUxQcXloOUF0anplcjM2bnd4V00xdGNid2c2VEg5Q0QwX01iNzhfcVVtUHktZGdWRm9KQUJUNkx5ajJWa2ZKWnh4eTFwVjlfUG0xYlYtWjY?oc=5",
-      "source": "세계일보",
-      "date": "2026-11-05T20:00:00.000Z"
-    },
-    {
-      "title": "목동 양천구 집값 상승률 0.02%…보합권 근접 : 부동산",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBBSldlTXRDcWJVQy1yX0dwWDJxWU1UZElhemtPN3hDMlpMSDZWNWRGeVdOd05DaWdMVmY4czRjbkZiY0xLUGpvTm9zbw?oc=5",
-      "source": "재경일보",
-      "date": "2026-11-05T13:21:45.000Z"
     }
   ]
 }
