@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T19:27:01+09:00",
+  "updatedAt": "2026-11-15T02:06:42+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -23,8 +23,9 @@
       "name": "미래상품권",
       "site": "https://meee.co.kr/",
       "url": "https://meee.co.kr/",
-      "ok": true,
-      "count": 6
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "worldticket",
@@ -287,78 +288,6 @@
       "buyRate": 5,
       "sell": 9700,
       "sellRate": 3
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "롯데",
-      "label": "롯데상품권",
-      "face": 100000,
-      "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
-      "sell": 96380,
-      "sellRate": 3.62
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "신세계",
-      "label": "신세계상품권",
-      "face": 100000,
-      "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
-      "sell": 96500,
-      "sellRate": 3.5
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "현대",
-      "label": "현대상품권",
-      "face": 100000,
-      "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96450,
-      "sellRate": 3.55
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "갤러리아",
-      "label": "갤러리아",
-      "face": 100000,
-      "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96500,
-      "sellRate": 3.5
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "국민관광",
-      "label": "국민관광",
-      "face": 100000,
-      "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96600,
-      "sellRate": 3.4
-    },
-    {
-      "shopId": "meee",
-      "shop": "미래상품권",
-      "card": "백화점 공통",
-      "label": "백화점 1만권 (롯,신,현,국광)",
-      "face": 10000,
-      "method": null,
-      "buy": 9500,
-      "buyRate": 5,
-      "sell": 9800,
-      "sellRate": 2
     },
     {
       "shopId": "worldticket",

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T19:26:39+09:00",
+  "updatedAt": "2026-11-15T02:05:40+09:00",
   "gamePrice": 1000,
   "rounds": [
     {
@@ -22483,6 +22483,24 @@
       "firstPrize": 2025045509,
       "firstWinners": 14,
       "firstTotal": 28350637126
+    },
+    {
+      "round": 1250,
+      "date": "2026-11-14",
+      "sales": 116731227000,
+      "games": 116731227,
+      "numbers": [
+        1,
+        5,
+        18,
+        23,
+        27,
+        28
+      ],
+      "bonus": 8,
+      "firstPrize": 3103164459,
+      "firstWinners": 9,
+      "firstTotal": 27928480131
     }
   ]
 }
