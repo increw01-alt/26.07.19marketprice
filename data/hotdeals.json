@@ -1,6 +1,17 @@
 {
-  "updatedAt": "2026-11-15T02:07:11+09:00",
+  "updatedAt": "2026-11-15T06:29:35+09:00",
   "deals": [
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/109040",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-14T20:40:21.000Z"
+    },
     {
       "title": "히든 퍼퓸 스프레이 바디로션 1+1",
       "mall": "네이버",
@@ -539,17 +550,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-11-13T05:37:04.000Z"
-    },
-    {
-      "title": "블루 아카이브 5주년 기념 LP 플레이어 &amp; LP 패키지 예약 판매",
-      "mall": "예스24",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/109009",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-13T05:16:27.000Z"
     },
     {
       "title": "국산 쌈배추 알배추 겉절이 김치 1kg",
