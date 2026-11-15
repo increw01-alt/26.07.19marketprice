@@ -1,6 +1,39 @@
 {
-  "updatedAt": "2026-11-16T02:09:20+09:00",
+  "updatedAt": "2026-11-16T06:48:35+09:00",
   "deals": [
+    {
+      "title": "진도 곱창김 100매 450g 16080원",
+      "mall": null,
+      "price": 16080,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749063",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-15T21:41:49.000Z"
+    },
+    {
+      "title": "빙그레 붕어싸만코/빵또아/시모나 20개+아이스크림 바 20개",
+      "mall": "롯데온",
+      "price": null,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749062",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-15T20:04:04.000Z"
+    },
+    {
+      "title": "라방 랜덤 5원",
+      "mall": "네이버페이",
+      "price": 5,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/109060",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-15T18:59:09.000Z"
+    },
     {
       "title": "매일두유 고단백 190ml 48팩+검은콩 6팩 증정",
       "mall": "오늘의집",
@@ -132,28 +165,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-11-15T15:30:03.000Z"
-    },
-    {
-      "title": "26년산 임실농협 행복드림 새청무 특등급 10kg",
-      "mall": "오늘의집",
-      "price": 27022,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749048",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-15T15:28:15.000Z"
-    },
-    {
-      "title": "청도 햇 반시 청도반시 5kg (55과이상)",
-      "mall": "11번가",
-      "price": 6970,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749047",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-15T15:27:37.000Z"
     },
     {
       "title": "2026-11-16 네이버페이 312원 + 랜덤 포인트",
@@ -506,17 +517,6 @@
       "source": "루리웹",
       "sourceId": "ruliweb",
       "date": "2026-11-14T06:17:37.000Z"
-    },
-    {
-      "title": "스위치 테일즈 오브 이터니아 리마스터 / 39,800원 [무배]",
-      "mall": "게임S/W",
-      "price": 39800,
-      "cat": "디지털·가전",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/109028",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-14T05:56:32.000Z"
     },
     {
       "title": "국내산 한돈 삼겹살 목살 500g 냉장",
