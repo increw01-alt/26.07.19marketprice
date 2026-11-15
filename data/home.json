@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-15T10:54:05+09:00",
+  "updatedAt": "2026-11-15T18:23:34+09:00",
   "markets": [
     {
       "id": "kospi",
@@ -112,10 +112,10 @@
       "name": "비트코인",
       "group": "coin",
       "unit": "KRW",
-      "price": 86325000,
-      "change": -2533000,
-      "changePct": -2.85061559,
-      "volume": 300461380037.67444,
+      "price": 90740000,
+      "change": 1882000,
+      "changePct": 2.1179859999999997,
+      "volume": 342334788428.6959,
       "spark": [
         113548000,
         112360000,
@@ -156,7 +156,7 @@
         96590000,
         93226000,
         88858000,
-        86344000
+        90726000
       ]
     },
     {
@@ -164,7 +164,7 @@
       "name": "김치프리미엄",
       "group": "macro",
       "unit": "%",
-      "price": 3.81,
+      "price": 3.41,
       "change": null,
       "changePct": null,
       "volume": null,
@@ -176,7 +176,7 @@
       "group": "fx",
       "unit": "KRW",
       "price": 1336.2,
-      "date": "2026-11-14",
+      "date": "2026-11-15",
       "change": 2.4199707031250455,
       "changePct": 0.18143701734691398,
       "volume": null,
@@ -383,8 +383,8 @@
     }
   ],
   "giftcard": {
-    "shop": "신세계",
-    "buy": 96400
+    "shop": "현대",
+    "buy": 96450
   },
   "lotto": {
     "round": 1250,
@@ -454,8 +454,8 @@
       "color": "#00805a",
       "href": "/giftcard/hyundai",
       "name": "현대상품권 10만원권",
-      "value": 96400,
-      "changePct": 0
+      "value": 96450,
+      "changePct": 0.05186721991701245
     }
   ],
   "seoul": {
