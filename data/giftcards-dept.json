@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-16T06:48:27+09:00",
+  "updatedAt": "2026-11-16T11:04:37+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -367,8 +367,8 @@
       "label": "롯데 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -379,10 +379,10 @@
       "label": "신세계 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
-      "sell": 96400,
-      "sellRate": 3.6
+      "buy": 96370,
+      "buyRate": 3.63,
+      "sell": 96480,
+      "sellRate": 3.52
     },
     {
       "shopId": "worldticket",
@@ -571,8 +571,8 @@
       "label": "롯데 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
+      "buy": 96300,
+      "buyRate": 3.7,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -585,8 +585,8 @@
       "method": null,
       "buy": 96350,
       "buyRate": 3.65,
-      "sell": 96400,
-      "sellRate": 3.6
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "centralgift",
