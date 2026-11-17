@@ -1,7 +1,49 @@
 {
-  "updatedAt": "2026-11-17T12:52:41+09:00",
+  "updatedAt": "2026-11-17T22:23:45+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "BTC 전망: 가격이 50,000달러 대로 하락할 수 있다고 Wintermute 경고",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOOThxTHJhcjN2SFlILUdIbnlIX0FEN243SUdDQTFKaGROSmlmZTV2Z2w0TVU2SW5uNlQyclRfUWZfTW5vOTh0QWZVd1NhbEZCNEg1akg1UkQySy15UFpuZ2VQdWpSTmIxa3hzVEI1MWE2c2JDVkNXSlN5SEZSX1RjaElMN1M5dXExZ0gzc1ZIRFFyVU5kNXdfWHhvT05vbExmam82SFdHLV9UWFRucVdxbGxZVjNmTEJ2RUJhMEl5RER5V0t3MkgyZzJR?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-11-17T07:38:07.000Z"
+    },
+    {
+      "title": "카르다노 재단, 에이다 2500만개 인출 요청…산정가 시세보다 33% 높아",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9yS3FyM1NtUkRLQWtfNlZlMzdtR2hWYi1XTTRmSE83WHFSWFhmTjc5X2JzM2V1ZUlfS0R2M2VCVm5MY3FSQUpNb1BzdGFnanRUbGR3UjVfVlo1ZllVMmNsbNIBZkFVX3lxTE82Rm80RjJ4QlZ1dGZPSUlJMDctZ2I3eFZZMVU0a0pMX3BXeWRwUmlhYlhtS1NjZUVFVWlPMS1HVUdWWDdHX2RYczdrV1FkekhUdHVhdUtoZ3ZnWXZhRk15bGJ6YlVrUQ?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-17T07:02:38.000Z"
+    },
+    {
+      "title": "[저녁 시세브리핑] 암호화폐 시장 혼조세… 비트코인 64,534달러, 이더리움 1,826달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE16RjcxSEhEQTY4SjlheWR5bWpUV1JaMUFFYzA3NWVHbXlaTVhPcVYwTzJpOGMwSFZJRFBBWEo5LU5lbDdrTDlYb2Y3aFZmbWtYOUZTcUxlVHTSAV5BVV95cUxPXzJiQ2gzQnJxb2NmYjVpaThzbXZSbVY5MzZubFV5aG9lVUIzV1FWTi1WSDAxWUJ3UlM5bXI5T0JRWXNxWG5kdVhxYThJclZfUlpIbnlLWEgxd3hlSWx3?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-17T07:02:03.000Z"
+    },
+    {
+      "title": "Wells Fargo, BlackRock 비트코인 ETF 투자액 두 배로 늘려",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNdEpCRmptbXo0a2g4QjFpMW5WYllJZi1VV0lna0hQNHdncFpJNlE3QkkzSk5wMUtaNHV0bXZGVllMaG5XOUYwSmIxVVRpbEh5aXFic2stR1FSckR1aG5xUjZfSkxEcG9JU0ltWjJaeWg5RktSMU5SN2dYNjluQ21vX3RPbC1FdGF2RDBFb2lvYVd1OV9jTDZCM1hra0dCdw?oc=5",
+      "source": "Traders Union",
+      "date": "2026-11-17T06:50:46.000Z"
+    },
+    {
+      "title": "[오후 시세브리핑] 암호화폐 시장 하락세… 비트코인 64,497달러, 이더리움 1,814달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB2Mzd0YTYwRUNxdFJsVTRtU2JUaWNZMFlneGJ1TDQtWnhoamVrdk0tYlBrVlNDYjdDanVTZS1STzlrUEZPeFQ0dW9lMTZXT2VyblB4MmVJbVfSAV5BVV95cUxQSGdtbTVxUktjRkVlRjdHeU1GSWtqRFpiRC1ubVktaWlWN0dsOG9VdjVqOEFNWnMwc294cUR4QmUtQlcyUTBIcHdfMlJxNWsxblhOZWFXZTFhbU40ZnFR?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-17T03:01:54.000Z"
+    },
+    {
+      "title": "비트코인 882개 두 달 매집한 기관, 평가손 1170만달러",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56WGMyR21QRG1UNFJGM2pRd1FMMTdmOGJCeXBYaDc1WExuREJETnlvcHhCTGhyYzRsUVhwSllXc2NvdjNrcHpscWl6ZHNwM0ZPd05VcVFSR2txSzBEakotcdIBZkFVX3lxTE5rWl92NGtKdnNEWmRMLWF4b25BYzlWeWVSYm02N0RRX3VvdW4yTENhQzV0Zm1sN3NrRnR4N24wQjJScDZhcEI5bUlXbjBlWkNKVldPTFJ0bk1vbTFJaURURE9hVVNSZw?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-17T02:46:00.000Z"
+    },
+    {
+      "title": "비트코인, 엔비디아 실적이 암호화폐 매도세를 심화시킬 우려 속에 60,000달러 이하로 하락 위험",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNMFpmLUIxV0ZuZW84TnVMcHVGMDlmODlDNGo2ckg4dVB5VnJXem15aURRZHdmTHU5RnVsdjlrYXpvREdUZzNmLVVoTnhMbjI3Ml91VW44OFdPdWxCZzJjWUpqSXFNb0Z4d01JcGpNTlRTeVJDdGRDV2s2bTk5ZDNWMDRLMTU3TWlQN3VWNFN6YUNUczN1a2oyX3hQTzY0TlVZZHpaSWhORF9XcGdKLUp3N2dyRlpIdFB3OU1GQ1d1M1RHUUhXczJ0c2NscXRBY2huYWpkWQ?oc=5",
+      "source": "CoinDesk",
+      "date": "2026-11-16T20:35:21.000Z"
+    },
     {
       "title": "[모닝 시세브리핑] 암호화폐 시장 혼조세… 비트코인 64,990달러, 이더리움 1,821달러",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBNek9BdzQ5MGNlR0lHa3kweXcyWHNNel9Cc3pkMl93Tzh5ZFFNMnNNeGpQcGdZTUkxSTl6d0NWdGZVTjBUSFR5T0E4M1BUZXFtQmlZZFZKUTbSAV5BVV95cUxOTUJhZ1JYd0lJZmp1dW5VVGZNQVl4WFlFS3F2UVdqYmx4Ny1XdjJjWnltNjhubUJqRVJGWFVWeEFnaW0xQ1VKRkh6ZDRKV2k1allxN0ZoUEg4SkhuQnd3?oc=5",
@@ -559,48 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAyS1VvRG9hSDJtZEdBV256TU9jcUFOQW1jNTlVcll1eWVJaWwxZmhCSlJ1VVJYMlQ1T3BxaWw1Tkl5VlZRTUM3VnowY284dlNwTDdKTmY3dlDSAV5BVV95cUxOaVVROVhTTlpKNm8wSjdmLVZ1NjBhZ3J6TGU2OXRHS08tQzA5OUI4bmttY05OcU9yZFNNZmtscnQ4S3d3M1FDYUE3MjZiV194cmN1Q1oxQU5tVmNEeWln?oc=5",
       "source": "토큰포스트",
       "date": "2026-11-10T03:02:14.000Z"
-    },
-    {
-      "title": "[11월 10일 코인 가격] 비트코인 0.37%↓, 파이버스 42.61% 급등",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE82X0E3Q2F5clZRem8wUmN6eWJ5eDZiczJBcDdTUkpoUkNnbjkwd0U0Z0lleXRQS2NOamxaeHFmNkhJdXdES2pQZFNrbFhLVV9GSTEtWF9xQjFJczlWeWZwQXFvcDEzS1BW?oc=5",
-      "source": "IT타임스",
-      "date": "2026-11-10T01:17:13.000Z"
-    },
-    {
-      "title": "[선물 고수 PICK] 비트코인 달러 마진 롱 비중 2.65%p 증가...도지코인 롱 계좌는 소폭 감소",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9tYVByVnZZTFhIWmZVekVxc3A5MTVsT29zaV95OGtyUU9JX2o4Z2hxazMwYXNFai1ETDFpNHJ4YlJpdnViMll5Y3FHS1c1al94YV9QWGM3N1JSNU1kNm4tYtIBZkFVX3lxTFBZMEpNVmhDc0RVUzFMWFc4N0FiN21KdHI3T0hZLWVkVjU5bnliREhwX3RrMDlEeUtqUndJVUpBMFB5YmNvbTRJZDA5UlFiRkJUc1g2UlFhaTRsWVFDLTEtMVpYV1BzUQ?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-10T00:15:37.000Z"
-    },
-    {
-      "title": "[아침 시황] 비트코인 1억189만원…상승 종목 41%",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9rVXhYZVdWeE8zQVU1OEZDT0hmYWdNR1dfYThTNHJMelBUdTJic2dDNE5DZFU3azdPMlZFOVhOVTdZYXp4YjNhd2tmWVVkM2JiaE5OLTdfMmQ3VDhCZ29IMdIBZkFVX3lxTE40bnhqMGczSmZqN056NEpMU2pEVFBGZ3Bua1ZYV3dEVXpWV21sWi1OcV9FUk16dVRDYm96ZU44TlJPQjRqLXg3bm5ZV1hhRmhoR1luVnlmYWJhNEJWQzlqb1l1eG5odw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-09T22:30:23.000Z"
-    },
-    {
-      "title": "XRP 수수료 소각, 가격 주요 동력 아니라는 슈워츠",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HWUVHZ1pucUdiY2dEaXloSmhSNHZwek5KQlVVbmRoaTZJdmpYMnROWHVEMmdmUXZTcFhHRGFkWXJIVHp1ekcyRG5LaFhrMmRhVEt6NnFuNVdSU2xadkEzOdIBZkFVX3lxTE5Jd0NuUEJIcjYyalJwbE9ycVoxRTZnbXRIaFE3ZzV6amdza0xGLWx3bGMtOWVmYk94ZTh3NUhmMFB5TVZFR0dTNW5KQnl3NTlaNDdIZ0s2R2ZCQjk4TDlBbWhOMEpJZw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-09T21:40:13.000Z"
-    },
-    {
-      "title": "NYSE, 토큰화된 주식 결제 위해 Avalanche 도입; AVAX 가격 상승",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZk5qdXpTVmtmMVl1ZkFtTXk2Y2JNNkU5S2d2UWVBZXBNQ1ZOY0ZqaU9YOExIbUpEOU5OYUwydUx3OWdmT0tfUzgwaTBYLUFnMGsyQlRhMzM0cGJoVTJlRW1teUVuajVhYU5HM19taGtrRzdGMlVCNE94bkpYRnozNHpGSDNOUmtTMmpCMWZ2Szk1d0ZwZ21sajhTVDVfNHpPOWhuNkEwbWNhNUFOVTlLd0lZTjN4Y3F4NThCNVN3WmdKcUl6b1BGQVh3?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-09T16:33:08.000Z"
-    },
-    {
-      "title": "비트코인 20만 달러 기대…2028년 반감기 앞두고 상승 동력 붙을까",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE02YWpodkF0cUdXalZHN0xPZzdncGxidnV5cU9ialdCMWw4U0lJbFFpT0hCMjhFdDNjR1N5YWx5N1JJRTd6SGNoT3d3TmJWbUNBTDNiZEtYWkxGTEhzbEYtaNIBZkFVX3lxTFBtUXRpdFg0cG1PZnJfQUMwQXFXb3JJa0VjYzRkb3dwbXA1blNDRXduY1JZUkFsSWRTM3RoeE0tUVFYdFBHTGRZQVJBT1BkZllGc0UyWjdQRHJmUFJtZUJNcFJnNENadw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-09T15:18:04.000Z"
-    },
-    {
-      "title": "[자정 시세브리핑] 암호화폐 시장 하락세… 비트코인 74,765달러, 이더리움 2,125달러",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBlSXJ2TXhDSjN1aVlKRmI3ZlZILWhucjQzS2RlcGl0Mi1ZX1NMMDh1YzdLUUhsenQwN2lwOXZIeUp3TVY3aDRRNFI5ekVSajBUNXdXY0J1dErSAV5BVV95cUxPcW96MlM2OW9Zd1BYOHpFZHRwcDJaSUgzMExBTlI2N3JEOWRtQWx1V05aN1VsRk1ySmN6UDgzeXFQWTdKYngwSVo1NWw3X0UxR2UxeE5WdXNxOUdvQm9B?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-09T15:04:18.000Z"
     }
   ]
 }
