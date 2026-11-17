@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-17T05:28:21+09:00",
+  "updatedAt": "2026-11-17T12:52:41+09:00",
   "topic": "kosdaq",
   "items": [
+    {
+      "title": "‘인텔릭스·클러쉬’ 코스닥 상장",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9BbGZQZElrVVEtNllaWlpCWHh6bGVlc0FsNUo3WTNVeUFYeG41MmVpdjVkOENRS25XNXhVaG1BN1BaTjAzbGhiaGJRMW9JZE4yZk1EWUhDRXhITXQxSXc1SGx4OHBtMGlMOFJaeg?oc=5",
+      "source": "뉴스웰",
+      "date": "2026-11-17T02:57:55.000Z"
+    },
+    {
+      "title": "코스닥 신용잔고 5000억 감소… ‘수급 빈집’ 노려야",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1BSGZQeGttenZVd3JqZzBDTlhvdGs1WE1md2VwaWZpdDJEaHBlOHoyOVc4LUdyV1BpM0ZmMkxXMmlra2VqNkg2OGRWWWllTl9xU3NNMXV3?oc=5",
+      "source": "헤럴드경제",
+      "date": "2026-11-17T02:26:45.000Z"
+    },
+    {
+      "title": "코스피, 1%대 하락 지속…'5천피' 사수 공방전",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5zX19mSUkwNFJybS1EXzVMVUQwUG9FNWE4QThHRUdhT09VYi1RVXh1Skg4UzZUeElUR3NzdFNjaW9IRV91QVk4VUgxSGM1Q3l0SVhkVlYtUThOSkHSAWBBVV95cUxQUXhvOTVCQ3ktTVlWOGJzc2doY2VGc1ItemZXdjhmbGRLSUdsRU1yUWpMa0lvS3FJVHR6YWVQclFISXBIbFVRdjhiRmUtc0hmSkIwbnhJd1d1dUtTeFlTYkc?oc=5",
+      "source": "연합뉴스",
+      "date": "2026-11-17T02:25:51.000Z"
+    },
+    {
+      "title": "외국인 5600억 '팔자'…기관 매수에도 코스피 5000선 '위태'",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1mSXhLQ0F0Z01fMlpDNTM5NmQxc0hvazh1bGxkd0JOZHpjemNYTFlNMDFjRHlQRVZzQ3h3eDNVSEFSYlpDWUNLWVNSMkYwZXljSUdKRFJXYWtnZEV5?oc=5",
+      "source": "뉴스핌",
+      "date": "2026-11-17T02:07:00.000Z"
+    },
+    {
+      "title": "[특징주] 옵토닉스, 코스닥 입성 첫날 +119%대 급등",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBQd2Z3MjJZNjQwWTdzT1paVWx2TUowNEhpenFxX0xncHEtcjhaWHQydEExbFNoTXNlRGhISkhRR1oxanRyblQwX09wbkxpT1BXMUNXcXM1WUwyLXZSRktXdWk3SWVQRWFyd1ZOMzd3?oc=5",
+      "source": "전국매일신문",
+      "date": "2026-11-17T02:06:56.000Z"
+    },
+    {
+      "title": "[특징주] 옵토닉스, 코스닥 입성 첫날 급등… 신사업은 2029년 이후",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxX2FZVl9nU280aFBQUnpUVWtPYzNSWi02MEotQ25LME84cHZDMVJsWTRwR19mamVLQWVRS1p5d2g4OVpBTHg2NWw2RDZ3MDBzTG5QbHMycU82aGFObmFuSWtyTWZXYVp2a2tMM2s1Q2Y?oc=5",
+      "source": "비즈트리뷴",
+      "date": "2026-11-17T01:55:00.000Z"
+    },
+    {
+      "title": "[ET특징주] 옵토닉스, 코스닥 데뷔 첫날 '따블'… 111%↑",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9LSVpWSXRKbnlZSWx1NTJVeEtkVmUyQzV3dktFUzNUYWlpRnJXblNmRkgwZDNMQ21ma2M5bTluRlN0dGM3SUtXemRtbm45UQ?oc=5",
+      "source": "전자신문",
+      "date": "2026-11-17T01:50:06.000Z"
+    },
+    {
+      "title": "“코스닥, 한계기업 늘고 개미 비중 높을수록 기업가치 왜곡 심화”",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WNmU0NjY0RG5NeEl5dndRZUVRY0FKZndzckF2VFZaaEY4Z1hNV21jN3R6MHRnYUhFWnNKM05KQXVseXlDdi1FaXBJaEFiYmRvSnF4TVJTcW5iWkJNa0pQSi1OYy16OGFkWFM4aGlYclPSAXRBVV95cUxQeXdVRDBxd0NXa2NTNHhWdW5ZakJVZENwcVVhajFvTnl6ZG9KQjg0THl2ZkxzcUVKUl9peVo0RnpUaW5CcE43Z1BtaXZydHBJcnJac3RsQmRkaXN2aldEclZMdEJTbkRGTlVGeVlpcFo1WVVtZQ?oc=5",
+      "source": "주간한국",
+      "date": "2026-11-17T01:48:48.000Z"
+    },
     {
       "title": "기관 등판해야 '코스닥 승강제' 홈런 친다 - 머니투데이",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1SMmlIa2xyTDlUVDJBZEowOFVIMzl6RjNsS2ZvLVV5aHhsUGdiS2tpTWZGY2RuQnpNaEtBbHZNLTNaQXNSU0gxbUhZeUFNSnFYVnZabkxDT2pEaDhJSUNQbXFBZExnRnEt0gFuQVVfeXFMTnQ4NFA3OU01Q3FtRlhLcFlBdFRselF2U2c5WUMtWjJTOG9qS2thYTFPNFpDV2NkNnZSTUJ4bHNPd19fQnZFeUNhN0VMa1JBczdYX3EzWHVWb1JCYVlvUHY5Q3BtM0tDVVhPb21KQWc?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00NEFBV3Z2blg5R2FzTWVhaTJiWkxNVDBISXVHbXIzYlRIRGJwWjRKY0l2SjlzRmpKdjgxdUhhN19DazA0TjdJNjVXSGJGN1pHdnp2dkRJQjIxaVNQWGdWNGk1b0FXRU1QMUE?oc=5",
       "source": "비즈워치",
       "date": "2026-11-12T01:00:02.000Z"
-    },
-    {
-      "title": "코스피 관망 속 코스닥으로 이동한 수급…이동우 대표가 주목한 순환매 방향",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NOFZfSzhVSVpvaTFpVERTdGp5YlEzam5Zb2wwTWpzU0hBazJ3OXJjUGRIaHdjN245VHJfcTNEaHhpdnZTeHZmbGdFWGFjcExidWF4bVBmcGR2LUVsMU1iNg?oc=5",
-      "source": "아시아경제",
-      "date": "2026-11-12T00:55:00.000Z"
-    },
-    {
-      "title": "[코스피·코스닥 전 거래일(11일) 주요공시]",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5Tam9qWnRTclhIRm1PczNuTnhYa3BSNkc2ZzBuVzhncUZreE9aaHBPY3FiYTRBaW4zLWxwZndrZWpCSEtnOUl6c1ZLcEhWbjlwdU1JOVV4ZmdUWFnSAWBBVV95cUxOWjlhZG1iSkE1NHlwaVd3OTBPMW9yeUE4RGpWTGpTeUR5eTVQRDZfQTJ2VUpSQ0FYWTIwRGIyMmIwbkFSUkg5eGE4eGZ1ZVAwOHJnbkVGUHR0Mnl6S1BLNzA?oc=5",
-      "source": "연합뉴스",
-      "date": "2026-11-11T21:05:00.000Z"
-    },
-    {
-      "title": "[숏폼] 바로팜, 코스닥 상장… 전국 약국 90% 품은 성장세",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5nZlVtYTdlTUpvV1RPZVJUUmhPaFc1bVFtR2pCUzBjb0ZnMWlZcEd2bEI3eUdnc0Fla0E0NUtPQVFRY0NNZjZ3MUVyNjBxRFk2dHRmOVZoZmY0T3hhX2dMbTVwOVFkbXg4eGVR?oc=5",
-      "source": "히트뉴스",
-      "date": "2026-11-11T21:01:00.000Z"
-    },
-    {
-      "title": "[노트북 너머] 코스닥의 생존 조건, 기업을 알리는 일",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5BSUlrcHRJWnl3VkhmUkFoR1ota1Mydmo4d2I4cV9WYWVPSi14cFZKMjhyRkxtZFlyQk5RUnF4T0pKdFhwdHg0QjFDdzBrV2U2clBWWQ?oc=5",
-      "source": "이투데이",
-      "date": "2026-11-11T20:00:00.000Z"
-    },
-    {
-      "title": "\"3000스닥 간다며\" 계엄 수준 추락…\"1억→6000만원 됐다\" ETF 뚝 - 머니투데이",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE90SDRHODJyQzZ3bEI3aVRHbVJNeDZHdENiV3EyLW5XSWFYWWF2N1lMY3d4aEdRZk1CT1p5alpCV3hnblRGM3NTLTlRZUx5dDlYVGV6amFzVThVWGNwT2dQQ29kVVhrRVhS0gFuQVVfeXFMUDdhYTlZYWZsM3ctMlN4NUl3YTlNNzd2S1BJb0thLWVSUVp0d2tiNVFwYmd4SjZobkswM2owZlZacW43WHktYVFDWjNsc1ZBQnJ5ekJzTzdUeFBqU3VEbWVJM3J2Y1A3UGdCVTlXbHc?oc=5",
-      "source": "머니투데이",
-      "date": "2026-11-11T12:06:56.000Z"
-    },
-    {
-      "title": "코스피, 美 긴축 우려에도 강세…코스닥 5% 급등",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBrdmVtNzNvOWlEZ0tnYm9OcXlidHAxdW5hWDNIeDZDWWJtTGMxWE4zS2tBTks0enljZXhIYkJPa1ZSay1hdjBWMWZfa2NodXhlODgyc2NnWmhEQmtKZnZKaFNnVmVMVFk?oc=5",
-      "source": "연합뉴스TV",
-      "date": "2026-11-11T11:51:00.000Z"
-    },
-    {
-      "title": "5% 넘게 뛴 코스닥, 700선 탈환… 부양책 기대감에 ‘불기둥’",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93N1g2ZHFVY1Z1OEJ2aUVLZDZqQzJXd3ZqT1Q1Uk92c1Z4YndsZmx2TUoyTTQ2TkVuR3REaHpINjVVUGdVZFRLZW94TVFmUGwyTktCU3dMdV9lQQ?oc=5",
-      "source": "파이낸셜뉴스",
-      "date": "2026-11-11T09:30:30.000Z"
-    },
-    {
-      "title": "코스피, 미 긴축 우려에도 상승…코스닥 5% 급등",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9QcVZ5WGMxdlQtQXhCTkktYy1pUjlncTBLUGNxa19TVmw3QUFpcVJGQlpXMXAtQ3gzNTdDeWp5YTVOUDZqMEpnTkd4TFdEbzJ6NTBYbkJ4Q19PTC1nYWFxVUFmOERzM2M?oc=5",
-      "source": "연합뉴스TV",
-      "date": "2026-11-11T09:14:00.000Z"
     }
   ]
 }
