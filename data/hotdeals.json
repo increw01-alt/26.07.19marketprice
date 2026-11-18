@@ -1,82 +1,192 @@
 {
-  "updatedAt": "2026-11-18T13:19:56+09:00",
+  "updatedAt": "2026-11-18T22:57:48+09:00",
   "deals": [
     {
-      "title": "다시마 양파즙 30포",
-      "mall": "남도장터",
-      "price": 5400,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749733",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T04:02:57.000Z"
-    },
-    {
-      "title": "아이깨끗해 핸드워시 리필 1.8L+본품 250ml(250ml 공용기+100ml 리필)",
-      "mall": "오늘의집",
-      "price": 9486,
+      "title": "디즈니 외 캐릭터 키즈 방한화",
+      "mall": "롯데온",
+      "price": 5610,
       "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749732",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749919",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:58:16.000Z"
+      "date": "2026-11-18T13:46:18.000Z"
     },
     {
-      "title": "에탄올 워셔액 1.8리터 6개 (10,250원)",
+      "title": "Culligan RC-EZ-4 Under Sink Water Filter, 2개 $92.99 (개당 $46.5), 한국까지 무",
+      "mall": "Amazon US",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/83122",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-18T13:45:19.000Z"
+    },
+    {
+      "title": "셀폰즈 고래 펩타이드 녹는실 앰플 3박스 + 1박스",
+      "mall": "sk스토아",
+      "price": 151848,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749918",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:36:22.000Z"
+    },
+    {
+      "title": "에디션 브러시드 사방스판 슬랙스",
       "mall": "지마켓",
-      "price": 10250,
+      "price": 20660,
       "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749731",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749917",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:51:54.000Z"
+      "date": "2026-11-18T13:33:31.000Z"
     },
     {
-      "title": "제스프리 점보 골드키위 12입 1.3kg (개당 110g 내외)+2개 구매시 2알+피규어 증정",
+      "title": "국내산 고춧가루 100% 김장용 1kg",
+      "mall": "11번가",
+      "price": 16900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749915",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:20:18.000Z"
+    },
+    {
+      "title": "고당도 가정용 경북 햇 부사사과 10kg",
+      "mall": "카카오",
+      "price": 17800,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749914",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:19:18.000Z"
+    },
+    {
+      "title": "스테비아 토망고 500g x 4팩",
+      "mall": "오늘의집",
+      "price": 8188,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749913",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:18:46.000Z"
+    },
+    {
+      "title": "멸치액젓 5kg",
+      "mall": "롯데온",
+      "price": 16320,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749912",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:17:55.000Z"
+    },
+    {
+      "title": "겨울맞이 추천도서 335종",
+      "mall": "지마켓",
+      "price": 3900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749911",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T13:03:27.000Z"
+    },
+    {
+      "title": "참나무 훈연 돼지막창 1kg",
       "mall": "네이버",
-      "price": 15910,
+      "price": 19500,
       "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749730",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749910",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:47:05.000Z"
+      "date": "2026-11-18T13:01:20.000Z"
     },
     {
-      "title": "강진군농협 탐진강 찰진쌀 새청무 10kg",
-      "mall": "네이버",
-      "price": 29900,
+      "title": "제주 아쿠아플라넷 입장권",
+      "mall": "롯데온",
+      "price": 34080,
       "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749729",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749909",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:32:26.000Z"
+      "date": "2026-11-18T12:46:10.000Z"
     },
     {
-      "title": "휴대용 충전식 듀얼 손난로 5000mAh",
+      "title": "동원 개성 왕만두 2.1kg 2개",
       "mall": "G마켓",
-      "price": 14780,
-      "cat": "디지털·가전",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749728",
+      "price": 23900,
+      "cat": "식품",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749908",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:28:32.000Z"
+      "date": "2026-11-18T12:43:53.000Z"
     },
     {
-      "title": "깨끗한나라 휴대 여행용 티슈70매 x 10팩",
-      "mall": "GS샵",
-      "price": 6210,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749727",
+      "title": "라이크라 프리모션 사계절용 스트레이트핏 청바지",
+      "mall": "옥션",
+      "price": 18490,
+      "cat": "패션·뷰티",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749907",
       "direct": false,
       "source": "뽐뿌",
       "sourceId": "ppomppu",
-      "date": "2026-11-18T03:14:29.000Z"
+      "date": "2026-11-18T12:35:46.000Z"
+    },
+    {
+      "title": "맨잇슈트 순모100정장+타이",
+      "mall": "롯데온",
+      "price": 47500,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749906",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T12:28:27.000Z"
+    },
+    {
+      "title": "백 진미채 1kg",
+      "mall": "11번가",
+      "price": 16900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749905",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T12:20:57.000Z"
+    },
+    {
+      "title": "캐치티니핑 쥬얼스타폰",
+      "mall": "롯데온",
+      "price": 99900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749904",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-18T12:17:19.000Z"
+    },
+    {
+      "title": "마이크로닉스 POCO ITX 강화 유리 케이스 [19,900/무배]",
+      "mall": "톡딜",
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/83116",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-18T07:52:46.000Z"
     },
     {
       "title": "국산 전라도 썰은 배추 맛김치 2kg",
@@ -90,72 +200,6 @@
       "date": "2026-11-18T03:09:09.000Z"
     },
     {
-      "title": "플랙 테이퍼드 데님 바지",
-      "mall": "29CM",
-      "price": 37730,
-      "cat": "패션·뷰티",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749726",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T03:08:12.000Z"
-    },
-    {
-      "title": "드시모네 캡슐 플러스 180캡슐",
-      "mall": "H몰",
-      "price": 117600,
-      "cat": "건강",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749725",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T03:05:13.000Z"
-    },
-    {
-      "title": "프리미엄 짜장라면 짜르르 12개 + 펩시 제로슈거 라임 3캔",
-      "mall": "네이버",
-      "price": 12590,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749724",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:59:50.000Z"
-    },
-    {
-      "title": "노르웨이 슈페리얼 생연어 1kg",
-      "mall": "지마켓",
-      "price": 31920,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749723",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:59:00.000Z"
-    },
-    {
-      "title": "하림펫푸드 오븐베이크드 연어 1.6kg 4개",
-      "mall": "토스",
-      "price": null,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749722",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:47:06.000Z"
-    },
-    {
-      "title": "국내산 볶음김치 1kg 외 다양",
-      "mall": "11번가",
-      "price": 7570,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749721",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:42:09.000Z"
-    },
-    {
       "title": "사생활 보호 간편부착 강화유리 액정보호필름 아이폰17, 2매입. 갤럭시S26, 2매입",
       "mall": "네이버",
       "price": null,
@@ -165,28 +209,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-11-18T02:40:57.000Z"
-    },
-    {
-      "title": "NFC ABC주스] 사과+비트+당근 100% NFC착즙원액 방식의 ABC주스 30포 x 1박스 외 구성",
-      "mall": "네이버",
-      "price": 10900,
-      "cat": "식품",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749720",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:38:09.000Z"
-    },
-    {
-      "title": "26년산 당일도정 수향미 상등급 10kg",
-      "mall": "오늘의집",
-      "price": 33397,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=749719",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-18T02:31:21.000Z"
     },
     {
       "title": "니베아 맨 센서티브 쉐이빙 폼 면도크림 250ml, 4개",
@@ -363,28 +385,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-11-15T15:27:36.000Z"
-    },
-    {
-      "title": "iOS 일시무료 모찌모",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/82979",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-11-15T00:36:11.000Z"
-    },
-    {
-      "title": "iOS 일시무료 장표스냅",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/82978",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-11-15T00:31:58.000Z"
     }
   ]
 }

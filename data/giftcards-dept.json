@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18T13:19:10+09:00",
+  "updatedAt": "2026-11-18T22:57:01+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -140,8 +140,8 @@
       "label": "현대 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 481750,
-      "buyRate": 3.65,
+      "buy": 482000,
+      "buyRate": 3.6,
       "sell": 482500,
       "sellRate": 3.5
     },
@@ -152,8 +152,8 @@
       "label": "현대 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
+      "buy": 96400,
+      "buyRate": 3.6,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -164,8 +164,8 @@
       "label": "현대 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48175,
-      "buyRate": 3.65,
+      "buy": 48200,
+      "buyRate": 3.6,
       "sell": 48250,
       "sellRate": 3.5
     },
@@ -226,8 +226,8 @@
       "method": null,
       "buy": 96300,
       "buyRate": 3.7,
-      "sell": 96450,
-      "sellRate": 3.55
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "meee",
@@ -274,8 +274,8 @@
       "method": null,
       "buy": 96150,
       "buyRate": 3.85,
-      "sell": 96270,
-      "sellRate": 3.73
+      "sell": 96230,
+      "sellRate": 3.77
     },
     {
       "shopId": "worldticket",
@@ -392,8 +392,8 @@
       "label": "신세계상품권(50만원)",
       "face": 500000,
       "method": null,
-      "buy": 481750,
-      "buyRate": 3.65,
+      "buy": 481500,
+      "buyRate": 3.7,
       "sell": 482500,
       "sellRate": 3.5
     },
@@ -404,8 +404,8 @@
       "label": "신세계상품권(10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
+      "buy": 96300,
+      "buyRate": 3.7,
       "sell": 96500,
       "sellRate": 3.5
     },
@@ -416,8 +416,8 @@
       "label": "신세계상품권(5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48175,
-      "buyRate": 3.65,
+      "buy": 48150,
+      "buyRate": 3.7,
       "sell": 48250,
       "sellRate": 3.5
     },
@@ -478,8 +478,8 @@
       "method": null,
       "buy": 96100,
       "buyRate": 3.9,
-      "sell": 96300,
-      "sellRate": 3.7
+      "sell": 96250,
+      "sellRate": 3.75
     },
     {
       "shopId": "centralgift",
@@ -500,10 +500,10 @@
       "label": "현대 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96500,
-      "sellRate": 3.5
+      "buy": 96350,
+      "buyRate": 3.65,
+      "sell": 96450,
+      "sellRate": 3.55
     },
     {
       "shopId": "centralgift",
@@ -584,10 +584,10 @@
       "label": "국민관광 상품권(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
-      "sell": 96550,
-      "sellRate": 3.45
+      "buy": 96350,
+      "buyRate": 3.65,
+      "sell": 96600,
+      "sellRate": 3.4
     }
   ]
 }
