@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19T12:25:23+09:00",
+  "updatedAt": "2026-11-19T22:02:30+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -202,8 +202,8 @@
       "method": null,
       "buy": 96000,
       "buyRate": 4,
-      "sell": 96230,
-      "sellRate": 3.77
+      "sell": 96200,
+      "sellRate": 3.8
     },
     {
       "shopId": "meee",
@@ -226,8 +226,8 @@
       "method": null,
       "buy": 96300,
       "buyRate": 3.7,
-      "sell": 96500,
-      "sellRate": 3.5
+      "sell": 96450,
+      "sellRate": 3.55
     },
     {
       "shopId": "meee",
@@ -272,10 +272,10 @@
       "label": "롯데 상품권 (10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
-      "sell": 96230,
-      "sellRate": 3.77
+      "buy": 96000,
+      "buyRate": 4,
+      "sell": 96200,
+      "sellRate": 3.8
     },
     {
       "shopId": "worldticket",
@@ -298,8 +298,8 @@
       "method": null,
       "buy": 96400,
       "buyRate": 3.6,
-      "sell": 96500,
-      "sellRate": 3.5
+      "sell": 96450,
+      "sellRate": 3.55
     },
     {
       "shopId": "worldticket",
@@ -442,8 +442,8 @@
       "method": null,
       "buy": 96200,
       "buyRate": 3.8,
-      "sell": 96800,
-      "sellRate": 3.2
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "xegift",
@@ -452,8 +452,8 @@
       "label": "갤러리아 상품권(50/10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96300,
-      "buyRate": 3.7,
+      "buy": 96200,
+      "buyRate": 3.8,
       "sell": 96600,
       "sellRate": 3.4
     },
@@ -536,8 +536,8 @@
       "label": "롯데 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
+      "buy": 96050,
+      "buyRate": 3.95,
       "sell": 96300,
       "sellRate": 3.7
     },
@@ -548,8 +548,8 @@
       "label": "신세계 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96400,
-      "buyRate": 3.6,
+      "buy": 96350,
+      "buyRate": 3.65,
       "sell": 96600,
       "sellRate": 3.4
     },

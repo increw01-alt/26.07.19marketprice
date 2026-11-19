@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-19T12:25:43+09:00",
+  "updatedAt": "2026-11-19T22:02:50+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "[저녁 시세브리핑] 암호화폐 시장 하락세… 비트코인 63,767달러, 이더리움 1,808달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90V1NhUmVock5Lb2xUeDVHWlJhYkxTR2MyMTg2SDVSdVZNWmx1b0M3YXRpWm1lNnBmVkc2ZTM5Y1dSenVtTFZ6a2Fxa0NueHpmWHJKX0lCLUHSAV5BVV95cUxNS3dXTS05cFN5N1J5RlkzaE4yUzhZSVE0VW95bUFkMERQSU1QY2xHbjdGbUdnb2l2a2dJYzFFbUJqN3lQR1MtYVBJU2JtRUctUGdVcmNCeEVpaDA0VGd3?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-19T07:02:22.000Z"
+    },
+    {
+      "title": "[시세] 헤데라(HBAR) 3.77% 하락…0.0551달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9FcGlnV1FtZjN3NzRwX3dnQ1QxSlhHNmo0SE9BdV9BQjJzeko4VTFsOFZyQThKS0tEYTkwelFzdTRIdDdZXzJuaU53?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:13:08.000Z"
+    },
+    {
+      "title": "[시세] 그램(GRAM) 4.53% 하락…0.9930달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5Cc204a09xcVFCU1Rvbk9XZ1NGYmtja2NGREhoTklGRUhvSjcxQWZoQU1ET05PS0wzNWo1Q1NIY1RNeE1GNWR1OFln?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:11:56.000Z"
+    },
+    {
+      "title": "[시세] 이더리움(ETH) 연준 우려에 눌렸다…1,712달러 시험대",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE04bDd4OGRBMGpIMHJjMkc2a2Q5emVQSDVsQ2s0eklraGVRR0doaWV5Y19FZXd6ZDNRSWM5eXI5RzdGWlFxa3RMYWZ3?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:10:42.000Z"
+    },
+    {
+      "title": "[시세] 도지코인(DOGE) 눌렸다…0.0578달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1udlZBYzBaT1owNHdKWmxJcWZOTU1UZUwzTVRpSkM3d1RWSGtXaFMybWlMQ3VnV0hMclk5ZDJMOXl5M2hQcjlNSEFR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:09:07.000Z"
+    },
+    {
+      "title": "[시세] 시바이누(SHIB) 긴축 우려 속 0.000003690달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBiOHZqbldmQjZ3dGlROS04V0R2WmJ1Y1NScjNReTQwc28ybm5LRmtpVHhBbFdnRzV1alhieTdjWVlaZmpaM2JEZktn?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:07:37.000Z"
+    },
+    {
+      "title": "[시세] 솔라나(SOL) 시장 하락에도 버텼다…67.55달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE43RUlPYWFWcmpfczBhTDhER0VHLXd1ZGhEYXdUNzlKUkg1YkdhMG02a24xR0JWT2Izci05Z3g3RFMybnNQMndIWUlR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:06:07.000Z"
+    },
+    {
+      "title": "[시세] 카르다노(ADA) 0.1528달러 보합권…0.1487달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9EUnJfU0luWjRrY3dLZ2FFNk1jYzFXOFBlM2NuLWtmTDA1bkxnZy1TbWxJMm43MXBxOEpJbE9WTXNucEJiWGh1cnV3?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-19T06:04:36.000Z"
+    },
     {
       "title": "[오후 시세브리핑] 암호화폐 시장 하락세… 비트코인 62,548달러, 이더리움 1,768달러",
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lNkZNMktvRWJtaFg5XzFiMlZ5WVdKNGVacWJLX3MzX3R4ZW9MVDdfc0RmSnV1LXRHTVkwaV9HMmlweDlzelZQakFaLXlxanFDamlmRm10aVnSAV5BVV95cUxORXB1ZHE2clVJZHZXa3pFbk5DanhTdTdNaTR0QzdIRFJvYXJtUFpONUhBNk80OWQyZUMzblh6eHBJdnZfZUhhdzFXZ3d2QXVCZXVqT2piYV9hUzBSMHRR?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNYldRMVlQNl9HdGdHR0x3TEFON1FYclFfeWg2bjhaSlpoMkU2dGJtbVdfcUtNTU1wRWtOTXdUYlVhTnZPZUNCYTloWFdJdDhEdWUwMVI2NTcyM3RiTEhSWDhXQ0ttTmMyR2NUb05BcVoyeDFuVUs5OUEtYkVEMVdJMEJYOGtCamxyalJ4RmxLTjE1YV9SUWdNUk1FUHdtM2wzT3c?oc=5",
       "source": "CoinDesk",
       "date": "2026-11-12T12:19:02.000Z"
-    },
-    {
-      "title": "엔비디아 CEO 혼란과 ETF 자금 유출로 암호화폐·기술주 동반 하락",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSVBKVmtSQnJNTTd3YmY2MUgzV2VnZHVvVkhGLTFQRVhqbnpVZTh6YkVoR18yZzVtb0tKcnpPWFp3Rzh1VWM0ajBJRk10eWU1SndIeUJ2YXJXRTNEWk5BRm1MUXJOOWNDbTZ1eVNsd2N6TFJJdnJOWUZ2UlBvZF9NSC0teEJpZnA3MDF0cHgyWTdDem1DTUtja0N0dnl2U3ZLdk9pLQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-12T11:30:00.000Z"
-    },
-    {
-      "title": "[저녁 시세브리핑] 암호화폐 시장 약세… 비트코인 73,526달러, 이더리움 2,046달러",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9jRThKSkNkS1A4SHdNNHNUS0ozeDVxVjQwVFZDbmhFSURXcGJQN2o2T2paUDFIZUFvVnhjb0pFMEVqejBLVVpNemFDODR3eHBnYTUtaXF5b3jSAV5BVV95cUxPeVIyYTBlQW9jZG5naWRObUVvOHBpUzNWbUgzTlRvZTZ2UEZ3TWl2dEN4S2xPbDNDYnhqZDJnNWk5UW11QXg3REZSaHpWYWVyUDdmTzZqdjVmTU5ST0d3?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-12T07:03:25.000Z"
-    },
-    {
-      "title": "이리화, 비트코인 강세 전망 유지…롱 정리·현물은 평가손실",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsV3RuRW5iLWhlSU4yejRIR0xpM0lPYzJsajBlc1Racm82ZFhaYmI2V2RHX1N5RjFHOXFkRktHbFVjOU1mSUZfenBjYXBVbUNjVTZDdFNKUlFHWldMTjdDVdIBZkFVX3lxTE1BUVpUWGQ3QUFQOUc1bWcxWmdqYTJtV05PVmltRWxaMFhtcnRVSUpaa1dwY01jbHV3NEJhcm96eEkxS1hZSWFzNG02dTBtQjhxVE9pSGtxb0g0U19HWTJ5WWNmUTZIUQ?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-12T05:55:40.000Z"
-    },
-    {
-      "title": "비트코인 선물 매도 우위…담보별 미결제약정 감소",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IdmhxbG9EaFRwLXpibXhYNDJOcElTdEZxaFdTbndDYzhxc0hMT1BuQmN4STM0TFpmSUhOc1BaYUFrR1FLcGdZdkFwUjM1dDRlMS00cnl1LWIyVzhHMUlqZw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-12T05:33:14.000Z"
-    },
-    {
-      "title": "BTC 뉴스: 비트코인 코어, 수천 개 노드가 Tor 상의 낯선 이를 신뢰하게 만든 버그 공개",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQV0NPNUhIb3l0QWZ6MmtWSlludHo3TS1PbVdXbWZhQmh1T09GQjlsUGJMNTBOSmZONVVadjVZTXg5VDdXMmxXWHpfR05ILWRjengzZ0QxTWI2SUpkUjZ3SWtmZEs3amp4MmlVYlBsck5jX3R1WWkwR1BfcF9KRVlQdmtCSVUwa01vU1RISGRELVFGUjV5MnU0dmFSOTQ1VGYxejUyb01vaXFCZDhQVDRkdnY1S3JZWF9RczN6M3BvTzg?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-12T05:22:31.000Z"
-    },
-    {
-      "title": "[11월 12일 코인 가격] 비트코인 0.78%↑, 미드나잇 13.73% 급등",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01LWRhSl9CRWlablBfODlZUHVrSFhPczJ4UGEtenlpMkZORE5sUXlmU2Q4VmVncUdibEptOXJlc2M2b2hYMHhJQzg5cHNSTXRROUZuQjBheDhnb1ZJbVNxWFhmUFd2UjZm?oc=5",
-      "source": "IT타임스",
-      "date": "2026-11-12T01:04:10.000Z"
-    },
-    {
-      "title": "비트코인 저평가 본 코스타, 연준 인상 종료 때 큰 움직임 전망",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5rbG8tNTZwdURHVVA1V2NGWHZEamh1dnNXcXNicWtNM2I4LVNhTk1VcE80NVlwYXNINXIxTTBMRHhHcWoxaTY3dVR1STZ5NDZqejZHQjdaQVJWTGZQNGZ6atIBZkFVX3lxTE5EaFZvQnRvY2FMWHBMY3EtZmJTVXJ5SWk1S0djNkdKZlo4TE1PYlp4dFJpT3JVYmJoSzhmcjMxVHM1N0Y1WllRbFJRbWN4dE5wZ0pjUXlXRFlFZWRIcUMxWm9TNU9DQQ?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-11T22:34:20.000Z"
-    },
-    {
-      "title": "비트코인 90점서 0점…강세지수 한 달도 안 돼 최저",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GVFhiaTRGTUhYUldKbTB0bE5YQVF0YVVWaHpiTUlRbU43VmpBYTFSYmpLcGVUSmhqYVBSU2NEVW9CTnJCQlZCUzN3VWJPVFgzbFpSZ1JhV09aVkkyRTk0SdIBZkFVX3lxTE8zWkQwY1RkWWoxNUlhUkJmZ2RuZXAwSlpPS0VTbG9ReFRkWHc4bVJnTE01UmtMMTJaa0x2TGhFMkVQem93enF4Vl9rVnRoaFRCN19UczBnVFBpX3FKQVNyRGdGUW5JZw?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-11T22:30:14.000Z"
     }
   ]
 }
