@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20T06:31:41+09:00",
+  "updatedAt": "2026-11-20T12:12:48+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -68,8 +68,8 @@
       "label": "롯데 상품권 (50만원)",
       "face": 500000,
       "method": null,
-      "buy": 480500,
-      "buyRate": 3.9,
+      "buy": 480750,
+      "buyRate": 3.85,
       "sell": 482000,
       "sellRate": 3.6
     },
@@ -80,8 +80,8 @@
       "label": "롯데 상품권 (10만원)",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
+      "buy": 96150,
+      "buyRate": 3.85,
       "sell": 96400,
       "sellRate": 3.6
     },
@@ -92,8 +92,8 @@
       "label": "롯데 상품권 (5만원)",
       "face": 50000,
       "method": null,
-      "buy": 48050,
-      "buyRate": 3.9,
+      "buy": 48075,
+      "buyRate": 3.85,
       "sell": 48200,
       "sellRate": 3.6
     },
@@ -202,8 +202,8 @@
       "method": null,
       "buy": 96000,
       "buyRate": 4,
-      "sell": 96200,
-      "sellRate": 3.8
+      "sell": 96300,
+      "sellRate": 3.7
     },
     {
       "shopId": "meee",
@@ -286,8 +286,8 @@
       "method": null,
       "buy": 96420,
       "buyRate": 3.58,
-      "sell": 96550,
-      "sellRate": 3.45
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "worldticket",
@@ -476,8 +476,8 @@
       "label": "롯데 상품권 10만원 권",
       "face": 100000,
       "method": null,
-      "buy": 96100,
-      "buyRate": 3.9,
+      "buy": 96000,
+      "buyRate": 4,
       "sell": 96250,
       "sellRate": 3.75
     },
@@ -502,8 +502,8 @@
       "method": null,
       "buy": 96350,
       "buyRate": 3.65,
-      "sell": 96450,
-      "sellRate": 3.55
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "centralgift",
@@ -536,10 +536,10 @@
       "label": "롯데 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96050,
-      "buyRate": 3.95,
-      "sell": 96300,
-      "sellRate": 3.7
+      "buy": 96100,
+      "buyRate": 3.9,
+      "sell": 96200,
+      "sellRate": 3.8
     },
     {
       "shopId": "giftdept",
@@ -548,10 +548,10 @@
       "label": "신세계 백화점(10만원권)",
       "face": 100000,
       "method": null,
-      "buy": 96350,
-      "buyRate": 3.65,
-      "sell": 96600,
-      "sellRate": 3.4
+      "buy": 96400,
+      "buyRate": 3.6,
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "giftdept",
