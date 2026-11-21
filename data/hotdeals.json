@@ -1,6 +1,105 @@
 {
-  "updatedAt": "2026-11-22T02:30:20+09:00",
+  "updatedAt": "2026-11-22T08:14:40+09:00",
   "deals": [
+    {
+      "title": "마리오 vs 동키콩 26,800(택배비별도)",
+      "mall": "스위치",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/109268",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-21T23:13:33.000Z"
+    },
+    {
+      "title": "빙그레 더단백 드링크 8종 x 3박스 총42팩",
+      "mall": "롯데온",
+      "price": 49950,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/109267",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-21T23:09:31.000Z"
+    },
+    {
+      "title": "제노블레이드 크로니클 크로스 34,800 (지역한정)",
+      "mall": "스위치",
+      "price": null,
+      "cat": "기타",
+      "link": "https://bbs.ruliweb.com/market/board/1020/read/109266",
+      "direct": false,
+      "source": "루리웹",
+      "sourceId": "ruliweb",
+      "date": "2026-11-21T23:07:32.000Z"
+    },
+    {
+      "title": "조생감귤 로얄과 9kg 토스결제(9,610/무배)",
+      "mall": "오늘의집",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750720",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-21T21:53:52.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Kitty Bop",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/83284",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-21T21:03:09.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Kounts Dose",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/83283",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-21T20:46:59.000Z"
+    },
+    {
+      "title": "iOS 일시무료 Kounts",
+      "mall": null,
+      "price": null,
+      "cat": "기타",
+      "link": "https://damoang.net/economy/83282",
+      "direct": false,
+      "source": "다모앙",
+      "sourceId": "damoang",
+      "date": "2026-11-21T20:38:21.000Z"
+    },
+    {
+      "title": "호정가 하루영양바 25g 20개(8,340/무료)옛날도나스 16개(7,140)",
+      "mall": "남도장터",
+      "price": null,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750719",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-21T18:53:28.000Z"
+    },
+    {
+      "title": "스마트폰 맥세이프 투명 케이스 2개",
+      "mall": "지마켓",
+      "price": 9900,
+      "cat": "기타",
+      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750718",
+      "direct": false,
+      "source": "뽐뿌",
+      "sourceId": "ppomppu",
+      "date": "2026-11-21T18:47:37.000Z"
+    },
     {
       "title": "필립스 소닉케어 카운터탑 파워플로저 5000 (59.96달러/무배)",
       "mall": "아마존",
@@ -33,17 +132,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-11-21T16:16:30.000Z"
-    },
-    {
-      "title": "알뜰요금제 91기가+3mbps 5만지급(체감가-14000원)",
-      "mall": "헬로모바일",
-      "price": 35730,
-      "cat": "기타",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750715",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-21T16:11:52.000Z"
     },
     {
       "title": "네파 남성 벤투스 고어텍스 윈드스토퍼 구스 다운자켓",
@@ -187,28 +275,6 @@
       "source": "뽐뿌",
       "sourceId": "ppomppu",
       "date": "2026-11-21T15:13:22.000Z"
-    },
-    {
-      "title": "퍼실 액체세제 2.0L x 6개",
-      "mall": "오늘의집",
-      "price": 40645,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750704",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-21T15:07:57.000Z"
-    },
-    {
-      "title": "모다모다 제로그레이 블랙10 갈변샴푸 300g 3통+염색키트증정",
-      "mall": "11번가",
-      "price": 66690,
-      "cat": "생활",
-      "link": "https://www.ppomppu.co.kr/zboard/view.php?id=ppomppu&no=750703",
-      "direct": false,
-      "source": "뽐뿌",
-      "sourceId": "ppomppu",
-      "date": "2026-11-21T15:07:55.000Z"
     },
     {
       "title": "아망떼 물티슈 프렌즈 70평량 10팩 / 10800",
@@ -585,39 +651,6 @@
       "date": "2026-11-20T10:43:03.000Z"
     },
     {
-      "title": "MOUSE P.I. For Hire",
-      "mall": "PS5",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/109235",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-20T10:01:39.000Z"
-    },
-    {
-      "title": "호리 일렉트릭 시간의 오카리나 79,800 / 3,000",
-      "mall": "네이버",
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/109234",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-20T08:50:40.000Z"
-    },
-    {
-      "title": "Psn 인왕 컬렉션 할인",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://bbs.ruliweb.com/market/board/1020/read/109233",
-      "direct": false,
-      "source": "루리웹",
-      "sourceId": "ruliweb",
-      "date": "2026-11-20T08:31:29.000Z"
-    },
-    {
       "title": "블랙프라이데이 최대 70% + 전용 할인코드 LIWK03~45 (~12/3)",
       "mall": "알리익스프레스",
       "price": null,
@@ -660,39 +693,6 @@
       "source": "다모앙",
       "sourceId": "damoang",
       "date": "2026-11-20T00:56:24.000Z"
-    },
-    {
-      "title": "3M 스카치브라이트 변기솔 베이킹소다 크린스틱 리필 30개 화장실 욕실 청소솔 변기클리너",
-      "mall": "네이버",
-      "price": null,
-      "cat": "생활",
-      "link": "https://damoang.net/economy/83199",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-11-20T00:37:46.000Z"
-    },
-    {
-      "title": "iOS 일시무료 Dead Pixels",
-      "mall": null,
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/83198",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-11-20T00:35:03.000Z"
-    },
-    {
-      "title": "Mark of the Deep",
-      "mall": "에픽게임즈",
-      "price": null,
-      "cat": "기타",
-      "link": "https://damoang.net/economy/83191",
-      "direct": false,
-      "source": "다모앙",
-      "sourceId": "damoang",
-      "date": "2026-11-19T23:38:04.000Z"
     }
   ]
 }
