@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-22T12:12:19+09:00",
+  "updatedAt": "2026-11-22T20:21:45+09:00",
   "topic": "stock",
   "items": [
+    {
+      "title": "바닥 뚫은 코스피… “어디까지 떨어지나” 공포",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1WdVFxQXphX290NGtOeUNpbHNuQjN3Um0wc1kzc3FLOEtiTmJ5OHg2NDRSblFac3ZGOUZEYVlVSXVOTE44Wm50dFltUnpXOFFJck9xQk1aSTfSAVRBVV95cUxPUDg1cXJkblZ2eHpKRWlGSW9oNXAxNkFWUnRud1FrR1FjRTlGTWkwY2p5WE1WMGh6Vzg1R3lpY1JISUtYemJiZ0EwQXpQUThGZUpOMTg?oc=5",
+      "source": "세계일보",
+      "date": "2026-11-22T11:00:00.000Z"
+    },
+    {
+      "title": "코스피 다시 5000선 붕괴…美 물가·외국인 수급에 반등 달렸다 [증시 예보]",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ETi1od3VOc2FBZExnaXA4NzI0YW93N2M3Q0ZWcllYLXdyZzMxU2h2NnY3Q2ZHVXplNlhrTVV2T1ZlQ1RFeERlT3AxY2RWLTFTa3dnbll3?oc=5",
+      "source": "헤럴드경제",
+      "date": "2026-11-22T10:40:00.000Z"
+    },
+    {
+      "title": "내일 증시 ‘블랙먼데이’ 오나…삼성·하이닉스 해외 추정가 급락, 코스피 4500선 위협",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5RT3V4NzVsRVo5QWNXMXd0UWpqeWpkZ2J3OUVGQUdCVEdTRnlGQ0dLb1dEZXJHWG13S0FvWTB5Yi10UlFVS1RvTnBBc19EZnRPT3VpRWRaaTZ0MXV5NEE?oc=5",
+      "source": "주간경향",
+      "date": "2026-11-22T10:22:00.000Z"
+    },
+    {
+      "title": "같은 코스피 4800인데…1월엔 축포, 11월엔 곡소리",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE81Vl9GNEEtWnh6UjBzOUotNzNkNE8tYmJXLXRScWp6b3pCdjVGOWFZM2NaVHBVVVpVQWFMeTBSN1NQNE1kYzdDNE5LaUNydDN1OFE2WW1FNXBEZw?oc=5",
+      "source": "경북매일",
+      "date": "2026-11-22T10:12:00.000Z"
+    },
+    {
+      "title": "\"검은 월요일\" \"저점서 반등\" 코스피에 쏠린 눈",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5zUjhPWmV2a2pLWHpkSkFjLTVoSWJuTjJhemdscy1nNnA5MlRWSjVERHR6anFtdTdMZ0NrM1JoSnU4cEhNYU40VDVCNVpHenFMV0xfdEhxRzk0Zw?oc=5",
+      "source": "파이낸셜뉴스",
+      "date": "2026-11-22T09:25:21.000Z"
+    },
+    {
+      "title": "코스피·코스닥 5% 동반 급락… 정부, 월요일 개장 앞두고 긴급 F4 소집",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TaklRNUZ6aVlIR3NQTGJIU0NrdDVfaGZtR3hndUhvVjRBU3djY0NPeHB2aGppbzB1dlBIaEtjY1luVEc5b1djRjRxYS1fUHprSS0teW4wYkxSSlRqbkItMnM5NVF6N3FBTkt2SVFpdVpkWUt4?oc=5",
+      "source": "파이낸셜포스트",
+      "date": "2026-11-22T09:19:47.000Z"
+    },
+    {
+      "title": "'코스피 혹한기' 거래대금·예탁금 연중 최저",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBHcC0xbFhRdlFUNFpkLXJ4a1lhNGJkcDJDX2VkUGswMEIwQ09qVlAwMUtUamEyQ3FSU3lWS29LUm1hYmJtaDZ3VGRCUnpQQjRqVkFobzhBdlF3Zw?oc=5",
+      "source": "파이낸셜뉴스",
+      "date": "2026-11-22T09:09:34.000Z"
+    },
+    {
+      "title": "한국 증시 블랙먼데이 공포 확산…코스피 야간선물도 7% 급락",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE55bHlva3BiWlZ1Y0NBV0RVcjJDZFBiYlZScnJiNkdIRnE0YlFXQnc2bXl4end5YkZlMEtZUG1USi1BZ0VhNU9JZ25vOVFiV01yRmdoejZPQ2xlWnBTVE5ROFl6UdIBZ0FVX3lxTFBFaFYtUEFXcFpYN0FHWXluRl9kNGRTakZwV3Fwc29UelowaFFjeld6MGZ0TXduRkJGWE5ER3NfMWhGQ2dFOUJfRkU3bHFMNEpuZGwxNlJrM0szb2lqSGF3VnJvOUVmMUk?oc=5",
+      "source": "ABC뉴스",
+      "date": "2026-11-22T09:08:58.000Z"
+    },
     {
       "title": "코스피 4869.96 마감…10개월 만에 최저, ‘저평가’ 기대와 美 증시 불안 교차",
       "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE01dFNIellqVWt2enU1NURHNDlLVlZ3UzBVOWsxMEJpN2huT1hnaXpfcHNYN1Nadi1vNUUyY2VJM0xneFlvbENtY211Y0E0eDhqRTdIRTF4UC11V2JuOEFvanZPaVN0SWYzSF8zcXQ2THk3bW8?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NNDFnSWRKRC1oUHQ5NGMydkJvOFVLR2x4RkVkanZPX1JnajFkbUZoWTBnS3VsY2huS282Tk94SXU4ZXh6T1gtOHRqU1ZISklLWFZQbmxPMWI4b1BZSHc?oc=5",
       "source": "뉴스투데이",
       "date": "2026-11-18T01:46:06.000Z"
-    },
-    {
-      "title": "외국인 투자자 매수세, 엔비디아 호실적에 코스피·코스닥 상승세 주목",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1BZi03dEFCRVdXa2NnTS1IRy1iQldpbmpSc2QwWWsxQXlFWGQtVHE5NFhBZ1RhOXBMeDZaRWphZlpXY2Q1VXhmRi0xQXJvRXMxU2phb3EzaS11cnBJckd1bUFveFZGRjg?oc=5",
-      "source": "공감신문",
-      "date": "2026-11-18T01:43:12.000Z"
-    },
-    {
-      "title": "[포토] 코스피·코스닥 나란히 상승 출발",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1GM1pYeXdKc0FKNjhYTWhaNXZ6c2RlWHBfUVNrY2ZXQTVRald4NXZnOGFodGZFZ2ZoMW1vMS1IdjRjMFFFZTJDbjVibV80V2x1M01KUVpKOWh0MmUzeGdZTl9abkZ5M0g0bEE?oc=5",
-      "source": "천지일보",
-      "date": "2026-11-18T01:18:12.000Z"
-    },
-    {
-      "title": "[포토] 코스피, 5000선 회복",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBmWnAxLVdlZkk4Z0dleTZJTkNyTm15azhJS3NaS3lPclNBTEx6NjJFbVZjZHJJOUgybDk0SkpNMVUtY0JnSEZwR0xLVDdVUDBGcndnOGpWQmZIWV8xNWRjNzRLTk85SG41R0E?oc=5",
-      "source": "천지일보",
-      "date": "2026-11-18T01:17:35.000Z"
-    },
-    {
-      "title": "대만서 막힌 공매도, 무방비 韓 증시 '타깃' 될까 … 外人 코스피 공매도 비중 '74%' 경고음",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53VnZBMHFCdDFIaXNPY2MyMkVzbklreV9ETjUwMEFKdFhkMGFBdUxMaGkxWFpuT2RjZWtldXJETlJ3NkJkVjl0YkZMTnE5OGs5c1BVdm0zQUQta2ZvaUZpRVVQd0k2dHl1Sms4Rm1UZnBMQzNGVlFLQWhOY9IBgAFBVV95cUxNWWZ3UENsdk1FeVZMVGllVUF2Y1NMZ2hmT3RTQ25IUjBlTU1abjZQMXNyUTVQVy1sZndOOHdrWTNZcDl4a0paNFNKZ0tkT0o1U19jWXBDMnRmUGpyT2gwN3Q1czc1clctOUhhdUpoQ0xiZWxMRVNSSGdTNGVsZjQzVw?oc=5",
-      "source": "뉴데일리 경제",
-      "date": "2026-11-18T01:06:00.000Z"
-    },
-    {
-      "title": "코스피 5000선 무너졌다…외국인 1조4000억원 매도에 증시 '휘청'",
-      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53eTNUMERoMVBwdUtXODdfWEFZT2otQW9BUkNTVm1DZDVJaUNXYXdhZW9najRLSjlVZVA4Q2UyTFMzTTc5WEVjZEh4NmFsVGtFcmZKWnAydmtnMzdYYUtlWkFTVm0?oc=5",
-      "source": "지이코노미",
-      "date": "2026-11-17T20:50:44.000Z"
-    },
-    {
-      "title": "증시, 공매도 전면금지 첫날 '화색'…코스피 단숨에 2,400 넘겨(종합)",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5rWWwwQldRcjFnaXhUcHowNDBfLXRqSlYycmlvb0tCU3R6RnIxMlNCbG9qV2J0Q18waGJ1WGdoeThFRTFNT253Z0RBcmpFS0dv?oc=5",
-      "source": "매일경제 마켓",
-      "date": "2026-11-17T20:08:37.000Z"
-    },
-    {
-      "title": "[2027 증시 앵글] 윤석모 삼성증권 센터장 “내년 코스피 상저하고…AI 전반으로 순환매 확산”",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YZWJiM0REMzJWNVB0R2laVDJrZlB6NzhDbnpyS1g1YVhFRkEydUd3WDBJRG9WR1c5aDJGZzYtT3QtNzFIUWpzZlJuRG9nazlfZnplMXlaekF5cFpRQmc?oc=5",
-      "source": "뉴스투데이",
-      "date": "2026-11-17T19:26:04.000Z"
-    },
-    {
-      "title": "“외국인 3일 새 3조3000억 팔았다”…코스피 5000 붕괴, 삼성전자·하이닉스까지 직격탄",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5KUjJwbXdMM0hQMFR3VENzWDJReVpRZzFLSnVqd3JkYmRoam5QNHlZVldIUF9nMGhCU2k0bW5XUHlTa2ZadzBBSG0ydWtFVE5ndWNHZmUtMEMxc0xhSmhpb0JBN3plTUV4cjJGOQ?oc=5",
-      "source": "데일리25",
-      "date": "2026-11-17T15:30:00.000Z"
     }
   ]
 }
