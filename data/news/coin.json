@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-22T08:14:50+09:00",
+  "updatedAt": "2026-11-22T12:12:19+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "[11월 22일 코인 가격] 비트코인 1.85%↑, 베니스토큰 17.27% 급등",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9RUWxVNE9RcTMyS1l1Mms2cGw5ZmV3VkdnV0pMZVJSTU1SbGpxaFVwRkZwQVhZemNNSEk4aTlhM1VzUVFFYXU1MkFZRVhONzMxZUE5YzlSSFdxdHZHTExlVWRRUm12QzAx?oc=5",
+      "source": "IT타임스",
+      "date": "2026-11-22T02:15:08.000Z"
+    },
+    {
+      "title": "[속보] 비트코인 시세 6만달러 회복, 한때 5만5000달러까지 밀려…리플 등 주요 코인 흐름은?",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56bXg1WU1QcDJkd0p0bVhZRUdJUFFvOVdFY3pzZnJQN1hGaWsydUJjMURDa19XXzY4Y1lsSFpUZ256R3VzYXFyaERYQm9rc1dXdDE0TjhVamF2WUR3NFR3MkwwMkJTVUxE?oc=5",
+      "source": "CBC뉴스",
+      "date": "2026-11-22T01:31:53.000Z"
+    },
+    {
+      "title": "[시세] 크로노스(CRO) 나 홀로 반등…0.0407달러 시험대",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBYT0pIQU1rejdHY2xRMDNvRHY4eGs1TjVYTnpkTjdfSVd0TWgzR3Fxb0ZpWUJWS0xWbUdjQjBTWkVqRXp4dS10Mnp3?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:13:05.000Z"
+    },
+    {
+      "title": "[시세] 모네로(XMR) 나 홀로 뛰었다…466.87달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBFc1pRTUpTeFZvOGRvbXFQSEYxNWl2ZkNULV9GYlE0M1NSZUVtUDIwWUlWdTFzY3daeHdrLWtLampjSkJiY0Rwa2Jn?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:11:46.000Z"
+    },
+    {
+      "title": "[시세] 카르다노(ADA) 반등에도 불안…0.1428달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1CZXBJXzFqNWIxRl95T2poSWxSY0ZtbHdoR0szWWRGYnFnWWk2TG4wNXhaVnlvd0kyU1l0RTlLd3lwdWRjSFNZLTVR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:10:19.000Z"
+    },
+    {
+      "title": "[시세] 시바이누(SHIB) 반등…0.000004000달러 넘을까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5UWGx0cW0xRDFnaVg0QkZKa280cHdFOFpEV0thUkthWk0xY1NCSklGWTdKN3dYaHYybDhWVUNrdkhmMmpKUTlkb0lR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:09:00.000Z"
+    },
+    {
+      "title": "[시세] 도지코인(DOGE) 반등…0.0536달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1kelJSb2hMc09iOEFBUmVIajluU3NsVUg4ZXJWeFRNOWlic2FNNmFGNUhQdkVkRUlOamxGa09veS1MWE01ZC05UjZ3?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:07:37.000Z"
+    },
+    {
+      "title": "[시세] 솔라나(SOL) 2%대 반등…70.94달러 넘을까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1aRlR1Zi1iSi1sSUFiUXUxdFhsbnI3YlhkeWdTVm5sLTl1ZXlsNEN5bVB1ZjhZb2lONi1LUFNuYzMxQkozSkJrV25R?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-22T00:06:12.000Z"
+    },
     {
       "title": "[시세] 온도(ONDO) 7% 넘게 털렸다…0.2500달러 지킬까",
       "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1Ib24zMENOdk1xWVo4QlBEc0FOc0FhZWJvNWVkNExZdWQxNWxsS2l0WldmLWRsNHFkMm9nb0tvTnhMNnQ3WHl4TFhR?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxObjNYdzNYWkk2ZkViaVA0V05wLTdWM21XS2xxMmx5OTFoREVoT1FQdklpaGV3MEZqcVZVRC1zcTNGWlZfUV9lUTFBbWQwNlZkUThWYjRHSGRxVW0tN3BJN0I1S1J6UXl6dUNDV2p0ZWpBYS1nWDk1TlowUUdVRHZyb3k1R1JBWjg0enJNZDZnY3dtd2RLTU45QXlrMWVUd21aUTRyTUZyQ1NaY3p0c01jUFRneXE4bVJXeGpLSHpRMA?oc=5",
       "source": "CoinDesk",
       "date": "2026-11-16T12:57:48.000Z"
-    },
-    {
-      "title": "비트코인(BTC) 가격, 7월 14일 저점 이후 상승 후 하락하며 주말 청산 촉발: 크립토 마켓 투데이",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPY3lESTBNNXVHeHNNX3RfMk1xcXgzUjJFYmxONXgyWlV3akQ0bGRJREZRTW9pWWtFYkpCTUp2N0lkZ1gyTFNwbHBfbU5PVUtISHlaU0lSa2xTemFuQWZOTlBYWmlibGluZmNxUGFwTlVjb1pfTi1ZTi1yR19xN1d6M2owV2l4bWpGTXVYdFZJUVNsbG1DNTIzb2lTZnZDR1dQdlF0OTF2bk5UQQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-16T11:03:14.000Z"
-    },
-    {
-      "title": "비트코인 채굴자들이 해킹을 당해 그들의 BTC 보상이 공격자로 전송되었습니다",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOXzNwSDBPVFk3MW0tSkNORFYtQVJkdmNsUjF6d3V4d1FUM0pxQWx1R1dKWTlqckxBMEQyWW5lZGRqRl9IeDhrNHZ1QVlqY3FCNmNBWEIzUGZtZTNMVkFleE5CQW95RjkwT2QwWE1RNlpQNVh0dFEzd3R2NF9EZHhBeVplR0NXU0hYdWcwODZyLWtJdkhoNHRhSF9MRnhxYTNqZktkQ0xqSnlRQmNUWjAtMnZCMUMzSlZWLVNicw?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-16T07:51:15.000Z"
-    },
-    {
-      "title": "비트코인 RSI 24.3…일봉 종가 4개 이동평균선 밑돌아",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5LcjBJNnVKOUVTcGEwMEd5MUNVV2hZUG5KazYzR2NBR3Y2RkNJOWl0bkZ3dEx1ZGhRLU5yNE5vNVNPeXUwOHlMT05xTHhEWE4tcEl5dVlzQjFCdG52eTJtNA?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-16T07:35:03.000Z"
-    },
-    {
-      "title": "[저녁 시세브리핑] 암호화폐 시장 혼조세… 비트코인 64,696달러, 이더리움 1,816달러",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1RbXdKczlfbkJaeWo0MTFibFNzWnY0bURTSXFaQjhUelJXTk55dFktdHMtVkNpVUtOMl9CamxNdmUwbE10Z3FoaTdnX1AzMFBKT0lBRFVqRmHSAV5BVV95cUxNQk9VaUZNUEdKZjNvUWFjNE93anZ6ZDBhbVgzTmFNR255SklkU1F3aUFjeXBwaHZ6djA2aGw3dWdmNmVXd1RNZ1QwUlBPNHlnaFVQR3hLVTVsM1h6d0Z3?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-16T07:02:34.000Z"
-    },
-    {
-      "title": "BTC 뉴스: 6만 달러 풋 옵션이 9억 달러 미결제약정으로 최다 거래 베팅",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZEhGS1Z0OGdLQ2V3ZXduTmxIVjZtM0pPRUZ4NlA0bEU4dzBTcVJmMmFNZlBrSllGcm5DZnZ3MEllbE81OGhNdEJjWGhZQko1X1ViNWxzYkMtVHdseHBaM1pEcmNDWHdmLXZKYmE3U0tDNDhEbnVZMUh0UldnLTYwU3ZVb2ZkcW0taEo0Q2FJdWVocVZsTWtjQm81ZFpkT28tMlhJWlJ4SkhiN0RsbF9QcHhwYzZYMFRWTGh4STRyN09hdmhpdXc?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-16T05:01:17.000Z"
-    },
-    {
-      "title": "비트코인, 앤트로픽 IPO 스페이스X처럼 기대…빠진 이야기 있다",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE84SElZY0pZV3hNRWNQUVIwYTI0eW51VnB4ekFjS25VbVlOcFdmSnVfWmR2VTZFVEtDMU1OT1pYM29EV3E5cUY1YlAyZmkxY2l2ZEdyMHB6VXB1dGlYbWpLc0F5dmRkQmo3TVVjY1FXOEI?oc=5",
-      "source": "BeInCrypto",
-      "date": "2026-11-16T02:56:37.000Z"
-    },
-    {
-      "title": "비트코인 추락…바이낸스 CZ·OKX CEO, 20억달러 청산 놓고 책임 공방",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9JdFNScTNuSUpWVXZXTTk1cERjUzNmSjhpNHFRLWxUeUkzYlFBR2VRMThTeExwd2Fxay1YeTVueEFRTENKdFExaXNLeWNzenFSM3VCVTZsUmI5WjNUc0NsemZGNHBDbnh2?oc=5",
-      "source": "CBC뉴스",
-      "date": "2026-11-16T01:32:58.000Z"
-    },
-    {
-      "title": "[영상] 비트코인, 9000만원선 붕괴…3개월 만에 최저치",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5Va0R0VERtMFlpRFhiT2hnczNkOFpsU3pVTW5aejJoNHVxZUI4X0xiSDJZYmhmOEFKY3d5aVFGWFBvby1ST3dnWGZYUzdQaURjek5NcW83Rm5mSFVoQlVFd1JIQl82SlVOOVdDU1d30gFwQVVfeXFMTTJ5NTNVY0FjZmxYUWJhNHZsNmxiMUQ3UVhDMk1Od2txeWM2akR6eDl3SkJzbE1WekkyMENPRzRGX1U1N0NtZWxZbDhDRDFpZ095NXRmRHdrM1lRNkRXS3Y0QkhSZllGaHB0TDRpYXVaag?oc=5",
-      "source": "내외뉴스통신",
-      "date": "2026-11-16T01:15:30.000Z"
     }
   ]
 }
