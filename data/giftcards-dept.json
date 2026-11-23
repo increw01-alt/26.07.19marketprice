@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T04:37:38+09:00",
+  "updatedAt": "2026-11-23T09:51:42+09:00",
   "note": "각 상품권 업체 공식 시세 페이지에서 직접 수집한 값입니다. 실제 거래 조건은 업체 사이트에서 확인하세요.",
   "shops": [
     {
@@ -70,8 +70,8 @@
       "method": null,
       "buy": 481500,
       "buyRate": 3.7,
-      "sell": 482000,
-      "sellRate": 3.6
+      "sell": 482500,
+      "sellRate": 3.5
     },
     {
       "shopId": "choigo",
@@ -82,8 +82,8 @@
       "method": null,
       "buy": 96300,
       "buyRate": 3.7,
-      "sell": 96400,
-      "sellRate": 3.6
+      "sell": 96500,
+      "sellRate": 3.5
     },
     {
       "shopId": "choigo",
@@ -94,8 +94,8 @@
       "method": null,
       "buy": 48150,
       "buyRate": 3.7,
-      "sell": 48200,
-      "sellRate": 3.6
+      "sell": 48250,
+      "sellRate": 3.5
     },
     {
       "shopId": "choigo",
