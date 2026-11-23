@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-11-23T09:52:01+09:00",
+  "updatedAt": "2026-11-23T18:02:30+09:00",
   "topic": "coin",
   "items": [
+    {
+      "title": "[저녁 시세브리핑] 암호화폐 시장 상승세… 비트코인 61,403달러, 이더리움 1,722달러",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5MQVM4Y1NBOXdQeW5Bck1vSjlsWnd6dUF1NjM1R3VrRjFnQ2hfaDV0ajN4Y2NMSzczRnN0dko1dXRqNE9tN3Q1ckdCVDExdW5qTFRac1pEWXXSAV5BVV95cUxNUnlSbUlTNkF5ME5obmkySklETkFteWdxdGZYaHA0M0tqR0FNU2s2VnN0U0ZwRFlxaEsxZzFWamY2UXhadlllT2paek9vbl91QmZMTjg2THRmR2xuWEFn?oc=5",
+      "source": "토큰포스트",
+      "date": "2026-11-23T07:02:31.000Z"
+    },
+    {
+      "title": "[시세] BNB(BNB) 4% 뛰었다…560.85달러 뚫을까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9pdmdRdG5QZ0hNbjVZc09mYnhRLVNOOC1faE40VWZYLXRKUXNWZ0JYVDl3RV9hMzRlYmhKZmdYdzNFemp2LTVkS01R?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:14:41.000Z"
+    },
+    {
+      "title": "[시세] 모네로(XMR) 하루 새 4.25% 뛰었다…502.22달러 시험대",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1lZHlqYklMZE5tLWpsVjVLVkZCd2ZFU0xCR2ZEeVNyREFZZUNqTVJFNXVJZ0JFT0JBNWdyU2NWeVhNM0swWUdORFZR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:13:22.000Z"
+    },
+    {
+      "title": "[시세] 하이퍼리퀴드(HYPE) 반등…63.26달러 넘을까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5uSTFQQlM2Z3lxRS02eVN6dTdsQi1NS0hmMG4yWWV6aFpNU1FNT2RBaTFNU19CUkdyam0wcHdmQUJLU2pxTEZ3TURR?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:12:00.000Z"
+    },
+    {
+      "title": "[시세] 카르다노(ADA) 3.22% 반등…0.1410달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1lNTR6WTUtMExEdmctb00zblNXekItYlBfa2dUUkZibVBnYjJ6LXNBVWI3MHZRTWdCZzVXemRRd3hGeVBUWlhzT093?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:07:42.000Z"
+    },
+    {
+      "title": "[시세] 도지코인(DOGE) 하락 뒤집었다…0.0540달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9GRGR2YXpGRGd3cWkxenVJNXJwYnkwcXBTYkowR2I2cVR3NkpTRlVvR0NIV1IySnpVR0lRbGxoMzZJUHBZZks2amVB?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:06:10.000Z"
+    },
+    {
+      "title": "[시세] 솔라나(SOL) 4.31% 뛰었다…70.10달러 지킬까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9JZTRpb3U1bVdXa242X0JGYTJTN3lzOU5KbzFVbFVLOU1vbkdlTjdqZEFsYUJ5YUpTUjFlS2hhaWNtNG1BMngtdW5B?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:04:32.000Z"
+    },
+    {
+      "title": "[시세] 비트코인(BTC) 반등…6만 2,099달러 넘을까",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5hamRNc0NSRHFNdUMya2l5bDRrYUN2ZGI3MTF4cktweTBKYkpVQ09fd08wOG5iT2VpSlprcmNwbWxscGVocWVDRlpB?oc=5",
+      "source": "코인리더스",
+      "date": "2026-11-23T06:01:35.000Z"
+    },
     {
       "title": "비트코인 가격 하락에 고래 투자자 유입… 헤지펀드, 10억 달러 규모 매수",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWHBIRkxqSHZCSXo3ekpoRjN5dlZablhqMVhkY245VGNjMWlVMlJWTEs2b2RrUW1kNzZlUmg1MFlIQmJCdzRyczB1ZHExRFYyaTMxU1RxWXBGd2tsbXlwQzFiX1ZWcnNjZGZWNXp0c0VEanBUaDJsU0QzRjdWTFZjVnQ4cG4yYm1VaWtYdXU3VFFGaGN5Mk16blVWSUN4YWppc3V0dUtmQ0tlNEdua1N1WGxpcHNaV20x?oc=5",
@@ -553,54 +601,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lNkZNMktvRWJtaFg5XzFiMlZ5WVdKNGVacWJLX3MzX3R4ZW9MVDdfc0RmSnV1LXRHTVkwaV9HMmlweDlzelZQakFaLXlxanFDamlmRm10aVnSAV5BVV95cUxORXB1ZHE2clVJZHZXa3pFbk5DanhTdTdNaTR0QzdIRFJvYXJtUFpONUhBNk80OWQyZUMzblh6eHBJdnZfZUhhdzFXZ3d2QXVCZXVqT2piYV9hUzBSMHRR?oc=5",
       "source": "토큰포스트",
       "date": "2026-11-19T03:02:02.000Z"
-    },
-    {
-      "title": "암호화폐 거래소 크라켄(Kraken)의 소유주인 페이워드(Payward)가 자사 최고경영자(CEO)의 벤처 캐피털 사업인 트라이브(Tribe)를 인수하고 있다",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQa2stMHRYUV9PZjZUZFFvYXV2MEVQY2Jra3FMNEp0QkE3b0FoTGFLVFRxWC1XMl9Ock9BRHlBcTVzdDU3aVlqSHZnVzdWR2ZLdzl2dTBDTWJZV283cGd3RUtCWWY0SG42cHJId1R4QVFXUU9RODlsN3VOajE5aHIzNUI2TTk3YW1uQWh4RGZTM0RURDBpVG05ak4yaERBTGRTZTlWVVlrcnNjOVAycFhEZW9JYjgtbVhoVkI1Q0dyR3dNc1V5NDBjcUFTaTFneUt3OGxTdWRwXzFkUQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-18T22:30:00.000Z"
-    },
-    {
-      "title": "비트코인 가격 6만2천 달러로 하락, 시티그룹 12개월 목표가 12% 하향",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPbGFBWnhkWVU0OWtfRzJOVHU4bXMtNkM0U1ZmZHF2UmtXZG9tMzNUc1FMTkpvSlA3dTZHOVpPWnJCNk1uUVNzOThpMDRRV2pkNXZZZGNWcHYyY0xCcTZTYXVYS0lmUUR6emhJX1pmTzloNS1XVEliWlZkeURnNWhKLTk5Yi12Yy1fSFloY3p3bkNEV2V2ci1Xb3ZCSVNYcnRGS0hoNUtmb2JORzZUdk5CZmpReWxRZ3JZVDZ4aXd2N3lTbkttMWtuSkFMU0M?oc=5",
-      "source": "Bitcoin News",
-      "date": "2026-11-18T22:06:04.000Z"
-    },
-    {
-      "title": "암호화폐 롱 & 숏: 암호화폐 거래소는 금고 역할을 겸해서는 안 된다",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbEtfZ3BXTTQ4X0pxVFRreEdXMWVwcEFvZDZyTWpOdlV1Y01VQVhQMTJHTU9DSllRUGo2d0J1YnphbDNrVDdUckhIdEpXdXpIZEt1c1hzb3ZzdVpKMlBwclRBVzdXMG5ybEhkMU5USVBTUWh5cHlETnduN2hhTGdrenRLMWVJV2lEMVlCZ1dmLWNxTWEwbGt3U3RpdFVDRjR1UlM1dkl3N3RVajI0MnVwOTlfblp1dXgwME9lTm5nc3NiQQ?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-18T16:08:23.000Z"
-    },
-    {
-      "title": "비트코인 한 주 14% 하락·6주 연속 음봉…K33 과매도 신호",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5WV29Qb29yMEFYV2l6WmpramgtQ2I2WU02cUF3eThHTnVMYnAwR0VJWkdLX05YUWNUNXZZemNPTlNFWVpMRm5kcW90MzFIanBReGZpY3ktdGZraFJRcnFpaNIBZkFVX3lxTE8ya1FRMkpvU0ZUYl8zY09Rd00wMnBjdFFIY0FvMHk1alRKZElhdmdEX2VmdTZSYmFhblFxZTlzY2p2SzM0b1VBTzdvM1UzSU9ERFlHRXRscHA5VUVQd050NU1vNW1wQQ?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-18T15:24:00.000Z"
-    },
-    {
-      "title": "홍콩금융관리국(HKMA), 자금 사라지기 전에 암호화폐 범죄 추적 위해 은행 대상 AI 도입 가속화",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVERnRTNuTmdyN3daYXg5WjlKSi03ZkhPXzZNbGVVSDZqZHNwNFBqTGExRkFCZGM5bnItM0JPYkR4TzJ1OUpSQlBmQVpSV3JsWF85OFBoeTlxTXhxcjRwQkZReE5MUWoyeE5fd2ZIb3NWazZzRk0wbnFWTU5vV3BvTmNha2c4WHlORk0wYVlEQXc0eUtsQnZObTYyc2lQWjc4Q0VBNTYtTklUSkltSzBHa2gybG93SjNwaTJnYV80VnJ3V2c?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-18T15:23:18.000Z"
-    },
-    {
-      "title": "[자정 시세브리핑] 암호화폐 시장 하락세… 비트코인 63,695달러, 이더리움 1,773달러",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5JMVdQdFg2M3dsTmJTTWV3VU9wU2RPUDdGWFR4SlhiWHI1VUJ4bTUzS2lUWktaazJqRVBLWEJNMzVUSmx2dHh5WU43a3FMYVpEdVhxY1pOZFjSAV5BVV95cUxQXzlUc2Q2LUMyeE8xSFFQdExXRnljWmZiX1hVbnlpcmoybTAwUG04Z1BBS2NWSEVyZ2R6Y1VWTTc3QXZkSEhvZGtXUXVISmJibW12Z1lRdGVTei1MdXd3?oc=5",
-      "source": "토큰포스트",
-      "date": "2026-11-18T15:08:37.000Z"
-    },
-    {
-      "title": "비트코인 채굴업체 MARA, 대출 상환 위해 10억 달러 상당 비트코인 매각 후 1억 8,500만 달러 부채 조달",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQOF9sUGRXUWUzNmNrMUs1WmxJUUZqbXNfblRMY2V1djBCYkxlZGVRYl9jRTh1ZHc3bGhOa0ZvMzJHVGQwWFoxaXozRllCc1F2WG9KekhTSHREa2tSYjBRbVVUMlR4VlFkOV9tSzZIaTd0TVp6QW1WTkRDb21TTWFPeVo2SmNrUDdkWi1zMnJzVlZqS2NNeTh2dFBtbnlEUktrMVppUHE3aUMxLVZXN1I3WmViTlhiX1JnTWhrRHBrWE9LVGQtRGlUeW5waHBXUHF5X1pudEo3c3M?oc=5",
-      "source": "CoinDesk",
-      "date": "2026-11-18T12:53:34.000Z"
-    },
-    {
-      "title": "주요 3대 암호화폐 가격 전망: 비트코인, 이더리움, 리플 – BTC 횡보, ETH·XRP 상승세 주춤",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOYjFfbV9oSllEYlBhbUdfR2pDMVNadU9DQjZXVHJtelBhM0xRZEdzN1duMW4wZGtTWDVWb1FMclU4ZDdmUTNhWUd3U0RDcG82Q3gya3M4cWRnbHFBbVpUd3YtbWJsbldOaHUtZmhQTmdLMllXek12bDJobnRCTDJxTUxqRzRkal91Wk02MVVWcVpNcGRPd2FfVWVUQlJjRWJQZnlsVGM1YzE4aWxsbXV0a3V5R1hiWVhpZEs1R29lQVFKZVJpYjVxS200MkprTHZERTQ3NXRxZzdLcmtiZl9Ubg?oc=5",
-      "source": "www.tmgm.com",
-      "date": "2026-11-18T12:32:40.000Z"
     }
   ]
 }
